@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Progress</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Progress</name>
+    <style>freeForm</style>
+    <subject>Secondary Progress Report</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+This has been a landmark term in the development of the Secondary School, with the establishment of the inaugural Sixth Form and A Level programme. The Sixth Form of any school is its flagship and although we have a long way to go, we are delighted with the great strides made thus far. This term has also seen a whole host of new initiatives implemented in secondary, including the reinvigoration of the house system and curriculum development under the leadership of Mr. Ellis and Mr. Howe respectively.
+
+As part of our continual drive for excellence and improvement in the Secondary School, we are consistently looking for feedback from as many different locations as possible.  We have spoken to parents, students and staff with a view to gathering information to help us work together to improve our school. We would like to take this opportunity to share some of the findings with you, and also provide you with an overview of term one, in terms of both academic and extra curricular achievement. Please click the link to find the attached progress report.
+
+I would also like to take this opportunity of personally thanking all of our talented and dedicated secondary staff for their efforts this term and you, as parents, for your support. We hope you have a relaxing holiday and look forward to seeing our returning students on Monday, 7th January. We would also like to wish the best of luck to those students who are leaving us this year.
+
+Regards,
+Nicholas McKie
+Assistant Head of Secondary/Head of Sixth Form
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

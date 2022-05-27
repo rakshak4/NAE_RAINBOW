@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Automatic email sent to system admin when a student&apos;s stage is changed to cancelled after being created in Kompanion</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Sys/Adm - Kompanion Records Need Deleting</name>
+    <style>freeForm</style>
+    <subject>Students (And Perhaps Contacts) Need Deleting</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

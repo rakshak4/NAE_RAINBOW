@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>To allow non-teacher users edit assessment records (i.e. Nigel Parker at BSKL who is a Portal Liaison but has School IT profile assigned as he is IT Support Specialist in school)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Edit Assessments</label>
+</PermissionSet>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>ISM</letterhead>
+    <name>One-To-One Laptop Initiative</name>
+    <style>freeForm</style>
+    <subject>One-To-One Laptop Initiative</subject>
+    <textOnly>Dear Year 9 Parents,
+
+
+As you will no doubt be aware, as part of our IGCSE programme we will be providing the opportunity for all students to have a personal notebook computer.
+
+
+As a lead up to the introduction of IGCSE’s in Year 10 we are going to start this initiative immediately after the April break. This will give the students an opportunity to become accustomed to this valuable resource.
+
+
+Next week, we will introduce the students to the notebooks and give them an introductory workshop session. We will also send home two hard copies of terms of use that identify clearly the responsibilities of school, student and parents in this initiative.
+
+
+We ask that you read them carefully and if you are happy to proceed, return the signed copies to school no later than Thursday 29th March.
+
+
+Please understand that this initiative is not obligatory and you are able to not take this option. However, we hope that you can see the potential benefits of this new venture.
+
+
+Best regards,
+
+
+ISM Secondary Department</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

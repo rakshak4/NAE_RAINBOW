@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Postponed Open Day</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NAE_Branding_Letterhead_BSKL</letterhead>
+    <name>! Postponed 6th Form Open Day</name>
+    <style>freeForm</style>
+    <subject>POSTPONED | BSKL Sixth Form Virtual Open Day - 7th January 2021</subject>
+    <textOnly>Good evening,
+
+
+Unfortunately, our BSKL Sixth Form Virtual Open Day has been postponed.
+
+
+Thank you for your interest in attending. We were very much looking forward to the opportunity to introduce you to our teaching staff and even a few of our Sixth Form students. While we have not yet set a date for rescheduling the event, we will update you as soon as possible with that information.
+
+
+We know that you likely have questions about Sixth Form at BSKL; whether it’s about admissions or the A-Level Program. Please do not hesitate to reach out to us if you would like to schedule a Virtual Discovery Meeting or speak to a member of our Sixth Form Academic Team about the program. This can be scheduled through our admissions office by replying to this email.
+
+
+Thank you for your understanding.
+
+
+
+Sincerely,
+
+
+
+Carl, April and Nadia
+
+BSKL Admissions Team
+
+
+Admissions Team
+
+The British International School of Kuala Lumpur
+
+Tel: +6 (03) 7727 7775
+
+Fax: +6 (03) 7722 1296
+
+www.britishschool.edu.my
+
+
+
+
+
+Follow us on</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

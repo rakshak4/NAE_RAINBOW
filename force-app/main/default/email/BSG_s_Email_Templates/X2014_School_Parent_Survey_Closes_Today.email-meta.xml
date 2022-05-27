@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>2014 School Parent Survey Closes Today.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>2014 School Parent Survey Closes Today.</name>
+    <style>freeForm</style>
+    <subject>2014 School Parent Survey Closes Today.</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+
+
+We would like to kindly remind you that today is the closing day for the 2014 BSG Parent Survey. To take part, please click the appropriate link below before 10th June 2014.
+
+
+
+
+
+English (https://www.surveymonkey.com/s/KPH7LVX)
+
+
+Chinese Simplified (https://www.surveymonkey.com/s/CPTTW87)
+
+
+Chinese Traditional (https://www.surveymonkey.com/s/CWR9XHW)
+
+
+Arabic (https://www.surveymonkey.com/s/LK9RKXP)
+
+
+Czech (https://www.surveymonkey.com/s/C6D3VW2)
+
+
+Dutch (https://www.surveymonkey.com/s/ZC9YR67)
+
+
+French (https://fr.surveymonkey.com/s/ZSCJ5PG)
+
+
+German (https://de.surveymonkey.com/s/LVYVYKW)
+
+
+Hungarian (https://www.surveymonkey.com/s/8ZTKT9T)
+
+
+Japanese (https://jp.surveymonkey.com/s/8P3F3YB)
+
+
+Korean (https://www.surveymonkey.com/s/CSKM7JB)
+
+
+Polish (https://www.surveymonkey.com/s/W2M7BS3)
+
+
+Russian (https://www.surveymonkey.com/s/LC3D56Z)
+
+
+Slovak (https://www.surveymonkey.com/s/CQG6XHT)
+
+
+Spanish (https://es.surveymonkey.com/s/CPLX7TC)
+
+
+Thai (https://www.surveymonkey.com/s/DLDKN56)
+
+
+
+
+
+We very much value your opinion so if you have not already done so, please spend a few minutes to let us know how we are doing and what we need to improve.
+
+
+
+Thank you for all the feedback you have given us this year.
+
+
+
+
+Kind regards,
+
+
+
+The British School of Guangzhou
+
+World Class Education
+
+
+
+____________________________________________________________
+
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

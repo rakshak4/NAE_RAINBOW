@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>08/03/2013 Conserving Mother Nature through Games and Fun Learning – Taking the</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>08/03/2013 Conserving Mother Nature through Games and Fun Learning – Taking the</name>
+    <style>freeForm</style>
+    <subject>Conserving Mother Nature through Games and Fun Learning – Taking the First Step with Children</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I trust this finds you all well.
+
+KBU International College will be holding an event called Conserving Mother Nature through Games and Fun Learning – Taking the First Step with Children 2013.  This event will take place on Sunday 17th March 2013 from 9am – 4pm and is open to children aged 10 -12 years old.
+
+The aim of this event is to educate young children of the importance of taking good care of the environment.  Through this event children will learn how to maintain a positive environment for all to live in and reduce the severity of pollution surrounding us.  There is no charge to participate and the day will involve games, model making, drama viewings and much more.
+
+If you would like your child to participate in this event please collect a sign-up sheet from the school reception and once filled in return it no later than Wednesday 13th March 2013.  If your child travels on the school bus then children are invited to collect the forms from the school reception and take them home for completion.
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Branding for our School</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>New Branding for our School</name>
+    <style>freeForm</style>
+    <subject>New Branding for our School</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+As we continue our integration into the Nord Anglia Education family of schools, I am writing to you to communicate the next stages of our transition.
+
+By September 2018 our logo for internal and public use will be changing from the lion design to the one you can find by clicking here.
+
+I am delighted to report that our uniform will remain the same and that the only change will be the design of the logo on our blazers. On Speech Day (5th July) students’ blazers will be collected and returned with the new logo for September. This discreet change will be free and organised by the school. We will do our best to make the process as straightforward and as easy for you and your sons and daughters as possible. Moving forwards, all new blazers purchased from our uniform shops will have our new logo on them.
+
+If children are not able to leave their blazers after Speech Day the blazer can be brought into school during the Summer break.
+If you are not able to do either of these options we will collect blazers at the start of term in September and make the necessary changes to the badge.
+
+
+As our rebranding process continues over the coming months, we will keep you updated on all future developments.
+
+
+Yours Sincerely,
+
+Adrian Macaulay
+Headteacher
+
+
+Уважаемые родители!
+
+Хотим сообщить Вам о следующих этапах нашего перехода в рамках постепенной интеграции в семью Nord Anglia Education.
+Дизайн нашего школьного логотипа будет изменен к сентябрю 2018 года. Обновленный дизайн  Вы можете посмотреть здесь.
+
+Рады сообщить Вам о том, что наша форма останется прежней и единственное изменение коснется лишь логотипа на пиджаках. В последний учебный день (5 июля) мы соберем пиджаки учащихся и вернем их в сентябре уже с новым логотипом. Замена логотипа будет бесплатной. Мы сделаем все возможное, чтобы сделать этот процесс максимально простым и легким. С нового учебного года на всей форме, приобретенной в школьном магазине, будет новый логотип.
+
+Вы также сможете завести нам пиджаки во время школьных каникул, если Вы не успели сделать это в последний учебный день.
+
+Если Вы не можете воспользоваться ни одним из вышеперечисленных вариантов, мы соберём пиджаки в начале нового учебного года и внесем необходимые изменения в логотип.
+Мы будем держать Вас в курсе последующих изменений в рамках постепенной интеграции в семью Nord Anglia Education.
+
+С уважением,
+
+Адриан Маколей
+Академический Директор
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

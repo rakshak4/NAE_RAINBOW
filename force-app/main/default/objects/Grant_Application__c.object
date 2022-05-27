@@ -1,0 +1,2346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Academic_Year_Dashboard_Filter__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+   OR(
+      AND(
+          First_Day_of_Start_Year__c &gt;= $User.Start_Date_Next_Fiscal_Year__c,
+          First_Day_of_Start_Year__c &lt;= $User.End_Date_Next_Fiscal_Year__c
+          ),
+      AND(
+          TEXT(Scope_of_Grant__c) != &quot;Indefinite subject to Review&quot;,
+          OR(
+             ISBLANK(End_Date__c),
+             End_Date__c &gt;= $User.Start_Date_Next_Fiscal_Year__c
+             )
+          )
+      ),
+   &quot;Next Year;&quot;,
+   &quot;&quot;
+   ) &amp;
+
+IF(
+   AND(
+       First_Day_of_Start_Year__c &gt;= $User.Start_Date_This_Fiscal_Year__c,
+       First_Day_of_Start_Year__c &lt;= $User.End_Date_This_Fiscal_Year__c
+       ),
+   &quot;This Year;&quot;,
+   &quot;&quot;
+   )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Academic Year Dashboard Filter</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Annual_Total_Grant_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Grant Amount</label>
+        <summarizedField>Student_Grant__c.Total_Annual_Grant_Amount__c</summarizedField>
+        <summaryForeignKey>Student_Grant__c.Grant_Application__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Applicant_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+   ISBLANK(Staff_Record__c),
+   &quot;Parent&quot;,
+   &quot;Staff Member&quot;
+   )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Applicant Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Approval_Text_in_Document__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Decision_Formula__c =&quot;Approved&quot;,&quot;&quot;,&quot;Pending Approval&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Approval Text in Document</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Case_Safe_Record_Type_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(RecordType.Id)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Case Safe Record Type ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Child_1_Grant_Summary_Spacer__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+   Child_1_Name__c = &quot;&quot;,
+   &quot;&quot;,
+   BR()
+   )</formula>
+        <label>Child 1 Grant Summary Spacer</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Child_1_Grant_Summary__c</fullName>
+        <externalId>false</externalId>
+        <label>Child 1 Grant Summary</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Child_1_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Child 1 Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Child_2_Grant_Summary_Spacer__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+   Child_2_Name__c = &quot;&quot;,
+   &quot;&quot;,
+   BR()
+   )</formula>
+        <label>Child 2 Grant Summary Spacer</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Child_2_Grant_Summary__c</fullName>
+        <externalId>false</externalId>
+        <label>Child 2 Grant Summary</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Child_2_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Child 2 Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Child_3_Grant_Summary_Spacer__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+   Child_3_Name__c = &quot;&quot;,
+   &quot;&quot;,
+   BR()
+   )</formula>
+        <label>Child 3 Grant Summary Spacer</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Child_3_Grant_Summary__c</fullName>
+        <externalId>false</externalId>
+        <label>Child 3 Grant Summary</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Child_3_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Child 3 Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Child_4_Grant_Summary_Spacer__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+   Child_4_Name__c = &quot;&quot;,
+   &quot;&quot;,
+   BR()
+   )</formula>
+        <label>Child 4 Grant Summary Spacer</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Child_4_Grant_Summary__c</fullName>
+        <externalId>false</externalId>
+        <label>Child 4 Grant Summary</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Child_4_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Child 4 Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Child_5_Grant_Summary_Spacer__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+   Child_5_Name__c = &quot;&quot;,
+   &quot;&quot;,
+   BR()
+   )</formula>
+        <label>Child 5 Grant Summary Spacer</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Child_5_Grant_Summary__c</fullName>
+        <externalId>false</externalId>
+        <label>Child 5 Grant Summary</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Child_5_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Child 5 Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Conditions_of_Grant_Copy__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Applicant_Type__c =&quot;Staff Member&quot;, 
+
+&quot;1- Your continued employment with &quot;&amp; School__c &amp;BR()&amp;BR()&amp; 
+
+&quot;2- The school can revoke or adjust the level of support in future employment contracts signed between you and the school, or by providing 1 year notice.&quot;&amp;BR()&amp;BR()&amp; 
+
+&quot;3- You child(ren)&apos;s academic performance and standards of behaviour conforms with the school&apos;s expectations.&quot; 
+
+&amp;BR()&amp;BR()&amp;&quot;4- You keep confidential the receipt and conditions of this financial support&quot;, 
+
+IF( TEXT(Scope_of_Grant__c) =&quot;Indefinite No Review Required&quot;, 
+
+&quot;1- You child(ren)&apos;s academic performance and standards of behaviour conforms with the school&apos;s expectations.&quot;&amp;BR()&amp;BR()&amp; 
+
+&quot;2- You deliver payments for school fees in accordance with the stipulated due dates.&quot; 
+&amp;BR()&amp;BR()&amp;&quot;3- You keep confidential the receipt and conditions of this financial support&quot;, 
+
+IF( TEXT(Scope_of_Grant__c) =&quot;Specific End Date&quot;, 
+
+&quot;1- The financial support will end on the following date:&quot;&amp; TEXT(End_Date__c) &amp;BR()&amp;BR()&amp; 
+
+&quot;2- You child(ren)&apos;s academic performance and standards of behaviour conforms with the school&apos;s expectations.&quot;&amp;BR()&amp;BR()&amp; 
+
+&quot;3- You deliver payments for school fees in accordance with the stipulated due dates.&quot; 
+&amp;BR()&amp;BR()&amp;&quot;4- You keep confidential the receipt and conditions of this financial support&quot;,
+
+
+
+&quot;1- The financial support is subject to a yearly review of your financial circumstances, typically to be undertaken in March of each year. While the school will strive to extend the financial support as much as possible, it is important that you understand that this support might be revoked or adjusted at the discretion of the school. Notice on the decision to revoke or adjust the financial aid will always take effect from one academic year to another, and will be provided in advance of the end of the academic year.&quot;&amp;BR()&amp;BR()&amp; 
+
+&quot;2- You child(ren)&apos;s academic performance and standards of behaviour conforms with the school&apos;s expectations.&quot;&amp;BR()&amp;BR()&amp; 
+
+&quot;3- You deliver payments for school fees in accordance with the stipulated due dates.&quot; 
+&amp;BR()&amp;BR()&amp;&quot;4- You keep confidential the receipt and conditions of this financial support&quot;)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Conditions of Grant Copy</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Conditions_of_Grant__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Applicant_Type__c =&quot;Staff Member&quot;,
+
+&quot;1- Your continued employment with &quot;&amp; School__c &amp;BR()&amp;
+
+&quot;2- The school can revoke or adjust the level of support in future employment contracts signed between you and the school, or by providing 1 year notice.&quot;&amp;BR()&amp;
+
+&quot;3- Your child(ren)&apos;s academic performance and standards of behaviour conforms with the school&apos;s expectations.&quot;
+
+&amp;BR()&amp;&quot;4- You keep confidential the receipt and conditions of this financial support&quot;,
+
+IF( TEXT(Scope_of_Grant__c) =&quot;Indefinite No Review Required&quot;,
+
+&quot;1- You child(ren)&apos;s academic performance and standards of behaviour conforms with the school&apos;s expectations.&quot;&amp;BR()&amp;
+
+&quot;2- You deliver payments for school fees in accordance with the stipulated due dates.&quot;
+&amp;BR()&amp;&quot;3- You keep confidential the receipt and conditions of this financial support&quot;,
+
+&quot;1- The financial support is subject to a yearly review of your financial circumstances, typically to be undertaken in March of each year. While the school will strive to extend the financial support as much as possible, it is important that you understand that this support might be revoked or adjusted at the discretion of the school. The decision to revoke or adjust the financial aid will always take effect from one academic year to another, and will be provided in advance of the end of the academic year.&quot;&amp;BR()&amp;
+
+&quot;2- Your child(ren)&apos;s academic performance and standards of behaviour conforms with the school&apos;s expectations.&quot;&amp;BR()&amp;
+
+&quot;3- You deliver payments for school fees in accordance with the stipulated due dates.&quot;
+&amp;BR()&amp;&quot;4- You keep confidential the receipt and conditions of this financial support&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Conditions of Grant</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Currency__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(CurrencyIsoCode)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Currency (Both Parents)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Date_Requested__c</fullName>
+        <externalId>false</externalId>
+        <formula>CreatedDate</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Date Requested</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Decision_Formula__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+   OR(
+      AND(
+          End_Date__c &lt; TODAY(),
+          TEXT(Decision_Text__c) = &quot;Approved&quot;
+          ),
+      AND( 
+          TODAY() &gt;= DATE(YEAR(Next_Review_Date2__c),08,01),
+          TEXT(Scope_of_Grant__c) = &quot;Indefinite subject to Review&quot;,
+          NOT(ISBLANK(Start_Year__c)),
+          TEXT(Decision_Text__c) = &quot;Approved&quot;
+          )
+      ),
+   &quot;Financial Aid Ended&quot;,
+   IF( 
+      AND(
+          TODAY() &lt; DATE(YEAR(Next_Review_Date2__c),08,01),
+          TEXT(Scope_of_Grant__c) = &quot;Indefinite subject to Review&quot;,
+          NOT(ISBLANK(Start_Year__c)),
+          TEXT(Decision_Text__c) = &quot;Approved&quot;
+          ),   
+      &quot;Approved, Ending on &quot;&amp; TEXT(Ending_On_Date__c), 
+      Text(Decision_Text__c)
+      )
+   )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Decision</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Decision_Text__c</fullName>
+        <externalId>false</externalId>
+        <label>Decision Text</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Draft</fullName>
+                    <default>true</default>
+                    <label>Draft</label>
+                </value>
+                <value>
+                    <fullName>Pending Approval/Rejection</fullName>
+                    <default>false</default>
+                    <label>Pending Approval/Rejection</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Deletion_Prevention__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Parent_Record__r.Related_Contact_Record_P2__r.Id)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Deletion Prevention</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Employer_P1__c</fullName>
+        <externalId>false</externalId>
+        <formula>Parent_Record__r.PersonContact.Contact_Employer__c</formula>
+        <label>Employer (P1)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Employer_P2__c</fullName>
+        <externalId>false</externalId>
+        <formula>Parent_Record__r.Account_Employer_Formula__c</formula>
+        <label>Employer (P2)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Ending_On_Date__c</fullName>
+        <description>Used in the &apos;Decision_Formula__c&apos; field and also as a filter in the report for NAE KPIs</description>
+        <externalId>false</externalId>
+        <formula>DATE(YEAR(Next_Review_Date2__c),07,31)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Ending On Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>External_ID_18_Char__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>The ID of the record in the alternate SFDC org, where applicable.</description>
+        <externalId>true</externalId>
+        <label>External ID (18 Char)</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>F_Aid_Review_Email_Template__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+   School__c = &quot;Add school name here&quot;,
+   &quot;Add template ID here&quot;,
+   &quot;00X6F000001H1qt&quot; /* this is the default template */
+   )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>F/Aid Review Email Template</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Father_Annual_Income__c</fullName>
+        <externalId>false</externalId>
+        <label>Annual Income (P1)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Financial_Aid_Application_Form_URL__c</fullName>
+        <description>Used in email templates from the financial aid application object so needs to be on this object as well as the account record</description>
+        <externalId>false</externalId>
+        <formula>Parent_Record__r.Financial_Aid_Application_Form_URL__c&amp;&quot;&amp;tfa_9649970064854=0126F000001hW04&quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Financial Aid Application Form URL</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>First_Approver__c</fullName>
+        <externalId>false</externalId>
+        <label>First Approver</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>First_Day_of_Start_Year__c</fullName>
+        <externalId>false</externalId>
+        <formula>DATE(VALUE(LEFT(Start_Year__c, 4)),08,01)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>First Day of Start Year</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Further_Details__c</fullName>
+        <externalId>false</externalId>
+        <label>Further Details</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Grant_Request__c</fullName>
+        <externalId>false</externalId>
+        <label>Grant Request</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Interim_Review_Required__c</fullName>
+        <externalId>false</externalId>
+        <label>Interim Review Required</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No</fullName>
+                    <default>true</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Is_New_Form__c</fullName>
+        <externalId>false</externalId>
+        <label>Is New Form?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No</fullName>
+                    <default>true</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Is_Staff_Member_FA__c</fullName>
+        <externalId>false</externalId>
+        <formula>NOT(ISBLANK(Staff_Record__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is Staff Member FA</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Mother_Annual_Income__c</fullName>
+        <externalId>false</externalId>
+        <label>Annual Income (P2)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Next_Review_Date2__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( 
+   AND( 
+       ISBLANK(End_Date__c),
+       TEXT(Scope_of_Grant__c) = &quot;Indefinite subject to Review&quot;,
+       TEXT(Decision_Text__c) = &quot;Approved&quot;
+       ), 
+   DATE(VALUE(LEFT(Start_Year__c, 4))+1+Num_Approved_Reviews__c,3,1),
+   null
+   )</formula>
+        <label>Next Review Date (if applicable)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Num_Approved_Reviews__c</fullName>
+        <externalId>false</externalId>
+        <label>Num. Approved Reviews</label>
+        <summaryFilterItems>
+            <field>Grant_Review__c.Decision__c</field>
+            <operation>equals</operation>
+            <value>Approve Extension</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Grant_Review__c.Grant_Application__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Occupation_P1__c</fullName>
+        <externalId>false</externalId>
+        <formula>Parent_Record__r.PersonContact.Contact_Employment_Sector__c</formula>
+        <label>Occupation (P1)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Occupation_P2__c</fullName>
+        <externalId>false</externalId>
+        <formula>Parent_Record__r.Account_Employment_Sector_Formula__c</formula>
+        <label>Occupation (P2)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Open_to_Renew__c</fullName>
+        <externalId>false</externalId>
+        <label>Open to Renew?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>true</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Paragraph_1__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Num_Approved_Reviews__c =0,
+
+&quot;We are delighted to confirm that we have received a grant from The British Schools Foundation which will allow us to provide you with financial support for school fees. This support starts in &quot;&amp; TEXT(Start_Term__c) &amp;&quot; of the &quot;&amp;Start_Year__c&amp;&quot; academic year.&quot;,
+
+
+&quot;We are delighted to confirm that we have received approval from The British Schools Foundation to extend the financial support you receive for school fees for one more year.&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Paragraph 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Parent_Id__c</fullName>
+        <externalId>false</externalId>
+        <formula>Parent_Record__r.Primary_Contact_Record_ID__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Parent.Id</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Parent_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Parent_Record__r.Primary_Contact_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Primary Parent Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Parent_Record__c</fullName>
+        <externalId>false</externalId>
+        <label>Parent Record</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Financial Aid Applications (Parent Record)</relationshipLabel>
+        <relationshipName>Grant_Applications</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Primary_Contact_Last_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Parent_Record__r.Primary_Contact_Last_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Primary Contact Last Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Primary_Contact_Salutation__c</fullName>
+        <externalId>false</externalId>
+        <formula>Parent_Record__r.Primary_Contact_Salutation__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Primary Contact Salutation</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Record_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+   OR(
+      RecordType.DeveloperName = &quot;Financial_Aid&quot;,
+      RecordType.DeveloperName = &quot;Financial_Aid_Application_Locked&quot;
+      ),
+   &quot;Financial Aid Application&quot;,
+   IF(
+      OR(
+         RecordType.DeveloperName = &quot;Financial_Aid_Review&quot;,
+         RecordType.DeveloperName = &quot;Financial_Aid_Review_Locked&quot;
+         ),
+      &quot;Financial Aid Review&quot;,
+      &quot;Error - Record Type Not Defined&quot;
+      )
+   )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Financial Aid Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Record_is_Locked__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Used on validation rules on the child financial aid object to prevent edits once the record is locked. Toggled by means of the relevant approval process.</description>
+        <externalId>false</externalId>
+        <label>Record is Locked?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Relationship_P1__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Parent_Record__r.PersonContact.Contact_Relationship__c)</formula>
+        <label>Relationship (P1)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Relationship_P2__c</fullName>
+        <externalId>false</externalId>
+        <formula>Parent_Record__r.Account_Relationship_Formula__c</formula>
+        <label>Relationship (P2)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reviewer_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Notes on Application</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>School__c</fullName>
+        <externalId>false</externalId>
+        <formula>Parent_Record__r.SchoolText__pc</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>School</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Scope_of_Grant__c</fullName>
+        <externalId>false</externalId>
+        <label>Scope of Grant</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Indefinite subject to Review</fullName>
+                    <default>true</default>
+                    <label>Indefinite subject to Review</label>
+                </value>
+                <value>
+                    <fullName>Indefinite No Review Required</fullName>
+                    <default>false</default>
+                    <label>Indefinite No Review Required</label>
+                </value>
+                <value>
+                    <fullName>Specific End Date</fullName>
+                    <default>false</default>
+                    <label>Specific End Date</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Staff_Record__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Staff Record</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.School_Department__c</field>
+                <operation>notEqual</operation>
+                <value></value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipName>Grant_Applications1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Start_Term__c</fullName>
+        <externalId>false</externalId>
+        <label>Start Term / Month</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Term 1</fullName>
+                    <default>false</default>
+                    <label>Term 1</label>
+                </value>
+                <value>
+                    <fullName>Term 2</fullName>
+                    <default>false</default>
+                    <label>Term 2</label>
+                </value>
+                <value>
+                    <fullName>Term 3</fullName>
+                    <default>false</default>
+                    <label>Term 3</label>
+                </value>
+                <value>
+                    <fullName>January</fullName>
+                    <default>false</default>
+                    <label>January</label>
+                </value>
+                <value>
+                    <fullName>February</fullName>
+                    <default>false</default>
+                    <label>February</label>
+                </value>
+                <value>
+                    <fullName>March</fullName>
+                    <default>false</default>
+                    <label>March</label>
+                </value>
+                <value>
+                    <fullName>April</fullName>
+                    <default>false</default>
+                    <label>April</label>
+                </value>
+                <value>
+                    <fullName>May</fullName>
+                    <default>false</default>
+                    <label>May</label>
+                </value>
+                <value>
+                    <fullName>June</fullName>
+                    <default>false</default>
+                    <label>June</label>
+                </value>
+                <value>
+                    <fullName>July</fullName>
+                    <default>false</default>
+                    <label>July</label>
+                </value>
+                <value>
+                    <fullName>August</fullName>
+                    <default>false</default>
+                    <label>August</label>
+                </value>
+                <value>
+                    <fullName>September</fullName>
+                    <default>false</default>
+                    <label>September</label>
+                </value>
+                <value>
+                    <fullName>October</fullName>
+                    <default>false</default>
+                    <label>October</label>
+                </value>
+                <value>
+                    <fullName>November</fullName>
+                    <default>false</default>
+                    <label>November</label>
+                </value>
+                <value>
+                    <fullName>December</fullName>
+                    <default>false</default>
+                    <label>December</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Start_Year__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the academic year in which the financial aid should begin in the format YYYY/YY e.g. 2016/17</inlineHelpText>
+        <label>Start Year (YYYY/YY)</label>
+        <length>7</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Students_With_Grants_1__c</fullName>
+        <externalId>false</externalId>
+        <formula>Students_with_Grants__c + 1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Students With Grants + 1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Students_with_Grants__c</fullName>
+        <externalId>false</externalId>
+        <label>Students with Grants</label>
+        <summaryForeignKey>Student_Grant__c.Grant_Application__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Submission_Deadline_Text__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(
+     School__c,
+     &quot;The British International School of Kuala Lumpur&quot;, &quot;Please submit the Financial Aid Application form before Friday, 6th April 2018.&quot;,
+     &quot;The British School of Tashkent&quot;, &quot;Please submit the Financial Aid Application form before Friday, 5th May 2017.&quot;,
+     &quot;&quot;
+     )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Submission Deadline Text</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Submissions_Notifications_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Submissions Notification Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Submitted_Online__c</fullName>
+        <externalId>false</externalId>
+        <label>Submitted Online</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No</fullName>
+                    <default>true</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Summary__c</fullName>
+        <externalId>false</externalId>
+        <label>Summary</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Timeline_Grant_Request__c</fullName>
+        <externalId>false</externalId>
+        <label>Timeline Grant Request</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Temporary</fullName>
+                    <default>false</default>
+                    <label>Temporary</label>
+                </value>
+                <value>
+                    <fullName>Permanent</fullName>
+                    <default>false</default>
+                    <label>Permanent</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tuition_Student_Equivalent__c</fullName>
+        <externalId>false</externalId>
+        <label>% Tuition Student Equivalent</label>
+        <summarizedField>Student_Grant__c.Tuition_Reduction__c</summarizedField>
+        <summaryForeignKey>Student_Grant__c.Grant_Application__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Unlocked_Record_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( 
+   OR(
+      RecordType.DeveloperName = &quot;Financial_Aid_Application_Locked&quot;,
+      RecordType.DeveloperName = &quot;Financial_Aid&quot;
+      ),
+   &quot;0126F000001hW02&quot;,
+   IF( 
+      OR(
+         RecordType.DeveloperName = &quot;Financial_Aid_Review_Locked&quot;,
+         RecordType.DeveloperName = &quot;Financial_Aid_Review&quot;
+         ),
+      &quot;0126F000001hW04&quot;,
+      &quot;Error&quot;
+      )
+   )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Unlocked Record Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Years_Requested__c</fullName>
+        <externalId>false</externalId>
+        <label>Years Requested</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Less than a year</fullName>
+                    <default>false</default>
+                    <label>Less than a year</label>
+                </value>
+                <value>
+                    <fullName>1 year</fullName>
+                    <default>false</default>
+                    <label>1 year</label>
+                </value>
+                <value>
+                    <fullName>2 years</fullName>
+                    <default>false</default>
+                    <label>2 years</label>
+                </value>
+                <value>
+                    <fullName>3 years</fullName>
+                    <default>false</default>
+                    <label>3 years</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Financial Aid Application</label>
+    <nameField>
+        <displayFormat>G-{0000}</displayFormat>
+        <label>Financial Aid Application Number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Financial Aid Applications</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Financial_Aid</fullName>
+        <active>true</active>
+        <label>Financial Aid Application</label>
+        <picklistValues>
+            <picklist>Decision_Text__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending Approval%2FRejection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Interim_Review_Required__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Is_New_Form__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Open_to_Renew__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Scope_of_Grant__c</picklist>
+            <values>
+                <fullName>Indefinite No Review Required</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Indefinite subject to Review</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Specific End Date</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Start_Term__c</picklist>
+            <values>
+                <fullName>April</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>August</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>December</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>February</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>January</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>July</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>June</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>March</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>May</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>November</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>October</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>September</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Term 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Term 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Term 3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Submitted_Online__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Timeline_Grant_Request__c</picklist>
+            <values>
+                <fullName>Permanent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temporary</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Years_Requested__c</picklist>
+            <values>
+                <fullName>1 year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Less than a year</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Financial_Aid_Application_Locked</fullName>
+        <active>true</active>
+        <label>Financial Aid Application Locked</label>
+        <picklistValues>
+            <picklist>Decision_Text__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending Approval%2FRejection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Interim_Review_Required__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Is_New_Form__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Open_to_Renew__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Scope_of_Grant__c</picklist>
+            <values>
+                <fullName>Indefinite No Review Required</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Indefinite subject to Review</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Specific End Date</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Start_Term__c</picklist>
+            <values>
+                <fullName>April</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>August</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>December</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>February</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>January</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>July</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>June</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>March</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>May</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>November</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>October</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>September</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Term 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Term 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Term 3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Submitted_Online__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Timeline_Grant_Request__c</picklist>
+            <values>
+                <fullName>Permanent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temporary</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Years_Requested__c</picklist>
+            <values>
+                <fullName>1 year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Less than a year</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Financial_Aid_Review</fullName>
+        <active>true</active>
+        <label>Financial Aid Review</label>
+        <picklistValues>
+            <picklist>Decision_Text__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending Approval%2FRejection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Interim_Review_Required__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Is_New_Form__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Open_to_Renew__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Scope_of_Grant__c</picklist>
+            <values>
+                <fullName>Indefinite No Review Required</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Indefinite subject to Review</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Specific End Date</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Start_Term__c</picklist>
+            <values>
+                <fullName>April</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>August</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>December</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>February</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>January</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>July</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>June</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>March</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>May</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>November</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>October</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>September</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Term 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Term 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Term 3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Submitted_Online__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Timeline_Grant_Request__c</picklist>
+            <values>
+                <fullName>Permanent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temporary</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Years_Requested__c</picklist>
+            <values>
+                <fullName>1 year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Less than a year</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Financial_Aid_Review_Locked</fullName>
+        <active>true</active>
+        <label>Financial Aid Review Locked</label>
+        <picklistValues>
+            <picklist>Decision_Text__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending Approval%2FRejection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Interim_Review_Required__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Is_New_Form__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Open_to_Renew__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Scope_of_Grant__c</picklist>
+            <values>
+                <fullName>Indefinite No Review Required</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Indefinite subject to Review</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Specific End Date</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Start_Term__c</picklist>
+            <values>
+                <fullName>April</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>August</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>December</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>February</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>January</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>July</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>June</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>March</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>May</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>November</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>October</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>September</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Term 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Term 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Term 3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Submitted_Online__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Timeline_Grant_Request__c</picklist>
+            <values>
+                <fullName>Permanent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temporary</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Years_Requested__c</picklist>
+            <values>
+                <fullName>1 year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Less than a year</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>Parent_Name__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Applicant_Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Next_Review_Date2__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Staff_Record__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Students_with_Grants__c</lookupDialogsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>End_Date_for_Apps_With_Reviews</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( 
+    /*End_Date__c &gt; DATE(VALUE(LEFT(Start_Year__c, 4))+1,7,31), THIS LINE WILL ONLY WORK FOR APPS WITHOUT THE OLD REVIEWS */
+    End_Date__c &gt; DATE(YEAR(PRIORVALUE(Next_Review_Date2__c)),7,31),
+    TEXT(Scope_of_Grant__c) = &quot;Indefinite subject to Review&quot;
+    )</errorConditionFormula>
+        <errorMessage>The end date for this financial aid must be before the end of the academic year in which the next review is due i.e. on or before 31 July</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>End_Date_with_Specific_End_Date_Scope</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( TEXT(End_Date__c) =&quot;&quot;, TEXT(Scope_of_Grant__c)=&quot;Specific End Date&quot;)</errorConditionFormula>
+        <errorDisplayField>End_Date__c</errorDisplayField>
+        <errorMessage>You must enter an end date if you select Scope=&quot;Specific End Date&quot;</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>No_Change_of_End_Date</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+    $Profile.Id != &quot;00e6F000001hU3F&quot;,
+    Record_is_Locked__c = TRUE,
+    TEXT(Scope_of_Grant__c) = &quot;Specific End Date&quot;,
+    ISCHANGED(End_Date__c)
+    )</errorConditionFormula>
+        <errorMessage>You cannot change the End Date of a financial aid record with &apos;Scope of Grant&apos; set to &apos;Specific End Date&apos; if it has already been approved.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>No_End_Date_Change_for_Apps_With_Reviews</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( 
+    ISCHANGED(End_Date__c),
+    NOT(ISBLANK(End_Date__c)),
+    NOT(ISBLANK(PRIORVALUE(End_Date__c))),
+    TEXT(Scope_of_Grant__c) = &quot;Indefinite subject to Review&quot;
+    )</errorConditionFormula>
+        <errorMessage>You cannot directly change the end date for this type of financial aid. Please delete the end date first, save and then re-enter.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Temp_Prevent_Start_Term_Year_Change</fullName>
+        <active>true</active>
+        <description>A temporary validation rule in lieu of making the start term and start year fields read only once the data has been added for all approved/locked financial aid records</description>
+        <errorConditionFormula>AND(
+    $Profile.Name != &quot;System Administrator&quot;,
+    OR(
+       RecordType.DeveloperName = &quot;Financial_Aid_Review_Locked&quot;,
+       RecordType.DeveloperName = &quot;Financial_Aid_Application_Locked&quot;
+       ),
+    OR(
+       AND(
+           NOT(ISPICKVAL(PRIORVALUE(Start_Term__c), &quot;&quot;)),
+           ISBLANK(TEXT(Start_Term__c))
+           ),
+       AND(
+           NOT(ISPICKVAL(PRIORVALUE(Start_Term__c), &quot;&quot;)),
+           ISCHANGED(Start_Term__c)
+           ),
+       AND(
+           NOT(ISBLANK(PRIORVALUE(Start_Year__c))),
+           ISBLANK(Start_Year__c)
+           ),
+       AND(
+           NOT(ISBLANK(PRIORVALUE(Start_Year__c))),
+           ISCHANGED(Start_Year__c)
+           )
+       )
+    )</errorConditionFormula>
+        <errorMessage>You cannot change or remove the start term or year from a locked record. Those fields are only currently available to allow values to be added when the fields are empty.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Validate_Start_Year</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+    NOT(ISBLANK(Start_Year__c)),
+    OR(
+       NOT(ISNUMBER(LEFT(Start_Year__c, 4))),
+       NOT(ISNUMBER(RIGHT(Start_Year__c, 2))),
+       MID(Start_Year__c, 5, 1) != &quot;/&quot;,
+       LEN(Start_Year__c) != 7,
+       VALUE(RIGHT(Start_Year__c, 2)) != VALUE(MID(Start_Year__c, 3, 2)) + 1
+       )
+    )</errorConditionFormula>
+        <errorMessage>The start year must be in the format YYYY/YY e.g. 2016/17 and there must only be one year difference between the years e.g. 2016/18 is not accepted.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Cancel_Application</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Cancel Application</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/20.0/connection.js&quot;)} 
+if(&quot;{!Grant_Application__c.Decision_Text__c}&quot; == &quot;Rejected&quot;){ 
+alert(&quot;You cannot cancel this financial aid application because it has already been rejected.&quot;); 
+}else if(&quot;{!Grant_Application__c.Decision_Text__c}&quot; == &quot;Cancelled&quot;){ 
+alert(&quot;You cannot cancel this financial aid application because it has already been cancelled.&quot;); 
+}else if(&quot;{!Grant_Application__c.Decision_Text__c}&quot; == &quot;Pending Approval/Rejection&quot;){ 
+alert(&quot;You cannot cancel this financial aid application because it is pending approval/rejection.&quot;); 
+}else{ 
+var confirmResult = window.confirm(&quot;Are you sure you want to cancel this financial aid application?&quot;); 
+if(confirmResult){ 
+var records = []; 
+var record = new sforce.SObject(&quot;Grant_Application__c&quot;); 
+record.Id = &quot;{!Grant_Application__c.Id}&quot;; 
+record.Decision_Text__c = &quot;Cancelled&quot;; 
+record.Record_is_Locked__c = !true; 
+record.RecordTypeId = &quot;{!Grant_Application__c.Unlocked_Record_Type__c}&quot;; 
+records.push(record); 
+var result = sforce.connection.update(records); 
+//alert(&quot;2:result=&quot;+result); 
+var sb = &quot;&quot;; 
+for (var i=0; i&lt;result.length; i++) { 
+if (result[i].getBoolean(&quot;success&quot;)) { 
+sb += &quot;\n Success: The page will now refresh and the Financial Aid Application will be marked as cancelled.&quot;; 
+} else { 
+sb += &quot;\n Error: Please contact your system administrator. &quot;+ result[i]; 
+} 
+} 
+if(sb != &quot;&quot;){ 
+alert(sb); 
+
+} 
+location.reload();	
+
+} 
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Email_Grant_Application_Form</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Email Financial Aid Application Form</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/_ui/core/email/author/EmailAuthor?&amp;retURL=%2F{!Account.Id}%3FsrPos%3D0%26srKp%3D001&amp;p2_lkid={!Account.Primary_Contact_Record_ID__c}&amp;rtype=003&amp;p3_lkid={!Account.Id}&amp;template_id={!Account.F_Aid_Application_Email_Template__c}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Email_Parent_Approved</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Email Parent Approved</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/_ui/core/email/author/EmailAuthor?&amp;retURL=%2F{!Grant_Application__c.Id}%3FsrPos%3D0%26srKp%3D001&amp;p2_lkid={!Grant_Application__c.Parent_Id__c}&amp;rtype=003&amp;p3_lkid={!Grant_Application__c.Id}&amp;template_id=00X6F000001H1qr</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Email_Review_Form</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Email Review Form</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/_ui/core/email/author/EmailAuthor?&amp;retURL=%2F{!Grant_Application__c.Id}%3FsrPos%3D0%26srKp%3D001&amp;p2_lkid={!Grant_Application__c.Parent_Id__c}&amp;rtype=003&amp;p3_lkid={!Grant_Application__c.Id}&amp;template_id={!Grant_Application__c.F_Aid_Review_Email_Template__c}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Generate_Document</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Generate Document</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/apex/SDOC__SDCreate1?id={!Grant_Application__c.Id}&amp;Object=Grant_Application__c</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Reject_Application</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Reject Application</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/20.0/connection.js&quot;)} 
+if(&quot;{!Grant_Application__c.Decision_Text__c}&quot; == &quot;Rejected&quot;){ 
+alert(&quot;You cannot reject this financial aid application because it has already been rejected.&quot;); 
+}else if(&quot;{!Grant_Application__c.Decision_Text__c}&quot; == &quot;Cancelled&quot;){ 
+alert(&quot;You cannot reject this financial aid application because it has already been cancelled.&quot;); 
+}else if(&quot;{!Grant_Application__c.Decision_Text__c}&quot; == &quot;Approved&quot;){ 
+alert(&quot;You cannot reject this financial aid application because it has already been approved through the official approval process. Please cancel the application instead.&quot;); 
+}else if(&quot;{!Grant_Application__c.Decision_Text__c}&quot; == &quot;Pending Approval/Rejection&quot;){ 
+alert(&quot;You cannot reject this financial aid application using this button because it is pending approval/rejection and the next action needs to be taken by the assigned approver.&quot;); 
+}else{ 
+var confirmResult = window.confirm(&quot;Are you sure you want to reject this financial aid application?&quot;); 
+if(confirmResult){ 
+var records = []; 
+var record = new sforce.SObject(&quot;Grant_Application__c&quot;); 
+record.Id = &quot;{!Grant_Application__c.Id}&quot;; 
+record.Decision_Text__c = &quot;Rejected&quot;; 
+record.Record_is_Locked__c = !true; 
+record.RecordTypeId = &quot;{!Grant_Application__c.Unlocked_Record_Type__c}&quot;; 
+records.push(record); 
+var result = sforce.connection.update(records); 
+//alert(&quot;2:result=&quot;+result); 
+var sb = &quot;&quot;; 
+for (var i=0; i&lt;result.length; i++) { 
+if (result[i].getBoolean(&quot;success&quot;)) { 
+sb += &quot;\n Success: The page will now refresh and the Financial Aid Application will be marked as rejected.&quot;; 
+} else { 
+sb += &quot;\n Error: Please contact your system administrator. &quot;+ result[i]; 
+} 
+} 
+if(sb != &quot;&quot;){ 
+alert(sb); 
+
+} 
+location.reload();	
+
+} 
+}</url>
+    </webLinks>
+</CustomObject>

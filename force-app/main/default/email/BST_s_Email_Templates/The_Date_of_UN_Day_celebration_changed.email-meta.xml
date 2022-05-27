@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Note to parents about postponing UN Day</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>The Date of UN Day celebration changed</name>
+    <style>freeForm</style>
+    <subject>UN Day is postponed to October 31st</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please be informed that due to Eid celebration school administration decided  to postpone UN Day from October 16th to October 31st.
+
+But parent meeting to discuss the arrangements for UN Day will still take place on Monday, October 7th at 9.00 am in upper campus.
+
+
+
+Дорогие родители, в связи с празднованием Хаит школьная администрация приняла решение о переносе дня ООН  с 16 октября на 31 октября. Как и планировалось, собрание посвященное дню ООН состоится в понедельник, 7 октября в 9 утра в здании школы (новое здание).
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

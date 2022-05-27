@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Email notification to enquiry owner when new online application is received.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>System_Message_Header</letterhead>
+    <name>New Online Application Notification (With letterhead)</name>
+    <style>freeForm</style>
+    <subject>New ONLINE APPLICATION received from {!Lead.Name}</subject>
+    <textOnly>*** NEW ONLINE APPLICATION RECEIVED ***
+
+You have received a new online application via the school website.
+
+The information has been submitted to Salesforce and the automatic response sent. Please click this link to view it: {!Lead.Link}
+Submitted by: {!Lead.Salutation} {!Lead.Name}
+Email address: {!Lead.Email}
+Telephone number: {!Lead.Parent_1_Phone_1__c}
+
+Number of Children in Application: {!Lead.Number_of_Children_in_Enquiry_Value__c}
+Starting Term: {!Lead.Starting_Term__c}
+
+Child 1 Information
+Name: {!Lead.Child_1_Full_Name__c}
+Gender: {!Lead.Child_1_Gender__c}
+Nationality: {!Lead.NationalityFirstChild__c}
+Year Group Applying For: {!Lead.Child_1_Year_Group__c}
+
+Child 2 Information
+Name: {!Lead.Child_2_Full_Name__c}
+Gender: {!Lead.Child_2_Gender__c}
+Nationality: {!Lead.NationalitySecondChild__c}
+Year Group Applying For: {!Lead.Child_2_Year_Group__c}
+
+Child 3 Information
+Name: {!Lead.Child_3_Full_Name__c}
+Gender: {!Lead.Child_3_Gender__c}
+Nationality: {!Lead.NationalityThirdChild__c}
+Year Group Applying For: {!Lead.Child_3_Year_Group__c}
+
+Child 4 Information
+Name: {!Lead.Child_4_Full_Name__c}
+Gender: {!Lead.Child_4_Gender__c}
+Nationality: {!Lead.NationalityFourthChild__c}
+Year Group Applying For: {!Lead.Child_4_Year_Group__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

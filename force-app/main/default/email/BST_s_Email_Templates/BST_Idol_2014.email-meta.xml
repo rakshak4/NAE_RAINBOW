@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Note to parents about BST idol 2014</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>BST Idol 2014</name>
+    <style>freeForm</style>
+    <subject>BST Idol 2014-2015</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+
+I am pleased to announce the launch of the second BST idol event. Last year’s talent show stirred up a lot of interest in our children to compete against each other for the BST idol trophy. This year, auditions will begin from Monday 6th October. Children will need to sign up for an audition and state what they will be doing. Their tutors will tell them how and where they can do this.
+
+
+
+Auditions enable the children to show off their talent, but they do not guarantee a place in the final show. Everyone who wishes to participate should prepare well for the audition. All children from year 2 upwards, who would like to display their talent, are welcome to audition. Acts must not exceed 2 minutes and can include anything from juggling to singing opera. We welcome all artistic and theatrical talent whether it be singing, playing an instrument, dancing, poetry, or acting. Candidates will be judged on their skill, stage presence, and quality.
+
+
+
+All children will be notified whether they make it through the auditions or not. A list of show participants will be posted a week ahead of the event.
+
+
+
+The BST idol talent show will take place on Friday the 31st October. More details will be sent out nearer the time.
+
+
+
+I am very much looking forward to seeing what your children will bring this year.
+
+
+
+Kind regards,
+
+
+
+Ms Naomi Aves
+
+Head of Music
+
+
+
+
+
+Уважаемые родители,
+
+
+
+Я рада объявить об открытии второго сезона шоу талантов «BST Idol».  Прошлогоднее шоу пробудило дух соревнования в наших студентах в борьбе за приз конкурса «BST Idol».  В этом году прослушивания начнутся в понедельник, 6 октября. Учащиеся должны записаться на прослушивание и указать, какой именно номер они будут представлять на конкурсе. Их наставники скажут им, как и где они смогут подготовить свое выступление.
+
+
+
+Прослушивания позволят детям показать свои таланты, но не гарантируют места участникам в финальном шоу. Все желающие принять участие в шоу, должны быть хорошо подготовлены к прослушиванию. Мы будем рады видеть на прослушивании всех учащихся, начиная со 2-го класса и старше, которые хотели бы показать свои таланты. Выступление не должно превышать 2 минуты и может включать в себя самые разные жанры- от жонглирования до исполнения оперных произведений. Мы приветствуем любые художественные и театральные таланты, будь то пение, игра на музыкальном инструменте, танцы, стихотворения или театральная постановка. Кандидаты будут оцениваться по мастерству исполнения номеров, качеству выступления и умению держаться на публике.
+
+
+
+Все дети будут уведомлены о том, прошли ли они прослушивание или нет.
+
+Список участников конкурса будет размещен за неделю до начала мероприятия.
+
+
+
+Шоу талантов «BST Idol» состоится в пятницу,31 октября. Более подробная информация будет выслана ближе к началу мероприятия.
+
+
+
+Я с большим нетерпением жду, что Ваши дети представят нам на обозрение в этом году в этом году.
+
+
+
+С уважением,
+
+
+
+Мисс Наоми Эйвс
+
+
+Глава отдела музыки
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>19/11/12 ASA Survey</name>
+    <style>freeForm</style>
+    <subject>ASA Survey</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The British International School is conducting a survey where we would appreciate your feedback on ASA’s.
+
+The link to the survey is below:
+
+https://docs.google.com/spreadsheet/viewform?formkey=dDZNWUZMWUVwMG4tMWxyc215OTE1Z1E6MQ#gid=0
+
+We would very much appreciate if you could take the time to fill this out.  The deadline for it to be filled out is 1st December.
+
+Kind Regards,
+Harrie Thomson
+Head of Physical Education
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

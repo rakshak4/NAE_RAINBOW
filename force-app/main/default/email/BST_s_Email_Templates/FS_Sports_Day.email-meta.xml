@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to parents about Sports Day for FS</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>FS Sports Day</name>
+    <style>freeForm</style>
+    <subject>Foundation Stage Sports Day</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Dear Foundation stage parents,
+
+
+We are going to have FS Sports Day on Friday, March 28, which is going to be from Pre-Nursery 2 to Reception. Please send your children to school with following items:
+
+
+· All FS children needs to wear sports kit on that day
+
+· Send your children with Sun hats and sun cream
+
+
+
+Дорогие родители младших классов,
+
+
+День Спорта для учеников классов Pre-Nursery 2, Nursery и Reception состоится в пятницу, 28 марта. Пожалуйста отправляйте детей в школу со следующими предметами:
+
+
+· Все дети должны быть в спортивной форме в тот день
+
+· Передайте солнце защитную кепку и солнце защитный крем
+
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

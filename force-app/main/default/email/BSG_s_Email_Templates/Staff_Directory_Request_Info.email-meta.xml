@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Staff Directory</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Staff Directory Request Info</name>
+    <style>freeForm</style>
+    <subject>Staff Directory - Information Request</subject>
+    <textOnly>The British School
+of Kuala Lumpur
+Part of The British Schools Group
+
+
+
+Dear {!Contact.FirstName},
+
+With the launch of our new school website, we will be publishing a revised online &apos;Staff Directory&apos;.
+
+We are hoping you can help us compile information about you by completing a simple online form  (Click here for form).
+
+Please look at this link for an example of the information you should provide. We ask that you submit this no later than the 30th of August.
+
+To complete the process, we will take standardised photographs of all staff on Thursday, 30th August.  On this day, A photographer will be located at the concourse level on the 2nd floor from 2pm to 4pm. Please note, the photographer will only be in school for ONE DAY and FORMAL SCHOOL DRESS is required for these photographs.  We appreciate your support in being prepared for the photographs to be taken due to the limited time frame.
+
+Finally, for those of you who were with us last academic year, and have not done so already, we would like to encourage to complete the staff survey. Remember, this survey is completely anonymous:
+
+Click here to access the survey
+
+If you have any questions or would like more information, please ask our admin team.
+
+Thank you for your cooperation,
+
+
+Administration Team
+The British School of Kuala Lumpur
+World Class Education
+
+_________________________________________________________</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>&apos;The Source&apos;- Autumn 2013 Edition Available Now</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>&apos;The Source&apos;- Autumn 2013 Edition Available Now</name>
+    <style>freeForm</style>
+    <subject>&apos;The Source&apos;- Autumn 2013 Edition Available Now</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+Dear Parents,
+
+
+
+&apos;The Source&apos; is a newsletter published quarterly containing news of what is happening within the Nord Anglia Education family of schools worldwide.
+
+
+
+Please CLICK HERE to read the Autumn edition of The Source.
+
+
+
+Kind regards,
+
+
+
+The British School of Guangzhou
+
+
+
+
+
+
+
+
+The British School of Guangzhou
+
+World Class Education
+
+
+
+
+__________________________________________________
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

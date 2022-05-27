@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to all Lower School Parents RE: Car Park</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Email to All Lower School Patents RE: Car Park</name>
+    <style>freeForm</style>
+    <subject>Email to All Lower School Parents RE: Car Park</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+点击这里看中文
+
+Dear Lower School Parents,
+
+If you bring your child to school or collect them at the end of the day I would like to take this opportunity to remind you that you must park your car in the car park above the school.
+
+It is illegal to park or stop your car on the road and it is also potentially dangerous. To ensure the safety of all our students we must insist that you do not stop or park on the road, instead use the car park.
+
+Please understand that if we note further instances of illegal parking we are required to pass details of your number plate to Lakefront Management who may refuse to allow your car to enter the Lakefront site.
+
+Your support with this matter is much appreciated.
+
+Kind regards,
+
+Miss Kathy
+(Head of Lower School)
+The British School of Guangzhou
+World Class Education
+
+_____________________________________________________
+
+
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Start of term</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Start of term</name>
+    <style>freeForm</style>
+    <subject>Start of term</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Welcome Back - I would like to welcome everyone (new families and old) to BSG for the 2013-14 academic year. We have now completed our first week of what promises to be a very exciting year and I am pleased to note that everything has gone smoothly. The student number has increased yet again and is an indication of the growing reputation of the school within the Guangzhou community. At BSG we are particularly proud of the way we support new students, with staff and students doing everything possible to ensure that children are supported as they settle into our school and make new friends.
+
+New Staff - This year we have almost 30 new staff, 16 of whom are TAs on our ever popular &apos;Gap Year TA Programme&apos;. This programme offers UK graduates the chance to work in our school as learning support assistants for a year and is now in its 6th year at BSG. Teaching assistants are generally allocated to classes from Reception to Year 6 and bring with them an impressive amount of energy and skills. Do check out our staff bios on the website to find out more about them. With less than 20% of staff leaving last year our new teachers were recruited to cope with additional classes and to provide for the expansion of our Secondary programme.
+
+Academic Results - I am very proud to note that Primary and Secondary examination results are once again excellent. My sincere thanks to the students who have worked so hard and to our incredibly committed teachers who do everything possible to ensure that children are well prepared and suitably motivated for end of year tests. For the British School of Guangzhou 2013-14 will be an important milestone with our very first Y13 students leaving for university at the end of the year. We wish them every success in achieving their goals and look forward to seeing them graduate.
+
+Nord Anglia - As most of you will know by now BSG is now part of the Nord Anglia Education group. Nord Anglia Education is a network of 27 premium international schools, including The British Schools of Beijing and Shanghai, with a new school in Hong Kong scheduled to open in September 2014. This week a number of representatives from Nord Anglia visited our school and noted the friendliness of staff and students and were also impressed to see how well organised the school is in the first week. This is undoubtedly an exciting development for the British School of Guangzhou and will support our school in its aim to become one of the leading British Schools in Asia.
+
+Forthcoming Dates - As usual our calendar is extremely busy with almost weekly events so we encourage parents to check communication regularly to ensure they do not miss out. Please note we have been forced to move International Day to Saturday 9th November as our Heads of Phase will all be attending a conference the following weekend. We will be discussing the format of this important day with the EFC (our parent support group) soon and urge all parents to get involved in some way. This is one of the best days of the academic year and with over 50 nationalities represented in our school it really is an opportunity to celebrate our cultural diversity with a day of fun so please note the new date.
+
+British Chamber - I was recently sent this link http://v.youku.com/v_show/id_XNTk5MDI4OTQ0.html to last year&apos;s British Day which was organised by our friends at the British Chamber. Do check it out and enjoy recalling the activities of this memorable day. The British Chamber organise an impressive number of events in Guangzhou and you are encouraged to visit their website http://www.britchamgd.com or join one of their many networking events to find out more about the activities of the Chamber.
+
+Kind regards,
+
+Mark Thomas
+Headmaster
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Instrumental lessons for existing and new students</name>
+    <style>freeForm</style>
+    <subject>Instrumental lessons for existing and new students</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+
+I hope you&apos;ve all had a tremendously fun packed holiday full of adventure and lots of rest and are looking forward to the new school year ahead.
+
+As per usual, the instrumental music department has an exciting year ahead, continuing the successful development of our school orchestra, choir, curriculum PIP&apos;s lessons and the cultivation of ensembles, solo acts and other quirky performances.
+
+BSKL music department currently offers the following instrumental lessons:
+
+Piano YR2 - YR8
+Violin YR2 - YR8
+Saxophone YR5 - YR8
+Flute YR5 - YR8
+
+Lessons are 40 minutes in duration and rotate weekly around the school day / week timetable. Payment of each individual lesson is RM65 a lesson (terms fees payable at the beginning of each term). Invoices will be sent to each parent and payable to the school administration.
+
+Please can those families with children wishing to participate in instrumental lessons for this term please forward me an email including:
+
+Childs full name, year and class (i.e. Alex Douglas 5B)
+Parents telephone number and preferred email correspondence
+Instrument of choice
+
+*Please note, children who participated last term should re-confirm their enrollment for this term. No confirmation will be considered as termination of your child&apos;s instrumental lessons.
+
+
+Email requests for instrumental lessons should be received no later than Monday 3rd September so that timetables can be completed and emailed out in time for lessons starting the week of Monday 10th September 2012.
+
+
+Please contact myself, Alex Douglas on alexander.douglas@britishschool.edu.my should you have any queries.
+
+
+I look forward to hearing from all those interested.
+
+
+Many thanks
+
+
+Alex Douglas
+
+Head of Instrumental Music
+
+
+
+Kind Regards,
+
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

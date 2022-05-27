@@ -1,0 +1,35 @@
+<apex:page standardController="Contact" showheader="true" standardStylesheets="true">
+
+<apex:variable var="ContactId" value="{!Contact.Id}" />
+<apex:variable var="FirstName" value="{!Contact.FirstName}" />
+<apex:variable var="LastName" value="{!Contact.LastName}" />
+<apex:variable var="Alias" value="{!Contact.Contact_Alias__c}" />
+<apex:variable var="Email" value="{!Contact.Email}" />
+<apex:variable var="Nickname" value="{!Contact.Name}" />
+<apex:variable var="School" value="{!Contact.SchoolText__c}" />
+<apex:variable var="HubVideoID" value="{!Contact.Contact_User_School_Hub_Video_Link__c }" />
+<apex:variable var="TimeZone" value="{!Contact.Contact_User_Timezone__c }" />
+<apex:variable var="Locale" value="{!Contact.Contact_User_Locale__c }" />
+<apex:variable var="PortalAccountId" value="{!Contact.Main_Parent_File__c }" />
+
+
+
+
+
+
+
+
+
+
+<apex:tabPanel rendered="{!Contact.RecordType.Name='Additional Parent'}" switchType="client" selectedTab="tabdetails"
+               id="AccountTabPanel3" tabClass="activeTab"
+               inactiveTabClass="inactiveTab" style="background-color: white;margin-top: 10px;padding: 10px 0px 0px 0px;">
+
+           
+      <apex:page action="/005/e?ut=c&pa=1&retURL=%2F{!ContactId}&cntc={!ContactId}&user_license_id=1006F000000rHPh&Profile=00e6F0000020GEY&CompanyName=Parent&name_firstName={!FirstName}&name_lastName={!LastName}&Alias={!Alias}&Email=blog-add-notifications@britishschools.co.uk&Username={!Email}&CommunityNickname={!Nickname}&00N6F00000M2znh={!School}&00N6F00000M2znd={!HubVideoID}&TimeZoneSidKey={!TimeZone}&00N6F00000M2znC={!PortalAccountId}&LocaleSidKey={!Locale}">
+</apex:page>
+      
+      </apex:tabPanel>
+      
+   
+</apex:page>

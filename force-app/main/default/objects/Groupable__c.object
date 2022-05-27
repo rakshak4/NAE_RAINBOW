@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>This object is used to group its records inside a parent object&apos;s record on the school websites. Practical example: create a Normal Web Content record called &quot;School Facilities&quot; and you want to show a list of facilities inside... then use a series of groupable records to do the trick.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Attachment_Id__c</fullName>
+        <description>This field captures the id of any attachment created in its parent record</description>
+        <externalId>false</externalId>
+        <label>Attachment Id</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Booklet_1_Link__c</fullName>
+        <externalId>false</externalId>
+        <label>Booklet 1 Link</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Booklet_1_Title__c</fullName>
+        <externalId>false</externalId>
+        <label>Booklet 1 Title</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Booklet_2_Link__c</fullName>
+        <externalId>false</externalId>
+        <label>Booklet 2 Link</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Booklet_2_Title__c</fullName>
+        <externalId>false</externalId>
+        <label>Booklet 2 Title</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Booklet_3_Link__c</fullName>
+        <externalId>false</externalId>
+        <label>Booklet 3 Link</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Booklet_3_Title__c</fullName>
+        <externalId>false</externalId>
+        <label>Booklet 3 Title</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Booklet_4_Link__c</fullName>
+        <externalId>false</externalId>
+        <label>Booklet 4 Link</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Booklet_4_Title__c</fullName>
+        <externalId>false</externalId>
+        <label>Booklet 4 Title</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Content_Subtitle__c</fullName>
+        <externalId>false</externalId>
+        <label>Content Subtitle</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Deleted_Attachment_Id__c</fullName>
+        <description>Captures the att id of any deleted attachment in its parent record</description>
+        <externalId>false</externalId>
+        <label>Deleted Attachment Id</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Featured_Booklets__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Select 1, 2, 3 or 4 to show the corresponding booklet in the &quot;All Booklets&quot; sidebar block on the website</inlineHelpText>
+        <label>Featured Booklets</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Gallery_Order__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Use this field to organize photo albums in gallery blocks on the site, ie: Photo Gallery or Visual Tour</inlineHelpText>
+        <label>Gallery Order</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Include_Photos_in_a_Gallery__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Select one or more blocks of the website where you want to show the photos of this record.</inlineHelpText>
+        <label>Include Photos in Gallery</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Photo Gallery</fullName>
+                    <default>false</default>
+                    <label>Photo Gallery</label>
+                </value>
+                <value>
+                    <fullName>Visual Tour</fullName>
+                    <default>false</default>
+                    <label>Visual Tour</label>
+                </value>
+                <value>
+                    <fullName>Facilities Sidebar</fullName>
+                    <default>false</default>
+                    <label>Facilities Sidebar</label>
+                </value>
+                <value>
+                    <fullName>Facilities Gallery</fullName>
+                    <default>false</default>
+                    <label>Facilities Gallery</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Issuu_Embed_Field__c</fullName>
+        <externalId>false</externalId>
+        <label>Issuu Embed Field</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Language__c</fullName>
+        <description>The language of the record. This field is used in connection with the school websites</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the language of your record.</inlineHelpText>
+        <label>Language</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>EN</fullName>
+                    <default>true</default>
+                    <label>EN</label>
+                </value>
+                <value>
+                    <fullName>ES</fullName>
+                    <default>false</default>
+                    <label>ES</label>
+                </value>
+                <value>
+                    <fullName>PT</fullName>
+                    <default>false</default>
+                    <label>PT</label>
+                </value>
+                <value>
+                    <fullName>RU</fullName>
+                    <default>false</default>
+                    <label>RU</label>
+                </value>
+                <value>
+                    <fullName>UK</fullName>
+                    <default>false</default>
+                    <label>UK</label>
+                </value>
+                <value>
+                    <fullName>UZ</fullName>
+                    <default>false</default>
+                    <label>UZ</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Main_Text__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Accepts special tokens like [site:name] to display the name of the school but also other complex tokens such as: [site:mail] [site:current-date] [site:url] [current-page:title] [current-page:url]</inlineHelpText>
+        <label>Main Text</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Order__c</fullName>
+        <description>Sets the order the groupable is displayed on the site&apos;s view.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Set this field to determine the order of the groupable record in the parent record&apos;s view on the website.</inlineHelpText>
+        <label>Order</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Path_Alias__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>OPTIONAL. Paste here the ending url path of the node on the old school website. Ex: from www.oldsite.com/curriculum/overview.asp paste &quot;curriculum/1styear/overview&quot;. No initial &quot;/&quot; no &quot;.asp&quot; or similar.</inlineHelpText>
+        <label>Path Alias</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Post_to_FB__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this field if you want a teaser of the node to appear on the school fb page. Not valid for group website posts.</inlineHelpText>
+        <label>Post to FB</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Publish_on_School_Site__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Click to post this record on the School Website</inlineHelpText>
+        <label>Publish on School Site</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>School_Override_Field__c</fullName>
+        <externalId>false</externalId>
+        <label>School Override Field</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No Override</fullName>
+                    <default>false</default>
+                    <label>No Override</label>
+                </value>
+                <value>
+                    <fullName>Guangzhou</fullName>
+                    <default>false</default>
+                    <label>Guangzhou</label>
+                </value>
+                <value>
+                    <fullName>Nanjing</fullName>
+                    <default>false</default>
+                    <label>Nanjing</label>
+                </value>
+                <value>
+                    <fullName>Marbella</fullName>
+                    <default>false</default>
+                    <label>Marbella</label>
+                </value>
+                <value>
+                    <fullName>Navarra</fullName>
+                    <default>false</default>
+                    <label>Navarra</label>
+                </value>
+                <value>
+                    <fullName>Tashkent</fullName>
+                    <default>false</default>
+                    <label>Tashkent</label>
+                </value>
+                <value>
+                    <fullName>Brazil</fullName>
+                    <default>false</default>
+                    <label>Brazil</label>
+                </value>
+                <value>
+                    <fullName>Kuala Lumpur</fullName>
+                    <default>false</default>
+                    <label>Kuala Lumpur</label>
+                </value>
+                <value>
+                    <fullName>Moscow</fullName>
+                    <default>false</default>
+                    <label>Moscow</label>
+                </value>
+                <value>
+                    <fullName>Manila</fullName>
+                    <default>false</default>
+                    <label>Manila</label>
+                </value>
+                <value>
+                    <fullName>Beijing</fullName>
+                    <default>false</default>
+                    <label>Beijing</label>
+                </value>
+                <value>
+                    <fullName>New York</fullName>
+                    <default>false</default>
+                    <label>New York</label>
+                </value>
+                <value>
+                    <fullName>Group Site</fullName>
+                    <default>false</default>
+                    <label>Group Site</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>School_Web_Tags__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the relevant option to use a special, pre-made page layout in the node. For example: display news the &apos;Online Application&apos; for on a page when choosing &quot;Admissions&quot; or show the &apos;Global Network Map&apos; by choosing &quot;Foundation&quot; etc.</inlineHelpText>
+        <label>Webpage Layout</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>News</fullName>
+                    <default>false</default>
+                    <label>News</label>
+                </value>
+                <value>
+                    <fullName>Staff</fullName>
+                    <default>false</default>
+                    <label>Staff</label>
+                </value>
+                <value>
+                    <fullName>Jobs</fullName>
+                    <default>false</default>
+                    <label>Jobs</label>
+                </value>
+                <value>
+                    <fullName>Foundation</fullName>
+                    <default>false</default>
+                    <label>Foundation</label>
+                </value>
+                <value>
+                    <fullName>Admissions</fullName>
+                    <default>false</default>
+                    <label>Admissions</label>
+                </value>
+                <value>
+                    <fullName>Contact Us</fullName>
+                    <default>false</default>
+                    <label>Contact Us</label>
+                </value>
+                <value>
+                    <fullName>Services</fullName>
+                    <default>false</default>
+                    <label>Services</label>
+                </value>
+                <value>
+                    <fullName>Testimonials</fullName>
+                    <default>false</default>
+                    <label>Testimonials</label>
+                </value>
+                <value>
+                    <fullName>Video Gallery</fullName>
+                    <default>false</default>
+                    <label>Video Gallery</label>
+                </value>
+                <value>
+                    <fullName>Calendar</fullName>
+                    <default>false</default>
+                    <label>Calendar</label>
+                </value>
+                <value>
+                    <fullName>Booklets</fullName>
+                    <default>false</default>
+                    <label>Booklets</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Schools_List_Copy__c</fullName>
+        <externalId>false</externalId>
+        <label>Schools List Copy</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Show_in_All_Booklets_Block__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Show in All Booklets Block</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Web_id__c</fullName>
+        <description>Used to export the record id to the school and group sites</description>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Id)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Web id</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Groupable</label>
+    <nameField>
+        <label>Groupable Title</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Groupables</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Translate</fullName>
+        <availability>online</availability>
+        <description>Clicking this buttons opens a new window with a clone of the actual record so that the user can translate it.</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Translate</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/</url>
+    </webLinks>
+</CustomObject>

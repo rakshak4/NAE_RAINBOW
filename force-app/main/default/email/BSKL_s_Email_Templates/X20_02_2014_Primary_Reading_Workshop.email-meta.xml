@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>06/03/2014 Staffing News</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>06/03/2014 Staffing News</name>
+    <style>freeForm</style>
+    <subject>Staffing News</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+6th March 2014
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+It’s with pride that I write to officially let you all know that Adam Johnson will be leaving us to open a BSF school in Yangon, which will be his third start-up school with the Group. It is also with a twinge of sadness as since the day I arrived, exactly a year ago, Adam has been such a strong support for me, as he seems to know every family and every child and has a positive word and smile for everyone.
+
+Adam has been at BSKL since the day it opened and has seen it grow from 80 children at the Club to 750 across 2 purpose built sites. In all that time he has striven to keep that ‘family feel’ in the school and make every child feel that at the moment they are speaking to him, that is the most important thing he is doing. For me, that is an ethos that should always remain at BSKL.
+
+Adam will move to Yangon mid way through May and Allison and Lewis will join him in July at the end of this academic year.
+
+The new Head of Primary, Mrs Debra Birchall, has been appointed and will be spending a week in school before the end of this academic year for a handover period and a chance for children, staff and parents to meet her.
+
+Debra has lived and worked in various places in the UK and overseas, including Malaysia and Jordan. She has an MA (Hons) in History from the University of St Andrews, a PGCE from Jordanhill College, Glasgow and a NPQH (National Professional Qualification for Headship) from the University of Manchester.
+
+We look forward to welcoming her to BSKL.
+
+Warm regards
+
+Janet Brock
+Headteacher
+
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

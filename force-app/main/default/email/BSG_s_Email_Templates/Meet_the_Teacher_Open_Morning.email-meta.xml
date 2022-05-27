@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Meet the Teacher Open Morning</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Meet the Teacher Open Morning</name>
+    <style>freeForm</style>
+    <subject>BSG Meet the Teacher Open Morning</subject>
+    <textOnly>Dear Parents,
+
+It gives me great pleasure to welcome back so many students for the start of the 2011-12 academic year at the British School of Guangzhou.
+
+The newly recruited academic staff actually arrived two weeks ago and spent the first week involved in their induction programme. Last week all of our staff were involved in a programme of staff training to ensure teams were fully prepared for the first day.
+
+The summer may have been a holiday for many but at the British School this time has been utilised to make site improvements in order to ensure we are able to provide a high quality learning environment to teach our students.
+
+ If you are keen to meet the new teachers, greet the old teachers; see the site improvements for yourself, or to hear about the latest initiatives at the British School then we would like to invite you to an ‘Open Morning’ on both sites on Saturday 3rd September. 
+
+ The programme will begin with a short presentation on each site and will be followed by an opportunity to tour the sites and meet staff in an informal setting.
+
+Programme
+ 
+ 10:00 am
+ 
+Head and Deputy to outline developments to Upper School parents. Head of Lower School to outline developments to Lower School parents.
+ 
+10:30 am
+ 
+Parents invited to the tour respective sites and meet teaching staff.
+ 
+11:00
+ 
+Light refreshments will be available in the upper school canteen area where parents will be able to mingle with all the teaching staff. This open morning is scheduled to finish by 12:00 noon.
+ 
+11:30
+ 
+Finish 
+
+Please remember that this is not an opportunity for a formal parental consultation, we will arrange these later in the term when the children have settled. For those lower school parents who would like to see the building developments on the Nanhu site you are welcome to opt to join us for refreshments from 11:00 onwards if they wish.
+
+Please note, the uniform shop will be open on the Nanhu campus for parents to purchase any last minute uniform items (House T- Shirts will be available). Please to use the Nanhu Amusement Park’s car park as our school car park facilities are very limited.
+
+Regards,
+
+Mark Thomas</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Latest BSG Newsletter</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BSG</letterhead>
+    <name>Latest BSG Newsletter</name>
+    <style>freeForm</style>
+    <subject>Latest BSG Newsletter</subject>
+    <textOnly>Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I trust this email finds you very well.
+
+Please find below links to our latest newsletter.
+
+
+
+
+Online newsletter: http://www.bsg.org.cn/info/Quicklinks/Newsletters/en/
+
+
+Download: http://www.bsg.org.cn/downloads/product_attachments/000000316_0.pdf
+
+
+
+
+Thank you for your continuing support.
+
+
+
+
+kind regards,
+
+
+
+The British School of Guangzhou
+
++(8620) 8709 4788
+
+www.bsg.org.cn</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

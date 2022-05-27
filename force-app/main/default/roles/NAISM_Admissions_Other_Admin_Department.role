@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>NAISM Admissions / Admin Officer</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>NAISM Admissions / Other Admin Department</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>NAISM_Deputy_Head_of_Admin</parentRole>
+</Role>

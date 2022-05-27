@@ -1,0 +1,6 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[Medical Book Expiration Notice:<div><br></div><div>Please note that&nbsp;{!Account.FirstName}&nbsp;{!Account.LastName}'s medical book &nbsp;will be expiring soon. See details below:</div><div><br></div><div>Medical Book Expiration Date:&nbsp;{!Account.Medical_Book_Expiry_Date__c}</div><div><br></div><div>Consult Employee record for more details.</div>]]></td>
+</tr>
+</table>

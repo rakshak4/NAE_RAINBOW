@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font face="Verdana, Helvetica, sans-serif" style="" size="2">Staff Member:&nbsp;{!Pay_Slip__c.00ND0000004QdqD}</font><div style=""><font face="Verdana, Helvetica, sans-serif" size="2"><br></font></div><div style=""><font face="Verdana, Helvetica, sans-serif" style="" size="2">Gross Salary:&nbsp;{!Pay_Slip__c.Salary__c}</font></div>]]></td>
+</tr>
+</table>

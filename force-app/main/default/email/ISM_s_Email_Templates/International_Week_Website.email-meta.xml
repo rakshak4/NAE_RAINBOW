@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>International Week Website</name>
+    <style>freeForm</style>
+    <subject>International Week Website</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+If you want to keep up to date with what has been happening during Day 1 of the Secondary International Week, please check out our website. The address is below and the password is &apos;ism2014&apos;.
+
+www.internationalweek.wix.com/ism2014
+
+Kind Regards
+
+Michelle Hamilton
+Deputy Head of Secondary
+The International School of Moscow
+World Class Education
+
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

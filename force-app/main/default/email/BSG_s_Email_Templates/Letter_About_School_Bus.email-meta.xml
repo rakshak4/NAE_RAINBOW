@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>The British School of Guangzhou - Buses Leaving School Late This Afternoon.</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>The British School of Guangzhou - Buses Leaving School Late This Afternoon.</name>
+    <style>freeForm</style>
+    <subject>The British School of Guangzhou - Buses Leaving School Late This Afternoon.</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+
+
+
+
+
+
+Dear Parents,
+
+
+We would like to apologise to parents and students on the school buses that unfortunately left school late this afternoon. This subsequently caused a wait for many of you as students arrived home later than expected. This is regrettable and we are currently working very hard rectifying the issues that arose with the result that you will see steady improvements from tomorrow and as we progress through the week.
+
+
+We thank you for your patience at this busy time of the year and hope this did not spoil any child&apos;s first day back at school.
+
+
+Yours sincerely,
+
+
+Claire Guo
+
+Bus Coordinator
+
+
+The British School of Guangzhou
+
+
+
+
+
+
+
+
+____________________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

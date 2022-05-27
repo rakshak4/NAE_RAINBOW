@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>29/05/2013 Foundation sports day information</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>29/05/2013 Foundation sports day information</name>
+    <style>freeForm</style>
+    <subject>Foundation sports day information</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+Firstly we are very sorry for the delay with the information and appreciate your patience. Foundation sports will be at BSKL on Friday 31st May. It will start at 9am and will finish at 11am.
+
+Students will need to come to school as normal, dressed in their house t shirts, PE shorts, hats and trainers. It is essential that they bring a water bottle to the event.
+
+All students will participate in a circuit of events and have some free play activities. All students will receive a sticker and participation certificate after the sports day is finished. We will be finished in time for lunch.
+
+
+Please see the schedules below to know where your children will be at each time of the morning:
+
+
+Rooftop (Level 4) -
+Station 1 : Bouncy Castle (Ms. Marwood)-
+Station 2 : Shoot the Goal (Mandarin Teacher) -
+Station 3 : Free Play (Mandarin Teacher) -
+
+Foundation Playground &amp; Gym (Level 1) -
+Station 1 : Relay Race (Mr. Thomson) -
+Station 2 : Obstacle Course (Mr. Illan) -
+Station 3 : Throw &amp; Toss (Teacher) -
+
+9:00am - PN, NA &amp; NB @ Gym/Foundation Playground.
+RA, RB &amp; RC @ Rooftop.
+
+* 9:10am - Both Groups to switch venues (10 min allocated for getting to venue) *
+
+9:45am - RA, RB &amp; RC @ Gym/Foundation Playground.
+PN, NA &amp; NB @ Rooftop.
+
+Session 1, 9:00-9:30am (30 Mins)
+PN, NA &amp; NB take turns on stations (10 min each station) in the following order:
+Pre-Nursery : Station 1, 2, 3
+Nursery A : Station 2, 3, 1
+Nursery B : Station 3, 1, 2
+*After finishing all stations, PN, NA &amp; NB go directly up to the Rooftop at 9:30am for the next session at 9:40am.
+
+Session 2, 9:40-10:15am (35 Mins)
+RA, RB &amp; RC take turns on stations (10 min each station) in the following order:
+Reception A : Station 1, 2, 3
+Reception B : Station 2, 3, 1
+Reception C : Station 3, 1, 2
+
+
+Session 3, 10:15-10:45am (30 Mins)
+
+Free Play in all station
+
+
+We hope you will be able to join us to cheer and support all children involved.
+
+Kind regards,
+
+Mr Thomson
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>AquaFit Classes</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>AquaFit Classes</name>
+    <style>freeForm</style>
+    <subject>AquaFit Classes</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+
+
+
+
+Dear Parents and Teachers,
+
+
+We would like to let you know that our friends from K2Fit will be organizing &apos;AquaFit&apos; classes for adults beginning this Saturday, 31st August at the BSG Swimming pool.
+
+
+For contact information and further details, PLEASE CLICK HERE.
+
+
+Kind Regards,
+
+The Administration Team
+
+The British School of Guangzhou
+
+World Class Education &lt;?xml:namespace prefix = u1 /&gt;&lt;?xml:namespace prefix = o /&gt;
+
+
+
+
+
+
+
+_____________________________________________________
+
+
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

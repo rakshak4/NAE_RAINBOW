@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Uniform Shop Krylatskaya Temporarily Closed</name>
+    <style>freeForm</style>
+    <subject>Uniform Shop Krylatskaya Temporarily Closed</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+Please note that the uniform shop in Krylatskoe campus will be closed from Thursday, 1pm until Wednesday morning due to new stock arrival and stock update. We will reopen on Wednesday, September 03, at 8am. Please accept our apologies for the inconvenience.
+
+Regards,
+
+Admissions Team
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

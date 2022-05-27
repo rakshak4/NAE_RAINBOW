@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to parent about wearing best school uniform to opening ceremony</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Email to parents about uniform 2013</name>
+    <style>freeForm</style>
+    <subject>Students to wear Best School Uniform for Opening Ceremony of New Building</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The official opening of the new campus will be on Thursday 14th November. For this occasion, all the children will be required to wear their full school uniform, including blazer, tie and black school shoes. The children should bring their PE kit to school on this day if they have PE and they can change before their lesson. If you need to purchase some items, you can contact Mr. Anvar (school cashier) who has everything in stock now.
+
+
+
+
+
+Официальная церемония открытия нового здания будет проведена в четверг 14го ноября. По этому случаю, все дети должны быть одеты в парадную школьную форму, включая пиджак, галстук и чёрные школьные туфли. Форму для физкультуры нужно принести с собой, чтобы переодеться  в неё перед началом урока.  Если вам необходимо приобрести что-либо из формы, вы можете приобрести это у мистера Анвара, в наличии есть все необходимое.
+
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

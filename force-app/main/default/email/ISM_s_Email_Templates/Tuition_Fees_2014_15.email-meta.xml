@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Tuition Fees 2014-15</name>
+    <style>freeForm</style>
+    <subject>Tuition Fees 2014-15</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+
+Dear Parents,
+We would like to inform you about the increase in fees, which will come into effect for the 2014-15 academic year beginning in August this year. The increase is necessary to cover the rising operating costs in Moscow and our continued investment in the development of ISM.
+As you know we try to ensure that costs to our families are always considered carefully in our financial decision-making. The increase will concern the tuition fees and the bus fee. The costs of lunches and uniforms will remain the same. Please click here to download the revised fee structure.
+Should you wish clarification on any information contained in the attached document, please contact our Head of Administration, Anastasia Ramazanova.
+Best regards,
+Paul Seedhouse
+Headteacher
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

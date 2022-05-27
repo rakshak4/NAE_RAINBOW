@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Note to LC parents about group photos 2014</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Note about group photos</name>
+    <style>freeForm</style>
+    <subject>Class photos in Lower Campus</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Kindly be informed that class photographs will be taken again tomorrow (Tuesday 20th May) on the Lower Campus. Please send your child to school wearing full school uniform including school tie and black school shoes.
+
+
+Year 1 children are to bring their PE kit to school and will change for PE lessons in the afternoon.
+
+
+
+
+Уважаемые родители,
+
+
+
+Во вторник, 20 мая в школе состоится повторная съемка групповых фотографий.
+
+
+Убедительно просим  Вас проследить за тем, чтобы Ваш ребенок был одет в полный комплект школьной формы, включающий в себя  галстук и черную школьную обувь.
+
+
+Пожалуйста, передайте ребенку спортивную форму с собой, если в расписании его  класса присутствует  урок физкультуры.
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

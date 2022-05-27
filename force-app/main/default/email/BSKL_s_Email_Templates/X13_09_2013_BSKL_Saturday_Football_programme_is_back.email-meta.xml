@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>13/09/2013 Primary and Foundation ASA Booklet</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>13/09/2013 Primary and Foundation ASA Booklet</name>
+    <style>freeForm</style>
+    <subject>Primary and Foundation ASA Booklet</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please find attached the ASA Information Booklet for the first term.
+
+This year the children based in the primary campus (Reception - Year 3) will register online as they did last year. Please follow the link below to register. Choose a first, second and third choice for each day. You will have to repeat the process for each child.
+
+Year 4 - 6 will register themselves in class on Wednesday morning. Please discuss the options with your children and ensure that they are prepared to make their selections on Wednesday.
+
+I will be available in my room (4SA) on Tuesday between 3:00 and 4:00pm to answer any questions you may have.
+
+ASA Information Booklet
+( https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004RoE/FYoVodth.k4U_1sY3dkU3cgf5BcW2LS5rZRbcxCPoPs= )
+BSKL Foundation &amp; Primary ASA Registration 2013 - 2014
+( https://docs.google.com/forms/d/1G6UurWk4thqfT7ha5Dv4VgtfpWXsfJuZcyZkRmoxdek/viewform )
+
+Best wishes,
+Sean Allday
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

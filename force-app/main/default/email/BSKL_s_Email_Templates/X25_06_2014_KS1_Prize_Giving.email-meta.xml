@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>25/06/2014 KS1 Prize Giving</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>25/06/2014 KS1 Prize Giving</name>
+    <style>freeForm</style>
+    <subject>Invitation to KS1 Prize Giving</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+You are invited to attend BSKL&apos;s Key Stage 1 Prize Giving on Thursday, 10th July 2014 at 10am at the Secondary Theatre. Our guest speaker is Mr Giles Duley, an award-winning war photojournalist. Canapés will be served between 11am and 11:45am by the pool side.
+
+Please RSVP by 27th June 2014 via the online form in the link below.
+
+Online RSVP form (https://docs.google.com/forms/d/1AV1O20aqrezYM2aYA11zOlbOpa7F_AItUpqP84cnGyc/viewform)
+
+Invitation to KS1 Prize Giving (https://drive.google.com/file/d/0B57vMviVDx-xcVpURzRkN1NHWnc/edit?usp=sharing)
+
+
+Kind regards,
+
+Admin Team
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>new initiative</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>new initiative</name>
+    <style>freeForm</style>
+    <subject>New Initiative</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Happy New Year and welcome back! This term will prove to be a very exciting one for a number of reasons.
+
+Firstly, I am pleased to announce the arrival of Miss Michelle McCarthy to our Year 4 team. Miss McCarthy is settling in well to life at The British School of Guangzhou. She is extremely happy to be working at the school and we are delighted that she has joined us here.
+
+Secondly, we have an exciting curriculum announcement to make. It is our aim to give the students of BSG the very best educational experience, equipping them for their future. After Chinese New Year every student in Year 4 will receive an iPad Mini. The iPad Mini will be given to students as part of a pilot project, which aims to enhance teaching and learning both in and beyond the classroom environment.
+
+In order for this project to be a success we are incredibly keen for parents to be fully involved. Therefore, I would like to invite all Year 4 parents to a meeting that will take place at 6:00pm on Monday 28th January. At this meeting we will present you with further information about the initiative and address questions you may have.
+
+The Year 4 team and I look forward to seeing you very soon.
+
+Kind regards,
+David Laird
+Head of Primary
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

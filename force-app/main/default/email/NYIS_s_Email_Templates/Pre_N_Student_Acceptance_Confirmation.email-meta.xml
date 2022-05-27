@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Acceptance E-mails</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Pre-N Student Acceptance Confirmation</name>
+    <style>freeForm</style>
+    <subject>NYIS - Pre-Nursery Acceptance Confirmation</subject>
+    <textOnly>New York International School
+World Class Education
+
+
+Dear {!Opportunity.Primary_Contact_Salutation__c} {!Opportunity.Primary_Contact_Last_Name__c}:
+
+Congratulations! On behalf of NYIS, I am truly delighted to offer {!Opportunity.First_Name_Last_Name__c}
+​
+​
+​
+a place in The New York International School’s {!Opportunity.US_Grade_Names__c} program for academic year 2015/16.  We enjoyed getting to know your family through the admissions process, and it would be a pleasure to welcome you into our community.
+
+To accept this place, please submit payment of the $3,000 Enrollment Fee, and return the completed Conditions and Declarations Form within ​five (5) business days.  Please note that until we receive payment of the Enrollment Fee, your child’s enrollment with The New York International School will not be complete.  Please click here to pay your $3,000 Enrollment Fee by secure e-check.
+
+Please send the Conditions and Declaration Form to:
+
+Elizabeth Katz
+Director of Admissions
+The New York International School
+747 Third Avenue, 2nd Floor
+New York, NY 10017
+
+Additionally, in preparation for your child’s first day please let me know, by replying to this email, which language option you have selected.  Students in the Primary years have the choice between Mandarin or Spanish.
+
+Please note that if we do not hear from you or receive the Enrollment Fee within five (5) business days, ​we shall assume you no longer wish to continue with enrollment and this acceptance shall become void.
+
+Please do not hesitate to get in touch should you require any further information or assistance.  I look forward to welcoming your family to NYIS this fall!
+
+Kindly,
+
+Elizabeth
+
+Sincerely,
+Administration Team
+New York International School
+World Class Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

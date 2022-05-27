@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>ISM Rosinka Term 1 reports and PTCs</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>ISM Rosinka Term 1 reports and PTCs</name>
+    <style>freeForm</style>
+    <subject>Initial Reports and PTC Guidance</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

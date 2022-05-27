@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Music Marathon 2012</name>
+    <style>freeForm</style>
+    <subject>Music Marathon 2012</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear Parents.
+
+We wanted to share with you the work that was done in the last Music Marathon that took place in 2010 (please click here) and of course the fantastic outcome of this years Music Marathon that raised 527,613 roubles, of which 50% will go to Diemas Dream and the other 50% to BBC Children in Need. This means that we have raised enough money to help Anna Izotova (please click here).
+
+We would also like to take this opportunity to convey to you and all the students a big, big thank you for your generosity in supporting the event and the two charities.
+
+Kind regards,
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

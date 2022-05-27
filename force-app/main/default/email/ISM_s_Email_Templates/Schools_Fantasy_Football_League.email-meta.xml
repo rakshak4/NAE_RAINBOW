@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Schools Fantasy Football League</name>
+    <style>freeForm</style>
+    <subject>Schools Fantasy Football League</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+This year, I am delighted to announce that The International School of Moscow will make its bow in The Schools&apos; Fantasy Football League.
+
+The Schools&apos; Fantasy Football League is enjoyed by students, teachers, school staff and parents in schools around the world. Joining up is free and playing is very simple. In a nutshell, you have 110 Million Pounds Sterling to assemble your own English Premier League football team, selecting your eleven players from all the English Premier League clubs. Throughout the season, you are also allowed to buy new players every month in order to improve your team&apos;s performance.
+
+I encourage as many people as possible in our school community to join the league. Having been a member in two of my previous schools, I believe that the Schools&apos; Fantasy Football League serves as a great tool in bringing school communities even closer together. Parents I know love being able to compete against their children and their children&apos;s friends, not only in Moscow but against students, teachers and parents from across the globe. The league has even received praise from the British Government who have stated that by competing, children can not only improve their mathematics skills but also their economic awareness.
+
+Knowledge of football is certainly not a requirement to participate in the league. I have been &apos;pipped at the post&apos; in leagues by children and adults who, by their own admission, know absolutely nothing about football.
+
+There are numerous prizes and &apos;Manager of the Month&apos; awards are made very month so there is always something for which to play.
+
+Over the last week, I have launched our league in assemblies across our school. I am delighted to say that I have been inundated with students keen to participate. However, I believe our league would be even better with as many parents as possible participating.
+
+If you would like to sign up, select your team and register, go to: www.schoolsfl.com
+
+To join our International School of Moscow&apos;s Premier League, you should also add our league&apos;s pin number which is: 8537032.
+
+I hope to see as many people as possible from our community joining the ISM Premier League. Our Head of Mathematics, Mr Tumpane&apos;s previous school&apos;s league consisted of 2000 members. That figure certainly gives all of us at ISM something to aim for!
+
+If you have any queries, please do not hesitate to contact me.
+
+Best Wishes,
+
+Paul Keach
+
+Chairman ISMPL, Head of Secondary School and Upper Campus.
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

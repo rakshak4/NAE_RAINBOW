@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>09/04/2013 BSKL Newsletter</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>09/04/2013 BSKL Newsletter</name>
+    <style>freeForm</style>
+    <subject>BSKL Newsletter</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please click on the link below for the latest BSKL newsletter, also update on January 2013 Newsletter :
+
+March Newsletter
+( https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004QO0/6fB.Y0kKz7rMIuRxyaDcLpatexBZm1cGncpUUAi.2eY= )
+
+January Newsletter
+( https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004QOP/zHocuHyI9U3Bj1FwlAOeOcDenGBDSc0iJhI6NYyjmik= )
+
+Happy reading!
+
+Kind Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Automatic Email sent to the finance office informing them of a change in the decision field of a financial aid record which will likely require them to make a change to fee assignments and invoicing</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Grp/Adm Email informing change of financial aid decision</name>
+    <style>freeForm</style>
+    <subject>Financial Aid Decision Update - {!Student_Grant__c.Student_Full_Name__c}</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

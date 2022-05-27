@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>23/05/2013 Head lice</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>23/05/2013 Head lice</name>
+    <style>freeForm</style>
+    <subject>Head lice</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+From time to time in a school it is not uncommon to have head lice appear in children’s hair. We have a Y2 child whose parents have kindly informed us of this situation this week. As a result, all children will be checked for head lice this week and again next week. We will call any parents of any pupils with head lice, but ask that all parents read the information below.
+
+What are lice?
+
+Lice are very common in children. Transmission is via head-to-head contact and has nothing to do with hygiene.
+
+The head louse is a tiny greyish-brown insect, about 2.5mm long.
+Head lice cling to hair and are usually found on the scalp. They live on blood from the host, which they get by biting through the scalp.
+Adult lice mate. The female then lays eggs that are firmly attached to hair close to the scalp and can be very difficult to remove.
+After seven or eight days the baby louse hatches out of the egg, leaving a shiny white empty eggshell (nit), which may be found anywhere along a strand of hair.
+
+What causes an infection of head lice?
+
+Infection with head lice is a common problem, especially among school children.
+Lice pass from one person to another during direct head-to-head contact. This is because lice cannot jump, fly or hop; they can only transfer to another head by walking along strands of hair.
+Children standing close together at school or families enjoying a cuddle at home provide head lice with the ideal opportunity to travel from one head to the next.
+Lice seen on pillows, hats or chair backs are not capable of transferring to another person.
+The belief that head lice are associated with poor hygiene is common but unfounded. Lice are equally likely to be found on clean or dirty hair.
+Head lice should be seen as nothing more than an unpleasant inconvenience that can be treated.
+
+What symptoms do head lice cause?
+
+Bites from head lice can cause intense itching and irritation on the scalp, but these symptoms may not appear until at least two months after the lice move in. A rash at the nape of the neck may also develop.
+
+What is the best way of looking for head lice?
+
+You can part the hair and look for nits, but the lice will move quickly into hiding.
+
+The best way to search for head lice and nits is to buy a specially designed detection (nit) comb from a pharmacy. This is a fine-toothed plastic comb with spacing of less than 0.3mm. You can check for lice on dry or wet hair.
+
+Head lice tip
+
+To help detection, get your child to lean over a sheet of light coloured paper or cloth as you comb the hair.
+
+Both live lice and eggshells may drop onto the paper.
+
+Use a brush or an ordinary comb to first detangle hair.
+Once hair has been detangled, switch to the detection comb.
+Start at the middle of the front of the scalp.
+Comb the hair from the roots to the very end of the hair.
+After each stroke, examine the teeth of the comb for living lice.
+Rinse the comb if you find any lice.
+Continue combing section by section until you&apos;ve done the whole head of hair.
+Make sure you cover every inch of the scalp, including the area just behind the ears and at the nape of the neck.
+
+What if I find lice?
+
+Check every other member of the family, including any adults who have close contact with the child.
+
+You can work out when the lice first moved in by judging how many centimetres from the scalp you find the nits. Hair grows at about 1cm a month; so a nit 2cm from the scalp was laid about two months ago.
+
+It&apos;s also helpful to tell our school and parents of any other child who may have had head-to-head contact with your child, so that other children can be checked for lice.
+
+To remove nits - wet combing. Simply wash hair and apply lots of conditioner before slowly and carefully combing the hair section by section to remove the nits and eggs. Afterwards, rinse out the conditioner and check through the hair again with the nit comb before drying. People with thick hair often find conditioner makes it easier to get the nit comb through. If you have curly hair you may find that oiling rather than wetting hair makes it easier to use the nit comb effectively. You can do this with one tablespoonful of olive oil.
+
+Please contact the school nurse or myself with any questions.
+
+Warm regards
+
+Janet Brock
+Headteacher
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

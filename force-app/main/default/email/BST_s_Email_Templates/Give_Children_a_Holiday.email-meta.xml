@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to parents about charity for children with HIV positive.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Give Children a Holiday</name>
+    <style>freeForm</style>
+    <subject>Give Children a Joy..!!!</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Continuing the tradition to create good deeds, on the eve of World AIDS Day, which is celebrated annually on the 1st of December, Ucell Volunteers plan to conduct joint charity event with the Center for HIV Positive Children to support children with HIV. Anyone can take part in the event and express his/her care for the children by bringing toys for them, or financial aid via special boxes installed at Ucell offices.
+Using collected funds, Ucell Volunteers will organize the celebrations for children with sweets, soft drinks and animation entertainment. Also collected toys will be distributed to children on the event day.
+Ucell Volunteers kindly ask each of you to take an active part and provide all possible assistance to children who need our care and support.
+Make children happy, don’t be indifferent!
+Together we can make children&apos;s life brighter and more interesting!
+
+
+Box for donations can be found in reception area of BST lower campus. Your help will be appreciated.
+Financial support collection for this action is carried out by Ucell Volunteers (listed below) and at the front offices of Ucell where you can find special boxes.
+Leonid Tszyu (MobileCity, Vakhidov str., 118)
+Kholida Kurganbekova (Call Center, Vakhidov str., 118)
+Timur Iskhakov (6th floor, Ucell Plaza)
+Timofey Pavlov (2nd and 3rd floor, Ucell Plaza)
+Timur Sirotin (4th floor, Ucell Plaza)
+Ekaterina Bushkina and Iskandar Mazitov (5th floor, Ucell Plaza)
+Shukhrat Bazarbayev (7th floor, Ucell Plaza)
+Sevda Hagverdiyeva and Dinara Abibullaeva (8th floor, Ucell Plaza)
+We thank you for kindness and mercy!
+Yours faithfully,
+Volunteers of Ucell
+
+
+Уважаемые родители!
+Сохраняя добрые традиции и продолжая творить добрые дела, группа Волонтеров Ucell совместно с Центром для ВИЧ-позитивных детей, в канун Всемирного дня борьбы со СПИДом, который ежегодно отмечают 1 декабря, проводит очередную совместную благотворительную акцию по поддержке детей с ВИЧ положительным статусом. Принять участие в акции и выразить свое добро и не безразличие к проблеме может каждый желающий, оставив для детей игрушку, либо посильные материальные средства в специально установленных в офисах Компании прозрачных ящиках.
+На собранные средства волонтерами будет устроен праздник для детей со сладостями, напитками и анимационным представлением. На празднике детям также будут переданы собранные игрушки.
+Волонтеры Ucell просят каждого из вас не оставаться равнодушными и принять активное участие, оказать посильную материальную помощь, детям, которым очень важно наше внимание и проявление милосердия.
+Подарить детям праздник просто, главное не оставаться равнодушными!
+Вместе мы сделаем жизнь детей ярче и интересней!
+Спасибо, за участие в акции!
+
+Ящик для сбора средств установлен в приемной здания детского сада (старое здание).
+Сбор материальных средств для акции осуществляется через уполномоченных активистов группы “Добровольцы Ucell” (указаны внизу), а также в офисах Компании через специально установленные прозрачные ящики.
+Леонид Цзю (MobileCity, ул. Вахидова, 118)
+Халида Курганбекова (Call Center, ул. Вахидова, 118)
+Тимур Исхаков (6 этаж, Ucell Плаза)
+Тимофей Павлов (2 и 3 этаж, Ucell Плаза)
+Тимур Сиротин (4 этаж, Ucell Плаза)
+Екатерина Бушкина и Искандар Мазитов (5 этаж, Ucell Плаза)
+Шухрат Базарбаев (7 этаж, Ucell Плаза)
+Севда Хагвердиева и Динара Абибуллаева (8 этаж, Ucell Плаза)
+Благодарим Вас за доброту и милосердие!
+С уважением,
+Волонтеры Ucell.
+
+
+
+Regards,
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

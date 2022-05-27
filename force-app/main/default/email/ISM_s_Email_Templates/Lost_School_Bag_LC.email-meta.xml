@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Lost School Bag LC</name>
+    <style>freeForm</style>
+    <subject>Lost School Bag LC</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear Parents,
+
+Could you please check that you, the driver or guardian of your child(ren) have not taken a school bag by mistake. Please find the details below:
+
+&apos;Its the standard school bag, with a small &apos;A&apos; in black biro at the top of the orange stripe and a pink keyring with 4 cat pictures on it, attached to the big ring for the strap, at the side of the bag&apos;. It has a raincoat inside and glasses in the front pocket.
+
+If you have it, could you please bring it to school tomorrow and leave it at the lower campus front desk.
+
+Many thanks for your attention.
+
+Best regards,
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

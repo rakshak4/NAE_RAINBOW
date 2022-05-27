@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Welcome Back to School</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Welcome Back to School</name>
+    <style>freeForm</style>
+    <subject>Welcome Back to School !</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+
+
+
+
+
+Dear Parents,
+
+
+Welcome back to the start of the 2014-15 academic year. It was lovely to see so many of you at the Orientation and Meet the Teacher Day on Friday and to get such positive feedback regarding the school improvements.
+
+
+As always at the start of the year there will be a few logistical issues to deal with. We are aware that there were a number of bus issues today and have heard that some parents did not receive the information that was sent out about buses. If you have bus issues you are welcome to contact our bus manager Claire@bsg.org.cn but please note that it may take a few days to adjust problems with pick up times and routes. You can be sure that we will be doing everything possible to ensure that all students are in school for the 8am start time by next week.
+
+
+Our thanks to parents of children, on the Nanhu (South Lake) campus, who bring students to school by car, as the arrival and departure were impressively smooth. Please can I emphasise once again that we do not have parking spaces available within the school gates. Private cars will therefore only be allowed to enter the site to drop off or collect students and will not be allowed to wait. Students being dropped off will then follow the new pedestrian walkway to school. New parents should note that Guangzhou is prone to heavy rainfall so please ensure you have umbrellas available for students who are being dropped off. We are currently in the process of adding covered a walkway over the steps to the new KS1 building but until this is in place umbrellas will be essential.
+
+
+
+
+For those parents who bring and collect students on our Lakefront Campus, I would like to remind you that cars must not stop on the road, even to drop passengers off. All cars must park in the car park above school and parents and students should walk down to school.
+
+
+
+Finally I would like to make you aware of an unplanned evacuation of our Nanhu (South Lake) building that took place this morning. The evacuation was necessary because a faulty air conditioning unit overheated causing the plastic casing to burn. This happened before buses arrived and the building was quickly evacuated and the fire extinguished. As you can imagine we consider this to be a serious issue and are currently investigating to see what caused the air conditioning unit to overheat. Fortunately the damage was relatively minor and has caused limited disruption. We were forced to relocate a number of classes today, mainly because the air conditioning units were not available to use. By tomorrow classes will be in their original rooms with the exception of Mr. Champness’ class who will be relocated until next week to allow maintenance to be completed. As part of our Health and Safety policy we have an evacuation practice in the first week of the new term. This practice will go ahead as normal to ensure that all new students and staff are fully aware of the evacuation procedures.
+
+
+
+
+On a positive note we will be publishing this year&apos;s examination results on the website soon. The results this year are even better than expected and once again emphasise that, ‘The British School of Guangzhou is a place where you can achieve academic success and have a great time.’ As you know we are now part of the Nord Anglia Education group of 31 International schools. I am extremely proud to note that our current IGCSE results are likely to be the best results within this prestigious group. I would like to publicly congratulate the students, who have worked so hard, to achieve these impressive results and to thank Secondary teachers and parents for the support and encouragement that they have given to these students.
+
+
+Regards,
+
+
+Mark Thomas
+
+
+Principal
+
+
+
+
+
+The British School of Guangzhou
+
+
+
+
+
+
+
+
+
+
+____________________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

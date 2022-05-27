@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Note to parents about reading meeting 2014</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Reading Inset for parents</name>
+    <style>freeForm</style>
+    <subject>Reading Workshop</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I would like to invite you to a meeting on Friday 7th November at 3.45 pm so I can discuss some new reading resources and websites that the school is currently using. I believe that reading is key to the success of your child at BST and I will be sharing our ideas on how to improve reading and installing a love of reading for your child.
+
+Regards,
+
+Rory Barclay
+
+
+Уважаемые родители,
+
+Приглашаю Вас на встречу,которая состоится  в пятницу 7 ноября в 3:45 дня, на которой будут обсуждаться различные  новые ресурсы для чтения,а также сайты, которые  школа успешно использует в данное время. Я считаю, что чтение является ключом к успеху в обучении  Вашего ребенка в BST, и я с удовольствием буду делиться своими идеями о том, как улучшить чтение и привить любовь Вашего ребенка к нему.
+
+С нетерпением жду встречи с вами,
+
+Рори Барклай
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

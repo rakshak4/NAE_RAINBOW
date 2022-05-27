@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>INFORMATION PACK NEW STUDENTS BSN</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>BSN information pack New Students</name>
+    <style>freeForm</style>
+    <subject>BSN INFORMATION PACK NEW STUDENTS</subject>
+    <textOnly>Estimada familia,
+
+En primer lugar queríamos agradecerles la confianza que han depositado en nuestro colegio para la enseñanza de sus hijo/a/os
+
+Me dirijo a ustedes en relación a los pagos de las cuotas mensuales del colegio para el siguiente curso académico 2018-2019.
+Por favor rellenen la hoja que se adjunta, indicando el número de cuenta para la domiciliación de los mismos así como un dossier informative sobre el comienzo de curso y la adaptación en los más pequeños (PN).
+
+El primer pago se realizará el 27 de Agosto 2018.
+
+POR FAVOR RUEGO ME INDIQUEN ANTES DE ESTA FECHA SI SU HIJO ATENDERÁ  MEDIA JORNADA O JORNADA COMPLETA (sólo en el caso de los alumnos en Pre-Nursery)
+
+La cuota de comedor es de 130€/mes.
+
+Muchas gracias de antemano.
+
+Reciban un cordial saludo,
+
+Laura González
+Admissions officer</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

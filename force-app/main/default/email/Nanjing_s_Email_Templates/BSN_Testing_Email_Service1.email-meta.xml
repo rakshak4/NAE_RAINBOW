@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Emails Testing</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>BSN - Testing Email Service</name>
+    <style>formalLetter</style>
+    <subject>Testing Email Services - Urgent - Response - Required - Important</subject>
+    <textOnly>BSN - Testing Email Services - First Email 
+
+
+Dear BSN Families,
+
+As The British Schools Foundation is currently working to upgrade our school services through the introduction of a new parents&apos; portal, our CMS and email servers have been undergoing change.
+
+We&apos;ve been notified by several families that they haven&apos;t been receiving all of our emails. Quite a few families have received one or two of the emails sent during the week but not all. Others report that our emails are going to their Spam folder.
+
+We are trying to pinpoint the problem as we currently suspect that our new email server is being blocked by some email accounts as spam. This is a known issue for many new accounts. Thus the reason for the oddly worded Subject Line for this email.
+
+Directly after this email, we will be sending another email with the same content but a different subject line.
+
+In light of this, please take a moment to check with your spouse to ensure that each of you received this email and the next. If only one of you have received either message, then please write and let us know which of you received and which of you didn&apos;t. Additionally, if you only receive one of the messages, please write to tell us which one you received, the first or the second.
+
+Your help &amp; patience would be greatly appreciated as we run these tests.
+
+Kind Regards,
+
+Joshua Maddox
+
+Administration Director
+
+The British School of Nanjing
+
+Tel: +86 (25) 5210 8987
+
+Fax: +86 (25) 5210 2385
+
+www.bsn.org.cn
+Chartered by The British Schools Foundation
+
+
+*Disclaimer:*
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited.
+
+The British School of Nanjing</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

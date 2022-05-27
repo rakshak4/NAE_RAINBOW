@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Holiday Football Camp Starts Monday 30th September</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Holiday Football Camp Starts Monday 30th September</name>
+    <style>freeForm</style>
+    <subject>Holiday Football Camp Starts Monday 30th September</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+
+
+Dear Parents,&lt;?xml:namespace prefix = o /&gt;
+
+
+
+This is a reminder that our friends from the Guangzhou Football Academy will be holding a &apos;Holiday Football Camp&apos; at the school next week.
+
+
+
+If you or you friends would like to enrol your children or find out more information, PLEASE CLICK HERE.
+
+
+
+Best wishes,
+
+
+
+The British School of Guangzhou
+
+World Class Education
+
+
+
+
+____________________________________________________
+
+
+University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

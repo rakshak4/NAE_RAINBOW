@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Primary Blog Concerns and Advice</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Primary Blog Concerns and Advice</name>
+    <style>freeForm</style>
+    <subject>Primary Blog Concerns and Advice</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+
+Blog Concerns and Advice
+
+
+
+
+
+Dear Parents,
+
+
+We have been made aware in the last few weeks that access to the primary blogs has been inconsistent. We apologise for this as we understand that this causes inconvenience when homework cannot be accessed at home all of the time. We have been in contact with our blog hosts, ‘Edublogs’ who have assured us that the blogs have not and will not be blocked in China any time soon. It is likely that some Internet Service Providers (ISPs) are having difficulty accessing the site due to recent tensions in China resulting in stricter control of web access.
+
+
+In order to avoid these problems we have some suggestions.
+
+
+1) Subscribe to a VPN (Virtual Private Network)
+
+
+VPNs re-route your connection via their own dedicated servers in others countries--typically across the US, Europe, and other parts of Southeast Asia. This means you have access to an uncensored www. This is beneficial for students as they will be able to use youtube, bbc and countless other educational resources.
+
+
+VPNs typically cost around $50 for a year and take around 15 minutes to set-up online.
+
+
+2) Use a Proxy Server
+
+
+A VPN gives very secure and reliable access to any website. If you do not wish to purchase a subscription however you can use a proxy server. These can be accessed from any device although are likely to be a little slower and slightly less reliable.
+
+
+
+At the moment we have been trialing http://free-proxyserver.com/ which has been working very well on iPad and desktop computers. Best of all, it is free!
+
+
+Hopefully as time progresses, access will become more reliable which will mean that these measures will not be necessary.
+
+
+We thank you for your continued support.
+
+
+Mr Alasdair Carr
+
+eLearning Director
+
+The British School of Guangzhou
+
+
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

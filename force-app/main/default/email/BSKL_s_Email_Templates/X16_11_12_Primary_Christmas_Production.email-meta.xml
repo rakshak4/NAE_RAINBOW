@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>16/11/12 Primary Christmas Production</name>
+    <style>freeForm</style>
+    <subject>Primary Christmas Production</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The count-down to Christmas is well underway! Christmas songs can frequently be heard around the school!
+
+As I am sure you are already aware, the Primary Christmas Production this year is called Christmas Recipe.
+Every child from Years 1 to 5 will be involved in it and each child has the opportunity to ‘star’ on-stage during their own class number.
+
+Dates
+
+It will be held on two nights, since we have limited space. Parents are requested to come on these specific nights:
+
+Year 1 &amp; 2 parents: Wednesday 12th December 2012
+Year 3, 4 &amp; 5 parents: Thursday 13th December 2012
+
+Main Character Parts
+
+The main character parts are few in number and in order to give more children the opportunity (as well as doubling up as &apos;understudies&apos;, in the possible event they would be needed), we have two casts for the main characters. Please see the end of this email if your child has a part.
+
+Songs – lyrics and MP3s
+
+All the children have been asked to learn the full list of songs (which totals 10) by heart, which is quite a feat, but we know the children can do it!
+
+To help the children with this, MP3s of the songs can be accessed and downloaded at home by clicking on the following link:http://www.filefactory.com/f/b90350e6fbaeee24 (please note that the files are compressed and in order to open them, &apos;winzip&apos; or similar is required).
+
+A copy of all the song lyrics can also be found by following the below link for the children to sing along with.
+
+Christmas Recipe Song Lyrics
+
+Costumes
+Regarding costumes, your child’s class teacher will, by now, have contacted you, or is liaising with the Class Rep on what the children may need to get ready and bring into school.
+
+Character
+
+Cast 1
+
+Cast 2
+
+(12th December)
+
+(13th December)
+
+Name
+
+Class
+
+Name
+
+Class
+
+Chef
+
+Julian Fenby
+
+4C
+
+Leong Weng Kit
+
+5B
+
+Cat
+
+Isaac Tan
+
+4B
+
+Lucy Daynes
+
+3A
+
+Dog
+
+Lucas Lomas
+
+3A
+
+Chloe Tan
+
+5A
+
+Father Christmas
+
+Haider Majeed
+
+3A
+
+Oliver Eger
+
+4A
+
+Mary
+
+Sophie Heneberry
+
+3B
+
+Sonia Aashika Sanjay
+
+3B
+
+Joseph
+
+Mahmud Eusuff Ewan
+
+3A
+
+Wylie Sia
+
+3B
+
+Wise Man 1
+
+Arun King
+
+4C
+
+Felix Brunner
+
+4B
+
+Wise Man 2
+
+Joseph Low Joo See
+
+3C
+
+Jang Yeon Park
+
+3C
+
+Wise Man 3
+
+Justin Ba-U Yuen
+
+3C
+
+Siddharth Ravindran
+
+3C
+
+Tickets
+
+Tickets will be on sale within the next two weeks - the exact date will be announced very soon.
+
+Many thanks for your support!
+
+Kind regards,
+Charlotte Leng
+Primary Music Teacher
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

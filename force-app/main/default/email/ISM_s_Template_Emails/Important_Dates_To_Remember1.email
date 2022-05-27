@@ -1,0 +1,510 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:TrackMoves/>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>JA</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="276">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="0" Name="header"/>
+  <w:LsdException Locked="false" Priority="0" Name="footer"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="0" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+</style>
+<![endif]-->
+
+
+
+<!--StartFragment-->
+
+<p class="MsoNormal"><img src="https://c.eu1.content.force.com/servlet/servlet.ImageServer?id=015D0000001P0aw&amp;oid=00DD0000000DDpn" border="0" align="left" alt=""><font class="Apple-style-span" size="5"><br></font></p><p class="MsoNormal"><font class="Apple-style-span" size="5">The International School of Moscow</font></p><p class="MsoNormal" style="font-size: 12pt; "><br></p><p class="MsoNormal" style="font-size: 12pt; "><br></p><p class="MsoNormal" style="font-size: 12pt; ">Dear Parents,<o:p></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; ">I want to ensure that you are aware of the important dates
+ahead in this term so that you do not miss any important events.<o:p></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" align="center" style="font-size: 12pt; text-align: center; "><b style="mso-bidi-font-weight:
+normal">November<o:p></o:p></b></p>
+
+<p class="MsoNormal" align="center" style="font-size: 12pt; text-align: center; "><b style="mso-bidi-font-weight:
+normal"><o:p>&nbsp;</o:p></b></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><u>Thursday 3<sup>rd</sup> and 10<sup>th</sup>:</u> Parent
+teacher Consultations Years 1-9 (4-6pm)<o:p></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><u>Monday 7<sup>th</sup>: </u>3S and 7A Class Assemblies.
+Parents from those classes welcome<u><o:p></o:p></u></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><u>Tuesday/ Wednesday 8<sup>th</sup> and 9<sup>th</sup>:</u><span style="mso-spacerun:yes">&nbsp; </span>Last weeks of After School Activities for
+Term One<o:p></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><u>Monday 14<sup>th</sup>: </u>3D and 7B Class Assemblies.
+Parents from those classes welcome<o:p></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><u>Friday 18<sup>th</sup>:</u><span style="mso-spacerun:yes">&nbsp; </span>Foundation Stage Initial Reports sent home<o:p></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><u>Monday 21<sup>st</sup>: </u><span style="mso-spacerun:yes">&nbsp;</span>3C<u> </u>Class Assembly.<span style="mso-spacerun:yes">&nbsp; </span>Parents from 3C welcome<o:p></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><u>Tuesday 29<sup>th</sup>: </u><span style="mso-spacerun:yes">&nbsp;</span>Y1 Production 9:30 am<o:p></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><u>Wednesday 30<sup>th</sup>:</u><span style="mso-spacerun:yes">&nbsp; </span>Y4 Production 9:30 am<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Y1 Production 6:00 pm<o:p></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" align="center" style="font-size: 12pt; text-align: center; "><b style="mso-bidi-font-weight:
+normal"><o:p>&nbsp;</o:p></b></p>
+
+<p class="MsoNormal" align="center" style="font-size: 12pt; text-align: center; "><b style="mso-bidi-font-weight:
+normal">December<o:p></o:p></b></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><u>Thursday 1<sup>st</sup> : </u>Y4 Production 6:00 pm<o:p></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><u>Friday 9<sup>th</sup> </u>Year 6- 9 End of Term One
+Reports sent home<o:p></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><u>Friday 9<sup>th</sup> </u><span style="mso-spacerun:yes">&nbsp;</span>Christmas celebrations – Whole School. Class
+reps will confirm details<o:p></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><u>Tuesday 14<sup>th</sup>:</u><span style="mso-spacerun:yes">&nbsp; </span>Christmas Carol Concert 6:00 pm. All<span style="mso-spacerun:yes">&nbsp; </span>ISM families are welcome<o:p></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><u><o:p><span style="text-decoration:none">&nbsp;</span></o:p></u></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; ">Please ensure that these dates are in your diary and I hope
+to see you soon at one or more of these events.<o:p></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><b style="mso-bidi-font-weight:normal"><o:p>&nbsp;</o:p></b><b style="mso-bidi-font-weight:
+normal"><o:p>&nbsp;</o:p></b></p>
+
+<p class="MsoNormal" align="center" style="font-size: 12pt; text-align: center; "><b style="mso-bidi-font-weight:
+normal">Information Update</b></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" align="center" style="font-size: 12pt; text-align: center; "><b style="mso-bidi-font-weight:
+normal">Pick –Up and Drop Off Times<o:p></o:p></b></p>
+
+<p class="MsoNormal" align="center" style="font-size: 12pt; text-align: center; "><b style="mso-bidi-font-weight:
+normal"><o:p>&nbsp;</o:p></b></p>
+
+<p class="MsoNormal" style="font-size: 12pt; ">We are continuing to work hard on systems to improve drop-
+off procedures and pick up procedures. Obviously the volume of traffic does
+make this a challenge but we are committed to seeking solutions.<o:p></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; ">As laid out in the handbook children should arrive no
+earlier than 15 minutes before registration each morning. (8:10 0n Upper Campus
+and 8:15 on Lower Campus) Please understand that all academic staff are busy before
+this time attending meetings or planning and preparing lessons for the day.<o:p></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; ">Similarly children should be collected promptly after school
+at the end of the day. (3:15 on Lower Campus and 3:30 on Upper Campus)
+Youngsters can get upset if parents are late and are waiting for long periods
+after a busy day. Your understanding and support is appreciated on these
+issues.<o:p></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" align="center" style="font-size: 12pt; text-align: center; "><b style="mso-bidi-font-weight:
+normal">Healthy Snacks<o:p></o:p></b></p>
+
+<p class="MsoNormal" align="center" style="font-size: 12pt; text-align: center; "><b style="mso-bidi-font-weight:
+normal"><o:p>&nbsp;</o:p></b></p>
+
+<p class="MsoNormal" style="font-size: 12pt; ">We have been working hard to improve school lunches while
+maintaining a balanced diet. Zarina has been doing great work in that
+department, consulting with students and teachers in a series of
+“taste-tests”.<span style="mso-spacerun:yes">&nbsp; </span>The children have
+responded positively and have been eating very well this term.<o:p></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; ">As a school we try very hard to encourage children to eat
+healthily. (The odd exceptions being birthday lollypops and special events) We
+would like to encourage children to bring healthy snacks to school to support
+this ethos.<o:p></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; ">In particular we would ask that wherever possible processed
+foods with high sugar and/or salt contents are avoided. Fresh fruit and
+vegetables are great choices as are homemade products.<o:p></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; ">Studies suggest that healthy, nutritious food is crucial in
+helping people perform at their best. This is particularly true for youngsters.
+We have observed of late more sweets and chocolates on the school premises.
+Please help us in teaching the children to make healthy choices and as a
+consequence perform better both in and out of school.<o:p></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><b style="mso-bidi-font-weight:normal"><o:p>&nbsp;</o:p></b></p>
+
+<p class="MsoNormal" align="center" style="font-size: 12pt; text-align: center; "><b style="mso-bidi-font-weight:
+normal">Baker Book Club: Lower Campus<o:p></o:p></b></p>
+
+<p class="MsoNormal" align="center" style="font-size: 12pt; text-align: center; "><b style="mso-bidi-font-weight:
+normal"><o:p>&nbsp;</o:p></b></p>
+
+<p class="MsoNormal" style="font-size: 12pt; ">We have been able to extend the deadline for purchasing
+books to<b style="mso-bidi-font-weight:normal"> Monday 7<sup>th</sup> November,
+</b>giving families an extra weekend to look at the catalogues provided. If you
+wish to take advantage of this opportunity, please make sure that your orders
+reach school by that date with the exact amount of money in a sealed envelope.<o:p></o:p></p>
+
+<p class="MsoNormal" align="center" style="font-size: 12pt; text-align: center; "><b style="mso-bidi-font-weight:
+normal"><i style="mso-bidi-font-style:normal"><span style="font-size:14.0pt;
+mso-bidi-font-size:12.0pt"><o:p>&nbsp;</o:p></span></i></b></p>
+
+<p class="MsoNormal" style="font-size: 12pt; "><span style="font-family:&quot;Lucida Grande&quot;;mso-bidi-font-family:
+&quot;Times New Roman&quot;;color:black"><o:p><br></o:p></span></p>
+
+<!--EndFragment-->]]></td>
+</tr>
+</table>

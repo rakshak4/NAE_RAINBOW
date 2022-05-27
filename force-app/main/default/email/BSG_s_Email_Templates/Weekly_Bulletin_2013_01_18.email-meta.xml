@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Weekly Bulletin 2013-01-18</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Weekly Bulletin 2013-01-18</name>
+    <style>freeForm</style>
+    <subject>Weekly Bulletin 2013-01-18</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Reports: Our Year 7, 8 and 10 students will receive a grade report outlining their performance in all their subjects over the second reporting period. Year 9 and Year 11 will receive a full report later in the term. Year 9’s receive their full report at this stage, as we believe that it is important for them to have more detailed information to allow them to make informed decisions with regard to their IGCSE option choices. Year 11’s receive their report so that the Mock examination performance can be discussed and any targets for their last weeks of their examination courses can be given. The other Year groups will receive their full report in the summer.
+
+There will also be options /parents evenings for these year groups to allow discussion with teachers with regard to progress and with an eye to choosing their future career path.
+
+Year 11 Mocks: Our Year 11 students have completed the first week of their mocks this week. They complete their mock exams next week and we wish the students the best of luck with these.
+
+AS Module examinations: The past 10 days has seen our first set of AS module examinations. These have involved students in Biology, Chemistry, Physics and Mathematics and we hope that our students will have performed to their potential in these.
+
+Senior House captain leadership weekend: On Friday, 25th January our senior house captains will begin a 2-day leadership weekend. They will be given a range of activities to help develop their leadership skills and to equip them to perform this role.  This is a new initiative that we are running this year to reward and prepare our students who have volunteered and been elected to take on these demanding roles
+
+Day
+
+Activity
+
+When
+
+Staff
+
+Monday 21st January
+
+Mock GCSEs
+
+Monday ASAs (week 2)
+
+08.15-3.55pm
+
+3:00–3:55pm
+
+All
+
+All
+
+Tuesday 22nd January
+
+Mock GCSEs
+
+Tuesday ASAs
+
+
+08.15-3.55pm
+
+3:00–3:55pm
+
+
+All
+
+All
+
+
+Wednesday 23rd January
+
+Mock GCSEs
+
+Wednesday ASAs
+
+
+08.15-3.55pm
+
+3.00-3.55pm
+
+
+All
+
+All
+
+
+Thursday 24th January
+
+Mock GCSEs
+
+House ASAs
+
+08.15-12.30pm
+
+3.00-3.55pm
+
+
+All
+
+All
+
+
+Friday 25th January
+
+Leadership weekend
+
+
+Leave
+
+IM/AB
+
+Kind regards,
+
+Mr. Iain Ruck
+Head of Secondary
+The British School of Guangzhou
+
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

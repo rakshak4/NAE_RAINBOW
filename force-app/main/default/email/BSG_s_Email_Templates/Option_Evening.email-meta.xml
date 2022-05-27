@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notice of intention to leave BSG</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BSG</letterhead>
+    <name>Notice of intention to leave BSG</name>
+    <style>freeForm</style>
+    <subject>Notice of intention to leave BSG</subject>
+    <textOnly>Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+We would like to give you one more friendly reminder regarding notice of intention to leave BSG at the end of this academic year.
+
+
+If you do intend to leave BSG, and you wish to receive your “Refundable Student Deposit” or “Early Notice Payback”, then you need to provide written notice by email to the Admissions Office by next Friday 6th April.
+
+
+If you require more information on “Refundable Student Deposits” or “Early Notice Payback”, please contact Irene@bsg.org.cn or admissions@bsg.org.cn
+
+
+Once again, withdrawal notice should be sent directly to Admissions by email by next Friday 6th April.
+
+
+Many thanks,
+
+
+Administration Team
+
+The British School of Guangzhou
+
+(+8620) 87094788
+www.bsg.org.cn</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

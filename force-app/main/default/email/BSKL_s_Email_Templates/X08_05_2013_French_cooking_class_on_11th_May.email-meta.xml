@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>08/05/2013 French cooking class on 11th May</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>08/05/2013 French cooking class on 11th May</name>
+    <style>freeForm</style>
+    <subject>French cooking class on 11th May</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We would like to remind you that the French cooking class is this Saturday, 11th May.
+
+The bus will depart from school at 8.30 am. To ensure we can leave on time, would you please make sure your child is in school no later than 8.15.
+
+There is no need for your child to bring anything, as water will be provided at the studio.
+
+We are once again looking forward to sharing this wonderful experience with our students !
+
+Yours faithfully
+
+Blandine Pouchard and Tom Hickman
+
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>BSKL- Initial enquiry</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NAE_Branding_Letterhead_BSKL</letterhead>
+    <name>!1- EYFS Enquiry - The British International School of Kuala Lumpur</name>
+    <style>freeForm</style>
+    <subject>The British International School of Kuala Lumpur - Enquiry</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Weekly Update, 17th January 2014</name>
+    <style>freeForm</style>
+    <subject>Weekly Update, 20th January 2014</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+Apologies for the delay in the weekly update, we experienced some technical issues last week.
+
+We would first of all like to wish you a Happy New Year. We hope that 2014 proves to be positive, productive, happy and most importantly healthy for your family.
+
+Term Two has started smoothly and we have enjoyed welcoming several new students to ISM. I am sure that we will all work hard to ensure that new families are welcomed into our community.
+
+The update this week is short but sweet! (I am aware that a lot of information has been sent out to parents due to the new term).
+
+Academic Calendar 2014-15
+
+I am pleased to conform the follow dates for next year. The structure is very similar to the current year. You can now plan those exciting trips home or to new exciting places!
+
+Autumn term (16 weeks)
+
+Friday Aug. 15th – Senior Management Team meeting
+
+Monday Aug. 18th – Friday Aug. 22nd Induction/Inset for all staff
+
+Monday Aug. 25th – Friday Oct. 17th (8 weeks)
+Monday Oct.  20th – Friday Oct. 24th Half term break
+
+Monday Oct. 27th – Friday Dec. 19th (8 weeks)
+
+Spring term (11 weeks)
+
+Monday Jan. 12th – Friday Feb. 20th (6 weeks)
+
+Monday Feb. 23rd – Friday Feb 27th Half term break
+
+Monday March 2nd – Thursday Apr. 2nd (5 weeks)
+
+Summer term (11 weeks)
+
+Monday April 20th – Friday July 3rd (11 weeks)
+
+Please note that the final day of each term will be a noon finish.
+
+Music Department Ensembles.
+
+Upper Primary Orchestra/Band (Year 4-6)
+
+From this term onwards Orchestra will focus on our Upper Primary phase and will run during the first half of Upper Primary Lunchtime 12.40-13.15. This session directed by Mr. Riley-Gledhill is open to anyone learning orchestral instruments from beginner to advanced in all instrumental families (Woodwind, Strings, Brass and Percussion). Students interested should remember to bring their instrument on Fridays!
+
+Senior Choir (Year 6-11)
+
+With the upcoming Senior production on the horizon, senior choir will continue rehearsals after half term. (Thursday March 6th 15.30-17.00). Choir will be open to both existing and new members and the invitation to join will be extended to Year 6 and above. More details will follow before resumption.
+
+I hope you have a great start to the week.
+
+Paul Seedhouse
+
+Headteacher
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

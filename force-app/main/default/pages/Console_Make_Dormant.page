@@ -1,0 +1,29 @@
+<APEX:PAGE standardcontroller="Lead" showheader="false" >   
+    <APEX:INCLUDESCRIPT value="/soap/ajax/19.0/connection.js">   
+    </APEX:INCLUDESCRIPT>   
+       
+    <SCRIPT>
+          
+        //Session  
+        sforce.connection.sessionId = "{!$Api.Session_ID}";  
+          
+        //Case instance  
+        var update_Lead = new sforce.SObject("Lead");  
+        //Fetching the record Id  
+        var CID = '{!$CurrentPage.parameters.RecId}' ;  
+        update_Lead.Id = CID;  
+        //Change the status to close  
+        update_Lead.Rating = "Warm";    
+        //Keeping the array in case if we need to extend this for bulk case update  
+        var updateRecords = [];  
+        updateRecords.push(update_Lead) ;  
+        //Updating the case  
+        var result = sforce.connection.update(updateRecords);  
+        //Returning to account
+        window.open('https://ap4.salesforce.com/00T/e?who_id=00QD000000kbhoA&retURL=%2F00QD000000kbhoA&RecordType=012D0000000kYPo&ent=Task&isdtp=vw', 'popup','height=600,left=300,top=200 width=600');  
+        self.location.href = '/apex/Admissions_Console?sfdc.tabName=01rD0000000hvGQ';    
+      
+</SCRIPT>  
+
+ 
+</APEX:PAGE>

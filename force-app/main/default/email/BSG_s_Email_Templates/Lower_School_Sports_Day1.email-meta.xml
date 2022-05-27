@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Lower School Sports Day 30/04/2014</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Lower School Sports Day 30/04/2014</name>
+    <style>freeForm</style>
+    <subject>Lower School Sports Day 30/04/2014</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+Dear Lower School Parents,
+Despite the rain during the night, we will be continuing with our planned Sports Day events today:
+Pre-Nursery and Nursery 9:00-10:30am
+Reception and Year 1 - 1:00-2:30pm
+We are hoping very much it does not rain for us today, however, if it does rain during our activities the teacher on your child’s activity will inform you which area of the school to go to for a continuation of the races. The final presentation event will take place in the Hall.
+If you are able to join us for the Sports Day please note that you should use the G Block car park at Lakefront.
+Kind regards,
+Miss Kathy
+Head of Lower School
+The British School of Guangzhou
+
+
+
+
+
+World Class Education
+
+
+____________________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

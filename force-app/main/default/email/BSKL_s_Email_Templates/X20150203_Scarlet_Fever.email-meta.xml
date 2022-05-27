@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20150203 Scarlet Fever</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20150203 Scarlet Fever</name>
+    <style>freeForm</style>
+    <subject>Scarlet Fever</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+3rd February 2015
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}
+
+A parent in Reception has informed us that their child has been diagnosed with scarlet fever. Please see the information below regarding this illness. Any classroom which has been used recently by a child diagnosed with scarlet fever has been thoroughly cleaned and disinfected overnight. All pupils and staff have been reminded of the importance of hand washing, and this will be given special attention during this minor outbreak.
+
+Symptoms
+
+The rash is the most striking sign of scarlet fever. It usually begins looking like a bad sunburn with tiny bumps, and it may itch. The rash usually appears first on the neck and face, often leaving a clear unaffected area around the mouth. It spreads to the chest and back, then to the rest of the body. In body creases, especially around the underarms and elbows, the rash forms classic red streaks (on very dark skin, the streaks may appear darker than the rest of the skin). Areas of rash usually turn white (or paler brown), when pressed on. By the sixth day of the infection the rash usually fades, but the affected skin may begin to peel.
+
+Aside there are usually other symptoms that help to confirm a diagnosis of scarlet fever, including a reddened sore throat, a fever at or above 101 °F (38.3 °C), and swollen glands in the neck. Scarlet fever can also occur with a low fever. The tonsils and back of the throat may be covered with a whitish coating, or appear red, swollen, and dotted with whitish or yellowish specks of pus. Early in the infection, the tongue may have a whitish or yellowish coating. A person with scarlet fever also may have chills, body aches, nausea, vomiting, and loss of appetite.
+
+When scarlet fever occurs because of a throat infection, the fever typically stops within 3 to 5 days, and the sore throat passes soon afterward. The scarlet fever rash usually fades on the sixth day after sore throat symptoms began, but skin that was covered by rash may begin to peel. This peeling may last 10 days. The infection itself is usually cured with a 10-day course of antibiotics, but it may take a few weeks for tonsils and swollen glands to return to normal.
+
+In rare cases, scarlet fever may develop from a streptococcal skin infection like impetigo. In these cases, the person may not get a sore throat.
+
+Treatment
+
+Other than the occurrence of the diarrhoea, the treatment and course of scarlet fever are no different from those of any strep throat. In case of penicillin allergy, clindamycin or erythromycin can be used with success. Patients should no longer be infectious after taking antibiotics for 24 hours. People who have been exposed to scarlet fever should be watched carefully for a full week for symptoms, especially if aged 3 to young adult. It is very important to be tested (throat culture) and if positive, seek treatment.
+
+Please contact the School Nurse if your child contracts scarlet fever so that classrooms can be disinfected and other parents informed.
+
+Janet Brock
+Headteacher
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

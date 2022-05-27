@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Baker Books International School Book Club (LC)</name>
+    <style>freeForm</style>
+    <subject>Baker Books International School Book Club (LC)</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents
+
+It’s Story Week at ISM and once again we are delighted to be sending home the latest Baker Books catalogue with a wide range of carefully selected children’s books for you and your family to choose from. Many of these books are newly published and are offered at below the recommended retail price (RRP).
+
+Many of you will be aware of the challenges in trying to find English-language books in Moscow so I would earnestly encourage you to take advantage of this opportunity to have books delivered here. We experienced some unfortunate customs issues with our last school book order. However, this was a different company to Baker Books and I would like to reassure you that Baker Books are a reliable company with a proven track-record of delivery.
+
+A major benefit of ordering through Baker Books is that the school receives a minimum of 20% of the value of orders in free books so just by purchasing your books from the catalogue you are also helping your child’s class or school library.
+
+How to buy the books:
+
+Order &amp; Pay online
+
+We’ve set up a school Parent Pay order that you can visit to place your order. You can pay securely online by credit or debit card and the books will arrive in school for me to distribute.
+
+
+
+1. Visit: http://parentpay.bakerbooks.co.uk/clubs/INTRUS4
+
+2. Select the books that you’d like to order and add them to your basket
+
+3. At Checkout your order will be charged to your card in the currency shown, the books will be added to the school Parent Pay order and you will receive an email confirming the order and payment.
+
+
+Please do not send any cash to school
+
+The closing date for ordering books from the Baker Books catalogues is:
+
+MONDAY 18th NOVEMBER
+
+We hope that you enjoy browsing through the catalogue – it’s a great way to encourage your child to broaden their reading experience and to own some really wonderful books.
+
+
+Yours sincerely
+
+
+Ms Nikitina
+
+Lower Campus Librarian, The International School of Moscow
+
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,15 @@
+<apex:component >
+ <messaging:emailTemplate subject="NA US Credit Check Notification" 
+                         recipientType="User" 
+                         relatedToType="Lead">
+
+    <messaging:plainTextEmailBody >
+
+    Hi COS team, 
+
+
+    </messaging:plainTextEmailBody>
+
+</messaging:emailTemplate>
+
+</apex:component>

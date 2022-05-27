@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Read</externalSharingModel>
+    <fields>
+        <fullName>Abbreviation_Text__c</fullName>
+        <externalId>false</externalId>
+        <label>Abbreviation Text</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Comment_for_Board_Only__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>These comments cannot be viewed by Ashley, and will be summarised to the Group board at the end of an academic year.</inlineHelpText>
+        <label>Comment for Board Only</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Contact_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_Person__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact Person</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_in_School__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Contact in School</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Design Jobs</relationshipLabel>
+        <relationshipName>Design_Jobs</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Copy_Subject__c</fullName>
+        <externalId>false</externalId>
+        <formula>Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Subject</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Data_Requested__c</fullName>
+        <externalId>false</externalId>
+        <formula>DATEVALUE( CreatedDate )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Date Requested</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_Completed__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Completed</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Days_Delayed_Advanced_Formula__c</fullName>
+        <externalId>false</externalId>
+        <formula>Date_Completed__c -  Due_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days Delayed(-)/Advanced(+) Formula</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Days_Delayed_Advanced__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( TEXT(Due_Date__c) =&quot;&quot;,&quot;No Deadline&quot;, TEXT(Days_Delayed_Advanced_Formula__c ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Complete v Due Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Days_Given_to_Complete_Formula__c</fullName>
+        <externalId>false</externalId>
+        <formula>Due_Date__c - DATEVALUE(CreatedDate)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days Given to Complete Formula</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Days_Given_to_Complete__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(TEXT( Due_Date__c) =&quot;&quot;,&quot;No Deadline&quot;,TEXT( Days_Given_to_Complete_Formula__c ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days Given to Complete</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Design_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Design Category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Website</fullName>
+                    <default>false</default>
+                    <label>Website</label>
+                </value>
+                <value>
+                    <fullName>Publication</fullName>
+                    <default>false</default>
+                    <label>Publication</label>
+                </value>
+                <value>
+                    <fullName>Advertising</fullName>
+                    <default>false</default>
+                    <label>Advertising</label>
+                </value>
+                <value>
+                    <fullName>Digital Library</fullName>
+                    <default>false</default>
+                    <label>Digital Library</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Due_Date_Revision_Request__c</fullName>
+        <externalId>false</externalId>
+        <label>Due Date Revision Request</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Due_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Due Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Ebooks_Added__c</fullName>
+        <externalId>false</externalId>
+        <label>Ebooks Added</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hours_of_Work__c</fullName>
+        <externalId>false</externalId>
+        <label>Hours of Work</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Initiated_By_Designer__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(  CreatedBy.CompanyName  =&quot;Group Designer&quot;,1,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Initiated By Designer</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Job_Cancelled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Job Cancelled</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Link_to_File__c</fullName>
+        <externalId>false</externalId>
+        <label>Link to File</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Marketing_Action__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Marketing Action</label>
+        <referenceTo>Marketing_Action__c</referenceTo>
+        <relationshipLabel>Design Jobs</relationshipLabel>
+        <relationshipName>Design_Jobs</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>No_Rating_Required_New__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF ( AND ( CreatedBy.Profile.Name = &quot;Group Designer (Full)&quot;, TEXT(Work_For_Override__c) = &quot;No Override&quot; ), TRUE, FALSE )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>No Rating Required (New)</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>No_Rating_Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>No Rating Required</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Original_Job__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Original Job</label>
+        <referenceTo>Design_Job__c</referenceTo>
+        <relationshipLabel>Follow On Jobs</relationshipLabel>
+        <relationshipName>Follow_On_Jobs</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Overdue__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Due_Date__c &lt;TODAY(),&quot;Yes&quot;,&quot;No&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Overdue?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Owner_School__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Owner:User.School__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Owner School</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rate_Satisfaction__c</fullName>
+        <externalId>false</externalId>
+        <label>Rate Satisfaction</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Rated</fullName>
+                    <default>true</default>
+                    <label>Not Rated</label>
+                </value>
+                <value>
+                    <fullName>1 Star</fullName>
+                    <default>false</default>
+                    <label>1 Star</label>
+                </value>
+                <value>
+                    <fullName>2 Stars</fullName>
+                    <default>false</default>
+                    <label>2 Stars</label>
+                </value>
+                <value>
+                    <fullName>3 Stars</fullName>
+                    <default>false</default>
+                    <label>3 Stars</label>
+                </value>
+                <value>
+                    <fullName>4 Stars</fullName>
+                    <default>false</default>
+                    <label>4 Stars</label>
+                </value>
+                <value>
+                    <fullName>5 Stars</fullName>
+                    <default>false</default>
+                    <label>5 Stars</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Rating_Image__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE( CASE( Rate_Satisfaction__c , &quot;1 Star&quot;, &quot;/servlet/servlet.FileDownload?file=015D0000001R9ww&quot;, 
+
+&quot;2 Stars&quot;, &quot;/servlet/servlet.FileDownload?file=015D0000001R9x1&quot;, 
+
+&quot;3 Stars&quot;, &quot;/servlet/servlet.FileDownload?file=015D0000001R9x6&quot;, 
+
+&quot;4 Stars&quot;,&quot;/servlet/servlet.FileDownload?file=015D0000001R9xB&quot;, 
+
+&quot;5 Stars&quot;,&quot;/servlet/servlet.FileDownload?file=015D0000001R9xG&quot;,&quot;/img/samples/stars_000.gif&quot;), &quot;rating&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Rating Image</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Scope_of_Job__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Examples: 
+Quick and Easy Jobs - Typo Corrections, quick website updates or very small corrections
+Normal or Routine: Web News items, Newsletters, Ads,  Update to Publications
+Major Jobs: Yearbooks, New Publications or New Website</inlineHelpText>
+        <label>Scope of Job</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Rate_Satisfaction__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Quick &amp; Easy</fullName>
+                    <default>false</default>
+                    <label>Quick &amp; Easy</label>
+                </value>
+                <value>
+                    <fullName>Normal or Routine</fullName>
+                    <default>false</default>
+                    <label>Normal or Routine</label>
+                </value>
+                <value>
+                    <fullName>Major Job</fullName>
+                    <default>false</default>
+                    <label>Major Job</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>1 Star</controllingFieldValue>
+                <controllingFieldValue>2 Stars</controllingFieldValue>
+                <controllingFieldValue>3 Stars</controllingFieldValue>
+                <controllingFieldValue>4 Stars</controllingFieldValue>
+                <controllingFieldValue>5 Stars</controllingFieldValue>
+                <valueName>Quick &amp; Easy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>1 Star</controllingFieldValue>
+                <controllingFieldValue>2 Stars</controllingFieldValue>
+                <controllingFieldValue>3 Stars</controllingFieldValue>
+                <controllingFieldValue>4 Stars</controllingFieldValue>
+                <controllingFieldValue>5 Stars</controllingFieldValue>
+                <valueName>Normal or Routine</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>1 Star</controllingFieldValue>
+                <controllingFieldValue>2 Stars</controllingFieldValue>
+                <controllingFieldValue>3 Stars</controllingFieldValue>
+                <controllingFieldValue>4 Stars</controllingFieldValue>
+                <controllingFieldValue>5 Stars</controllingFieldValue>
+                <valueName>Major Job</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Job_Cancelled__c = TRUE,&quot;Cancelled&quot;,IF( TEXT(Date_Completed__c)&lt;&gt;&quot;&quot;,&quot;Completed&quot;,&quot;On Going&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WeightedRating__c</fullName>
+        <externalId>false</externalId>
+        <formula>(IF( TEXT(Rate_Satisfaction__c) = &quot;1 Stars&quot;,1,
+
+IF( TEXT(Rate_Satisfaction__c) = &quot;2 Stars&quot;,2,
+
+IF( TEXT(Rate_Satisfaction__c) = &quot;3 Stars&quot;,3,
+
+IF( TEXT(Rate_Satisfaction__c) = &quot;4 Stars&quot;,4,
+
+IF( TEXT(Rate_Satisfaction__c) = &quot;5 Stars&quot;,5
+
+,0))))))
+
+*(IF( TEXT(Scope_of_Job__c)=&quot;Normal or Routine&quot;,1,
+
+(IF( TEXT(Scope_of_Job__c)=&quot;Quick &amp; Easy&quot;,0.8,
+
+1.5))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Weighted Rating</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Work_For_Override__c</fullName>
+        <externalId>false</externalId>
+        <label>Work For (Override)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No Override</fullName>
+                    <default>true</default>
+                    <label>No Override</label>
+                </value>
+                <value>
+                    <fullName>The British Schools Foundation</fullName>
+                    <default>false</default>
+                    <label>The British Schools Foundation</label>
+                </value>
+                <value>
+                    <fullName>King&apos;s College Beijing</fullName>
+                    <default>false</default>
+                    <label>King&apos;s College Beijing</label>
+                </value>
+                <value>
+                    <fullName>The British College of Brazil</fullName>
+                    <default>false</default>
+                    <label>The British College of Brazil</label>
+                </value>
+                <value>
+                    <fullName>The British School of Guangzhou</fullName>
+                    <default>false</default>
+                    <label>The British School of Guangzhou</label>
+                </value>
+                <value>
+                    <fullName>The British International School of Kuala Lumpur</fullName>
+                    <default>false</default>
+                    <label>The British International School of Kuala Lumpur</label>
+                </value>
+                <value>
+                    <fullName>The British School Yangon</fullName>
+                    <default>false</default>
+                    <label>The British School Yangon</label>
+                </value>
+                <value>
+                    <fullName>The British International School of Marbella</fullName>
+                    <default>false</default>
+                    <label>The British International School of Marbella</label>
+                </value>
+                <value>
+                    <fullName>The British School of Nanjing</fullName>
+                    <default>false</default>
+                    <label>The British School of Nanjing</label>
+                </value>
+                <value>
+                    <fullName>The British School of Navarra</fullName>
+                    <default>false</default>
+                    <label>The British School of Navarra</label>
+                </value>
+                <value>
+                    <fullName>The British School of Tashkent</fullName>
+                    <default>false</default>
+                    <label>The British School of Tashkent</label>
+                </value>
+                <value>
+                    <fullName>The International School of Moscow</fullName>
+                    <default>false</default>
+                    <label>The International School of Moscow</label>
+                </value>
+                <value>
+                    <fullName>Nord Anglia International School Manila</fullName>
+                    <default>false</default>
+                    <label>Nord Anglia International School Manila</label>
+                </value>
+                <value>
+                    <fullName>Ukraine International School</fullName>
+                    <default>false</default>
+                    <label>Ukraine International School</label>
+                </value>
+                <value>
+                    <fullName>The New York International School</fullName>
+                    <default>false</default>
+                    <label>The New York International School</label>
+                </value>
+                <value>
+                    <fullName>The British School of Brasilia</fullName>
+                    <default>false</default>
+                    <label>The British School of Brasilia</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Work_For__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( TEXT( Work_For_Override__c ) = &quot;No Override&quot;, TEXT(CreatedBy.School__c), TEXT(Work_For_Override__c ) )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Work For</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Design Job</label>
+    <listViews>
+        <fullName>Jobs_Overdue</fullName>
+        <booleanFilter>1 AND 2 AND 3</booleanFilter>
+        <columns>Due_Date__c</columns>
+        <columns>NAME</columns>
+        <columns>Design_Category__c</columns>
+        <columns>Status__c</columns>
+        <columns>Work_For__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>Overdue__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </filters>
+        <filters>
+            <field>Date_Completed__c</field>
+            <operation>equals</operation>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>On Going</value>
+        </filters>
+        <label>1C. Jobs Overdue</label>
+    </listViews>
+    <listViews>
+        <fullName>Jobs_Pending_Completion_This_Month</fullName>
+        <columns>Due_Date__c</columns>
+        <columns>NAME</columns>
+        <columns>Design_Category__c</columns>
+        <columns>Work_For__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>Due_Date__c</field>
+            <operation>equals</operation>
+            <value>THIS_MONTH</value>
+        </filters>
+        <filters>
+            <field>Date_Completed__c</field>
+            <operation>equals</operation>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>On Going</value>
+        </filters>
+        <label>1D. Jobs Pending Completion This Month</label>
+    </listViews>
+    <listViews>
+        <fullName>Jobs_Pending_Rating</fullName>
+        <booleanFilter>(1 OR 4) AND 2 AND 3</booleanFilter>
+        <columns>Due_Date__c</columns>
+        <columns>NAME</columns>
+        <columns>Design_Category__c</columns>
+        <columns>Status__c</columns>
+        <columns>Work_For__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>Rate_Satisfaction__c</field>
+            <operation>equals</operation>
+            <value>Not Rated</value>
+        </filters>
+        <filters>
+            <field>Date_Completed__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Completed</value>
+        </filters>
+        <filters>
+            <field>Rate_Satisfaction__c</field>
+            <operation>equals</operation>
+        </filters>
+        <label>1E. Jobs Pending Rating</label>
+    </listViews>
+    <listViews>
+        <fullName>X1A_My_Design_Jobs</fullName>
+        <columns>NAME</columns>
+        <columns>Design_Category__c</columns>
+        <columns>Status__c</columns>
+        <columns>Data_Requested__c</columns>
+        <columns>Due_Date__c</columns>
+        <columns>Work_For__c</columns>
+        <filterScope>Mine</filterScope>
+        <label>1A. My Design Jobs</label>
+    </listViews>
+    <listViews>
+        <fullName>X1B_My_Open_Design_Jobs</fullName>
+        <columns>NAME</columns>
+        <columns>Design_Category__c</columns>
+        <columns>Status__c</columns>
+        <columns>Data_Requested__c</columns>
+        <columns>Due_Date__c</columns>
+        <columns>Work_For__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>On Going</value>
+        </filters>
+        <label>1B. My Open Design Jobs</label>
+    </listViews>
+    <listViews>
+        <fullName>X2A_Ads_Completed_with_Good_Ratings</fullName>
+        <booleanFilter>1 AND 2 AND 3</booleanFilter>
+        <columns>Due_Date__c</columns>
+        <columns>NAME</columns>
+        <columns>Design_Category__c</columns>
+        <columns>Status__c</columns>
+        <columns>Work_For__c</columns>
+        <columns>Link_to_File__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>WeightedRating__c</field>
+            <operation>greaterThan</operation>
+            <value>4</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Completed</value>
+        </filters>
+        <filters>
+            <field>Design_Category__c</field>
+            <operation>equals</operation>
+            <value>Advertising</value>
+        </filters>
+        <label>2A. Ads Completed with Good Ratings</label>
+    </listViews>
+    <listViews>
+        <fullName>X2B_Publicat_Completed_with_Good_Ratings</fullName>
+        <booleanFilter>1 AND 2 AND 3</booleanFilter>
+        <columns>Due_Date__c</columns>
+        <columns>NAME</columns>
+        <columns>Design_Category__c</columns>
+        <columns>Status__c</columns>
+        <columns>Work_For__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>WeightedRating__c</field>
+            <operation>greaterThan</operation>
+            <value>4</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Completed</value>
+        </filters>
+        <filters>
+            <field>Design_Category__c</field>
+            <operation>equals</operation>
+            <value>Publication</value>
+        </filters>
+        <label>2B. Publicat Completed with Good Ratings</label>
+    </listViews>
+    <listViews>
+        <fullName>X3A_My_School_s_Jobs_Moscow</fullName>
+        <columns>NAME</columns>
+        <columns>Design_Category__c</columns>
+        <columns>Status__c</columns>
+        <columns>Data_Requested__c</columns>
+        <columns>Due_Date__c</columns>
+        <columns>Work_For__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Owner_School__c</field>
+            <operation>equals</operation>
+            <value>The International School of Moscow</value>
+        </filters>
+        <label>3A. My School&apos;s Jobs (Moscow)</label>
+    </listViews>
+    <listViews>
+        <fullName>X3B_All_Design_Jobs</fullName>
+        <columns>NAME</columns>
+        <columns>Work_For__c</columns>
+        <columns>Copy_Subject__c</columns>
+        <columns>Status__c</columns>
+        <columns>Hours_of_Work__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <filterScope>Everything</filterScope>
+        <label>3B. All Design Jobs</label>
+    </listViews>
+    <nameField>
+        <label>Subject</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Design Jobs</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Design_Category__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Data_Requested__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Due_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Work_For__c</customTabListAdditionalFields>
+        <listViewButtons>View_Ashley_s_Calendar</listViewButtons>
+    </searchLayouts>
+    <sharingModel>Read</sharingModel>
+    <validationRules>
+        <fullName>Check_Complete_before_rate</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(TEXT(Date_Completed__c)=&quot;&quot;,TEXT(Rate_Satisfaction__c)&lt;&gt;&quot;&quot;,TEXT(Rate_Satisfaction__c)&lt;&gt;&quot;Not Rated&quot;)</errorConditionFormula>
+        <errorMessage>You cannot rate a task before a &quot;Completed Date&quot; is entered.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Checks_Category_when_Ebooks_are_added</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( TEXT(Design_Category__c )&lt;&gt; &quot;Digital Library&quot;, Ebooks_Added__c &gt;0)</errorConditionFormula>
+        <errorMessage>Select &quot;Digital Library&quot; as Design category when stating Ebooks have been added.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Checks_Contact_Details_filled_in</fullName>
+        <active>true</active>
+        <description>Checks_Contact_Details_filled_in when not Group Designer</description>
+        <errorConditionFormula>AND(
+    OR(
+       Contact_Email__c = &quot;&quot;,
+       Contact_Person__c = &quot;&quot;
+       ),
+    TEXT(Work_For_Override__c) != &quot;The British Schools Foundation&quot;
+    )</errorConditionFormula>
+        <errorMessage>Please enter a Contact Person and an Email Address</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Checks_No_Rating_is_made_is_checked_No_R</fullName>
+        <active>true</active>
+        <description>Checks No Rating is made is checked No Rating required</description>
+        <errorConditionFormula>AND( No_Rating_Required__c =TRUE, TEXT(Rate_Satisfaction__c )&lt;&gt;&quot;Not Rated&quot;)</errorConditionFormula>
+        <errorMessage>A Satisfaction Rating cannot be made if the field &quot;No Rating Required&quot; is checked.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Checks_Scope_of_Job_is_completed</fullName>
+        <active>true</active>
+        <description>Checks Scope of Job is completed if a rating is made</description>
+        <errorConditionFormula>AND( TEXT( Scope_of_Job__c )=&quot;&quot;, TEXT(Rate_Satisfaction__c )&lt;&gt;&quot;Not Rated&quot;)</errorConditionFormula>
+        <errorMessage>You must complete &quot;Scope of Job&quot; field, when entering a rating.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Checks_Work_For_is_assigned</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND (CreatedBy.CompanyName =&quot;Group Designer&quot;, 
+
+
+
+OR(TEXT( Work_For_Override__c ) =&quot;No Override&quot;,TEXT(Work_For_Override__c) =&quot;None&quot;,TEXT(Work_For_Override__c) =&quot;&quot;))</errorConditionFormula>
+        <errorDisplayField>Abbreviation_Text__c</errorDisplayField>
+        <errorMessage>If the record is created by the Group Designer, you must select a &quot;Work For (Override)&quot; option, to ensure the hours are properly assigned.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Checks_if_amount_of_hours_are_registered</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( OR(Hours_of_Work__c  &lt;= 0,TEXT(Hours_of_Work__c)=&quot;&quot;), TEXT(Date_Completed__c)&lt;&gt;&quot;&quot;)</errorConditionFormula>
+        <errorMessage>You must register the number of Hours work to complete, if a completion date is added.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Add_to_Ashley_s_Calendar</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Add to Ashley&apos;s Calendar</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/00U/e?what_id={!Design_Job__c.Id}&amp;evt5={!Design_Job__c.Abbreviation_Text__c}&amp;evt4={!Design_Job__c.Due_Date__c}&amp;retURL={!Design_Job__c.Id}&amp;evt1=Ashley Andrews</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Add_to_Calendar</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Add to Calendar</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/00U/e?what_id={!Design_Job__c.Id}&amp;evt5={!Design_Job__c.Abbreviation_Text__c}-{!Design_Job__c.Name}&amp;evt4={!Design_Job__c.Due_Date__c}&amp;retURL={!Design_Job__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Email_Contact</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Email Contact</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>location.replace(&apos;/email/author/emailauthor.jsp?retURL={!Design_Job__c.Id}&amp;p3_lkid={!Design_Job__c.Id}&amp;p3={!Design_Job__c.Name}&amp;p24={!Design_Job__c.Contact_Email__c}&amp;template_id=00X6F000001H1qe&apos;);</url>
+    </webLinks>
+    <webLinks>
+        <fullName>View_Ashley_s_Calendar</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>View Ashley&apos;s Calendar</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/00U/c?cType=1&amp;cal_lkid=005D0000001tWcj&amp;md0=2012&amp;md1=5</url>
+    </webLinks>
+    <webLinks>
+        <fullName>View_Ashley_s_Calendar2</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>View Ashley&apos;s Calendar</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/00U/c?cType=1&amp;cal_lkid=005D0000001tWcj&amp;md0=2012&amp;md1=5</url>
+    </webLinks>
+</CustomObject>

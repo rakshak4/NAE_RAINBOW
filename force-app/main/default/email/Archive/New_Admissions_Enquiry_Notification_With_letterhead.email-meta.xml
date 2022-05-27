@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Email notification to enquiry owner when new admissions enquiry is received.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>System_Message_Header</letterhead>
+    <name>New Admissions Enquiry Notification (With letterhead)</name>
+    <style>freeForm</style>
+    <subject>New ADMISSIONS ENQUIRY received from {!Lead.Name}</subject>
+    <textOnly>*** NEW ADMISSIONS ENQUIRY RECEIVED ***
+
+You have received a new admissions enquiry via the school website.
+
+The information has been submitted to Salesforce and the automatic response sent. Please click this link to view it: {!Lead.Link}
+
+Submitted by: {!Lead.Salutation} {!Lead.Name}
+Email address: {!Lead.Email}
+Telephone number: {!Lead.Parent_1_Phone_1__c}
+Enquiry Details: {!Lead.Quick_Note__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

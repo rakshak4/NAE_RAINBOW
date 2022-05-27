@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Lower Campus Swimming</name>
+    <style>freeForm</style>
+    <subject>Lower Campus Swimming</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+
+Following the half term break, children in Year 1-3 will begin swimming during their physical education lessons. This will start during the first week back after the half term break during the time slots below.  The swimming unit will last for 6 weeks and will conclude with the swimming gala event on Thursday 12th December. Swimming is part of the ISM PE curriculum and children are expected to swim.
+
+
+Day
+
+8.45am – 10.25am
+
+11am- 12.40pm
+
+Tuesday
+
+2A and 2B
+
+3A, 3B and 3C
+
+
+Wednesday
+
+2C and 1A
+
+
+1B and 1C
+
+
+
+Swimming lessons will be provided over a double PE slot.  Children will also have an additional PE lesson provided for them at school.  This means that all children in Year 1-3 will benefit from an extra PE lesson during this time.
+
+
+Children will only be excused from swimming if they have a signed doctors note with the dates they are unable to swim. However, children will still be expected to go to the swimming pool with their peers.
+
+
+Please click here to download the form which should be completed and  returned to the class teacher.
+
+
+Yours sincerely,
+
+
+Mr Adam Hoult
+
+Head of Physical Education
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>ISM</letterhead>
+    <name>Weekly Update 31st May, 2012 Additions</name>
+    <style>freeForm</style>
+    <subject>Weekly Update 31st May, 2012 Additions</subject>
+    <textOnly>Dear Parents,
+
+Diamond Jubilee Celebration June 10th
+
+
+
+Further to the mass email that was sent yesterday, please find attached the missing programme details for the Diamond Jubilee Celebration on the 10th June.
+
+
+
+Preparations continue for our “Street Party” event. We are all hoping that the weather smiles upon us that day. If the weather is kind do remember the sun cream and hats as it will be held outdoors and shade is limited. Talking of hats please see the attached poster advertising our school Hat Parade. While it will not be a competition, the parade will offer the opportunity to earn house-points for your team total this year!
+
+Also see the attached programme of events and timings. The afternoon will begin with a picnic with activities and stall beginning at 1:15. It promises to be a great, informal family event and we hope to see you there!
+
+
+However, may I also please clarify that this event is only open to families from ISM. Security and Health and safety procedures prevent us from receiving guests unless previously agreed by myself. (EG our children from the orphanage)
+
+
+Best regards,
+
+Admissions Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

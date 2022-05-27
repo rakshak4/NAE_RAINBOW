@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to all parents about reports. 2014</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Autumn Term Reports</name>
+    <style>freeForm</style>
+    <subject>Autumn Term Reports</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+This year we have begun to use the School Hub to provide you with progress reports. Your child&apos;s Term 1 report will be published on the Hub on the evening of Friday 7th November. It will only be visible to yourself and your child&apos;s teachers. Please note that we will not be issuing printed reports. This electronic format will enable you to track your child&apos;s progress through the years and is also easy to copy and paste into Google Translate if necessary.
+
+To view your child&apos;s report, you will need to log in to the School Hub using your username and password. From your homepage you should choose the &quot;Progress&quot; tab, which will enable you see all Progress Reports, along with previous assessments. You can print your child&apos;s report from this page.
+
+To help you to use this facility on the Hub, we have prepared a short tutorial video which is available on the school website as well as on our Facebook page. You can also access it here:
+
+Russian
+English
+
+If you have any difficulty with accessing your child&apos;s report, please contact front desk in the first instance.
+
+You will have an opportunity to discuss your child&apos;s report during the forthcoming parent-teacher meetings.
+Parent-teacher meetings for all classes from Pre-Nursery up to Year 5 will be held next week. Parent-teacher meetings for Middle School (Years 6&amp;7) will be held on Wednesday 19th November.
+
+Best regards,
+
+Zoe Higginbotham
+Senior Teacher
+
+Уважаемые родители,
+
+В этом году мы начали использовать School Hub для предоставления отчётов по успеваемости. Отчет на Вашего ребенка по первому триместру будет опубликован на школьном портале School Hub в пятницу вечером ,7 ноября. Опубликованный отчет будет отображаться у Вас и у преподавателей Вашего ребенка. Убедительно просим Вас обратить внимание на то, что мы не будет выпускать печатные вариантов отчетов. Этот электронный формат позволит Вам следить за успеваемостью Вашего ребенка на протяжении разных лет, а также Вы сможете легко скопировать его  и вставить в Google Translate, если это необходимо.
+
+
+Чтобы просмотреть отчет на Вашего ребенка, Вам необходимо войти на школьный портал School Hub, используя персональный логин и пароль. На Вашей главной странице Вам следует выбрать вкладку «Progress», которая позволит Вам просмотреть все отчеты, наряду с предыдущими тестированиями. Также, Вы сможете распечатать отчет Вашего ребенка с этой страницы.
+
+
+Чтобы помочь Вам в использовании школьного портала, мы подготовили для Вас короткое вспомогательное видео, размещённое на веб-сайте школы, а также на нашей странице в Facebook. Вы также можете получить к ним доступ по следующим ссылкам:
+
+
+
+Русский вариант
+
+Английский вариант
+
+
+
+Если у Вас возникли трудности с доступом к отчётам   Вашего ребенка, пожалуйста, обратитесь на ресепшен.
+
+
+У Вас появится возможность обсудить отчёт по Вашему ребенку в ходе предстоящих родительских собраний. Встречи родителей с учителями для всех классов от Pre-Nursery до 5-го класса состоятся на следующей неделе. Родительские собрания для средней школы (6-ые и 7-ые классы) состоятся в среду 19 ноября.
+
+
+С наилучшими пожеланиями,
+
+Зоe Хиггинботам.
+
+
+
+
+
+
+Regards,
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>h,k</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BSG</letterhead>
+    <name>hkjhj</name>
+    <style>freeForm</style>
+    <subject>Year7 Secondary Residential Trip</subject>
+    <textOnly>Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I attach a powerpoint for the Year 7 Trip to Hainan. The itinerary is provisional, whilst we await confirmation of the flight bookings. I attach details of those flights and the staff going with each group.
+
+
+Upon confirmation of the flight details, we will send a revised itinerary and kit list.
+
+
+Concerns have been raised about safety and the water based activities. We can assure you that BSG staff:pupil ratio is more than adequate for each trip and we will ensure that Insight Adventures provide adequate staff:pupil ratio for each water based activity.
+
+
+Please email sean.mcadam@bsg.org.cn if you have any concerns or general questions about the trip.
+
+
+Kind regards,
+
+
+Mr.Sean McAdam</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

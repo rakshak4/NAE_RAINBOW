@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Swimming Y1-Y3</name>
+    <style>freeForm</style>
+    <subject>Swimming Y1-Y3</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear Parents,
+
+Children in years 1-3 will begin Swimming during PE lessons. Swimming will run  for 6 weeks, starting this week and ending with the Lower Campus Swimming Gala on Thursday 6th December from 9-12pm.
+
+
+
+The day and times for each class are highlighted in the box below. Please make sure that your child has all the correct equipment. This includes a swim cap, towel and swimming trunks/bathing suit. Children are free to wear PE kit on these days.
+
+
+
+
+
+Day
+
+8.45am – 10.25am
+
+11am- 12.40pm
+
+Wednesday
+
+3A and 3B
+
+1A and 2A
+
+Thursday
+
+1B and 1C
+
+2B and 2C
+
+
+
+
+
+
+
+Kindest regards,
+
+
+
+The PE Department
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

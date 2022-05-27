@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Information to parents about charity event organised by Ucell .</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Email about charity.</name>
+    <style>freeForm</style>
+    <subject>Charity for International Children&apos;s Day</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Dear Parents,
+
+
+
+As you know 1st June is International Children’s Day. On this special occasion volunteers from “Ucell”  would like to visit a children’s oncology clinic. They are asking for people to help them by kindly providing:
+
+
+
+· Toys (not necessarily brand new)
+
+· Medicine (Neypogen, Karboplatin, Adrim, Vinkristin)
+
+· Donations of money
+
+
+
+We are very keen to support this worthwhile cause that can bring help and relief to children suffering from cancer. Your donations of money and medicine can support their treatment, while toys will bring great pleasure to a child who is unable to enjoy life to the full.
+
+
+You can find the box for charity collections in the main entrance of school.
+
+Your help will be much appreciated.
+
+If you want to learn more about this charity event please contact Sevda Hagverdieva : 5000022
+
+
+Kind Regards,
+
+
+
+
+Дорогие родители!
+
+Как вы знаете, 1 июня –Международный день защиты детей. По этому случаю волонтёры из компании Ucell собираются посетить детскую онкологическую клинику. Если вы можете помочь больным детям, то они с благодарностью примут:
+
+
+
+1. Игрушки (не обязательно новые)
+
+2. Лекарства (нейпоген, карбоплатин, адрим, винкристин)
+
+3. Деньги
+
+
+
+Мы от души желаем помочь детям, страдающим от раковых заболеваний, наша помощь может принести им облегчение. Деньги и лекарства помогут в лечении детей, в то время как игрушки принесут им много радости, которой лишены эти дети.
+
+
+
+Коробку для сбора денег вы найдёте в вестибюле школы. Ваша помощь неоценима.
+
+
+
+Если вы хотите узнать больше об этой благотворительной акции, пожалуйста, обращайтесь по телефону 5000022 к Севде Хагвердыевой
+
+
+
+С уважением,
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Charity Uniform Sale- International Day 2013.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Charity Uniform Sale- International Day 2013.</name>
+    <style>freeForm</style>
+    <subject>Charity Uniform Sale- International Day 2013.</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+Dear Parents,
+
+
+
+On International Day 2013 we will have a &apos;Secondhand Uniform Stall&apos;, with all proceeds going to charity. This is a project that our Secondary students are assisting with as part of their studies. The uniform stall will be set up throughout the day to give parents an opportunity to buy &apos;almost new&apos; and unwanted uniform items at a much reduced price.
+
+
+
+If you have any old or unwanted uniform items that you are willing to donate to this stall, please send them in to school by Thursday, 7th November, and please don&apos;t forget to visit the stall during the festivities of International Day (9th November!).
+
+
+
+We will continue collecting secondhand uniform throughout the year to enable us to hold similar charity sales at other school events.
+
+
+
+Thank you in advance for your support with this initiative.
+
+
+
+Best wishes,
+
+
+
+Amanda Boby
+
+Community Action and Fund Raising Coordinator
+
+
+
+
+The British School of Guangzhou
+
+World Class Education
+
+
+___________________________________________________________
+
+A Member of the Nord Anglia Education Family of Schools- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

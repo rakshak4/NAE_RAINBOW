@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>27/05/2013 Photograph Order</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>27/05/2013 Photograph Order</name>
+    <style>freeForm</style>
+    <subject>Photograph Order</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please take note that as of today, there’s a photo slip/order envelope passed to your child (ren) with photo proofs. Kindly fill in your particulars mentioned on the envelope with payment required, seal and submit to Shirley at the school reception latest by Friday,7th June 2013.
+ 
+Each class photo will be pasted outside the classroom door. Photos for ‘Secondary School Prefect’ and ‘Antibullying Ambassador’ will be at the school reception. If you are interested, please select your order on the order envelope.
+ 
+In regards to photo payment, please insert the exact amount inside the order envelope and seal it.
+ 
+In addition, once we received these orders from the printing shop we will then pass to the respective students in their class. Any changes in regards to your orders must be submitted directly to the printing shop.
+ 
+Should you need any clarification, please do not hesitate to contact the school.
+ 
+Thank you for all your cooperation.
+
+Kind Regards
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

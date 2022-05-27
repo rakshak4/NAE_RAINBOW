@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Sends when a student &apos;Stage&apos; = &quot;Enrolled&quot; or &quot;A/ Deposit&quot; &amp; &apos;Attending School?&apos; = &quot;Yes&quot; and the related student academic file doesn&apos;t link back to the opportunity that triggers the workflow</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Sys/Adm - Inform of Enrolled Student without Academic File</name>
+    <style>freeForm</style>
+    <subject>Student {!Opportunity.Name} is Enrolled but has no Academic File</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

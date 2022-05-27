@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Medical note to parents 2014</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Medical note to parents</name>
+    <style>freeForm</style>
+    <subject>Medical Note</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+At this time of year it is very common for children to have high temperatures and sickness. Many schools in the region are experiencing a spate of outbreaks with such illnesses. Therefore I would kindly ask you not to send your child into school if they are obviously not well at home.
+
+Your child&apos;s temperature is taken at school and if deemed too high, parents are contacted to come and pick the child up. Recently several parents have not been contactable with their child being ill in school. It is unfair both to the child and the children, who are well, in their class to leave the child in school.
+
+Thank you for your understanding and attention.
+
+Best regards
+
+David Kirkham
+
+Headmaster
+
+
+
+
+Уважаемые родители,
+
+
+
+В это время года дети подвержены риску повышения температуры и недомоганию. Многие школы нашего региона сталкиваются с внезапными вспышками этих симптомов. Именно поэтому мы убедительно просим Вас не отправлять своего ребенка в школу, если у ребенка наблюдается недомогание уже дома.
+
+
+
+Мы измеряем температуру детей в школе и если она оказывается высокой, мы звоним родителям и просим их приехать, чтобы забрать ребенка из школы. Недавно мы столкнулись с ситуацией, в которой не смогли дозвониться до родителей, чьи дети плохо чувствовали себя в школе. Несправедливо оставлять больного ребенка в школе и по отношению к нему, и по отношению к здоровым детям.
+
+
+
+Спасибо за Ваше внимание и понимание.
+
+
+
+С уважением,
+
+
+
+Дэвид Киркхам
+
+Директор
+
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

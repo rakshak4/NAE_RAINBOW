@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 500px; ">
+			<tbody>
+				<img border="0" id="m_3308685547825015245r1sp1" src="https://ci6.googleusercontent.com/proxy/67dXnVocysCsXlJug8sCwjBn53jHY6vok7ArlGUgs6iyEW02S5lmjGnO2wFvRa8wDolQRwuNpB8ZtRQ8DJ6xCSAcsylyglo6hKkrKdXXbJylHPQ1hCaOBcGGhBiWL5qWYSWwjpyjE4ENzbEgIN7XEqzPgw=s0-d-e1-ft#https://ap4.salesforce.com/servlet/servlet.ImageServer?id=0156F00000F05db&amp;oid=00D6F000001cXAR" class="CToWUd">
+				<tr>
+					<td>
+						<p>
+							&nbsp;</p>
+						<p style="text-align: right; ">
+							<span style="color: #ffffff; font-family: 'Verdana'; font-size: xx-large; background-color: rgb(255, 255, 255); text-align: right; ">{!Account.00ND0000005GUWE}</span><br />
+							<i style="color: #ffffff; font-family: 'Verdana'; font-size: large; background-color: rgb(255, 255, 255); ">New Employment Application</i></p>
+						<p style="text-align: justify; ">
+							&nbsp;</p>
+						<div>
+							<span style="font-size:12px;"><span style="font-family: 'Verdana' ">To whom it may concern,</span></span></div>
+						<div>
+							&nbsp;</div>
+						<div>
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; ">You have received a new <strong>EMPLOYMENT APPLICATION</strong> via the school website.</span></span></div>
+						<div>
+							&nbsp;</div>
+						<div>
+							<span style="font-family:'Verdana';"><span style="font-size: 12px; "><span style="background-color: rgb(255, 255, 255); ">The information (including any attachments) has been submitted to Salesforce. Please click this link to view it: {!Account.Link}</span></span></span></div>
+						<div>
+							&nbsp;</div>
+						<div>
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; ">An automatic reply <strong>{!Account.BSNJ_has_has_not__c}</strong> been sent to the person submitting the application.</span></span></div>
+						<div>
+							&nbsp;</div>
+						<div>
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; ">You can also find the details of this enquiry below:</span></span></div>
+						<div>
+							&nbsp;</div>
+						<div>
+							<strong style="font-family: 'Verdana'; font-size: 12px; ">Name:</strong><span style="font-family: 'Verdana'; font-size: 12px; ">&nbsp;</span><span style="font-family:'Verdana';"><span style="font-size: 12px; ">{!Account.Salutation}&nbsp;{!Account.FirstName}&nbsp;{!Account.LastName}</span></span></div>
+						<div>
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; "><strong>Phone number:</strong> {!Account.Phone}</span></span></div>
+						<div>
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; "><strong>Email address:</strong> {!Account.PersonEmail}</span></span></div>
+						<div>
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; "><strong>Gender:</strong> {!Account.Gender__c}</span></span></div>
+						<div>
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; "><strong>Nationality:</strong> {!Account.Nationality__c}</span></span></div>
+						<div>
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; "><strong>Position Applied For:</strong> {!Account.Position_Applied_For__c}</span></span></div>
+						<div>
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; "><strong>Additional Comments:</strong> {!Account.Additional_Comments__c}</span></span></div>
+						<div>
+							&nbsp;</div>
+						<div>
+							<span style="font-family:'Verdana';"><span style="font-size: 12px; ">This application was submitted via the {!Account.Auto_reply_Language__c} version of the website.</span></span></div>
+						<div>
+							&nbsp;</div>
+						<div>
+							<span style="font-size:12px;"><span style="font-family: 'Verdana' ">This is an automated message.</span></span></div>
+						<p>
+							&nbsp;</p>
+						<p>
+							&nbsp;</p>
+					</td>
+				</tr>
+				<tr bgcolor="a0dae5">
+					<td>
+						&nbsp;</td>
+				</tr>
+				<tr bgcolor="003255">
+					<td>
+						&nbsp;</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			&nbsp;</p>
+	</body>
+</html>

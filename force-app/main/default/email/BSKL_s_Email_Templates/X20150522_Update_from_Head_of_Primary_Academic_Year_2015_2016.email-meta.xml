@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20150525 Primary - Academic Year 2015 -2016</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20150525 Primary - Academic Year 2015 -2016</name>
+    <style>freeForm</style>
+    <subject>Primary - Academic Year 2015 -2016</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}
+
+With continued school expansion, BSKL has re-organised the classes in Primary on an annual basis. However, with the number of classes remaining the same in Key Stage 1 and 2, we recognise there are benefits in enabling existing classes to transit to the next year group.
+
+
+
+Accordingly, for a variety of educational and social reasons, the school has decided that for the next academic year (2015 – 2016) to only re-organise the classes at the end of Pre Nursery, Nursery and Reception, in the Early Years Foundation Stage, and at the end of Key Stage 2. Going forward, we will, in future years (2016 – 2017), also include the end of Key Stage 1 (Year 2) as a key point in ensuring appropriate balance.
+
+
+
+Our Early Years team will be considering a number of factors over the next few weeks in order to achieve the best balance of new classes. Whilst we acknowledge that friendship groups are important, ‘best friends’ do not always make the best work partners and the children will have the opportunity to see their friends in their shared areas, during mixed group activities and at play times. It is beneficial for children to have a wide circle of friends.
+
+
+
+In balancing the classes, we take into consideration such factors as friendships, group interaction, gender and ability. These will also be borne in mind when allocating new children to classes in all year groups.
+
+
+
+In Key Stage 2, the children have more opportunities to work in mixed groupings. For example, in Years 4 – 6 PE the children are organised into four different groups.
+
+
+
+The new classes will be communicated, before our transition days at the end of term. The children, where possible, will also have the opportunity to meet their new teacher.
+
+
+
+Thank you for your understanding and continued support.
+
+
+
+Kind Regards,
+
+
+
+Debra Birchall
+
+Head of Primary
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

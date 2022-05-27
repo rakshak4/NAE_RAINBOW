@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Lower School Christmas Events</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Lower School Christmas Events</name>
+    <style>freeForm</style>
+    <subject>Lower School Christmas Events</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+Lower School Christmas Events
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Christmas is rapidly approaching and we would like to inform you of the events we have planned during the last few weeks of term.
+
+This year’s Christmas Production is called ‘A Wriggly Nativity’ and it will take place in the Lakefront Lower Campus School Hall at 10:30am on the dates given below.
+
+Tuesday 11th December: Year 1 A (Penguins)
+
+Year 1 B (Giraffes)
+
+Reception A (Seahorses)
+
+Reception B (Wolf Cubs)
+
+Nursery A (Ladybirds)
+
+Nursery C (Kittens)
+
+Pre-Nursery A (Teddy Bears)
+
+
+Wednesday 12th December: Year 1 C (Eagles)
+
+Year 1 D (Zebras)
+
+Reception C (Otters)
+
+Reception D (Starfish)
+
+Nursery B (Fishes)
+
+Pre-Nursery B (Butterflies)
+
+
+Today you will receive an official invitation and one ticket which entitles two members of each family to come and watch the performance. If you are unable to join us for the performances please return any unwanted tickets. As space is so limited we are unable to offer further tickets at this time. Should any become available we will notify you accordingly. Please note that tickets do not ensure you a seat, they will simply inform you on which day you have been scheduled to come and watch your child in the performance. If you would like a seat then please arrive early!
+
+This year we have created a beautiful Lower School Calendar which features a photo of every class. This calendar will be on sale at each performance at a price of 60RMB - this would make a wonderful Christmas gift for family and friends!
+
+Refreshments will be available after the show which we would be delighted if you could stay for. Afternoon lessons will resume as normal but if you would like to take your child home after the show then that is perfectly acceptable.
+
+Other dates to note are:
+
+Thursday 13th December - Lower School Bake Sale. Please send your child to school with 5RMB to buy a delicious goodie at playtime.
+
+Friday 14th December - Santa will be visiting all the children on the Lower School to check if they have all been good boys and girls!
+
+Tuesday 18th December - The children will have a &apos;Cinema Experience&apos; in the Lower School Hall where they will watch the classic Christmas Movie of &apos;The Snowman&apos;. During this day the children will also be having parties in their classrooms. Teachers will be asking for food to be brought in on this day so please check your child&apos;s communication books nearer the time. This day the children can come to school in their party clothes!
+
+Thursday 20th December - Lower School children will be going to the Upper School theatre to watch the Staff Pantomime which has been created, directed and performed by our very talented TAs.
+
+Friday 21st December - Non-uniform day. Please note that school finishes at 12:00pm on this day.
+
+Monday 7th January - First day of Term 2.
+
+As you can see we are going to be having a very &apos;Merry&apos; time at school over the next few weeks. If you have any questions regarding our Christmas events please do not hesitate to contact your child&apos;s class teacher.
+
+We shall look forward to seeing you all soon for our festive celebrations!
+
+Best wishes,
+
+Miss Kathy
+Head of Lower School
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

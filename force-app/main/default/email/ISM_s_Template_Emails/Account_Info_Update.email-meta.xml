@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>A template to send to parents/contacts to clarify contact data in accordance with the new layout</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Account Info Update</name>
+    <style>none</style>
+    <subject>The International School of Moscow - Your Contact Details</subject>
+    <textOnly>Dear {!Account.Salutation} {!Account.LastName},
+
+We have recently upgraded the system in which we store all of your contact information which, in the future, will allow us to keep in touch with you more effectively. We want to ensure we have the most up-to-date contact information for your family and correct any errors that might have occurred during the update so that everything is clear going forward.
+
+We ask that you review the information below and let us know if there is anything you want to update/change. You can simply type the updated information next to or below the existing information and then send this email back to us. We kindly ask you to submit the updated contact information before July 5.
+			
+
+First Parent/Guardian Information
+
+Name: {!Account.Salutation} {!Account.FirstName} {!Account.LastName} ({!Account.00ND0000003VOLw})
+Email 1: {!Account.00ND0000003xsou}
+Email 2: {!Account.00ND0000003xsoz}
+Phone 1: {!Account.00ND0000003xspr}
+Phone 2: {!Account.00ND0000003xspw}
+Employer: {!Account.00ND0000003xtHS}
+
+Second Parent/Guardian Information
+
+Name: {!Account.00ND0000003tJG2} {!Account.00ND0000003VOKy} {!Account.00ND0000003tJFx} ({!Account.00ND0000003VOLX})
+Email 1: {!Account.00ND0000003xsp9}
+Email 2: {!Account.00ND0000003xsph}
+Phone 1: {!Account.00ND0000003xsq1}
+Phone 2: {!Account.00ND0000003xsq6}
+Employer: {!Account.00ND0000003xtHX}
+
+Your address in Moscow:
+{!Account.Main_Address__c}
+
+How should we contact you?
+
+Our current records show that you wish to be contacted using the following email address(es)/phone number(s):
+
+First Parent/Guardian Preferred Email: {!Account.PersonEmail}
+First Parent/Guardian Preferred Phone: {!Account.Phone}
+Second Parent/Guardian Preferred Email: {!Account.00ND0000003HtZe}
+Second Parent/Guardian Preferred Phone: {!Account.00ND0000003Htz1}
+
+Could you please also tell us which of you would liked to be contacted first should the necessity arise:
+First Parent/Guardian OR Second Parent/Guardian (delete as appropriate)
+
+Additional Contact Information
+
+Please indicate below any additional email addresses or phone numbers (that weren&apos;t mentioned above) that you would like us to use, in order of priority of use. Please also state who they belong to.
+
+Details: {!Account.Contact_Note__c}
+
+My invoices should be addressed to:
+First Parent/Guardian OR Second Parent/Guardian OR Company (delete as appropriate)
+
+Additional Guardians and Authorised Pickups
+Please list below all persons who could be expected to collect your child(ren) from school at any time without any additional authorization from yourself. By naming authorized guardians and pickups on the list below you are providing consent for them to receive an ISM security pass which enables them access to ISM premises at any time. We kindly request that you inform our admissions team, by email, in advance, in case you require to withdraw or add any additional guardians/pickups in the future.
+
+Guardian 1: {!Account.00ND0000003VOL4} ({!Account.00ND0000003VOLc})
+Guardian 2: {!Account.00ND0000003VOLS} ({!Account.00ND0000003VOLh})
+
+Car Plate Numbers:
+{!Account.First_Car_Plate_Number__c}
+{!Account.Second_Car_Plate_Number__c}
+{!Account.Third_Car_Plate_Number__c}
+{!Account.Fourth_Car_Plate_Number__c}
+{!Account.Fifth_Car_Plate_Number__c}
+
+We thank you in advance for taking the time to review this information. Please do not hesitate to contact us if there is anything else you would like to clarify.
+
+Kind Regards,
+
+Admissions Team
+The International School of Moscow
+Tel: +7 (499) 922 44 00 ext.3
+       +7 (916) 922 04 54</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

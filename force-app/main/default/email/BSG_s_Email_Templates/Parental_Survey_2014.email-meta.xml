@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Parental Survey 2014</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Parental Survey 2014</name>
+    <style>freeForm</style>
+    <subject>Parental Survey 2014</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+PLEASE CLICK HERE TO ACCESS THE SURVEY
+
+
+请点击此处参与调查
+
+
+
+
+
+
+Dear Parents,
+
+
+Nord Anglia Education are piloting a project called ‘The Parent Lens’ which will involve all Nord Anglia Education schools across the world. The aim of this project is for all NAE schools  to be clear and open about what parents expect from us, to make sure that we are always meeting these basic expectations and, perhaps more importantly, to ensure that we are going beyond these expectations for parents and students alike.
+
+
+Above is a link to a very short open-ended questionnaire that will ask you about:
+
+your basic expectations of our school,
+what you expect of us in addition to these basic expectations,
+whether you can identify anything our school has done or does that you consider to be amazing or above and beyond what you might normally expect of us,
+what, if anything, we do as a school that you find irritating.
+
+The questionnaire should take you no longer than 15 minutes to complete. Your replies will be anonymous and all of the data will be collected and analysed centrally before the conclusions are sent to our school.
+
+
+The survey will close 20th February 2014 so please send us your replies before then.
+
+
+With our thanks and best wishes,
+
+
+Mr. Mark Thomas
+
+
+
+Principal
+
+
+
+
+The British School of Guangzhou
+
+
+World Class Education
+
+_________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

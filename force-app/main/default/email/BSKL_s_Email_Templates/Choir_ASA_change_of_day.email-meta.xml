@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Choir ASA - change of day</name>
+    <style>freeForm</style>
+    <subject>Choir ASA - change of day</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We would like to inform you that Middle School Choir will now be held every Friday instead of Tuesdays, starting on Friday 12th October, from 2-3pm. This means that the Tuesday slot will no longer take place. If your child would like to attend an alternative ASA on a Tuesday, please contact Harrie Thomson: harrie.thomson@britishschool.edu.my. My apologies for any inconvenience this may cause but we felt that in order to give more children the opportunity to join the choir, it would be better if held on this alternative day.
+
+If you have not yet confirmed that your child is able to attend choir on Fridays, kindly do so as soon as possible to myself, Charlotte Leng: charlotte.leng@britishschool.edu.my so that we can finalise the list.
+
+Many thanks
+
+Kind Regards,
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to parents about Independence Day.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Independence Day</name>
+    <style>freeForm</style>
+    <subject>Independence Day</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+We would like to inform you that school will be closed on Monday, 1st September due to celebration of Independence Day of Uzbekistan.
+
+We hope you will enjoy your holidays!
+
+Thank you!
+
+
+Уважаемые родители,
+
+Данным письмом мы хотели бы сообщить Вам, что школа будет закрыта в связи с празднованием Дня Независимости Узбекистана в понедельник, 1 сентября.
+
+
+Мы надеемся Вы замечательно проведете праздники.
+
+
+
+Regards,
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

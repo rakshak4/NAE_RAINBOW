@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>06/09/2013 Teacher Portal Update</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>06/09/2013 Teacher Portal Update</name>
+    <style>freeForm</style>
+    <subject>Update on Teacher Portal</subject>
+    <textOnly>Dear {!Account.FirstName},
+
+Following the launch of the teacher portal, we wanted to provide you with some feedback on the system:
+
+1- Attendance: You might have noticed we have changed the interface a little. This has been done to resolve a few bugs we were experiencing, but also to simplify the view. Please Note: Whenever you want to save the attendance list, please only press the button once and wait for the &quot;Success&quot; notice. You can continue editing and saving again after you receive this notice.
+
+2- Help Panel: When you log into the portal, you will see on the left hand column a section titled &quot;Teacher Portal Help&quot;, with links below. These are videos we have been recording to explain how common tasks are to be performed. We will continue to add to those links as the weeks progress, but feel free to refer to the videos if you need help. 
+
+3- Chatter Group - You might have noticed that you have become members of the &quot;Teacher Portal System Update&quot; Chatter Group. We will be using this group to convey further updates about the teacher portal.
+
+4- Sending Email to Parents - You will recall that you can use the portal to send email to parents (From within your Group click on &quot;Group Details&quot; and then press the &quot;Send Email to Parents&quot;. We have corrected a few bugs and things should be working better now. For the moment the email is being sent to the preferred contact person as indicated by the family (either the mother or the father. This information is recorded by the admissions office). We will shortly be adding the other/additional email addresses to this list that parents have provided the school admin department.
+
+5- Please update your Group Details choosing the designated &quot;Approver&quot; - This was something that was not explained during the training. Click here to see how this is done.
+
+Just to clarify, the &quot;Approver&quot; is the staff member who is responsible for approving and reviewing your School reports. If you are Head of Department or School, it might mean that you should select yourself as an approver.
+
+6- Adding TA&apos;s to Chatter - We have activated the possibility of inviting TA&apos;s to join Chatter. This will provide them with access JUST to chatter (no other functionality). To invite them, just click on the &quot;Chatter&quot; tab and then click the orange button on the top right of the screen called &quot;Invite Co-Workers!&quot;
+
+7- Support - We&apos;ve set up an email address to which you should direct any requests for support: support@britishschools.co.uk. Note that any requests to change passwords, add new users, change user details etc. should be directed to your school IT team. 
+
+Finally we would like to encourage you to start registering your assessments and pastoral information. We would obviously want all the student records to be up to date with this information, but also remember we are going to be launching the parent portal in a few weeks and would like parents have content available once they login.
+
+Thank you for your patience and enthusiasm with Teacher Portal, and please keep us posted with any issues or problems you are having,
+
+ 
+Kind regards,
+ 
+
+Group IT Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

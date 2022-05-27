@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 500px; ">
+			<tbody>
+				<img border="0" id="m_3308685547825015245r1sp1" src="https://ci6.googleusercontent.com/proxy/67dXnVocysCsXlJug8sCwjBn53jHY6vok7ArlGUgs6iyEW02S5lmjGnO2wFvRa8wDolQRwuNpB8ZtRQ8DJ6xCSAcsylyglo6hKkrKdXXbJylHPQ1hCaOBcGGhBiWL5qWYSWwjpyjE4ENzbEgIN7XEqzPgw=s0-d-e1-ft#https://ap4.salesforce.com/servlet/servlet.ImageServer?id=0156F00000F05db&amp;oid=00D6F000001cXAR" class="CToWUd">
+				<tr>
+					<td>
+						<p style="text-align: left; ">
+							<b><span style="font-family:'Verdana';"><span style="font-size:12px;">Staff Member:&nbsp;</span></span></b><span style="font-family:'Verdana';"><span style="font-size:12px;">{!Account.FirstName} &nbsp;{!Account.LastName}</span></span><br />
+							<span style="font-size:12px;"><span style="font-family:'Verdana';"><strong>Position:</strong>&nbsp;{!Employment_Agreement__c.Position_in_Contract__c}</span></span><br />
+							<span style="font-size:12px;"><span style="font-family:'Verdana';"><strong>Date:&nbsp;</strong>{!Employment_Agreement__c.Contract_Text_Today__c}</span></span></p>
+						<p style="text-align: justify; ">
+							<span style="font-size:12px;"><span style="font-family:'Verdana';">Dear&nbsp;{!Account.FirstName},</span></span></p>
+						<p style="text-align: left; ">
+							<span style="font-size:12px;"><span style="font-family:'Verdana';">You are to receive a Bonus of&nbsp;<b>{!Employment_Agreement__c.Bonus_Letter_Result_Bonus__c}</b>&nbsp;payable within one month of {!Employment_Agreement__c.Copy_Bonus_Date_Payable__c}. This bonus is the result of the following calculation, based on {!Employment_Agreement__c.Bonus_Criteria__c}:</span></span></p>
+						<p style="text-align: center; ">
+							<span style="font-family:'Verdana';"><span style="font-size:12px;"><font class="Apple-style-span"><b>{!Employment_Agreement__c.Bonus_Letter_Calc_3__c}{!Employment_Agreement__c.Bonus_Letter_Objectives_Calcul_2__c}{!Employment_Agreement__c.Bonus_Letter_Personal_Objectives_Calcul__c}{!Employment_Agreement__c.Bonus_Letter_Result_Bonus__c}</b></font></span></span></p>
+						<p style="text-align: justify; ">
+							<span style="font-size:12px;"><span style="font-family:'Verdana';"><font class="Apple-style-span">The school has confirmed a total of&nbsp;<strong>{!Employment_Agreement__c.Bonus_Copy_Student_Numebers_Confirmed__c}</strong> as of&nbsp;{!Employment_Agreement__c.Copy_Bonus_Criteria_Date__c}. If you have any questions regarding the above calculation, please contact your Line Manager.</font></span></span></p>
+						<p style="text-align: justify; ">
+							&nbsp;</p>
+<p style="text-align: justify; ">
+							<span style="font-family:'Verdana';"><span style="font-size:12px;">The school thanks you for you continued efforts and work, and trusts that you find this bonus payment a fair reflection of the results achieved over this past academic year.</span></span></p>
+
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<p style="text-align: center; ">
+			&nbsp;</p>
+
+
+						<p style="text-align: justify; ">
+							&nbsp;</p>
+		<p style="text-align: center; ">
+			<strong style="font-family: 'Verdana'; font-size: 10px; ">&nbsp; &nbsp; &nbsp;</strong></p>
+		<div>
+			&nbsp;&nbsp;</div>
+		<p style="text-align: left; ">
+			&nbsp;</p>
+		<p>
+			&nbsp;</p>
+	</body>
+</html>

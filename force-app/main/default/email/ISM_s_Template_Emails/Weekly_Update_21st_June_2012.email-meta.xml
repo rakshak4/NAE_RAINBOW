@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>ISM</letterhead>
+    <name>Weekly Update 21st June, 2012</name>
+    <style>freeForm</style>
+    <subject>Weekly Update 21st June, 2012</subject>
+    <textOnly>Dear Parents,
+
+The end of the school year is close but we still have information to share.
+
+
+Contact Details Update
+
+You have received the contact information update request yesterday. For many families we have two or more contact emails but only the email that is listed as the First parent email would have received the full list of contact details while the second and other listed emails would have received a blank message. We apologize for the inconvenience but unfortunately this is a limitation of our database system.
+
+We are kindly asking you to send us the updated contact information by July 5 to enable us to update the database before August 1. We are also asking you to pay attention to the &quot;Guardians and authorized pick ups&quot; and &quot;Car license plate&quot; sections as this information will be linked to our security database next year.
+
+Lost &amp; Found
+
+
+
+Upper School
+
+
+Uniform
+
+
+- PE shorts, sizes 8, 10, 14
+
+- Tracksuit pants, sizes 8, 10, 12
+
+- Tracksuit tops, sizes 6, 8, 10, 12
+
+- Blazers, sizes 12, 14
+
+- Grey jumpers, sizes 10, 18
+
+- Grey sleeveless jackets, sizes 10, 14
+
+- White shirts, sizes 12 (2), 14
+
+- Grey trousers, sizes 10, 12, 13
+
+
+Non-uniform
+
+
+Clothes
+
+
+- Five pairs of tights
+
+- White T-shirt
+
+- Yellow T-shirt, size 12
+
+- Yellow-grey sports jacket
+
+- Blue fleece jacket, size XXL
+
+- Brown fleece jacket, size XL
+
+- Khaki jacket, size M
+
+
+Hats
+
+
+- Five hats
+
+
+Other
+
+
+- Small drop-shaped icon (Virgin Mary)
+
+- Blue USB flash drive
+
+- USB flash drive (orange wristband)
+
+- Silver heart-shaped earrings
+
+- Azbuka Vkusa plastic bag with a yellow T-shirt and blue shorts in it
+
+- Two water bottles
+
+
+
+Lower School
+
+
+Uniform
+
+
+- Tracksuits, sizes 4, 6, 8
+
+- Tracksuit top, size 10
+
+- Blazer, size 8
+
+- Jumper, size 6
+
+- Grey jumper, size 6
+
+
+Non-uniform
+
+
+Clothes
+
+
+- Grey T-shirt, size 8
+
+- Grey sweatshirt, size 128 Cern
+
+- Black jacket Manchester United
+
+- White striped jacket “Polo”, size 6
+
+- Black raincoat Adidas
+
+- Blue leggings
+
+
+Shoes
+
+
+- Two pairs of black shoes
+
+- Black ballet shoes, size 32.5
+
+- White sneakers, size 32.5
+
+
+
+Hats
+
+
+- Three caps
+
+
+Other
+
+
+- Two pairs of gloves
+
+- Three lunch boxes</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

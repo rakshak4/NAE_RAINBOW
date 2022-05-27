@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Administration of Medicines</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Administration of Medicines</name>
+    <style>freeForm</style>
+    <subject>Administration of Medicines</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Can we please remind you that if your child needs to take medication during the day that you send the medicine in a sealed bag or container clearly labelled with your child&apos;s name and class. It is recommended that you pass all medicines directly to your child&apos;s bus supervisor or Miss Patience on the front desk.
+
+In addition to this we ask that you also complete the attached &apos;medicine approval&apos; form to ensure our school nurse is fully informed regarding the administration of the medicine.
+
+If your child needs to take any medication for a contagious condition please keep them at home until they are fully recovered.
+
+Thank you for your support with this.
+
+Miss Kathy
+
+Head of Lower School
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

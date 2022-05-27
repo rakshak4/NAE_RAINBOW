@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Custom Settings to be leveraged by the Photo Utilities application</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>UserPhotoLoader__Allow_Blob_Photo_Loads__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Allow the User_Photo_Blob_c field to be set with a Base64 encoded blob string.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Allow the User_Photo_Blob_c field to be set with a Base64 encoded blob string.</inlineHelpText>
+        <label>Allow Blob Photo Loads</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>UserPhotoLoader__Allow_File_Photo_Loads__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Allow the User_Photo_URL_c field to be set with a URL that points to a Salesforce File.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Allow the User_Photo_URL_c field to be set with a URL that points to a Salesforce File.</inlineHelpText>
+        <label>Allow File Photo Loads</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>UserPhotoLoader__Allow_URL_Photo_Loads__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Allow the User_Photo_URL__c field to be set with an external URL.  Reminder, remote site settings must still be activated for the URL.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Allow the User_Photo_URL__c field to be set with an external URL.  Reminder, remote site settings must still be activated for the URL.</inlineHelpText>
+        <label>Allow URL Photo Loads</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>UserPhotoLoader__Maximum_Records_Per_Transaction__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Do not exceed 150.  If &apos;Throw Errors&apos; is set to true, a transaction size greater than the maximum will generate an error immediately.  If &apos;Throw Errors&apos; is set to false, a transaction size greater than the maximum will not process any records.  All records will be flagged as &quot;Not Processed&quot;.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Do not exceed 150.  If &apos;Throw Errors&apos; is set to true, a transaction size greater than the maximum will generate an error immediately.  If &apos;Throw Errors&apos; is set to false, a transaction size greater than the maximum will not process any records.</inlineHelpText>
+        <label>Maximum Records Per Transaction</label>
+        <precision>3</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>UserPhotoLoader__Throw_Errors__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When set to true, any failure to process a photo will generate a failure.  When set to false, the transaction will process but not log a failure.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When set to true, any failure to process a photo will generate a failure.  When set to false, the transaction will process but not log a failure.</inlineHelpText>
+        <label>Throw Errors</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Photo Utilities</label>
+    <visibility>Public</visibility>
+</CustomObject>

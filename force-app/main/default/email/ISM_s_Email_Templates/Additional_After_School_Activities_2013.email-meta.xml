@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Additional After School Activities</name>
+    <style>freeForm</style>
+    <subject>Additional After School Activities</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear Parents,
+
+I am delighted to announce some additional activities that will be starting very soon.  Please take a minute to look at the options below. To register you interest in the activities, then please use the links or contacts provided.
+
+The British Soccer School
+
+Mondays from 3.30 – 4.45 - Starting on Monday 9th September
+-Years 3 and 4 training session
+-Years 5 and 6 training session
+-First session is free of charge, all sessions afterwards will include a cost of 1000rb
+-The British Football School will also be running a series of weekend training sessions.  Please visit their website http://britishfootballschool.com and click here to download The British Football School flyer and click here for the weekend session flyer of The British Football School. For more information contact info@britishfootballschool.com.
+
+Click on the link below to secure your place for the Monday evening sessions.  You will be able to register for the activity from Tuesday 3rd September at 6pm.
+
+https://www.eventbrite.com/event/7977301323
+
+Field Hockey Training – All abilities welcome
+
+Sundays from 10.30 – 12.00 on the dates below
+September 8th, 15th, 22nd, 29th
+October 6th, 13th
+-All children from years 2 – 8 are welcome to join.
+-Students will be split into appropriate age groups for each of the sessions.
+-Sticks are provided.
+-All sessions are free.
+
+Please email coach Anna Blok on awblokversteeg@yahoo.com by Thursday 5th September.  This is to allow for the ISM security team to be notified prior to the start of the activity.
+
+If you have any questions then please do not hesitate to get in touch,
+
+Kindest regards,
+
+Adam Hoult
+Teacher of Physical Education
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

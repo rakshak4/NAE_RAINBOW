@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Noon bus schedule 2013/14</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Noon bus schedule 2013/14</name>
+    <style>freeForm</style>
+    <subject>Noon bus schedule 2013/14</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+Dear Parents of Pre-Nursery and Nursery Children,
+
+
+I hope you are well and excited about starting the new school year at BSG.
+
+
+The school bus schedule for 2013/14 is now available through our website (http://www.bsg.org.cn/en/school-services/school-buses.aspx). Please check your route and times carefully before the bus service begins tomorrow Tuesday, 20th August.
+
+
+Note: for PN and N students we will provide a NOON Bus Service. When viewing the PN and N bus schedule the &apos;First Week Noon Bus Schedule&apos; (AVAILABLE HERE) is for both PN and N students during the first week of the school year only. The &apos;Termly Noon Bus Schedule&apos; (AVAILABLE HERE) is for students who will take the noon bus service after the first week of school.
+
+
+Bus routes are now fixed so if you require use of the school bus service, a route from published bus schedules should be chosen.
+
+
+Should you have any questions regarding the school bus service, please contact Rainbow Chen (rainbow@bsg.org.cn) directly at your convenience.
+
+
+Rainbow Chen
+
+Bus Coordinator
+
+British School of Guangzhou
+
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

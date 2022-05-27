@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>! T1 2021 Enrolled Welcome Message #1</name>
+    <style>none</style>
+    <subject>Welcome to the British International School of Kuala Lumpur</subject>
+    <textOnly>WELCOME
+Thank you for enrolling at the British International School of Kuala Lumpur. We&apos;re excited to welcome you to our community.
+
+Our first day of school will be 25 August 2021, with our Meet the Teacher/Form Tutor events being held virtually on 24 August. This is slightly later than originally published. You can see our term dates on our website (please clear your browser cookies if the date appears wrong).
+
+Over the next couple of weeks we&apos;ll send you important information that will help you prepare for school. You can also find much of the information in our New Families guide on our website at https://www.nordangliaeducation.com/our-schools/malaysia/kuala-lumpur/british-international/admissions/new-families. There is information there about uniforms, lunch plans, transportation options, and more. We also encourage you to check in with our admissions team if and when you have questions. We&apos;re here to help you.
+
+Each of these messages from the Admissions team will focus on one or two items for you to review or complete and one past BSKL News story to help you get to know our community. You&apos;ll also hear from our academic team as we got closer to the start of school.
+ 
+
+AN UPDATE ON THE STATUS OF TERM 1
+
+At the moment the Malaysian government has closed all schools for in-person learning, and we anticipate a virtual start to school on 25 August (we will be ready for in-person learning if something should change). The government is using a phased approach in the National Recovery Plan which considers daily caseloads, hospital utilisation, and vaccination rates in determining the phase and SOPs for each state/locality. Currently Selangor, the state where school is located, is in Phase 1. In addition to the national recovery plan, the Ministry of Education has indicated a desire to re-open schools for in-person learning as early as 1 September. We will share details as soon as the government makes any announcement.
+
+Our aim is to keep parents up to date with information about Malaysia&apos;s National Recovery plan and MOE&apos;s plans, along with their impact on school operations, and you will hear more from us when we know more. 
+
+BSKL NEWS
+
+A student-led initiative created last year at the British International School of Kuala Lumpur (BSKL) by Year 7 student Sasha Philip raised RM43,500 for conservation groups dedicated to saving the critically endangered Malayan tiger. Read more online at https://www.nordangliaeducation.com/our-schools/malaysia/kuala-lumpur/british-international/article/2021/6/15/rm40k-raised-by-bskl-student-group-to-help-save-malayan-tigers</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

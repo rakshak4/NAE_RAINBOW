@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddProduct</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddProduct</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddProduct</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChoosePricebook</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChoosePricebook</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChoosePricebook</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EditAllProduct</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EditAllProduct</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EditAllProduct</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Copy_Fee_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Copy Fee Type</label>
+        <length>20</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Current__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Current</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Custom__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Custom</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Deletion_Prevention__c</fullName>
+        <externalId>false</externalId>
+        <formula>/*OR(
+       TEXT(Opportunity.StageName) = &quot;Enrolled&quot;,
+       AND(
+           TEXT(Opportunity.StageName) = &quot;A/ Deposit&quot;,
+           TEXT(Opportunity.Add_to_Register__c) = &quot;Yes&quot;
+           )
+       )*/
+
+/*AND(
+    Copy_Fee_Type__c = &quot;Tuition&quot;,
+    Current__c = True,
+    OR(
+       ISBLANK(Student_Leaving_Date__c),
+       Student_Leaving_Date__c &gt;= DATE(2018,05,01)
+       )
+    )*/
+
+
+/* 190208 Used to manually exclude BST invoices from coming generation by setting Current__c to FALSE*/
+AND(
+     /*Current__c = TRUE,*/
+     AND(
+         Next_Generated_Invoice__c &gt;= DATE (2019,02,09),
+         Next_Generated_Invoice__c &lt;= DATE (2019,02,17)
+         ),
+     Student_School__c = &quot;The British School of Tashkent&quot;
+    )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Deletion Prevention</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>Discount</fullName>
+    </fields>
+    <fields>
+        <fullName>Discount_Amount__c</fullName>
+        <externalId>false</externalId>
+        <formula>Fee_Currency__c&amp;&quot; &quot;&amp;
+
+IF( 
+   ListPrice * Discount &gt;= 1000000, 
+   TEXT(FLOOR(ListPrice * Discount / 1000000)) &amp; &quot;,&quot;, 
+   &quot;&quot;
+   )&amp; 
+IF( 
+   ListPrice * Discount &gt;= 1000, 
+   RIGHT(TEXT(FLOOR(ListPrice * Discount / 1000)), 3) &amp; &quot;,&quot;, 
+   &quot;&quot;
+   )&amp; 
+RIGHT(TEXT(ROUND(ListPrice * Discount, 0)), 3) &amp; &quot;.00&quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Discount Amount</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Discount_Percentage__c</fullName>
+        <externalId>false</externalId>
+        <formula>Discount</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Discount Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Due_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Due Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>External_ID_18_Char__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>External ID (18 Char)</label>
+        <length>18</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Fee_Currency__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(PricebookEntry.Product2.Invoice_Currency__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Fee Currency</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Fee_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>PricebookEntry.Product2.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Fee Name</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Fee_Pricebook__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity.Pricebook2.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Fee Pricebook</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Fee_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(PricebookEntry.Product2.Description_of_fee__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Fee Type</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Include_in_Invoice_Generation_Cus_Year__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( 
+   AND( 
+       Next_Year_Fee__c = TRUE, 
+       Opportunity.CloseDate &lt;= Opportunity.End_Date_Next_Fiscal_Year__c, 
+       OR( 
+          Opportunity.Leaving_Date__c &gt;= Opportunity.Start_Date_Next_Fiscal_Year__c,   
+          TEXT(Opportunity.Leaving_Date__c) = &quot;&quot; 
+          ) 
+       ), 
+   &quot;TRUE&quot;, /*if student attends school at any point in next academic year and next year fee = TRUE*/
+   IF( 
+      AND(
+          Next_Year_Fee__c = FALSE, 
+          Opportunity.CloseDate &lt;= Invoice_Date__c, 
+          OR( 
+             Opportunity.Leaving_Date__c &gt; Invoice_Date__c, 
+             TEXT(Opportunity.Leaving_Date__c) = &quot;&quot; 
+             ) 
+          ), 
+      &quot;TRUE&quot;,
+      &quot;FALSE&quot;
+      )
+   )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Include in Invoice Generation (Cus.Year)</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Invalid_Payer__c</fullName>
+        <externalId>false</externalId>
+        <formula>AND(
+    Current__c = TRUE,
+    OR(
+       ISBLANK(Payer__c),
+       AND(
+           Payer__r.Id != Opportunity.Account.Id,
+           Payer__r.Id != Opportunity.Related_Financial_Info__r.Related_Company_Financial_Info__r.Related_to__r.Id
+           )
+       )
+    )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Invalid Payer</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Invoice_Addressee__c</fullName>
+        <externalId>false</externalId>
+        <formula>Payer__r.Primary_Invoicing_Contact_Full_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Invoice Addressee</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Invoice_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Invoice Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Invoicing_Term__c</fullName>
+        <externalId>false</externalId>
+        <label>Invoicing Term</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yearly</fullName>
+                    <default>false</default>
+                    <label>Yearly</label>
+                </value>
+                <value>
+                    <fullName>Termly</fullName>
+                    <default>false</default>
+                    <label>Termly</label>
+                </value>
+                <value>
+                    <fullName>Monthly</fullName>
+                    <default>false</default>
+                    <label>Monthly</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Link_to_Fee__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(Id, &quot;View Fee&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Link to Fee</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ListPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>List_Price_Formatted__c</fullName>
+        <externalId>false</externalId>
+        <formula>Fee_Currency__c &amp; &quot; &quot; &amp; 
+IF( 
+ListPrice &gt;= 1000000, 
+TEXT(FLOOR(ListPrice / 1000000)) &amp; &quot;,&quot;, 
+&quot;&quot;) &amp; 
+IF( 
+ListPrice &gt;= 1000, 
+RIGHT(TEXT(FLOOR(ListPrice / 1000)), 3) &amp; &quot;,&quot;, 
+&quot;&quot;) &amp; 
+RIGHT(TEXT(FLOOR(ListPrice)), 3) &amp; &quot;.&quot; &amp; 
+IF( 
+MOD(ListPrice , 1) * 100 &lt; 10, 
+&quot;0&quot; &amp; TEXT(ROUND(MOD(ListPrice , 1), 2) * 100), 
+TEXT(MIN(ROUND(MOD(ListPrice , 1), 2) * 100, 99)) 
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>List Price</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Meets_Invoice_Generation_Criteria__c</fullName>
+        <description>Indicates if an opportunity product meets the criteria to generate an invoice based on the dates defined on the &apos;Dates Setup&apos; object (note that values are not synced between the two and must be changed manually in this field if they are changed in dates setup)
+Current Values as follows:
+MONTHLY:
+Starting Date &lt;= Invoice Date +27
+Leaving Date &gt; Next Generated Invoice +21
+TERMLY:
+Starting Date &lt;= Invoice Date +100
+Leaving Date &gt; Next Generated Invoice +50</description>
+        <externalId>false</externalId>
+        <formula>AND(
+    TEXT(Opportunity.StageName) = &quot;Enrolled&quot;,
+    OR(
+       AND(
+           TEXT(Invoicing_Term__c) = &apos;Monthly&apos;, 
+           Opportunity.CloseDate &lt;= Invoice_Date__c + 27,  
+           OR(
+              Opportunity.Leaving_Date__c &gt; Next_Generated_Invoice__c + 21, 
+              TEXT(Opportunity.Leaving_Date__c) = &quot;&quot;
+              )
+           ),
+       AND(
+           Opportunity.CloseDate &lt;= Invoice_Date__c + 100,
+           OR(
+              TEXT(Invoicing_Term__c) = &apos;Termly&apos;,
+              TEXT(Invoicing_Term__c) = &apos;Yearly&apos;
+              ), 
+           OR(
+              Opportunity.Leaving_Date__c &gt; Next_Generated_Invoice__c + 50, 
+              TEXT(Opportunity.Leaving_Date__c) = &quot;&quot;
+              )
+           )
+       )
+    )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Meets Invoice Generation Criteria</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Months_In_Year__c</fullName>
+        <externalId>false</externalId>
+        <label>Months In Year</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>10</fullName>
+                    <default>false</default>
+                    <label>10</label>
+                </value>
+                <value>
+                    <fullName>12</fullName>
+                    <default>false</default>
+                    <label>12</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+    </fields>
+    <fields>
+        <fullName>Next_Generated_Invoice__c</fullName>
+        <externalId>false</externalId>
+        <label>Next Generated Invoice</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Next_Year_Fee__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Check if this fee is an advanced fee for the next academic year</inlineHelpText>
+        <label>Next Year Fee?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OLI_Invoice_Xero_Key__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+   AND(
+       Student_School__c = &quot;The British School Yangon&quot;,
+       OR(
+          Fee_Type__c = &quot;Bus&quot;,
+          Fee_Type__c = &quot;Lunch&quot;
+          )
+       ),
+   &quot;Yangon BL&quot;,
+   Payer__r.Invoice_Xero_Key__c
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>OLI Invoice Xero Key</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OpportunityId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Payer__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Payer</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Opportunity Product</relationshipLabel>
+        <relationshipName>Opportunity_Product</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Product2Id</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProductCode</fullName>
+    </fields>
+    <fields>
+        <fullName>Quantity</fullName>
+    </fields>
+    <fields>
+        <fullName>ServiceDate</fullName>
+    </fields>
+    <fields>
+        <fullName>Student_Leaving_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity.Leaving_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Student Leaving Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Student_School__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity.School__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Student School</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Student_Stage__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Opportunity.StageName)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Student Stage</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Student_Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity.CloseDate</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Student Start Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Student_Year_Group__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Opportunity.Year_Group__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Student Year Group</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Subtotal</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>Total_Price_Calculated__c</fullName>
+        <externalId>false</externalId>
+        <formula>ListPrice*Quantity - ROUND((ListPrice* Quantity*Discount), 0)</formula>
+        <label>Total Price (Calculated)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Total_Price_Formatted__c</fullName>
+        <externalId>false</externalId>
+        <formula>Fee_Currency__c &amp; &quot; &quot; &amp;
+ IF(
+      Total_Price_Calculated__c &gt;= 1000,
+      RIGHT(TEXT(FLOOR(Total_Price_Calculated__c / 1000)), 5) &amp; &quot;,&quot;,
+      &quot;&quot;) &amp;
+    RIGHT(TEXT(FLOOR(Total_Price_Calculated__c)), 3) &amp; &quot;.&quot; &amp;
+    IF(
+      MOD(Total_Price_Calculated__c , 1) * 100 &lt; 10,
+      &quot;0&quot; &amp; TEXT(ROUND(MOD(Total_Price_Calculated__c , 1), 2) * 100),
+      TEXT(MIN(ROUND(MOD(Total_Price_Calculated__c , 1), 2) * 100, 99))
+    )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Price</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tuition__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Tuition</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>UnitPrice</fullName>
+    </fields>
+    <validationRules>
+        <fullName>Disallow_Due_Date_for_Non_custom_Fee</fullName>
+        <active>false</active>
+        <description>Stops a due date being entered for a non-custom yearly fee</description>
+        <errorConditionFormula>AND(
+    Student_School__c != &quot;The New York International School&quot;,
+    Custom__c = FALSE,
+    NOT(ISBLANK(Due_Date__c)) 
+    )</errorConditionFormula>
+        <errorMessage>The due date for this type of fee is defined by the system and should be left blank. Please delete the due date in order to save the record.</errorMessage>
+    </validationRules>
+</CustomObject>

@@ -1,0 +1,217 @@
+<apex:page controller="FreeSSO.OrgInfo" showHeader="true" sidebar="false" >
+<apex:stylesheet value="{!$Resource.FreeSSO__lassoCSS}" />
+
+<div id="body">
+
+<h1 class="h1">Free SSO Setup Guide</h1>
+<p>
+So you are using Google Apps and Salesforce. But wouldn't it be convenient if users could use Google as their Single-Sign-On system and login to Salesforce with just a mouseclick? And wouldn't it be much better for your corporate security if you had one single point to deactivate a user's access to Google Apps and Salesforce?
+Free SSO is the solution for you. It is a managed package containing everything you need together with easy to understand step by step instructions that really any Salesforce admin can handle. Free SSO also works with Salesforce 1 and in sandboxes.
+</p>
+<p>
+How it works: Your users will use a custom login page to get access to Salesforce. They will then see an extra button "Login via Google". If they click the button, they will be logged via Google Apps - typically without having to enter anything. This works securely thanks to Google's OpenID API.
+Optionally, you can set it up so opening the custom login page will automatically log the users in via Google (a.k.a. "Silent Login").
+</p>
+
+</div>
+<img class="screenshot" src="{!$Resource.FreeSSO__Login_1}"/>
+<div id="body">
+
+<apex:outputPanel rendered="{!IF(myDomainName == null, true, false)}">
+
+<h1 class="h1">Set up My Domain</h1>
+<p style="color:red">You don't seem have My Domain enabled in your Salesforce org. You can still use Groove SSO but your login URL won't be so "pretty".</p>
+<p>This is how you set up My Domain:</p>
+<ol>
+    <li>From Setup, click <B>Domain Management</B> | <B>My Domain</B> (or <a href="/domainname/DomainName.apexp" target="_blank">click here</a>)</li>
+    <li>Enter the subdomain name you want to use within the sample URL.</li>
+    <li>Click <B>Check Availability</B>. If your name is already taken, choose a different one.</li>
+    <li>Click <B>Terms and Conditions</B> to review your agreement, then select the checkbox.</li>
+    <li>Click <B>Register Domain</B>.</li>
+    <li>Wait until you'll receive an email informing you that your domain name is ready for testing. (This can take 10 minutes to 24 hours.)</li>
+    <li>Test your domain login. From Setup, click <B>Domain Management</B> | <B>My Domain</B> (or <a href="/domainname/DomainName.apexp" target="_blank">click here</a>), then click <B>Click here to login</B>.</li>
+    <li>If everything works as expected (custom buttons and Visualforce pages), roll out the new domain name to your organization. From Setup, click <B>Domain Management</B> | <B>My Domain</B> and then click <B>Deploy to Users</B>.</li>
+</ol>
+<p>Your new org-specific Salesforce login URL is now https://&lt;my-domain&gt;.my.salesforce.com/ . Later you will tell all your users to create a bookmark in their browser and use this URL to login to Salesforce. The current way to login to salesforce is certainly still working.</p>
+</apex:outputPanel>
+
+<fieldset>
+    <legend>The following setup instructions are specific to this Salesforce org </legend>
+    My Domain URL: https://{!myDomainName}{!IF(sandboxName != null, '--' & sandboxName & '.' & pod , '')}.my.salesforce.com<br/>
+    My Domain Name: {!myDomainName}<br/>
+    Salesforce Pod: {!pod}<br/>
+    Org Id: {!orgId}<br/>
+    {!IF(sandboxName != null, 'Sandbox Name: ' & sandboxName, '')}
+</fieldset>
+
+<p></p>
+<h1 class="h1">Preparation: Normalize your Usernames</h1>
+<p>
+Understanding which Google user is equivalent to which Salesforce user, means Groove must match a Google username to a Salesforce username. You have two options to do this:
+</p>
+<h2 class="h2">Option A: Username = Email</h2>
+<p>
+The usernames in your Google Apps domain are exactly the same as in your Salesforce org. Important: don't confuse a user's email address with a user's username in Salesforce - these are not necessarily the same.
+</p>
+<table border="1">
+    <tr>
+        <td><b>User</b></td><td><b>Username Salesforce</b></td><td><b>Email Google Apps</b></td>
+    </tr>
+    <tr>
+        <td>Frank Moller</td><td>frank.moller@acme.com</td><td>frank.moller@acme.com</td>
+    </tr>
+    <tr>
+        <td>Mary Lee</td><td>maryl@acme.com</td><td>maryl@acme.com</td>
+    </tr>
+</table>
+<p></p>
+<h2 class="h2">Option B: Username = Email+<span style="color:red">Suffix</span></h2>
+<p>
+The usernames in your Google Apps domain are exactly the same as in your Salesforce org but with a suffix. This is useful if you have multiple Salesforce production orgs in your company and the suffix determines which org it is.
+</p>
+<table border="1">
+    <tr>
+        <td><b>User</b></td><td><b>Username Salesforce</b></td><td><b>Email Google Apps</b></td>
+    </tr>
+    <tr>
+        <td>Frank Moller</td><td>frank.moller@acme.com<span style="color:red">.finance</span></td><td>frank.moller@acme.com</td>
+    </tr>
+    <tr>
+        <td>Mary Lee</td><td>maryl@acme.com<span style="color:red">.finance</span></td><td>maryl@acme.com</td>
+    </tr>
+</table>
+<p>
+Long story short: you must normalize all of your usernames in Salesforce to match either one of these two formats.
+</p>
+<p>
+If you choose option B (Username = Email+Suffix), you must put the suffix of your choice into the custom settings:
+</p>
+<ol>
+    <li>From Setup, click <b>Develop</b> | <B>Custom Settings</B> (or <a href="/setup/ui/listCustomSettings.apexp" target="_blank">click here</a>)</li>
+    <li>Click <b>Manage</b> in the row labeled <B>Free SSO</B></li>
+    <li>Click the top button <B>New</B></li>
+    <li>Enter the name of your suffix into the field <B>Email-to-Username Suffix</B> and click <B>Save</B>. This would be ".finance" in the example above.</li>
+    <apex:outputPanel rendered="{!IF(sandboxName != null, true, false)}">
+    <li>IMPORTANT! In a sandbox your usernames will look like e.g. maryl@acme.com.finance.{!sandboxName} where "{!sandboxName}" is the name of your sandbox. If you install Free SSO in a sandbox, enter the name of your suffix + .{!sandboxName}. This would be ".finance.{!sandboxName}" in the example above.</li>
+    </apex:outputPanel>
+</ol>
+
+</div>
+<img class="screenshot" src="{!$Resource.FreeSSO__suffix_1}"/>
+<img class="screenshot" src="{!$Resource.FreeSSO__suffix_2}"/>
+<div id="body">
+
+
+<h1 class="h1">Step 1: Set up a Google Cloud Project</h1>
+<ol>
+    <li>Open <a href="https://cloud.google.com/console/project" target="_blank">https://cloud.google.com/console/project</a></li>
+    <li>Click <B>CREATE PROJECT</B></li>
+    <li>Enter any valid name, click <b>Create</b> and wait a few seconds until the project is created and displayed in the list of your projects.
+        <img class="screenshot" src="{!$Resource.FreeSSO__Create_Project_1}"/>
+    </li>
+    <li>Make sure your new project is the one that's selected at the top. Then, from the menu item API manager click on <b>Credentials</b>.</li>
+    <li>Click on the tab <b>OAuth consent screen</b>.</li>
+    <li>In the field <b>Email address</b> pick your own email address.</li>
+    <li>In the field <B>Product name</B> put "Salesforce Login (Prod)" or a similar value that explains to your users to which Salesforce org they are about to log in. All other fields can be left blank.
+        <img class="screenshot" src="{!$Resource.FreeSSO__consent_screen_1}"/>
+    </li>
+    <li>Click the <B>Save</B> button</li>
+    <li>From the tabs at the top, click <b>Credentials</b>. Click the button <b>Create credentials</b> and pick <b>OAuth client ID</b> from the list of displayed options.
+        <img class="screenshot" src="{!$Resource.FreeSSO__credentials}"/>
+    </li>
+    <li>In the page:
+        <ol>
+            <li>Select <b>Web application</b> as application type</li>
+            <li>Put a name like "Salesforce Login (prod)"</li>
+            <li>Leave the field <B>Authorized Javascript origins</B> blank</li>
+            <li>One by one, copy and paste these three lines in the field <B>Authorized redirect URI</B> (and hit Enter after you pasted each URL)<br/>
+                <code>
+                    https://{!loginHost}.salesforce.com/services/authcallback/{!orgId}/Login_via_Google<br/>
+                    https://{!loginHost}.salesforce.com/services/auth/sso/{!orgId}/Login_via_Google<br/>
+                    https://{!loginHost}.salesforce.com/services/auth/link/{!orgId}/Login_via_Google<br/>
+                </code>
+            </li>
+        </ol>
+        <img class="screenshot" src="{!$Resource.FreeSSO__Create_Client_ID_2}"/>
+    </li>
+    <li>Click the button <B>Create</B></li>
+    <li>A dialog displays now two important strings: the Client ID and the Client Secret. Keep this dialog open as you will need the values in the next step</li>
+</ol>
+
+</div>
+
+<img class="screenshot" src="{!$Resource.FreeSSO__Client_Id_1}"/>
+
+<div id="body">
+
+<h1 class="h1">Step 2: Set up an Auth. Provider</h1>
+<ol>
+    <li>
+        In Salesforce, click <B>Setup</B> | <B>Security Controls</B> | <B>Auth. Providers</B> (or <a href="/0SO" target="_blank">click here</a>)<br/>
+        <b>Note:</b> You will only see this menu item if your profile has "Manage Auth. Providers" permissions.
+    </li>
+    <li>In the pick list <b>Provider Type</b> pick <B>Open ID Connect</B>, then populate the fields as follows:
+        <ol>
+            <li>Name: Login via Google</li>
+            <li>URL Suffix: Login_via_Google (Important: enter exactly this value)</li>
+            <li>Consumer Key: => Enter the "Client ID" from the Google Cloud Console</li>
+            <li>Consumer Secret: => Enter the "Client secret" from the Google Cloud Console</li>
+            <li>Authorize Endpoint URL: <code>https://accounts.google.com/o/oauth2/auth</code></li>
+            <li>Token Endpoint URL: <code>https://accounts.google.com/o/oauth2/token</code></li>
+            <li>User Info Endpoint URL: <code>https://www.googleapis.com/oauth2/v3/userinfo</code></li>
+            <li>Token Issuer: (leave blank)</li>
+            <li>Default Scopes: email<br/>(note: this means put the word "email" in this field)</li>
+            <li>Send access token in header: Check</li>
+            <li>Send client credentials in header: Uncheck</li>
+            <li>Custom Error URL: (leave blank)</li>
+            <li>Registration Handler: FreeSsoHandler</li>
+            <li>Execute Registration As: Pick your own name or the name of any other system administrator</li>
+            <li>Portal: None</li>
+            <li>Icon URL: (leave blank)</li>
+        </ol>
+    </li>
+    <li>Click Save</li>
+</ol>
+
+</div>
+<img class="screenshot" src="{!$Resource.FreeSSO__Auth_provider_edit_1}"/>
+<div id="body">
+
+<h1 class="h1">Step 3: Set up a Branded Login Page</h1>
+
+<apex:outputPanel rendered="{!IF(myDomainName == null, true, false)}">
+<p style="color:red">You don't seem have My Domain enabled in your Salesforce org. This is a mandatory prerequsite to proceed.</p>
+</apex:outputPanel>
+
+<ol>
+    <li>In Salesforce, from Setup click <B>Domain Management</B> | <B>My Domain</B> (or <a href="/domainname/DomainName.apexp" target="_blank">click here</a>)</li>
+    <li>In the section <B>Login Page Branding</B> click <B>Edit</B></li>
+    <li>In the section <B>Authentication Service</B> check the check box <B>Login_via_Google</B></li>
+    <li>(optional) Select a distinct background color. This is useful to indicate that you are not on the regular login page.</li>
+    <li>(optional) If you want the silent login user experience, uncheck the field <B>Login Page</B>. That way, users won't even get to see the login page if they open
+     https://{!myDomainName}{!IF(sandboxName != null, '--' & sandboxName & '.' & pod , '')}.my.salesforce.com .
+     Instead, users will be directly logged in via Google.</li>
+    <li>Click Save</li>
+</ol>
+
+</div>
+<img class="screenshot" src="{!$Resource.FreeSSO__branded_login_1}"/>
+<div id="body">
+
+
+
+<h1 class="h1">Step 4: Announce the good news to your users</h1>
+<p>
+You must now tell all your users to use the new login URL as the regular login page will not display the Login via Google button.
+</p>
+
+<apex:outputPanel rendered="{!IF(myDomainName != null, true, false)}">
+https://{!myDomainName}{!IF(sandboxName != null, '--' & sandboxName & '.' & pod , '')}.my.salesforce.com
+</apex:outputPanel>
+
+<apex:outputPanel rendered="{!IF(myDomainName != null, false, true)}">
+https://login.salesforce.com/services/auth/sso/{!orgId}/Login_via_Google
+</apex:outputPanel>
+
+</div>
+</apex:page>

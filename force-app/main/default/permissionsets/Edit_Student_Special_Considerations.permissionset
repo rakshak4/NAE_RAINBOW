@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Gives Edit permission to Opportunity object to edit Special Considerations field. Used to temporarily give School Nurse access to medical info. In future this will done in School Kompanion</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Edit Student Special Considerations</label>
+</PermissionSet>

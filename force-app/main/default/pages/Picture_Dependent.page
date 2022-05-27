@@ -1,0 +1,9 @@
+<apex:page standardController="Dependent__c">
+ 
+<apex:repeat value="{!Dependent__c.Attachments}" var="att">
+ 
+<apex:image width="110" height="120"  value="{!URLFOR($Action.Attachment.Download, att.Id)}" />
+ 
+</apex:repeat>
+
+</apex:page>

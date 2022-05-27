@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>FAO: Parents of students attending the residential trip to France</name>
+    <style>freeForm</style>
+    <subject>FAO: Parents of students attending the residential trip to France</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Required Documentation for Residential Trip to France
+
+
+Dear Parents,
+
+
+Visas
+
+
+
+As the date of our residential trip is very soon after the start of next year, it is imperative that the process of visa applications gets underway. As a school we are not able to apply for the visas on your behalf, however we are happy to supply any supporting documentation that the French Embassy will require in order for you to apply. As a school we are aware of some nationalities that will require visas however it is not possible for us to research all. If your child needs to apply for a visa, could you please inform us and we will provide you with all necessary supporting documents.
+
+
+
+Please note that if your child is travelling with two passports, it is your responsibility to inform the school of the procedures with this.
+
+Accompanying this letter are two documents that you may use when applying for the visa. As we are not aware of all passport details at this time, some of the details will need filling in before the documents are printed.
+
+
+Letter of Authorisation
+
+
+
+In order for us to take students overseas, we will require a letter of authorisation (in Russian), signed by both parents stating that you grant permission for us to take the children abroad without the presence of a parent. This letter must be notarized. Accompanying this letter are details for two accompanying adults whose details will also need to be included on the letter. The letter must include:
+
+
+
+Name and passport numbers of both parents
+Name and passport number of student
+Name and passport numbers of supporting adults
+A statement giving authorisation for the above adults to take your child to Lyon, France from September 15th to September 20th 2013 for a school residential trip.
+
+Click here for  the invitation letter
+Click here for the school letter
+Click here for Mr. Rowatt&apos;s passport copy
+Click here for Mr. Storey&apos;s passport copy
+
+
+Best regards
+
+
+Mrs. Hamilton
+
+Secondary Phase Leader
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

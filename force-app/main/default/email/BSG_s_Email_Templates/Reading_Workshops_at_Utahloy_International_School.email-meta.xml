@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Reading Workshops at Utahloy International School</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Reading Workshops at Utahloy International School</name>
+    <style>freeForm</style>
+    <subject>Reading Workshops at Utahloy International School</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We are pleased to announce that BSG parents have kindly been invited to attend a variety of Reading Workshops that will take place at Utahloy International School on Saturday 10th and Sunday 11th November.Please click here for more information.
+
+Due to the importance of reading we plan to send many of our Lower School and Primary staff to the workshops taking place on the Sunday, as these offer valuable professional development opportunities to our staff.
+
+Please note that the Saturday workshops are unfortunately on the same day as the annual BSG International Day.
+
+If you would like to attend any of the reading workshops please contact Utahloy School directly (the email address is on the attached document) and payment should also be made directly to Utahloy International School.
+
+We would like to take this opportunity to thank Elaine Whelen (Head of Utahloy International School) for extending this kind invitation to our staff and parents.
+
+Regards,
+
+Miss Kathy
+Head of Lower School
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

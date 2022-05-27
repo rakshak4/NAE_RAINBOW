@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>14/11/12 MoVember at BSKL</name>
+    <style>freeForm</style>
+    <subject>MoVember at BSKL</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+You may have noticed that last week many of the male members of staff at BSKL are attempting to grow mustaches.
+
+These wonderfully ridiculous (and some times terrifying) facial appendages are not fashion statements, but for a truly great cause.
+
+This month BSKL is supporting MoVember. A month where men attempt to grow incredible feats of &apos;&apos;mustachery&apos;&apos; in order to raise vital funds and awareness for men’s health, specifically prostate cancer and testicular cancer.
+
+These brave members of staff effectively become walking, talking billboards for the 30 days of November and through their actions and words raise awareness by prompting private and public conversation around the often ignored issue of men’s health.
+This really is an important and worth while cause and with your help we can raise some desperately needed funds.
+
+Please consider supporting us and help us raise some money by donating at http://uk.movember.com/donate and finding the BSKL team.
+
+If you would like to get involved and help us, your support and ideas would be greatly appreciated. There are lots of ways to raise funds apart from directly donating money, maybe baking and selling mustache shaped cookies at school, or having a sponsored student &apos;draw your own &apos;tash&apos; competition, all ideas are welcome.
+
+You are welcome to contact me on Blair.Coburn@britishschool.edu.my
+
+Thank you very much, I look forward to hearing from you.
+
+Kind Regards
+Blair Coburn
+Year 1C Teacher Assistant
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

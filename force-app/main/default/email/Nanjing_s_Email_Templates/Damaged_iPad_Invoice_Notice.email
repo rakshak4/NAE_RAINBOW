@@ -1,0 +1,75 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<p class="MsoNormal" align="center" style="text-align: right; color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; margin-bottom: 0.0001pt;"><span style="font-size:24.0pt;font-family:
+&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;;color:#000066;
+background:white">{!Contact.School__c}</span><span style="font-size: 12pt; font-family: Arial, sans-serif;"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="center" style="text-align: right; color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; margin-bottom: 0.0001pt;"><span style="background-color: white;"><font color="#ff6600" face="Times New Roman, serif"><i>Damaged iPad Invoicing Notice</i></font><font color="#ff6600" face="Times New Roman, serif" size="3">&nbsp;</font></span><span style="color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 12pt;"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align: right; color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif">Dear <span style="line-height: 115%; background-color: white;">{!Contact.Salutation}
+{!Contact.FirstName} {!Contact.LastName},</span><o:p></o:p></font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif"><span style="line-height: 115%; background-color: white;"><br></span></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif"><font face="arial" size="3">I am writing to you today concerning the</font><font face="arial" size="3">&nbsp;iPad lent to your child. <o:p></o:p></font></font></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><o:p><font face="Arial, sans-serif">&nbsp;</font></o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif">As you are aware there was an incident that resulted in
+severe damage to iPad.&nbsp;</font><span style="font-family: Arial, sans-serif; font-size: 12pt;">After consulting with Apple Care they have quoted the repair
+price which you may view in the attached incident report.</span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><o:p><font face="Arial, sans-serif">&nbsp;</font></o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif">We will send you an invoice for the repair costs over the
+coming days, however, I wanted to send you a courtesy notice prior to sending
+the invoice itself.</font></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><o:p><font face="Arial, sans-serif">&nbsp;</font></o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif">Should you have any questions, please do contact me at your leisure.
+<o:p></o:p></font></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><o:p><font face="Arial, sans-serif">&nbsp;</font></o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif">Warm Regards,</font><font face="arial" style="font-size: 12pt;"><o:p></o:p></font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif"><br></font></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><b><span lang="EN-MY" style="font-size:10.5pt;line-height:
+115%;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;color:#031466;
+mso-ansi-language:EN-MY">Joshua Maddox</span></b><o:p></o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; text-align: justify;"><span lang="EN-MY" style="font-size:10.5pt;line-height:115%;mso-ascii-font-family:Calibri;
+mso-hansi-font-family:Calibri;color:#002060;mso-ansi-language:EN-MY">Administration
+Director</span><o:p></o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; text-align: justify;"><span lang="EN-MY" style="font-size:10.5pt;line-height:115%;mso-ascii-font-family:Calibri;
+mso-hansi-font-family:Calibri;color:#002060;mso-ansi-language:EN-MY">The
+British School of Nanjing</span><o:p></o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; text-align: justify;"><span lang="EN-MY" style="font-size:10.5pt;line-height:115%;mso-ascii-font-family:Calibri;
+mso-hansi-font-family:Calibri;color:#002060;mso-ansi-language:EN-MY">Tel: </span><span style="font-size:10.0pt;line-height:115%;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;;
+color:#002060">+86 (25) 5210 8987</span><o:p></o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; text-align: justify;"><span lang="EN-MY" style="font-size:10.5pt;line-height:115%;mso-ascii-font-family:Calibri;
+mso-hansi-font-family:Calibri;color:#002060;mso-ansi-language:EN-MY">Fax: </span><span style="font-size:10.0pt;line-height:115%;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;;
+color:#002060">+86 (25) 5210 2385</span><o:p></o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-MY" style="font-size:10.5pt;line-height:115%;
+mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;color:#031466;
+mso-ansi-language:EN-MY"><a href="http://www.bsg.org.cn/" target="_blank">www.bsn.org.cn</a><br>
+<i>Part of The British Schools Foundation – World Class Education</i></span><o:p></o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">&nbsp;<o:p></o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; text-align: justify;"><span lang="EN-MY" style="font-size:9.0pt;line-height:115%;mso-ascii-font-family:Calibri;
+mso-hansi-font-family:Calibri;color:#031466;mso-ansi-language:EN-MY">*Disclaimer:*<br>
+This message (including any attachments) contains confidential information intended
+for a specific individual and purpose, and is protected by law. If you are not
+the intended recipient, you should delete this message and are hereby notified
+that any disclosure, copying, or distribution of this message, or the taking of
+any action based on it, is strictly prohibited.</span><o:p></o:p></p>]]></td>
+</tr>
+</table>

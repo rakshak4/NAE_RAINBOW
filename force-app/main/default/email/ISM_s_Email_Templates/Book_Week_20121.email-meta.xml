@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Book Week 2012</name>
+    <style>freeForm</style>
+    <subject>Book Week 2012</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Wednesday 3rd October
+
+
+
+Dear Parents,
+
+
+We are delighted to announce that the week beginning the 15th October will be Book Week at ISM. This year pupils from Nursery up to Year 6 will be involved.
+
+
+To begin the week we are lucky to have a visiting author from the UK. Katie Dale is a new up and coming author of children’s and young adult books. Her most recent book was published in February of this year. More information can be found on her website: http://katiedaleuk.blogspot.com We are very much looking forward to working alongside her for the four days she is here.
+
+
+There will be a competition running during the week for pupils of all ages to take part in. Like last year, pupils will be asked to create a front cover and blurb for an imaginary book. The title of the story will be provided. The competition will open during Monday’s assembly and will close on the Thursday of Book Week at 3pm for Lower Campus and Friday 12pm for Upper Campus. Winners will then be announced in the Friday assembly.
+
+
+Throughout Book Week, the children will take part in many exciting book-related activities focusing on a particular author chosen by their class teachers. These range from Francesca Simon to Roald Dahl to Terry Pratchett! Please look for further information in your child’s class blurb.
+
+
+To start the week on Monday 15th October, we would love the children to come to school dressed as their favourite character from a book. Please help to support this event by arranging a suitable costume.
+
+
+We will also be offering the opportunity to purchase books during the week from the ever-popular Bookhunter book sale. This will take place on Monday 15th on the Lower Campus and Tuesday 16th on the Upper Campus 2pm-4pm on both days to ensure bus children and those with clubs can see what’s on offer. If you would like your child to purchase a book at the book sale, please ensure they are given small rouble notes, as it is difficult to organise a lot of change in the busy selling period.
+
+
+While we are unable to invite all parents to join classes during the week, if class representatives wish to see the author working with their class or Year group, please liaise with the relevant tutor regarding times. If you have any questions related to Book Week please do not hesitate to ask.
+
+
+Yours sincerely,
+
+
+Miss Ruffin and Miss Salter
+
+Literacy Coordinators
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

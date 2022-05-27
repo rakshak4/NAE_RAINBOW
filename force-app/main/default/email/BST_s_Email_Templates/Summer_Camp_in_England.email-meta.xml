@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to parents about summer camp in England</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Summer Camp in England</name>
+    <style>freeForm</style>
+    <subject>Summer Camp in England</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We would like to offer you a Summer Camp in England for the students of British School.
+
+
+
+The program will take place on campus of a British boarding school – Wycliffe College located in Gloucestershire, Great Britain from July 22 to August 5.
+
+
+
+The program includes intensive course of English (23 lessons per week), excursions, activities and sports. Accommodation and meals are provided on the school campus.
+
+
+
+Please follow the link for detailed information about the language school: http://www.british-study.com/languages/ru/juniors/easter-summer-english-schools/wycliffe/
+
+
+
+Minimum size of the group is 10 students. The group will be accompanied by two staff members of British School. Age of student group 8- 12 years old.
+
+
+
+A course of English is also available for parents who wish to accompany their children.
+
+
+
+You can get detailed information about the program, costs, booking conditions and requirements to obtain a UK visa during parent meeting that will be held at the school on March 10 at 17:00.
+
+
+
+Yours sincerely,
+
+
+David Kirkham
+
+Headmaster
+
+
+
+
+Уважаемые родители,
+
+
+Представляем Вашему вниманию каникулярную поездку в летний лагерь Англии для учащихся British School.
+
+
+Программа пройдет на территории Британской школы-пансиона Wycliffe College, расположенной в Глостершире, Великобритания с 22 Июля по 5 Августа.
+
+
+Программа включает интенсивный курс изучения Английского языка (23 урока в неделю), экскурсии, внеклассные мероприятия и спортивные игры. Проживание и питание обеспечиваются на территории школы.
+
+
+Подробную информацию о языковом центре Вы можете найти по ссылке: http://www.british-study.com/languages/ru/juniors/easter-summer-english-schools/wycliffe/
+
+
+Минимальный размер группы – 10 человек. Группу будут сопровождать двое сотрудников British School. Возрастная категория от 8-ми до 12-ти лет.
+
+
+Также доступен курс английского языка для родителей, желающих сопровождать детей.
+
+Подробную информацию о программе, стоимости, условиях бронирования и получения британской визы Вы можете получить на родительском собрании, которое состоится в школе 10 марта в 17:00.
+
+
+С уважением,
+
+
+
+Дэвид Киркхам
+
+Академический директор
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

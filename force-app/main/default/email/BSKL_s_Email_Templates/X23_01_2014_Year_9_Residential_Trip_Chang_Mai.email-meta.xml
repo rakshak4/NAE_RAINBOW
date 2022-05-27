@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>23/01/2014 Year 9 Residential Trip: Chang Mai</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>23/01/2014 Year 9 Residential Trip: Chang Mai</name>
+    <style>freeForm</style>
+    <subject>Year 9 Residential Trip: Chang Mai</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+Year 9 Residential Trip: Chang Mai
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+As I mentioned in my previous letter to you, we are closely monitoring the current situation in Thailand. We follow the Commonwealth Foreign Office travel advice, along with the advice of the companies we are running the trip alongside - Wild Planet is actually based in Northern Thailand. Robin, the leader of Wild Planet has made it clear that the chances of issues continuing much past the election on the 2nd of Feb are very slim, and the chances of issues persisting until the end of May, particularly in the North, are virtually nil.
+
+As soon as the numbers are confirmed at end of day this Friday we will purchase travel insurance for the students. If the situation is deemed unsafe or unacceptable, the company will be happy to refund all of the programme fees etc. and will go through the travel insurance to re-coup the cost of the flight.
+
+We do not believe this will happen, but I hope this puts your mind at rest that we are watching the situation closely and will not travel to Thailand if there is any uncertainty about the safety of your child. In the unlikely event we do have to change destination, we will do so nearer the time.
+
+Kind regards
+
+Derek Mackey
+Head of Secondary
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

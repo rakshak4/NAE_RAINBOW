@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>15/02/2013 EFC General Meeting regarding the Summer Fair</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>15/02/2013 EFC General Meeting regarding the Summer Fair</name>
+    <style>freeForm</style>
+    <subject>EFC General Meeting regarding the Summer Fair</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The biggest event in the BSKL fundraising and FUN calender is the annual BSKL Great British Summer Fair, a fabulous event that is fun-filled not just for the students but the parents &amp; BSKL staff!
+
+This year we have a vacancy for the position of Event Coordinator, to help us get this event up and running. There is plenty of support for this position, with a team of sub-committee members to help out and it is a lot of fun!
+
+We are holding a meeting on Monday 18th February at 2pm in the small meeting room near Reception if you are interested in the role or if you have any ideas for the Great British Summer Fair we would love to have your input! If you have any questions or would like some further details please feel free to contact Jaime Ngawaka (jaimeduyker@hotmail.com).
+
+Looking forward to seeing you there,
+
+Kind Regards,
+
+The Events and Fundraising Committee
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

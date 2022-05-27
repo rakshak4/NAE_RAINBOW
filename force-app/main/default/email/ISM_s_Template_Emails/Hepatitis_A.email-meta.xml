@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Hepatitis A</name>
+    <style>freeForm</style>
+    <subject>Hepatitis A</subject>
+    <textOnly>Dear Parents, 
+ 
+I am writing to inform you that we have received a notification of a case of Hepatitis A on 
+our Lower Campus.  While this is not a cause for undue concern I feel that it is important to 
+share this information to prevent any unnecessary infection. I also think it is important to 
+keep all families well informed on matters of health. 
+ 
+What is Hepatitis A? 
+It is a generally mild illness that is caused by the hepatitis A virus. The virus infects the 
+stomach, intestines, and liver. It varies in its degree of severity and symptoms depending 
+on the age of the infected person. It is usually a short-term infection that has unpleasant 
+symptoms but is rarely serious. Please do not confuse this infection with Hepatitis B or C. 
+These are much more serious.  
+Symptoms 
+Symptoms vary according to age: 
+Children 6 years and younger. 
+- 70% of the cases are silent; there are no symptoms, not even fever. 
+The illness comes and goes harmlessly, and nobody is even aware of it. 
+- 30% of children who catch this illness may have fever, fatigue, body aches, poor 
+appetite, stomach pain, nausea, and perhaps vomiting and diarrhea. 
+ 
+Virtually all cases in this age group pass with no long-term complications. 
+ 
+Children 6 years to 12 years.  
+- 65% of children who catch the illness will show symptoms. These symptoms include 
+fever, fatigue, body aches, poor appetite, stomach pain, nausea, and maybe vomiting and 
+diarrhea.  
+- Many cases will have mild symptoms, but some will have moderate symptoms that can 
+come and go for a few weeks. Almost half the cases with symptoms will also have 
+jaundice. The illness basically acts like an extended stomach flu.  
+There are virtually never any long-term complications in this age group. 
+ 
+Teenagers and adults.  
+This age is where the disease is more troublesome. Most cases will experience the above 
+symptoms, and the symptoms may be more pronounced and last longer. 70% of cases 
+will have jaundice. Rarely, the disease can come and go for six months. Severe 
+liver damage occurs very rarely. 
+  
+If I recognize any of the symptoms what should I do? 
+If any of the above symptoms are recognized, children should be kept away from school 
+until completely recovered. (Normally seven days from the onset of the symptoms). In the 
+meantime it is wise to get them screened by a doctor and inform the tutor at school if 
+diagnosis is confirmed. 
+Should you recognize symptoms in teenagers and adults it is certainly worthwhile being 
+cautious and being screened at the earliest opportunity. 
+Should we recognize any symptoms in children at school we will contact parents to collect 
+them as soon as possible. This will prevent the spread of infection. Obviously with this in 
+mind we will be particularly attentive to regular washing of hands at school at the 
+appropriate times. 
+ 
+In Summary 
+Allow me to reassure you that in the vast majority of cases this is a mild infection from 
+which one will recover in a relatively short time. By being aware of the above information 
+and responding accordingly I hope that we can ensure very little disruption to school and 
+home. 
+Of course, prevention is the best cure. The best way to avoid infection is by ensuring 
+regular washing of hands and good hygiene. I suggest that we all pay particular attention 
+to this. 
+Best regards, 
+Paul Seedhouse 
+ISM  
+Headmaster 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ </textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

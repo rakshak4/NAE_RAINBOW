@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Request Residential Trips</name>
+    <style>freeForm</style>
+    <subject>Request Residential Trips</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents
+
+As we get ready to begin our new school year, you will be aware that residential trips are fast approaching. In order for us to complete our preparations for the trips, we require a scanned copy of the details page from the passports of all students who are attending the trip. Therefore, if your child has committed to attend a residential trip this September, could you please email a scan of their passport (details page only) to michelle.heckford@internationalschool.ru at your earliest convenience.
+
+
+Kind Regards,
+
+
+
+Michelle Hamilton
+
+Deputy Head of Secondary
+
+The International School of Moscow
+
+Tel:  +7 (499) 922 44 00
+
+Fax: +7 (499) 922 44 00 Ext.4
+
+www.internationalschool.ru
+
+Chartered by The British Schools Foundation
+
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

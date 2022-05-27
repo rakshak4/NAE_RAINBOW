@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>23/09/2013 Reminders/Notices</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>23/09/2013 Reminders/Notices</name>
+    <style>freeForm</style>
+    <subject>Reminders/Notices</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I am sending one last reminder about my parents’ forum for Wednesday morning: we will meet in the secondary library at 7.30am, where tea and coffee will be available. I may even be able to rustle up a biscuit……
+
+Next Monday 30th September we are holding two meetings for parents to discuss the programme and terms of lease of the Macbook Air computers, where documentation will be distributed. There are two times available in the theatre:
+
+Session 1 : 7.30-7.55am
+
+Session 2 : 2.00-2.25pm
+
+Please do your utmost to attend one of these sessions.
+
+Finally, our Chinese Department invite you to view the Mooncake Festival Artefacts produced by the pupils over the last few weeks. The display will be in the library from Thursday – look out for the information posters!
+
+
+Kind Regards,
+
+Derek Mackey
+Head of Secondary
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

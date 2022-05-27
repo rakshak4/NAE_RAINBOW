@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Uniform shop closed Monday 2nd March 2015</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Uniform shop closed Monday 2nd March 2015</name>
+    <style>freeForm</style>
+    <subject>Uniform shop closed Monday 2nd March 2015</subject>
+    <textOnly>The International School
+of Moscow
+Chartered By The British Schools Foundation
+
+
+Dear Parents,
+
+We would like to inform you that the uniform shop at both Krylatskaya and Rosinka campuses will be closed during the half term break, 23 - 27 February 2015.
+
+Both shops will open again on Monday 2nd March, operating with normal hours, from 8:30am - 4:30pm.
+
+Thank you.
+
+Kind Regards,
+
+Administration Team
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

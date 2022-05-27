@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Give a user access to the functionality provided on the &apos;Portal Approvals&apos; page and also allows them to publish/unpublish select assessments by providing access to the &apos;Is_Approved__c&apos; field on the assessment object.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Portal Approvals</label>
+</PermissionSet>

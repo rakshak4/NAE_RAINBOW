@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20140922 - Coffee and Chat (KS1 - Years 1 and 2)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20140922 - Coffee and Chat (KS1 - Years 1 and 2)</name>
+    <style>freeForm</style>
+    <subject>An Invitation to KS1 Coffee and Chat</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+You are cordially invited to our Coffee and Chat event for Key Stage 1 (Years 1 and 2) Parents. Details of the event are as follows:
+
+KS1 Coffee and Chat
+Date : 3rd October 2014 (Friday)
+Time : 8am - 9am
+Venue : Primary Canteen
+
+Please RSVP by filling in and submitting the online form below:
+
+KS1 Coffee and Chat online RSVP (https://docs.google.com/forms/d/1ymlZRg4MsqV1IJ0wQcLFycY9_qMF06cMbUM3XjyK2W4/viewform)
+
+
+Kind regards,
+
+Admin Team
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

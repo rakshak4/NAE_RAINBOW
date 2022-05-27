@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[The request to approve the employment agreement of {!Employment_Agreement__c.Copy_Staff_Member_Capitalised__c} has been recalled.<div><br></div><div>You do not need to take any further action at this time.<br><div><br></div><div>Contract Link:&nbsp;{!Employment_Agreement__c.Link}</div><div><br></div><div>Comments:&nbsp;<span style="background-color: rgb(255, 255, 255); font-size: 12pt;">{!ApprovalRequest.Comments}</span></div><div><br></div></div>]]></td>
+</tr>
+</table>

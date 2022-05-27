@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>43.0</apiVersion>
+    <available>true</available>
+    <description>Sent when a new admissions enquiry is submitted via the Status website (Russian version)</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Status Admissions Enquiry Auto-Response (RU)</name>
+    <style>none</style>
+    <subject>Британская школа города Ташкента - Спасибо за вашу заявку</subject>
+    <type>visualforce</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

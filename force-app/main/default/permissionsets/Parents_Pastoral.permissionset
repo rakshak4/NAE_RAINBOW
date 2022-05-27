@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Created to allow all parents except NY parents access the &apos;Pastoral&apos; tab in the portal. &apos;Pastoral&apos; is not a recognised term in the US.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Parents + Pastoral</label>
+</PermissionSet>

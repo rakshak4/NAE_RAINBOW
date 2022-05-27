@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>22/02/2013 Cookery course - Saturday, 23rd February</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>22/02/2013 Cookery course - Saturday, 23rd February</name>
+    <style>freeForm</style>
+    <subject>Cookery course - Saturday, 23rd February</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We are very much looking forward to tomorrow&apos;s cookery course. Just a reminder to say, please be at school with your child between 8 and 8.15am for an 8.30am departure.
+
+Children may wear their home play clothes.
+
+We anticipate that we will be back at school at 1.30pm. Please could you ensure that you are here on time, to pick up your child.
+
+With kind regards
+
+Tom Hickman and Blandine Pouchard
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

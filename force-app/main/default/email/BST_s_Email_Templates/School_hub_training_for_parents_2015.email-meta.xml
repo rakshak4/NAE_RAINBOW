@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Parent Portal workshop</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Parent Portal workshop</name>
+    <style>freeForm</style>
+    <subject>Parent Portal workshop</subject>
+    <textOnly>The British School
+of Tashkent
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Dear Parents,
+
+To follow up with the previous e-mail regarding Salesforce Workshop for Parents we would like to clarify that the &quot;salesforce&quot; is another word which is used for the &quot;School Hub&quot;.
+Please be notified that time for the workshop has been changed for your convinience and now is from 2:45 to 3:30 on Thursday February 19th in the Upper Campus Theatre.
+We will be pleased to help you understand how to login to the Salesforce page as well as any technical issues you might have experienced or are experiencing now.
+Salesforce is an important part of the school-parent communication. We will appreciate your attendance at this event.
+Regards,
+
+
+~~
+
+Уважаемые родители!
+
+Следуя предыдущему письму касательно тренинга по Salesforce,ставим Вас в известность,что данная программа является частью школьного портала School Hub.
+Просим Вас отметить,что время тренинга было перенесено на 2:45 дня до 3:30 дня в четверг,19 февраля для Вашего удобства.Данный тренинг будет проводиться в театре здания школы.
+
+Мы будем рады помочь Вам в любом интересующем для Вас вопросе по поводу сэйлсфорс, как регистрироваться, как пользоваться. Сэйлсфорс это одна из важных частей учебы в нашей школе, так как именно благодаря этой программе школа и все учителя могут непосредственно контактировать с родителями. Мы будем очень рады видеть Вас в этот день.
+
+
+*it is important you don&apos;t touch the top and bottom text sections, and only edit the text in the body of the email. To create a new email, simply clone this template or clone any future emails that have used this email template.
+
+Kind Regards,
+
+
+
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

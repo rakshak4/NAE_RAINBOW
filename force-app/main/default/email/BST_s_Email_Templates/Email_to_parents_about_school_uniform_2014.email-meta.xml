@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Reminder about Summer uniform 2014</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Email to parents about school uniform 2014</name>
+    <style>freeForm</style>
+    <subject>School Uniform Reminder</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+I hope this email finds you well.
+
+Although the weather is getting warmer children in Year 1 to Year 6 are still required to come to school dressed in the correct school uniform.  This includes a school tie, blue socks and smart black leather shoes.
+
+Kindly note that due to safety reasons sandels are not allowed to be worn in school, by any year group, neither as indoor nor as outdoor shoes.
+
+Full details of the school uniform requirements can be found at the link below:
+
+http://www.britishschool.uz/en/school-services/school-uniform.aspx
+
+
+
+Kind regards,
+
+
+
+David Kirkham
+
+Headmaster
+
+
+Дорогие родители,
+
+
+
+Несмотря на теплую погоду, дети с 1го по 6 ой класс по-прежнему должны одевать соответствующую форму, в том числе школьный галстук, синие носки и черные кожаные туфли.
+
+
+
+Пожалуйста, обратите внимание, что по соображениям безопасности сандалии носить в школе не разрешается никому, независимо от возраста,ни в помещении, ни в качестве уличной обуви.
+
+
+
+Полный список требований к школьной форме, вы можете найти по нижеследующей ссылке:
+
+
+
+http://www.britishschool.uz/en/school-services/school-uniform.aspx
+
+
+
+С уважением,
+
+
+
+Дэвид Киркхам
+
+Директор
+
+
+
+
+
+Regards,
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

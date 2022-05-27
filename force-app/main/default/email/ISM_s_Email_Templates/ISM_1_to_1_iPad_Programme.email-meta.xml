@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>ISM 1 to 1 iPad Programme</name>
+    <style>freeForm</style>
+    <subject>ISM 1 to 1 iPad Programme</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents
+
+I am very pleased to inform you that we are almost ready to launch our 1:1 iPad programme with students in Years 6 to 8. Please click here to download a handbook containing details about the programme, how we intend to use the iPads as a tool for learning and what our expectations are in terms of student usage.
+
+The students will be bringing home a letter today instructing you about what to do if you wish for your child to take part in this exciting initiative. Accompanying the letter is the iPad Agreement Form. Please take time to carefully read through both the attached booklet and the iPad Agreement Form. If you have any questions regarding the programme, please send them directly to me at michelle.heckford@internationalschool.ru.
+
+
+Kind Regards
+
+
+
+Michelle Hamilton
+
+Secondary Phase Leader
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

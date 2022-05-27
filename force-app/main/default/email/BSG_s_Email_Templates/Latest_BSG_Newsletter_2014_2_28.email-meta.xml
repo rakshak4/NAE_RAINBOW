@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Latest BSG Newsletter 2014.2.28</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Latest BSG Newsletter 2014.2.28</name>
+    <style>freeForm</style>
+    <subject>Latest BSG Newsletter 2014.2.28</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+Dear Parents,
+
+
+Welcome to the latest BSG newsletter!
+
+
+
+In this edition, we take a look at all the events and activities from Chinese New Year, which include the ever-popular dragon dances.
+
+
+
+As well as coverage of all the cultural fun, we have updates from each phase, with Minecraft Maths, cat caper newspapers, inter-house challenges and a report on our first successful Careers Fair.
+
+
+
+We hope you enjoy this edition.
+
+
+
+For the downloadable version, please CLICK HERE.
+
+
+
+Kind regards,
+
+
+
+Stuart Geraghty
+
+Publications Editor &amp; Librarian
+
+
+
+
+
+The British School of Guangzhou
+
+World Class Education
+
+
+
+
+
+—————————————————————————————————
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

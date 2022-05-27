@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Primary SingUp! Concert 2013</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Primary SingUp! Concert 2013</name>
+    <style>freeForm</style>
+    <subject>Primary SingUp! Concert 2013</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+SingUp! A musical event that brings pupils together to share and experience the opportunity to make and perform vocal music through a community singing project.
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+As many of you are aware, the British School of Guangzhou will once again be hosting the Primary SingUp! Concert 2013 organised by the International Schools Music Association Guangzhou (ISMAG). This year’s event will include Junior Choir performances from the British School of Guangzhou, American International School of Guangzhou, Utahloy International School, and Clifford School.
+
+The event showcase is scheduled to be held tomorrow, Thursday 16th May at 6:30pm at BSG in the main Sports Hall on the Nan Hu campus. All are welcome with entrance free. Please click here for more details.Light refreshments will be provided. We look forward to seeing you at what promises to be a wonderful evening of musical song.
+
+Kind regards,
+
+Peter Sinclair
+Head of Primary Music
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

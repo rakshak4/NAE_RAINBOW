@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DelegateGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customObjects>Admissions_Questionnaire</customObjects>
+    <customObjects>Assesment</customObjects>
+    <customObjects>Bus_Association</customObjects>
+    <customObjects>Bus_Routes</customObjects>
+    <customObjects>Bus_Stops</customObjects>
+    <customObjects>Conduct</customObjects>
+    <customObjects>Days_Off</customObjects>
+    <customObjects>Dependent</customObjects>
+    <customObjects>Employment_Agreement</customObjects>
+    <customObjects>Financial_Information</customObjects>
+    <customObjects>Grant_Application</customObjects>
+    <customObjects>Group</customObjects>
+    <customObjects>Invoice_Statement</customObjects>
+    <customObjects>Line_Item</customObjects>
+    <customObjects>Pay_Slip</customObjects>
+    <customObjects>Registration</customObjects>
+    <customObjects>Responsibility_Points</customObjects>
+    <groups>BSKL News &amp; Events Managers</groups>
+    <groups>BSKL Parent Survey Viewers</groups>
+    <groups>BSKL Portal Liaisons</groups>
+    <groups>BSY News &amp; Events Managers</groups>
+    <groups>BSY Parent Survey Viewers</groups>
+    <groups>BSY Portal Liaisons</groups>
+    <groups>NAISM News &amp; Events Managers</groups>
+    <groups>NAISM Parent Survey Viewers</groups>
+    <groups>NAISM Portal Liaisons</groups>
+    <label>CRM Manager SEA</label>
+    <loginAccess>false</loginAccess>
+    <permissionSets>Administrative Assistant Premissions</permissionSets>
+    <permissionSets>Disable Event Email Notifications</permissionSets>
+    <permissionSets>Edit Assessments</permissionSets>
+    <permissionSets>Edit Student Email</permissionSets>
+    <permissionSets>Edit Student Special Considerations</permissionSets>
+    <permissionSets>Manage Appraisal &amp; Objectives</permissionSets>
+    <permissionSets>Manage Bus Service</permissionSets>
+    <permissionSets>Manage Financial Aid Application and Reviews</permissionSets>
+    <permissionSets>Manage News &amp; Events</permissionSets>
+    <permissionSets>Manage School Assets &amp; Custodies</permissionSets>
+    <permissionSets>Portal Approvals</permissionSets>
+    <permissionSets>School IT Customise Reports</permissionSets>
+    <profiles>Admissions Officer</profiles>
+    <profiles>Administrative Assistant</profiles>
+    <profiles>Asset &amp; Custody Manager</profiles>
+    <profiles>Deputy Head of Admin</profiles>
+    <profiles>Finance</profiles>
+    <profiles>Head of Site</profiles>
+    <profiles>Headteacher / of Admin / of Finance</profiles>
+    <profiles>Human Resources</profiles>
+    <profiles>Marketing &amp; Communication Officer</profiles>
+    <profiles>Parent Portal User - High Volume</profiles>
+    <profiles>Portal Liaison (Super User)</profiles>
+    <profiles>Receptionist</profiles>
+    <profiles>School IT</profiles>
+    <profiles>School Nurse</profiles>
+    <profiles>Teacher</profiles>
+    <roles>BSY Headteacher</roles>
+    <roles>BSKL Headteacher</roles>
+    <roles>NAISM Headteacher</roles>
+</DelegateGroup>

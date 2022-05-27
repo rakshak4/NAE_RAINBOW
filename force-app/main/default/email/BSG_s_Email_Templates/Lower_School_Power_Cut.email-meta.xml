@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Lower School Power Cut</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Lower School Power Cut</name>
+    <style>freeForm</style>
+    <subject>Lower School Power Cut</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+Dear Lower School Parents,
+
+I would like to take this opportunity to thank you all for your understanding, flexibility and support with regards to the power cut that we experienced on the Lower School yesterday. This power cut was unexpected and after confirmation from the electricity board that the power would not return until late afternoon the decision was made to close the school.
+
+A decision like this is not made lightly, as we are very aware of the inconvenience it causes so many families. However, due to health and safety reasons and the fact that we were unable to provide lunch for the children, the decision was made to send students home.
+
+I am pleased to inform you that staff and Parent Reps acted quickly and professionally to ensure all parents were informed as soon as possible and all children returned home safely before lunchtime.
+
+An event like this highlights the importance of us having an emergency contact number. If you are unable to answer your phone during the day can you please provide the school with a number that we can contact in cases of emergency. If you would like to up-date your emergency contact information please contact Gabby at gabrielle@bsg.org.cn
+
+I would like to offer my apologies for any inconvenience caused and hope that your child enjoyed an extra afternoon at home.
+
+Regards,
+
+Miss Kathy
+Head of Lower School
+The British School of Guangzhou
+
+
+
+
+
+
+
+
+
+
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Conference of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

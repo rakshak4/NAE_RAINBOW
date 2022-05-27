@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 500px; ">
+			<tbody>
+				<img border="0" id="m_3308685547825015245r1sp1" src="https://ci6.googleusercontent.com/proxy/67dXnVocysCsXlJug8sCwjBn53jHY6vok7ArlGUgs6iyEW02S5lmjGnO2wFvRa8wDolQRwuNpB8ZtRQ8DJ6xCSAcsylyglo6hKkrKdXXbJylHPQ1hCaOBcGGhBiWL5qWYSWwjpyjE4ENzbEgIN7XEqzPgw=s0-d-e1-ft#https://ap4.salesforce.com/servlet/servlet.ImageServer?id=0156F00000F05db&amp;oid=00D6F000001cXAR" class="CToWUd">
+				<tr>
+					<td>
+						<p>
+							&nbsp;</p>
+						<p style="text-align: justify; ">
+							&nbsp;</p>
+						<p style="text-align: justify; ">
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; ">Estimado/a {!Lead.Salutation_for_Auto_Response_ES__c}{!Lead.Primary_Contact_Name_for_Auto_Response__c},</span></span></p>
+						<p>
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; ">Agradecemos su interés en nuestro colegio y acusamos recibo de su solicitud.</span></span></p>
+						<p>
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; ">Un miembro de nuestro departamento de admisiones se pondrá en contacto con usted en los próximos dos días hábiles. Por favor, no dude en ponerse en contacto con el colegio para cualquier consulta que  pueda tener o en el caso de que usted no haya tenido noticias nuestras en ese plazo de tiempo. Al responder a este correo se pondrá directamente en contacto con nuestro equipo.</span></span></p>
+						<div>
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; ">Un cordial saludo,</span></span></div>
+						<p style="text-align: justify; ">
+							&nbsp;</p>
+						<div style="font-family: 'Verdana'; font-size: 12pt; ">
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; "><b>Departamento de Admisiones</b></span></span><br />
+							<b style="font-family: 'Verdana'; font-size: 12px; ">{!Lead.School__c}</b><br />
+							&nbsp;</div>
+						<p>
+							&nbsp;</p>
+						<p>
+							&nbsp;</p>
+						<p>
+							&nbsp;</p>
+					</td>
+				</tr>
+				<tr bgcolor="a0dae5">
+					<td>
+						&nbsp;</td>
+				</tr>
+				<tr bgcolor="003255">
+					<td>
+						&nbsp;</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			&nbsp;</p>
+	</body>
+</html>

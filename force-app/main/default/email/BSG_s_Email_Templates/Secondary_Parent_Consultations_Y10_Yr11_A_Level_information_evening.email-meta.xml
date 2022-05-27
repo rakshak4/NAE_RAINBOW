@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Cambridge English-information in Chinese</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Cambridge English-information in Chinese</name>
+    <style>freeForm</style>
+    <subject>Cambridge English-information in Chinese</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+A number of parents have asked for information in Chinese regarding ‘Saturday English’.
+
+已有若干家长向我们咨询关于“周六英语课程”的中文版信息。
+
+For information on Primary courses in Chinese, CLICK HERE
+
+小学课程中文介绍，请点击这里
+
+For information on Secondary courses in Chinese, CLICK HERE
+
+中学课程中文介绍，请点击这里
+
+For the registration form in Chinese, CLICK HERE
+
+中文注册登记表，请点击这里
+
+If you would like your child to join the programme, kindly fill in the registration form in English and email it to shaila.chainani@bsg.org.cn or send it to school.
+
+如果您希望您的孩子参加这个课程，请用英文填写好注册登记表并电邮至shaila.chainani@bsg.org.cn或送到学校。
+
+Please note that registrations are now open and you need to register early to guarantee a place for your child.
+
+该课程已开放注册，请尽早注册以确保学位。
+
+If you require further information please contact the Director of Saturday English-Ms Shaila Chainani at shaila.chainani@bsg.org.cn Mobile: +86 13903051513
+
+如果您需要更多信息，请联系周六英语课程总监。Ms Shaila Chainani：
+
+电邮shaila.chainani@bsg.org.cn 手机：+86 13903051513
+
+We look forward to seeing you make the most of this opportunity.
+
+我们期待看到您并充分利用这次机会。
+
+
+Kind regards,
+
+Ms Shaila Chainani
+Head of EAL
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>System_Message_Header</letterhead>
+    <name>New Student - Medical Needs</name>
+    <style>freeForm</style>
+    <subject>New Student Starting in 21 Days - {!Opportunity.Name}</subject>
+    <textOnly>This is a system generated message to inform you that the recent request for Days off from {!Days_Off__c.Staff_Member__c} has been {!Days_Off__c.Status__c} by the {!Days_Off__c.Main_Approver__c}.
+
+Details of the request are as follows:
+
+Type Days Off: {!Days_Off__c.Type__c}Start Date: {!Days_Off__c.Start_Date__c}End Date: {!Days_Off__c.End_Date__c}Days Off: {!Days_Off__c.Days_Off__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

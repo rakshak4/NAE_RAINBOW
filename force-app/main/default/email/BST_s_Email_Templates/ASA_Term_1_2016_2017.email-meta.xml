@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>ASA Term 1, 2016-2017</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>ASA Term 1, 2016-2017</name>
+    <style>freeForm</style>
+    <subject>ASA Term 1, 2016-2017</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+Please click on the link below, enter your name, class and which clubs you would like to attend.
+
+
+Please note that in addition to these clubs there will also be sports clubs running on the other days through the PE department.
+
+
+Please note that clubs start on Thursday, September 22.2016
+
+Link
+
+
+
+
+
+Regards,
+
+Neil French
+
+Head of Physical Еducation
+
+
+
+Уважаемые родители!
+
+
+Чтобы записать ребёнка/детей в тот или иной кружок, пройдите, пожалуйста, по нижеприведённой ссылке и укажите Ваше имя, класс ребёнка/детей и выберите клуб.
+
+
+Обратите внимание на то, что в дополнение к указанным клубам, будут действовать и спортивные кружки.
+
+
+Просим Вас отметить, что все кружки начнутся с четверга,22-го сентября 2016 г.
+
+
+
+Ccылка
+
+
+С уважением,
+
+Нил Френч
+
+Глава Физической Культуры
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

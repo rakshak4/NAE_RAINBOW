@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Guangzhou Karate Tiger Temple</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Guangzhou Karate Tiger Temple</name>
+    <style>freeForm</style>
+    <subject>Guangzhou Karate Tiger Temple</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dear Parents,
+
+
+We would like to introduce you to our friends at The Guangzhou Karate Tiger Temple.
+
+
+This Karate Academy delivers professional training to all ages and abilities! For more information please CLICK HERE for their leaflet or contact them directly via email karateguangzhou@gmail.com or phone +86 186 2057 9406
+
+
+Thanks and best wishes,
+
+The British School of Guangzhou
+
+
+
+
+
+
+
+
+
+
+____________________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

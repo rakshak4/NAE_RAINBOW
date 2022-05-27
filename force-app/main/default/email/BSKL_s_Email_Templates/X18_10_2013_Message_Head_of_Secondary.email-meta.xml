@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>18/10/2013 Message Head of Secondary</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>18/10/2013 Message Head of Secondary</name>
+    <style>freeForm</style>
+    <subject>Message from Head of Secondary</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+Message from the Head of Secondary
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+For much of this week I have been attending the Cambridge International Examinations Conference in Singapore. It has been an incredibly useful experience: broadly, the theme was ‘Educating Today’s Learners for Tomorrow’s world’, and I learnt much from a panel of experts and colleagues from all around the world. As you might expect from the title, much of the conference centred around the use of technology in schools to improve learning, but the area that most interested me the debate on the(false?)  dichotomy of ‘learning versus exam results’. It was fascinating how strongly many of the speakers supported the view that students who were outstanding at school or university (two very exam-centric environments) were not outstanding in the workplace, and vice versa. This is why I feel so strongly that education cannot be only about the acquisition of exam results and that it is essential that at BSKL we develop the mental fluency in pupils that simply cannot be gleaned, metaphorically, from a textbook. I have much to take back to the secondary staff, and will write a fuller account of my thoughts in the next Whole School Newsletter.
+
+Our assembly on Monday focused on publicly celebrating the successes of our young people. I was proud to be able to reward no fewer than 37 pupils (approximately 25% of the Secondary School) with certificates and book tokens (and, frivolously, some confectionary!), for outstanding achievement in the recent Progress Reviews and/or for the accumulation of Excellence Slips. It is important to stress that most of these awards were made on pupils’ approach to learning (effort) and so all pupils, regardless of ability, are able to access them. The Excellence Slips also contribute towards the House Cup, and we already have a tight competition: Romans lead Normans by only 4 points, although there is plenty of time for Saxons and Vikings to catch up with a number of inter-house competitions approaching.
+
+The Year 8 parent Consultation will round of a series of meetings this half term for all year groups between staff and pupils and parents that I hope you have found useful and informative. I am aware that a number of parents were unable to attend the Year 9 GCSE Information evening on Monday and I will be dedicating the first part of the next Secondary Head’s Forum on 20th November to delivering this presentation again. I will publish details of timings after half term.
+
+Notices
+
+&gt; Please remind your sons/daughters to make appointments with subject teachers for next week’s Parent Consultation.
+&gt; The date for the Secondary Halloween Ball, organised by our Year 9 pupils, has been pushed back to Friday 22nd November, in order to avoid a clash with the Year 9 trip to ‘The Woman in Black’ on the 15th.
+
+Upcoming Dates
+
+&gt; Year 8 Parent Consultation: Wednesday 23rd October.
+&gt; Half Term: begins Friday 25th October.
+&gt; Year 9 English trip to ‘The Woman in Black’: Friday 15th November (pm, times tba).
+&gt; Head of Secondary Forum: Wednesday 20th November.
+&gt; Secondary Halloween Ball: Friday 22nd November 6pm – 8pm.
+
+And finally……
+
+Have a restful weekend.
+
+Kind Regards,
+Derek Mackey
+Head of Secondary
+The British International School of Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

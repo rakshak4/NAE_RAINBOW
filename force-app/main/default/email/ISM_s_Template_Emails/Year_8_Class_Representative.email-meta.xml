@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Year 8 Class Representative</name>
+    <style>freeForm</style>
+    <subject>Year 8 Class Representative</subject>
+    <textOnly>Dear Year 8 Parents,
+Unfortunately we have still received no volunteer to act as class representative for Year 8.This is the last remaining class in the school without a rep for this year.
+Please understand that this is not an overly demanding role but largely requires a willingness to act as a liaison between tutor and parents. Class reps do meet from time to time when preparing for whole school events such as the summer fair. Also class reps might organise support for class assemblies, year group productions and trips.  It offers an opportunity to be involved in school without having a significant impact on  personal time. It would definitely be very manageable if you are not working. It has a significant positive impact on the school and enables you to widen your personal network within the community.
+Please consider your availability and if willing to volunteer,  contact the admissions department by email no later than Thursday lunchtime, as we are finalising the list to go out in the newsletter this week.
+Best regards,
+
+Paul SeedhouseHeadteacher
+The International School of Moscow
+Tel:  +7 (499) 922 44 00
+Fax: +7 (499) 922 44 00 Ext.4
+www.internationalschool.ru
+Part of The British Schools Group
+
+*Disclaimer:*
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>27/05/2013 Library Assistance</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>27/05/2013 Library Assistance</name>
+    <style>freeForm</style>
+    <subject>Library Assistance</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We trust this finds you well.
+
+The library urgently require parent volunteers to cover library books.  We have a few hundred new books that need adhesive plastic put on the books to protect them and prolong their life span.  Yvonne will be available Monday, Tuesday and Wednesday  (28-29 May and 3-5 June) to demonstrate to volunteers how it is done.  The best time would be at around 8am after drop off.  However any help at any time of the day would be appreciated.  Once the books are covered we will be able to allow parents to borrow as well as the students.  Parents would be able to borrow 2 books for a one week period after giving their details to library staff.
+
+Thank you in advance for any assistance you may be able to give.
+
+Thank you and warm regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Inc_Leave_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Inc Leave Date</label>
+        <precision>3</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Inc_Leave_sign__c</fullName>
+        <externalId>false</externalId>
+        <label>Inc Leave sign</label>
+        <length>4</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Inc_Month_Leave_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Inc Month Leave Date</label>
+        <precision>3</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Inc_Month_Leave_sign__c</fullName>
+        <externalId>false</externalId>
+        <label>Inc Month Leave sign</label>
+        <length>3</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Inc_Month_Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Inc Month Start Date</label>
+        <precision>3</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Inc_Month_Start_Sign__c</fullName>
+        <externalId>false</externalId>
+        <label>Inc Month Start Sign</label>
+        <length>4</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Inc_Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Inc Start Date</label>
+        <precision>3</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Inc_Start_Sign__c</fullName>
+        <externalId>false</externalId>
+        <label>Inc Start Sign</label>
+        <length>4</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mth_Gen_Day__c</fullName>
+        <externalId>false</externalId>
+        <label>Mth Gen Day</label>
+        <precision>2</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mth_Inv_Day__c</fullName>
+        <externalId>false</externalId>
+        <label>Mth Inv Day</label>
+        <precision>2</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>T1_Gen_Day__c</fullName>
+        <externalId>false</externalId>
+        <label>T1 Gen Day</label>
+        <precision>2</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>T1_Gen_Mth__c</fullName>
+        <externalId>false</externalId>
+        <label>T1 Gen Mth</label>
+        <length>32</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>T1_Inv_Day__c</fullName>
+        <externalId>false</externalId>
+        <label>T1 Inv Day</label>
+        <precision>2</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>T1_Inv_Mth__c</fullName>
+        <externalId>false</externalId>
+        <label>T1 Inv Mth</label>
+        <length>32</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>T2_Gen_Day__c</fullName>
+        <externalId>false</externalId>
+        <label>T2 Gen Day</label>
+        <precision>2</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>T2_Gen_Mth__c</fullName>
+        <externalId>false</externalId>
+        <label>T2 Gen Mth</label>
+        <length>32</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>T2_Inv_Day__c</fullName>
+        <externalId>false</externalId>
+        <label>T2 Inv Day</label>
+        <precision>2</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>T2_Inv_Mth__c</fullName>
+        <externalId>false</externalId>
+        <label>T2 Inv Mth</label>
+        <length>32</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>T3_Gen_Day__c</fullName>
+        <externalId>false</externalId>
+        <label>T3 Gen Day</label>
+        <precision>2</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>T3_Gen_Mth__c</fullName>
+        <externalId>false</externalId>
+        <label>T3 Gen Mth</label>
+        <length>32</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>T3_Inv_Day__c</fullName>
+        <externalId>false</externalId>
+        <label>T3 Inv Day</label>
+        <precision>2</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>T3_Inv_Mth__c</fullName>
+        <externalId>false</externalId>
+        <label>T3 Inv Mth</label>
+        <length>32</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Invoice Date Settings</label>
+    <visibility>Protected</visibility>
+</CustomObject>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20141125 Event Invitation</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20141125 Event Invitation</name>
+    <style>freeForm</style>
+    <subject>Event Invitation</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+25th November 2014
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}
+
+Your child has been invited to the Garden School Theatre Workshop entitled, &apos;The Only Way Is Up.&apos; It is a fantastic opportunity for them to meet other students in KL who are interested in drama and doing the IGCSE also. There will be a series of workshops based on improvisation skills, structuring a play, movement and choreography, devising skills and more. All will be invaluable to their GCSE grade improving and I hope to see your child excited about this opportunity.
+
+The dates for the event are Sunday 15th and Monday 26th January. It is important to be able to make both days as by the end of the second day there will be a performance based on what they have learnt.
+
+More details are to follow, but for now please indicate that your child will be attending by signing the below slip and give it to your child to return it to me in school.
+
+
+I ....................................... give permission for my daughter ................................... to attend The Only Way Is Up on Sunday 25th and Monday 26th January 2015.
+
+
+Regards,
+
+Esther Wainwright
+Head of Drama
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

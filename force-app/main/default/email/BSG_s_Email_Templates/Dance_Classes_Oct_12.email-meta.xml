@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Dance Classes Oct&apos;12</name>
+    <style>freeForm</style>
+    <subject>Dance Classes: Sunday, 14th October.</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+Dear Parents,
+
+Please be reminded BSG&apos;s School of Dance will start this weekend.
+
+Please click here for further information.
+
+Registration will take place from 12-1pm on Sunday, 14th October.
+
+If you would like more information, please contact Miss Kate Stephenson (kate.stephenson@bsg.org.cn).
+
+Kind regards,
+
+P.E. Department
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

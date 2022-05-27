@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20141113 MUN Masterclass Permission Letter</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20141113 MUN Masterclass Permission Letter</name>
+    <style>freeForm</style>
+    <subject>MUN Masterclass</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+13th November 2014
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}
+
+News Update - MUN Masterclass now open to year 7 and 8 students!
+
+A select group of year 9 and 10 students are going to Singapore January 22nd to the 26th to attend a Model United Nations conference.The competition is open to year 10 students, who will be competing against, other elite speakers from schools all around Asia. Year 9 students are attending the conference as observers. MUN gives students an excellent opportunity to develop their public speaking and debate skills, whilst learning more about global politics and the procedures involved in the real United Nations.
+
+As preparation for the conference BSKL will be hosting the Kuala Lumpur MUNMasterclass on the weekend of 22nd and the 23rd of November. This will be open to all year 7, 8, 9 and 10 students from this school and others in Kuala Lumpur. TheMasterClass is a premium class which hopes to enrich the model UN experience for students who are about to embark on their next model UN adventure. For more details see the flyer attached, on the website http://www.yncapmun.org/masterclass/guangdong/ or email Jasmin Burton-Morgan (jasmin.burtonmorgan@britishschool.edu.my).
+
+MUN Masterclass Permission Slip (https://drive.google.com/file/d/0B57vMviVDx-xNW9tZVRHcGdFVVE/view?usp=sharing)
+
+MasterClass Kuala Lumpur Flyer (https://drive.google.com/file/d/0B57vMviVDx-xYlE5aWJMckRBTFk/view?usp=sharing)
+
+
+Thank you and kind regards,
+
+Jasmin Burton-Morgan
+Head of Science
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

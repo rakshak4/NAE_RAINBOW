@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Parent Workshops</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Parent Workshops</name>
+    <style>freeForm</style>
+    <subject>Parent Workshops</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+We will be replacing our monthly Coffee Mornings with a series of weekly Parent workshops for all parents on a number of topics. The sessions will last for around 30 minutes and coffee will be available after along with staff to ask any questions you may have.
+
+The first set of workshops are below and will take place in the Upper Campus Theatre
+
+Parent Workshop and Coffee - Upper Campus Theatre
+
+Wednesday  1st February 9am-10am
+
+Introduction to Parent Workshops - British Education update
+Adrian Macaulay
+
+Wednesday 8th February 9am-10am
+
+How does a Lesson Observation work?
+Adrian Macaulay
+
+Wednesday 15th February 9am-10am
+
+Phonics workshop
+Gavin Fleck and Matthew Walker
+
+Wednesday 1st March 9am-10am
+
+Development of reading at home
+Matthew Walker
+
+Regards,
+
+Adrian Macaulay
+Headteacher
+
+
+
+Уважаемые родители!
+
+Мы заменим наши ежемесячные школьные «Утренние встречи за чашкой кофе с родителями» рядом практических семинаров для родителей. Продолжительность семинара (мастер-класса) длится около 30 минут, а после Вы сможете обсудить все интересующие Вас вопросы с преподавателями за чашечкой кофе. Представляем Вам первый список доступных занятий, которые будут проводиться в здании старшей школы, в помещении театра.
+
+Семинар для родителей + Кофе проводятся в здании старшей школы. (театр)
+
+-Среда, 1 февраля. С 9:00 – 10:00
+
+Базовый мастер-класс для родителей – обновление Британской системы образования.
+Курс ведет Эдриан Маколи
+
+-Среда, 8 февраля. С 9:00- 10:00
+
+Как проводятся открытые уроки?
+Курс ведет Эдриан Маколи.
+
+-Среда, 15 февраля. С 9:00-10:00
+
+Метод обучения чтению.
+Курс ведут Гэвин Флэк и Мэтью Уокер
+
+-Среда, 1 марта. С 9:00-10:00
+
+Усовершенствование домашнего чтения
+Курс ведет Мэтью Уокер.
+
+
+С наилучшими пожеланиями,
+
+Эдриан Маколи
+Директор Британской школы города Ташкента
+
+Warm Regards,
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

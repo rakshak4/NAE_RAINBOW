@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>11/04/2013 BSKL Summer Fair</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>11/04/2013 BSKL Summer Fair</name>
+    <style>freeForm</style>
+    <subject>BSKL Summer Fair</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The Events and Fundraising Committee (EFC) will be holding our annual summer fair on the 8th June 2013.
+
+This year our &apos;Jungle Jamboree&apos; is going to be a fun-filled day for children and parents alike! With fun games, raffles and delicious homemade cakes; including performances by the BSKL idols and The Clap and Tap orchestra, it promises to be a fantastic day for the whole family!
+The EFC would like to ask the BSKL parents if they could please donate items for the raffle. Previous years parents have kindly donated items such as cameras, iPads, restaurant vouchers, spa vouchers just to name a few. This is the biggest fundraising event in the school year and helps the EFC help our chosen charities throughout the year in significant ways. Please could you leave your donated items with Emma Cleary at the Front Reception.
+
+In the coming weeks we will be asking for the BSKL parents to further help with drinks, homemade cakes, small prizes for games and volunteering to help run the stalls on the day. We appreciate all help from the BSKL parents - whether it is an hour of your time or donated goods. Without your help we would not be able to continue to raise funds for our charities and to sponsor fun events for the BSKL students.
+
+If you have any further questions or would like to volunteer please contact Doris (doris_simon@yahoo.com)
+
+We look forward to seeing you all at this year’s &apos;Jungle Jamboree&apos; - get ready to rumble in the jungle!!
+
+Regards
+The Events and Fundraising Committee
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

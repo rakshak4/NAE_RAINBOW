@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>After School Activities Summer Term 2012</name>
+    <style>freeForm</style>
+    <subject>ASA&apos;s</subject>
+    <textOnly>Dear Parents,
+
+ASA&apos;s
+
+Please be aware that all clubs start as of next week, Tuesday 24th April.
+
+The key information:
+
+Foundation Stage – Year 4: Clubs will run for a period of 7 weeks
+
+Year 5 – Year 9: Clubs will run for a period of 6 weeks (1 missing due to the residential week)
+
+SUMMER EVENT
+
+We would like to apologise for the error in yesterday&apos;s weekly update regarding the Summer event and celebration of the Diamond Jubilee. The correct date is Sunday, 10th June.
+
+SPURS FOOTBALL CAMP
+
+Please find the Tottenham Hotspur Football Development Camp presentation attached.
+
+Thats all for now, more interesting things to come next Thursday.
+
+Have a great weekend!
+
+Admissions Team
+The International School of Moscow
+Tel:  +7 (499) 922 44 00
+Fax: +7 (499) 922 44 00 Ext.4 
+www.internationalschool.ru
+Part of The British Schools Group</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

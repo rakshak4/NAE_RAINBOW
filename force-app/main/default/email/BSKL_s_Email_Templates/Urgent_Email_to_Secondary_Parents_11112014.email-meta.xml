@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Urgent Email to Secondary Parents 11112014</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Urgent Email to Secondary Parents 11112014</name>
+    <style>freeForm</style>
+    <subject>Urgent Email to Secondary Parents</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+11th November 2014
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}
+
+Please note that the Head of Secondary Forum originally scheduled for tomorrow (12 November) has been put back until 26 November. We changed this date in our calendar on 8 October but I understand some parents still have it showing in their parent portal: this is an error and we are working on this technical issue.
+
+I apologise for any inconvenience and look forward to meeting with you on Wednesday 26 November when we will be holding a parent workshop on study skills.
+
+Kind regards
+
+Derek Mackey
+Head of Secondary
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

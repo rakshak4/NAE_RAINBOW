@@ -1,0 +1,49 @@
+<apex:page controller="AssessmentApproval1_Controller">  
+  <apex:includeScript value="{!$Resource.jQuery}"/>
+  <apex:includeScript value="{!URLFOR($Resource.jQueryBlockUI, 'jquery.blockUI.js')}"/>
+  <script>
+         
+         function uiActionBlock(btn){
+             $.blockUI({ message: '<h1>Please wait...</h1>' });
+             return true;
+         }
+     </script>
+  
+  <apex:pageMessages />
+  <apex:form id="assessmentApprovalForm">
+    <apex:pageBlock title="Portal Approval">
+        <apex:pageBlockButtons location="bottom">
+            <apex:commandButton value="Publish" action="{!publishReports}" onClick="uiActionBlock(this);"/>
+        </apex:pageBlockButtons>
+        <apex:pageBlockSection columns="1">
+            <apex:pageBlockSectionItem >
+               All records that meet the criteria selected and have a Pastoral/Assessment Date that is equals to or earlier than the date shown below will be published upon confirmation.
+            </apex:pageBlockSectionItem>
+            <apex:pageBlockSectionItem >
+                <apex:outputLabel value="Date"/>
+                <apex:inputField value="{!assessmentApprovalDateTask.ActivityDate}" required="true" label="Assessment Date"/>
+            </apex:pageBlockSectionItem>
+            <apex:pageBlockSectionItem >
+                <apex:outputLabel value="Report Type(s)"/>
+                <apex:selectCheckboxes value="{!selectedReportTypes}" label="Report Type">
+                    <apex:selectOptions value="{!reportTypeOptionsForApproval}"/>
+                </apex:selectCheckboxes>
+            </apex:pageBlockSectionItem>
+            <apex:pageBlockSectionItem >
+                <apex:outputLabel value="Year Group(s)"/>
+                <apex:selectCheckboxes value="{!selectedYears}">
+                    <apex:selectOptions value="{!yearOptionsForApproval}"/>
+                </apex:selectCheckboxes>
+            </apex:pageBlockSectionItem>
+            <apex:pageBlockSectionItem rendered="{!IF(loggedInUserCampus != null, true, false)}">
+                <apex:outputLabel value="School Campus"/>
+                <apex:selectCheckboxes value="{!selectedCampuses}">
+                    <apex:selectOptions value="{!campusOptionsForApproval}"/>
+                </apex:selectCheckboxes>
+            </apex:pageBlockSectionItem>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+  </apex:form>
+  
+  
+</apex:page>

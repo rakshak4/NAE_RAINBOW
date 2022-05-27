@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>School Newsletter</name>
+    <style>freeForm</style>
+    <subject>School Newsletter</subject>
+    <textOnly>Dear Parents,
+Please find the link below to our latest school newsletter....a great read!
+Regards
+Dino Vikas
+http://www.internationalschool.ru/info/Quicklinks/Newsletters/en</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>15/10/12 Remembrance Day</name>
+    <style>freeForm</style>
+    <subject>Remembrance Service</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+BSKL REMEMBRANCE DAY, MONDAY 5TH NOVEMBER 2012
+
+This year’s assembly to commemorate Remembrance Day will be held on Monday 5th November 2012.
+
+In light of the occasion, it has been deemed compulsory for all students from Year 1 to Year 8 to dress formally in the school blazer.   This assembly is only for Primary and Middle School pupils.
+
+Warrant Officer Paul Cross from The British High Commission will be visiting BSKL and conducting part of the morning’s assembly which will culminate in the student body singing ‘Make me a channel of your peace’.  There will also be a minute’s silence, wreath laying ceremony, Last Post and Reveille.  The assembly is to honour those who gave their lives in conflict.
+
+Furthermore as a mark of respect for this day BSKL will be offering poppies at the school reception.   A minimum donation of RM 5 for each poppy is politely requested.  The money raised will go to The British Legion.
+
+Thank you.
+
+Kind Regards,
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

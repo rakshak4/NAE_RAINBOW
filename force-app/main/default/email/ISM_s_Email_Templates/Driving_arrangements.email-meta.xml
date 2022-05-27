@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Driving arrangements</name>
+    <style>freeForm</style>
+    <subject>Driving arrangements</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+Congratulations on the successful start of the new school year. It&apos;s been a great pleasure to see our existing families after the summer holidays and to welcome our new families to ISM.
+
+As many of you noticed the traffic situation was far from ideal this morning. We would like to thank you for your patience and apologise for the inconvenience that this morning may have caused you. We will continue to work on improving the traffic flow and are hoping that through the mutual efforts of our security team and our parents/drivers the situation will improve towards the end of this week.
+
+In order to help us improve the traffic situation we are kindly asking you to ensure that you and your drivers are familiar with the driving and parking arrangements on both campuses. You can click here to download the map. The first page contains the driving arrangements for the Lower School in Russian and English, the second page is for the Upper School Campus. You can also collect a print out of this map at the Front desk of both campuses.
+
+Please be aware that the Ice Skating Rink next to the school is hosting a hockey tournament that will last until the 5th of September. The games are on from 1 pm till 9 pm every day, therefore we are kindly asking you to arrive early for the after school pick up as the Tournament will unfortunately create additional difficulties with parking on the Upper school campus.
+
+We do apologise for any inconveniences and thank you for your cooperation.
+
+Have a great day,
+
+Administration Team
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

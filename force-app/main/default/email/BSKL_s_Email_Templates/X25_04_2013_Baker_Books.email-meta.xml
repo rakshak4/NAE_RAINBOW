@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>25/04/2013 Baker Books</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>25/04/2013 Baker Books</name>
+    <style>freeForm</style>
+    <subject>Baker Books</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Baker Books is a UK based young readers books company and I have created an account with them. They have an excellent and varied range of titles, for very young children, up to older children. I am giving out the catalogues to all the children for them to choose books.
+
+The great and convenient thing about Baker Books is that you as a parent can pay online with credit or debit card.
+
+It is very easy to do: you go to this link:
+
+http://parentpay.bakerbooks.co.uk/clubs/BRIMAL1
+
+You then order from there, entering your child&apos;s name and class.  The books are then dispatched by class name to the school.
+
+Please note that there is a deadline for the orders to be done by. This is May 15th, so please make sure you order your books before then.
+
+If you have any questions please contact me at  alan.savage@britishschool.edu.my
+
+Thank you and happy reading for your children!
+
+Alan Savage
+Literacy Coordinator
+Head of Year 8
+English/Literacy Teacher
+
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

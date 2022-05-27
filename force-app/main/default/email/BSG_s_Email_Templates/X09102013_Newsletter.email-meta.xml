@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>09102013 Newsletter</name>
+    <style>freeForm</style>
+    <subject>Newsletter Now Available (2013/14 Term 1 Issue 1)</subject>
+    <textOnly>The British School of Guangzhou
+
+FIRST NEWSLETTER OF 2013/14 NOW AVAILABLE
+
+Dear Parents,
+
+Welcome to the first BSG newsletter of the school year!
+
+As always we have begun busy with students settling down into new classes and getting stuck into new, exciting topics.
+
+Lower School children have spent the last few weeks getting to know each other and learning through a variety of creative crafts. On the upper campus, Year 2 tackle the Canton Tower, Year 3 kneed noodles and Year 4 go on app adventures. Year 5 get gassy in Science and Year 6 find their poetic sides.
+
+In Secondary, we report the latest developments in our House system and Sixth Form, plus we celebrate Mid-Autumn Day and present a letter received from Her Majesty the Queen! Our students have also had excellent success with work experience and visits to Honda.
+
+As much as we look forward in this issue, we also remember the big events before the summer holiday, such as Graduation Day, Secondary Swimming Gala and Awards Day. As well as all this, we have a Secondary Residential Special with fabulous travel logs and photos showcasing the best of the programme from last year.
+
+PLEASE Copy and paste this URL into your web browser to view the newsletter &lt;http://www.bsg.org.cn/media/430649/BSG%20Newsletter%20Term%20October%202013.pdf&gt; or visit the &apos;School Life&apos; section of the school website (www.bsg.org.cn).
+
+Kind regards,
+
+Stuart Geraghty
+Publication Editor
+The British School of Guangzhou
+World Class Education
+_________________________________________________________
+
+A Member of The Nord Anglia Education Family- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

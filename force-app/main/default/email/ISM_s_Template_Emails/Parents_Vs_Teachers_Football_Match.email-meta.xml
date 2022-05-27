@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Parents Vs Teachers Football Match</name>
+    <style>freeForm</style>
+    <subject>Parents Vs Teachers Football Match</subject>
+    <textOnly>Dear Parents,
+The Challenge has been laid........ are you parents game?
+Mr Tim Walsh and his merry band of teachers are looking for new victims!!! Thus the Challenge is in place........
+                   ISM Teachers Vs ISM Parents Football Challenge
+Mr Walsh is looking for parents who would be tough or willing enough to take on his Teaching Terrorists in a game of football (soccer).
+Seriously though......the game is far more akin to a &quot;Kick and Giggle&quot; with some light hearted fun!!!!
+The Challenge is at a very tentative stage of organisation and Mr Walsh is trying to ascertain the level of interest. 
+At this stage, a Saturday morning, either the 8th or 15th of October is being considered for the slaughter......oops, I mean match.
+The teachers already have 12 names on the team sheet at this stage! 
+So C&apos;mon parents, get in touch with either Tim or myself and register your name on the Parents team if you are genuinely interested.
+Will be a great morning of fun and sweat!!!
+Kind Regards
+Tim Walsh and Dino Vikas.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

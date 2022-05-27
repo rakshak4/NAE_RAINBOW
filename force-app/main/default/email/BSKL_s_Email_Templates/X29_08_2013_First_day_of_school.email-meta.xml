@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>29/08/2013 First day of school</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>29/08/2013 First day of school</name>
+    <style>freeForm</style>
+    <subject>First day of school</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I hope you had a successful and informative afternoon at the ‘Meet the tutor’ day. Further to my letter last week, could you please ensure that all pupils come to school on Monday with PE kit, and on Tuesday with swimming kit.
+
+Thank you.
+
+Kind Regards,
+
+Derek Mackey
+Head of Secondary
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

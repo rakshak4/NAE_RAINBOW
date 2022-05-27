@@ -1,0 +1,56 @@
+<apex:page standardcontroller="Lead" showHeader="false" Sidebar="false">
+    <script type="text/javascript" src="resource/popup"></script>
+
+    
+<style type="text/css">               
+        
+    input.btn { display: none; }
+
+</style>
+
+  <apex:outputpanel rendered="{!ISNULL(Lead.Id)}">
+  <table align="center" border="0" style="width: 100%; "> 
+<tr align="center">
+<td bgcolor="#213a5c" align="center">
+   <font color="White" size="6" face="Arial"><strong>No Record Selected</strong></font>
+   </td>
+   </tr>
+   </table>
+  </apex:outputpanel> 
+  
+  
+   <apex:outputpanel rendered="{!Lead.Id!=null}">
+
+    <table bgcolor="#213a5c" align="center" border="0" cellpadding="0" cellspacing="0" style="width: 100%; "> 
+          
+                <tr height="70px">
+                <td width="50px"></td>
+                    <td width="400px" bgcolor="#213a5c">
+                    
+                          <font color="White" size="5" face="Arial"><strong>{!Lead.Name}</strong></font> 
+                       
+                    </td>
+                    <td width="150px"></td>
+                    <td align="right" ><a href="/apex/TerminateEnquiry?RecId={!Lead.Id}" target="_self" onclick="/apex/TerminateEnquiry?RecId={!Lead.Id};return false;"><apex:image id="Image3" value="https://school--c.eu1.content.force.com/servlet/servlet.FileDownload?file=015D0000002VwXX"/></a></td>
+                    <td width="100px"><a href="/apex/Console_Make_Dormant?RecId={!Lead.Id}" target="_self" onclick="apex/Console_Make_Dormant?RecId={!Lead.Id}"><apex:image id="Image2" value="https://school--c.eu1.content.force.com/servlet/servlet.FileDownload?file=015D0000002VwXc"/></a></td>
+                    <td width="120px"><a href="/apex/ConvertLead?scontrolCaching=1&id={!Lead.Id}" target="_parent"><apex:image id="Image" value="https://school--c.eu1.content.force.com/servlet/servlet.FileDownload?file=015D0000002VwXh"/></a></td>
+
+                  
+                    
+                                    </tr>
+                                 
+
+               
+               
+                </table>
+                 </apex:outputpanel> 
+
+
+
+                <hr style=" border-color:Orange;" />
+
+
+
+<apex:detail subject="{!Lead.Id}" title="false" relatedList="false" inlineEdit="true" showChatter="false" oncomplete="location.reload()"/>
+
+</apex:page>

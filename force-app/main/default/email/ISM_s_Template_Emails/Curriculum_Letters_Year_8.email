@@ -1,0 +1,1642 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>JA</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="276">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;}
+table.MsoTableGrid
+	{mso-style-name:"Table Grid";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-priority:59;
+	mso-style-unhide:no;
+	border:solid windowtext 1.0pt;
+	mso-border-alt:solid windowtext .5pt;
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-border-insideh:.5pt solid windowtext;
+	mso-border-insidev:.5pt solid windowtext;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;}
+</style>
+<![endif]-->
+
+
+
+<!--StartFragment-->
+
+<p class="MsoNormal" align="right" style="text-align:right">Wednesday 2<sup>nd</sup>
+November 2011<o:p></o:p></p>
+
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><u>Curriculum
+Information<o:p></o:p></u></b></p>
+
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><u><o:p><span style="text-decoration:none">&nbsp;</span></o:p></u></b></p>
+
+<p class="MsoNormal">Dear Parents,<o:p></o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal">As announced to you earlier in the school year, the
+Secondary Department will no longer be sending home a weekly blurb containing
+curriculum information. This blurb will now be replaced with a far more
+detailed curriculum letter. Attached to this letter is the curriculum
+information for all subjects for the remainder of this Autumn Term. In January
+a new curriculum letter will go home containing information for the Spring Term
+and a final letter will go home in April with details for the Summer Term. <o:p></o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal">If you have any questions pertaining to the information
+contained in this curriculum letter, please speak to the individual teachers at
+our parent teacher conferences over the next two weeks.<o:p></o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal">Kind regards<o:p></o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal">Mrs. Hamilton<o:p></o:p></p>
+
+<p class="MsoNormal">Key Stage Three Phase Leader<o:p></o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" align="center" style="text-align:center"><b style="mso-bidi-font-weight:
+normal"><u><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:
+Arial">Autumn Term 2 – Curriculum Map (Year 8)<o:p></o:p></span></u></b></p>
+
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><u><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial"><o:p><span style="text-decoration:none">&nbsp;</span></o:p></span></u></b></p>
+
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes">
+  <td width="443" valign="top" style="width:442.8pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">English<u><o:p></o:p></u></span></b></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:1;mso-yfti-lastrow:yes">
+  <td width="443" valign="top" style="width:442.8pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">An
+  Introduction to Dickens (cont.)<o:p></o:p></span></b></p>
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">&amp;<o:p></o:p></span></b></p>
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">Travel
+  Writing &amp; ‘Journeys’ <o:p></o:p></span></b></p>
+  <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial"><o:p>&nbsp;</o:p></span></p>
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">Grammar
+  and punctuation<o:p></o:p></span></b></p>
+  <p class="MsoNormal"><span style="font-size:11.0pt;font-family:Arial;
+  mso-bidi-font-family:Arial">• Comment on the use of a wide range of
+  punctuation to convey shades of meaning.<o:p></o:p></span></p>
+  <p class="MsoNormal"><span style="font-size:11.0pt;font-family:Arial;
+  mso-bidi-font-family:Arial">• Use accurate punctuation including commas in
+  various situations, including parenthetical commas, colons, semi-colons,
+  dashes and brackets.<o:p></o:p></span></p>
+  <p class="MsoNormal"><span style="font-size:11.0pt;font-family:Arial;
+  mso-bidi-font-family:Arial">• Begin to use formal and informal language for
+  specific purposes.<o:p></o:p></span></p>
+  <p class="MsoNormal"><span style="font-size:11.0pt;font-family:Arial;
+  mso-bidi-font-family:Arial">• Demonstrate controlled use of a variety of
+  simple and complex sentences to achieve purpose and contribute to overall
+  effect.<o:p></o:p></span></p>
+  <p class="MsoNormal"><span style="font-size:11.0pt;font-family:Arial;
+  mso-bidi-font-family:Arial">• Confidently use a range of sentence features to
+  clarify or emphasise meaning, e.g. fronted adverbials, complex nouns or
+  prepositional phrases.<o:p></o:p></span></p>
+  <p class="MsoNormal"><span style="font-size:11.0pt;font-family:Arial;
+  mso-bidi-font-family:Arial"><o:p>&nbsp;</o:p></span></p>
+  <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><b><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">Phonics,
+  spelling and vocabulary<o:p></o:p></span></b></p>
+  <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">• Spell
+  most words correctly, including some complex polysyllabic words and
+  unfamiliar words.<o:p></o:p></span></p>
+  <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">• Learn
+  the spelling of difficult and commonly misspelt words and develop strategies
+  for correcting spelling.<o:p></o:p></span></p>
+  <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">• Learn
+  an increasingly wide range of vocabulary appropriate to their needs.<o:p></o:p></span></p>
+  <p class="MsoNormal"><span style="font-size:11.0pt;font-family:Arial;
+  mso-bidi-font-family:Arial"><o:p>&nbsp;</o:p></span></p>
+  <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><b><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">Non-fiction<o:p></o:p></span></b></p>
+  <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">• Use a
+  range of reading strategies to find relevant information and main points in
+  texts, distinguishing between fact and opinion where appropriate.<o:p></o:p></span></p>
+  <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">• Make
+  relevant notes when researching different sources, comparing and contrasting
+  information.<o:p></o:p></span></p>
+  <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">•
+  Explain how specific choices and combinations of form, layout and
+  presentation create particular effects.<o:p></o:p></span></p>
+  <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">•
+  Demonstrate understanding of the effects created by features of diaries,
+  magazines and newspaper reports.<o:p></o:p></span></p>
+  <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">•
+  Demonstrate understanding of the main features, including the structure, of
+  each genre and text type studied. <o:p></o:p></span></p>
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><u><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial"><o:p><span style="text-decoration:none">&nbsp;</span></o:p></span></u></b></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><u><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial"><o:p><span style="text-decoration:none">&nbsp;</span></o:p></span></u></b></p>
+
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes">
+  <td width="443" colspan="2" valign="top" style="width:442.8pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Maths (Tier 4)<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:1;height:12.4pt">
+  <td width="95" valign="top" style="width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.4pt">
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial">Number<o:p></o:p></span></b></p>
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><u><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial"><o:p><span style="text-decoration:none">&nbsp;</span></o:p></span></u></b></p>
+  </td>
+  <td width="347" valign="top" style="width:347.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:12.4pt">
+  <p class="MsoListParagraphCxSpFirst" style="text-indent:-18.0pt;mso-list:l10 level1 lfo6"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Place value<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l10 level1 lfo6"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Ordering, adding and subtracting decimals<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l10 level1 lfo6"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Multiplication and division calculations<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l10 level1 lfo6"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Using a calculator<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l10 level1 lfo6"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Equivalent fractions and fractions of quantities<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l10 level1 lfo6"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Calculations with fractions<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l10 level1 lfo6"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Ordering fractions<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l10 level1 lfo6"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Multiplying and dividing decimals<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l10 level1 lfo6"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Calculating percentages<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l10 level1 lfo6"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Percentage increase and decrease<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpLast"><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial"><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:2;height:12.4pt">
+  <td width="95" valign="top" style="width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.4pt">
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial">Algebra<o:p></o:p></span></b></p>
+  </td>
+  <td width="347" valign="top" style="width:347.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:12.4pt">
+  <p class="MsoListParagraphCxSpFirst" style="text-indent:-18.0pt;mso-list:l10 level1 lfo6"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Simplifying expressions<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l10 level1 lfo6"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Using formulae<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l10 level1 lfo6"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Simplifying expressions with powers<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpLast" style="text-indent:-18.0pt;mso-list:l10 level1 lfo6"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Using algebraic expressions<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:3;height:12.4pt">
+  <td width="95" valign="top" style="width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.4pt">
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial">Geometry<o:p></o:p></span></b></p>
+  </td>
+  <td width="347" valign="top" style="width:347.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:12.4pt">
+  <p class="MsoListParagraphCxSpFirst" style="text-indent:-18.0pt;mso-list:l10 level1 lfo6"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Converting between units<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l10 level1 lfo6"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Perimeter and area of triangles<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l10 level1 lfo6"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Perimeter and area of quadrilaterals<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l10 level1 lfo6"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Volume of cuboids<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpLast" style="text-indent:-18.0pt;mso-list:l10 level1 lfo6"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Surface area of cuboids<b style="mso-bidi-font-weight:
+  normal"><u><o:p></o:p></u></b></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:4;mso-yfti-lastrow:yes;height:12.4pt">
+  <td width="95" valign="top" style="width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.4pt">
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial">Statistics<o:p></o:p></span></b></p>
+  </td>
+  <td width="347" valign="top" style="width:347.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:12.4pt">
+  <p class="MsoListParagraphCxSpFirst" style="text-indent:-18.0pt;mso-list:l10 level1 lfo6"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Theoretical probability<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l10 level1 lfo6"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">The probability of two events<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l10 level1 lfo6"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Experimental probability<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l10 level1 lfo6"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Processing and representing data<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l10 level1 lfo6"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Interpreting data<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l10 level1 lfo6"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Comparing groups<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpLast" style="text-indent:-18.0pt;mso-list:l10 level1 lfo6"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Presenting results<b style="mso-bidi-font-weight:
+  normal"><u><o:p></o:p></u></b></span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><u><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial"><o:p><span style="text-decoration:none">&nbsp;</span></o:p></span></u></b></p>
+
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes">
+  <td width="443" colspan="2" valign="top" style="width:442.8pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Maths (Tier 5)<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:1;height:12.4pt">
+  <td width="95" valign="top" style="width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.4pt">
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial">Number<o:p></o:p></span></b></p>
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><u><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial"><o:p><span style="text-decoration:none">&nbsp;</span></o:p></span></u></b></p>
+  </td>
+  <td width="347" valign="top" style="width:347.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:12.4pt">
+  <p class="MsoListParagraphCxSpFirst" style="text-indent:-18.0pt;mso-list:l1 level1 lfo7"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Adding and subtracting fractions<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l1 level1 lfo7"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Multiplying and dividing fractions<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l1 level1 lfo7"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Percentage change<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l1 level1 lfo7"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Ratio and proportion<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l1 level1 lfo7"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Powers of 10<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l1 level1 lfo7"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Rounding and approximation<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l1 level1 lfo7"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Mental and written calculations with decimals<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpLast" style="text-indent:-18.0pt;mso-list:l1 level1 lfo7"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Problems involving measures<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:2;height:12.4pt">
+  <td width="95" valign="top" style="width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.4pt">
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial">Algebra<o:p></o:p></span></b></p>
+  </td>
+  <td width="347" valign="top" style="width:347.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:12.4pt">
+  <p class="MsoListParagraphCxSpFirst" style="text-indent:-18.0pt;mso-list:l1 level1 lfo7"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Multiplying out brackets<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l1 level1 lfo7"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Factorising expressions<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l1 level1 lfo7"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Substituting into formulae<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l1 level1 lfo7"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Changing the subject of a formula<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l1 level1 lfo7"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Solving linear equations<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l1 level1 lfo7"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Sketching graphs<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l1 level1 lfo7"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Drawing accurate graphs<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpLast" style="text-indent:-18.0pt;mso-list:l1 level1 lfo7"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Simple quadratic graphs<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:3;height:12.4pt">
+  <td width="95" valign="top" style="width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.4pt">
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial">Geometry<o:p></o:p></span></b></p>
+  </td>
+  <td width="347" valign="top" style="width:347.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:12.4pt">
+  <p class="MsoListParagraphCxSpFirst" style="text-indent:-18.0pt;mso-list:l1 level1 lfo7"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Perimeter and area<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l1 level1 lfo7"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:15.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;mso-bidi-font-weight:
+  bold"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Finding </span><span style="font-size:11.0pt;
+  mso-bidi-font-size:15.0pt;font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;
+  mso-bidi-font-weight:bold">π<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l1 level1 lfo7"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:15.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;mso-bidi-font-weight:
+  bold"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  15.0pt;font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-font-weight:
+  bold">Area of a circle<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l1 level1 lfo7"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:15.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;mso-bidi-font-weight:
+  bold"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Solving circle problems using </span><span style="font-size:11.0pt;mso-bidi-font-size:15.0pt;font-family:Arial;
+  mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-font-weight:bold">π<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l1 level1 lfo7"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Volume of prisms<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpLast" style="text-indent:-18.0pt;mso-list:l1 level1 lfo7"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Surface area of prisms<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:4;mso-yfti-lastrow:yes;height:12.4pt">
+  <td width="95" valign="top" style="width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.4pt">
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial">Statistics<o:p></o:p></span></b></p>
+  </td>
+  <td width="347" valign="top" style="width:347.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:12.4pt">
+  <p class="MsoListParagraphCxSpFirst" style="text-indent:-18.0pt;mso-list:l1 level1 lfo7"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Simple probability<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l1 level1 lfo7"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Equally likely outcomes and two events<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l1 level1 lfo7"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Mutually exclusive events<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l1 level1 lfo7"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Practical probability experiments<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l1 level1 lfo7"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Stem and leaf diagrams<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l1 level1 lfo7"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Statistical investigations<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpLast" style="text-indent:-18.0pt;mso-list:l1 level1 lfo7"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Data collection<b style="mso-bidi-font-weight:normal"><u><o:p></o:p></u></b></span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><u><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial"><o:p><span style="text-decoration:none">&nbsp;</span></o:p></span></u></b></p>
+
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes">
+  <td width="443" colspan="2" valign="top" style="width:442.8pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Science<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:1;height:5.2pt">
+  <td width="95" valign="top" style="width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:5.2pt">
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial">Elements,
+  compounds and mixtures<o:p></o:p></span></b></p>
+  </td>
+  <td width="347" valign="top" style="width:347.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:5.2pt">
+  <p class="MsoListParagraphCxSpFirst" style="text-indent:-18.0pt;mso-list:l8 level1 lfo11"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">The periodic table<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l8 level1 lfo11"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Elements<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l8 level1 lfo11"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Physical changes<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l8 level1 lfo11"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Chemical changes<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l8 level1 lfo11"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Compounds<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l8 level1 lfo11"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Mixtures<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l8 level1 lfo11"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Separation techniques<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l8 level1 lfo11"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Melting and boiling points<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l8 level1 lfo11"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Purity<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpLast" style="text-indent:-18.0pt;mso-list:l8 level1 lfo11"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Real-life examples<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:2;mso-yfti-lastrow:yes;height:5.2pt">
+  <td width="95" valign="top" style="width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:5.2pt">
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial">Light<o:p></o:p></span></b></p>
+  </td>
+  <td width="347" valign="top" style="width:347.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:5.2pt">
+  <p class="MsoListParagraphCxSpFirst" style="text-indent:-18.0pt;mso-list:l7 level1 lfo12"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Luminous objects<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l7 level1 lfo12"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Shadows<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l7 level1 lfo12"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Cameras<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l7 level1 lfo12"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Mirrors<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l7 level1 lfo12"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Lenses<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l7 level1 lfo12"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">The Electromagnetic Spectrum<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l7 level1 lfo12"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Filtering the light<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpLast" style="text-indent:-18.0pt;mso-list:l7 level1 lfo12"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Colour<o:p></o:p></span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><u><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial"><o:p><span style="text-decoration:none">&nbsp;</span></o:p></span></u></b></p>
+
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes">
+  <td width="443" colspan="2" valign="top" style="width:442.8pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">History<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:1;mso-yfti-lastrow:yes">
+  <td width="95" valign="top" style="width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;font-family:Arial">The Making of The UK-<o:p></o:p></span></b></p>
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;font-family:Arial">1485-1750:<o:p></o:p></span></b></p>
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;font-family:Arial"><o:p>&nbsp;</o:p></span></b></p>
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;font-family:Arial">Tudor Monarchs<o:p></o:p></span></b></p>
+  </td>
+  <td width="347" valign="top" style="width:347.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoListParagraphCxSpFirst" style="text-indent:-18.0pt;mso-list:l0 level1 lfo8"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;font-family:
+  Arial">Henry VIII:</span></b><span style="font-size:11.0pt;font-family:Arial"><o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle"><span style="font-size:11.0pt;font-family:
+  Arial">-The problem’s facing Henry <o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle"><span style="font-size:11.0pt;font-family:
+  Arial">-<b style="mso-bidi-font-weight:normal">The English Reformation:</b> <o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle"><span style="font-size:11.0pt;font-family:
+  Arial">-Why did Henry break with the<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle"><span style="font-size:11.0pt;font-family:
+  Arial">Roman Catholic church?<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle"><span style="font-size:11.0pt;font-family:
+  Arial">-Examine the causes of Henry’s break with Rome-power, money, love<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle"><span style="font-size:11.0pt;font-family:
+  Arial">-Evaluate evidence and reach conclusions on why Henry VIII dissolved
+  the monasteries and it’s consequences.<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle"><span style="font-size:11.0pt;font-family:
+  Arial">-6 wives<span style="mso-spacerun:yes">&nbsp;&nbsp; </span><o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l0 level1 lfo8"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;font-family:
+  Arial">Edward VI:<o:p></o:p></span></b></p>
+  <p class="MsoListParagraphCxSpMiddle"><span style="font-size:11.0pt;font-family:
+  Arial">-The boy King: what kind of boy was he?<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle"><span style="font-size:11.0pt;font-family:
+  Arial"><span style="mso-spacerun:yes">&nbsp;</span>-How and why he changed
+  religion in England<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l0 level1 lfo8"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial">Queen Mary I:<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpLast"><span style="font-size:11.0pt;font-family:
+  Arial">- Investigate the reputation of Mary Tudor as<span style="mso-spacerun:yes">&nbsp; </span>‘Bloody’ or ‘Misunderstood’ Mary.<o:p></o:p></span></p>
+  <p class="MsoNormal"><span style="font-size:11.0pt;font-family:Arial"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>-did she deserve her nickname?<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpFirst" style="text-indent:-18.0pt;mso-list:l0 level1 lfo8"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;font-family:
+  Arial">Queen Elizabeth I:<o:p></o:p></span></b></p>
+  <p class="MsoListParagraphCxSpMiddle"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;font-family:Arial">-</span></b><span style="font-size:11.0pt;font-family:Arial">How successfully did Elizabeth
+  tackle the problems of her reign?<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle"><span style="font-size:11.0pt;font-family:
+  Arial">-Politics, Religion and Society<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;font-family:Arial">-</span></b><span style="font-size:11.0pt;font-family:Arial">Find out how the Church Settlement
+  in 1559 affected the Church of England<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;font-family:Arial">-</span></b><span style="font-size:11.0pt;font-family:Arial">Evaluate the causes of the
+  execution of Mary, Queen of Scots<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;font-family:Arial">-</span></b><span style="font-size:11.0pt;font-family:Arial">Analyse and evaluate the reasons
+  behind the defeat of the Spanish Armada<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle"><span style="font-size:11.0pt;font-family:
+  Arial">-Examine the reasons behind Elizabethan poverty and the impact of the
+  Poor Law<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l0 level1 lfo8"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;font-family:
+  Arial">Using sources<o:p></o:p></span></b></p>
+  <p class="MsoListParagraphCxSpLast"><span style="font-size:11.0pt;font-family:
+  Arial">-What do they tell us?<o:p></o:p></span></p>
+  <p class="MsoNormal"><span style="font-size:11.0pt;font-family:Arial"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>-How trustworthy/reliable are
+  they?<o:p></o:p></span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><u><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial"><o:p><span style="text-decoration:none">&nbsp;</span></o:p></span></u></b></p>
+
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes">
+  <td width="443" colspan="2" valign="top" style="width:442.8pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Geography<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:1;mso-yfti-lastrow:yes">
+  <td width="95" valign="top" style="width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;font-family:Arial">Population and Migration<o:p></o:p></span></b></p>
+  </td>
+  <td width="347" valign="top" style="width:347.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoListParagraphCxSpFirst" style="text-indent:-18.0pt;mso-list:l0 level1 lfo8"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial">What will happen to the world
+  population by 2050?<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l0 level1 lfo8"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial">The impact of population on
+  resources<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l0 level1 lfo8"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial">China and it’s one child policy<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l0 level1 lfo8"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial">Advantages and disadvantages of an
+  aging population<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l0 level1 lfo8"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial">What is migration?<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l0 level1 lfo8"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:
+  Arial">Why do people migrate?-Push and pull factors</span><b style="mso-bidi-font-weight:normal"><u><span style="font-size:11.0pt;
+  mso-bidi-font-size:12.0pt;font-family:Arial"><o:p></o:p></span></u></b></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l0 level1 lfo8"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:
+  Arial">Rural to urban migration</span><b style="mso-bidi-font-weight:normal"><u><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial"><o:p></o:p></span></u></b></p>
+  <p class="MsoListParagraphCxSpLast" style="text-indent:-18.0pt;mso-list:l0 level1 lfo8"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial">Migration case studies<o:p></o:p></span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><u><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial"><o:p><span style="text-decoration:none">&nbsp;</span></o:p></span></u></b></p>
+
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes">
+  <td width="443" valign="top" style="width:442.8pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">ICT<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:1;mso-yfti-lastrow:yes">
+  <td width="443" valign="top" style="width:442.8pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span style="font-size:11.0pt;font-family:Arial;
+  mso-bidi-font-family:Arial;mso-fareast-language:ZH-CN">Understand what makes
+  up a newspaper. <o:p></o:p></span></p>
+  <p class="MsoNormal"><span style="font-size:11.0pt;font-family:Arial;
+  mso-bidi-font-family:Arial;mso-fareast-language:ZH-CN">What are they? What
+  makes a newspaper?<o:p></o:p></span></p>
+  <p class="MsoNormal"><span style="font-size:11.0pt;font-family:Arial;
+  mso-bidi-font-family:Arial;mso-fareast-language:ZH-CN">Decide on a main topic
+  for their newspaper.<o:p></o:p></span></p>
+  <p class="MsoNormal"><span style="font-size:11.0pt;font-family:Arial;
+  mso-bidi-font-family:Arial;mso-fareast-language:ZH-CN"><span style="mso-spacerun:yes">&nbsp;</span><o:p></o:p></span></p>
+  <p class="MsoNormal"><span style="font-size:11.0pt;font-family:Arial;
+  mso-bidi-font-family:Arial;mso-fareast-language:ZH-CN">Masthead<o:p></o:p></span></p>
+  <p class="MsoNormal"><span style="font-size:11.0pt;font-family:Arial;
+  mso-bidi-font-family:Arial;mso-fareast-language:ZH-CN">By lines<o:p></o:p></span></p>
+  <p class="MsoNormal"><span style="font-size:11.0pt;font-family:Arial;
+  mso-bidi-font-family:Arial;mso-fareast-language:ZH-CN">Sub-heading etc.<o:p></o:p></span></p>
+  <p class="MsoNormal"><span style="font-size:11.0pt;font-family:Arial;
+  mso-bidi-font-family:Arial;mso-fareast-language:ZH-CN">Publishing on the web
+  (Making a webpage)<o:p></o:p></span></p>
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><u><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial"><o:p><span style="text-decoration:none">&nbsp;</span></o:p></span></u></b></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><u><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial"><o:p><span style="text-decoration:none">&nbsp;</span></o:p></span></u></b></p>
+
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:22.0pt">
+  <td width="443" colspan="2" valign="top" style="width:442.8pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.0pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Russian<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:1;height:5.6pt">
+  <td width="95" valign="top" style="width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:5.6pt">
+  <p class="MsoNormal"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;
+  font-family:Arial">Beginner<o:p></o:p></span></p>
+  </td>
+  <td width="347" valign="top" style="width:347.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:5.6pt">
+  <p class="MsoListParagraphCxSpFirst" style="text-indent:-18.0pt;mso-list:l9 level1 lfo4"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">Revise
+  basic phrases<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l9 level1 lfo4"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">Revise
+  numbers 1 – 20<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l9 level1 lfo4"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">Numbers
+  21 – 49<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l9 level1 lfo4"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">Capital
+  letters in their handwritten form<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l9 level1 lfo4"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">What
+  have you got?<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l9 level1 lfo4"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">How old
+  are they?<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpLast" style="text-indent:-18.0pt;mso-list:l9 level1 lfo4"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">Where
+  do you live?<o:p></o:p></span></p>
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><u><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial"><o:p><span style="text-decoration:none">&nbsp;</span></o:p></span></u></b></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:2;height:5.6pt">
+  <td width="95" valign="top" style="width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:5.6pt">
+  <p class="MsoNormal"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;
+  font-family:Arial">Intermediate<o:p></o:p></span></p>
+  </td>
+  <td width="347" valign="top" style="width:347.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:5.6pt">
+  <p class="MsoListParagraphCxSpFirst" style="text-indent:-18.0pt;mso-list:l2 level1 lfo5"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Revision of “Free time and hobbies”<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l2 level1 lfo5"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">“Family and professions” (“Novaya Iskra” book 2,
+  unit 1)<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpLast" style="text-indent:-18.0pt;mso-list:l2 level1 lfo5"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Russian genders<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:3;mso-yfti-lastrow:yes;height:5.6pt">
+  <td width="95" valign="top" style="width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:5.6pt">
+  <p class="MsoNormal"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;
+  font-family:Arial">Advanced<o:p></o:p></span></p>
+  </td>
+  <td width="347" valign="top" style="width:347.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:5.6pt">
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial">(book
+  Y7)<o:p></o:p></span></b></p>
+  <p class="MsoListParagraphCxSpFirst" style="text-indent:-18.0pt;mso-list:l3 level1 lfo10"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Participle: types of participles, features,
+  functions and spelling rules.<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpLast" style="text-indent:-18.0pt;mso-list:l3 level1 lfo10"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Describing appearance. Writing a descriptive essay
+  on the picture.<o:p></o:p></span></p>
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial">(book
+  Y6)<o:p></o:p></span></b></p>
+  <p class="MsoListParagraphCxSpFirst" style="text-indent:-18.0pt;mso-list:l12 level1 lfo2"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">Lexics:
+  general meaning of words, professional words, dialect words, slang words,
+  old/new words, traditional Russian words.<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l12 level1 lfo2"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">Phraseological
+  words<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l12 level1 lfo2"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">Etymology
+  of words<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l12 level1 lfo2"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">Describing
+  places. Writing a descriptive essay.<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l12 level1 lfo2"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">Word
+  roots with – кос-/ -кас-<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l12 level1 lfo2"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">Word
+  roots with – гор-/ -гар-<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpLast" style="text-indent:-18.0pt;mso-list:l12 level1 lfo2"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">Vowels
+  in prefixes пре-, при-<o:p></o:p></span></p>
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">(book
+  Y5)<o:p></o:p></span></b></p>
+  <p class="MsoListParagraphCxSpFirst" style="text-indent:-18.0pt;mso-list:l6 level1 lfo3"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">Revising
+  nouns/ verbs/adjectives/pronouns<b style="mso-bidi-font-weight:normal"><o:p></o:p></b></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l6 level1 lfo3"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">Main
+  idea of text<b style="mso-bidi-font-weight:normal"><o:p></o:p></b></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l6 level1 lfo3"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">Basics
+  of syntaxes, punctuation.<b style="mso-bidi-font-weight:normal"><o:p></o:p></b></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l6 level1 lfo3"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">Word
+  clusters<b style="mso-bidi-font-weight:normal"><o:p></o:p></b></span></p>
+  <p class="MsoListParagraphCxSpLast" style="text-indent:-18.0pt;mso-list:l6 level1 lfo3"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">Sentences:
+  types of sentences, main parts of sentences<b style="mso-bidi-font-weight:
+  normal"><o:p></o:p></b></span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><u><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial"><o:p><span style="text-decoration:none">&nbsp;</span></o:p></span></u></b></p>
+
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes">
+  <td width="443" colspan="2" valign="top" style="width:442.8pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Art<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:1;mso-yfti-lastrow:yes;height:96.7pt">
+  <td width="95" valign="top" style="width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:96.7pt">
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">Creating
+  a Band <o:p></o:p></span></b></p>
+  </td>
+  <td width="347" valign="top" style="width:347.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:96.7pt">
+  <p class="MsoListParagraphCxSpFirst" style="text-indent:-18.0pt;mso-list:l4 level1 lfo13"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">Designing
+  and making poster, logo and tickets for the Band<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l4 level1 lfo13"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">Costumes
+  design<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l4 level1 lfo13"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">Pupils
+  t in groups will create an images and videos using digital video and editing
+  practices.<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpLast" style="text-indent:-18.0pt;mso-list:l4 level1 lfo13"><!--[if !supportLists]--><span style="font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;font-family:Arial;mso-bidi-font-family:Arial">Exploring
+  and developing ideas further examples of particular movements or styles of
+  art, e.g. surrealism, fauvism, futurism, pop art, street art.<o:p></o:p></span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><u><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial"><o:p><span style="text-decoration:none">&nbsp;</span></o:p></span></u></b></p>
+
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes">
+  <td width="443" valign="top" style="width:442.8pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">French<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:1;mso-yfti-lastrow:yes">
+  <td width="443" valign="top" style="width:442.8pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;font-family:Arial;mso-fareast-font-family:&quot;Times New Roman&quot;;
+  mso-bidi-font-family:Arial">Unit 5 (end of) : Ma famille (Family and other
+  people)<o:p></o:p></span></b></p>
+  <p class="MsoListParagraphCxSpFirst" style="margin-bottom:10.0pt;mso-add-space:
+  auto;text-indent:-18.0pt;line-height:115%;mso-list:l11 level1 lfo14"><!--[if !supportLists]--><span style="font-size:11.0pt;line-height:115%;font-family:Symbol;mso-fareast-font-family:
+  Symbol;mso-bidi-font-family:Symbol;color:black"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;line-height:
+  115%;font-family:Arial;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:
+  Arial;color:black">Le matin, chez moi (Morning routines; reflexive verbs) :</span></b><span style="font-size:11.0pt;line-height:115%;font-family:Arial;mso-fareast-font-family:
+  &quot;Times New Roman&quot;;mso-bidi-font-family:Arial;color:black"> we will learn how
+  to use reflexive verbs and how to build a sentence in the negative form. <o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpLast"><span style="font-size:11.0pt;font-family:
+  Arial;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:Arial;
+  color:black"><o:p>&nbsp;</o:p></span></p>
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;font-family:Arial;mso-fareast-font-family:&quot;Times New Roman&quot;;
+  mso-bidi-font-family:Arial;color:black">Unit 6 : On mange! (Food and meals)<o:p></o:p></span></b></p>
+  <p class="MsoListParagraphCxSpFirst" style="margin-bottom:10.0pt;mso-add-space:
+  auto;text-indent:-18.0pt;line-height:115%;mso-list:l11 level1 lfo14"><!--[if !supportLists]--><span style="font-size:11.0pt;line-height:115%;font-family:Symbol;mso-fareast-font-family:
+  Symbol;mso-bidi-font-family:Symbol;color:black"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><b style="mso-bidi-font-weight:normal"><span lang="FR" style="font-size:11.0pt;
+  line-height:115%;font-family:Arial;mso-fareast-font-family:&quot;Times New Roman&quot;;
+  mso-bidi-font-family:Arial;color:black;mso-ansi-language:FR">On va au café? </span></b><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;line-height:
+  115%;font-family:Arial;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:
+  Arial;color:black">(Places to eat; food) :</span></b><span style="font-size:
+  11.0pt;line-height:115%;font-family:Arial;mso-fareast-font-family:&quot;Times New Roman&quot;;
+  mso-bidi-font-family:Arial;color:black"> we will learn French prepositions
+  (au, à la = at, in , to) while learning new vocabulary.<b style="mso-bidi-font-weight:
+  normal"><o:p></o:p></b></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="margin-bottom:10.0pt;mso-add-space:
+  auto;text-indent:-18.0pt;line-height:115%;mso-list:l11 level1 lfo14"><!--[if !supportLists]--><span style="font-size:11.0pt;line-height:115%;font-family:Symbol;mso-fareast-font-family:
+  Symbol;mso-bidi-font-family:Symbol;color:black"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;line-height:
+  115%;font-family:Arial;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:
+  Arial;color:black">S’il-</span></b><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;line-height:115%;font-family:Arial;mso-fareast-font-family:
+  &quot;Times New Roman&quot;;mso-bidi-font-family:Arial">vous-plaît! (Ordering food;
+  prices) : </span></b><span style="font-size:11.0pt;line-height:115%;
+  font-family:Arial;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:
+  Arial">we will revise numbers, prepositions and focus on dialogues.<b style="mso-bidi-font-weight:normal"><span style="color:black"><o:p></o:p></span></b></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="margin-bottom:10.0pt;mso-add-space:
+  auto;text-indent:-18.0pt;line-height:115%;mso-list:l11 level1 lfo14"><!--[if !supportLists]--><span style="font-size:11.0pt;line-height:115%;font-family:Symbol;mso-fareast-font-family:
+  Symbol;mso-bidi-font-family:Symbol;color:black"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;line-height:
+  115%;font-family:Arial;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:
+  Arial;color:black">Ma recette préférée (Recipes :</span></b><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;line-height:
+  115%;font-family:Arial;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:
+  Arial"> ingredients and quantities) : </span></b><span style="font-size:11.0pt;
+  line-height:115%;font-family:Arial;mso-fareast-font-family:&quot;Times New Roman&quot;;
+  mso-bidi-font-family:Arial">we will learn numbers above 100 and talk about
+  quantities while learning new vocabulary.<b style="mso-bidi-font-weight:normal"><span style="color:black"><o:p></o:p></span></b></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="margin-bottom:10.0pt;mso-add-space:
+  auto;text-indent:-18.0pt;line-height:115%;mso-list:l11 level1 lfo14"><!--[if !supportLists]--><span style="font-size:11.0pt;line-height:115%;font-family:Symbol;mso-fareast-font-family:
+  Symbol;mso-bidi-font-family:Symbol;color:black"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;line-height:
+  115%;font-family:Arial;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:
+  Arial;color:black">Mange bien!</span></b><span style="font-size:11.0pt;
+  line-height:115%;font-family:Arial;mso-fareast-font-family:&quot;Times New Roman&quot;;
+  mso-bidi-font-family:Arial"> (Healthy eating) : We will learn how to describe
+  one’s diet using negatives and we will learn the future tense.<b style="mso-bidi-font-weight:normal"><span style="color:black"><o:p></o:p></span></b></span></p>
+  <p class="MsoListParagraphCxSpLast" style="margin-bottom:10.0pt;mso-add-space:
+  auto;text-indent:-18.0pt;line-height:115%;mso-list:l11 level1 lfo14"><!--[if !supportLists]--><span style="font-size:11.0pt;line-height:115%;font-family:Symbol;mso-fareast-font-family:
+  Symbol;mso-bidi-font-family:Symbol;color:black"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;line-height:
+  115%;font-family:Arial;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:
+  Arial;color:black"><span style="mso-spacerun:yes">&nbsp;</span>French cuisine :</span></b><span style="font-size:11.0pt;line-height:115%;font-family:Arial;mso-fareast-font-family:
+  &quot;Times New Roman&quot;;mso-bidi-font-family:Arial"> we will conclude this unit by
+  learning more about the culture of food in France and around the world and we
+  will focus on the career of a famous French chef.<b style="mso-bidi-font-weight:
+  normal"><span style="color:black"><o:p></o:p></span></b></span></p>
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><u><span style="font-size:11.0pt;font-family:Arial"><o:p><span style="text-decoration:
+   none">&nbsp;</span></o:p></span></u></b></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><u><span style="font-size:11.0pt;font-family:Arial"><o:p><span style="text-decoration:
+ none">&nbsp;</span></o:p></span></u></b></p>
+
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes">
+  <td width="443" valign="top" style="width:442.8pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Music<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:1;mso-yfti-lastrow:yes">
+  <td width="443" valign="top" style="width:442.8pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><u><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial">Songwriting
+  (Christmas Number one!)<o:p></o:p></span></u></b></p>
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><u><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial"><o:p><span style="text-decoration:none">&nbsp;</span></o:p></span></u></b></p>
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial">Project
+  Objective – To compose a Christmas Popular song, with a clear structure,
+  hooks and riffs and effective chord progression.<o:p></o:p></span></b></p>
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial"><o:p>&nbsp;</o:p></span></b></p>
+  <p class="MsoListParagraphCxSpFirst" style="text-indent:-18.0pt;mso-list:l13 level1 lfo9"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Critical analysis of famous (and not so famous)
+  Christmas songs. What makes a song successful? What makes a song popular?<b style="mso-bidi-font-weight:normal"><o:p></o:p></b></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l13 level1 lfo9"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Lyric Writing<b style="mso-bidi-font-weight:normal"><o:p></o:p></b></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l13 level1 lfo9"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Creating an accompaniment for a song (Piano or
+  Guitar)<b style="mso-bidi-font-weight:normal"><o:p></o:p></b></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l13 level1 lfo9"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Chords and Chord style revision<b style="mso-bidi-font-weight:
+  normal"><o:p></o:p></b></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l13 level1 lfo9"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Hooks and Riffs, Repetition the key to a good song!<b style="mso-bidi-font-weight:normal"><o:p></o:p></b></span></p>
+  <p class="MsoListParagraphCxSpLast" style="text-indent:-18.0pt;mso-list:l13 level1 lfo9"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Using backing beats on the keyboard.<b style="mso-bidi-font-weight:normal"><o:p></o:p></b></span></p>
+  <p class="MsoNormal"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;
+  font-family:Arial">Performance and recording of students’ songs.<b style="mso-bidi-font-weight:normal"><u><o:p></o:p></u></b></span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><u><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial"><o:p><span style="text-decoration:none">&nbsp;</span></o:p></span></u></b></p>
+
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes">
+  <td width="443" valign="top" style="width:442.8pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">Drama<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:1;mso-yfti-lastrow:yes">
+  <td width="443" valign="top" style="width:442.8pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoListParagraphCxSpFirst" style="text-indent:-18.0pt;mso-pagination:
+  none;mso-list:l5 level1 lfo1;mso-layout-grid-align:none;text-autospace:none"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:16.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  16.0pt;font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;">Review of
+  First Half Term: characterization, hot seating, conflict, high and low status<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-pagination:
+  none;mso-list:l5 level1 lfo1;mso-layout-grid-align:none;text-autospace:none"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:16.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  9.0pt;font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;"><span style="mso-spacerun:yes">&nbsp;</span></span><span style="font-size:11.0pt;
+  mso-bidi-font-size:16.0pt;font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;">Gesture,
+  voice, posture, proximity, facial expression, use of levels<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-pagination:
+  none;mso-list:l5 level1 lfo1;mso-layout-grid-align:none;text-autospace:none"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:16.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  16.0pt;font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;">Areas,
+  features and types of stage; stage directions and blocking; director’s
+  shorthand; drawing stage sets<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-pagination:
+  none;mso-list:l5 level1 lfo1;mso-layout-grid-align:none;text-autospace:none"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:16.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  9.0pt;font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;"><span style="mso-spacerun:yes">&nbsp;</span></span><span style="font-size:11.0pt;
+  mso-bidi-font-size:16.0pt;font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;">Key
+  rules of stage movement<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-pagination:
+  none;mso-list:l5 level1 lfo1;mso-layout-grid-align:none;text-autospace:none"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:16.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  16.0pt;font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;">Analysis of
+  blocking: <u>Twelve Angry Men</u><o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-pagination:
+  none;mso-list:l5 level1 lfo1;mso-layout-grid-align:none;text-autospace:none"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:16.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  9.0pt;font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;"><span style="mso-spacerun:yes">&nbsp;</span></span><span style="font-size:11.0pt;
+  mso-bidi-font-size:16.0pt;font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;">Script
+  analysis and performance of extract: <u>Twelve Angry Men</u><o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-pagination:
+  none;mso-list:l5 level1 lfo1;mso-layout-grid-align:none;text-autospace:none"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:16.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  16.0pt;font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;">Narrative
+  structure: &nbsp;<u>The Wizard of Oz</u><o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-pagination:
+  none;mso-list:l5 level1 lfo1;mso-layout-grid-align:none;text-autospace:none"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:16.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  16.0pt;font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;">Writing,
+  directing and performing group pieces based upon stimulus photographs<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-pagination:
+  none;mso-list:l5 level1 lfo1;mso-layout-grid-align:none;text-autospace:none"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:16.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  9.0pt;font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;"><span style="mso-spacerun:yes">&nbsp;</span></span><span style="font-size:11.0pt;
+  mso-bidi-font-size:16.0pt;font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;">Dramatisation
+  of contemporary themes and historical events<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-pagination:
+  none;mso-list:l5 level1 lfo1;mso-layout-grid-align:none;text-autospace:none"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:16.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  16.0pt;font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;">Communication
+  and presentation skills<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-pagination:
+  none;mso-list:l5 level1 lfo1;mso-layout-grid-align:none;text-autospace:none"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:16.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  16.0pt;font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;">Analysis of
+  advertising<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-pagination:
+  none;mso-list:l5 level1 lfo1;mso-layout-grid-align:none;text-autospace:none"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:16.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  16.0pt;font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;">Declamation
+  of poetry<o:p></o:p></span></p>
+  <p class="MsoListParagraphCxSpLast" style="text-indent:-18.0pt;mso-list:l5 level1 lfo1"><!--[if !supportLists]--><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:
+  16.0pt;font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;">Researching
+  a historical period from the points of view of costume, make up, setting,
+  stage properties and music</span><b style="mso-bidi-font-weight:normal"><u><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial"><o:p></o:p></span></u></b></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><u><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial"><o:p><span style="text-decoration:none">&nbsp;</span></o:p></span></u></b></p>
+
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><u><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial"><o:p><span style="text-decoration:none">&nbsp;</span></o:p></span></u></b></p>
+
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><u><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial"><o:p><span style="text-decoration:none">&nbsp;</span></o:p></span></u></b></p>
+
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes">
+  <td width="443" valign="top" style="width:442.8pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial">PE<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:1;mso-yfti-lastrow:yes">
+  <td width="443" valign="top" style="width:442.8pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial">Rugby/
+  Fitness Testing<o:p></o:p></span></b></p>
+  <p class="MsoNormal"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;
+  font-family:Arial">Pupils will continue to develop their understanding of the
+  Principles of Play by taking part in Rugby. Due to the nature of the
+  activity, pupils will learn an adapted Rugby League style of play. Pupils
+  will firstly develop fundamental handling skills which will be transferred
+  into a full game situation. Secondly, pupils will link their handling skills
+  with the ability to outwit their opponents in a rugby setting. Practices will
+  be set up to allow pupils to implement the handling skills they have learnt
+  and refined. Following this, pupils will develop other key skills such as
+  kicking and running with the ball which will allow them to be an effective
+  performer in the sport of rugby. As well as skills, pupils will be given
+  ample opportunity to develop strategic and tactical thinking relating to the
+  principles of play. These thinking skills will allow the pupils to transfer
+  them across all invasion games. Towards the end of this term, pupils will
+  take part in a variety of fitness tests. This will allow them to identify
+  their strengths and weaknesses and suggest ways in which they can improve.
+  All tests will be retaken in term two and three.<o:p></o:p></span></p>
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial">Key
+  Skills:<o:p></o:p></span></b></p>
+  <p class="MsoNormal"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;
+  font-family:Arial">-Handling – Lateral pass, miss pass, switch pass, loop
+  pass, scrum half pass from ground, scrum half dive pass<o:p></o:p></span></p>
+  <p class="MsoNormal"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;
+  font-family:Arial">-Committing a defender – fixing defender, attacking space,
+  decision making, P.A.S.S. (positioning, angles, speed, space)<o:p></o:p></span></p>
+  <p class="MsoNormal"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;
+  font-family:Arial">-Running with the ball – Side step, change of pace, the
+  swerve.<o:p></o:p></span></p>
+  <p class="MsoNormal"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;
+  font-family:Arial">-Kicking – The punt, the grubber kick, the drop kick<o:p></o:p></span></p>
+  <p class="MsoNormal"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;
+  font-family:Arial">-Team work – Running from depth, creating passing angles, developing
+  continuity and support<o:p></o:p></span></p>
+  <p class="MsoNormal"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;
+  font-family:Arial">-Tactics and Strategies – Principles of play in attack and
+  defence<o:p></o:p></span></p>
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><u><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial"><o:p><span style="text-decoration:none">&nbsp;</span></o:p></span></u></b></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<!--EndFragment-->]]></td>
+</tr>
+</table>

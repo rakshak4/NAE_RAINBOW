@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>World Maths Day - Reception</name>
+    <style>freeForm</style>
+    <subject>World Maths Day - Reception</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+Our school is taking part in the UNICEF World Education Games from 5th-7th March, involving 5.5million students from over 200 countries and territories. This is an exciting online challenge for all our students, with our top students going up against the best in the world.
+
+The World Education Games is the Olympics of education, and we are organising for all students to participate. The event format is:
+
+Practise Period – Friday 8th February to Monday 4th March 2013.
+
+World Maths Day - Wednesday 6th March.
+
+At ISM we will be mainly focusing on The World Maths Day challenges, but children can use the same login and password for the Spelling Day on Tuesday 5th March and the Science Day on Thursday 7th March.
+
+Each student will be assigned a unique World Education Games username and password with which they can sign in to at www.worldeducationgames.com. (This was stuck into your child’s communication book today). All rules and other information can also be found on this website.
+
+During World Maths Day the children will be taking part in a variety of activities for the whole day. This will include using an Ipad, solving problems as a class, making creative Maths hats and estimating how many sweets are in a jar. This is also the day they will compete against children from all over the world!
+
+Thank you in advance for your support of what should be a fun and rewarding event.
+
+Yours sincerely,
+
+Mr. Chris Charlton (Lower Primary Phase Leader)
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

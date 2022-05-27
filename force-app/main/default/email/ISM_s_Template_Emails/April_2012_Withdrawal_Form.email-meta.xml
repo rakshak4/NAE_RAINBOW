@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>ISM</letterhead>
+    <name>April 2012 Withdrawal Form</name>
+    <style>freeForm</style>
+    <subject>Withdrawal Form 9th April, 2012 Deadline</subject>
+    <textOnly>Dear Parents,
+
+
+In case you are planning to withdraw your child(ren) at the end of the Summer term, please be informed of the deadline for submission of the Withdrawal Notice, in order to receive reimbursement of the Development Contribution Fees.
+
+
+I am attaching the Withdrawal Form that needs to be submitted either by email (signed and scanned) or by post/personal delivery by no later than 9th April, 2012. Any form received after this date will unfortunately be outside of the reimbursement time frame.
+
+
+In order for the submission to be completed, you must receive a receipt of the form from either myself, the Headmaster or from the Head of Administration, Anastasia Ramazanova.
+
+
+(Please be aware that on previous occasions forms have gone missing and then later found in school bags!)
+
+
+Please contact me should you have any questions in this regard.
+
+
+Best Regards
+
+
+Dino Vikas
+
+Head of Admissions
+
+The International School of Moscow
+
+Tel:  +7 (499) 922 44 00
+
+Fax: +7 (499) 922 44 00 Ext.4
+
+www.internationalschool.ru
+
+Part of The British Schools Group
+
+
+*Disclaimer:*
+
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

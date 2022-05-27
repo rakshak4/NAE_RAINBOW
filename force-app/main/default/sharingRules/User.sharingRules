@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>BCB_Share_Profile_with_Staff_Directory_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BCB Share Profile with Staff Directory Managers</label>
+        <sharedTo>
+            <group>BCB_Staff_Directory_Managers</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British College of Brazil</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSKL_Share_Profile_with_Staff_Directory_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSKL Share Profile with Staff Directory Managers</label>
+        <sharedTo>
+            <group>BSKL_Staff_Directory_Managers</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Kuala Lumpur</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSNJ_Share_Profile_with_Staff_Directory_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSNJ Share Profile with Staff Directory Managers</label>
+        <sharedTo>
+            <group>BSNJ_Staff_Directory_Managers</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Nanjing</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BST_Share_Profile_with_Staff_Directory_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BST Share Profile with Staff Directory Managers</label>
+        <sharedTo>
+            <group>BST_Staff_Directory_Managers</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Tashkent</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSY_Share_Profile_with_Staff_Directory_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSY Share Profile with Staff Directory Managers</label>
+        <sharedTo>
+            <group>BSY_Staff_Directory_Managers</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School Yangon</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>ISM_Share_Profile_with_Staff_Directory_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>ISM Share Profile with Staff Directory Managers</label>
+        <sharedTo>
+            <group>ISM_Staff_Directory_Managers</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The International School of Moscow</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>NAISM_Share_Profile_with_Staff_Directory_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>NAISM Share Profile with Staff Directory Managers</label>
+        <sharedTo>
+            <group>NAISM_Staff_Directory_Managers</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>Nord Anglia International School Manila</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_Staff_Directory_with_Web_Devs</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Staff Directory with Web Devs</label>
+        <sharedTo>
+            <group>Group_Web_Devs</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>School__c</field>
+            <operation>notEqual</operation>
+            <value>The British Schools Foundation</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

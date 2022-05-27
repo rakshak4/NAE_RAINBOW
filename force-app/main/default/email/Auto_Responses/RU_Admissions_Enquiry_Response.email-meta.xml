@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>The Email sent in reply to the submission of an admissions enquiry form via the Russian website</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>RU Admissions Enquiry Response</name>
+    <style>none</style>
+    <subject>Запрос касающийся поступления в школу получен - {!Lead.School__c}</subject>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

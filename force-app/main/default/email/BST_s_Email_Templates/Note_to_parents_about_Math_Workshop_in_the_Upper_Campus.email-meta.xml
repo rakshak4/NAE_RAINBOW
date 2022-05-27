@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to parents about Math Workshop in the Upper Campus 2014</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Note to parents about Math Workshop in the Upper Campus</name>
+    <style>freeForm</style>
+    <subject>Math Workshop</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+On Tuesday 28th October at 8:50am we will be holding a Maths workshop where parents can come to learn about how we teach Maths at BST. This event will be held in the Year 3 Orion classroom and is open to all parents from Year 2 to Year 7. We hope you will be able to join us.
+
+
+Following this, on Thursday 6th November parents of children in Years 2 to 5 will be invited to an open lesson. On this occasion, you will be able to work alongside your child in class during a Maths lesson. Class teachers will inform parents of the timing of this lesson, which promises to be an enjoyable an informative experience.
+
+
+Best regards,
+
+
+Eric Palcic (Maths Coordinator)
+
+Zoe Higginbotham (Middle School Maths Teacher)
+
+
+
+Уважаемые родители!
+
+
+Во вторник-28 октября, в 08:50 утра будет проводиться семинар по математике, на котором родители смогут получить представление о том, как мы преподаем математику в Британской школе. Семинар будет проходить в кабинете 3-го класса &quot;Орион&quot; для всех родителей учащихся 2-7 классов. Надеемся, что у Вас будет возможность присутствовать на нём.
+
+
+
+
+Затем, в четверг-6 ноября, родители учащихся 2-5 классов будут приглашены на открытый урок. И у Вас появится возможность позаниматься на уроке математики вместе со своим ребенком. Классные руководители сообщат Вам время урока, который обещает быть интересным и познавательным.
+
+
+
+Эрик Палсик (Координатор по математике)
+Зое Хиггинботтам (Старший преподаватель школьного отделения)
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

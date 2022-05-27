@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Secondary Thingyan Celebration</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Secondary Thingyan Celebration</name>
+    <style>freeForm</style>
+    <subject>Secondary Thingyan Celebration - 5th April at 5pm</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

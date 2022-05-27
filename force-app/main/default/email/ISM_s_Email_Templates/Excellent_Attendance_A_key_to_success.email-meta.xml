@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Excellent Attendance - A key to success</name>
+    <style>freeForm</style>
+    <subject>Excellent Attendance - A key to success</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+
+A very important issue has been concerning me for some time.
+
+
+
+As you are aware, we register all students on a daily basis. As a result of this, we maintain attendance records for all our students over the course of the academic year.
+
+
+Whilst many of our students have good records of attendance, a noticeable minority also miss significant time at school.  Without doubt, this time off school can have a clear negative impact on students, both socially and in terms of academic learning.
+
+
+Of course, if a student is too ill to attend school, I am sure that we would all agree that she/he should recover at home before returning to school. However, as soon as any student is well again we really want to see them back in class. Of course, in terms of our records, it helps enormously if tutors are kept very well informed by parents of the reason why a student is absent from school.
+
+
+However, another more concerning issue is the extension of holidays or students taking occasional days off. Finishing school a few days earlier than the end of our term and returning a few days after we have returned to school following the start of a new term have become growing trends in the last 12 months. I would like us to work together to address this trend in a positive way.
+
+
+This ‘topping and tailing’ of term time should be avoided wherever possible. Fundamentally, if a student has a 100% attendance record, they will have the best chance of success. If absence can be avoided, it is to the ultimate benefit of the student(s) concerned.
+
+
+As a school we have steered away from the onerous task of asking parents to complete permission slips when families are intending to travel. We are mindful and respectful of the challenges of being an international family living a long way from home. We recognise that ultimately all parents want the best for their children.
+
+
+However, it is possible that parents are unaware of the significance and impact of poor attendance and how it will ultimately influence progress. Please do consider this carefully and review the attendance records of your children in future reports. If you know it is possible for the attendance level of your child to improve, please help them and us by making every effort to do this.
+
+
+In support of our objective of improving attendance across the school, we are also planning to recognise excellent attendance by our students at the beginning of this term.
+
+
+If we all work together, I am confident that we can improve in this area. Please do support us with this issue in any way that you can.
+
+
+Best regards,
+
+
+Paul Seedhouse
+
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

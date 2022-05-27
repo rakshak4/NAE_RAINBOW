@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Family Welcome Letter for Primary Families</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>! Primary New Family Welcome T2 2020/21</name>
+    <style>none</style>
+    <subject>Welcome to BSKL from the Head of Primary School</subject>
+    <textOnly>*|MC:SUBJECT|*
+
+Dear {!Contact.FirstName} {!Contact.LastName},
+
+Welcome to the British International School of Kuala Lumpur.
+
+Our school values develop the whole child- academically, pastorally and socially with the principles of Positive Education underpinning our approach. With the child at the centre of all we do, we believe that we are best-placed to offer an outstanding education for all students in our care.
+
+The school is keen to ensure a smooth transition; on your child’s first physical day at school, they will be met by their Teacher, who will take them to their class. They will be given a class ‘buddy’ who will help and support them in their first few weeks as they become familiar with school routines. You can read how we support them academically and socially, to ensure they have the best start to their school life at BSKL.
+
+From your child’s teacher, you will receive information about the timing of specialist lessons. Every child is also given a house (Normans, Romans, Saxons or Vikings) and will have the chance to participate in a number of house events during the course of the academic year.
+
+Please find below further information on key areas, such as the parent app and sports club sign ups can be found below.
+
+We are looking forward to welcoming you all into the BSKL family. We wish you a pleasant beginning to your time with us and I look forward to meeting you in person.
+
+Kind regards,
+
+Mr Simon Sharp
+Head of Primary School
+
+Term 2
+The first day of the new term will be 4 January 2021. We hope to be opening campus physically, but we will plan for both an in-person and virtual start depending upon the status of the Conditional Movement Control Order (CMCO). The Admissions team will keep you updated about our start of term plans.
+
+Parent Handbook
+Please review our Primary School Parent Handbook, if you haven&apos;t already, on our website at https://img.nordangliaeducation.com/resources/asia/_filecache/ad9/bb7/228268-2020_21-primary-parent-handbook.pdf?_ga=2.206714899.1017514543.1607306811-1339534651.1588751416.
+
+School Uniforms
+All children will be expected to be in school uniform when in-person classes resume. You can review the primary school student uniform guidelines on our website at https://img.nordangliaeducation.com/resources/asia/_filecache/39a/3eb/225390-early-years-and-primary-uniform-policy.pdf?_ga=2.2299056.1017514543.1607306811-1339534651.1588751416. The uniform shop will open on Monday 28 December from 9.30am to 4pm. They will be open Monday through Thursday that week, by appointment. They will resume normal operations on Monday 4 January.
+
+The uniform shop is located at the Upper Hill Campus. Upon arrival, please report to Front Desk initially who will guide you where to go. Strict SOP&apos;s from the Malaysian government will be in place, including the need for all guests to complete the Travel and Health Declaration form before arrival and scan the MySejahtera QR Code upon arrival. Masks should be worn and social distancing in place within the store.
+
+Please contact Mr Steven at steven@l-vince.com if you have any questions regarding the uniform shop or refer to the school&apos;s website.
+
+The uniform shop has an online store where you can place uniform orders and collect them in the shop, but we recommend you buy in-shop the first time to ensure sizing is correct.
+
+Bus Information
+In order to book a seat, please see our bus routes on our  web page at https://www.nordangliaeducation.com/our-schools/malaysia/kuala-lumpur/british-international/parent-essentials/school-buses and reach out to the contact stated. Please note that places are dependent on availability. The bus service will commence when in-person classes resume.
+
+BSKL Parent App
+The BSKL Parent App is a smart phone App to provide parents with an “in the palm of your hand” bespoke communication tool.
+
+Each parent/guardian can have access to the App, by simply downloading it from the relevant store (search for BSKL Parent App). 
+
+For any questions relating to the app, please contact the Parent App Liaison Officer, at portal@britishschool.edu.my
+
+Parent ID tag
+You will be provided a parent ID tag and a car sticker to allow your  entrance into the school. Please note that current school ID tags must be worn at all times when entering the school.
+
+Private Music Lessons
+In addition to the Music Curriculum which consists of whole-class music and Group Instrumental Lessons (PIPs and SIPs), BSKL supports a diverse Individual Instrumental Programme for students in Year 2 and above. These lessons are focused on encouraging students who have a particular enjoyment of playing music, to develop their interests and studies further. More information on the programme can be found on our website at https://www.nordangliaeducation.com/our-schools/malaysia/kuala-lumpur/british-international/learning/our-curriculum/music/individual-instrumental-scheme. Registration for the programme opens before the start of each term.
+
+Visit the New Family Section of our website at https://www.nordangliaeducation.com/our-schools/malaysia/kuala-lumpur/british-international/admissions/new-families.
+
+Copyright © 2020 British International School of Kuala Lumpur, All rights reserved.
+
+
+Our mailing address is:
+No 1 Changkat Bukit Utama
+Bandar Utama
+Petaling Jaya
+Selangor
+47800 Malaysia</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

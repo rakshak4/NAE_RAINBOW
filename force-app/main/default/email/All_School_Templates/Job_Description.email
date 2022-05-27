@@ -1,0 +1,82 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 500px; ">
+			<tbody>
+				<img border="0" id="m_3308685547825015245r1sp1" src="https://ci6.googleusercontent.com/proxy/67dXnVocysCsXlJug8sCwjBn53jHY6vok7ArlGUgs6iyEW02S5lmjGnO2wFvRa8wDolQRwuNpB8ZtRQ8DJ6xCSAcsylyglo6hKkrKdXXbJylHPQ1hCaOBcGGhBiWL5qWYSWwjpyjE4ENzbEgIN7XEqzPgw=s0-d-e1-ft#https://ap4.salesforce.com/servlet/servlet.ImageServer?id=0156F00000F05db&amp;oid=00D6F000001cXAR" class="CToWUd">
+				<tr>
+					<td>
+						<p>
+							&nbsp;</p>
+						<p style="text-align: right; ">
+							<span style="color: #003255; font-family: 'Verdana'; font-size: xx-large; background-color: rgb(255, 255, 255); text-align: right; ">{!Document__c.School_Name__c}</span><br />
+							<i style="color: #003255; font-family: 'Verdana'; font-size: large; background-color: rgb(255, 255, 255); ">Job Description</i></p>
+						<p style="text-align: justify; ">
+							&nbsp;</p>
+</table>
+<table  align="center">
+			<tbody>
+				<tr style="width: 800px;">
+					<td style="width: 300px;text-align: right;background-color: #003255; ">
+						<span style="color:#ffffff;"><span style="font-size:16px;"><strong><span style="font-family: arial, helvetica, sans-serif; ">Title:</span></strong></span></span></td>
+					<td style="width: 500px;text-align: left;background-color:#ededed ">
+						<span style="color:#003255;"><strong><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">&nbsp;</span></span></strong></span><span style="color:#003255;"><strong><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">{!Document__c.Name}</span></span></strong></span></td>
+				</tr>
+				<tr>
+					<td style="text-align: right;background-color: #003255; ">
+						<strong><span style="color:#ffffff;"><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">Staff Member:</span></span></span></strong></td>
+					<td style="text-align: left;background-color:#ededed ">
+						<span style="color:#003255;"><strong><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">&nbsp;{!Document__c.Person_Company__c}</span></span></strong></span></td>
+				</tr>
+<tr>
+					<td style="text-align: right;background-color: #003255; ">
+						<strong><span style="color:#ffffff;"><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">Position:</span></span></span></strong></td>
+					<td style="text-align: left;background-color:#ededed ">
+						<span style="color:#003255;"><strong><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">&nbsp;{!Document__c.Position__c}</span></span></strong></span></td>
+				</tr>
+				<tr>
+					<td style="text-align: right;background-color: #003255; ">
+						<strong><span style="color:#ffffff;"><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">Reporting To:</span></span></span></strong></td>
+					<td style="text-align: left;background-color:#ededed ">
+						<span style="color:#003255;"><strong><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">&nbsp;{!Document__c.Reporting_To__c}</span></span></strong></span></td>
+				</tr>
+			
+				
+			</tbody>
+		</table>
+		<div style="text-align: left; ">
+			<br />
+			<table align="center" cellpadding="15" cellspacing="0" style=" width: 800px; text-align: justify; border: 1px solid #000 ">
+				<tbody>
+					<tr align:="" justify="">
+						<td align:="" justify="" style="background-color: #003255;height:10px ">
+							<span style="color:#ffffff;"><font class="Apple-style-span" face="arial, helvetica, sans-serif"><strong>Objective</strong></font></span></td>
+					</tr>
+					<tr>
+						<td align:="" justify="">
+							<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">{!Document__c.Objective__c}</span></span></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<p>
+<div style="text-align: left; ">
+			<br />
+			<table align="center" cellpadding="15" cellspacing="0" style=" width: 800px; text-align: justify; border: 1px solid #000 ">
+				<tbody>
+					<tr align:="" justify="">
+						<td align:="" justify="" style="background-color: #003255;height:10px ">
+							<span style="color:#ffffff;"><font class="Apple-style-span" face="arial, helvetica, sans-serif"><strong>Objective</strong></font></span></td>
+					</tr>
+					<tr>
+						<td align:="" justify="">
+							<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">{!Document__c.Main_Content__c}</span></span></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<p>
+	</body>
+</html>

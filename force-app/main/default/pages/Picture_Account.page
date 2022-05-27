@@ -1,0 +1,9 @@
+<apex:page standardController="Account">
+ 
+<apex:repeat value="{!Account.Attachments}" var="att">
+ 
+<apex:image width="230" height="200"  value="{!URLFOR($Action.Attachment.Download, att.Id)}" />
+ 
+</apex:repeat>
+
+</apex:page>

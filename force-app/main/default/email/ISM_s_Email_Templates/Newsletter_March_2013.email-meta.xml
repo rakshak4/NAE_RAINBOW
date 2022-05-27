@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Newsletter March 2013</name>
+    <style>freeForm</style>
+    <subject>Newsletter March 2013</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+
+
+The latest newsletter is now online:
+
+
+
+http://www.internationalschool.ru/en/school-life/newsletters.aspx
+
+
+Instrumental Tuition Summer Term (Y1 - Y10 parents)
+
+
+
+Please (click here) to find the request form and information regarding Individual music lessons for the summer term.
+
+
+Please understand that the logistics of rearranging a timetable for late applications means that we can no longer accept students on to the timetable once it is in place.
+
+
+With this in mind, please ensure that the form with payment is returned to school (Reception or Finance Office) by THURSDAY 11TH APRIL to avoid disappointment.
+
+
+If you require any further information about the instrumental program, please do not hesitate to contact James Langford.
+
+
+Best regards,
+
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

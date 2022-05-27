@@ -1,0 +1,63 @@
+<apex:page standardController="Lead" extensions="ConvertLead_Controller">
+     <apex:actionStatus id="statusemssage">
+        <apex:facet name="start">   
+            <div>
+                <div>
+                    <div>
+                        <center>
+                        <div></div>
+                        <br />
+                        <p style="text-align: center;">Checking for students in existing families. Please wait.</p>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </apex:facet>
+        <apex:facet name="stop">
+            
+        </apex:facet>
+    </apex:actionStatus>
+    <apex:outputPanel layout="block" id="mainBlockOuter">
+    	<apex:pageMessages escape="false"/>
+    	<apex:form id="mainForm" > 
+        	<apex:actionFunction name="existingOpportunitiesCheck" action="{!existingOpportunitiesCheck}" reRender="mainBlockOuter" status="statusemssage"/>
+        	<apex:pageBlock title="Convert to Application(s)" id="mainBlock" rendered="{!IF(AND(NOT(OR(forParent == null, isError)),duplicationProcessed), true ,false)}">    
+	            <apex:pageBlockButtons >
+	                <apex:commandButton value="Convert" action="{!convertLead}"/>
+	                <apex:commandButton value="Cancel" action="{!cancel}"/>
+	            </apex:pageBlockButtons>
+	            <!--  <apex:pageMessage rendered="{!IF(existingParentWarning != null, true, false)}" severity="warning" summary="{!existingParentWarning}" escape="false"/> -->
+	            <apex:pageBlockSection columns="1" rendered="{!!accountFound}">
+	                <apex:pageBlockSectionItem >
+	                    <apex:outputLabel value="Select Existing Parent"/>
+	                    <apex:outputPanel >
+	                        <apex:inputField value="{!forParent.Mass_Email__c}" required="false"/> OR leave blank for new parent. 
+	                    </apex:outputPanel>
+	                </apex:pageBlockSectionItem>
+	            </apex:pageBlockSection>
+	            <apex:pageBlockSection columns="1" rendered="{!accountFound}">
+	                <apex:pageBlockSectionItem >
+	                    <apex:outputLabel value="Select Existing Parent"/>
+	                    <apex:outputPanel >
+	                        <apex:outputLink value="/{!accountFoundId}" target="_blank">{!accountFoundName}</apex:outputLink> &nbsp;&nbsp;  <apex:inputCheckBox value="{!agreementToAccountFound}"/> 
+	                    </apex:outputPanel>
+	                </apex:pageBlockSectionItem>
+	            </apex:pageBlockSection>
+        	</apex:pageBlock>
+    	</apex:form>
+    	<apex:outputPanel layout="block" rendered="{!IF(forParent == null,true, false)}">
+	    	
+	    	<apex:form >
+	    		    <center>		 
+	    				<apex:commandButton value="Return to Enquiry" action="{!cancel}" immediate="true"/>
+	    			</center>
+	    			
+	    	</apex:form>
+	    </apex:outputPanel>  
+    </apex:outputPanel>
+    <apex:outputPanel layout="block" rendered="{!!duplicationProcessed}">
+        <script>
+            existingOpportunitiesCheck();   
+        </script>
+    </apex:outputPanel> 
+</apex:page>

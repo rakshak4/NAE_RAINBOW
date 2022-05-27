@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Weekly Update, 6th February 2014</name>
+    <style>freeForm</style>
+    <subject>Weekly Update, 6th February 2014</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear Parents,
+
+Just a short update for this week.
+
+King&apos;s Kalinga Programme
+
+I am sure you all remember the terrible storm that hit Asia in November and the awful impact for many. Please click here to download an update on how The King’s School Manila is using the money so kindly donated to help the people affected by Typhoon Yolanda (Haiyan).
+
+Seminar - Life of the Spouse Abroad
+
+Claire Geddes is offering another Seminar on Monday 10th February at 8.30 - 10.45 at the library on the ISM Upper Campus. Click here to download the poster.
+
+The topic is Life for the Spouse abroad:
+
+Recreating your identity - who are you now?
+Not able to work - so what can I do in Moscow ?- Practical Life for the
+Expat Spouse
+The successful way to make plans and set goals
+Making memories and living the life you want
+
+Places  are limited and only a few seats left so if you want to attend, please email Claire as soon as possible on
+
+familygeddes@hotmail.com
+
+Have a great weekend.
+
+Paul Seedhouse
+Headteacher
+The International School of Moscow
+World Class Education
+
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

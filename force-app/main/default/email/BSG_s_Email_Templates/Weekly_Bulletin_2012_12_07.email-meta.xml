@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Weekly Bulletin 2012-12-07</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Weekly Bulletin 2012-12-07</name>
+    <style>freeForm</style>
+    <subject>Weekly Bulletin 2012-12-07</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+This week sees a number of festive events as the countdown to Christmas gathers pace.
+
+Musical events: The choir have 3 events over the next week with consecutive Saturday performances at Tai Koo Hui at 1:30pm and 5pm on the 8th and the 15th December. In addition, we will be hosting our very own christmas carol service on Tuesday, 11th December. I look forward to seeing our choristers perform over the coming days. Many thanks to Ms. Rowan and Mr. Mckie for guiding and inspiring the students to perform. I was particularly gratified to see so many of our students perform so well at the Big sing up last Friday, and all of those who took part can be congratulated for their performances.
+
+Touch Rugby: In addition to the choir, the Under 12 and Under 14 touch rugby team will be taking part in their final event of the year. We wish them luck for their final tournament. It also is an opportune time to thank Mr. Furniss and Mrs. Grice Glover and a number of supporting staff for their efforts with the Football and Touch rugby teams this year. The fact that we have been so competitive in each sport is a credit to them and to the students who have shown a huge amount of commitment to the school teams.
+
+No ASAs: Please be aware that the second 6 week ASA block has finished and that the school day finishes at 3pm for the remainder of the term.
+
+Final house event of the term
+
+The overall Touch Rugby winners are Vikings. Here are the results:
+
+KS3 Touch Rugby Results
+
+1st:Saxons
+
+2nd:Romans
+
+3rd:Vikings
+
+4th:Normans
+
+KS4/5 Touch Rugby Results
+
+1st:Vikings
+
+2nd:Normans
+
+3rd:Romans
+
+4th:Saxons
+
+Best Wishes,
+
+Mr. Iain Ruck
+Head of Secondary
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

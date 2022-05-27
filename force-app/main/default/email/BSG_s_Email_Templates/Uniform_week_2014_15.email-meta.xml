@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Uniform week 2014/15</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Uniform week 2014/15</name>
+    <style>freeForm</style>
+    <subject>Uniform week 2014/15</subject>
+    <textOnly>The British School
+of Guangzhou
+
+Dear Parents,
+
+
+
+As we come to the end of this academic year and commence preparations for 2014/15, please be informed that the school uniform shop will be closed from 27th June to 15th August 2014.
+
+
+
+As we reopen, please note 18th to 22nd August will be &apos;Uniform Week&apos;. During that week, opening hours will be 9am to 4pm and the &apos;Uniform Shop&apos; will be moved into the Nanhu campus gym where several staff will be ready and happy to assist both old and new families prepare all uniform items needed for the start of term 1, 2014/15.
+
+
+
+If you would like further information about school uniform, please contact rainbow@bsg.org.cn.
+
+
+Best wishes,
+
+Rainbow
+
+
+The British School of Guangzhou
+
+
+
+
+World Class Education
+
+
+____________________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to all parents about UN Day</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>UN day final letter 2014</name>
+    <style>freeForm</style>
+    <subject>UN day on Saturday 22nd November at 10.00 am</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+
+A huge thank-you to all parents who attended the UN Day Meeting. The following countries will be represented by a room at this year’s event on Saturday 22nd November at 10.00 am.  Please note it has been moved to a Saturday event on our Upper Campus to allow more parents to attend.
+
+
+The parents listed in the table below have kindly agreed to lead the group of volunteers who will decorate rooms and organise activities linked to each of the countries represented.
+
+
+The parents named below would be delighted to receive offers of additional help from anyone willing to either help with room decoration or with the organisation of activities for the children on the day. Please contact the named parents if you are willing to assist!
+
+Rooms and countries represented
+
+Country
+
+Room to be used
+
+Staff / Parents Leading Organisation
+
+Armenia
+
+2nd floor
+
+Year 3 Galaxy
+
+Mr. Karen Miskirijyan                               +998 90-346-1179
+
+Mrs. Karina karina.karamanyan@britishschool.uz
+
+Azerbaijan
+
+2nd floor
+
+Year 2 Comet
+
+Mrs. Sevda Hagverdiyeva                        +998 93-555-0022
+
+Mr. Palcic eric.palcic@britishschool.uz
+
+China
+
+3rd floor
+
+Year 7 A
+
+Mrs. Yanhui Zhou                                       +998 93-501-8563
+
+Mrs. Taylor elizabeth.taylor@britishschool.uz
+
+India
+
+2nd floor
+
+Year 2 Mars
+
+Mrs. Priti Narain                                         +998 90-999-9762
+
+Mrs. Garima Jain garima.jain@britishschool.uz
+
+Palestine
+
+2nd floor
+
+Year 4/5 Nebula
+
+Mr. Mohammed Abudagga                      +998 90-944-2501
+
+Ms. Vandyck sophie.vandyck@britishschool.uz
+
+Pakistan
+
+3rd floor
+
+Russian Classroom
+
+Mr. Naveed Anjum                                     +998 90-808-7076
+
+Mrs. Kurbanova mukhayyo.kurbanova@britishschool.uz
+
+Poland
+
+3rd floor
+
+Year 6 Soyuz
+
+Mrs. Magdalena Kowalewska                 +998 90-318-5164
+
+Mrs. Appleby gozel.appleby@britishschool.uz
+
+Russia
+
+2nd floor
+
+Year 2 Meteor
+
+Tatsiana Yahorynkava                              +998 90-900-0275
+
+Mr. Smith andrew.smith@britishschool.uz
+
+Turkey
+
+2nd floor
+
+Year 4 Gemini
+
+Mrs. Irina Velioglu                                     +998 94-657-8387
+
+Mr. Davies james.davies@britishschool.uz
+
+UK
+
+Library
+
+Mrs. Rosemary Davies rosemary.davies@britishschool.uz
+
+Mr. Jack Jones jack.jones@britishschool.uz
+
+USA
+
+3rd floor
+
+Year 5 Juno
+
+Mrs. Mindy Fuller                                      +998 90-370-3938
+
+Mrs. Musaeva mufarrakh.musaeva@britishschool.uz
+
+Uzbekistan
+
+2nd floor
+
+Year 3 Orion
+
+Mrs. Mokhira Rizaeva                               +998 90-958-5839
+
+Mrs. Khatamova sitora.khotamova@britishschool.uz
+
+Parents organising rooms please feel free to contact by email your staff helpers for the set up on Friday.
+
+Visiting the countries!
+
+
+Children will be able to visit each room with their parents, partake in the activities set and collect stickers for their passports. Please note the format of UN Day has changed from previous years and parents will be asked to supervise their own children on the day. You are free to visit the countries in any order during the event. Staff will be on hand to help direct you to the various countries.
+
+
+UN Day Lunch 12:00 – 13:00
+
+
+Our UN Day Buffet lunch will take place in the cafeteria at approximately the same times as usual for Foundation Stage and Primary. All contributions to the lunch are gratefully received! Please be aware that it is school policy that food served should not contain nuts (owing to allergies).
+
+
+Celebration Assembly at 13:00
+
+
+There will be a celebration assembly at 13:00, featuring Indian, Azerbaijan, Chinese, Polish and Russian dancing and Uzbek folk music.
+
+
+Other important information for parents
+
+
+Owing to the need to prepare rooms in advance of the event, parents, volunteers and staff will begin decorating rooms from 15:30 on Friday 21st November.
+
+
+On Friday 21st November, child-care will be provided only for parents who are assisting with setting up rooms for the event.  All other children from Upper Campus should be collected at 15:30 from the theatre.
+
+
+Please remember that children &amp; staff should wear a national costume of their choice on UN day instead of their school uniform.
+
+
+We look forward to a successful event!
+
+
+Kind regards,
+
+
+David Kirkham
+
+
+
+
+
+Чтобы просмотреть письмо на русском языке, пожалуйста, следуйте за ссылкой ниже:
+
+
+
+https://drive.google.com/file/d/0B1vh1ZLyEr76SXNIUnFMbmIzRHM/view?usp=sharing
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

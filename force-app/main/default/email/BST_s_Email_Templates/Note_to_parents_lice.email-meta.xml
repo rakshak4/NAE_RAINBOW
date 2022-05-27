@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>The case of lice in school</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Note to parents (lice)</name>
+    <style>freeForm</style>
+    <subject>Note about lice.</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Dear Parents,
+
+
+
+It has been discovered that there is a case of Head lice in the school. Thus there is a risk that Head lice may be present amongst children in your child&apos;s class. These insects are a nuisance and can be controlled or eradicated by families. Head lice crawl from head to head and may be passed on through shared objects such as hairbrushes and hats.
+
+It is recommended that you check all members of your household carefully. Anyone can host head lice. Cleanliness is not a factor in whether head lice are present or not.
+
+What to look for
+
+¬ Small light or dark brown insects without wings.
+
+¬ Tiny whitish eggs (nits) like grains of salt attached to hair shafts.
+
+¬ There may be unusual itching on the head or neck.
+
+¬ Small red marks on the neck or behind the ears (head lice bites).
+
+What to do
+
+¬ Check all members of the household daily at the same time for at least three weeks.
+
+¬ Treat anyone who is hosting head lice. Effective treatment need not be chemical or expensive. Some treatments like Permithrin and Nittifor are really helpful and can be found easily in the nearest Pharmacy.
+
+¬ Please advise the school if you find head lice and confirm that treatment has begun.
+
+¬ Be prepared to continue treatment for about three weeks depending on the method chosen. Three weeks is the length of the head louse breeding cycle; you need to break the cycle or infestation will continue.
+
+¬ After each treatment, comb the hair with a fine toothed comb.
+
+¬ Extra precautions may include washing all bed linen, pillowcases and towels in hot water and tumble drying for 20 minutes on high. Other items that have come in contact with heads should also be thoroughly cleaned.
+
+¬ Soak hairbrushes and combs in hot water for at least ten minutes.
+
+¬ Vacuuming carpets and rugs may be helpful.
+
+¬ Repeat treatment 7 to 10 days after initial treatment.
+
+Treating the hair is no guarantee that the problem has been eradicated. Success is more likely if treatment is thorough, checking is daily for at least three weeks and children are reminded to avoid head to head contact with others.
+
+
+
+What not to do
+
+¬ Do not use shampoo, conditioner or a hair drier on hair within 24 hours of using a chemical treatment. Each of these can make the treatment less effective or cause it to fail.
+
+¬ Do not use ordinary insecticides, pet shampoo or flammable petroleum products.
+
+¬ Do not use chemical products if the person applying the treatment or the person being treated is pregnant.
+
+Thank you for your co-operation. Please do not hesitate to contact the school if you require further information.
+
+
+
+Дорогие родители!
+
+
+У одного из учеников были обнаружены вши. В связи с этим Мы рекомендуем вам внимательно проверить вашего ребенка а также всех членов вашей семьи. Это весьма досадная неприятность, но вши легко поддаются выведению, и их появление можно контролировать в семье. Вши обычно переползают от заражённой головы на здоровую, а также могут быть получены в результате совместного пользования бытовыми предметами, например, шляпой или расчёской.
+
+
+
+Вши могут появиться у любого из вас. Регулярное мытьё головы не имеет решающего значения, появятся вши или нет.
+
+
+
+На что надо обратить внимание:
+
+¬ Вши- это маленькие насекомые тёмно-коричневого или серого цвета без крыльев.
+
+¬ Вошь откладывает на корнях волос крошечные яйца (гниды), похожие на зёрна соли.
+
+¬ Возможен зуд и почёсывание головы или шеи.
+
+¬ Укусы вшей выглядят как маленькие красные точечки на шее или вокруг ушей.
+
+Какие меры предпринять:
+
+¬ Ежедневно проверяйте членов вашей семьи в одно и тоже время в течение трёх недель.
+
+¬ При обнаружении вшей лечите заболевшего. Эффективное лечение неопасно и недорого. Некоторые из лекарств, такие как Пермитрин или Ниттифор, очень эффективны и могут быть приобретены в ближайшей аптеке.
+
+¬ Сообщите, пожалуйста, в школу, если у вас в семье есть заболевшие и подтвердите, что начали лечение.
+
+¬ Будьте готовы к тому, что лечение продлится не менее трёх недель, в зависимости от лекарства, которое вы выбрали. Период размножения головной вши составляет три недели. Вы должны уничтожить вошь, или инфицирование продолжится.
+
+¬ После каждого приёма препарата вычешите голову мелким гребнем.
+
+¬ Дополнительные меры предостороженности включают в себя стирку постельного белья, наволочек и полотенец в горячей воде. Затем бельё следует просушить в центрифуге не менее 20 минут. Все вещи, которые могли находится в контакте с головой заражённого, также следует тщательно постирать.
+
+¬ Замочите щётки и расчёски для волос по крайней мере на 10 минут в горячей воде.
+
+¬ Полезно также пропылесосить ковры и паласы.
+
+¬ Повторите лечение через 7-10 дней после первичной обработки
+
+Простое мытьё волос на является гарантией того, что проблема решена. Лечение даст хорошие результаты в том случае, если оно будет проводится тщательно в течение трёх недель, и дети должны избегать контакта голова к голове.
+
+Чего не следует делать.
+
+¬ После применения препарата не пользуйтесь шампунем, бальзамами для головы или феном в течение 24 часов. Все эти вещи снижают эффективность лечения или даже могут сделать его неэффективным.
+
+¬ Не пользуйтесь зоошампунями, пестицидами или легковозагорающимися продуктами типа керосина
+
+¬ Не пользуйтесь химическими препаратами в случае беременности.
+
+Спасибо за ваше понимание. Если вам необходима дальнейшая информация, пожалуйста, без колебаний обращайтесь в школу.
+
+
+
+
+Regards,
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

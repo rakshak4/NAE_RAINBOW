@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to parents about fees for 2014-2015 academic year</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Fees for the 2014-15 academic year</name>
+    <style>freeForm</style>
+    <subject>Fees for the 2014-15 academic year</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We enclose our fee schedule for 2014-15. As always we have continued to strive to limit fee increases as much as possible, while ensuring we remain true to our commitment to provide a World Class Education. Beyond the investments in added facilities and resources, we need to contend with an inflation rate estimated at 12% and exchange rate fluctuations which need to be met to ensure we are able to recruit high caliber teaching professionals and import the very best academic materials from the UK. We trust you find the fee increases reasonable and understandable.
+
+
+We would also like to remind parents that, given the high demand for places, it is important that enrolment fees are paid in by the 6th of June to ensure the seat(s) for your child(ren) is/are secure. If you haven’t yet received the invoice from our accounts department, please contact the school.
+
+
+We thank you for your ongoing support.
+
+
+
+Kind regards,
+
+
+К данному письму мы прилагаем расценки на обучение на 2014-15 гг. Как и прежде, мы стремимся ограничить увеличение оплаты, обеспечивая при этом образование мирового уровня. Помимо инвестиций в новую школу, мы должны учитывать рост инфляции, который оценивается в 12%. Колебания валютных курсов также должны учитываться, чтобы гарантировать найм на работу профессионалов высокого класса и импортировать самые лучшие учебные материалы из Великобритании. Поэтому мы надеемся, что вы найдете увеличение оплаты разумным и понятным.
+
+
+Учитывая высокий спрос на места в школе, мы хотели бы напомнить родителям, что вступительный взнос должен быть оплачен не позднее 6 июня, чтобы обеспечить место для ребенка (детей). Если Вы еще не получили счет от нашей бухгалтерии, пожалуйста, обратитесь в школу.
+
+
+Мы благодарим вас за вашу постоянную поддержку.
+
+
+С уважением,
+
+
+
+
+
+
+Regards,
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

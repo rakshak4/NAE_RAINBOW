@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Sport Relief</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BSG</letterhead>
+    <name>Sport Relief</name>
+    <style>freeForm</style>
+    <subject>Sport Relief</subject>
+    <textOnly>Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+On Friday 2nd March, the British Consulate will be hosting a Sport Relief/ Comic Relief event to raise funds for people living incredibly tough lives, both in the UK and across the world&apos;s poorest countries.
+
+We are pleased to announce that The British School of Guangzhou will be an official sponsor of this event and to help raise funds we will be having a Non- Uniform Day for all Secondary students on Friday 2nd March. In order to help us make a substantial donation, please send students to school on Friday 2nd March dressed in red clothes with a donation in a sealed envelope. If you would like to attend the Sport Relief event on Saturday 3rd March please see the attached flier.
+
+You can find more information about this event at http://www.sportrelief.com/ .
+
+Thank you very much for your support and we will be
+
+in touch soon with regards to more fundraising events.  Please do check our school website for charity updates and photos.
+
+Kind regards,
+
+Administration Team
+(+8620)8709 4788
+www.bsg.org.cn</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

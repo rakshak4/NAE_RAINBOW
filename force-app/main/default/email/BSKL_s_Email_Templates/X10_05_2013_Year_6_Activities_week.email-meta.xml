@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20/05/2013 Year 6 Activities week</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20/05/2013 Year 6 Activities week</name>
+    <style>freeForm</style>
+    <subject>Year 6 Activities week</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Year 6 Children - Activities week 17th to 21st June - Fundraising - &apos;Bob-a-job&apos;
+
+Many thanks to all those parents who have recently responded to me indicating whether, or not, your child will be in school during activities week from Monday 17th to Friday 21st June. It would seem, from emails received, there will be a very good number of children who will be participating in the program of activities that are being arranged for that week. More details on these will follow after half term.
+
+This letter is to request the help of all Year 6 parents in a spot of fundraising. I realise some children will be going to Cambodia that week but feel this should be a whole Year group effort so all children feel equally involved in raising money for a good cause.
+
+In the early part of activities week, Year 6 children staying in school will be visiting the Zo Learning Centre for refugees from Myanmar. Part of the plan is to integrate with the Myanmar children in their classroom environment. Whilst this is going on, some of our children will also be helping to redecorate their dormitory, with the help of professional decorators. We therefore need to raise some money to pay for the paint and decorators&apos; services. The EFC have already supported Zo Learning Centre recently with the acquisition of some bunk beds and new mattresses. We would now like to give the dormitory a much needed &apos;facelift&apos;. To do this, I am hoping that all children can take part in ‘Bob-a-job’, of which the details are below.
+
+------------------------
+Bob-a-job week was first introduced in the UK as a good turn day in 1914 by scout movement founder Lord Baden-Powell. The scheme got its nickname from a shilling coin, colloquially ‘bob’ that the youngsters were paid for completing their good turn - which would now be worth 5p.
+------------------------
+BOB-A-JOB
+When: For 4 weeks between Saturday May 18th and Sunday June 9th – evenings and week-ends.
+Who: All Year 6 pupils at BSKL
+Why: To raise money for the Zo Learning Centre in Kepong. During activities week many of the Year 6 children will be helping to re-decorate a dormitory for refugee children from Myanmar; all funds raised will go towards the cost of the paint and professional decorators who will support our children in getting the job done.
+What can they do: Year 6 will do jobs at home for their family and/or friends to raise money. Each job can be awarded different amounts of money; it is up to the parent how much they choose to donate per job. Types of job may include: dish-washing, clearing the table, cooking a meal for their family, baking, cleaning, tidying their bedroom, cleaning the car, sweeping the backyard, doing the shopping etc.
+Collection: We will also be collecting the following items for the centre and will alert you as to when you should bring these into school.
+Used, good condition toys, teddies, board or card games. If the children supply electronic ones, they should provide a fresh set of batteries. Posters, cushions, unwanted rugs or colourful blankets would also be welcome.
+A sponsorship form is attached to this email. Click https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004Qs4/01HOrMmsm40zaYr_DYZBllI8FjFgW0odbhL4.ihlP2Y= to download the form. Please can you print it and fill it out, raising as much money as you can. We will let you know when to bring the form and money raised into school.
+
+Many thanks for your support here. If you have any questions, please don&apos;t hesitate to get in touch.
+
+Kind regards
+
+Tom Hickman and Richard Lambros
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Earth Day</name>
+    <style>freeForm</style>
+    <subject>Earth Day</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear Parents,
+
+
+
+On Monday 22nd April, all students at ISM will take part in celebrating Earth Day, an annual day celebrated in more than 192 countries every year. On Earth Day, events are held worldwide to raise awareness and demonstrate support for environmental protection. The theme of this year’s Earth Day is ‘The Face of Climate Change’. We will use the day to focus on the causes and effects of climate change on both our local environment and on a global scale. The aim is to raise awareness amongst the students whilst teaching them how they can do their part to help protect the environment.
+
+Please click here for more information.
+
+Michelle Hamilton
+
+Secondary Phase Leader
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Winter Fayre 2017</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Winter Fayre 2017</name>
+    <style>freeForm</style>
+    <subject>Winter Fayre 2017</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+Could I please remind parents that school ID badges must be shown to enter the school on Friday 15th December for the Winter Fayre. Any visitors must also show ID (eg passport) to enter the school.
+
+Thank you for your assistance.
+
+Regards,
+
+Adrian Macaulay
+Headmaster
+
+
+Уважаемые родители!
+
+Любезно напоминаем Вам о том, что необходимо предоставить Ваши именные бейджи при входе на Зимнюю благотворительную ярмарку, которая  будет проходить 15 декабря в здании школы.Всем остальным посетителям необходимо иметь при себе документ,удостоверяющий их личность (например, паспорт).
+
+Надеемся на Ваше понимание.
+
+С уважением,
+
+Эдриан Маколей
+Академический Директор
+
+
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Primary Production ‘Mulan’ Tickets</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Primary Production ‘Mulan’ Tickets</name>
+    <style>freeForm</style>
+    <subject>Primary Production ‘Mulan’ Tickets</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+
+
+
+
+Friday 30th May 2014
+
+Dear Parents,
+
+
+We are fast approaching our Primary production of Mulan. Our students have been busy learning their lines, singing their songs and rehearsing their dance moves – excitement is definitely building!
+
+
+This year’s production will take place on the following dates:
+
+
+Year 2 on Tuesday 17th June at 6.30pm
+
+Years 3 &amp; 4 on Wednesday 18th June at 6.30pm
+
+Years 5 &amp; 6 on Thursday 19th June at 6.30pm
+
+
+Doors will open at 5.45pm each night for complimentary pre-show refreshments. There will also be a bar selling a selection of beer, wine and soft drinks for a small cost.
+
+
+Tickets are now available to pre-order and cost 50RMB each – seats are limited and will be allocated on a first-come-first-served basis. Order yours today!
+
+
+Please fill in the order form below and hand it back to your child’s class teacher in the supplied envelope with your child’s name, class and ‘Mulan’ written on the front. Please include exact payment. Ticket orders must be returned to school by Wednesday 11th June.
+
+
+Tickets will be sent home with your child on Friday 13th June. Seats are pre-allocated and your ticket will state your row and seat number for the performance.
+
+
+Many thanks,
+
+
+Jude Schroeder
+
+Production Producer
+
+________________________________________________________
+
+
+
+Mulan Ticket Order Form
+
+
+
+Name of child: ______________________________________
+
+
+Performance date: ___________________________________
+
+
+Class: ______________________________________________
+
+
+Number of tickets: ____________________________________
+
+
+Payment included: ____________________RMB (50RMB per ticket)
+
+
+
+
+
+
+
+
+
+____________________________________________________________
+
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>22/05/2013 Secondary Sports Day Parent Information Wednesday 29th May</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>22/05/2013 Secondary Sports Day Parent Information Wednesday 29th May</name>
+    <style>freeForm</style>
+    <subject>Secondary Sports Day Parent Information Wednesday 29th May</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The BSKL Middle School Sports Day 2013 will take place next Wednesday 29th May at Kelana Jaya Stadium MBPJ, Jalan SS 7/15, Petaling Jaya, Selangor.
+
+You are most welcome to attend. We would very much appreciate parent co-operation with regards to allowing the students to be under the care of the school staff during Sports day. As such, the Track, Field and Canopy areas are out of bounds to parents but there is plenty of space to sit and watch from the stands.
+
+A gentle reminder, students are not to return home with parents after sports day. All students must take the bus with Teachers back to school after events are finished.
+
+All Year 6 to 8 students will be participating in Sport events held on this day. Please inform respective class teachers if your child will not be participating.
+
+Please note, if your child normally takes the school bus but on this day you will be bringing them to the Kelana Jaya Stadium please inform the school no later than Friday 24th May.
+
+BSKL Middle School Sports Day 2013 key information
+
+Date : Wednesday 29th May 2013
+
+Time : 8:00am-12:30pm
+Year 6-8 students to arrive at Kelana Jaya Stadium by 8:00am and be back in school by 12:30pm
+
+Venue : Kelana Jaya Stadium MBPJ, Jalan SS 7/15, Petaling Jaya, Selangor
+
+Click here for Google map to the stadium.
+
+Transport : Parents or bus’s (whatever the child’s normal mode of transport to school) will be dropped off at the above stadium, not BSKL.
+
+Food : Students will have lunch back at school but are strongly advised to bring some snacks, sandwiches and drinks with them.
+
+Equipment to bring : Students to come dressed in school PE kit with house t-shirt on top. Proper sport shoes to be worn. Sunscreen protection (lotion &amp; hat), a water bottle and a snack (preferably fruits, sandwich’s &amp; biscuits). We will be having a late lunch.
+
+Schedule of the day :
+
+Schedule for Secondary Sports Day (7:45am-12:30pm)
+
+7:30am : Teachers to arrive for briefing and setup
+7:45am : Students to arrive via bus/parents
+8:15am : Events Start
+8:15am-9:45am : Girls track and boys field events
+9:45am-10:45am : Boys track and girls field events
+11:15am-12:00pm : Team events Tug of war and relays
+12:00pm : Return to school
+
+Kind regards,
+
+Harrie Thomson
+Head of Physical Education
+Director of Middle School After School Activities
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

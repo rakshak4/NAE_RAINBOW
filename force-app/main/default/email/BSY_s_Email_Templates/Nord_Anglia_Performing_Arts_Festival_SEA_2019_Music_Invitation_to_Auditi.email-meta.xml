@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Nord Anglia Performing Arts Festival | SEA, 2019 | Music  Invitation to Audition</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Nord Anglia Performing Arts Festival | SEA, 2019 | Music  Invitation to Audition</name>
+    <style>freeForm</style>
+    <subject>Nord Anglia Performing Arts Festival | SEA, 2019 | Music</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

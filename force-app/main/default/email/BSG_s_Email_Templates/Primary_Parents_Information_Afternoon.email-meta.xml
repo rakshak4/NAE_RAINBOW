@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Primary Parents Information Afternoon</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Primary Parents Information Afternoon</name>
+    <style>freeForm</style>
+    <subject>For Approval : Primary Parents Information Afternoon</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+Dear Parents,
+I am pleased to inform you that Mr. Laird (Head of Primary) has invited Reception and Year 1 parents to a &apos;Primary Parents Information Afternoon&apos; on Thursday 15th May. Please click here for further information.
+Kind regards,
+Miss Kathy
+Head of Lower School
+The British School of Guangzhou
+
+
+
+
+
+World Class Education
+
+
+____________________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

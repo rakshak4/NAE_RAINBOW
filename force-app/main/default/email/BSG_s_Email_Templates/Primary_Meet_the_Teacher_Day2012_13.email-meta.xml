@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Primary Meet the Teacher Day2012-13</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Primary Meet the Teacher Day2012-13</name>
+    <style>freeForm</style>
+    <subject>RE: Meet the Teacher,  4:30pm, Saturday 1st September.</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I would like to start by welcoming students and parents, new and old, to the beginning of a new Primary School year at BSG. We have some new faces around school and a lot of familiar ones too.
+
+
+
+As the new Head of Primary, I’d like to invite you along to the ‘Meet the Teacher’, event taking place this Saturday at 4:30pm. Mr Thomas and I will be welcoming you in the theatre with a presentation on exciting school developments.
+
+
+
+After this, you will be able to visit your child’s new teacher in their classroom. Teachers have prepared a presentation to talk about expectations and systems in their class.
+
+
+
+Eurest will be providing a barbecue outside the reception area, providing a great opportunity to network with other parents, teachers and teaching assistants.
+
+
+
+I’d also like to send out a plea to any parents interested in taking part in a staff vs parents football match. Please bring your kit with you! The staff are keen to show-off their skills on our brand new purpose built football pitch.
+
+
+
+I look forward to seeing you on Saturday.
+
+
+Yours faithfully
+
+
+David Laird
+Head of Primary
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

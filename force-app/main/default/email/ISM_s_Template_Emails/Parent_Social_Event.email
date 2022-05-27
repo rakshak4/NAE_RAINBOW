@@ -1,0 +1,423 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:TrackMoves/>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-GB</w:LidThemeOther>
+  <w:LidThemeAsian>JA</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="276">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:Cambria;}
+</style>
+<![endif]-->
+
+
+
+<!--StartFragment-->
+
+<p class="MsoNormal" style="text-align: justify; "><span lang="EN-US"><font class="Apple-style-span" face="'Times New Roman', Times, serif">Dear Parents,<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="text-align: justify; "><span lang="EN-US"><o:p><font class="Apple-style-span" face="'Times New Roman', Times, serif">&nbsp;</font></o:p></span></p>
+
+<p class="MsoNormal" style="text-align: justify; "><span lang="EN-US"><font class="Apple-style-span" face="'Times New Roman', Times, serif">As you all know, your class representatives have been enquiring as to
+whether you would prefer a parent social event of fun at the bowling alley or a
+soiree of wine tasting and fourchette dining. After counting your votes, it has
+been the majority of you who would prefer enjoying the pleasures of a good
+glass of wine.<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="text-align: justify; "><span lang="EN-US"><o:p><font class="Apple-style-span" face="'Times New Roman', Times, serif">&nbsp;</font></o:p></span></p>
+
+<p class="MsoNormal" style="text-align: justify; "><span lang="EN-US"><font class="Apple-style-span" face="'Times New Roman', Times, serif">The original idea was to have the wine tasting at the school premises,
+but taking into account the number of school events, coffee mornings,
+productions, and talent shows that take place, we have decided to shift the
+wine tasting event to La Grande Cave. (<a href="http://www.pogreblgc.ru/"><span style="color:#0000F6">http://www.pogreblgc.ru/</span></a>)<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="text-align: justify; "><span lang="EN-US"><o:p><font class="Apple-style-span" face="'Times New Roman', Times, serif">&nbsp;</font></o:p></span></p>
+
+<p class="MsoNormal" style="text-align: justify; "><span lang="EN-US"><font class="Apple-style-span" face="'Times New Roman', Times, serif">Please find the proposal for the evening below:<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="text-align: justify; "><span lang="EN-US"><o:p><font class="Apple-style-span" face="'Times New Roman', Times, serif">&nbsp;</font></o:p></span></p>
+
+<p class="MsoNormal" style="text-align: justify; "><font class="Apple-style-span" face="'Times New Roman', Times, serif"><b><span lang="EN-US">LA GRANDE CAVE PROPOSAL</span></b><span lang="EN-US">&nbsp;<b>24th MARCH</b>&nbsp;</span></font></p><p class="MsoNormal" style="text-align: justify; "><font class="Apple-style-span" face="'Times New Roman', Times, serif"><span lang="EN-US">(Grünwald,
+RublevskoeShosse 30/1)<o:p></o:p></span></font></p>
+
+<p class="MsoNormal" style="text-align: justify; "><span lang="EN-US"><o:p><font class="Apple-style-span" face="'Times New Roman', Times, serif">&nbsp;</font></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left: 36pt; text-align: justify; text-indent: -36pt; "><!--[if !supportLists]--><font class="Apple-style-span" face="'Times New Roman', Times, serif"><span lang="EN-US"><span style="mso-list:Ignore">•<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp; </span></span></span><!--[endif]--><span lang="EN-US">18.30 Welcome Drink (sparkling wine and some canapés)<o:p></o:p></span></font></p>
+
+<p class="MsoNormal" style="margin-left: 36pt; text-align: justify; text-indent: -36pt; "><!--[if !supportLists]--><font class="Apple-style-span" face="'Times New Roman', Times, serif"><span lang="EN-US"><span style="mso-list:Ignore">•<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp; </span></span></span><!--[endif]--><span lang="EN-US">19.00-19.30 Excursion in the wine cellar (in different groups)<o:p></o:p></span></font></p>
+
+<p class="MsoNormal" style="margin-left: 36pt; text-align: justify; text-indent: -36pt; "><!--[if !supportLists]--><font class="Apple-style-span" face="'Times New Roman', Times, serif"><span lang="EN-US"><span style="mso-list:Ignore">•<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp; </span></span></span><!--[endif]--><span lang="EN-US">19.30-20.15 Wine tasting; 4 wines (4 reds, or 2 red and 2 whites)<o:p></o:p></span></font></p>
+
+<p class="MsoNormal" style="margin-left: 18pt; text-align: justify; text-indent: -18pt; "><!--[if !supportLists]--><font class="Apple-style-span" face="'Times New Roman', Times, serif"><span lang="EN-US"><span style="mso-list:Ignore">•<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp; </span></span></span><!--[endif]--><span lang="EN-US">20.15-(time to be agreed) Dinner - Fourchette (menu to be agreed&nbsp;upon, wine &nbsp; and soft drinks)<o:p></o:p></span></font></p>
+
+<p class="MsoNormal" style="margin-left: 36pt; text-align: justify; "><span lang="EN-US"><o:p><font class="Apple-style-span" face="'Times New Roman', Times, serif">&nbsp;</font></o:p></span></p>
+
+<p class="MsoNormal" style="text-align: justify; "><span lang="EN-US"><font class="Apple-style-span" face="'Times New Roman', Times, serif">There will also have bottles of Polugar (Russian distillate) for the
+end of the evening.&nbsp;<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="text-align: justify; "><span lang="EN-US"><o:p><font class="Apple-style-span" face="'Times New Roman', Times, serif">&nbsp;</font></o:p></span></p>
+
+<p class="MsoNormal" style="text-align: justify; "><span lang="EN-US"><font class="Apple-style-span" face="'Times New Roman', Times, serif">Any purchases made during the evening will have a <b>10% discount</b>.&nbsp;<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="text-align: justify; "><span lang="EN-US"><o:p><font class="Apple-style-span" face="'Times New Roman', Times, serif">&nbsp;</font></o:p></span></p>
+
+<p class="MsoNormal" style="text-align: justify; "><font class="Apple-style-span" face="'Times New Roman', Times, serif"><span lang="EN-US">The cost of the evening will be <b><u>4500 RUB per person</u></b>.</span><span lang="EN-US">&nbsp;<o:p></o:p></span></font></p>
+
+<p class="MsoNormal" style="text-align: justify; "><span lang="EN-US"><o:p><font class="Apple-style-span" face="'Times New Roman', Times, serif">&nbsp;</font></o:p></span></p>
+
+<p class="MsoNormal" style="text-align: justify; "><span lang="EN-US"><font class="Apple-style-span" face="'Times New Roman', Times, serif">Please be aware that&nbsp;there will be a limit to the number of
+people that will be able to attend, so as to make sure that everyone can enjoy
+the evening as best a possible,&nbsp;therefore it will strictly be&nbsp;<b>first
+come first served</b>.<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="text-align: justify; "><span lang="EN-US"><o:p><font class="Apple-style-span" face="'Times New Roman', Times, serif">&nbsp;</font></o:p></span></p>
+
+<p class="MsoNormal" style="text-align: justify; "><span lang="EN-US"><font class="Apple-style-span" face="'Times New Roman', Times, serif">I will need payment of <b>4500 RUB per person</b> by <b>no later than</b>&nbsp;<b>9th
+March</b>; this will confirm your attendance.&nbsp;50% of what is collected
+will be used as a deposit on this date. If by any chance you won't be able to
+attend you will be refunded 2250 RUB. The deadline for the final payment will
+be <b>20th March</b>, so please make sure you let me know if you won't be able
+to attend by this date.<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="text-align: justify; "><span lang="EN-US"><o:p><font class="Apple-style-span" face="'Times New Roman', Times, serif">&nbsp;</font></o:p></span></p>
+
+<p class="MsoNormal" style="text-align: justify; "><font class="Apple-style-span" face="'Times New Roman', Times, serif"><u><span lang="EN-US">Method of payment</span></u><span lang="EN-US">:<o:p></o:p></span></font></p>
+
+<p class="MsoNormal" style="text-align: justify; "><span lang="EN-US"><o:p><font class="Apple-style-span" face="'Times New Roman', Times, serif">&nbsp;</font></o:p></span></p>
+
+<p class="MsoNormal" style="text-align: justify; "><span lang="EN-US"><font class="Apple-style-span" face="'Times New Roman', Times, serif">Please bring an envelope with the exact money (no change will be
+available), your name&nbsp;and that of your +1 (if attending) and the event
+name (Wine Tasting) to the Admissions office on the Upper Campus. If you do not
+have to stop by the UC, please give your envelope to Zarina&nbsp;Abdulazizova
+from the Accounts department&nbsp;on the Lower Campus.&nbsp;<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="text-align: justify; "><span lang="EN-US"><o:p><font class="Apple-style-span" face="'Times New Roman', Times, serif">&nbsp;</font></o:p></span></p>
+
+<p class="MsoNormal" style="text-align: justify; "><span lang="EN-US"><font class="Apple-style-span" face="'Times New Roman', Times, serif">If you need any clarification on any of this please feel free to get
+in touch with me.<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="text-align: justify; "><span lang="EN-US"><o:p><font class="Apple-style-span" face="'Times New Roman', Times, serif">&nbsp;</font></o:p></span></p>
+
+<p class="MsoNormal" style="text-align: justify; "><span lang="EN-US"><font class="Apple-style-span" face="'Times New Roman', Times, serif">Have a great Half Term break.<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="text-align: justify; "><span lang="EN-US"><o:p><font class="Apple-style-span" face="'Times New Roman', Times, serif">&nbsp;</font></o:p></span></p>
+
+<p class="MsoNormal" style="text-align: justify; "><span lang="EN-US"><font class="Apple-style-span" face="'Times New Roman', Times, serif">All the best,</font></span><span lang="EN-US" style="font-size: 12pt; font-family: arial; "><o:p></o:p></span></p><p class="MsoNormal" style="text-align: justify; "><span lang="EN-US"><font class="Apple-style-span" face="'Times New Roman', Times, serif"><br></font></span></p><p class="MsoNormal" style="text-align: justify; "><span lang="EN-US"><font class="Apple-style-span" face="'Times New Roman', Times, serif"><br></font></span></p><p class="MsoNormal" style="text-align: justify; "><span lang="EN-US"><font class="Apple-style-span" face="'Times New Roman', Times, serif"><span class="Apple-style-span" style="font-family: 'times new roman', 'new york', times, serif; font-size: 16px; ">Maaike Jane Ruitenbeek<br>Admissions Department<br>The International School of Moscow<br>Tel:&nbsp; +7 (499) 922 44 00<br>Tel:&nbsp; +7 (916) 922 04 54<br>Fax: +7 (499) 922 44 00 Ext.4<br><a target="_blank" href="http://www.internationalschool.ru/">www.internationalschool.ru</a><br>Part of The British Schools Group<br>World Class Education</span></font></span></p>
+
+<!--EndFragment-->]]></td>
+</tr>
+</table>

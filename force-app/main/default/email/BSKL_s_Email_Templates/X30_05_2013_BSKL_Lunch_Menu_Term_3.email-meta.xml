@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>30/05/2013 BSKL Lunch Menu - Term 3</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>30/05/2013 BSKL Lunch Menu - Term 3</name>
+    <style>freeForm</style>
+    <subject>BSKL Lunch Menu - Term 3</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please be aware that the final menu for this term has been sent home both electronically and in paper form for you to choose your child’s lunches. I apologise for the fact that you are having to do this twice this term but I am working with sodexo on the menu this term and needed to make changes.
+
+I have been trialling a range of healthy and filling sandwiches and in order to have a realistic view of whether they were popular or just a novelty factor I needed to have 4 types made fresh to order everyday for a substantial length of time. This has meant that during that time I reduced the hot choices.
+
+I have spent each day in the dining room and the children are definitely eating more and throwing less food away. Many children will have a mixture of hot food and a sandwich and the verbal feedback from the children is that they are enjoying the food more. Those who only have a sandwich are tending to also go back for seconds. The sandwiches are wholemeal bread and the fillings are substantial. Those who commented on the hot food felt the quality and flavor was also improved. I have also made sure there are sauces available for those children who enjoy spicy food.
+
+The trial ends next week and we now know that the sandwiches were indeed popular especially tuna and boiled egg. We will now offer two choices of sandwiches everyday and return to 4 hot choices. We have been doing a survey with the children to see which dishes are popular and have included those in our final menu of this year.
+
+Apologies again that you have to fill in another menu but I felt it was important to reassess the food on offer. For our youngest children we are also putting plates of sliced tomato, carrot and cucumber on the tables and they are enjoying trying them.
+
+Below is the link menu for Term 3.
+https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004QyW/wdBrHhPjiHePGJIdFqd4VqDR9s_j7P9stmJ_Rhc2ubU=
+
+Please make your selections and return the complete menu to Azizan at azizan.sallehhuddin@britishschool.edu.my no later than 6th June 2013. You can also hand it in at the school reception.
+
+
+Warm regards
+
+
+Janet Brock
+Headteacher
+
+Janet.brock@britishschool.edu.my
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

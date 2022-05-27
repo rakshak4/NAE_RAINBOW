@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>ben.hails@britishschools.co.uk</contactEmail>
+    <ipRanges>
+        <end>148.253.164.50</end>
+        <start>148.253.164.50</start>
+    </ipRanges>
+    <ipRanges>
+        <end>54.254.227.251</end>
+        <start>54.254.227.251</start>
+    </ipRanges>
+    <ipRanges>
+        <end>54.223.101.196</end>
+        <start>54.223.101.196</start>
+    </ipRanges>
+    <ipRanges>
+        <end>54.194.185.74</end>
+        <start>54.194.185.74</start>
+    </ipRanges>
+    <ipRanges>
+        <end>54.86.40.205</end>
+        <start>54.86.40.205</start>
+    </ipRanges>
+    <label>Status Digital</label>
+    <logoUrl>https://c.ap4.content.force.com/servlet/servlet.ImageServer?id=0156F00000EyyXZ&amp;oid=00D6F000001cXAR</logoUrl>
+    <oauthConfig>
+        <callbackUrl>vs://ConnectedService</callbackUrl>
+        <consumerKey>3MVG9YDQS5WtC11pg6FmPmj4EQcFzNgcFLS._u5A8cG8C8We3cQzVsLt2dTs0IT4J0nHhQdPis6pU2Ts5LnTp</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <scopes>Full</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>BYPASS</ipRelaxation>
+        <refreshTokenPolicy>zero</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>

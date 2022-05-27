@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Initial Progress Reports - 29th September</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Initial Progress Reports</name>
+    <style>freeForm</style>
+    <subject>Initial Progress Reports - 29th September 2017</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

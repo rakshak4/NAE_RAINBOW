@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Primary ASAs</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Primary ASAs</name>
+    <style>freeForm</style>
+    <subject>Salesforce Download</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+In relation to the Primary ASA booklet that was sent out yesterday, it has been noted that you can only access part of the document on the Salesforce Chatter page. Please click on the download icon on the bottom left of the screen to ensure you receive the full booklet, containing all relevant information. Once again, if you have any questions regarding ASAs, please do not hesitate to contact me at david.laird@bsg.org.cn
+
+
+Regards,
+
+David Laird
+Head of Primary
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

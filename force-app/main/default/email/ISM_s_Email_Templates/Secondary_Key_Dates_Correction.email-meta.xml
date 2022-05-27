@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Secondary Key Dates Correction</name>
+    <style>freeForm</style>
+    <subject>Secondary Key Dates Correction</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+
+Please find below an updated list of key dates for this academic term.
+
+
+
+Key dates for this term:
+
+
+
+
+Wednesday 11th September - 6:00pm     Meet the Teacher – Upper Campus
+
+Monday 16th – Friday 20th September     Residential Trips Y7-11
+
+
+
+Tuesday 17th September                            ASAs Begin
+
+
+
+Monday 7th October                                     UC Photography Competition Begins
+
+Monday  7th October                                    Y7-11 Interim Reports Issued
+
+Monday 21st October                                   Half Term
+
+Wednesday 13thNovember                         ASAs End
+
+Wednesday 4th December                         UC Recitals Evening
+
+Friday 6th December                                    Y7-11 Term 1 Reports Issued
+
+Tuesday 10th December                              Y7-11 PTCs
+
+Wednesday 11th December                       Y7-11 PTCs
+
+Wednesday 18th December                       Christmas Carol Concert
+
+Friday 20th December                                  School Ends – Noon Finish
+
+
+
+Kind Regards,
+
+
+
+Michelle Hamilton
+
+Deputy Head of Secondary
+
+The International School of Moscow
+
+Tel:  +7 (499) 922 44 00
+
+Fax: +7 (499) 922 44 00 Ext.4
+
+www.internationalschool.ru
+
+Chartered by The British Schools Foundation
+
+
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

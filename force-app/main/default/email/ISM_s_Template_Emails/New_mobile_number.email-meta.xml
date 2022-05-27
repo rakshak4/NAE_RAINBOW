@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>From Melissa</name>
+    <style>freeForm</style>
+    <subject>Admissions Update</subject>
+    <textOnly>Dear Parents
+
+I haven’t looked forward to sending this email but I think that the
+time has come to rip the plaster off…
+
+Unfortunately I must share some sad but exciting news that Friday 2nd
+September 2011 will be my last working day here with ISM as the Head of
+Admissions. I have had the most fantastic time here in Moscow and I cannot thank you enough for having me. I will miss you all terribly – those smiley (sometimes cheeky!) faces of your children will forever stay with me. I will be making enquiries of their wellbeing through my sister Elizabeth Salter (Year Three teacher) who has promised to keep me updated.
+
+No doubt you’ll wonder why? Well, I leave happy to have met you all but in pursuit of a progressive career.
+
+Now to introduce you to the new Head of Admissions: Mr Dino Vikas.
+He opened The English International School some years ago as the Head of Admissions, is a qualified teacher and is delighted to be taking on the role with our school. He will be assisted by Maikke - Dutch by nationality, British by education but has been living in Marbella for some years now. She will be new to Moscow next week so please do extend the warm and welcoming embrace that you once extended to me. Please also take note of the new contact telephone number for the Admissions Department - +79169220454. 
+
+Once again – thank you so much for having me. I wish you and yours
+all the luck in the world for your future endeavours. 
+
+Here’s to health, happiness and family…cheers.
+
+Best
+
+Melissa Salter
+
+Melissa Salter
+Head of Admissions
+The International School of Moscow
+Tel:  +7 (499) 922 44 00Tel:  +7 (916) 922 04 54
+Fax: +7 (499) 922 44 00 Ext.4 
+www.internationalschool.ru
+Part of The British Schools Group
+
+*Disclaimer:*
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

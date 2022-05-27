@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Weekly Update 7th March, 2013</name>
+    <style>freeForm</style>
+    <subject>Weekly Update 7th March, 2013 with correction</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+
+
+Sorry for the overload of school emails but we have just realised an error in the date for the Family Fun Day.
+
+
+
+ISM Family Fun Day
+
+
+
+The date for this annual event has been confirmed as Saturday 25th May (times to be confirmed) Please do put this date in your diary as it is a day when the school community comes together and enjoys family orientated activities organised by the staff, students and parents. More details will follow in April.
+
+
+
+Sorry for the inconvenience.
+
+
+
+Best regards,
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

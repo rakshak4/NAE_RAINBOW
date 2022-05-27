@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Information about BST Idol</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Letter to parents about BST Idol</name>
+    <style>freeForm</style>
+    <subject>BST Idol</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Dear Parents/ Guardians,
+
+
+
+Firstly I would like to introduce myself as the new music teacher. I am very excited to be working with you and your children to further develop the music provision at BST.
+
+
+The first exciting event on the calendar is BST idol; a talent show in the style of the popular TV show, American idol. I shall be holding auditions for children from Monday 3rd February. All children from year 2 upwards, who would like to display their talent, are welcome to audition. Acts must not be longer than 2 minutes and can include anything from juggling to singing an aria. Acts can be solos or groups. We welcome all artistic and theatrical talent whether it be singing, playing an instrument, dancing, poetry, or acting.
+
+
+Results for those who have made it through to the final round will be posted on Friday 7th February, and the Final show will be held in the theatre on Wednesday 12th February at 2pm. You are all welcome to attend the final show, and to support your child/ children.
+
+
+For those wishing to audition, please fill out the slip below and return it to the office by Wednesday 29th January at the very latest.
+
+
+
+I look forward to seeing the talent here at BST.
+
+
+
+Ms. Aves
+
+Music Teacher
+
+
+_________________________________________________________________________________
+
+
+Sign me up for an audition for BST idol!
+
+
+Pupil’s name: ___________________________ Class: _________
+
+
+Please indicate whether it is a solo or group act: __________________________________
+
+
+Please return this slip to the office by Wednesday, 29th January at the very latest. Thank you.
+
+
+
+
+
+Уважаемые родители и опекуны,
+
+
+Прежде всего, позвольте мне представиться, Наоми Эйвс - новый преподаватель по  музыке. Я очень рада возможности работать с Вами и Вашими детьми и участвовать в развитии музыкальных проектов Британской школы в Ташкенте.
+
+
+Первое  волнующее событие в календаре - BST IDOL; шоу талантов  в стиле популярного телешоу, American Idol . Я буду проводить  прослушивания для детей с понедельника, 3 февраля. Буду рада увидеть на прослушиваниях всех учеников (класс Year 2 и старше), которые хотели бы блеснуть  своими ​​талантами. Представление  не должно длиться более  2-ух  минут и может включать в себя все: от жонглирования  до исполнения арии. Выступать можно как соло, так и в группах. Мы приветствуем любые  художественные и театральные таланты: будь то пение, игра на музыкальном инструменте, танцы, стихи  или представление.
+
+
+Результаты для тех, кто дошел до финального раунда будут размещены в  пятницу 7 февраля, а Финальное шоу состоится в театре в  среду, 12 февраля в 2 часа дня. Все Вы  можете принять участие в финальном шоу и поддержать своих детей.
+
+
+Если Вы желаете  пройти прослушивание , пожалуйста, заполните приведенную ниже форму и верните  её  до среды, 29 января.
+
+Буду с нетерпением ждать встречи с  талантами.
+
+
+Мисс Эйвс
+
+Преподаватель музыки
+
+
+
+_______________________________________________________________________________
+
+
+
+Запишите меня на прослушивание шоу талантов BST IDOL!
+
+
+Имя ученика: ___________________________ Класс: _________
+
+
+Пожалуйста, укажите количество выступающих: соло / группа
+
+
+Пожалуйста, верните этот бланк не позднее среды, 29 января. Спасибо!
+
+
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

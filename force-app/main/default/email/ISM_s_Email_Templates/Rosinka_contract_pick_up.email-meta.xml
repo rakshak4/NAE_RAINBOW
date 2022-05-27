@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Rosinka contracts for pick up</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Rosinka contract pick up</name>
+    <style>freeForm</style>
+    <subject>Rosinka contract pick up</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+We hope this email finds you well.
+
+School contracts and invoices have recently been issued and sent out. If you have not received yours, it is available for pick up at the Early Years campus, between the hours of 9:00am - 4:30pm. The Early Years campus front desk telephone number is 8 (499) 922-4405.
+
+Should you wish to receive a scan copy of your invoice instead, please send your request to isminvoicing@britishschools.co.uk.
+
+If you have further questions or concerns, please call the accounts office in Krylatskaya at 8 (499) 922-4400 ext. 201, or use the above email provided.
+
+Regards,
+
+Admissions Team
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

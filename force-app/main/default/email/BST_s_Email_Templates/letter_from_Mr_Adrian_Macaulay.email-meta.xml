@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>letter from Mr Adrian Macaulay</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>letter from Mr Adrian Macaulay</name>
+    <style>freeForm</style>
+    <subject>letter from Mr Adrian Macaulay</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+
+I would like to take this opportunity as the incoming Headteacher of the British School of Tashkent to formally introduce myself to you and share my excitement in joining the school. It was lovely to meet some of the parents at the recent British Day and the coffee mornings, and I would like to thank everyone for their warm welcome.
+
+I have been in education for over 25 years and this will be my third international school headship. Having spent nearly 20 years in international British schools, I have taken children from the beginning of their schooling in Early Years to universities around the world and look forward to leading BST through the exciting period of setting up iGCSE and A-level examinations. Having met BST students, staff and parents during my three visits this academic year, I very much look forward to joining BST vibrant community and developing and adding to the excellent work of Mr Kirkham and the BST staff. I have a wealth of experience and I hope to be able to share this with the parents and staff of BST.
+
+I will be moving to Tashkent in early August with my wife Karen, son Charlie who will going into Reception and my baby daughter Flo. I would like to reassure you all that the welfare of your children is my key priority and that I am committed to providing a safe and happy environment where your children can fulfil their potential, and develop into independent, knowledgeable and intuitive students as well as possible future leaders.
+
+I look forward to working with you all closely and please feel free to come in to see me if you have any concerns in the future.
+
+Yours faithfully
+
+Adrian Macaulay
+
+
+
+Уважаемые родители.
+
+Данным письмом хочу засвидетельствовать Вам своё почтение в качестве нового академического директора Британской школы города Ташкента. Я с нетерпением жду начала работы с Вами, учениками и сотрудниками БСТ. Также хочу выразить Вам благодарность за тёплый приём и поблагодарить родителей, принявших участие в праздновании Дня Великобритании и присоединившихся к утренним кофе-брейкам во время моего недавнего визита в Ташкент.
+
+Я работаю в сфере образования уже более 25 лет и БСТ будет третьей в списке возглавляемых мною международных школ. На протяжении 20 лет моей работы в международных британских школах, я вёл детей с самого начала их обучения до поступления в университеты по всему миру и теперь я с нетерпением буду ждать того момента, когда и учащиеся Вашей школы буду сдавать IGCSE и A-levels экзамены. За время трёх своих визитов в Ташкент мне удалось пообщаться с учащимися, сотрудниками и родителями Вашей школы и теперь я с большим удовольствием буду ждать момента, когда стану частью активного и развивающегося сообщества Вашей школы, внося свою лепту в коллективную работу Мистера Киркхама и сотрудников Британской школы города Ташкента. Надеюсь, что я смогу поделиться своим богатым опытом как с родителями, так и с сотрудниками Вашей школы.
+
+Я прибуду в Ташкент в начале августа вместе со своей супругой Карен, сыном Чарли, который пойдёт в подготовительный класс и младшей дочерью Фло. Со своей стороны, хочу заверить Вас в том, что благополучие Ваших детей является моим основным приоритетом и что я намерен обеспечить безопасную и счастливую окружающую среду, в которой Ваши дети смогут реализовать свой потенциал и развивать в себе независимость, знания и интуицию, то есть все те качества, которые так необходимы в становлении будущих лидеров.
+
+С нетерпением буду ждать встречи с Вами и прошу Вас обращаться ко мне, если у Вас появятся какие-либо вопросы.
+
+С уважением,
+Адриан Маколей
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Letter to parents about Class Parent Representatives</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Letter to parents about Class Parent Representatives</name>
+    <style>freeForm</style>
+    <subject>Class Parent Representatives</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We are re-sending the letter below because there was a small mistake in the Russian translation that changed the meaning of the text.   Please pay attention to the highlighted paragraph.
+
+This academic year has seen many initiatives introduced by BST to help try and improve teaching and learning at the school. As  part of our drive to improve home school communications we have introduced an improved parent email system and the class/ parent blog which is proving very popular. In addition to this, we are now looking to appoint a class parent representative to support each class teacher.
+
+The job of the class rep, is to provide a link between the class teacher and the class parents to help organise trips, birthdays, help welcome new parents to the class etc. They will also act as a link regarding any issues parents of the class my have with translation or general concerns. The class rep could then meet with the class teacher to raise the concern with them. This ideally would cut down on the amount of miscommunication that has occurred in the past.
+
+We would encourage the class parents to meet for coffee once a month to provide a social platform to help integrate new parents to the class and a chance for you as a group to meet and discuss planning for future class events. Minutes from these meetings can then be discussed with the class teacher.
+
+Please note that the class rep post does not have any input regarding taught curriculum or does not take away individual parents rights to meet with teachers on an individual/private basis.
+
+Once all classes have a volunteered class rep we would look for them to meet on a regular  basis and elect a head rep who will be invited to meet with senior management at the school to discuss any ongoing issues and then feedback to all class reps. I firmly believe that a constructive dialogue between the school is essential for us to continue to provide the best possible education for your children.
+
+If you feel you would like to get involved  please email your child&apos;s class teacher who will pass your details on.
+
+We look forward to hearing from you.
+
+Best regards
+
+David Kirkham
+Headmaster
+
+
+Уважаемые  родители,
+
+Мы пересылаем Вам данное письмо так как в русском переводе была допущена небольшая ошибка, которая изменила значения текста. Пожалуйста, обратите внимание на выделенный параграф.
+
+В этом учебном году появилось  множество  предложений, внесенных BST , направленных на улучшение  преподавания и обучения в школе. В рамках наших стремлений по  улучшению  связей между нашей школой и родителями, мы ввели улучшенную систему электронной почты для родителей  и блог для классов/родителей , который стал очень популярным. В дополнение к этому  мы ищем родителей, которые смогли бы выступить в качестве  представителей классов для помощи классным преподавателям.
+
+Работа родителя-представителя заключается  в обеспечении  связей  между классным руководителем и родителями, помощи в  организации  поездок, дней рождений, а так же помощь новым родителям и т.д. Они также будет выступать в качестве связующего звена по любым вопросам, касающихся  перевода  или общих проблем. Родитель-представитель  может затем встретиться с классным преподавателем  для обсуждения интересующих вопросов. Это сократит то  недопонимание, которое имело место  в прошлом.
+
+Мы будем рады видеть родителей на собрании за чашкой  кофе раз в месяц, чтобы обеспечить социальную платформу, которая  поможет  интегрировать новых родителей в класс, предоставит   шанс собраться вместе и  обсудить грядущие события в  классе. Темы обсуждения таких встреч  можно обсудить с классным руководителем.
+
+Пожалуйста, обратите внимание, что родитель-представитель не вносит  никакой вклад  в преподавание  учебной программы и не лишает прав других родителей встречаться  с учителями по индивидуальным/ частным  вопросам.
+
+После того как у каждого класса  появится родитель-представитель, мы будем встречаться с ним  на регулярной основе и изберем  главу представителей, который будет приглашен на встречу с   руководством школы для  обсуждения любых насущных вопросов, а затем сообщит об этом другим представителям классов. Я твердо верю, что конструктивный диалог между  нами приведет к дальнейшему  развитию высокого уровня  образования  Ваших детей.
+
+Если Вы хотите  поучаствовать в школьной жизни, пожалуйста, напишите классному руководителю Вашего ребенка об этом и он сохранит данные о Вашей заявке.
+С нетерпением ждем Ваших ответов.
+С уважением,
+
+
+Дэвид Киркхам,
+Академический директор
+
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

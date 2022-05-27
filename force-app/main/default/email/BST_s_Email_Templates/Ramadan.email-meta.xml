@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>The start of Ramadan</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Ramadan</name>
+    <style>freeForm</style>
+    <subject>Ramadan</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+As we approach the start of Ramadan, beginning the evening of 17th June, I wanted write to parents and ask you to inform us if any of your children will be fasting for the remainder of the school term (July 3rd ).
+
+
+If you do wish to have your child fast during this period, we will do our best to support you at this time but please be aware that many children in the school will not be fasting.
+
+
+Уважаемые родители!
+
+Поскольку мы приближаемся к месяцу Рамазана, который начнется вечером 17 июня, я хотел бы уточнить у родителей учащихся - будут ли их дети соблюдать пост в течение этого месяца. Данный триместр закончится 3-го июля.
+
+Если Вы хотите, чтобы Ваш ребенок постился в течение этого периода, мы сделаем все возможное, чтобы поддержать Вас в это время, но имейте в виду, что большинство детей в школе не соблюдают пост.
+
+
+
+С уважением,
+
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Curriculum Letter Year 6</name>
+    <style>freeForm</style>
+    <subject>Curriculum Letter Year 6</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+
+Please click here to find the curriculum information for all subjects for this Spring Term 2013. If you have any questions pertaining to the information contained in this curriculum letter, please contact the relevant teachers of each subject.
+
+
+
+
+Key dates for this term:
+
+
+January 29th Tuesday ASAs begin
+
+January 30th Wednesday ASAs begin
+
+
+February 21st ISM Talent Show LC and UC
+
+February 22nd Last day of half term
+
+February 25th Half term holiday begins
+
+
+March 4th School resumes
+
+March 11th ISM Maths Day
+
+March 12th Tuesday ASAs end
+
+March 13th Wednesday ASAs end
+
+March 20th Senior production 6pm
+
+March 21st Senior production 6pm
+
+March 22nd Y4-6 Swimming Gala
+
+Y6-9 reports issued
+
+March 26th FS-Y9 PTCs
+
+March 27th FS- Y9 PTCs
+
+March 28th Y7-10 Swimming Gala
+
+March 29th End of term – noon finish.
+
+
+
+Please note that additional information regarding the above events will be sent out as the term progresses.
+
+
+Kind regards,
+
+
+Mrs. Hamilton
+
+Secondary Phase Leader
+
+The International School of Moscow</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

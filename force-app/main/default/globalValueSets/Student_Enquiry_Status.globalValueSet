@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Lost (Cancelled)</fullName>
+        <default>false</default>
+        <label>Lost (Cancelled)</label>
+    </customValue>
+    <customValue>
+        <fullName>Denied (Rejected)</fullName>
+        <default>false</default>
+        <label>Denied (Rejected)</label>
+    </customValue>
+    <masterLabel>Student Enquiry Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

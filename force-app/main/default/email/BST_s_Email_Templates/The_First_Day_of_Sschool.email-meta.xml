@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>To parents about the first day of school 2012-13</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>The First Day of School</name>
+    <style>freeForm</style>
+    <subject>The First Day of School in  2012-2013 academic year.</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Hereby we would like to inform you that the first day of school for all children is 27th of August.
+
+School uniform will be available to purchase starting from Monday, 20th of August.
+
+Looking forward to see you all soon!
+
+Regards,
+
+Уважаемые родители,
+
+Мы бы хотели сообщить Вам, что первым днем учебы для всех учеников нашей школы будет 27 августа.
+
+Школьную форму можно приобрести начиная с 20 августа.
+
+С нетерпением ждем скорой встречи с Вами.
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

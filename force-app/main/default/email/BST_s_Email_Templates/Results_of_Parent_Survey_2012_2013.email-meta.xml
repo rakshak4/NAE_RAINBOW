@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Results of Parent Survey 2012-2013</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Results of Parent Survey 2012-2013</name>
+    <style>freeForm</style>
+    <subject>Results of Parent Survey 2012-2013</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Further to the survey we conducted at the end of the last academic year I’m happy to attach a presentation of the results and a letter from the Foundation Chairman.
+Kind regards,
+
+В приложении вы можете найти результаты опроса родителей, который был проведен в конце прошлого учебного года, а также письмо от председателя Фонда Британских школ.
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

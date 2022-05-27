@@ -1,0 +1,32 @@
+<messaging:emailTemplate subject="Британская школа города Ташкента - Спасибо за вашу заявку" recipientType="Lead" relatedToType="Lead">
+<messaging:HtmlEmailBody >
+
+ 
+
+ 
+
+*** Это автоматически сгенерированое электронное письмо ***<br/><br/>
+
+ 
+
+Благодарим Вас за проявленный интерес к нашей школе. Мы свяжемся с Вами в течение очень скоро, чтобы ответить на Ваши вопросы и рассказать больше о нашей школе. Если Вы дали запрос на посещение нашей школы, мы сделаем всё возможное, чтобы оно состоялось в выбранное Вами время. Наша приёмная комиссия свяжется с Вами для обсуждения деталей.<br/><br/>
+
+Мы с нетерпением ждём возможности пообщаться с Вами и познакомиться с вашей семьёй!<br/><br/>
+
+Тем временем, вы можете <a href="http://www.nordangliaeducation.com/ru/our-schools/uzbekistan/tashkent/british/news-and-insights">узнать, что происходит в школе</a>.<br/><br/>
+
+ 
+
+С наилучшими пожеланиями,
+
+<br/><br/>
+
+Приёмная комиссия Британской школы города Ташкента.
+
+<br/><br/>
+
+Пройдите по ссылке <a href="http://www.nordangliaeducation.com/ru/our-schools/uzbekistan/tashkent/british/contact-us/contact-information">здесь</a>, чтобы получить контактную информацию.
+
+</messaging:HtmlEmailBody>
+
+</messaging:emailTemplate>

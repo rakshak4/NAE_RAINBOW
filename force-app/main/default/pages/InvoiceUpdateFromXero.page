@@ -1,0 +1,7 @@
+<!-- @author Logan Moore -->
+<!-- @created July 2013 -->
+<!-- @modified July 2013 -->
+<apex:page title="Update <insertinvoicenohere> from Xero" standardController="Invoice_Statement__c" extensions="InvoiceUpdateFromXeroController" action="{!doUpdate}">
+<apex:sectionHeader title="Invoice" subtitle="Update from Xero" />
+<apex:pageMessages />
+</apex:page>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NAE_Branding_Letterhead_BCB</letterhead>
+    <name>Agendamento de Visita</name>
+    <style>formalLetter</style>
+    <subject>Agendamento de visita - The British College of Brazil</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

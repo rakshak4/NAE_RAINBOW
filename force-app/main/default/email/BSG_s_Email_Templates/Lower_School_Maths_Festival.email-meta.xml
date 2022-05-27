@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Secondary Residential Trip</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BSG</letterhead>
+    <name>Secondary Residential Trip</name>
+    <style>freeForm</style>
+    <subject>Secondary Residential Trip</subject>
+    <textOnly>Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I have spoken to all of the trip leaders to report that the Year 7, 8 and 10 students have all arrived safely and on time. The Year 7&apos;s were on the beach doing surf exercises when I phoned and it sounded as if they were enjoying themselves. Year 8&apos;s had just arrived and had a bumpy flight whilst the Year 10&apos;s were causing havoc with their team building games.
+
+The Year 9 students do not land until later and I will send an email out tomorrow to confirm their safe arrival as stated in the letter.
+
+I&apos;m certain that the students will enjoy the trip and I look forward to hearing the stories and seeing the pictures on the blog (technology willing) and on the students return.
+
+Best wishes,
+
+Mr. Iain Ruck
+
+The British School of Guangzhou
+
++8620 8709 4788
+
+www.bsg.org.cn</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

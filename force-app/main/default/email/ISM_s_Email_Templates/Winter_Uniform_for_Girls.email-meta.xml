@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Winter Uniform for Girls</name>
+    <style>freeForm</style>
+    <subject>Winter Uniform for Girls</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear Parents,
+
+In response to feedback that we have received from our Student Council and parent survey we are planning on introducing trousers for our female students in Y7-Y10 as part of the winter uniforms.
+
+As ISM will be the only school of the British Schools Group introducing this item we will order it locally and hope to make it available in January (TBC). The cost of one pair of trousers will be around 1500-2000 rubles (TBC). The design will be similar to the existing boys&apos; trousers but adjusted to fit girls. There is a possibility that we may be able to source custom-fitting service from the supplier as well.
+
+In order to proceed with the order we would like to have an indication of how many of our existing female students/families would be interested in purchasing and wearing winter trousers. If you are interested in this option could you please email Zarina at zarina.gergieva@internationalschool.ru and indicate the year group of your child(ren) and how many pairs you would be interested in purchasing. This email will not serve as the pre-order but would rather give us an indication of how many trousers we would need to order to ensure that no one is left behind.
+
+Thank you,
+Administration ISM.
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Bus Service Issue - Buses 1,5 &amp; 6</name>
+    <style>freeForm</style>
+    <subject>Bus Services Issue - Buses 1, 5 &amp; 6</subject>
+    <textOnly>Dear BSN Parents,
+
+I am writing to you today about a small matter concerning Buses 1, 5 &amp; 6. 
+
+Bus 1 met unusual traffic conditions while in transit to pick-up students living at Masterland.  – as I am writing this, Bus 1 is still on  the highway (8:10am). 
+
+Due to this our Bus &amp; Services manager, Mrs Fiona Gao, was promptly contacted by the driver of Bus 1 and she has diverted Bus 5 to pick-up Masterland studnets.
+
+Bus 6 has been diverted to pick-up Yulan Villas &amp; Bamboo Garden students.  
+
+We wanted to take a moment to write to parents who have students on these buses to explain why you may have seen or heard about a different BSN bus picking-up your child(ren). 
+
+If you have further questions or concerns, please feel free to contact me at your leisure. 
+
+Warm Regards,
+
+Joshua Maddox
+Administration Director
+The British School of Nanjing
+Tel: +86 (25) 5210 8987
+Fax: +86 (25) 5210 2385
+www.bsn.org.cn
+Part of The British Schools Foundation – World Class Education
+ 
+*Disclaimer:*
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Summer Mailing and Forms for Parents</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Summer Mailing - 2016/17</name>
+    <style>freeForm</style>
+    <subject>NYIS Summer Mailing</subject>
+    <textOnly>June 10, 2016
+
+
+Dear NYIS Parents,
+
+Happy Summer!  We are trying to adjust to the strange sounds of silence in the building, and hope you are enjoying the joyful sounds that summer break brings at home.  It may be hard to believe that we are already thinking about the new school year, but we are busily preparing to renovate more of the building, open up new classrooms, and plan for another exciting year at NYIS.  A few administrative details:
+
+1.)	There are four important forms that we have to collect over the summer – which we require back by July 22nd.  These forms can be emailed to admin@nyis.org or dropped off at the school’s Reception desk.  Please note that even if you are an existing parent and already have these forms on file, we require new forms for each academic year.  These include:
+
+1. Student Health Form (filled out by your pediatrician, including immunization updates)
+2. Dismissal Authorization Form 
+3. Emergency Contact Form
+4. “Blanket” Permission Slip
+
+2.)	The other important document is the updated Family Handbook, which we will send in a following email.  Reading this is essential, and we hope you will give it close attention.  A couple of new or different policies for the upcoming school year, to which we would like you to pay particular attention include:
+
+• Updated 2016-7 academic calendar (also on the website)
+• Enrollment details and new rates for the Extended Day program
+• Arriving between 8:20 and 8:30 am, so that lessons can start promptly at 8:30 am
+• No stroller, scooter or bicycle parking at school
+• New lunch and snack program
+• Updated re-enrollment procedures, including deadlines for reapplying for financial aid grants
+• Reminder to check the Parent Portal blogs for weekly updates and announcements
+
+3.)	As a reminder, Uniform Fitting Days are this week – on June 13th, 15th and 17th from 8:30am-Noon (appointments not required).  Attached is the Uniform Procedures memo as a reminder of what you will need and how to make purchases.  Please don’t forget to place your order uniforms now, as the school store will be closed later in the summer.
+
+4.)	Lastly, for new parents, please email us a headshot photo of your child so that we can prepare ID tags for the first day of school.
+
+As always, please be in touch if we can answer any additional questions – the best way to reach us is at (212) 641-0260 or admin@nyis.org.
+ 
+Warmly,
+
+Amelia Gary
+The New York International School</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

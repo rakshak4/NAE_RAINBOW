@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Procedures for Cold Weather</name>
+    <style>freeForm</style>
+    <subject>Procedures for Cold Weather</subject>
+    <textOnly>Dear Parents,
+
+I just wanted to clarify procedures on very cold days like today.
+
+First of all it is our intention to remain open.
+The school environment is warm and comfortable for all even in these very low temperatures.
+
+However, if temperatures were to drop much lower (not forecast at this stage) we would obviously continue to review the situation.
+
+Should we close the school for any reason we would communicate this information in the following ways:
+
+An email to all parents would be sent out at the earliest possible stage. (Either the evening before or early that morning)
+We would phone all class representatives for every class to assist with contacting parents
+
+When extreme temperatures or weather conditions are forecast therefore please can you check your emails regularly before setting off for school.
+
+Of course, no news is good news and please understand that we will only consider closing the schools if health and safety is compromised in anyway.
+
+Best regards,
+Paul Seedhouse
+Headteacher
+The International School of Moscow
+Tel:  +7 (499) 922 44 00
+Fax: +7 (499) 922 44 00 Ext.4
+www.internationalschool.ru
+Part of The British Schools Group
+
+*Disclaimer:*
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

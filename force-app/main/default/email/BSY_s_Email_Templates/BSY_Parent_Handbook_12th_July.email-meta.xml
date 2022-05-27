@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Parent Handbook 2015-2016</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>BSY Parent Handbook 12th July</name>
+    <style>freeForm</style>
+    <subject>BSY Parent Handbook</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

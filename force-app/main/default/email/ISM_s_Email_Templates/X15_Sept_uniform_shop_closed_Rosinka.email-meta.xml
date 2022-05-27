@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in August 2014</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>15 Sept uniform shop closed Rosinka</name>
+    <style>freeForm</style>
+    <subject>New Rosinka Uniform Shop Procedure</subject>
+    <textOnly>The International School
+of Moscow
+Chartered By The British Schools Foundation
+
+
+Dear Parents,
+
+To address the long queues in the uniform shop and make the waiting time more reasonable, we will be organising sales by year group from Friday, 5th September, until Friday, 12th September in accordance with the following schedule:
+
+Pre-Nursery, Nursery and Reception:
+Friday and Monday, September 5 &amp; 8.
+
+Year 1-3:
+Tuesday and Wednesday, September 9 &amp;10.
+
+Year 4-7:
+Thursday and Friday, September 11 &amp; 12.
+
+Hours are 8:15 am until 4 pm.
+
+Families with siblings will be able to purchase uniforms for all children on the same day (visiting the shop on the date allocated for one of the attended year groups). If you are unable to adhere to the schedule please contact Daria or Elena at rosinka.accounts@britishschools.co.uk to schedule an appointment on a different day.
+
+We apologise for not introducing staggered sales earlier and for the inconveniences caused by the queues in the uniform shop during the last days. While we encourage all pupils to wear uniform every day wherever possible, in view of the delays we will only reasonably expect every child to have full uniform by Monday, 15 September. We hope that you find this a reasonable approach.
+
+Kind Regards,
+
+Rosinka Team
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

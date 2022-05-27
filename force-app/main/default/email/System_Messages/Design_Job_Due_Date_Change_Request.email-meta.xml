@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email sent to request a change of due date</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NAE_Branding_Letterhead_Generic</letterhead>
+    <name>Design Job Due Date Change Request</name>
+    <style>freeForm</style>
+    <subject>Design Job- Request to Change Due date - {!Design_Job__c.Name}</subject>
+    <textOnly>The British Schools
+Foundation
+System Message
+
+
+Dear {!Design_Job__c.Contact_Person__c},
+
+Ashley would like to request a change of due date for the following design job:
+
+Subject: {!Design_Job__c.Copy_Subject__c}
+
+The due date originally was set for {!Design_Job__c.Due_Date__c}. It is requested that its changed for {!Design_Job__c.Due_Date_Revision_Request__c}.
+
+If you accept this change, please proceed to the link below and change the due date. This will greatly help Ashley to manage his workload.
+
+{!Design_Job__c.Link}
+
+
+
+
+
+
+
+
+
+__________________________________________________________
+Beijing - Moscow- Kuala Lumpur -Sao Paulo - Manila - Guangzhou - Nanjing - Tashkent - Marbella - Pamplona</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

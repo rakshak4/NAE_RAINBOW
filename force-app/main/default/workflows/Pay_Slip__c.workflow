@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Send_Pay_Slip</fullName>
+        <description>Send Pay Slip</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Staff_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>All_School_Templates/Pay_Slip</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Pay_Slip_BSKL</fullName>
+        <description>Send Pay Slip BSKL</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Staff_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>All_School_Templates/Pay_Slip_BSKL</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Copy_Exchange_Rate_Gains_Losses</fullName>
+        <field>Copy_Exchange_Rate_Losses__c</field>
+        <formula>Net_Exchange_Rate_Gain_Loss__c</formula>
+        <name>Copy Exchange Rate Gains/Losses</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Copy_Exchange_Rate_Gains_Losses_2</fullName>
+        <field>Copy_Exchange_Rate_Gain_Loss_Worflow__c</field>
+        <formula>Exchange_Loss_Gain__c</formula>
+        <name>Copy Exchange Rate Gains/Losses 2</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Copy_Staff_Email</fullName>
+        <field>Staff_Email__c</field>
+        <formula>Employment_Agreement__r.Staff_Member__r.Email_1__c</formula>
+        <name>Copy Staff Email</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Copy_Total_to_be_Paid</fullName>
+        <field>Total_to_be_Paid_Workflow_generated__c</field>
+        <formula>Total_to_be_Paid__c</formula>
+        <name>Copy Total to be Paid</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Copy_Total_to_be_Paid_Base_Currency</fullName>
+        <field>Copy_Salary_Currency_Worflow__c</field>
+        <formula>Copy_Salary_base_currency__c</formula>
+        <name>Copy Total to be Paid Base Currency</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Pay Slip To BSKL Staff</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Pay_Slip__c.Name</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Pay_Slip__c.Email_on_Save__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Pay_Slip__c.School__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Kuala Lumpur</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Send_Pay_Slip_BSKL</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Pay_Slip__c.To__c</offsetFromField>
+            <timeLength>-7</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Pay Slip To Staff %28Default%29</fullName>
+        <actions>
+            <name>Send_Pay_Slip</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Pay_Slip__c.Generate_Pay_Slip_On__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Pay_Slip__c.Email_on_Save__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Pay_Slip__c.School__c</field>
+            <operation>notEqual</operation>
+            <value>The British International School of Kuala Lumpur</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <offsetFromField>Pay_Slip__c.To__c</offsetFromField>
+            <timeLength>-7</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Pay Slip To Staff %28Specified Date%29</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Pay_Slip__c.Name</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Pay_Slip__c.Email_on_Save__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Pay_Slip__c.School__c</field>
+            <operation>notEqual</operation>
+            <value>The British International School of Kuala Lumpur</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Pay_Slip__c.Generate_Pay_Slip_On__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Sends payslips to staff according to the &apos;Generate Pay Slip On&apos; date (all except KL)</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Send_Pay_Slip</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Pay_Slip__c.Generate_Pay_Slip_On__c</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Pay Slips Instant Workflows</fullName>
+        <actions>
+            <name>Copy_Exchange_Rate_Gains_Losses</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Copy_Exchange_Rate_Gains_Losses_2</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Copy_Staff_Email</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Copy_Total_to_be_Paid</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Copy_Total_to_be_Paid_Base_Currency</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Pay_Slip__c.Name</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Used to bypass the 5000 character limit.</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

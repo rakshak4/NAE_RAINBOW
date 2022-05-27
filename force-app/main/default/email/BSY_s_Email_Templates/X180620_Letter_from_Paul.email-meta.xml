@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>180620 Letter from Paul</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>180620 Letter from Paul</name>
+    <style>freeForm</style>
+    <subject>Letter from Paul Holyome</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

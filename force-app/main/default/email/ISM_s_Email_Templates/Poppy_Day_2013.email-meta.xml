@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Poppy Day 2013</name>
+    <style>freeForm</style>
+    <subject>Poppy Day</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+Poppies will be on sale tomorrow till the end of the week.
+
+Please be aware that we have a limited supply of poppies.
+
+A simple donation will mean that your child can wear their poppy this week and on Monday 11th November to remember those who lost their lives in wars and conflicts.
+
+Why a poppy?
+
+http://projectbritain.com/remembrance/poppy.htm
+
+When?
+
+The eleventh hour of the eleventh day of the eleventh month marks the signing of the Armistice, on 11th November 1918, to signal the end of World War One.
+
+At ISM we will have two minutes silence around 11am on Monday the 11th of November.
+
+For more information about Remembrance Day go to:
+
+http://www.bbc.co.uk/remembrance/how/
+
+Hope to see pupils &amp; adults of ISM wearing their poppies this week, there will be opportunities to discuss their significance at school, however it would be wonderful if you had a chance to share the above websites with your children.
+
+Best Regards,
+
+Clair Doubleday (Head Of Lower Campus)
+
+The International School of Moscow
+
+World Class Education
+
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

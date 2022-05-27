@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Adhoc email template</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Enrolment at BSN</name>
+    <style>freeForm</style>
+    <subject>Place confirmed at BSN</subject>
+    <textOnly>British School of Navarra
+Part of The British Schools Foundation
+
+
+
+
+xxxxxxxx
+
+Estimado
+
+Le comunicamos que ya hemos recibido confirmación de la transferencia para la matrícula de XXXXXXX y su plaza queda confirmada para septiembre 2018.
+
+Adjunto encontrarán el calendario escolar para el curso 2018-19 que comenzará el 3 de Septiembre.
+
+
+Una vez más queremos darles de nuevo la bienvenida a la comunidad del BSN!!
+
+Si tienen alguna duda o necesitan alguna aclaración por favor no duden en ponerse en contacto con nosotros.
+
+Les saluda atentamente,
+Admissions Department</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Weekly Bulletin 2013-06-21</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Weekly Bulletin 2013-06-21</name>
+    <style>freeForm</style>
+    <subject>Weekly Bulletin 2013-06-21</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Next week is the last week of the academic year. As you can see, it’s as busy as ever with at least 3 major events scheduled.
+
+British Day: This event was extremely well attended with over 3,000 guests and was very successful despite the weather. The Beijing Beatles managed to play three fabulous sets and a world record attempt was witnessed. Thanks to the families that attended the event. The EFC and Actionaid raised a considerable amount due to the generosity of our community.
+
+Residential Trips: At the time of writing the Year 10’s have returned and the Year 7’s are en route to the airport. I hope that students had a rewarding yet challenging time. There will be a chance to evaluate the programme so that we can make further refinements for next year. I would like to thank Ms. Welch for her efforts in overhauling last year’s residential trips.
+
+Swimming gala: On Tuesday morning the secondary school will be having the Swimming gala. There will be points up for grabs and these could potentially decide which house wins the Overall House tournament, as this competition is extremely close. The EFC have kindly agreed to sell drinks and snacks at this event.
+
+Music festival: On Wednesday, the students are involved with a Performing Arts festival there will be a house element as well as bands from across the range of year groups.
+
+Awards day: On Friday, 28th June the school will be celebrating the success of our students with its annual Speech Day Awards ceremony. This is an opportunity to enjoy a review of the year and for outstanding students to pick up awards. The school cordially invites all of our parent body to the event to formally mark the end of the academic year.
+
+Day
+
+Activity
+
+When
+
+Staff
+
+Monday 24th June
+
+Year 10 reports out
+
+Full choir rehearsal
+
+8:00-8:10am
+
+1:00-1:40pm
+
+MH
+
+NR
+
+Tuesday 25th June
+
+Year 12 reports out
+
+Swimming Gala
+
+Choir off practice at the Sofitel
+
+
+8:00-8:10am
+
+8:30-12:40pm
+
+11:00am-3:00pm
+
+MH
+
+AGG
+
+NR
+
+Wednesday 26th
+
+June
+
+Summer Arts Festival
+
+All day
+
+NR
+
+Thursday 27th June
+
+KS3 House activity morning
+
+Final Assembly
+
+
+8:30 – 12:40
+
+2:00-3:00pm
+
+RE
+
+IR
+
+Friday 28th June
+
+Speech Day
+
+9:30-12:00pm
+
+MT
+
+Kind Regards,
+
+Mr. Iain Ruck
+Head of Secondary
+The British School of Guangzhou
+World Class Education
+
+_______________________________________________________
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

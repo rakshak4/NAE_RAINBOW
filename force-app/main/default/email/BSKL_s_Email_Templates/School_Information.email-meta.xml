@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>School Information</name>
+    <style>freeForm</style>
+    <subject>School Information</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+
+We hope you are enjoying your summer breaks.
+We just wanted to update you all on some things regarding the school and the new academic year.
+- Meet the teacher afternoon will be held on 29th August starting at 2pm.  You are all welcome to come into school at this point to meet our academic staff.
+- Many of you have enquired after our school uniforms and when they will be ready to purchase.  They will hopefully be arriving in school this week.  We are very sorry to say that there have been one or two delays to the new delivery but as soon as we have them in we will email you.  At the same time you will also be able to collect the parent/student handbook, student ID cards and car stickers.  We do have some uniforms in stock and if you are in a hurry to purchase we would recommend that you call the school first and make an appointment to come in accordingly.   Additionally we wish to recommend that if possible you do not purchase uniforms on the meet the teacher afternoon as the school is particularly busy at this time.
+- The first day of our new academic year is Monday 3rd September and classrooms are open to students from 7.45am.  Academic staff will be in their respective classrooms from this time.  We wish to politely request that you do not drop children off before this time.
+We look forward to seeing you all in school very soon!
+
+
+
+Kind Regards,
+
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

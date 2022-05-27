@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Sends an email to the school IT department when there is an error in the School Hub / Parent Portal automated user creation process</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Sys/Adm - Portal User Creation Error (Account)</name>
+    <style>freeForm</style>
+    <subject>Error in Portal User Creation</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

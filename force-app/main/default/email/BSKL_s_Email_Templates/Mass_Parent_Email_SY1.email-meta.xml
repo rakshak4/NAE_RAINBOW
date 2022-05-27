@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Mass Parent Email SY1</name>
+    <style>freeForm</style>
+    <subject>BSKL Saturday Football Development Programme</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+
+Dear Parents,
+We are thrilled to announce details of a great Football programme for Years 3 to Year 8 at BSKL!
+Please follow the below link for more details of the course:
+
+https://eu1.salesforce.com/sfc/p/D0000000DDpnrCY5sjpSDXuS5IB_.WEykNMRnWE=
+
+To sign up, kindly fill in the application form through the link and make the payment of RM 300 per student at the school reception.  There are limited places available so it is a first come first served basis.
+Should you have any questions please do not hesitate to contact Harrie Thomson our Head of PE on harrie.thomson@britishschool.edu.my
+
+
+Kind Regards,
+
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

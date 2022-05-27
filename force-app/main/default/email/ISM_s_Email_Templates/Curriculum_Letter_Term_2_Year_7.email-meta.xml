@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Curriculum Letter Term 2 - Year 7</name>
+    <style>freeForm</style>
+    <subject>Curriculum Letter Term 2 - Year 7</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Sir/Madam,
+
+
+Please click here to download the curriculum information for all subjects for this Spring Term 2014. If you have any questions pertaining to the information contained in this curriculum letter, please contact the relevant teachers of each subject.
+
+
+Key dates for this term:
+
+
+January 20th – 31st Year 11 Mock Examinations
+
+January 28th Tuesday ASAs begin
+
+January 29th Wednesday ASAs begin
+
+February 8th – 9th Weekend Honk rehearsals 10:00 – 16:00
+
+February 10th – 14th  Secondary International Week (Y7-10)
+
+February 17th Honk Performance 6:00pm
+
+February 18th Honk Performance 6:00pm
+
+February 24th Half term holiday begins
+
+
+March 3rd                               School resumes
+
+March 5th ISM Maths Day
+
+March 18th Tuesday ASAs end
+
+March 19th Wednesday ASAs end
+
+March 28th Y7-10 Interim Reports issued
+
+April 1st IGCSE Options Evening 6:00pm
+
+April 2nd A Level Options Evening
+
+April 6th PTCs Y7-11
+
+April 7th PTCs Y7-11
+
+April 7th – 9th Year 9 Checkpoint Examinations
+
+April 10th Secondary Swimming Gala (AM)
+
+April 11th End of term – noon finish.
+
+
+
+Please note that additional information regarding the above events will be sent out as the term progresses.
+
+
+Kind regards
+
+
+Mrs. Hamilton
+
+Deputy Head of Secondary
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

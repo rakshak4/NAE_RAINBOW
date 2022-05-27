@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20140908 - Y5&amp;6 Enrichment Sign Up</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20140908 - Y5&amp;6 Enrichment Sign Up</name>
+    <style>freeForm</style>
+    <subject>Year 5 &amp; 6 Enrichment Sign Up</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}
+
+The sign up for enrichment activities will be available from 12pm on Tuesday (tomorrow), 9th September.
+
+To view the list of enrichment activities for Year 5 &amp; 6, please click on the link below:
+
+Year 5 &amp; 6 (Thursday) Enrichment List (https://docs.google.com/spreadsheets/d/1aBb1fTHT8gsOMeMCvdg0MmjWL7alW3CRIgDbsUI3j14/edit?usp=sharing)
+
+Please click on the link below and complete and submit the online sign up form:
+
+Year 5 &amp; 6 Online Sign Up Form (https://docs.google.com/forms/d/16g6f9bT3E8lORVS3Dq4kjghUhQA-qdy89giyNpNAbRw/viewform)
+
+The majority of activities are free but there are a few which have a cost attached. Students can sign up for these using the online form, but full payment must be made to the Finance department at BSKL (Primary Campus) before we can guarantee your child&apos;s place in that activity. This must be done before Wednesday September 17th - the first day of enrichment activities.
+
+If you have any questions, please feel free to contact the Primary Enrichment Coordinator, Punitha Ganesan at punitha.ganesan@britishschool.edu.my
+
+
+Kind regards,
+
+Admin Team
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,615 @@
+<apex:page standardcontroller="Document__c" sidebar="false" showHeader="false"            contentType="application/x-pdf#{!Document__c.Name}.pdf">
+           <apex:include pageName="PageThatGeneratesPdf"/>
+          
+          
+ <html>
+<head>
+
+
+    <style type="text/CSS" >
+        @page {
+            size: letter;
+            margin: 25mm;
+            @top-center {
+                content: "Sample";
+            }
+            @bottom-center {
+                content: "Page " counter(page) " of " counter(pages);
+            }
+        }
+        .page-break {
+            display:block;
+            page-break-after:always;
+        }
+        body {
+            font-family:arial,helvetica,sans-serif;
+        }
+    </style>
+    </head>
+
+<body>
+   
+    
+            <!-- ********** Output Panel for Record Type : Document **********  -->   
+    <apex:outputpanel rendered="{!OR(ISNULL(Document__c.RecordTypeId),CASESAFEID(Document__c.RecordTypeId)='0126F000001hVzoQAE')}">
+    
+           <table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 100%; "> 
+          
+                <tr >
+                <td></td>
+                    <td>
+                    
+                          <font color="Grey" size="6" face="Arial"><strong>{!Document__c.Name}</strong></font> 
+                       
+                    </td>
+                    <td><apex:image id="Image" value="https://c.ap4.content.force.com/servlet/servlet.ImageServer?id=0156F00000EyWvb&oid=00D6F000001cXAR" width="50%" height="50%"/> </td>
+                </tr>
+                <tr>
+                <td width="50px"></td>
+                    <td>
+                        <font color="Orange" size="3" style="italic" face="Arial">Document</font></td>
+                        <td width="200px">
+                        <font size="0.7"><strong><small>Owner: {!Document__c.Owner_Name__c}</small></strong></font>
+                        
+                        </td>
+                </tr>
+               
+                </table>
+                <hr style=" border-color:Orange;" />
+            
+             
+           
+
+           
+          
+       
+           <table align="left" border="0" cellpadding="1" cellspacing="1" > 
+         <tr>
+         <td></td>
+          
+                    <td>
+                    
+                    
+        
+              
+                   
+                    <apex:outputtext style="font-family:arial,helvetica,sans-serif;" escape="false" value="{!Document__c.Main_Content__c}"/>
+                    <apex:outputtext escape="false" value="{!Document__c.Summary_of_Changes__c}"/>
+                    
+                    
+                
+               </td>
+               </tr>
+               </table>
+              
+            </apex:outputpanel>
+            
+             <!-- ********** Output Panel for Record Type : File Folder **********  -->
+ <!--           <apex:outputpanel rendered="{!OR(ISNULL(Document__c.RecordTypeId),CASESAFEID(Document__c.RecordTypeId)='0126F000001hVzoQAE')}">
+    
+           <table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 100%; "> 
+                <tr >
+                <td width="50px"></td>
+                    <td>
+                          <font color="Grey" size="6" face="Arial"><strong>{!Document__c.Name}</strong></font> 
+                    </td>
+                    <td width="200px"><apex:image id="Image5" value="https://c.ap4.content.force.com/servlet/servlet.ImageServer?id=0156F00000EyWvb&oid=00D6F000001cXAR" width="50%" height="50%"/> </td>
+                </tr>
+                <tr>
+                <td width="50px"></td>
+                    <td>
+                        <font color="Orange" size="3" style="italic" face="Arial">File Folder</font></td>
+                        <td width="200px">
+                        <font size="0.7"><strong>Owner: {!Document__c.Owner_Name__c}</strong></font>
+                        </td>
+                </tr>
+                </table>
+                <hr style=" border-color:Orange;" />
+
+        
+              
+            </apex:outputpanel>    --!>
+            
+            
+                <!-- ********** Output Panel for Record Type : Policy / Procedure **********  -->
+ <!--         <apex:outputpanel rendered="{!OR(ISNULL(Document__c.RecordTypeId),CASESAFEID(Document__c.RecordTypeId)='??????')}">
+    
+           <table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 100%; "> 
+                <tr >
+                <td width="50px"></td>
+                    <td>
+                          <font color="Grey" size="6" face="Arial"><strong>{!Document__c.Name}</strong></font> 
+                    </td>
+                    <td width="200px"><apex:image id="Image2" value="https://c.ap4.content.force.com/servlet/servlet.ImageServer?id=0156F00000EyWvb&oid=00D6F000001cXAR" width="50%" height="50%"/> </td>
+                </tr>
+                <tr>
+                <td width="50px"></td>
+                    <td>
+                        <font color="Orange" size="3" style="italic" face="Arial">School Policy/Procedure</font></td>
+                        <td width="200px">
+                        <font size="0.7"><strong><small>Owner: {!Document__c.Owner_Name__c}</small></strong></font>
+                        </td>
+                </tr>
+                </table>
+                <hr style=" border-color:Orange;" />
+
+           <table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 100%; "> 
+         <tr>
+         <td width="50px"></td>
+          
+                    <td>
+
+                    <apex:outputtext escape="false" value="{!Document__c.Main_Content__c}"/>
+                    <apex:outputtext escape="false" value="{!Document__c.Summary_of_Changes__c}"/>
+                
+               </td>
+               </tr>
+               </table>
+              
+            </apex:outputpanel> -->
+            
+            
+            
+           
+            
+            
+            
+            
+            <!-- ********** Output Panel for Record Type : Minutes of Meetings **********  -->
+            <apex:outputpanel rendered="{!OR(ISNULL(Document__c.RecordTypeId),CASESAFEID(Document__c.RecordTypeId)='0126F000001hVzqQAE')}">
+            <table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 100%; "> 
+                <tr >
+                <td width="50px"></td>
+                    <td>
+                          <font color="Grey" size="6" face="Arial"><strong>{!Document__c.Name}</strong></font> 
+                    </td>
+                    <td width="200px"><apex:image id="Image3" value="https://c.ap4.content.force.com/servlet/servlet.ImageServer?id=0156F00000EyWvb&oid=00D6F000001cXAR" width="50%" height="50%"/> </td>
+                </tr>
+                <tr>
+                <td width="50px"></td>
+                    <td>
+                        <font color="Orange" size="3" style="italic" face="Arial">Minutes of Meeting</font></td>
+                        <td width="200px">
+                        <font size="0.7"><strong><small>Owner: {!Document__c.Owner_Name__c}</small></strong></font>
+                        </td>
+                </tr>
+                </table>
+                <hr style=" border-color:Orange;" />
+                
+           <table  align="center">
+            <tbody>
+                <tr style="width: 600px;">
+                    <td style="width: 200px;text-align: right;background-color: #182a4c; ">
+                        <span style="color:#ffffff;"><span style="font-size:16px;"><strong><span style="font-family: arial, helvetica, sans-serif; ">Title of Meeting:</span></strong></span></span></td>
+                    <td style="width: 600px;text-align: left;background-color:#ededed ">
+                        <span style="color:#182a4c;"><strong><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">&nbsp;</span></span></strong></span><span style="color:#182a4c;"><strong><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">{!Document__c.Name}</span></span></strong></span></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;background-color: #182a4c; ">
+                        <strong><span style="color:#ffffff;"><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">Date:</span></span></span></strong></td>
+                    <td style="text-align: left;background-color:#ededed ">
+                        <span style="color:#182a4c;"><strong><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">&nbsp;{!Document__c.Date__c}</span></span></strong></span></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;background-color: #182a4c; ">
+                        <strong><span style="color:#ffffff;"><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">Location</span></span></span></strong></td>
+                    <td style="text-align: left;background-color:#ededed ">
+                        <span style="color:#182a4c;"><strong><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">&nbsp;{!Document__c.Location__c}</span></span></strong></span></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;background-color: #182a4c; ">
+                        <strong><span style="color:#ffffff;"><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">Attendees</span></span></span></strong></td>
+                    <td style="text-align: left;background-color:#ededed ">
+                        <span style="color:#182a4c;"><strong><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">&nbsp;{!Document__c.Attendees__c}</span></span></strong></span></td>
+                </tr>
+                
+            </tbody>
+        </table>
+        <div style="text-align: right;">
+            <div style="text-align: center;">
+                <div style="text-align: left;">
+                    &nbsp;</div>
+            </div>
+        </div>
+        <div style="text-align: right;">
+            &nbsp;</div>
+        <div style="text-align: left; ">
+            <br />
+            <table align="center" cellpadding="15" cellspacing="0" style=" width: 600px; text-align: left; border: 1px solid #000 ">
+                <tbody>
+                    <tr>
+                        <td style="background-color: #182a4c;height:10px ">
+                            <span style="color:#ffffff;"><font class="Apple-style-span" face="arial, helvetica, sans-serif"><strong>Agenda</strong></font></span></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">{!Document__c.Agenda__c}</span></span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p>
+            &nbsp;</p>
+        <table align="center" cellpadding="15" cellspacing="0" style=" width: 600px; text-align: left; border: 1px solid #000 ">
+            <tbody>
+                <tr>
+                    <td style="background-color: #182a4c;height:10px ">
+                        <span style="color:#ffffff;"><font class="Apple-style-span" face="arial, helvetica, sans-serif"><strong>Minutes</strong></font></span></td>
+                </tr>
+                <tr>
+                    <td>
+                        <span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;"> <apex:outputtext escape="false" value="{!Document__c.Main_Content__c}"/></span></span></td>
+                </tr>
+            </tbody>
+        </table>
+        <div style="text-align: left; ">
+           
+            </div>
+           
+                    <table align="center" cellpadding="15" cellspacing="0" style=" width: 600px; text-align: left; border: 1px solid #000 ">
+                        <tbody>
+                            <tr>
+                                <td style="background-color: #182a4c;width: 25%;height: 20px;border: 1px solid #000">
+                                    <span><span style="color:#ffffff;"><strong><span style="font-family:arial,helvetica,sans-serif;">Discussion</span></strong></span></span></td>
+                                <td style="background-color: #182a4c;width: 75%;height: 20px;border: 1px solid #000">
+                                    <font class="Apple-style-span" color="#ffffff" face="arial, helvetica, sans-serif"><b>Action/Decision</b></font></td>
+                            </tr>
+                            <tr>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif"><strong>{!Document__c.Discussion_1__c}</strong></font></span></td>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif">{!Document__c.Action_Decision_1__c}</font></span></td>
+                            </tr>
+                            <tr>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif"><strong>{!Document__c.Discussions_2__c}</strong></font></span></td>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif">{!Document__c.Action_Decision_2__c}</font></span></td>
+                            </tr>
+                            <tr>
+                                <td style="height: 140px;border: 1px solid #000 " valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif"><strong>{!Document__c.Discussion_3__c}</strong></font></span></td>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif">{!Document__c.Action_Decision_3__c}</font></span></td>
+                            </tr>
+                            <tr>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif"><strong>{!Document__c.Discussion_4__c}</strong></font></span></td>
+                                <td style="height: 140px;border: 1px solid #000 " valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif">{!Document__c.Action_Decision_4__c}</font></span></td>
+                            </tr>
+                            <tr>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif"><strong>{!Document__c.Discussion_5__c}</strong></font></span></td>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif">{!Document__c.Action_Decision_5__c}</font></span></td>
+                            </tr>
+                            <tr>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif"><strong>{!Document__c.Discussion_6__c}</strong></font></span></td>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif">{!Document__c.Action_Decision_6__c}</font></span></td>
+                            </tr>
+                            <tr>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif"><strong>{!Document__c.Discussion_7__c}</strong></font></span></td>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif">{!Document__c.Action_Decision_7__c}</font></span></td>
+                            </tr>
+                            <tr>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif"><strong>{!Document__c.Discussion_8__c}</strong></font></span></td>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif">{!Document__c.Action_Decision_8__c}</font></span></td>
+                            </tr>
+                            <tr>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif"><strong>{!Document__c.Discussion_9__c}</strong></font></span></td>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif">{!Document__c.Action_Decision_9__c}</font></span></td>
+                            </tr>
+                            <tr>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif"><strong>{!Document__c.Discussion_10__c}</strong></font></span></td>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif">{!Document__c.Action_Decision_10__c}</font></span></td>
+                            </tr>
+                            <tr>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif"><strong>{!Document__c.Discussion_11__c}</strong></font></span></td>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif">{!Document__c.Action_Decision_11__c}</font></span></td>
+                            </tr>
+                            <tr>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif"><strong>{!Document__c.Discussion_12__c}</strong></font></span></td>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif">{!Document__c.Action_Decision_12__c}</font></span></td>
+                            </tr>
+                            <tr>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif"><strong>{!Document__c.Discussion_13__c}</strong></font></span></td>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif">{!Document__c.Action_Decision_13__c}</font></span></td>
+                            </tr>
+                            <tr>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif"><strong>{!Document__c.Discussion_14__c}</strong></font></span></td>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif">{!Document__c.Action_Decision_14__c}</font></span></td>
+                            </tr>
+                            <tr>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif"><strong>{!Document__c.Discussion_15__c}</strong></font></span></td>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif">{!Document__c.Action_Decision_15__c}</font></span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+              
+            </apex:outputpanel>
+            
+             <!-- ********** Output Panel for Record Type : Picture Folder **********  -->   
+ <!--   <apex:outputpanel rendered="{!OR(ISNULL(Document__c.RecordTypeId),CASESAFEID(Document__c.RecordTypeId)='???????')}">
+    
+         <table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 100%; "> 
+          
+                <tr >
+                <td width="50px"></td>
+                    <td>
+                    
+                          <font color="Grey" size="6" face="Arial"><strong>{!Document__c.Name}</strong></font> 
+                       
+                    </td>
+                    <td width="200px"><apex:image id="Image4" value="https://c.ap4.content.force.com/servlet/servlet.ImageServer?id=0156F00000EyWvb&oid=00D6F000001cXAR" width="50%" height="50%"/> </td>
+                </tr>
+                <tr>
+                <td width="50px"></td>
+                    <td>
+                        <font color="Orange" size="3" style="italic" face="Arial">Document</font></td>
+                        <td width="200px">
+                        <font size="0.7"><strong><small>Owner: {!Document__c.Owner_Name__c}</small></strong></font>
+                        
+                        </td>
+                </tr>
+               
+                </table>
+                <hr style=" border-color:Orange;" />  
+            
+             
+           
+
+          
+   <apex:pageBlockSection columns="3" >      
+       
+       <apex:repeat value="{!Document__c.Attachments}" var="att">
+
+
+ 
+ <table>
+<td>
+<tr> 
+<apex:image width="300" height="200" rendered="{!OR(Contains(att.Name,'.pdf'),Contains(att.Name,'.jpg'),Contains(att.Name,'.gif'),Contains(att.Name,'.png'))}"  value="https://s3.amazonaws.com/schooldocuments/{!att.Name}" />
+</tr>
+<tr> 
+<apex:outputText rendered="{!OR(Contains(att.Name,'.pdf'),Contains(att.Name,'.jpg'),Contains(att.Name,'.gif'),Contains(att.Name,'.png'))}" >
+ <strong>  {!att.Name}</strong>
+ </apex:outputText>
+</tr>
+</td>
+</table>
+</apex:repeat>
+       
+      </apex:pageBlockSection> 
+       
+        
+              
+            </apex:outputpanel>   --!>
+            
+        <!-- ********** Output Panel for Record Type : Decision **********  -->   
+<!--    <apex:outputpanel rendered="{!OR(ISNULL(Document__c.RecordTypeId),CASESAFEID(Document__c.RecordTypeId)='????')}">
+    
+         <table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 100%; "> 
+          
+                <tr >
+                <td width="50px"></td>
+                    <td>
+                    
+                          <font color="Grey" size="6" face="Arial"><strong>{!Document__c.Name}</strong></font> 
+                       
+                    </td>
+                    <td width="200px"><apex:image id="Image6" value="https://c.ap4.content.force.com/servlet/servlet.ImageServer?id=0156F00000EyWvb&oid=00D6F000001cXAR" width="50%" height="50%"/> </td>
+                </tr>
+                <tr>
+                <td width="50px"></td>
+                    <td>
+                        <font color="Orange" size="3" style="italic" face="Arial">Decision</font></td>
+                        <td width="200px">
+                        <font size="0.7"><strong><small>Owner: {!Document__c.Owner_Name__c}</small></strong></font>
+                        
+                        </td>
+                </tr>
+               
+                </table>
+                <hr style=" border-color:Orange;" />       
+            
+            
+            <table  align="center">
+            <tbody>
+                <tr style="width: 600px;">
+                    <td style="width: 300px;text-align: right;background-color: #182a4c; ">
+                        <span style="color:#ffffff;"><span style="font-size:16px;"><strong><span style="font-family: arial, helvetica, sans-serif; ">Title:</span></strong></span></span></td>
+                    <td style="width: 600px;text-align: left;background-color:#ededed ">
+                        <span style="color:#182a4c;"><strong><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">&nbsp;</span></span></strong></span><span style="color:#182a4c;"><strong><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">{!Document__c.Name}</span></span></strong></span></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;background-color: #182a4c; ">
+                        <strong><span style="color:#ffffff;"><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">Date:</span></span></span></strong></td>
+                    <td style="text-align: left;background-color:#ededed ">
+                        <span style="color:#182a4c;"><strong><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">&nbsp;{!Document__c.Date__c}</span></span></strong></span></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;background-color: #182a4c; ">
+                        <strong><span style="color:#ffffff;"><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">Location</span></span></span></strong></td>
+                    <td style="text-align: left;background-color:#ededed ">
+                        <span style="color:#182a4c;"><strong><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">&nbsp;{!Document__c.Location__c}</span></span></strong></span></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;background-color: #182a4c; ">
+                        <strong><span style="color:#ffffff;"><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">Person(s) Making Decision</span></span></span></strong></td>
+                    <td style="text-align: left;background-color:#ededed ">
+                        <span style="color:#182a4c;"><strong><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">&nbsp;{!Document__c.Attendees__c}</span></span></strong></span></td>
+                </tr>
+                
+            </tbody>
+        </table>
+        <div style="text-align: right;">
+            <div style="text-align: center;">
+                <div style="text-align: left;">
+                    &nbsp;</div>
+            </div>
+        </div>
+        <div style="text-align: right;">
+            &nbsp;</div>
+        <div style="text-align: left; ">
+            <br />
+            
+        </div>
+    
+            
+              
+                    <table align="center" cellpadding="15" cellspacing="0" style=" width: 600px; text-align: left; border: 1px solid #000 ">
+                        <tbody>
+                            <tr>
+                                <td style="background-color: #182a4c;width: 25%;height: 20px;border: 1px solid #000">
+                                    <span><span style="color:#ffffff;"><strong><span style="font-family:arial,helvetica,sans-serif;">Issue</span></strong></span></span></td>
+                                <td style="background-color: #182a4c;width: 75%;height: 20px;border: 1px solid #000">
+                                    <font class="Apple-style-span" color="#ffffff" face="arial, helvetica, sans-serif"><b>Action/Decision</b></font></td>
+                            </tr>
+                            <tr>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif"><strong>{!Document__c.Issue_Being_Addressed__c}</strong></font></span></td>
+                                <td style="height: 140px;border: 1px solid #000" valign="TOP">
+                                    <span style="font-size:12px;"><font class="Apple-style-span" face="arial, helvetica, sans-serif">{!Document__c.Action_Decision_1__c}</font></span></td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                    
+            
+             </apex:outputpanel> --!>
+            
+            
+              <!-- ********** Output Panel for Record Type : Job Description **********  -->   
+    <apex:outputpanel rendered="{!OR(ISNULL(Document__c.RecordTypeId),CASESAFEID(Document__c.RecordTypeId)='0126F000001hVzpQAE')}">
+    
+         <table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 100%; "> 
+          
+                <tr >
+                <td width="50px"></td>
+                    <td>
+                    
+                          <font color="Grey" size="6" face="Arial"><strong>{!Document__c.Name}</strong></font> 
+                       
+                    </td>
+                    <td width="200px"><apex:image id="Image7" value="https://c.ap4.content.force.com/servlet/servlet.ImageServer?id=0156F00000EyWvb&oid=00D6F000001cXAR" width="50%" height="50%"/> </td>
+                </tr>
+                <tr>
+                <td width="50px"></td>
+                    <td>
+                        <font color="Orange" size="3" style="italic" face="Arial">Job Description</font></td>
+                        <td width="200px">
+                        <font size="0.7"><strong><small>Owner: {!Document__c.Owner_Name__c}</small></strong></font>
+                        
+                        </td>
+                </tr>
+               
+                </table>
+                <hr style=" border-color:Orange;" />   
+            
+            
+            
+            
+            <table  align="center">
+            <tbody>
+                <tr style="width: 600px;">
+                    <td style="width: 300px;text-align: right;background-color: #182a4c; ">
+                        <span style="color:#ffffff;"><span style="font-size:16px;"><strong><span style="font-family: arial, helvetica, sans-serif; ">Title:</span></strong></span></span></td>
+                    <td style="width: 600px;text-align: left;background-color:#ededed ">
+                        <span style="color:#182a4c;"><strong><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">&nbsp;</span></span></strong></span><span style="color:#182a4c;"><strong><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">{!Document__c.Name}</span></span></strong></span></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;background-color: #182a4c; ">
+                        <strong><span style="color:#ffffff;"><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">Staff Member:</span></span></span></strong></td>
+                    <td style="text-align: left;background-color:#ededed ">
+                        <span style="color:#182a4c;"><strong><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">&nbsp;{!Document__c.Staff_Member_Name__c}</span></span></strong></span></td>
+                </tr>
+<tr>
+                    <td style="text-align: right;background-color: #182a4c; ">
+                        <strong><span style="color:#ffffff;"><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">Position:</span></span></span></strong></td>
+                    <td style="text-align: left;background-color:#ededed ">
+                        <span style="color:#182a4c;"><strong><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">&nbsp;{!Document__c.Position__c}</span></span></strong></span></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;background-color: #182a4c; ">
+                        <strong><span style="color:#ffffff;"><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">Reporting To:</span></span></span></strong></td>
+                    <td style="text-align: left;background-color:#ededed ">
+                        <span style="color:#182a4c;"><strong><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">&nbsp;{!Document__c.Reporting_To__c}</span></span></strong></span></td>
+                </tr>
+            
+                
+            </tbody>
+        </table>
+        
+            <br />
+            <table align="center" cellpadding="15" cellspacing="0" style=" width: 600px; text-align: left; border: 1px solid #000 ">
+                <tbody>
+                    <tr>
+                        <td style="background-color: #182a4c;height:10px ">
+                            <span style="color:#ffffff;"><font class="Apple-style-span" face="arial, helvetica, sans-serif"><strong>Objective</strong></font></span></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;"><apex:outputtext escape="false" value="{!Document__c.Objective__c}"/></span></span></td>
+                    </tr>
+                </tbody>
+            </table>
+      
+
+            <br />
+            <table align="center" cellpadding="15" cellspacing="0" style=" width: 600px; text-align: left; border: 1px solid #000 ">
+                <tbody>
+                    <tr>
+                        <td style="background-color: #182a4c;height:10px ">
+                            <span style="color:#ffffff;"><font class="Apple-style-span" face="arial, helvetica, sans-serif"><strong>Guidelines</strong></font></span></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;" escape="false"><apex:outputtext escape="false" value="{!Document__c.Main_Content__c}"/></span></span></td>
+                    </tr>
+                </tbody>
+            </table>
+        
+            
+            
+           </apex:outputpanel> 
+            
+            
+            
+            
+            
+            
+            
+            </body>
+            
+         </html>   
+            
+            
+       
+            
+            
+            
+         
+
+    
+</apex:page>

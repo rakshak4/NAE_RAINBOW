@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Lower School Close on Thursday, 22nd Nov.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Lower School Closure</name>
+    <style>freeForm</style>
+    <subject>Lower School Closure</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+School Closure (Lakefront Campus Only)
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We have been informed by the Guangzhou Electricity Bureau that due to maintenance work there will be no electricity on the Lakefront campus on Thursday 22nd November. To ensure we uphold our Health and Safety policies we will be closing the school on this day. Please note that the Nanhu campus will be unaffected by this power cut.
+
+I would like to apologise for any inconvenience this may cause and I shall look forward to re-opening as normal for our non-uniform day on Friday 23rd November.
+
+Thank you in advance for your support with this matter. As I am sure you can imagine it is extremely frustrating to all concerned when we are forced to take such measures. I am sure you will understand that in this particular case matters are beyond our control.
+
+Kind regards,
+
+Miss Kathy
+
+(Head of Lower School)
+
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

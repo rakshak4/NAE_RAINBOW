@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Campus Location Map</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>New Campus Location Map</name>
+    <style>freeForm</style>
+    <subject>New Campus Location Map</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+Just a quick note to remind you that the new campus for the British School of Tashkent opens tomorrow.
+
+Pre-Nursery, Nursery and Reception will continue to attending the Lower School Campus as usual. Year 1-9 students are expected to arrive at the new campus tomorrow morning at the usual time.
+
+The new campus has 3 entrances. Tomorrow, on Wednesday, students can use any of the entrances. Staff will meet the students near each entrance and show them to their classrooms. Starting from Thursday students are expected to use the entrance designated for their year group. Teachers will take the students on a tour of the new campus tomorrow and show them their entrance.
+
+Please find below a location map for your reference.
+
+Thank you and look forward to seeing you tomorrow.
+
+Warm Regards,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Уважаемые родители!
+
+Напоминаем Вам о том, что завтра состоится открытие нового здания Британской школы города Ташкента.
+
+Учащиеся групп Pre-Nursery, Nursery и Reception продолжат учёбу в здании детского сада, а ученикам с 1-го по 9-ые классы следует приехать в новое здание школы в обычное время.
+
+В новом кампусе нашей школы имеется 3 входа. Завтра (19 апреля, среда) учащиеся смогут использовать любой из этих входов. Наши сотрудники будут встречать учащихся у каждого входа и показывать, как пройти в свои классы. Начиная с четверга (20 апреля), ученики будут использовать вход, предназначенный именно для их возрастной категории. Завтра преподаватели устроят учащимся тур по новому зданию и покажут какими выходами следует пользоваться той или иной возрастной группе.
+
+Выше приведена карта с расположением нового здания.
+
+С нетерпением ждем встречи с Вами завтра.
+
+С уважением
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

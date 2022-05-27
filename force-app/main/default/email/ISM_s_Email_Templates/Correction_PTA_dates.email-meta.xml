@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Correction PTA dates</name>
+    <style>freeForm</style>
+    <subject>Correction PTA dates</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+
+
+Sorry once again for the overload of emails.
+
+
+
+
+Parent Teacher Consultations
+
+
+
+Just a reminder that meetings will take place next week on Tuesday 26th and Wednesday 27th of March from 4-6pm. These meetings follow on from the reports recently issued this term.
+
+
+
+Best regards,
+
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

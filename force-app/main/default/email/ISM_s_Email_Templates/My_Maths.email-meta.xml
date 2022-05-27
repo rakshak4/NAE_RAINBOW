@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>My Maths</name>
+    <style>freeForm</style>
+    <subject>My Maths</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+All the children in Years 1-3 have been registered on to the Maths website www.mymaths.co.uk. This should help them to structure their Maths work and enable you to see how they are progressing. Your child has already been shown how to use this website during ICT this week.
+
+To get to the materials you first need to log on to the site. &lt;br&gt;Go to www.mymaths.co.uk and login at the top of the homepage. When you get the homepage you will see there is a login section at the top of the screen. You first have to log into the school section of the website.
+
+Our school login is tism &lt;br&gt;Our school password is number.
+
+Each of the lessons in the library has Online Homework. Your child will be directed to do these tasks by their teacher. On the next page your child should enter their private login and password in the pink &apos;My Portal&apos; box. MyMaths.co.uk will then remember who they are and automatically log them into the tasks.
+
+We have provided your child with a login card that you will find inside the blue communication book. There is also a laminated version that your child can keep with them. Please note that children should complete the revision section before they attempt the online homework sheet.
+
+If they have been set a task by their teacher the task will appear under MyTasks. They must complete both pages of the Online Homework for the scores to be saved to the database. Other activities may also appear under MyActivities. If no lessons are appearing then you have a Pop-Up Blocker installed. You MUST allow to use Pop-Ups. &lt;br&gt;&lt;br&gt;You can see all their results by clicking MyResults and track their results by Level by clicking MyLevels. There is a system of Traffic Lights for each of the Tasks to indicate how successful your child has been.&lt;br&gt;&lt;br&gt;If a green light appears next to a topic, they have good skills in this area.&lt;br&gt;If an amber light appears they still have difficulties. &lt;br&gt;If a red light appears they need to go back and relearn the topic. Try the Lesson again or get them to ask their teacher for help. &lt;br&gt;&lt;br&gt;The children may need a little support when first attempting to use this website, but after a few tries, I am sure they will be fine to work independently.
+
+When using an Ipad, download an App named ‘Photon’ and use it as your internet browser. This will enable you to use all features on the mymaths website.
+
+This is optional Maths homework, but it would be great if we got the whole phase involved. The class teacher will set a new piece of homework at least once a week on a Friday and allow your child 1 week to complete the revision and homework sections.
+
+Thank you for your continued support.
+
+Mrs. Elaine Maguire
+
+Lower Campus Maths Coordinator
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

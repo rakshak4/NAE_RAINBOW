@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Note to parents about continuing serving snacks.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Note to parents about snacks</name>
+    <style>freeForm</style>
+    <subject>School snacks</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please note that we will continue to provide snack options for all children in school, therefore please do not send your child in with a snack from home. We have had a very successful trial period and with the feedback we have received from children, staff and parents we will be finalising a snack menu for the remainder of this academic year later this week.
+
+
+Best regards,
+
+
+David Kirkham,
+
+Headmaster
+
+
+Уважаемые родители,
+
+
+Обратите внимание на то, что мы будем продолжать предоставлять варианты закусок для всех детей в школе, поэтому, пожалуйста, не отправляйте своего ребенка с закусками из дома. У нас был очень успешный испытательный срок и мы узнали мнение детей, персонала и родителей по вопросу закусок.  Мы утвердим окончательное меню закусок до окончания этого учебного года в конце этой недели.
+
+
+С уважением,
+
+
+
+Дэвид Киркхам
+
+Директор
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

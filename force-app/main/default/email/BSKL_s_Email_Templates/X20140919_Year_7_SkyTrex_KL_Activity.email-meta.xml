@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20140919 - Year 7 SkyTrex KL Activity</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20140919 - Year 7 SkyTrex KL Activity</name>
+    <style>freeForm</style>
+    <subject>Year 7 SkyTrex KL Activity</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We are delighted to inform you that Year 7 are going out of school on Friday 26th September for a year group &quot;Getting to Know Each Other&quot; activity. They will be accompanied by staff, on school buses, to SkyTrex KL, where a great programme of bonding activities has been put together.
+
+Students must come to school normal time, wearing house t-shirt and PE shorts.
+
+We aim to leave school at 7:45am and students will be registered before they get on the bus. They will be back before 2pm for usual pick up/school bus home.
+
+There will be a nominal fee of RM20 for all students to pay which will be added to your school bill.
+
+Students are encouraged to take drinks and snacks/packed lunch. They will need to bring money should they wish to buy extra drinks from the cafe.
+
+Please could you fill in the application form and ask your child to hand them in to your tutor by Wednesday 24th September. Please click on the link below to download the application form:
+
+SkyTrex Disclaimer Form (https://drive.google.com/file/d/0B57vMviVDx-xLVZNNEh0Y0w1eFdsUHFnSng2VnpzYnF4Vmk0/edit?usp=sharing)
+
+
+Kind regards,
+
+Tory Coates
+Head of Year 7
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

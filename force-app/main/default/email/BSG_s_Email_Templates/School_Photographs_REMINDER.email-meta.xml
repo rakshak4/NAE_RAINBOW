@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Photographs - REMINDER</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>School Photographs - REMINDER</name>
+    <style>freeForm</style>
+    <subject>School Photographs - REMINDER</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+
+
+
+
+
+
+请点击此处阅读此信件的中文版本
+
+
+
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+On Friday of last week (17th January), samples and an order form for &apos;School Photographs&apos; were sent home with your child.
+
+
+Please be reminded that Thursday this week (23rd January) is the deadline for ordering School Photographs. After this date, orders will not be received in school.
+
+
+If you did not receive an order form, please call the school reception desk directly.
+
+
+Kind regards,
+
+
+
+Administration Team
+
+
+
+The British School of Guangzhou
+
+World Class Education
+
+
+
+
+
+_____________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

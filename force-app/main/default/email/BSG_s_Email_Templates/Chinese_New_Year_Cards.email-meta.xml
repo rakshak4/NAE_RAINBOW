@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Primary Production-ALADDIN</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Primary Production-ALADDIN</name>
+    <style>freeForm</style>
+    <subject>Primary Production-ALADDIN</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We are fast approaching our 2013 Primary production of Aladdin. Our students have been extremely busy learning their lines, singing their songs and practicing their dance moves – excitement is definitely building!
+
+This year’s production will take place on the following dates:
+
+Years 2-3 on Wednesday 19th June at 6.30pm
+
+Years 4-6 on Thursday 20th June at 6.30pm
+
+Doors will open at 6.00pm each night for complimentary pre-show refreshments. There will also be a bar selling a selection of beer, wine, non-alcoholic cocktails and soft-drinks for a small cost. Programmes, cast photos and DVDs will also be available for purchase each night.
+
+Tickets are now available to purchase and cost 50RMB each – seats are limited and will be allocated on a first-come-first-served basis. Order yours today!
+
+Please fill in the order form sending back home through your child and hand it back to your child’s class teacher in an envelope with your child’s name, class and the title ‘Aladdin’ written on the front . You must include exact payment. You will receive a receipt from our finance department and your tickets will be sent home to you prior to the event. Seats are pre-allocated and your ticket will state your row and seat number for the performance. Ticket orders must be received with payment by Tuesday 11th June.
+
+Kind regards,
+
+Jude Schroeder
+Production Director
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20150526 Summer Fair 2015 - Raffle tickets</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20150526 Summer Fair 2015 - Raffle tickets</name>
+    <style>freeForm</style>
+    <subject>Summer Fair 2015 -RaffleTickets</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Throughout the morning of Wednesday 27th May, our Secondary Student Council will be selling Summer Fair Raffle tickets. Proceeds from the sales of the tickets will go to a number of causes and charities including Nepal - Dhading Schools, Bungamati DSA School, Pasupathi School and the Disabled New Life Sentre.
+
+Details are as follows:
+
+Summer Fair 2015 Raffle Tickets
+
+RM5 per ticket
+Buy 5 tickets for RM20
+1 booklet = 100 tickets, buy 1 booklet and get 5 more tickets free
+
+Exciting prizes to be won include:
+
+Samsung S6 Phone
+iPad Mini
+Flights to Bali
+Vouchers for High Tea at One World Hotel
+2 Days/1 Night stay at The Royale Chulan Hotel
+Travel voucher worth RM1000
+Vouchers for Health Screening
+Ice Skating Vouchers
+DVD Stereo Set
+XFactory Vouchers
+Fitness Memberships
+Electrical and home appliances (rice cookers, ovens, blenders, deep fryer, home fragrances)
+
+Your child is welcome to bring cash in tomorrow to support these good causes.
+
+Looking forward to all your support.
+
+Kind regards,
+Admin Team
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

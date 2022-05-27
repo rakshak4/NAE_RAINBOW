@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Baker Book Club</name>
+    <style>freeForm</style>
+    <subject>Baker Book Club</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear Parents,
+
+Firstly, the school would like to thank you all for an incredible response to The Baker Book club. With all the school orders we were lucky to receive hundreds of free books for both school libraries.
+
+The majority of the ordered books have now arrived, however, there are some that have not yet been delivered. As soon as they make an appearance at school they will be given out to complete your orders. May we please ask that you check your orders carefully to see if you have received the correct books so far. If you have received the wrong books please return them to school and we can rectify the situation and return the book to the correct recipient. If you can not remember your order please email Miss Salter directly (elizabeth.salter@internationalschool.ru) as she still has all the original orders.
+
+Once again thank you for a fantastic response.
+
+Best regards,
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

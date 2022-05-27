@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>14/12/12 ASA Middle School Registration</name>
+    <style>freeForm</style>
+    <subject>ASA Middle School Registration</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Below are links for the ASA Middle School Registration form and Middle School ASA Information Handbook. Please see the instructions below for completing the forms:
+
+1.    Decide which ASA you would like your children to do from the
+       information provided in the ASA Information Handbook.
+2.    Click on the ‘Registration Form’ link below.
+3.    Fill out all of the information and click on the drop down box to see
+all of the ASA’s for the whole week.
+4.    The order of ASA’s will be Tuesdays, Thursdays, Monday,
+Wednesday and finally Friday’s.
+5.    Only register your child for one ASA for each of the above days.
+6.    You will then receive confirmation via email telling you whether your
+child has been enrolled or put on the waitlist for that ASA.
+7.    If you receive an email saying your child is on the wait list then
+please submit another registration form with your child’s 2nd choice
+for that day.
+8. You must submit separate forms for each ASA’s you wish to register
+your child in. For example if you would like them to do 1 ASA on
+Tuesday and 1 ASA on Thursday you would have to submit 2 forms,
+1 for each ASA.
+
+Please take note of a few key pieces of information regarding ASA’s next term below:
+
+• Please note that the “BSKL Team Penang Team Preparation”; “U11
+BSKL Team Football (Year 6 only from Middle School)”; U11 BSKL
+Team Basketball (Year 7 &amp; 8 only) &amp; “Saxophone Club” are invitation
+only. The teams have been selected from trials last week. Only
+register your child for one of these ASA’s if they have been selected
+for the Teams. The Teams lists were sent out on Wednesday evening
+to all parents so please check if you are unsure.
+•    The registration deadline is one week today on Friday 21st
+December.
+•    Cost for paid ASA’s is a termly fee, not for a set number of weeks or
+sessions. There will be no refunds for missed sessions due to public
+holidays or absences, please note there are only 5 Thursdays in the
+programme next term.
+•    Please note that there is no other method of registration apart from
+using the link below any emailed or scanned responses will not be
+accepted.
+•    All ASA’s Monday  to Thursday will start at 3pm and fin
+
+Registration Form
+Middle School ASA Information
+
+Regards,
+
+Harrie Thomson
+Head of Physical Education
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

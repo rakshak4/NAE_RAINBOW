@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>14/12/12 ASA Primary/Foundation Registration</name>
+    <style>freeForm</style>
+    <subject>ASA Primary/Foundation Registration</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Below are links for the ASA Foundation &amp; Primary Registration form and the ASA Information Handbooks. Please see the instructions below for completing the forms:
+
+Decide which ASA you would like your children to do from the information provided in the ASA Information Handbook.
+Click on the ‘Registration Form’ link below.
+Fill out all of the information and click on the drop down box to see all of the ASA’s for the whole week.
+Only register your child for one ASA for each of the days you wish them to participate.
+You will then receive confirmation via email telling you whether your child has been enrolled or put on the waitlist for that ASA.
+If you receive an email saying your child is on the wait list then please submit another registration form with your child’s 2nd choice for that day.
+You must submit separate forms for each ASA’s you wish to register your child in. For example if you would like them to do 1 ASA on Tuesday and 1 ASA on Thursday you would have to submit 2 forms, 1 for each ASA.
+
+Please take note of a few key pieces of information regarding ASA’s next term below:
+
+Please note that the “BSKL Team Penang Team Preparation”; “U11 BSKL Team Football”; “U9 BSKL Team Football” &amp; “Penang Pre-competition Training” are invitation only. The teams have been selected from trials last week. Only register your child for one of these ASA’s if they have been selected for the Teams. The Teams lists were sent out on Wednesday evening to all parents so please check if you are unsure.
+The registration deadline is one week today on Friday 21st December.
+Cost for paid ASA’s is a termly fee, not for a set number of weeks or sessions. There will be no refunds for missed sessions due to public holidays or absences, please note there are only 5 Thursdays in the programme next term.
+Please note that there is no other method of registration apart from using the link below. Any emailed or scanned responses will not be accepted.
+All ASA’s Monday  to Thursday will start at 3pm and finish at 4pm.  On Friday ASA’s Start at 2pm and will finish at 3pm except for Badminton which will finish at 4pm.
+On Tuesday and Thursday, all school buses will leave at 4pm. Any child not participating in an ASA on this day will need to be picked up by their parents at 3pm.
+Any children who are participating in ASA’s at the club (swimming &amp; tennis) will need to be collected from there at 4pm.
+Parents whose children are participating in ASA’s on Monday, Wednesday or Friday will need to arrange transport for their children as there will be no school bus after their ASA.
+Swim team training information will be out in the new year and has not been included in this sign up process.
+Any ASA payments can be settled with the accounts department directly in the new term, please ensure they are paid before 1st February 2013.
+The ASA start date is on week beginning 21st January 2013 and ends on Wednesday 13th March 2013.
+
+Thank you in advance for your co-operation and understanding. I hope you all have a very Merry Christmas and Happy New Year.
+
+Registration Form
+Foundation/Key Stage 1 ASA Information
+Key Stage 2 ASA Information
+
+Regards,
+
+Sean Allday
+Year 4C Teacher
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

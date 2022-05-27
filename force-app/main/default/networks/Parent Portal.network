@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Network xmlns="http://soap.sforce.com/2006/04/metadata">
+    <allowInternalUserLogin>false</allowInternalUserLogin>
+    <allowMembersToFlag>false</allowMembersToFlag>
+    <changePasswordTemplate>Parent_Portal_Emails/CommunityChangePasswordEmailTemplate</changePasswordTemplate>
+    <communityRoles>
+        <customerUserRole>Parent</customerUserRole>
+        <employeeUserRole>Employee</employeeUserRole>
+        <partnerUserRole>Partner</partnerUserRole>
+    </communityRoles>
+    <description>Parent Portal for The British Schools Foundation</description>
+    <disableReputationRecordConversations>false</disableReputationRecordConversations>
+    <emailFooterLogo>Logos/NAE_Logo_Crown_Only.png</emailFooterLogo>
+    <emailFooterText>Nord Anglia Parent Portal</emailFooterText>
+    <emailSenderAddress>notifications@britishschools.co.uk</emailSenderAddress>
+    <emailSenderName>Nord Anglia Parent Portal</emailSenderName>
+    <enableCustomVFErrorPageOverrides>false</enableCustomVFErrorPageOverrides>
+    <enableDirectMessages>false</enableDirectMessages>
+    <enableGuestChatter>false</enableGuestChatter>
+    <enableGuestFileAccess>false</enableGuestFileAccess>
+    <enableGuestMemberVisibility>false</enableGuestMemberVisibility>
+    <enableInvitation>false</enableInvitation>
+    <enableKnowledgeable>false</enableKnowledgeable>
+    <enableMemberVisibility>false</enableMemberVisibility>
+    <enableNicknameDisplay>false</enableNicknameDisplay>
+    <enablePrivateMessages>true</enablePrivateMessages>
+    <enableReputation>false</enableReputation>
+    <enableShowAllNetworkSettings>false</enableShowAllNetworkSettings>
+    <enableSiteAsContainer>false</enableSiteAsContainer>
+    <enableTalkingAboutStats>true</enableTalkingAboutStats>
+    <enableTopicAssignmentRules>true</enableTopicAssignmentRules>
+    <enableTopicSuggestions>true</enableTopicSuggestions>
+    <enableUpDownVote>false</enableUpDownVote>
+    <forgotPasswordTemplate>Parent_Portal_Emails/CommunityForgotPasswordEmailTemplate</forgotPasswordTemplate>
+    <gatherCustomerSentimentData>false</gatherCustomerSentimentData>
+    <networkMemberGroups>
+        <profile>admin</profile>
+        <profile>admissions officer</profile>
+        <profile>asset &amp; custody manager</profile>
+        <profile>deputy head of admin</profile>
+        <profile>finance</profile>
+        <profile>group director</profile>
+        <profile>head of site</profile>
+        <profile>headteacher / of admin / of finance</profile>
+        <profile>human resources</profile>
+        <profile>marketing &amp; communication officer</profile>
+        <profile>marketing &amp; communication officer (limited)</profile>
+        <profile>parent portal user - high volume</profile>
+        <profile>portal liaison (super user)</profile>
+        <profile>receptionist</profile>
+        <profile>school it</profile>
+        <profile>school nurse</profile>
+        <profile>teacher</profile>
+        <profile>chatter free user</profile>
+    </networkMemberGroups>
+    <networkPageOverrides>
+        <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>
+        <forgotPasswordPageOverrideSetting>Standard</forgotPasswordPageOverrideSetting>
+        <homePageOverrideSetting>Standard</homePageOverrideSetting>
+        <loginPageOverrideSetting>Standard</loginPageOverrideSetting>
+        <selfRegProfilePageOverrideSetting>Standard</selfRegProfilePageOverrideSetting>
+    </networkPageOverrides>
+    <picassoSite>Parent_Portal_C</picassoSite>
+    <selfRegistration>false</selfRegistration>
+    <sendWelcomeEmail>false</sendWelcomeEmail>
+    <site>Parent_Portal</site>
+    <status>Live</status>
+    <tabs>
+        <customTab>Dates_Events</customTab>
+        <customTab>Pastoral</customTab>
+        <customTab>Progress</customTab>
+        <customTab>Attendance</customTab>
+        <customTab>My_Contact_Details</customTab>
+        <defaultTab>01r6F000001Yoc6</defaultTab>
+        <standardTab>Chatter</standardTab>
+    </tabs>
+    <urlPathPrefix>parents</urlPathPrefix>
+    <welcomeTemplate>Parent_Portal_Emails/CommunityWelcomeEmailTemplate</welcomeTemplate>
+</Network>

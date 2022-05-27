@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>ISM</letterhead>
+    <name>Maths and Science Fair</name>
+    <style>freeForm</style>
+    <subject>Maths and Science Fair</subject>
+    <textOnly>Year 6-9 Maths and Science Fair – 14th June 2012
+
+
+Dear Parents
+
+
+On Thursday 14th June the Year 6-9 students will be participating in a Maths and Science fair at school. Every student will be required to submit a separate Maths and Science based project. The students have already been briefed on the requirements for the projects and understand that the grade will be included on the end of year reports. Time is being allocated during lessons to allow students to work on their projects and their homework for the next two weeks will also be to complete research at home.
+
+
+Parents are invited to attend the fair and view projects from 2:30 pm until the end of the school day.
+
+
+Once the fair is completed a 1st, 2nd and 3rd place will be chosen from each year group for both Maths and Science.
+
+
+We look forward to seeing you there.
+
+
+Best regards
+
+
+Mrs. Hamilton and Miss Campbell</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

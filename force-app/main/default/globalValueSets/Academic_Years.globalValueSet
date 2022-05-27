@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>2017/18</fullName>
+        <default>false</default>
+        <label>2017/18</label>
+    </customValue>
+    <customValue>
+        <fullName>2018/19</fullName>
+        <default>false</default>
+        <label>2018/19</label>
+    </customValue>
+    <customValue>
+        <fullName>2019/20</fullName>
+        <default>false</default>
+        <label>2019/20</label>
+    </customValue>
+    <customValue>
+        <fullName>2020/21</fullName>
+        <default>false</default>
+        <label>2020/21</label>
+    </customValue>
+    <customValue>
+        <fullName>2021/22</fullName>
+        <default>false</default>
+        <label>2021/22</label>
+    </customValue>
+    <customValue>
+        <fullName>2022/23</fullName>
+        <default>false</default>
+        <label>2022/23</label>
+    </customValue>
+    <customValue>
+        <fullName>2023/24</fullName>
+        <default>false</default>
+        <label>2023/24</label>
+    </customValue>
+    <description>Whenever values are added to this list please revisit the formulas in the following fields to ensure they are taken into account: Has_This_Year_ID_Tag__c and Has_Next_Year_ID_Tag__c</description>
+    <masterLabel>Academic Years</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

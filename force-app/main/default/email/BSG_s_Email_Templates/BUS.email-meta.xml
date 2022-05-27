@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>BSG Secondary Christmas Celebration</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>BSG Secondary Christmas Celebration</name>
+    <style>freeForm</style>
+    <subject>BSG Secondary Christmas Celebration</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I would like to cordially invite you to the BSG Secondary Christmas Celebration.  This event will take place in the Nanhu Theatre on Tuesday 11th December and features talented students from years 7-9, the Korean Ensemble, the Secondary Choir and some communal carol singing.  Doors will open at 6.30pm and there will be warming mulled wine and mince pies for all!
+
+Please click the link for the flyer of Concert.
+
+Regards,
+
+Naomi Rowan
+Head of Secondary Music and Performing Arts
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>ISM Art Exhibition Evening</name>
+    <style>freeForm</style>
+    <subject>ISM Art Exhibition Evening</subject>
+    <textOnly>Dear Parents,
+
+
+
+An exhibition of student Art will be displayed in the Upper Campus main hall on the Thursday 24th May between 6 &amp; 7pm.
+
+
+We would like to take this opportunity to invite all members of the ISM community to this event celebrating some of our student’s high achievements in the arts.
+
+
+Light refreshments, cheese and wine will be available during the evening.
+
+
+The exhibition will provide a clear insight into the overall excellent standards and talents of our young artists.
+
+
+It is intended that that artwork from Pre-N – Year 9 shall be represented with a variety of different mediums, skills and techniques across the range of abilities,
+
+
+We look forward to welcoming you to this event,
+
+
+With Kind Regards,
+
+
+
+
+Alexey Sinkevich (Upper Campus Art Teacher)
+
+Sheetal Singh (Lower Campus Art Coordinator)</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

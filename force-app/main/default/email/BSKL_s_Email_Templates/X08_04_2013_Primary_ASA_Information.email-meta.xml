@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>08/04/2013 - Primary ASA Information</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>08/04/2013 - Primary ASA Information</name>
+    <style>freeForm</style>
+    <subject>Primary ASA Information</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Below is a link to the &apos;BSKL Primary ASA Information Booklet&apos; as well as the registration form for ASA&apos;s in term 3. Follow the link to register your child for ASA&apos;s before Friday 12th April 2013.
+
+1. Please fill in a separate form for each pupil.
+2. You may make up to three selection per pupil for each ASA day. We will do our best to place every pupil in their 1st or 2nd choice ASA.
+3. Please only register once per pupil.
+4. You should receive a message confirming that your registration has been sent.
+5. Class lists for ASA&apos;s will be released on Tuesday 16th April 2013.
+
+Please take note of a few key pieces of information regarding ASA’s next term below:
+
+1. Please note that  “Saxophone Club” is invitation only. Registration can be made by speaking to Mr Douglas.
+2. The registration deadline is Friday 12th April 2013.
+3. Cost for paid ASA’s is a termly fee, not for a set number of weeks or sessions. There will be no refunds for missed sessions due to public holidays or absences.
+4. Please note that there is no other method of registration apart from using the link below any emailed or scanned responses will not be accepted.
+5. Please check the start and finish times for the ASA your child wants to select in the ASA information book as they vary but on the whole they are 3-4pm Tuesday and Thursday.
+6. On Tuesday and Thursday, all school buses will leave just after 4pm. Any child not participating in an ASA’s on these days will need to be picked up by their parents at 3pm.
+7. Children participating in ASA&apos;s at The Club will have transport provided to the club, but must be collected directly from The Club. Pupils will not be brought back to school.
+8. Parents whose children are participating in ASA’s on Monday, Wednesday or Friday will need to arrange transport for their children as there will be no school bus after their ASA.
+9. Swim team training information and squad information will be out early in the new term.
+10. Any ASA payments can be settled with the BSKL accounts department directly in the new term, please ensure they are paid before May 31st 2013.
+11. The ASA start date is on week beginning 23rd April and end on 14th June 2013.
+
+BSKL FOUNDATION &amp; PRIMARY ASA BOOKLET
+( https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004QL5/wJ227i2qe3d3neurv_mRIfgEotpCknhpMLTQ2Lppfhc= )
+
+Term 3 Primary &amp; Foundation ASA Registration Form
+( https://docs.google.com/forms/d/1FM58roonjDfYC_e52pqTQ8CeSfVFGW-w-CptDRjbhqI/viewform )
+
+Thank you in advance for your kind co-operation and understanding.
+
+Kind regards,
+Sean Allday
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

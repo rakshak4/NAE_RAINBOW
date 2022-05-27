@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Weekly Bulletin 2013/02/01</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Weekly Bulletin 2013/02/01</name>
+    <style>freeForm</style>
+    <subject>Weekly Bulletin 2013/02/01</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The School breaks up for the Chinese holiday and I would like to wish all our families a happy Chinese New Year, xin nian kuai le.
+
+This week we have been busy with a number of events. The House captains came back from the leadership weekend and found the experience enormously beneficial. On Thursday the student sat the UK Maths challenge and we wish them the best of luck in this.
+
+School recommences on Monday, 18th February and we hope that our families enjoy the holiday. ASAs start the first week back but they will not be running on the week beginning 25th February due to parents’ evenings and options evenings that are scheduled for this time.
+
+On Friday, 22nd February the full reports will go home to parent for Year 9 and Year 11. The reasoning behind this as that these will be used by Year 9 students to help them choose their options. The Year 11 report will also assist with A-level option choices, feedback from the Mock examinations and targets to help the students maximise their chances in the summer IGCSEs. In addition to this academic mentoring will continue for the Year 11 and 12’s as they begin to really gear up for the summer examinations.
+
+House results: Week 3
+
+KS3
+
+Vikings 2    Normans 1
+
+Saxons 3    Romans 1
+
+KS4
+
+Vikings 2    Normans 2
+
+Saxons 7    Romans 1
+
+KS3
+
+Saxons –  9pts + 7
+
+Normans - 3pts + 2
+
+Romans –  3pts - 4
+
+Vikings -  3pts - 5
+
+KS4
+
+Saxons – 6pts
+
+Vikings – 5pts
+
+Normans – 4pts
+
+Romans – 1pt
+
+The top two and bottom two teams will play off to determine final placing. Well done to the Saxons who have topped both rankings.
+
+
+Day
+
+Activity
+
+When
+
+Staff
+
+Monday 18th February
+
+Orchestra
+
+Monday ASAs (week 4)
+
+1.00-1.40pm
+
+3:00–3:55pm
+
+NR
+
+All
+
+Tuesday 19th February
+
+Tuesday ASAs
+
+3:00–3:55pm
+
+
+All
+
+
+Wednesday 20th February
+
+Wednesday ASAs
+
+
+3.00-3.55pm
+
+
+All
+
+
+Thursday 21st February
+
+Wicked Vocal Rehearsal (Soloists)
+
+House ASAs
+
+1.10-1.40pm
+
+
+3.00-3.55pm
+
+NR
+
+
+All
+
+Friday 22nd February
+
+Year 9 and Year 11 reports go home.
+
+Choir
+
+
+
+1.00-1.40pm
+
+
+
+NR
+
+Kind regards,
+
+Mr. Iain Ruck
+Head of Secondary
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

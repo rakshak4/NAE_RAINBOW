@@ -1,0 +1,135 @@
+<!--
+    Author: Kunal Sharma
+    Created Date: 24 March 2013
+    Description: VF page for managing assessments under group 
+    Audit Date:
+    Audited By: 
+    
+    COMMENTS:
+    
+
+-->
+<apex:page showHeader="false" sidebar="false" standardController="Group__c" extensions="ManageGroupAssessments_Controller">
+  <script>
+    function openFolderManagement(){
+        window.open('{!$Page.NewUpdateFolder}?grpid={!grp.Id}','','width=700,height=400,scrollbars=yes');
+        return false;
+    }
+  
+    function confirmDeletion(isPublished,isEditable){
+        //alert('isPublished='+isPublished);
+        //alert('isEditable='+isEditable);
+        var flag =  false;
+        //if(isPublished ==  false || isEditable ==  true){
+            flag = confirm("Warning: Deleting folder will delete all associated assessments. Are you sure ?");
+        //}else{
+           // alert('This folder has been published and cannot be edited or deleted !');  
+        //}
+        //alert('flag='+flag);
+        return flag;            
+    }
+    
+    function openEditFolderWindow(isPublished,isEditable,fid){
+        //alert('isPublished='+isPublished);
+        //alert('isEditable='+isEditable);
+        //alert('fid='+fid);
+        //if(isPublished ==  false || isEditable ==  true){
+            var editurl = '{!$Page.NewUpdateFolder}?id='+fid+'&grpid={!grp.Id}';
+            window.open(editurl,'','width=700,height=400,scrollbars=yes');
+        //}else{
+            //alert('This folder has been published and cannot be edited or deleted !');  
+        //}
+        return false;
+    }
+    
+    function openBulkAssessment(fd){
+        var urlStr = '{!$Page.BulkAssessments}?id={!grp.Id}&fid='+fd;
+        window.open(urlStr,'','width=1200,height=600,scrollbars=1');
+        return false;
+    }
+    </script>
+  <apex:form >
+    <apex:pageBlock title="Manage Assessments" mode="detail">
+        <apex:pageBlockButtons location="top">
+            <apex:commandButton value="Create Assessment Folder" onClick="openFolderManagement();return false;"/>
+        </apex:pageBlockButtons>
+        <!--  section to display exiting folders --> 
+        <apex:pageBlockTable title="Assessment Folders" value="{!assessmentFolders}" var="folder">
+                <!-- <apex:column >
+                    <apex:facet name="header">Folder</apex:facet>
+                    <apex:outputLink value="{!$Page.ViewFolder}?id={!folder.parentFolder.Id}&grpid={!groupId}">{!folder.parentFolder.Title__c}</apex:outputLink>
+                </apex:column>
+                <apex:column >
+                    <apex:facet name="header">Sub Folders</apex:facet>
+                    <apex:outputPanel layout="block">
+                        <table>
+                            <apex:repeat value="{!folder.childFolders}" var="childsLevel1">
+                                <tr>
+                                    <td><apex:outputLink value="{!$Page.ViewFolder}?id={!childsLevel1.parentFolder.Id}&grpid={!groupId}">{!childsLevel1.parentFolder.Title__c}</apex:outputLink></td>
+                                </tr>
+                            </apex:repeat>
+                        </table>
+                    </apex:outputPanel> 
+                </apex:column>
+                 -->
+                 <apex:column >
+                    <apex:facet name="header">Action</apex:facet>
+                    <apex:outputLink onClick="return openEditFolderWindow({!folder.Auto_Publish__c},{!isEditable},'{!folder.Id}');">Edit</apex:outputLink>
+                    &nbsp;<b>|</b> &nbsp; 
+                    <apex:commandLink onClick="return confirmDeletion({!folder.Auto_Publish__c},{!isEditable});"  value="Del" action="{!deleteFolder}">  
+                        <apex:param name="fid" value="{!folder.Id}"/>   
+                    </apex:commandLink>
+                    &nbsp;<b>|</b> &nbsp; 
+                    <apex:outputLink value="{!$Page.BulkAssessments}?id={!grp.Id}&fid={!folder.Id}" onClick="return openBulkAssessment('{!folder.Id}');">Manage Assessments</apex:outputLink>
+                </apex:column>
+                <apex:column >
+                    <apex:facet name="header">Assessment Display Name</apex:facet>
+                    <apex:outputField value="{!folder.Assessment_Display_Name_Folder__c}"/>
+                </apex:column>
+                <apex:column >
+                    <apex:facet name="header">Type</apex:facet>
+                    <apex:outputField value="{!folder.Type__c}"/>
+                </apex:column>
+                <apex:column >
+                    <apex:facet name="header">Date</apex:facet>
+                    <apex:outputField value="{!folder.Assessment_Date__c}"/>
+                </apex:column>
+                <apex:column >
+                    <apex:facet name="header">Portal Visibility</apex:facet>
+                    <apex:outputField value="{!folder.Parent_Portal_Visibility__c}"/>
+                </apex:column>
+                <apex:column >
+                    <apex:facet name="header">Description</apex:facet>
+                    <apex:outputField value="{!folder.Description__c}"/>
+                </apex:column>
+        </apex:pageBlockTable>
+        <apex:outputPanel layout="block">
+                <br/>
+                <div class="paginator">
+                    <span class="prevNextLinks">
+                        
+                        <span class="prevNext">
+                            <apex:commandLink action="{!first}">
+                            <img src="/s.gif" class="firstoff" alt="First Page"/>
+                            </apex:commandLink>
+                        </span>
+                        
+                        <span class="prevNext"><apex:commandLink action="{!previous}" rendered="{!hasPrevious}"><img src="/s.gif" class="prevoff" alt="Previous"/>Previous</apex:commandLink></span>
+                        
+                        <span class="prevNext"><apex:commandLink action="{!next}" rendered="{!hasNext}">Next<img src="/s.gif" class="nextoff" alt="Next"/></apex:commandLink></span>
+                        
+                        <span class="prevNext"><apex:commandLink action="{!last}"><img src="/s.gif" class="lastoff" alt="Last Page"/></apex:commandLink></span>
+                        
+                        
+                    </span>
+                    
+                    <span class="right">
+                    Page
+                    <!-- <apex:inputText value="{!pageNum}" styleclass="pageInput" maxlength="4" onchange="setPageNumber();"/> -->{!pageNum}
+                    of {!totalPages}
+                    </span>
+            </div>
+     </apex:outputPanel>        
+    </apex:pageBlock>
+  </apex:form>
+</apex:page>

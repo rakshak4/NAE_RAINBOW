@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>22/11/12 Christmas at BSKL! (All Parent Email)</name>
+    <style>freeForm</style>
+    <subject>Christmas at BSKL! (All Parent Email)</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+As you may have already noticed, Christmas has arrived at BSKL!
+
+Due to our focus being on celebrating Deepavali this week our Christmas trees are currently located on the 3rd Floor. They will be relocated around the school on the Tuesday 27th November, so keep an eye out for your countries&apos; Christmas tree. Please take a walk around this &apos;forest of trees&apos; and help get you and your children into the Christmas mood and see what wonderful ideas they can come up with for your countries&apos; Christmas tree!
+
+The last day for bidding for the Christmas Trees will be during the Christmas Bazaar on Monday 10th December. The very lucky winners will be announced during the Primary Production on the 13th December.
+So let’s get decorating and share each other’s Christmas traditions and the joy of Christmas!
+
+We look forward to seeing you all at the Christmas Bazaar - it promises to be an amazing, fun-filled event - with a special visit from Santa, beautiful home-baked cakes and Christmas delicacies and specialist Christmas stalls and much, much more!
+
+Kind Regards
+The Events and Fundraising Committee
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

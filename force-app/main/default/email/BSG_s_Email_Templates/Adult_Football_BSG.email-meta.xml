@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Adult Football @ BSG</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Adult Football @ BSG</name>
+    <style>freeForm</style>
+    <subject>Adult Football @ BSG</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+
+Dear Parents and Friends,
+
+
+Commencing Monday 14th April, a group of dedicated footballers will be organising football games and practices aimed at female adults (or older independent students capable of playing with adults) who would like to have some fun playing football whilst hopefully improving fitness levels!
+
+
+
+Where: BSG Football Pitch (Nanhu Lake Campus)
+When: Every Monday evening from 7:30 to 9:30pm
+Who: Parents/Teachers and Friends (any girls/ladies capable of playing with adults)
+Contact: Ms. Sinth Sau (18666007917 or s.sinith@gmail.com)
+
+
+Please note this is not a school organised programme (we are simply providing the facilities and passing on this invite) so please direct all enquiries and register your interest with Sinth using the contact details above.
+
+
+
+Also, please note that men’s football also takes place regualry at the school on Wednesday from 4:30 to 6:30pm and on Fridays from 4pm to 6pm. If anyone is interested to join either or both of these social games, please contact Mr. Doug Allan through douglas.allan@bsg.org.cn.
+
+
+Kind regards,
+
+
+
+The British School of Guangzhou
+
+
+
+
+World Class Education
+
+
+
+
+
+——————————————————————————————————————
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

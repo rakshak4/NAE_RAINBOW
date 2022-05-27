@@ -1,0 +1,79 @@
+<apex:page standardcontroller="Document__c"><apex:messages />
+    <apex:sectionheader title="{!$ObjectType.Document__c.label} Detail" subtitle="{!Document__c.name}"/>
+    <chatter:feedwithfollowers entityId="{!Document__c.Id}"/>
+    <apex:form >
+        <apex:pageblock mode="maindetail" title="{!$ObjectType.Document__c.label} Detail">
+            <apex:pageblockbuttons >
+                <apex:commandbutton value="Edit" action="{!Edit}"/>
+                <apex:commandbutton value="Delete" action="{!Delete}"/>
+                <!-- *************** Uncomment as needed LAYOUT PAGE :: http://WWW.CLERISOFT.COM (2008-2013) *************** -->
+                    <!-- <apex:commandbutton value="Include Offline" action="{!URLFOR($Action.Document__c.IncludeOffline,Document__c.id)}"/> -->
+                    <!-- <apex:commandbutton value="Clone" action="{!URLFOR($Action.Document__c.Clone,Document__c.id)}"/> -->
+                    <!-- <apex:commandbutton value="Convert" action="{!URLFOR($Action.Document__c.Convert,Document__c.id)}"/> -->
+                    <!-- <apex:commandbutton value="Find Duplicates" action="{!URLFOR($Action.Document__c.FindDup,Document__c.id)}"/> -->
+                    <!-- <apex:commandbutton value="Request Update" action="{!URLFOR($Action.Document__c.RequestUpdate,Document__c.id)}"/> -->
+                    <!-- <apex:commandbutton value="Advanced Setup" action="{!URLFOR($Action.Document__c.AdvancedSetup,Document__c.id)}"/> -->
+                    <!-- <apex:commandbutton value="Manage Members" action="{!URLFOR($Action.Document__c.ManageMembers,Document__c.id)}"/> -->
+                    <!-- <apex:commandbutton value="Close Case" action="{!URLFOR($Action.Document__c.CloseCase,Document__c.id)}"/> -->
+                <!-- *************** Uncomment as needed LAYOUT PAGE :: http://WWW.CLERISOFT.COM (2008-2013) *************** -->
+            </apex:pageblockbuttons>
+
+            <!-- ********** Output Panel for Record Type : Document **********  -->
+            <apex:outputpanel rendered="{!OR(ISNULL(Document__c.RecordTypeId),CASESAFEID(Document__c.RecordTypeId)='0126F000001hVzoQAE')}">
+                <apex:pageblocksection title="Information" showheader="false" collapsible="false" columns="2">
+                    <apex:outputfield value="{!Document__c.Name}"/>
+                    <apex:outputfield value="{!Document__c.RecordTypeId}"/>
+                    <apex:outputfield value="{!Document__c.Keywords_for_Search__c}"/>
+                    <apex:outputfield value="{!Document__c.Name}"/>
+                    <apex:outputfield value="{!Document__c.Staff_Handbook__c}"/>
+                    <apex:outputfield value="{!Document__c.School_Copy__c}"/>
+                    <apex:pageblocksectionitem />
+                    <apex:outputfield value="{!Document__c.School_to_Share__c}"/>
+                    <apex:pageblocksectionitem />
+                    <apex:outputfield value="{!Document__c.Department_to_share__c}"/>
+                </apex:pageblocksection>
+                <apex:pageblocksection title="Main Content" showheader="true" collapsible="true" columns="1">
+                    <apex:outputfield value="{!Document__c.Main_Content__c}"/>
+                    <apex:outputfield value="{!Document__c.Summary_of_Changes__c}"/>
+                </apex:pageblocksection>
+                <apex:pageblocksection title="Related To:" showheader="true" collapsible="true" columns="2">
+                    <apex:outputfield value="{!Document__c.Person_Company__c}"/>
+                    <apex:outputfield value="{!Document__c.Student_Group__c}"/>
+                    <apex:outputfield value="{!Document__c.Admissions_File__c}"/>
+                </apex:pageblocksection>
+            </apex:outputpanel>
+
+            <!-- ********** Output Panel for Record Type : Document Folder **********  -->
+            <apex:outputpanel rendered="{!CASESAFEID(Document__c.RecordTypeId)='0126F000001hVzoQAE'}">
+                <apex:pageblocksection title="Information" showheader="false" collapsible="false" columns="2">
+                    <apex:outputfield value="{!Document__c.Name}"/>
+                    <apex:outputfield value="{!Document__c.Name}"/>
+                    <apex:outputfield value="{!Document__c.Keywords_for_Search__c}"/>
+                    <apex:outputfield value="{!Document__c.School_Copy__c}"/>
+                    <apex:outputfield value="{!Document__c.Staff_Handbook__c}"/>
+                    <apex:outputfield value="{!Document__c.School_to_Share__c}"/>
+                    <apex:pageblocksectionitem />
+                    <apex:outputfield value="{!Document__c.Department_to_share__c}"/>
+                </apex:pageblocksection>
+                <apex:pageblocksection title="Related To:" showheader="true" collapsible="true" columns="2">
+                    <apex:outputfield value="{!Document__c.Person_Company__c}"/>
+                    <apex:outputfield value="{!Document__c.Student_Group__c}"/>
+                    <apex:outputfield value="{!Document__c.Admissions_File__c}"/>
+                </apex:pageblocksection>
+            </apex:outputpanel>
+        </apex:pageblock>
+    </apex:form>
+
+    <!-- ********** Related Lists Output Panel for Record Type : Document **********  -->
+    <apex:outputpanel rendered="{!OR(ISNULL(Document__c.RecordTypeId),CASESAFEID(Document__c.RecordTypeId)='0126F000001hVzoQAE')}">
+        <apex:relatedlist list="NotesAndAttachments" title="Notes & Attachments"/>
+    </apex:outputpanel>
+
+    <!-- ********** Related Lists Output Panel for Record Type : Document Folder **********  -->
+    <apex:outputpanel rendered="{!CASESAFEID(Document__c.RecordTypeId)='0126F000001hVzoQAE'}">
+        <apex:relatedlist list="NotesAndAttachments" title="Notes & Attachments"/>
+    </apex:outputpanel>
+    <center><br/>
+        <i style="font-size:10px;color:#aaa;">Generated By LAYOUT PAGE <a href="http://www.clerisoft.com" target="_blank">[http://www.clerisoft.com]</a> (2008-2013) : Wed Sep 25 2013 22:34:48 GMT+0800 (MYT)</i>
+    </center><br/>
+</apex:page>

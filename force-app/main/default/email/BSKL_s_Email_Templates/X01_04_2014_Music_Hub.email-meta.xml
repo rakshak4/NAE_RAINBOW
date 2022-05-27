@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>01/04/2014 Music Hub</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>01/04/2014 Music Hub</name>
+    <style>freeForm</style>
+    <subject>Individual Instrumental Lessons</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We are fast approaching the end of term and as is usual, the music department would like to invite those wishing to either pursue individual instrumental lessons or renew existing placements to make their applications by Friday 11 April. Our website now hosts exclusive music pages keeping you up to date with news, all the exciting events occurring in our department and an application procedure for individual instrumental lessons that is faster and easier to use.
+
+Please visit http://www.britishschool.edu.my/en/school-life/music.aspx and click on the link titled Music Hub.
+
+Have a great end of term
+
+Many thanks
+
+Alex Douglas
+Head of Instrumental Music
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

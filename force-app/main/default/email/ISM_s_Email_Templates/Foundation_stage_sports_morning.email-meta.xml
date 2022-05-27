@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Foundation stage sports morning</name>
+    <style>freeForm</style>
+    <subject>Foundation stage sports morning</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+
+On Friday 7th June, your child will be taking part in a variety of sports and physical activities as part of the Foundation Stage sports morning. This is a celebration event of the wonderful work and development that the children have shown in PE classes during the school year.
+
+
+The event will start at 9am and finish at 11am on the grounds of the lower campus fields.  You are more than welcome to cheer on the children and get involved in the different activities. Your child will demonstrate a range of skills according to their ability in relation to agility, balance, coordination, speed and teamwork.
+
+
+In order for your child to take part, they will need the following items:
+
+
+
+- Full ISM PE kit
+
+- Water bottle
+
+- Sun cream
+
+- Trainers
+
+- Bike/Trike - this will be used during the bike challenge. Students  are encouraged to bring in their own on the day of competition. This  can be left outside on the green hard surface area.
+
+
+
+Please do not forget to bring their full school uniform since this will be needed for the sibling photos, which will take place in the afternoon. Children will change into their uniform after the event.
+
+
+If you have any other questions then please do not hesitate to contact me.
+
+
+I look forward to seeing you all at the event.
+
+
+Kindest regards,
+
+
+Mr Adam Hoult
+
+Teacher of Physical Education
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

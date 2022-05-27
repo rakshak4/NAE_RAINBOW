@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Missing items</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Missing items</name>
+    <style>freeForm</style>
+    <subject>Missing items</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+The children are looking extremely smart and taking a lot of pride in wearing the school colours this term. We are awaiting our next delivery of stock to meet the requests from parents for additional items of uniform. We are expecting delivery within the next couple of weeks.
+
+
+We have had a number of items of clothing and water bottles belonging to children in school lost or taken home by mistake. Whilst the school endeavours to build in responsibility for their belongings with the children, simple mistakes can still happen.
+
+
+To help us, could you please make sure that your child has their name on all items of clothing and their water bottle. This makes it much easier for the children and staff to identify and return items to the correct owner, if they have been left behind.
+
+
+If you do find that you have uniform or water bottles not belonging to your child could you please return items to the front desk on each campus.
+
+
+Many thanks
+
+
+David
+
+
+
+Уважаемые родители!
+
+В этом триместре наши учащиеся с гордостью носят школьную форму и выглядят в ней очень прилежно. Мы в ожидании следующей поставки формы и выслушиваем пожелания от родителей на дополнительные предметы униформы. Мы ожидаем поставку школьной униформы в течение следующих нескольких недель.
+
+Мы сталкиваемся с ситуациями, когда учащиеся школы теряют предметы одежды и термосы или случайно забирают их домой. Подобные ситуации могут происходить несмотря на то, что школа пытается привить учащимся ответственность за свои вещи.
+
+Во избежание подобных ситуаций, пожалуйста, убедитесь, что имя Вашего ребёнка написано на всех предметах одежды и бутылке с водой. Это значительно поможет учащимся и персоналу школы в попытке найти и возвратить вещи своему владельцу, если они были утеряны.
+
+Если Вы обнаружили у своего ребенка школьную форму или бутылку с водой, не принадлежащие ему/ей, не могли бы Вы вернуть вышеуказанные вещи на стойку ресепшена в каждом из кампусов.
+
+
+С уважением,
+
+Дэвид
+
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

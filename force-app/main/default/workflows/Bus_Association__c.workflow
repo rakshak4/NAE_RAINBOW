@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Has_Been_Current_to_TRUE</fullName>
+        <field>Has_Been_Current__c</field>
+        <literalValue>1</literalValue>
+        <name>Has Been Current to TRUE</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Is_Current_to_FALSE</fullName>
+        <field>Is_Current_Checkbox__c</field>
+        <literalValue>0</literalValue>
+        <name>Is Current to FALSE</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Is_Current_to_TRUE</fullName>
+        <field>Is_Current_Checkbox__c</field>
+        <literalValue>1</literalValue>
+        <name>Is Current to TRUE</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Make Bus Service Current 1</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Bus_Association__c.First_Date_of_Use__c</field>
+            <operation>greaterThan</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Bus_Association__c.Is_Current_Checkbox__c</field>
+            <operation>notEqual</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>Makes the bus service current on the first date of use</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Has_Been_Current_to_TRUE</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <actions>
+                <name>Is_Current_to_TRUE</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Bus_Association__c.First_Date_of_Use__c</offsetFromField>
+            <timeLength>-3</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Make Bus Service Current 2</fullName>
+        <actions>
+            <name>Has_Been_Current_to_TRUE</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Is_Current_to_TRUE</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND (2 OR 3) AND (4 OR 5) AND 6</booleanFilter>
+        <criteriaItems>
+            <field>Bus_Association__c.First_Date_of_Use__c</field>
+            <operation>lessOrEqual</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Bus_Association__c.Last_Date_of_Use__c</field>
+            <operation>greaterThan</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Bus_Association__c.Last_Date_of_Use__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Leaving_Date__c</field>
+            <operation>greaterThan</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Leaving_Date__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Bus_Association__c.Is_Current_Checkbox__c</field>
+            <operation>notEqual</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>Makes the bus service current if the last date of use is moved to the future and the leaving date of the student is in the future or blank</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Make Bus Service Non-Current 1</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Bus_Association__c.Last_Date_of_Use__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Triggers the time-based workflow when a &apos;Last Date of Use&apos; is added to a bus service record</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Is_Current_to_FALSE</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Bus_Association__c.Last_Date_of_Use_1__c</offsetFromField>
+            <timeLength>-4</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Make Bus Service Non-Current 2</fullName>
+        <actions>
+            <name>Is_Current_to_FALSE</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 AND 2) OR (1 AND 3 AND 4) OR (1 AND 5 AND 6)</booleanFilter>
+        <criteriaItems>
+            <field>Bus_Association__c.Is_Current_Checkbox__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Bus_Association__c.First_Date_of_Use__c</field>
+            <operation>greaterThan</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Bus_Association__c.Last_Date_of_Use__c</field>
+            <operation>lessThan</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Bus_Association__c.Last_Date_of_Use__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Leaving_Date__c</field>
+            <operation>lessThan</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Leaving_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Triggers the workflow rule when the &apos;First Date of Use&apos; is moved into the future or a &apos;Last Date of Use&apos; is added in the past.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

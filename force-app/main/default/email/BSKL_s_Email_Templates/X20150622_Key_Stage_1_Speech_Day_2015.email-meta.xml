@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20150624 Key Stage 1 Speech Day 2015</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20150624 Key Stage 1 Speech Day 2015</name>
+    <style>freeForm</style>
+    <subject>Invitation to Key Stage 1 Speech Day 2015</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please find attached your invitation for Key Stage 1 Speech Day. I am pleased to announce that this year&apos;s guest speaker is Mr Sam Yang. Sam is CEO of Kingdom Education and we are looking forward to welcoming him back to BSKL.
+
+Sam freely admits he wasn&apos;t a star pupil at school, but through hard work and determination he went on to enjoy success as a merchant banker, working for some of the wealthiest people in the world. Sam came to realise that money wasn&apos;t everything and now works to promote the development of education, sport, and international exchange throughout Asia, the USA and the UK through his charity, Kingdom Education.
+
+Speech Day is the most important date in our calendar for celebrating the success of all of our pupils; I look forward to seeing you there. Please RSVP using the following link: RSVP form
+
+Invitation to Key Stage 1 Speech Day 2015
+
+
+Kind regards,
+Debra Birchall
+Head of Primary
+
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

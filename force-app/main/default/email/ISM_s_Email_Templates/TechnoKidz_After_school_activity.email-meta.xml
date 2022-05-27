@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>TechnoKidz - After school activity</name>
+    <style>freeForm</style>
+    <subject>TechnoKidz - After School Activity</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+We are pleased to announce that &apos;Technokidz&apos; will be returning to school on Thursday 25th April. This is an exciting opportunity for students in years 1-10. The classes are designed so that students learn technological skills through interesting, engaging and dynamic projects.
+
+
+Years 1-3 – Children will focus on Lego building and construction. The activities are designed to develop critical thinking, problem solving and hand eye coordination.
+
+(500rb per session)
+
+
+
+Years 4-6 – Children will focus on animation. The activities are designed to develop analysis and decision making. The stages include the creation of a story, creating characters, designing and constructing a set and composing soundtracks.
+
+(500rb per session)
+
+
+
+Years 7-10 – Children will focus on Lego projects with motors and NXT robotics programming. The activities are designed to allow the children to explore the world of robotics. Children will build robots with motors and sensors to perform tasks and react to their environment.  (500rb per session)
+
+
+The club will run from 3.30-4.30 on a Thursday evening from 25th April. The length of the course has yet to be confirmed. Fully qualified members of staff will be able to cater for all of the age groups above.
+
+
+The activities are designed to be progressive, requiring a firm commitment from children. Thiswill allow them to develop a project, which they will love working on. As the club is on a Thursday evening, so not to interfere with the existing ASA programme for this term, you will need to make sure that you are available to collectyour child from school at 4.30pm. If you are interested in letting your child attend the club or have any additional questions then please email the following address - technokidz@hotmail.co.uk
+
+
+
+Kindest regards,
+
+
+
+Mr Adam Hoult
+
+
+Administration Team
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

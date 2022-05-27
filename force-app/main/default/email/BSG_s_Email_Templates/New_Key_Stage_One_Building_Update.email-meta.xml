@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Lower School Parental Meeting</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>New Key Stage One Building- Update.</name>
+    <style>freeForm</style>
+    <subject>For Approval : Lower School Parental Meeting</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+
+
+Dear Parents,
+As part of our commitment to provide opportunities for parents to be fully involved in school life we are organising a meeting on Wednesday 12th March from 10am-11am for the lower school parents.
+This will also be an opportunity to update you on important developments for the forthcoming academic year. If you are available at this time we urge you to come along and volunteer your services to support Early Years and Key Stage 1 children next year. We will be covering the following items during this meeting.
+
+Lower school and Key Stage 1 parent support needs for next year (led by Miss Kathy and Mr. Cunliffe)
+Development of outdoor learning (Miss Helen)
+Update on the new KS1 building (Mr. Cunliffe)
+TA recruitment for next year (Mr. Thomas)
+German home language opportunities (Mr. Thomas)
+Additional support for Korean families (Mr. Thomas with support from our Korean Parent representative Miss Rachel)
+
+Please note that if you are unable to come along for this meeting we will be providing a written update on all these initiatives on the website and through newsletters. We will also be arranging similar meetings with Primary and Secondary parents in due course.
+Regards,
+Mr. Mark Thomas
+Principal
+The British School of Guangzhou
+World Class Education
+
+
+____________________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>07/04/2014 Presentation, Q&amp;A for Ski Trip to Verbier, Switzerland</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>07/04/2014 Presentation, Q&amp;A for Ski Trip to Verbier, Switzerland</name>
+    <style>freeForm</style>
+    <subject>Presentation regarding Ski Trip to Verbier, Switzerland</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+There will be a presentation on Wednesday, 9th April in the Theatre at 3.15pm regarding the information about the coming Ski Trip to Verbier, Switzerland (12th - 21st December 2014). We will answer any questions about the trip. There are still places left for students to go on the trip and we will extend the deadline until after the Easter holidays: 25th April.
+
+Kind regards
+
+Admin Team
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Letter to parents about road safety</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Road Safety</name>
+    <style>freeForm</style>
+    <subject>Road Safety</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Attached is a letter relating to the subject of Road Safety.
+
+A number of members of the school community have fallen victim to accidents of late and we remain of a mind that this is a crucial issue on which all of us have a responsibility to cooperate.
+
+Please feel free to make use of the attached materials and please contact us if you can suggest what we can do to enhance the safety of our and other schools&apos; pupils.
+
+
+Уважаемые родители,
+
+В приложении вы можете найти письмо касательно безопасности дорожного движения.
+
+В последнее время с членами школьного сообщества произошло несколько аварий, который привели к травмам. Мы считаем, что это одна из важнейших тем и мы все должны ответственно подойти к сотрудничеству связанному с безопасным дрожным движением.
+
+Мы надеемся, что вы найдете информацию полезной и будем рады получить ваши отзывы.
+
+
+
+Regards,
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

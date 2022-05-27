@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>After School Activities</name>
+    <style>freeForm</style>
+    <subject>After School Activities</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+Please find the attached link to the new online club selection site.  This is a new system which will create a more efficient and fair club selection process. As the parent teacher conferences are taking place, you will be able to select clubs on Thursday 28th March at 6.00pm. Please follow the main steps below to ensure that this is as smooth as possible.
+
+Please click here to open link
+
+Select the specific day and age group.
+Have a look through all of the clubs and make your choice.  Click on the &quot;more info&quot; tab to get additional details.
+Fill out your child&apos;s full name and class.  For example, &quot;Joe Bloggs 3A&quot;, this will help us tremendously when developing a list for each class teacher.
+Please add your email address so that confirmation can be sent to you.  There is no need to print the ticket but please keep it handy for your records.
+When the system asks you &quot;did you mean&quot; and provides you with an alternative email address, please click NO.
+Please only select one club on a Tuesday and one club on a Wednesday.  Those children who have selected two clubs on one day will be removed from all of their club options and will have to restart the process.
+Money for fee paying clubs will need to be handed into accounts.  However, if you send money with a child, it is important that it gets handed to reception in a clearly marked envelope containing the child&apos;s full name, class, amount of money and name of club.
+Once you have selected and registered for a Tuesday club, then return to the main menu to select your Wednesday club.  You can do this by selecting the &quot;view organiser profile&quot; tab in the bottom right hand side of the screen.
+If you want to change a club after the selection has been made, then you must contact Mr Hoult or Mr Carr first.  However, club changes once the ASA programme has started can be very difficult.
+
+
+Thank you so much for the support as we strive to improve the clarity, fairness and efficiency of the Afer School Activities Programme here at ISM.
+
+Kindest regards,
+
+Mr Hoult and Mr Carr
+
+After School Activity Coordinators
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

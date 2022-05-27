@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>1c.integration@internationalschool.ru</contactEmail>
+    <ipRanges>
+        <description>1C Server for API Connection #2</description>
+        <end>185.25.10.42</end>
+        <start>185.25.10.42</start>
+    </ipRanges>
+    <ipRanges>
+        <description>1C Server for API Connection #1</description>
+        <end>46.53.250.235</end>
+        <start>46.53.250.235</start>
+    </ipRanges>
+    <label>ISM_1C Integration</label>
+    <oauthConfig>
+        <callbackUrl>https://login.salesforce.com/services/oauth2/success</callbackUrl>
+        <consumerKey>3MVG9YDQS5WtC11pg6FmPmj4EQV9d83ktou4yrOmhAwuNqLoTyKK3D_Lt.LnFqfc4xoRpLUS1sOeTPWTV9mD7</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>

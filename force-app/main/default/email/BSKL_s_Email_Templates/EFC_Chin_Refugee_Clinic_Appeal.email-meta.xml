@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>EFC Chin Refugee Clinic Appeal</name>
+    <style>freeForm</style>
+    <subject>EFC Chin Refugee Clinic Appeal</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+To start the fundraising year off - the Events and Fund Raising Committee (EFC) are having a donation drive for the Chin Refugee Clinic. From Monday 24th September until Friday 28th September there will be a collection box at the school Reception area for all new and used medical items to be dropped off. Any item that you can spare would be greatlly appreciated - the clinic is in particular need of Vitamins, Cod liver Oil, any unused prescription medicine, cough mixture, anything you can spare. There are trained nurses who will make sure that everything is safe before it is given to the clinic - so feel free to bring just about anything!
+
+
+While you are dropping your donation off why not stop and chat to a member of the EFC? We will be at the school all next week from 7.45am until 8.30am in the Reception area with some delicious cakes and goodies. So drop by and have a chat to us about how you can get involved with this years&apos; EFC! We are a fun group of parents who raise funds for charity with school based activities, so every bit of help big or small is greatly appreciated, as are all suggestions!
+
+
+Hope to see you all next week when you drop your donations in!
+
+
+Thanking you,
+
+Kind Regards
+
+Events and Fundraising Committee
+
+
+Kind Regards,
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Swimming Carnivals</name>
+    <style>freeForm</style>
+    <subject>Swimming Carnivals</subject>
+    <textOnly>Dear Parents,
+We have just been informed this morning that the swimming pool that we have booked for the Gala is unexpectedly undergoing some maintenance work on the heating system. Unfortunately this means that we will have to postpone both swimming galas from this week.
+Obviously this is unwelcome news for all, particularly the students. However the good news is that the galas will be rescheduled for the following week:
+Y 1-3 same schedule and times next Tuesday.1/11/11 
+Y 4-9 same schedule and times next Thursday. 3/11/11
+Apologies for this inconvenience but obviously some things are beyond our control!  I hope that you will be able to rearrange your schedules to attend and support the events next week. Just to clarify, all parents are invited to support their children. In both cases we anticipate the events starting at 10am and finishing at 12:30.
+Best regards,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

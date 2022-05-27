@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>14/02/2014 Achievement and Aspiration Day</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>14/02/2014 Achievement and Aspiration Day</name>
+    <style>freeForm</style>
+    <subject>Achievement and Aspiration Day</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Achievement and Aspiration Day
+
+Thank you so much to the parents who have kindly agreed to come in on Friday 21st February at 1pm to participate in our &apos;Achievement and Aspiration&apos; day for year 9 students. However, we still need more parents to participate to make this event a success. Please email me if you are able to speak with year 9 students about higher education and how to achieve success in a career pathway. Please see the original email below.
+
+I look forward to hearing from you if you are able to help.
+
+Kind regards,
+Janine Murphy
+_________________________________________________________
+
+We are currently working with year 9 students in PHSE on the topic of, &apos;Achievement and Aspiration&apos;.
+
+As students are completing their final year at KS3 and will soon be making their iGCSE choices, we want to ensure that they remain focused on their studies and are aspiring to achieve great results. We are encouraging them to consider what grades and options they may need for future careers.
+
+We are organising an event on Friday 21st February Future Careers for Year 9 students. We would like to invite parents who can give advice about career paths at 1pm to the Secondary library where students can come and ask questions about different careers they may be interested in and advise about desirable qualities for that career; possible universities to attend; which A level and iGCSE options would be useful; how could they gain experience; and so on.
+
+We are looking for a range of careers options. Some parents may be having a child care break or have changed careers but you will be able to give great advice on how to break into that field, so please come. If you can attend the event to speak with students, please email Mrs Murphy: janine.murphy@britishschool.edu.my . The event will be held on Friday 21st February between 1pm and 2pm. 
+
+Many thanks,
+
+Mrs Murphy and Mrs Fernandes
+
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

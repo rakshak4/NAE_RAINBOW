@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>16/04/2013 Foundation and Primary ASA&apos;s</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>16/04/2013 Foundation and Primary ASA&apos;s</name>
+    <style>freeForm</style>
+    <subject>Foundation and Primary ASA&apos;s</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Thank you for registering your child for ASA&apos;s this term. Wherever possible we have tried to enrol all children in either their first or second choice ASA. On both Tuesday and Thursday more than 90% of children have been enrolled in their first choice ASA. Here are the class lists:
+
+Reception
+https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004QTi/NCnp2VZ93Wd_Kir.JL9N6bSgnX1U8nXnasG0hP7O5BQ=
+
+Year 1
+https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004QTn/r__YLNhdOION7EcrjhILoMIYW9cMhPJ20Pe_wnEga6Q=
+
+Year 2
+https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004QTs/OhasFjK_mkFh5eJroSMmujAxp6O0nllfI47jNQ_HclM=
+
+Year 3
+https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004QTx/BmfdrwP0GfrjtctI8BqS2hzyNgeulKtdXMFOv9QaltA=
+
+Year 4
+https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004QU2/ANfIIDpUCNmrpSRSZK.FtvvnOk1tuqQRLVL3RhNWk3o=
+
+Year 5
+https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004QU7/tt0F1xqNYr1CM01N81K9cXBNKnW2NcUxGltb1_cFe4I=
+
+Please note the following:
+
+Bible Study Class will not be commencing due to lack of numbers.
+We are awaiting confirmation as to whether Golf will take place on Wednesday and Friday. We will let you know as soon as possible.
+
+If you have not yet registered your child for ASA&apos;s please do so following the link below:
+
+REGISTRATION FORM
+( https://docs.google.com/forms/d/1FM58roonjDfYC_e52pqTQ8CeSfVFGW-w-CptDRjbhqI/viewform )
+
+If you are having any problems with ASA registration this term, I will be available in my classroom (4C) between 3:00 and 4:00 tomorrow (Wednesday 17th April) to help. Alternatively, e-mail sean.allday@britishschool.edu.my
+
+Kind Regards
+
+Sean Allday
+Year 4C Teacher
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>21/01/2014 Year 9 Residential Trip: Chang Mai</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>21/01/2014 Year 9 Residential Trip: Chang Mai</name>
+    <style>freeForm</style>
+    <subject>Year 9 Residential Trip: Chang Mai</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+Year 9 Residential Trip: Chang Mai
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I understand that some parents may be concerned at the current security situation in Thailand, and that this may have a bearing on allowing your son/daughter to take part in the Year 9 residential trip. Your son/daughter&apos;s safety is of course our priority.
+
+I want to reassure you that it is our view this visit continues to pose no security/safety risk for our pupils; we are in constant contact with the organising company and we take advice from the Foreign and Commonwealth Office website ( https://www.gov.uk/foreign-travel-advice/thailand ). The high profile demonstrations so far have been confined to Bangkok. We will not be flying to Bangkok, but directly to Chang Mai in the far north of the country, and then transferring by coach to the residential site. There have been no disturbances in these areas, nor are any anticipated. We are also in contact with the British Embassy in Bangkok who would alert us if the current situation changes.
+
+I do hope you will take this advice when making your decision. Mrs Fernandes has asked me to remind you that the deadline for deposits is this Friday, at which point we will need to make a decision on the viability of the trip.
+
+
+Kind regards
+
+Derek Mackey
+Head of Secondary
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

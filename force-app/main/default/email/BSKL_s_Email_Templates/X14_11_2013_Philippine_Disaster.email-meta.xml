@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>14/11/2013 Philippine Disaster</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>14/11/2013 Philippine Disaster</name>
+    <style>freeForm</style>
+    <subject>Philippine Disaster</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please note that majority of donations have been boxed and delivered this morning to the Philippine Embassy. Therefore no need for those parents who plan to come to the school this afternoon (3pm to 4pm was specified in yesterday’s letter) that is not required.
+
+However some donations are expected this afternoon so if they are here at the school and want to help they can ask if anything needs to be done.
+
+Kind Regards
+The Event and Fundraising Committee
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

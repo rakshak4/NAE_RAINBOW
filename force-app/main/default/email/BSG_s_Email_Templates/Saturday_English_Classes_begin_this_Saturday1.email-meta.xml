@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>&apos;Saturday English&apos;- Classes begin this Saturday</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>&apos;Saturday English&apos;- Classes begin this Saturday</name>
+    <style>freeForm</style>
+    <subject>&apos;Saturday English&apos;- Classes begin this Saturday</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+Dear Parents,
+
+Please note that ‘Saturday English’ classes begin this Saturday on the 31st of August.
+
+Primary classes run from 10:00am - 12:00pm and Secondary classes from 1:00pm - 3:00pm
+
+All classes are held at the Nanhu  campus.
+
+All students are to wait in the reception area and to arrive at least 10 minutes before the scheduled time.
+
+If you would still like to enroll your child in one of our programmes, you can register this Saturday from 12:00pm – 3:00pm .
+
+Looking forward to seeing you all.
+
+Kind regards,
+
+Shaila
+
+
+
+尊敬的家长，
+
+我们善意地提醒您， “周六英语课程”将在本周六 （8月31日）开始。
+小学课程的时间为10:00am - 12:00pm， 中学课程的时间为1:00pm - 3:00pm
+所有的课程都将在南湖校区展开。
+所有学生都应该提早10分钟到达学校前台等待。
+如果您有兴趣报名我们的课程， 可以于本周六12:00pm – 3:00pm 注册。
+盼望看到你们。
+
+诚挚的问候，
+
+Shaila Chainani
+Head of EAL
+Pre Entry Assessment Coordinator
+The British School of Guangzhou
+World Class Education
+
+
+_____________________________________________________
+
+
+
+
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

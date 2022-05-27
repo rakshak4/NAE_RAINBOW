@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Pianist of the Year Competition</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Pianist of the Year Competition</name>
+    <style>freeForm</style>
+    <subject>Pianist of the Year Competition</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Due to the adjudicator from the Xinghai Conservatory being unable to attend on Wednesday evening, we have now moved this event to Friday afternoon.
+
+If you would like to come and watch, the event will take place in the theatre between 2-3pm on Friday 7th June.  Five of our talented young pianists have been selected from the audition stages to perform for the Professor Piano Studies (Xinghai Conservatory) for the prestigious title, &quot;BSG Pianist of the Year 2013.
+
+Thank you as always for your support,
+
+Kind Regards,
+
+Ms Naomi Rowan
+
+Head of Secondary Music and Performing Arts
+
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Music Instrumental Lesson</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Music Instrumental Lesson</name>
+    <style>freeForm</style>
+    <subject>Instrumental Lessons</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Music is an exciting and integral part of life at BSG, and to enhance this, we offer a full range of instrumental tuition. Instrumental lessons are available in drums, guitar, piano, flute, clarinet, brass, saxophone, cello, violin and voice.  Please note that that there will be a minimum number of students required to employ each member of the peripatetic team.
+
+Please find more information via link1 and link2. Your child will also receive a hard copy of this letter through the register on Monday 27th August.
+
+Please feel free to contact me at Naomi.rowan@bsg.org.cn if you have any questions.
+
+Kind regards,
+
+Naomi Rowan
+Music Dept.
+The British School of Guangzhou
+World Class Education
+_________________________________________________________
+Member of The British Schools Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

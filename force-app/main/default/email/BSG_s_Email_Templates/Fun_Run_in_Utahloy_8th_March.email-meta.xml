@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Fun-Run in Utahloy, 8th March 2014</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Fun-Run in Utahloy, 8th March 2014</name>
+    <style>freeForm</style>
+    <subject>Fun-Run in Utahloy, 8th March 2014</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+Dear parents and staff of BSG,
+
+
+As you know we have been focusing on community work within our school for the last few years and continue to support organisations such as ActionAid and GETCH. We are also looking to support other schools within Guangzhou to do the same. Therefore I am looking for our school community to support Utahloy’s most recent fundraising event.
+
+
+Utahloy will be holding a fun-run on Saturday 8th March to assist 20 students in raising 180,000 RMB by the end of March. The money raised will be going towards their community work in Cambodia, with an organisation called HOPE (www.hopenz.com). It would be great if we could offer our support as a school and attend the fun-run. Be quick as there are only 600 places available!
+
+
+If you would like further information on entering then please go to http://hopefunrun.eventbrite.hk.
+
+
+Any support we can offer would greatly benefit any future community projects we may collaborate on.
+
+
+Hope to see many of you there on the 8th.
+
+
+Regards,
+
+
+Amanda Boby
+
+
+Teaching Assistant and Community Action and Fundraising Coordinator
+
+
+
+The British School of Guangzhou
+
+
+World Class Education
+
+_________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

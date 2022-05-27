@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>UNICEF’s Day for Change 2013</name>
+    <style>freeForm</style>
+    <subject>UNICEF’s Day for Change 2013</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear parents
+
+
+On Friday 8th February, ISM’s Upper Campus will be supporting UNICEF’s Day for Change and we very much hope that you will join us in supporting this worthwhile, fun and educational event. It is a great opportunity for our pupils to learn about and raise money for children in other parts of the world.
+
+
+The idea is very straightforward. In return for a donation of 100 Rubles to help UNICEF’s vital work, students in Years 4 – 10 will be allowed to wear non-school uniform. There will also be a bake sale during morning breaks where the students can buy cakes and biscuits. We would greatly welcome your support in providing cakes to sell. All money will go to UNICEF.
+
+
+By taking part in this important event, we can help support UNICEF’s work.
+
+
+Why are we doing it?
+
+
+
+Every year, UNICEF’s Day for Change focuses on a different theme. In 2013, the focus is food. Nutritious food is essential for children to grow up healthy. Hunger is the greatest scandal of our age. It kills more people than AIDS, malaria and tuberculosis combined. Two million children die each year because of malnutrition. Yet we produce enough food to feed everyone. Even if they survive, the effects of malnutrition can last a lifetime, stunting their physical and mental development.
+
+
+Together, we can change this. By taking part in Day for Change, we can ensure that every child can access the nutritious food they need to survive and thrive.
+
+
+UNICEF, the United Nations Children’s Fund, is the world’s leading organisation working for children and their rights. They work with families, local communities, partners and governments in more than 190 countries to help every child realise their full potential.
+UNICEF supports children by providing health care, nutrition and education.
+
+
+To find out more information about UNICEF, please visit www.unicef.org.uk.
+
+
+Thank you for your support for this worthwhile and educational day.
+
+
+Yours sincerely,
+
+
+Michelle Hamilton
+
+Secondary Phase Leader
+
+The International School of Moscow
+
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

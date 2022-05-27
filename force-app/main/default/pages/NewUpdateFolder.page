@@ -1,0 +1,99 @@
+<apex:page id="newupdatefolder" showChat="false" showHeader="false" sidebar="false" standardController="Assesment__c" extensions="NewUpdateFolder_Controller">
+    <!-- Style Panel Satrts--->  
+    <style type="text/css">  
+        .imgclass:hover{  
+            background-image: url(/img/help/helpOrbs.gif);  
+            background-repeat: no-repeat;  
+            width: 16px;  
+            height: 15px;     
+            background-position: right;  
+         
+        }  
+        .imgclass{  
+            background-image: url(/img/help/helpOrbs.gif);  
+            background-repeat: no-repeat;  
+            width: 16px;  
+            height: 15px;  
+        }  
+    </style>  
+    <script>
+        function refreshParentWindow(){
+            var messages = document.getElementById("newupdatefolder:mainform:newupdatemessage").innerHTML;
+            //alert(messages);
+            if(messages == null || messages == ""){
+            	window.opener.location.href = "/apex/Tabbed_Group_Detail?id={!groupId}&stab=assessment";
+            	window.close();
+            }       
+        } 
+        
+        function checkPublishing(){
+            var publishValue =  document.getElementById('newupdatefolder:mainform:pageblock:section:publish').checked;
+            //alert(publishValue);
+            var flag =  true;
+            if(publishValue){
+                flag = confirm("Warning: You cannot make changes to folder once it is published. Are you sure to continue ?");
+            }
+            //alert('flag='+flag);
+            
+        }
+    </script>
+    
+    <apex:form id="mainform">
+    	<apex:actionFunction immediate="true" name="onChangeFolderType" action="{!folderTypeChange}" rerender="mainform" status="folderSelectionStatus">
+    		<apex:param name="ft" value=""/>
+    	</apex:actionFunction>
+        <apex:pageMessages id="newupdatemessage"/>
+        <apex:pageBlock id="pageblock" title="{!IF(isNew,'New Folder','Edit Folder')}" mode="edit">
+            <apex:pageBlockButtons >
+                <apex:commandButton rendered="{!isNew}" value="Create New Folder" action="{!saveNewFolder}" reRender="newupdatemessage" oncomplete="refreshParentWindow();" status="status"/>
+                <apex:commandButton rendered="{!!isNew}" value="Update Folder" action="{!updateExistingFolder}" reRender="newupdatemessage" oncomplete="refreshParentWindow();" status="status"/>
+                <apex:actionStatus startText=" (performing action...)"  id="status"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection id="section">
+            	<apex:pageBlockSectionItem >
+                    <apex:outputLabel value="{!$ObjectType.Assesment__c.Fields.Type__c.Label}"/>
+                    <apex:outputPanel layout="block">
+                    	<table>
+                                <tr>
+                                    <td>
+                    					<apex:inputField value="{!folder.Type__c}" required="true" onchange="onChangeFolderType(this.value);"/>
+                    				</td>
+                    			    <td>	
+				                    	<apex:actionStatus id="folderSelectionStatus">
+				                             <apex:facet name="start"><apex:image value="{!$Resource.processing_gif}"/></apex:facet>
+				                         </apex:actionStatus>
+				                    </td>
+				                </tr>
+				       </table>          
+                    </apex:outputPanel>
+                </apex:pageBlockSectionItem>
+            	 
+                
+                <apex:outputField value="{!folder.Group__c}"/>
+                
+                
+                <apex:inputField rendered="{!IF(folder.Type__c != 'Examination',true,false)}" value="{!folder.Title__c}" required="true"/>
+                <apex:inputField rendered="{!IF(folder.Type__c == 'Examination',true,false)}" value="{!folder.Exam_Type__c}" required="true"/>
+                
+                <apex:inputField value="{!folder.Assessment_Date__c}" required="true"/>
+                <apex:inputField rendered="{!IF(folder.Type__c == 'Examination',true,false)}" value="{!folder.Grade_Type__c}" required="true"/>
+                <apex:outputPanel layout="block" rendered="{!IF(folder.Type__c == 'Progress Report',true,false)}">&nbsp;</apex:outputPanel>
+                <apex:inputField rendered="{!IF(OR(folder.Type__c == 'Examination', folder.Type__c == 'Progress Report'),true,false)}" value="{!folder.Include_Target_Predicted_Grade__c}" required="false"/>
+               
+                <!--
+                <apex:pageBlockSectionItem >
+                    <apex:outputPanel >  
+                        <apex:outputlabel value="{!$ObjectType.Assesment__c.fields.Type__c.label}"/>                                          
+                        <img src="/s.gif" class="imgclass" title="{!$ObjectType.Assesment__c.fields.Type__c.inlineHelpText}" />  
+                    </apex:outputPanel>  
+                    <apex:inputField value="{!folder.Type__c}" required="true" />
+                </apex:pageBlockSectionItem>
+                <apex:inputField value="{!folder.Assessment_Date__c}" required="true"/>
+                <apex:inputField value="{!folder.Description__c}"/>
+                  <apex:inputField id="publish" value="{!folder.Publish__c}" onChange="checkPublishing();" />  -->
+                
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+       
+</apex:page>

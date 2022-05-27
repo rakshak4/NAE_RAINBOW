@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>BST Sibling Applications for 2016-17 Academic Year</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>BST Sibling Applications for 2016-17 Academic Year</name>
+    <style>freeForm</style>
+    <subject>BST Sibling Applications for 2016-17 Academic Year</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+
+
+We are writing to inform you that we have started accepting sibling applications from parents wishing to apply for their children to join their brothers and sisters at BST for the 2016-17 Academic Year.
+
+The purpose of this procedure is to offer the opportunity for families already attending BST to secure a position at the school before opening places to general applications.
+
+Sibling applications will be accepted up until the 31st January. All applications should be completed using the online application, which you will be able to find here. Should you have already sent an application form, please send the admissions an email confirming your intentions, there is no need to complete a new one. After January 31 BST will start processing applications from non-BST families.
+
+
+The assessments for sibling applications will take place until February 5.
+
+
+
+
+
+
+Уважаемые родители!
+
+Хотим известить Вас о том, что мы начинаем принимать заявки на обучение от родителей, желающих устроить к нам в новом академическом году (2016-2017) братьев/сестер своих детей, уже обучающихся в нашем учебном заведении.
+
+Главной целью данной процедуры является возможность резервации мест для новых учащихся из уже существующих семей, прежде чем мы откроем набор для всех остальных желающих.
+
+Приём заявок будет проводиться до 31 января. Все заявки должны быть заполнены на нашем сайте. Вы можете найти форму заявки на обучение по данной ссылке здесь Если Вы уже отправили заявку, пожалуйста, пришлите нам подтверждение на данную электронную почту, не заполняя новую заявку. В случае отсутствия возможности заполнить заявку на нашем сайте, пожалуйста, обратитесь в администрацию школы для заполнения заявки с нашей помощью/использованием компьютера в школе. После 31 января начнется обработка заявок на обучение от новых семей.
+
+
+Вступительные экзамены для родных братьев/сестер текущих учащихся будут проводиться до 5 февраля.
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

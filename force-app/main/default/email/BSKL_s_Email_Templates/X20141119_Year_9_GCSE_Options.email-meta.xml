@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20141119  Year 9 GCSE Options</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20141119  Year 9 GCSE Options</name>
+    <style>freeForm</style>
+    <subject>Year 9 GCSE Options</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+19th November 2014
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}
+
+I have posted details of the Year 9 GCSE options event on your calendar. The notice contains some important information (it requires you to do some homework!) so please ensure you check your calendar over the next couple of days.
+
+Kind regards
+
+Derek Mackey
+Head of Secondary
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

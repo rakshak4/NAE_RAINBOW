@@ -1,0 +1,49 @@
+<apex:page sidebar="false" showHeader="false">
+    <script>
+    function cancel(){
+        //alert('cancel');
+        window.parent.opener.disableDiv();
+        window.parent.close();
+    }
+    function ok(){
+        //alert('ok');
+        var desc = document.getElementById('description').value;
+        //alert('desc='+desc);
+        window.parent.opener.setAttendanceDescription(desc);
+        window.parent.opener.disableDiv();
+        window.parent.close();
+    }
+    
+    </script>
+
+<div id="InlineEditDialog" class="overlayDialog inlineEditDialog" style="max-width: 500px; display: block; visibility: visible; left: 0px; top: 0px; ">
+    <div class="topRight">
+        <div class="topLeft">
+            <img title="Close" id="InlineEditDialogX" onmouseover="this.className = 'dialogCloseOn'" onmouseout="this.className = 'dialogClose'" onclick="cancel()" class="dialogClose" src="/s.gif"/>
+            <h2 id="InlineEditDialogTitle">Attendance Description</h2>
+        </div>
+    </div>
+    <div class="middle">
+        <div class="innerContent" id="InlineEditDialogContent">
+            <div class="activeField">
+                <div class="inlineEditCompoundDiv">
+                    <apex:outputPanel >
+                        <textarea type="text" wrap="soft" maxlength="255" rows="6" cols="52" id="description">{!$CurrentPage.parameters.desc}</textarea>
+                    </apex:outputPanel>
+                </div>
+            </div>
+        <div>
+    </div>
+    <div style="display: none; "></div>
+    <div id="InlineEditDialog_buttons" class="buttons">
+        <input class="btn" type="button" value="OK" onclick="ok()"/>
+        <input class="btn" type="button" value="Cancel" onclick="cancel()"/>
+    </div>
+</div>
+</div>
+<div class="bottomRight">
+    <div class="bottomLeft">
+</div>
+</div></div>
+
+</apex:page>

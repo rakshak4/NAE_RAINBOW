@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Swimming Gala 2014</name>
+    <style>freeForm</style>
+    <subject>Swimming Gala 2014</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+If you wish to attend the Upper Primary Swimming Gala on the 4th April, please tell the swimming pool security that you are from ISM (Mezhdunarodnaya Shkola). That should be enough for them to let you pass.
+
+In case you decide to book a pass yourself, please call 8 (495) 234-7451 in advance and give the administration your car number.
+
+Thank you.
+
+Kind Regards
+Ekaterina Foster
+Front Desk Upper School Campus
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

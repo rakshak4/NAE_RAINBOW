@@ -1,0 +1,102 @@
+<apex:page id="groupdetailtabbbed" standardController="Group__c"
+    sidebar="true" tabStyle="Group__c" showheader="true"
+    standardStylesheets="true">
+
+    <!-- STYLES AREA -->
+    <style>
+.activeTab {
+    font-size: 1.25em;
+    font-style: normal;
+    font-family: 'Calibri';
+    font-weight: bold;
+    background-color: #005225;
+    color: white;
+    width: 150px;
+    height: 20px;
+    background-image: none;
+    border: 0px solid #747e96;
+    border-bottom: 0px solid #fff;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0 px;
+    border-bottom-right-radius: 0 px;
+}
+
+.inactiveTab {
+    background-color: #111a48;
+    color: ff9300;
+    background-image: none;
+}
+</style>
+    <style type="text/css">
+h1 {
+    font-family: arial, helvetica;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+
+</style>
+
+    <!-- back image 
+
+    <apex:outputPanel >
+        <a href="{!$Page.Student_Groups_List}?sfdc.override=1"><img
+            src="{!$Resource.EmptyButton}" /></a>
+        <div style="top: 120px; left: 265px; position: absolute; z-index: 1;"><a
+            href="{!$Page.Student_Groups_List}?sfdc.override=1;"
+            STYLE="TEXT-DECORATION: NONE; font-weight: bold; font-size: 12px;">List
+        of Student Groups </a></div>
+    </apex:outputPanel> -->
+
+    <!-- add tab panel -->
+    <apex:tabPanel switchType="client"
+        value="{!IF(!ISNULL($CurrentPage.parameters.stab), $CurrentPage.parameters.stab, 'manageRegistration')}"
+        id="groupTabPanel" tabClass="activeTab" inactiveTabClass="inactiveTab"
+        style="background-color: white;margin-top: 10px;padding: 10px 0px 0px 0px;">
+        <apex:tab label="Group Detail" name="groupDetail" id="groupdetailtab"
+            style="font-size:1.0em;background-color: white;margin-top: 10px;padding: 10px 0px 0px 0px;">
+            <apex:detail subject="{!Group__c.Id}" relatedList="false"
+                title="true" showChatter="true" inlineEdit="true" />
+        </apex:tab>
+        <apex:tab label="Students" name="manageRegistration"
+            id="sregistrations"
+            style="font-size:1.0em;background-color: white;margin-top: 10px;padding: 10px 0px 0px 0px;">
+            <apex:include id="studentsinclude" pageName="BulkRegistration" />
+        </apex:tab>
+
+        <apex:tab label="Attendance" name="attendance" id="attendancemanage"
+            style="font-size:1.0em;background-color: white;margin-top: 10px;padding: 10px 0px 0px 0px;">
+            <apex:include id="attendanceinclude" pageName="DailyAttendancePage" rendered="{!IF(Group__c.Active_Registrations__c > 100, false,true)}"/>
+            <apex:pageMessage severity="warning" title="Attendance Display Warning" summary="You cannot take attendance for this student group as it contains more than 100 students. Please contact your Portal Liaison for further assistance." rendered="{!IF(Group__c.Active_Registrations__c > 100, true,false)}"/>
+        </apex:tab>
+        <apex:tab label="Assessments" name="assessment" id="assessmentmanage"
+            style="font-size:1.0em;background-color: white;margin-top: 10px;padding: 10px 0px 0px 0px;">
+            <apex:include id="assessmentinclude"
+                pageName="ManageGroupAssessments" />
+        </apex:tab>
+        <apex:tab label="Pastorals" name="pastorals" id="pastorals"
+            style="font-size:1.0em;background-color: white;margin-top: 10px;padding: 10px 0px 0px 0px;">
+            <apex:include id="pastoralsinclude"
+                pageName="ManagePastorals" />
+        </apex:tab> 
+      <apex:tab label="Calendar" name="calendar" id="calendar" style="font-size:1.0em;background-color: white;margin-top: 10px;padding: 10px 0px 0px 0px;">
+         <!-- <apex:relatedList subject="{!Group__c}" list="News_Events__r" /> -->
+         <apex:include id="calendarinclude"
+                pageName="NewsEventList" />
+        </apex:tab>  
+       
+      <!--  
+      <apex:tab label="Documents" name="Documents" id="tabDocs" style="font-size:1.0em;background-color: white;margin-top: 10px;padding: 10px 0px 0px 0px;">
+         <apex:relatedList subject="{!Group__c}" list="School_Documents__r" />
+      </apex:tab> -->
+        
+     
+
+    </apex:tabPanel>
+
+</apex:page>

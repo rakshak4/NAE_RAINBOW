@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>12/04/2013 Feel Good Run 2013</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>12/04/2013 Feel Good Run 2013</name>
+    <style>freeForm</style>
+    <subject>Feel Good Run 2013</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We would like to take this opportunity to inform you of a community and charity run taking place in July, Feel Good Run 2013, presented by ntv7.
+
+The Home of Feel Good celebrates their 15th anniversary this year by sharing the joy of being with friends and family, having fun while getting healthy, with the Feel Good Run 2013, flagging off Sunday, 7th July, at Sri Pentas, Bandar Utama in Petaling Jaya.
+
+The Feel Good Run 2013 is a community and charity run comprising of three categories (15km Feel Good Run for 16 years old and above, 7km Feel Good Run for 13 years old and above and 2.3km Bananana! Run for 7-12 years old), post-run ground activities and stage events.  The event will also be energized with the participation of numerous celebrities, enabling the public to get up-close and personal (and a little sweaty!) with some of the nation’s well-known personalities.
+
+Proceeds from the fun runs will be channeled to Hospis Malaysia, Malaysian Rare Disorders Society, Rumah Kanak-Kanak Tengku Budriah and SPCA Selangor.  The contributed amount will be divided equally.
+
+They are pleased to invite BSKL runners (teachers, staff, family and kids) to participate in this charity fun run and make this effort a success for our community.
+
+They are seeking a kind support to send your team to participate in this year’s Feel Good Run and the registration fees are as per below:
+
+15km and 7km Feel Good Run is RM35 per person
+2.3km Bananana! Run is RM15 per person
+
+If you would like to take part in this run please complete a Registration Form and hand it back to the school reception.  Please find below a link to the Registration Form:
+
+Registration Form
+( https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004QS4/xP.OMOMWvnzg.V.qG7IqkdaNIxdiXRt.fS8j91XvTxA= )
+
+If you have any further queries, please do not hesitate to contact Natasha Eger on natasha@eger.ca
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

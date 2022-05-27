@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Swimming trials, term 1 teams</name>
+    <style>freeForm</style>
+    <subject>Swimming trials, term 1 teams and PE lessons</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+
+I hope your children have settled into life well at BSKL these last weeks.  I just wanted to highlight a few policies regarding PE and sport at BSKL this year.
+
+
+During PE lessons this year it is expected that a child brings a note or letter from either their parent or doctor if they are unable to participate in PE or swimming lessons, failure to do so on more than one occasion will mean they may lose some of their free time. It is essential that all students participate in as many PE lessons as possible throughout the year.
+
+
+Secondly swimming lessons in PE have started this week and will continue until the end of term. The swimming trials for the team will be Wednesday 19th sept and Friday 21st sept. The school bus will leave at 2.45 and students must be picked up by parents at 4 from the club. Students meet in the canteen first. Please email myself a day before the trial your child plans to attend so we ensure there is enough spaces for everyone to go on the bus. The trials are are open to any student year 3 and above and are free of charge. Students only need to attend one trial on either of the days. Any students in the swimming team last year will not have to try out but try and make as many training sessions as possible which start Wednesday 19th September. At a Minimum 2 training sessions per week should be attended. We have galas in October and at the end of November and possibly early December it is important we get as many students swimming as possible. There should also be some friendly gala&apos;s v other schools throughout the year.
+
+
+Any student who wants to represent the school basketball (yr5 &amp; 6) or benchball (yr3&amp;4) teams must select these ASA&apos;s on Tuesday as they are team practices for our league this term. More information will follow with regards to fixture dates but they will mainly be on Wednesday evenings. U13 fixtures will normally be on weekends, Saturday in particular.
+
+
+ASA information and selection letters should be coming out later this week and I can tell you that compulsory ASA days are on a Tuesday and Thursday this year. There will be options for on other days too. Thank you for your patience regarding ASA&apos;s.
+
+
+If you have any further questions regarding PE and sport please contact me.
+
+
+Kind regards,
+
+Harrie Thomson
+
+Kind Regards,
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

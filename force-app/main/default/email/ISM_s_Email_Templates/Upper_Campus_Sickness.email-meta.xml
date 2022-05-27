@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Upper Campus Sickness</name>
+    <style>freeForm</style>
+    <subject>Upper Campus Sickness</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+Dear Parents, 
+
+We would like to inform you that we have several cases of high fever and vomiting on the Upper Campus this week. 
+If your child is feeling unwell and experiencing any of these symptoms, please ensure they remain at home and only return to school once they are well. 
+
+What to look for
+
+•	High fever 
+•	Headaches
+•	Vomiting
+•	Stomach ache
+
+What to do
+
+•	Please follow medical advice, and do not send your child back to school until completely recovered. 
+•	Consult your doctor immediately if your child’s temperature exceeds 38.5 degrees.
+
+
+Please do keep us informed if your child is unable to attend school due to any of these conditions.
+
+Yours sincerely
+
+The ISM School Nursing Team
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

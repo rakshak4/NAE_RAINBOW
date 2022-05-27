@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Newsletter - Issue Number 4</name>
+    <style>freeForm</style>
+    <subject>Newsletter February 2014</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+
+
+The teachers of ISM have worked very hard to submit all the latest news from their classes and subject areas in the latest ISM newsletter, which is now available on the school website and can be found at the following link:
+
+
+
+http://www.internationalschool.ru/en/school-life/newsletters.aspx
+
+
+
+Please do take the time to read a highly important e-safety article on pg34-35, and enjoy the highlights, which  include:
+
+A Guest Appearance from the Dentist
+Is Your Child Getting Eno ugh Sleep?
+Primary Trips to the Fire Brigade and the Cosmonaut Museum
+Year 4 Time-Travel to the Victorian Period
+Creative Writing from Year 8
+Year 10 Eyeball Dissection (photos included!)
+Secondary Maths/Art trips
+News from the Weather &amp; Igloo Club
+The latest PE News, (ISM thrash their rivals in the MISAS Basketball Tournament!;
+The House Point totals for this term
+Plus much, much more!
+
+On another note, the International Women’s Club of Moscow is proud to present one of its traditional, and yet most special events: the 18th annual IWC Embassies of the World Dinner and Ball, this year entitled ‘Dance and Romance around the World’!
+
+After a splendid dinner hosted by one of the embassies of Moscow, the Ball will take place at Hotel Metropol on Saturday, March 1st 2014.
+
+All parents and staff of ISM are kindly invited to this elegant and fun event. Ticket details can be found at the IWC website: www.iwcmoscow.ru
+
+
+Have a great weekend.
+
+
+
+Kind regards,
+
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Photo-Tuesday Jan.21</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>School Photo-Tuesday Jan.21</name>
+    <style>freeForm</style>
+    <subject>School Photo-Tuesday Jan.21</subject>
+    <textOnly>The British School
+of Guangzhou
+
+FOR A CHINESE LANGUAGE VERSION OF THIS MESSAGE, PLEASE CLICK HERE
+Dear Parents,
+
+Please be aware that on Tuesday, 21st January we will take a whole school photograph of all children and staff on the Lakefront Campus (Lower School).
+
+On this day, we would like to kindly request that all children wear full winter uniform (note: if your child has P.E. on this day, please DO NOT send them to school in their P.E. uniform).
+
+Best wishes,
+
+The Lower School Team
+
+
+
+
+
+
+
+
+
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

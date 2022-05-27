@@ -1,0 +1,25 @@
+<APEX:PAGE standardcontroller="Lead" >   
+    <APEX:INCLUDESCRIPT value="/soap/ajax/19.0/connection.js">   
+    </APEX:INCLUDESCRIPT>   
+       
+    <SCRIPT>  
+        //Session  
+        sforce.connection.sessionId = "{!$Api.Session_ID}";  
+          
+        //Case instance  
+        var update_Lead = new sforce.SObject("Lead");  
+        //Fetching the record Id  
+        var CID = '{!$CurrentPage.parameters.RecId}' ;  
+        update_Lead.Id = CID;  
+        //Change the status to close  
+        update_Lead.School_Tour__c = 0;  
+        //Keeping the array in case if we need to extend this for bulk case update  
+        var updateRecords = [];  
+        updateRecords.push(update_Lead) ;  
+        //Updating the case  
+        var result = sforce.connection.update(updateRecords);  
+        //Returning to account  
+        window.location.href = '/00Q?fcf=00BD0000007zPbv' ;  
+      
+</SCRIPT>   
+</APEX:PAGE>

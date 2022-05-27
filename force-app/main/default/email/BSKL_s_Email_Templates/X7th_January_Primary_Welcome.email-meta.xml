@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Updated Primary Welcome Meetings</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NAE_Branding_Letterhead_BSKL</letterhead>
+    <name>! 7th January Primary Welcome</name>
+    <style>freeForm</style>
+    <subject>Update | Primary School Welcome Meetings</subject>
+    <textOnly>Dear Parents,
+
+
+
+Please accept my apologies for the last minute postponement of yesterday’s Welcome Meeting. As I hope you can imagine having read Mr Mincher’s email yesterday I was unavoidably detained.
+
+
+
+I have rescheduled the second Parent Welcome Meeting for tomorrow afternoon, 7 January from 1.30-2.30.
+
+
+
+If you would like to join the link for the meeting, please find the meet link below:
+
+
+
+meet.google.com/yhf-edxw-vua
+
+
+
+I look forward to seeing many of you there.
+
+
+
+Best wishes,
+
+
+
+Mr Simon Sharp
+
+
+Head of Primary</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

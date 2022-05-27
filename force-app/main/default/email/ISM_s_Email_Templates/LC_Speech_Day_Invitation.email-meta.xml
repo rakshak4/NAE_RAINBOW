@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>LC Speech Day Invitation</name>
+    <style>freeForm</style>
+    <subject>LC Speech Day Invitation</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+
+Lower Campus Speech Day and Awards Ceremony Friday 5th July (10:00 – 11:30am)
+
+
+On the final morning of school we are holding our Lower Campus Annual Speech Day at the Grand Marriott Hotel Ballroom. All students from Reception to Year 3 are of course expected to attend, as it is the final day of the academic year.
+
+
+This is an extremely important event, recognizing the achievements of our students and the highlights of the school year. All students and families from those year groups (including siblings) are invited to join us. It will offer a unique chance to get the school community together and celebrate the successes enjoyed this year.
+
+
+The ceremony will begin promptly at 10:00 and will include musical performances and speeches from children. It will also recognise the achievements of many of our students.
+
+
+Awards will be presented for each class (Rec-Y3) in the following categories:
+
+
+
+Outstanding Achievement
+
+Outstanding Progress
+
+
+Awards will be presented for each year group (Rec-Y3) in the following categories:
+
+
+
+Outstanding performance in Music and Performance Arts
+
+Outstanding performance in Physical Education
+
+Outstanding performance in Russian Language
+
+Outstanding performance in Art and Design
+
+
+So that you can enjoy the event as a family, children will sit with parents/ family members during the ceremony. The only exception will be for those children who will be performing. They will be notified at the beginning of the week and will sit near the stage and be supervised by our staff.
+
+
+The ceremony should conclude at around approximately 11:00 and will be followed by a reception of light refreshments giving the community an opportunity to say ‘farewell’ before the summer break.
+
+
+
+Please note that school buses will not be running on this day and that limited parking is available at the hotel. Please consider this when making your arrangements for arriving at the hotel on time.
+
+
+I look forward to seeing you on July 5th and of course before then at our parent consultation evenings.
+
+
+Best regards,
+
+
+Paul Seedhouse
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

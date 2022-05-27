@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>26/02/2013 The Pet Project - Emcee Auditions</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>26/02/2013 The Pet Project - Emcee Auditions</name>
+    <style>freeForm</style>
+    <subject>The Pet Project - Emcee Auditions</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We are now ONE MONTH away from The Pet Project!  This year, we will be auditioning for 8 emcee positions to be filled by students of BSKL.  There is no age limit and BSKL students will have the opportunity to work with professional emcees in co-hosting the event (a now yearly event televised and covered by various media).  Please find attached some sample scripts, auditions will be held on 5th March in the school gym.  Students wishing to audition will be expected to show up prepared by memorizing at least ONE sample script and delivering it with their own special touch.
+
+The deadline for students to sign up is 1pm on Monday 4th March.  You can sign up for an audition slot on the poster at the school reception.
+
+This is a great way for BSKL students to get more involved with the project and also gain exposure and confidence by contributing positively to the cause.
+
+Please note we are also looking for BM and Mandarin speakers so please feel free to translate the sample scripts and show off your multilingual skills!
+
+Emcees chosen will be expected to rehearse with the full cast of performers closer to the event day and details will be sent to our chosen talent.
+
+Thank you and good luck to the talented students of BSKL!
+
+Please follow the link below to download the script.
+
+BSKL Emcee Audition Scripts
+
+Warm regards,
+The Pet Project Malaysia Staging &amp; Performance Management Team
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

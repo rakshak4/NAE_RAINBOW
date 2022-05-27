@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>An Exciting New Chapter - Save the Date</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>An Exciting New Chapter - Save the Date</name>
+    <style>freeForm</style>
+    <subject>An Exciting New Chapter - Save the Date</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

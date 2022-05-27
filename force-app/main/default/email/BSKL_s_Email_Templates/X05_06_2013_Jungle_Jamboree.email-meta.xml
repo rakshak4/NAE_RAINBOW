@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>05/06/2013 Jungle Jamboree</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>05/06/2013 Jungle Jamboree</name>
+    <style>freeForm</style>
+    <subject>Jungle Jamboree</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The BSKL Summer Fair: The Jungle Jamboree
+
+Saturday 8th June
+
+10am-3pm
+
+Thank you for your support and donations so far towards the Summer Fair.  They will help us to raise as much money as possible for our chosen charities.  In return, we like to think that we have organised a fun-filled, action-packed, exciting Jungle Jamboree for you this Saturday.
+
+Please read on as we reveal the promises from the teachers that will go to the highest bidder in The Silent Auction.
+
+Please read on to find out what you need to bring to the fair so that your kids don&apos;t miss out on any fun.
+
+Please read on to find out about the tasty, good quality, organic food that is available at the fair, you won&apos;t need to bring a picnic.
+
+Are you ready?  It&apos;s almost showtime........
+
+WHAT CAN YOU DO FOR US?
+
+The Jungle Jamboree will start to rumble on Friday with a Non-Uniform Day.  No monetary donation is required, we only ask that your children wear their Jungle Jamboree badges with their home clothes.   Have you got your badges yet?  There are five to collect and are still available from the EFC members in the school reception area at drop off and pick up. 2RM a badge.
+
+Thanks very much for signing up to donate cartons of Ribena and fruit juice.  Please can you hand these donations in to the School Reception by Thursday drop off at the latest, so we can work out how many we have.  Thank you.
+
+The Second Hand Book stall has been overwhelmed by your donations, thank you.  It is already open for business, via an honesty box, in the school reception.
+
+We still need almost 60 volunteers to help the day go smoothly.  Please don&apos;t read this and think that someone else will do it, find a friend to make it more fun for you and offer an hour of your time.  If you can help please email, doris_simon@yahoo.com
+
+WHAT WE ARE DOING FOR YOU.
+
+THE SILENT AUCTION
+
+Roll your sleeves up, pens at the ready to do battle over a fantastic, oft-hilarious selection of promises from BSKLs very own teaching staff.
+
+Who fancies shaving Mr Dan&apos;s hair off???? The highest bidder can. And if you are not the tallest bidder then bring your own ladder!
+
+Who would like to see Mr Allday playing with fire????  That&apos;s right, juggling with fire, swallowing fire, I&apos;m sure this will be a hotly contested lot.
+
+And Mrs Brock is forced to walk as she is giving up her parking space on B1, right by the door, to the most generous bidder.  She is also offering a pupil the chance to be Headteacher for the Day.  Ooooh does that mean you can award House Points?
+
+You&apos;ve got to play to win the prizes. Please click here to read the attached catalogue of Silent Auction Promises for full details on the mayhem and madness up for grabs.
+
+THE WATER-FIGHT
+
+You and your child are cordially invited to the inaugural
+BSKL Water-Fight.
+Where : The School Roof, in the Silly Games section
+When: 2.30pm
+Dress-code : Bring your own water-gun.  Accessorise with a parent or child
+Refreshments : Water for refills will be supplied
+RSVP : Sign up on the games sheet at the Silly Games area on the school roof.
+
+We look forward to seeing you all at the fair.  The EFC have been working very hard to round up a tantalising selection of raffle prizes - coffee machines, iPads, hotel stay vouchers, spa vouchers to name just a few. Tickets are on sale at school NOW and on the day of the fair.
+
+FANTASTIC FOOD AND DRINK OPTIONS AVAILABLE
+
+We have a great selection of food and drink on offer to keep you fed and watered.  Organic quiches, pies, danishes and coffee and tea from Craft Bakers.  Cheese burgers, hot dogs, beer and wine from Sid&apos;s Pub.  Pasta and other hot meal options from the Food Studio and gorgeous ice lollies from Fruit-i-pops.
+
+PARKING
+
+The school car parks will be open but additional car parking can be found in the Utama Tech Park opposite the school.  This can be accessed from Jalan Tanjung Bandar Utama and you can walk through the rear exit onto Changkat Bukit Utama, opposite the school.  This car park will cost 1RM/hour and the autopay station is in the Ground Floor lobby of 1Tech Park.
+
+THE END IS NIGH.....
+
+Wow, I&apos;m exhausted just typing this email.  So much fun to be had, please come along (with a named water-gun and lots of cash to spend) to join in the fun.  The teachers have organised an brilliant array of crazy games for you and your family, including the chance to soak Mrs Brock in Splat the Teacher.
+
+We have a great programme of song and dance throughout the day, including a preview performance of the end of term production from the cast of Oliver! And back by demand, four of the most popular acts from the hit school production, BSKL Idol.  The Irish Dancers and Clap and Tap are returning and some of the youngest pupils in the school, from the Exploring Dance ASA will be performing. Give them a big cheer on Saturday.
+
+We look forward to seeing you there.  Many thanks for your support so far.
+
+Warmest Regards,
+
+The Events and Fundraising Committee
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>NAE Parent Survey</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>NAE Parent Survey</name>
+    <style>freeForm</style>
+    <subject>BSY - Parent Survey 2018</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>E-mail regarding Hand Foot and Mouth</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Hand, Foot and Mouth 02/12/16</name>
+    <style>freeForm</style>
+    <subject>BSY Health Update - 02/12/16</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

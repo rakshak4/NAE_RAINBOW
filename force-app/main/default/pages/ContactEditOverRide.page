@@ -1,0 +1,33 @@
+<apex:page standardController="Contact">
+    <apex:variable var="ContactId" value="{!Contact.Id}" />
+    <apex:variable var="UserProfileId" value="{!$User.ProfileId}" />
+    <apex:variable var="RecordTypeDeveloperName" value="{!Contact.RecordType.DeveloperName}" />
+    <apex:variable var="AdminProfileId" value="00e6F000001hU3F" /> <!-- need to be updated in production -->
+    <apex:variable var="HeadTeacherProfileId" value="00e6F0000020GDu" />
+    <apex:variable var="SChoolITProfileId" value="00e6F0000020GFC" />
+    
+    <!-- Student update : admin, head teacher and school IT can edit-->
+    <apex:outputPanel rendered="{!IF(AND(OR(UserProfileId == AdminProfileId, UserProfileId == HeadTeacherProfileId, UserProfileId == SChoolITProfileId),RecordTypeDeveloperName == 'Student'),true,false)}">
+        <apex:page action="/{!ContactId}/e?nooverride=1&retURL={!$CurrentPage.parameters.retURL}"/> 
+    </apex:outputPanel>
+    
+    <apex:outputPanel rendered="{!IF(AND(!OR(UserProfileId == AdminProfileId, UserProfileId == HeadTeacherProfileId, UserProfileId == SChoolITProfileId),RecordTypeDeveloperName == 'Student'),true,false)}">
+        <apex:pageMessage summary="You cannot edit this record directly. To make any changes to it please change the relevant fields on the related 'Student' record." severity="error" strength="3"/>
+    </apex:outputPanel>
+
+    <!-- Mass Email : Only Admin can edit -->
+    
+    <apex:outputPanel rendered="{!IF(AND(UserProfileId == AdminProfileId, RecordTypeDeveloperName == 'Mass_Email'),true,false)}">
+        <apex:page action="/{!ContactId}/e?nooverride=1&retURL={!$CurrentPage.parameters.retURL}"/> 
+    </apex:outputPanel>
+
+    <apex:outputPanel rendered="{!IF(AND(UserProfileId != AdminProfileId, RecordTypeDeveloperName == 'Mass_Email'),true,false)}">
+        <apex:pageMessage summary="You cannot edit this record directly. To make any changes to it please change the relevant fields on the related 'Parent' record." severity="error" strength="3"/>
+    </apex:outputPanel>
+
+    
+    <!-- Additonal Parent - All can edit -->
+    <apex:outputPanel rendered="{!IF(RecordTypeDeveloperName == 'Additional_Parent',true,false)}">
+        <apex:page action="/{!ContactId}/e?nooverride=1&retURL={!$CurrentPage.parameters.retURL}"/> 
+    </apex:outputPanel>    
+</apex:page>

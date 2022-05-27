@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Full Day Nursery</name>
+    <style>freeForm</style>
+    <subject>Full Day Nursery</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+We are entering the final term of Nursery class. This is probably the most important part of the year for our students as they prepare to get ready for promotion to the Reception class.
+
+We believe that Reception is one of the most important school years because it is the time when basic Literacy and Numeracy skills are learned. For example in Term One the students will learn their letter sounds and use this knowledge to begin reading and writing words and sentences before Christmas. It is  a very exciting time.
+
+In order to be ready for this learning, it is important that our Nursery students are as well prepared as possible. A key factor in this preparation is being at school as much as possible. This can be achieved in two ways:
+
+1) Avoid any absence from school if possible. With the sun shining and warmer days we hope that students will be fit and healthy and at school every day.
+
+2) Attend school for a full day if possible:
+
+- Nursery children that are in school for full days are more ready for Reception where a full day is obligatory.
+
+-They gain from access to the full curriculum being offered and have more opportunities to develop.
+
+-Our full day children really enjoy the additional time with their friends and make rapid progress.
+
+In short they are more ready for Reception classes.
+
+With this in mind, we would strongly suggest that all Nursery students attend a full day in Term Three. Consider this option very carefully and please do contact our admissions department if you wish to support this request.
+
+Paul Seedhuse
+
+Headteacher
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

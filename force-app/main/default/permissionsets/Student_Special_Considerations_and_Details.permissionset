@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Is used to give School Nurses in schools using SchoolKompanion access to Special Considerations and Special Consideration Details field to update allergies and other medical related information.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Student Special Considerations and Details</label>
+</PermissionSet>

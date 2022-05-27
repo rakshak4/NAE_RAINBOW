@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Spurs Football Camp</name>
+    <style>freeForm</style>
+    <subject>Tottenham Hotspur Football Training Camp</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+
+
+
+
+Dear parents,
+
+
+Following the successful and popular Tottenham Hotspur 4-day football camp last year, we are pleased to announce that we will be hosting their expert coaching staff this year from Monday June 3rd until Thursday June 6th 2013. The information below will give you an insight into what the programme can offer.
+
+The 4-day football camp:
+
+
+
+-Is devised in-line with the Tottenham Youth Academy syllabus to provide content tailored to the requirements of the group.
+
+
+
+-Is devised to assess performance levels and maximise each players potential
+
+
+
+-Will deliver advanced level coaching incorporating the fundamental skills that are developed during each session and small-sided game.
+
+
+
+The programme aims to:
+
+
+
+-Achieve – multiple outcomes; Technical/Tactical/Physical/Psychological
+
+
+
+-Develop - effective players and individuals
+
+
+
+-Optimise – every second for the player
+
+
+
+-Develop – personality and mental strength
+
+
+
+-Create – the best learning environment
+
+
+Students in Years 1-3 will participate in morning coaching sessions and the Years 4-9 students will be attending afternoon sessions. The cost of the 4-day Football Camp will be 9500 rubles per student. No money will be excepted until your registration has been completed. More information about how to register for the camp will be sent to you on Monday 29th April.  Please note that only 50 places are available for years 1-3 and 50 places for years 4-9.
+
+
+Thank you for considering this wonderful opportunity for our students.
+
+
+Kindest Regards
+
+
+Mr. Adam Hoult
+
+Teacher of Physical Education
+
+The International School of Moscow
+
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

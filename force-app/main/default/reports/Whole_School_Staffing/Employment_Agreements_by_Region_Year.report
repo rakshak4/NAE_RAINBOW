@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_80586185</developerName>
+        <masterLabel>Region</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Account$School__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>The British College of Brazil</sourceValue>
+            </sourceValues>
+            <value>AMS</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>The British School of Tashkent</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>The International School of Moscow</sourceValue>
+            </sourceValues>
+            <value>EUME</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>The British School of Nanjing</sourceValue>
+            </sourceValues>
+            <value>CN</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>The British International School of Kuala Lumpur</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>The British School Yangon</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Nord Anglia International School Manila</sourceValue>
+            </sourceValues>
+            <value>SEA</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Account.Salary_Packages__r$Name</field>
+    </columns>
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Salary_Packages__r$Status__c</field>
+    </columns>
+    <columns>
+        <field>Account.Salary_Packages__r$Contract_Term__c</field>
+    </columns>
+    <currency>EUR</currency>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>FiscalYear</dateGranularity>
+        <field>Account.Salary_Packages__r$Start_Date__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_80586185</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account.Salary_Packages__r$School__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Employment Agreements by Region &amp; Year</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Staff_with_Employment_Agreements__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Account.Salary_Packages__r$Start_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

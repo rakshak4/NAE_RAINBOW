@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to parents about Rugby matches</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Rugby</name>
+    <style>freeForm</style>
+    <subject>Rugby Matches</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+The British School of Tashkent openly invites you to join us in watching the final matches of this year&apos;s 6 Nations Rugby Tournament. We will be hosting the following matches:
+
+
+16-Mar 19:30 Italy v Ireland
+16-Mar 22:00 Wales v England
+
+
+
+
+
+
+We would love to have you and are sure it will be an excellent social and sporting event. All adults welcome so do bring your friends. Food and drinks will be on sale. All proceeds from the event will be donated to Healthprom charity organisation.
+
+See poster and location map attached for more details. Please feel free to contact us for further details either by phone: +998 71 262 60 20 or via email marketingmanager@britishschool.uz
+
+The event is for adults only.
+
+
+
+
+
+Британская школа в Ташкенте рада пригласить Вас на просмотр финальных матчей Кубка шести наций. Двери нашей школы будут открыты для Вас в:
+
+
+Суббота, 16 марта 19.30 Италия - Ирландия
+
+Суббота, 16 марта 22.00 Уэльс - Англия
+
+Мы будем рады увидеть вас на этом социальном и спортивном мероприятии. Вы можете пригласить и своих друзей. В продаже будут еда и напитки. Все собранные средства будут переданы благотворительной организации Healthprom.
+
+В приложении вы можете найти карту расположения и расписание матчей. С дальнейшими вопросами вы можете связаться с нами по телефону: +998 71 262 60 20 или по электронному адресу:marketingmanager@britishschool.uz
+
+Мероприятие только для взрослых.
+
+
+
+
+Regards,
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

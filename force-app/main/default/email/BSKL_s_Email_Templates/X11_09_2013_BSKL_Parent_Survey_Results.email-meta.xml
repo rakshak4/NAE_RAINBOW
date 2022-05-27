@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>11/09/2013 BSKL Parent Survey Results</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>11/09/2013 BSKL Parent Survey Results</name>
+    <style>freeForm</style>
+    <subject>BSKL Parent Survey Results</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Further to the survey we conducted at the end of the last academic year I’m happy to attach a presentation of the results and a letter from the Foundation Chairman.
+
+BSKL Parent Survey Results 2012-13
+https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004RnB/3gpPb7FAZkN0.cnHulYpIddGMvJuB6fUDl_rcnF48a8=
+
+Letter from the Chairman
+https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004Rn6/VrGrP8huhfaBjurA7NnuVcEEhAYAnNDv1uk1Dkd1wFg=
+
+Kind Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

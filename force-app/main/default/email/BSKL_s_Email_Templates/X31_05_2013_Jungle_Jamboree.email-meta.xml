@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>31/05/2013 Jungle Jamboree</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>31/05/2013 Jungle Jamboree</name>
+    <style>freeForm</style>
+    <subject>Jungle Jamboree</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We are saving the best until last, thank you for all your support so far.  We have garnered a very impressive array of fantastic raffle prizes; an iPad mini, overnight stays in three top hotels (two in KL and one a little farther away), restaurant and spa vouchers, coffee machines and a giant skateboard to name just a few!!!!
+We know you receive a lot of emails from the school but please take the time to read all the way through this email and find out what your children need to bring to the Jungle Jamboree so they are ready to rumble in the jungle.
+
+But first, we need you!
+
+THE IMPORTANT STUFF
+
+WE NEED YOU!
+
+Volunteering: With just one week to go before the Jungle Jamboree we still need your help.  We need you, we need just one hour of your time!  We need volunteers on the day of the fair to help out on stalls such as the craft table, the cake stall, face painting and the reptile petting zoo.  Why don&apos;t you find a friend to team up with you so it will be more fun for you?  This would really help us out.
+What about you all you Dads that are attentively reading this?  Yes, you!!!  Do you fancy helping out on a stall for an hour or two?  If you can volunteer then please get in touch with doris_simon@yahoo.com
+
+Drinks Donations: These have started to come in, thank you.  But we need a lot more to keep everyone well watered for all the fun and games. Sign up sheets are in the school lift and on the parent noticeboard on B1, please put your name against the drinks that you can donate please.
+
+We welcome donations from school families of bottled water, Ribena and small cartons of juice.  This would help us enormously in raising the funds we need to help the children from our chosen charities. We are also looking for donations of water dispenser bottles to save on the amount of plastic bottles being used. Thank you all for your generosity. For more information on the EFC charities that will benefit from the money that the Jungle Jamboree raises, please read to the end of this email.
+
+Cake Stall and Second Hand Book Stall: Any home-baked donations for the cake stall, please contact tracylew@hotmail.com and used books for the Second Hand Book stall can be dropped off in the box by the school reception.
+
+Right, let&apos;s crack on.......
+
+THE FUN STUFF
+
+Non-Uniform Day on Friday 7th June to get everyone excited for the Jungle Jamboree.  No money will be collected in for this day but we would love to see you wear your Jungle Jamboree Animal Badges. Badges are on sale at school next week for 2RM each, collect all 5. Next week&apos;s animal is Tiger.
+Now roll up, roll up, the raffle tickets are on sale, 2RM each or a strip of tickets for 10RM.  But ten strips and you get an eleventh strip for free.
+Members of the EFC will be selling tickets in the school reception, by the Kampung House, at morning drop-off and afternoon pick-up.
+
+The Photo Competition Deadline has been extended to June 3.  Entries can be handed into the front desk, clearly marked with name, class and category.  See posters around school for details.
+
+Check your email accounts next week as we will be emailing out the programme of events; song, dance, silly games and the silent auction.  Additionally we will be emailing out the catalogue of items and promises up for grabs in the Silent Auction.  Have you heard the rumours about a reserved car parking spot on B1 for a month or the chance to be Head for the Day?????
+
+
+THE VERY IMPORTANT, VERY FUN STUFF  (If you don&apos;t read this, your kids will go mad!)
+
+The Summer Fair will end with a battle of epic proportions on the school roof.  Pitting parents against their children, we will all cool off with a massive, refreshing, once in a year opportunity....let the EFC present.....drum roll please......
+
+Parents/Teachers vs. Children Water-fight.
+
+2.30pm, Silly Games Section, on the rooftop playground.
+You must bring your own water-guns.
+
+You must bring your own water guns but we will supply the water.
+
+If you ain&apos;t got a watergun, you ain&apos;t getting in!!!!  Remember, remember, your waterguns, don&apos;t surrender. Make sure that your waterguns have your name on them.
+
+
+WHO ARE THE CHOSEN CHARITIES?
+
+Funds from our Summer Fair 2013 aka Jungle Jamboree will go to the following worthy causes:
+
+Positive Shelter Home - Orphanage for HIV+ kids in Cheras. They need to move out of their current corner lot double storey link house as they can’t afford the RM2k / month rent. One of the children inherited a kampung house but they need to refurbish it to a satisfactory and safe living condition, before moving in. Through the EFC’s association with the St Patrick’s Society of Selangor (Irish Society), we have been able to obtain RM10K to pay the next 5 months rent (July to November) and sincerely hope that the Jungle Jamboree raises enough funds to be able to renovate the kampung house by end November, so that then they’ll be free from having to pay rent thereafter.
+
+PKKK in Kajang. This centre’s run by a lady pastor who works many jobs to make it available to about 80 kids. It is open to kids of abusive parents and broken homes, as well as homeless kids and ones with single parents. They go there for a meal before going to school. They are now in need of funds for ten computer tables and subsidies for ten youths to study for a certificate in computer studies, so that they will be able to find jobs. The children&apos;s parents are mainly Alam Flora workers, street sweepers and rubber tappers.
+
+That&apos;s all for this week folks, we hope to see you at the Jungle Jamboree on Saturday 8th June.
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

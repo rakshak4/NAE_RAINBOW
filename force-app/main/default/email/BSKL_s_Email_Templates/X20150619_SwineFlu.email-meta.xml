@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20150619 SwineFlu</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20150619 SwineFlu</name>
+    <style>freeForm</style>
+    <subject>Confirmed case of Influenza A (Swine Flu) at school</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Confirmed case of Influenza A (Swine Flu) at school
+
+
+H1N1 Flu Virus
+
+
+H1N1 flu is also known as swine flu. It&apos;s called swine flu because in the past, the people who caught it had direct contact with pigs. That changed several years ago, when a new virus emerged that spread among people who hadn&apos;t been near pigs.
+
+
+
+In 2009, H1N1 was spreading fast around the world, so the World Health Organization called it a pandemic. Since then, people have continued to get sick from swine flu, but not as many.
+
+
+
+While swine flu isn&apos;t as scary as it seemed a few years ago, it&apos;s still important to protect yourself from getting it. Like seasonal flu, it can cause more serious health problems for some people. The best protection is to get a flu vaccine, or flu shot, every year.
+
+
+Causes of Swine Flu
+
+
+Swine flu is contagious, and it spreads in the same way as the seasonal flu. When people who have it cough or sneeze, they spray tiny drops of the virus into the air. If you come in contact with these drops or touch a surface (such as a doorknob or sink) that an infected person has recently touched, you can catch H1N1 swine flu.
+
+
+
+Despite the name, you can&apos;t catch swine flu from eating bacon, ham, or any other pork product.
+
+
+Swine Flu Symptoms
+
+
+People who have swine flu can be contagious one day before they have any symptoms and as many as 7 days after they get sick. Kids can be contagious for as long as 10 days.Most symptoms are the same as seasonal flu. They can include:
+
+
+Cough
+Fever
+sore throat
+stuffy or runny nose
+body aches
+headache
+chills
+
+
+
+Tests for Swine Flu
+
+
+It&apos;s hard to tell whether you have swine flu or seasonal flu, because most symptoms are the same. People with swine flu may be more likely to feel nauseous and throw up than people who have seasonal flu. But a lab test is the only way to know for sure. To test for swine flu, your doctor takes a sample from your nose or throat.
+
+
+How Is Swine Flu Treated?
+
+
+Some of the same antiviral drugs that are used to treat seasonal flu also work against H1N1 swine flu. Oseltamivir (Tamiflu), peramivir (Rapivab), and zanamivir (Relenza) seem to work best, although some kinds of swine flu are resistant to oseltamivir.
+
+
+
+These drugs can help you get over swine flu faster. They can also help keep it from being too severe. They work best when taken within 48 hours of the first flu symptoms, but they can help when taken later.
+
+
+
+Antibiotics won&apos;t help, because flu is caused by a virus, not bacteria.
+
+
+Vaccine for Swine Flu
+
+
+The same flu vaccine that protects against seasonal flu also protects against the H1N1 swine flu strain. You can get it as a shot or as a nasal spray. Either way, it &quot;teaches&quot; your immune system to attack the real virus.
+
+
+
+Besides a flu shot, there are other things you can do to stay healthy:
+
+
+Wash your hands throughout the day with soap and water. Or use an alcohol-based hand sanitizer.
+Don&apos;t touch your eyes, nose, or mouth.
+Avoid people who are sick.
+
+
+
+Safety measures have been taken in school; the whole of  the primary and secondary campus are thoroughly cleaned and UV lights will be placed in classrooms after school. Extra cleaning has been organised throughout the weekend, however as soon as someone with the virus enters the building and coughs or sneezes we then cannot control this, so please keep your child at home if they exhibit the symptoms.
+
+Please kindly notify the school if your child has any of the symptoms or if your child has a case of Influenza A confirmed by a physician.
+
+Please read symptoms carefully and keep your child at home if they exhibit them.
+
+If you have any concerns please do not hesitate to contact one of our school nurses:
+
+Nurse Kalpana: kalpana.vanselvan@britishschool.edu.my
+
+Nurse Agnes: agneswary.francis@britishschool.edu.my
+
+
+
+Kind Regards,
+
+Administration Team
+
+British International School Kuala Lumpur
+
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>27/11/2013 Message Head of Secondary</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>27/11/2013 Message Head of Secondary</name>
+    <style>freeForm</style>
+    <subject>Message from Head of Secondary</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+Message from the Head of Secondary
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please accept this mid-week offering as being late for last Friday and early for next!
+
+Many more parents than I anticipated came to watch our Deepavali Assembly. We did eventually find seats for everyone (albeit in the aisles) and the 700-plus audience simply added to the atmosphere of this fabulously colourful event. A super-impressive organisational feat by the parents’ organising committee ensured that the 44 pupils who took part (from Reception to Year 9) danced and strutted their way through a fast-paced production. Well done to all involved, and thank you.
+
+The most recent Head of Secondary Forum attracted another healthy turnout, and as usual those attending made me work hard to explain the many variants in the GCSE options process and beyond. I certainly appreciate your views, questions and suggestions. The next forum will be on the 22nd January.
+
+Our fund-raising efforts continue: last Friday saw our inaugural secondary social event with 100 pupils attending the Halloween Ball. To be honest, I didn’t see much dancing take place (perhaps some of the costumes were not conducive….) but everyone clearly had a great time: in some ways it was reassuring to see that ‘school discos’ really haven’t changed that much since my day! I would like to thank Mrs Fernandes and the Year 9 committee for working so hard at this first event, and all the staff who gave up their time to support and supervise. We also raised over RM1000 on the night for the Philippine fund, far in excess of what we anticipated (Mr Thomson is still regretting ‘popping in,’ only to be mugged for all his loose change!). Next term is the turn of Year 8 to organise a romantically-themed Valentines’ evening: I am sure they will do good job - watch this space. The other aspects of our current phase of fundraising are still going strong. Life at BSKL seems just like one big bake sale at the moment, and next Monday sees the Whole School Dance-a-thon.
+
+In previous newsletters I have mentioned success on the sports field, and our young sports people continue to do us proud at school level: the cross country team won the overall  competition at the recent KLISS event held at Nexus. This week sees the start of the House competitions with Year 9 football, followed by Year 7 and 8 football the week after. I spoke to the pupils in assembly on Monday about the importance of keeping Corinthian-like sporting values alive. The current disputes in the English Premiership over penalty decisions are a far cry from 1906 when the England player Vivian Woodward intentionally missed a penalty in a match against France that he thought had been unfairly awarded (although England did go on to win the game 15-0, so perhaps it wasn’t such a difficult decision after all!). Football in particular has of course become big business. Nevertheless, I do feel that Mourinho et al could learn a little from those ‘good old days’.
+
+Notices
+
+Year 8 are organising a series of cake sales on Thursday lunchtimes:
+
+8MB this Thursday lunchtime around the pool.  Followed by 8RB next week.
+Anyone else who wants to help their House win can contribute cakes or cookies.
+Parents need to bake or donate cakes (minimum 12 pieces).
+Bring them to Humanities 2 each Thursday morning.
+
+I have asked secondary pupils not to play football on the stadium pitch between 7.30am and 7.45am. In order to avoid injury to younger pupils, this area will be reserved for the primary school at this time. I also feel that secondary pupils should be taking this time to reflect on the day ahead.
+If your child is going to be late for school (registration is taken at 7.55am) then please remind them to sign in at Reception – otherwise they will remain marked as absent for the day. Pupils arriving late on the school bus should still report to Reception, where they will be marked as present.
+Mrs Thomson has now taken maternity leave. We do of course wish her well. For the next few months her Form will be in the capable hands of Ms Tory Coates: tory.coates@britishschool.edu.my. Art is being covered by Mr Adam Cooke, a highly experienced Art and Design teacher with substantial UK experience.
+Please ensure your child does not come into school if they are unwell. The school infection control procedures (attached below) outlines the circumstances when pupils should be kept away from school.
+
+School Infection Control Procedures
+(https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004SIA/rxfKlThClhStQQoIlvRhoNn1QJv8yL6vTSvl4XHPWz4=)
+
+Upcoming Dates
+
+Thursday 28th November: Year 8 Cake sale.
+Monday 2nd December: Whole School Dance-a-thon.
+
+And finally……
+
+Have a very good week, and a restful weekend when it arrives.
+
+
+Kind Regards,
+Derek Mackey
+Head of Secondary
+The British International School of Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

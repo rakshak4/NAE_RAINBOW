@@ -1,0 +1,48 @@
+<apex:page standardController="News_Events__c" id="page" standardStylesheets="false" sidebar="false" showHeader="false" title="Edit News/Events Record">
+  
+  <script>
+    check();
+    function check(){
+        
+        var stillsending = "{!News_Events__c.Send_Automated_Reminder_Email__c}";
+        //alert("stillsending="+stillsending);
+        
+        var isNext14Days = "{!News_Events__c.Is_Next_14_Day_Event__c}";
+        //alert("isNext14Days="+isNext14Days);
+        
+        var automaticReminder = "{!News_Events__c.Qualifies_for_Automatic_Email_Reminder__c}";
+        //alert("automaticReminder="+automaticReminder);
+        
+        var retURL = "{!$CurrentPage.parameters.retURL}";
+        //alert("retURL="+retURL);
+        
+        var rid = "{!$CurrentPage.parameters.id}";
+        //alert("rid="+rid);
+        
+        var urlNoOverride = encodeURI("/"+rid+"/e?saveURL="+retURL+"&cancelURL="+retURL+"&saveURL="+retURL+"&retURL="+retURL+"&nooverride=1");
+        //alert("urlNoOverride"+urlNoOverride);
+        
+        //check
+        if(isNext14Days == "true" && automaticReminder == "false"){
+            var confirm1 = window.confirm("This date falls within the next 14 days. Note that publishing this record will send an email to all related parents informing them of the change, assuming that email notifications for this record have not been disabled.");
+            //alert(confirm1);
+            if(confirm1){
+                window.open(urlNoOverride,'_self');
+            }else{
+                window.open(retURL,'_self');
+            }
+        }else if(automaticReminder == "true"){
+            var confirm2 = window.confirm("This date falls within the next 14 days. Note that making any changes to the 'Title', 'Start Date', 'End Date' or 'Essential Info' fields will trigger an email to all related parents informing them of the change.");
+            //alert(confirm2);
+            if(confirm2){
+                window.open(urlNoOverride,'_self');
+            }else{
+                window.open(retURL,'_self');
+            }
+        }else if(isNext14Days == "false"){
+            window.open(urlNoOverride,'_self');
+        }
+    }
+  </script>
+  
+</apex:page>

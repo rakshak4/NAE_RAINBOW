@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Happy Feet Football Programme</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Happy Feet Football Programme</name>
+    <style>freeForm</style>
+    <subject>Happy Feet Football Programme</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dear Lakefront Early Years Parents (Pre-Nursery, Nursery and Reception),
+
+
+
+Here is some information from our friends at The Guangzhou Football Academy about their Happy Feet Football Programme for children aged 3-5 years:
+
+
+
+Welcome back!
+
+
+
+Our Autumn term Happy Feet Football Programme starts on Saturday 30th August.
+
+
+
+Please come and join our exciting programme, which helps develop young children’s motor skills and football ability.
+
+
+
+Please feel free to browse our website:
+
+www.hongkongfootballacademy.com
+
+
+
+
+For more information, please CLICK HERE or contact us directly via email enquiry@hkf-academy.com or phone +86 159 2076 1172
+
+
+
+Thanks and best wishes,
+
+
+
+The British School of Guangzhou
+
+
+
+
+
+
+
+
+
+
+
+____________________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

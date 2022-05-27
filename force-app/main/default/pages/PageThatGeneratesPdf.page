@@ -1,0 +1,36 @@
+<apex:page showHeader="false"
+           renderAs="PDF"
+            applyBodyTag="false" applyHtmlTag="false" standardStylesheets="false" >
+<html>
+<head>
+
+
+    <style type="text/CSS" >
+        @page {
+            size: letter;
+            margin: 25mm;
+            @top-center {
+                content: "Sample";
+            }
+            @bottom-center {
+                content: "Page " counter(page) " of " counter(pages);
+            }
+        }
+        .page-break {
+            display:block;
+            page-break-after:always;
+        }
+        body {
+            font-family: Arial Unicode MS;
+        }
+    </style>
+
+
+</head>
+</html>
+
+
+
+
+
+</apex:page>

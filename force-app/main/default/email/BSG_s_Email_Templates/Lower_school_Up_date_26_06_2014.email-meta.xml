@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Lower school Up-date 26/06/2014</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Lower school Up-date 26/06/2014</name>
+    <style>freeForm</style>
+    <subject>Lower School Up-date 26/06/2014</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+Dear Lower School Parents,
+As the year draws to an end I would like to take this opportunity to thank you for the support you have offered our school this year. The children have been an absolute delight and have brightened every day on the Lower School. I am overwhelmed with the progress they have all made and I am pleased to confirm that they are all ready to move onto the next stage of their education.
+I would like to say on behalf of all the Lower School team that we have had a throughly enjoyable year and we look forward to seeing you all on 22nd August for our ‘Orientation-Meet the Teacher’ event. With school officially starting on Monday 25th August.
+For those of you that are leaving BSG this year, I wish you all the best for the future and hope you will hold happy memories of BSG for many years to come.
+Warm regards,
+Miss Kathy
+Head of Lower School
+The British School of Guangzhou
+
+
+
+
+
+World Class Education
+
+
+____________________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

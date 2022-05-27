@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Independence Day of the Republic of Uzbekistan 2016</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Independence Day of the Republic of Uzbekistan 2016</name>
+    <style>freeForm</style>
+    <subject>Independence Day of the Republic of Uzbekistan 2016</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+
+
+To commemorate the Independence Day of the Republic of Uzbekistan which has been declared a Public Holiday, the British School of Tashkent will be closed on Thursday 1st September until Monday 5th September 2016.
+
+
+The school will reopen on Monday 5th September.
+
+
+Our Dual curriculum Saturday school will commence on Saturday 10th September.
+
+
+I hope you have a safe and restful break
+
+
+Kind regards,
+
+Administration Team
+
+The British School of Tashkent
+
+
+
+Уважаемые родители!
+
+
+В честь государственного праздника Дня независимости Республики Узбекистан, Британская школа города Ташкента будет закрыта с четверга 1-го сентября до понедельника 5-го сентября 2016-го года.
+
+
+Школа вернется к своему обычному графику в понедельник 5-го сентября.
+
+
+Субботняя школа возобновит свою работу в субботу 10-го сентября.
+
+
+Желаем Вам приятного отдыха.
+
+
+С уважением,
+
+Администрация Британской школы
+
+
+города Ташкента
+
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

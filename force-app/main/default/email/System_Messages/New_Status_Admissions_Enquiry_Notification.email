@@ -1,0 +1,5 @@
+The following enquiry has been assigned to you.  
+
+Enquiry Name: {!Lead.Name}  
+
+Click on the link to access the lead directly: {!Lead.Link}

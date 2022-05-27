@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Trip to Oman</name>
+    <style>freeForm</style>
+    <subject>Trip to Oman</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents
+
+I wanted to inform you that upon further investigation by the travel company in Oman, we have now found out that the best way to obtain student visas is for the company to apply for them on the students&apos; behalf. Therefore, any student who requires a visa will not need to apply to the embassy here in Moscow and will collect their visa when they arrive at the airport in Oman. The only document that you are now required to prepare is the notarised letter of authorisation.
+
+Kind regards,
+
+
+
+Michelle Hamilton
+
+Secondary Phase Leader
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

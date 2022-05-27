@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Y7 Jan 2019 PTCs</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NAE_Branding_Letterhead_BSY</letterhead>
+    <name>Y7 Jan 2019 PTCs</name>
+    <style>freeForm</style>
+    <subject>Year 7 - Parent Teacher Consultations</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

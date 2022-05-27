@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Honk - Senior Production</name>
+    <style>freeForm</style>
+    <subject>Honk - Senior Production</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+HONK  - Senior Production 17/18th February 6pm (Upper Campus New Gym)
+
+“Don’t Duck out! Come and join us all for this years ‘Quacking’ Senior Production of HONK!” Click here to download the Honk poster.
+
+Waddling it&apos;s way into the Upper Campus on February 17th and 18th at 6pm with be the Award Winning Family Musical Comedy &apos;Honk&apos; written by George Stiles and Anthony Drew.
+
+&apos;HONK&apos;
+
+Loosely based on Hans Christian Andersen’s ‘The Ugly Duckling’ Honk explores the theme of tolerance and celebrates difference in a light hearted comical fashion. With plenty of song and dance for all the family to enjoy you’d be ‘Quackers’ to miss it.
+
+Tickets (No charge) are now available exclusively to parents, students and the wider school community and can be obtained from both Lower and Upper Campus reception desks. Please use the tickets request slip to reserve your seats.
+
+We very much hope to see you at one of the performances and should you require any further information please do not hesitate to contact me.
+
+Yours Sincerely,
+
+James Langford
+(Teacher of Music/Drama)
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

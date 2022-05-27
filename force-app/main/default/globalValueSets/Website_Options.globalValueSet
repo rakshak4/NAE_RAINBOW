@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Brasilia</fullName>
+        <default>false</default>
+        <label>Brasilia</label>
+    </customValue>
+    <customValue>
+        <fullName>Kuala Lumpur</fullName>
+        <default>false</default>
+        <label>Kuala Lumpur</label>
+    </customValue>
+    <customValue>
+        <fullName>Manila</fullName>
+        <default>false</default>
+        <label>Manila</label>
+    </customValue>
+    <customValue>
+        <fullName>Marbella</fullName>
+        <default>false</default>
+        <label>Marbella</label>
+    </customValue>
+    <customValue>
+        <fullName>Moscow</fullName>
+        <default>false</default>
+        <label>Moscow</label>
+    </customValue>
+    <customValue>
+        <fullName>Nanjing</fullName>
+        <default>false</default>
+        <label>Nanjing</label>
+    </customValue>
+    <customValue>
+        <fullName>Navarra</fullName>
+        <default>false</default>
+        <label>Navarra</label>
+    </customValue>
+    <customValue>
+        <fullName>New York</fullName>
+        <default>false</default>
+        <label>New York</label>
+    </customValue>
+    <customValue>
+        <fullName>São Paulo</fullName>
+        <default>false</default>
+        <label>São Paulo</label>
+    </customValue>
+    <customValue>
+        <fullName>Tashkent</fullName>
+        <default>false</default>
+        <label>Tashkent</label>
+    </customValue>
+    <customValue>
+        <fullName>Yangon</fullName>
+        <default>false</default>
+        <label>Yangon</label>
+    </customValue>
+    <customValue>
+        <fullName>Sandbox 1</fullName>
+        <default>false</default>
+        <label>Sandbox 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Sandbox 2</fullName>
+        <default>false</default>
+        <label>Sandbox 2</label>
+    </customValue>
+    <masterLabel>Website Options</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

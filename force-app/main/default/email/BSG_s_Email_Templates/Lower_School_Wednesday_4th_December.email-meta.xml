@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Lower School Wednesday, 4th December</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Lower School Wednesday, 4th December</name>
+    <style>freeForm</style>
+    <subject>Lower School Wednesday, 4th December</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+
+Dear Parents,&lt;?xml:namespace prefix = o /&gt;
+
+Due to unplanned electrical outage the lower campus has no power for the rest of the day. We need to send all children home. Buses will be departing lower school campus at 11:15am. Parents please be ready to collect your children from 11:15 onwards from your home bus stop. Collected children need to be collected from now onwards from the lower school.
+
+If you are unable to collect your child from school or the bus stop please inform Miss Patience by phone as soon as possible via telephone number 87094788.
+
+Many thanks for your understanding,
+
+Lower School
+
+
+
+
+The British School of Guangzhou
+
+
+
+World Class Education
+
+_____________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

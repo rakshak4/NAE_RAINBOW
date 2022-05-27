@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Parent-Teacher First Aid Workshop 2013-01-09</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Parent-Teacher First Aid Workshop 2013-01-09</name>
+    <style>freeForm</style>
+    <subject>Parent-Teacher First Aid Workshop 2013-01-09</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+It is with great pleasure that I bring you news of a workshop that IWS is offering our BSG community.
+
+IWS is an elite medical facility that offers advanced services in areas of Orthopedics and Sports Medicines through its team of Foreign Physicians and Surgeons.
+
+The workshop is called ‘Family First Aid’ and will be delivered by a team of Athletic Trainers from IWS. The focus of the workshop will be on the essential skills and knowledge you need as carers to be able to administer emergency treatment for accidents and illness, including how to call an ambulance and get your child to an emergency department as quickly as possible.
+
+The workshop will take place in the Lower School Hall on Wednesday 23rdJanuary from 3:00pm–4:00pm. (Click here for the invitation). The school will provide supervision in the new Activity Room between the above times to enable children to play safely whilst parents attend the workshop. The Coffee Shop will also be open for a relaxing drink after the workshop.
+
+It would be appreciated if you could complete the information slip that your child will bring home today and return it to school. If your child will not be taking their usual bus home on this day please inform our bus coordinator at the following address grace.kwan@bsg.org.cn
+
+The Lower School team looks forward to seeing you all at the workshop.
+
+Kind regards,
+
+Miss Kathy
+Head of Lower School
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

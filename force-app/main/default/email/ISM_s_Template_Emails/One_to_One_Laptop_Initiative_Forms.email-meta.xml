@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>ISM</letterhead>
+    <name>One to One Laptop Initiative Forms</name>
+    <style>freeForm</style>
+    <subject>One to One Laptop Initiative Forms</subject>
+    <textOnly>Dear Parents,
+
+1-2-1 laptops – Year 9 students
+Apologies for the slight delay in presenting the MacAir books this week.
+We have been ensuring that all of the required software and protection is loaded in order to make sure that they are fully ready for student use. This has now been achieved.
+
+We have sent the permission agreement forms home with students today for your perusal over the break.
+
+Once the signed forms have been received back into school, we will be holding an introductory workshop for the students and then release the laptops for their use. Please be reassured, that we have secure storage in school for them during break times, PE etc.
+
+Apologies again for the delay.
+
+Paul Seedhouse
+Headteacher
+The International School of Moscow
+Tel:  +7 (499) 922 44 00
+Fax: +7 (499) 922 44 00 Ext.4
+www.internationalschool.ru
+Part of The British Schools Group
+
+*Disclaimer:*
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20150320 Primary Enrichment Online Registration</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20150320 Primary Enrichment Online Registration</name>
+    <style>freeForm</style>
+    <subject>Primary Enrichment Online Registration</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+20th March 2015
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}
+
+The online registration for Primary Enrichment activities will be available on Monday 23rd March from 9am until Friday 27th March 2pm. Please click here to download the list of Enrichment activities available.
+
+For registration please use the following forms:
+
+Years 1 &amp; 2
+
+Years 3 &amp; 4
+
+Years 5 &amp; 6
+
+Kind regards
+Admin Team
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

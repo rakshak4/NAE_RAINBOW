@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Year11 Exam meeting</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BSG</letterhead>
+    <name>Year11 exam meeting</name>
+    <style>freeForm</style>
+    <subject>Year11 exam meeting</subject>
+    <textOnly>Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Firstly, I would like to say well done to all of the students as they have worked extremely hard over the recent examination series and have approached the exams in a positive manner. It has been a stressful month and they have coped admirably with the pressure. I would also like to congratulate Mr. Marwaha who has excelled in the role of the examinations officer. The school was awarded an excellent grading from the CIE examination inspector when he paid a visit on Tuesday, May 29th.
+
+
+Year 11 Computer based Geography examination
+
+
+Unfortunately, there was a glitch with this examination caused by CIE not adjusting the access code for the paper for different time zones. This meant that it was not completed at the set time. The students have already sat the geography paper and the computer examination is still in it’s pilot stage. This will not have an impact on the student’s examination results but it was unfortunate nonetheless.
+
+
+Remaining exams
+
+
+There are 3 exams left. The G.C.S.E run slightly later than the I.G.C.S.E hence the 17 day break. These are all Edexcel examinations and will have a late finish and will involve parents quarantining their children for 2 hours after the examination. To facilitate a smooth transfer between quarantining I would like the following procedures to be adhered to as there were complications caused by a lack of clarity in the last major examination.
+
+
+1. Parents of those students sitting the relevant examinations to meet in the school front reception area at 7:15pm on Friday, 18th June (Statistics) and Tuesday, 26th June (Chinese) and 4:45pm for Tuesday, 19th June (Chinese). Please be on time as this can complicate the handing over procedure.
+
+
+2. Students will be released and marked off the list as they are collected.
+
+
+Ms. Kent will be running Statistics lessons next week in preparation for the exam on Monday, 18th June.
+
+
+Work experience
+
+
+I will be sending out individual letters to parents with regard to the work experience to clarify the expectations and some of the practical information for the week. Key dates:
+
+
+June 4th: 2pm. Those students working with HSBC need to be available for a conference call with a representative of the company. Please inform me if this is not going to be possible. The majority of students will be in school at this time to study for their Statistics examination with Ms. Kent.
+
+
+June 8th: Work Experience Introduction: 10:30 – 12:00pm.
+
+Students to be given final information about their Work experience placements and some practice scenarios to help them prepare.
+
+
+June 11th – 14th Students to go to work experience. Some companies have requested the whole week so there will now no longer be a debrief session on Friday, 15th June. Please note that Anna and Jenny will be doing their experience in the first week of July.
+
+
+Monday, 18th June. Work experience debrief session. 10:30 – 12:00pm. Students to reflect on their placement and lessons learned from this. Students will then have an afternoon of revision with Ms. Kent prior to their exam starting at 5/5:30pm.
+
+
+Graduation dinner:
+
+We would like to hold a graduation dinner for students to celebrate their graduation from Year 11. I have set up an area on BSG it’slearning site that the students can use to help co-ordinate this. We are having difficulties in sorting out a mutually convenient date and students are given the choice of 15th, 22nd and 29th June. It will be very useful if I could have the feedback by Tuesday, 5th June.
+
+
+Speech day:
+
+Speech day is July 6th and we hope that all our Year 11 students and their parents are able to join us to say goodbye to the leavers.
+
+
+Kind regards,
+
+Mr.Iain Ruck
+
+The British School of Guangzhou
++8620 87094788
+www.bsg.org.cn</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

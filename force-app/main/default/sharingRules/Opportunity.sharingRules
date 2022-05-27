@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>BCB_Share_Students_with_Finance</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BCB Share Students with Finance</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BCB_Head_of_Finance</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <role>BCB_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BCB_Share_Students_with_HR</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BCB Share Students with HR</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BCB_HR_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <role>BCB_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BCB_Share_Students_with_Heads_of_Sites</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BCB Share Students with Heads of Sites</label>
+        <sharedTo>
+            <group>BCB_Heads_of_Sites</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>BCB_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BCB_Share_Students_with_ICT_Department</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BCB Share Students with ICT Department</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BCB_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <role>BCB_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BSKL_Share_Students_with_Finance</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSKL Share Students with Finance</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSKL_Head_of_Finance</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <role>BSKL_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BSKL_Share_Students_with_HR</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSKL Share Students with HR</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSKL_HR_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <role>BSKL_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BSKL_Share_Students_with_ICT_Department</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSKL Share Students with ICT Department</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSKL_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <role>BSKL_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BSKL_Share_Students_with_Nurses</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSKL Share Students with Nurses</label>
+        <sharedTo>
+            <role>BSKL_School_Nurse</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>BSKL_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BSKL_Share_Students_with_Services</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSKL Share Students with Services</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSKL_Head_of_School_Services</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <role>BSKL_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BSNJ_Share_Opportunity_with_BSNJ_Bus_Service_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSNJ Share Opportunity with BSNJ Bus Service Managers</label>
+        <sharedTo>
+            <group>BSNJ_Bus_Service_Managers</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>BSNJ_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BSNJ_Share_Students_with_Finance</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSNJ Share Students with Finance</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSNJ_Head_of_Finance</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <role>BSNJ_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BSNJ_Share_Students_with_HR</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSNJ Share Students with HR</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSNJ_HR_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <role>BSNJ_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BSNJ_Share_Students_with_ICT_Department</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSNJ Share Students with ICT Department</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSNJ_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <role>BSNJ_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BST_Share_Students_with_Finance</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BST Share Students with Finance</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BST_Head_Accountant</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <role>BST_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BST_Share_Students_with_HR</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BST Share Students with HR</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BST_HR_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <role>BST_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BST_Share_Students_with_ICT_Department</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BST Share Students with ICT Department</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BST_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <role>BST_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BSY_Share_Students_with_Finance</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSY Share Students with Finance</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSY_Head_of_Finance</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <role>BSY_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>ISM_Share_Students_with_Deputy_Head_of_Admin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>ISM Share Students with Deputy Head of Admin</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ISM_Deputy_Head_of_Admin</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <role>ISM_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>ISM_Share_Students_with_Finance</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>ISM Share Students with Finance</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ISM_Head_of_Finance</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <role>ISM_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>ISM_Share_Students_with_HR</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>ISM Share Students with HR</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ISM_HR_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <role>ISM_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>ISM_Share_Students_with_Heads_of_Sites</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>ISM Share Students with Heads of Sites</label>
+        <sharedTo>
+            <group>ISM_Heads_of_Sites</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>ISM_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>ISM_Share_Students_with_ICT_Department</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>ISM Share Students with ICT Department</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ISM_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <role>ISM_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>NAISM_Share_Students_with_Finance</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>NAISM Share Students with Finance</label>
+        <sharedTo>
+            <role>NAISM_Record_Owner_Company</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>NAISM_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>NAISM_Share_Students_with_HR_Officer</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>NAISM Share Students with HR Officer</label>
+        <sharedTo>
+            <role>NAISM_Record_Owner_Staff_Member</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>NAISM_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>NAISM_Share_Students_with_IT_Department</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>NAISM Share Students with IT Department</label>
+        <sharedTo>
+            <role>NAISM_Record_Owner_Assets_and_Asset_Custodies</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>NAISM_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

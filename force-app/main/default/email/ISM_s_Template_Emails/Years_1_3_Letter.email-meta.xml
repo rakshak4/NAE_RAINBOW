@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>ISM</letterhead>
+    <name>Years 1 - 3 Letter</name>
+    <style>freeForm</style>
+    <subject>Years 1 - 3 Information Letter</subject>
+    <textOnly>Monday 5th March 2012
+
+Dear Parents,
+
+
+We hope that you all had a good break and are now looking forward to Spring arriving.
+
+We need your help!
+
+Sorry if these requests do not apply to you but we look forward to everyone’s support with the following issues:
+
+
+1. PLEASE label every item that comes into school with your child’s NAME. (this include shoes, gloves, hats, VIOLINS etc…..)
+
+
+2. Collect any lost items from the lost property. It grows by the day with items left around school with no names on.
+
+By the end of term we will give away the items left in lost property to a good home, many items have been there for months!
+
+
+3. Your child should now have a water bottle to be used in school.
+
+Unfortunately many children still do not. Please support your child and help them to remember their water bottle each day. (It should be taken home and washed each day please) Also it must have their NAME ON IT.
+
+
+4. Locker rooms are getting very crowded at the end of each day
+
+and the children have little space to get ready to go home. Please can parents and drivers please wait outside for the children to come to you. They are capable of getting changed themselves as they do every break/lunch time.
+
+
+5. Finally a reminder that school starts at 8:30. Children should ideally arrive in classrooms for this time.
+
+The mornings are very important times for children to follow routines and set themselves up ready for the day. In class we also have extra EAL sessions, advanced Maths slots and many more very worthwhile activities taking place from 8:15 onwards. The register is taken at 8:30 and essential messages are shared with children before the first lesson begins.
+
+
+Many thanks for your continued support.
+
+
+Yours sincerely,
+
+Mrs Doubleday &amp; year 1-3 teaching team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Winter Show Dates Changes</name>
+    <style>freeForm</style>
+    <subject>Winter Show Dates Changes</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please note that the dates for winter shows were changed. Please see the new dates below:
+
+
+4.12.12. Primary Winter Concert, 14.30
+
+5.12.12. Pre-Nursery and Nursery Winter Performance, 9.30
+
+6.12.12. Primary Winter Concert, 14.30
+
+7.12.12. Reception Winter Concert (for Saturn and Jupiter classes), 9.30
+
+
+We apologize for any inconveniences this might cause.
+
+
+
+
+
+Уважаемые родители,
+
+
+
+Обратите внимание на даты Зимнего представления, которые мы были вынуждены изменить:
+
+
+
+
+04/10/2012 Зимнее представление классов Primary, 14.30
+
+05/12/2012 Зимнее представление классов Pre-Nursery и Nursery, 9.30
+
+06/12/2012 Зимнее представление классов Primary, 14.30
+
+07/12/2012 Зимнее представление классов Reception (Saturn и Jupiter), 9.30
+
+
+
+Приносим свои извинения за доставленные  неудобства.
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

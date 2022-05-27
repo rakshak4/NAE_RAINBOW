@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Teachers Vs Parents Football Challenge Reminder</name>
+    <style>freeForm</style>
+    <subject>Teachers Vs Parents Football Challenge Reminder</subject>
+    <textOnly>Dear Parents,
+The Teachers Vs Parents Football Challenge is upon us!!!
+Date:  Saturday 29th October, 2011Venue: ISM School (Upper Campus)Time: 11.00am meeting, with games to commence at 11.30am.
+All participants and fans or spectators are welcome!!!
+BBQ and drinks will be available......
+So bring the family along to watch some &quot;Kick and Giggle&quot; and support for favourite teacher or Dad!!!
+Best Regards
+Mr Tim Walsh and Mr Dino Vikas.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

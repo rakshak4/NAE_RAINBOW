@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Thanks to Parents</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Thanks to Parents</name>
+    <style>freeForm</style>
+    <subject>Thanks to Parents</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+
+
+
+Dear Parents,
+
+
+First of all I would like to say a massive thank you to all those who attended the Primary Parents Information Day last week. It was well attended and I am glad that we could share an insight into next year at the British School of Guangzhou.
+
+
+I hope you found it useful, but more than this, I want to get the message across that we are incredibly keen for parents to be more involved in school life. This is why I am making a second plea for people to sign-up to be part of a Parent Teacher Association. For example we are currently setting out our strategic vision for the school for the next 10 years and would love to ask a group of parents to give us their thoughts on what direction they feel we should be heading.
+
+
+Thank you to those that signed up on Thursday. However, if you still haven’t signed up but would like to, then please email me with your interest.
+
+
+I will hold an initial meeting in August for parents so we can get the association up and running. More details about time and venue will follow to those who put their names forward.
+
+
+Thank you for your continuing support for Primary and the wider school community.
+
+
+Kindest regards
+
+
+David Laird
+
+
+Head of Primary
+
+
+The British School of Guangzhou
+
+
+
+
+
+World Class Education
+
+
+____________________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

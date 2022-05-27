@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Golf After School Activity</name>
+    <style>freeForm</style>
+    <subject>Golf After School Activity</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+
+
+Apologies for the overload of school emails. Due to some issues with the email system yesterday, you may have not received this email, or it might&apos;ve gone straight to your junk folder. Please disregard if you have already received this.
+
+
+ISM can now offer a golf club as part of its Tuesday Year 4 to Year 11 After School Activity programme. The club will run from 3.30 to 4.30pm with Mr. Riley and Mr. Zamudio on the school golf area and is open to all abilities. All equipment will be provided.
+
+
+To sign up, please visit the ASA website after 1pm on Tuesday 10th September, using the link below. There will be 10 places available to students from Years 4 to 6 and 10 places for students from Years 7 to 11.
+
+
+If a student has already signed up for a club on Tuesdays, I will delete their name from the previously chosen club.
+
+
+http://www.eventbrite.com/org/2966850589
+
+
+
+Kind regards,
+
+
+Mr. P. Carr
+
+UC ASA Coordinator
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

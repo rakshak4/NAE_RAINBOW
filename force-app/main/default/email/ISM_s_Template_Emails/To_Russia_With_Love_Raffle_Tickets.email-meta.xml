@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>ISM</letterhead>
+    <name>&quot;To Russia With Love&quot; Raffle Tickets</name>
+    <style>freeForm</style>
+    <subject>&quot;To Russia With Love&quot; Raffle Tickets.</subject>
+    <textOnly>Dear All,
+
+Raffle tickets will be on sale during Upper Campus lunch times and at the Lower Campus front desk from Wednesday to Friday this week. Tickets cost 100 roubles each and all proceeds will support a very worthy charity, &quot;To Russia with Love&quot;, which supports Russian orphans (www.torussiawithlove.ie).
+
+Hotel and restaurant vouchers, beauty products, fashion items and more are all up for grabs!
+
+Tickets will also be sold at the Jubilee Picnic, and the raffle will be drawn at the close of the event.
+
+Kind regards,
+
+Joanna Goodhew
+English &amp; Humanities Teacher
+The International School of Moscow
+Tel:  +7 (499) 922 44 00
+Fax: +7 (499) 922 44 00 Ext.4
+www.internationalschool.ru
+Part of The British Schools Group
+
+*Disclaimer:*
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

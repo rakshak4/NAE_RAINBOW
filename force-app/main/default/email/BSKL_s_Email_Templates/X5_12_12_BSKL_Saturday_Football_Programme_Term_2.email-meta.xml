@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>5/12/12 BSKL Saturday Football Programme - Term 2</name>
+    <style>freeForm</style>
+    <subject>BSKL Saturday Football Programme - Term 2</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Next term see&apos;s the 2nd term of the BSKL Saturday Football programme.
+
+Due to popular demand we will open it up for our younger students in the lower years, so it will be available to students from Year 1 up to year 8.
+
+Our football season begins after Christmas for U11 (year 5 &amp; 6) and for U9 (year 3 &amp; 4).  We are keen to register as many students as possible to improve our Football programme at BSKL. For years 1 &amp; 2 their football programme will be an introduction to the game including learning about basic skills and rules. All programmes are open to both boys and girls, it would be great to see lots of girls enrolled for next term.
+
+The cost will be RM 300 for 8 x 1hr 15min sessions, please click on the link below for further information. To register your child for next term please click on the 2nd link to complete the online registration. The groupings will be decided on age and ability. The sessions will be from 10.15-11.30 (younger and less experienced students) and 11.35-12.50 (older and more experienced students). There may also be an option for Monday evenings at BSKL or KBU field from 5 - 6.15pm if there is enough interest. Places are limited so please complete the registration soon to ensure your child is enrolled. If you would like any further information regarding the programme please contact me.
+
+Please click link below to download the Programme and Registration Form
+
+BSKL Saturday Football Development Programme
+
+Registration Form
+
+Kind Regards,
+Harrie Thomson
+Head of Physical Education
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+_______________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

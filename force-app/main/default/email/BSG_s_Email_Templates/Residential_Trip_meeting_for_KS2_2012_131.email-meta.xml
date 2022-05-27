@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Year5 Final arrangements of Trip</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Year5 Final arrangements of trip</name>
+    <style>freeForm</style>
+    <subject>Year5Final arrangements of Trip</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Hopefully you and your children are all ready and excited about the forthcoming residential trip. It should be an amazing week where the students try new and different activities and really get to know their peers, as well as their teachers.
+
+On the morning of Tuesday 23rdof October, when we travel to Hong Kong, your child should come to school wearing their PE uniform and bring all the items on the kit list packed in the rucksack. We will set off from BSG at approximately 8:20am, therefore your child will be able to take the school bus to BSG as normal.
+
+Once we arrive at the destination, a member of staff will contact the class rep who will then contact the first people on the telephone tree.
+
+For updates and the daily progress of the students we have set up an online blog at the address below. You will be able to read all about our adventures as well as being able to leave messages for the students which we will pass on during the evenings.
+
+http://www.bsgtrips.blog.com/
+
+The emergency contact for the Year 5 trip will be:
+
+Mr Brian Schroeder: 0086 15018753791.
+
+Please be aware that this contact number is only to be used in case of emergencies.
+
+If your child requires any medicine during the trip, then please give this to your class teacher on the day of the trip. The medicine should be given in a clear plastic bag, with your child’s name on as well as dosage instructions.
+
+On Friday the 26th October, we are due to set off from Hong Kong at 1:30pm. We estimate that our arrival time at BSG will be approximately 5:30pm. This time may change depending on how long it takes to come through the border, as well as how busy the traffic may be. If there are any changes in the time, you will be informed via the telephone tree. As the school buses will have left at this time, you will need to collect your children from the school.
+
+Finally, thanks to all that have completed the online registration. If you have not done this already, please do so by Thursday 18thof October.
+
+
+Regards,
+
+David Laird
+Head of Primary
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

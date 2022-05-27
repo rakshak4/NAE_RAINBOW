@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Uniform Week 2012 Reminder</name>
+    <style>freeForm</style>
+    <subject>BSG- Uniform Week Reminder.</subject>
+    <textOnly>fThis The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+This is a reminder that school uniform will be on sale to all parents from today. The uniform shop will open from 9am to 4pm each day this week and will be located in the Nanhu Campus Gym .
+
+Please note PE uniform items have been updated this year for some year groups. To allow parents to use any old style items purchased last academic year, both styles may be used for the remainder of this year. Full details of uniform items can be found on our website (bsg.org.cn).
+
+We would also like to announce that CollegePro Sports Wear Company will be demonstrating a website as part of Uniform Week that will allow parents to order additional sports wear items. These items are optional for any adults or students to wear out of school hours. If you would like further details, please talk with the CollegePro representatives who will be located in the Nanhu Gym during Uniform Week.
+
+If you require further information or assistance, please contact grace.kwan@bsg.org.cn or penny@bsg.org.
+
+Kind regards,
+
+Administration Team
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Gives ability to create, edit and delete Job Postings. Head of Admin and Headteacher have such access by default.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Manage Job Postings</label>
+</PermissionSet>

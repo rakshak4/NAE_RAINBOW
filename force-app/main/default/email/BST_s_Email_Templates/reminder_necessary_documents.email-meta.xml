@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>reminder:necessary documents</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>reminder:necessary documents</name>
+    <style>freeForm</style>
+    <subject>reminder:necessary documents</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+URGENT!
+
+Please do not ignore the following e-mail.
+
+Please be aware that this e-mail has been sent to all parents irrespective of the starting date of your child. Therefore, it must be attended to by all parents.
+
+We require copies of passports of both parents (father and mother) and all children who attend the school to be sent to School&apos;s Administration on to Elena. A scanned copy will suffice in response to this e-mail address.
+
+We must be in receipt of these documents before the 6 th of November please.
+
+Thank you to all parents who have already supplied the requested details.
+
+
+Уважаемые родители!
+
+Убедительно просим Вас не игнорировать нижеследующее сообщение.
+
+Просим Вас отметить тот факт, что данное письмо адресовано всем родителям учащихся вне зависимости от того, когда Ваши дети начали обучение в нашей школе.
+
+Убедительно просим Вас предоставить копии паспортов обоих родителей (матери и отца) и детей в Администрацию школы-Елене. Вы также можете прислать сканированные копии паспортов на данный электронный адрес.
+
+Сроки приёма документов до 6-го ноября.
+
+Особая благодарность родителям, вовремя предоставивших документы в администрацию школы.
+
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

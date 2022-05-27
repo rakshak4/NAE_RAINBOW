@@ -1,0 +1,204 @@
+<apex:page tabStyle="Dates_Events__tab" id="newsevent" controller="PortalNewsEvents_Controller" sidebar="false"  action="{!filterNewsEvents}" standardStylesheets="false">
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <apex:stylesheet value="{!URLFOR($Resource.ParentPortalFiles, 'jquery-ui.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.ParentPortalFiles, 'flexslider.css')}" />
+    <apex:stylesheet value="/apex/PortalAssessmentPageCSS"/>    
+
+    <apex:includeScript value="{!URLFOR($Resource.ParentPortalFiles, 'jquery.min.js')}" />
+    <apex:includeScript value="{!URLFOR($Resource.ParentPortalFiles, 'jquery-ui.js')}" />
+    <apex:includeScript value="{!URLFOR($Resource.ParentPortalFiles, 'jquery.flexslider.js')}" />
+    <apex:includeScript value="{!URLFOR($Resource.ParentPortalFiles, 'script.js')}" />
+    <script type="text/javascript"> 
+        function setFocus() { 
+            document.getElementById("newsevent:mainform:studentselection").focus(); 
+        } 
+    </script> 
+    
+   
+  </head>
+  <body onLoad="setFocus();">
+    <div id="events-page">
+    <table border="0"><tr>
+        <td valign="top">
+          <apex:form id="mainform">
+          <apex:pageMessages id="messages"/>
+          <apex:actionFunction name="handleStudentChange" action="{!filterNewsEvents}" />
+          <apex:actionFunction name="handleFromDateChange" action="{!filterNewsEvents}"  />
+          <apex:actionFunction name="handleToDateChange" action="{!filterNewsEvents}" />
+          <apex:actionFunction name="handleReportTypeChange" action="{!filterNewsEvents}" />
+          <apex:actionFunction name="handleTermChange" action="{!filterNewsEvents}" />  
+            <!-- sidebar section -->
+                <aside id="sidebar">
+                    <div class="sidebar-top">
+                        <h1>Calendar<br/>Dashboard</h1>   
+                        <div align="left"><h3>Configure the<br/>Calendar View</h3></div>
+                    </div>
+                    
+                    <div class="section first">
+                        <div class="form-item form-item-select">
+                            <div class="section-heading">Student</div>
+                            <div class="section-select">
+                                <apex:selectList id="studentselection" value="{!selectedStudentId}" multiselect="false" size="1" onChange="handleStudentChange();">
+                                    <apex:selectOptions value="{!studentList}"/>
+                                </apex:selectList>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    <div class="section">
+                        <div class="section-heading"><apex:actionStatus startText="(updating)" stopText="Filter Calendar" id="termStatus"/></div>
+                        <div class="section-select">
+                            <apex:selectList id="ayear" value="{!selectedTermFilter}" multiselect="false" size="1" onChange="handleTermChange();">
+                                <apex:selectOptions value="{!termOptions}"/>
+                            </apex:selectList>
+                        </div>
+                    </div>
+                    <!--    
+                    <div class="form-item form-item-datepicker">
+                        <div class="section-heading">Select a Time Frame</div>
+                        <div class="section-datepicker">
+                            <apex:inputText maxlength="10" value="{!fromDateString}" id="datefrom"  onChange="handleFromDateChange();"/>
+                            <apex:inputText maxlength="10" value="{!toDateString}" id="dateto"  onChange="handleToDateChange();"/>
+                            
+                        </div>
+                    </div>  -->
+                    <div class="section">
+                        <div class="form-item form-item-checkbox">
+                            <div class="section-heading">Date Types</div>           
+                            <table class="chk-container">
+                                <apex:repeat value="{!newsEventTypeOptions}" var="newsEventType">
+                                    <tr>
+                                        <td class="{!IF(newsEventType.index == 1, 'first', '')}">
+                                            <div class="chk-side chk{!newsEventType.rt}"></div>
+                                            <apex:inputCheckBox id="chk1" value="{!newsEventType.selected}" styleClass="chekbox" onChange="handleReportTypeChange();"/>
+                                            <span class="chk-display"><span class="fill"></span></span>
+                                            <apex:outputLabel for="chk1" styleClass="chk-label">{!newsEventType.reportType}</apex:outputLabel>
+                                        </td>
+                                    </tr>
+                                </apex:repeat>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- 
+                    <div class="section">
+                        <div class="section-heading">Print your Event selection</div>
+                        <a href="print.html" class="button btn-section btn-print">Print</a>
+                    </div>  -->
+                </aside> <!--- End of #sidebar --->
+                </apex:form>
+        </td>
+        <td valign="top">
+            <!-- content section -->
+            <div id="main">
+                <article class="events">        
+                    <header class="t-sec-header"><span class="pname">{!studentName}</span> | <span class="date">{!selectedTermFilter}</span></header>
+                    <apex:repeat value="{!wrapperList}" var="w">
+                        <div class="event-item {!IF(w.newsEvent.Event_End_Date__c != null,'double-date','')}">
+                            <div class="event-date">
+                                
+                                <apex:outputPanel rendered="{!IF(w.newsEvent.Event_End_Date__c != null,true,false)}">
+                                    <div class="form">
+                                        <div class="{!w.css_class}">{!UPPER(w.eventStartDateMonth, '' )}</div>
+                                        <div class="date">{!w.eventStartDateDay}</div>
+                                    </div>
+                                    <div class="to">
+                                        <div class="{!w.css_class}">{!UPPER(w.eventEndDateMonth, '' )}</div>
+                                        <div class="date">{!w.eventEndDateDay}</div>
+                                    </div>
+                                </apex:outputPanel>
+                                <apex:outputPanel rendered="{!IF(w.newsEvent.Event_End_Date__c != null,false,true)}">
+                                    <div class="{!w.css_class}">{!UPPER(w.eventStartDateMonth, '' )}</div>
+                                    <div class="date">{!w.eventStartDateDay}</div>
+                                </apex:outputPanel>
+                                
+                            </div>
+                            
+                                <div class="event-desc">
+                                    <h3 class="title">{!w.title}</h3>
+                                    <div class="subtitle">{!w.teaser}</div>
+                                    <div class="for-student"><apex:image rendered="{!IF(w.studentString=='',false,true)}" value="{!URLFOR($Resource.ParentPortalFiles,'for-student-icon.png')}"/><p>{!w.studentString}</p></div>
+                                    <apex:outputPanel layout="block" rendered="{!w.showMainContent}">
+                                        <div class="body">
+                                            <p><apex:outputText value="{!w.mainText}" escape="false"/></p>
+                                            <apex:outputPanel layout="block" rendered="{!w.showImageSection}">
+                                                <div class="flexslider">
+                                                    <ul class="slides">
+                                                        <apex:repeat value="{!w.imageURLs}" var="i">
+                                                            <li><img src="{!i.linkURL}" alt="{!i.linkName}" /></li>
+                                                        </apex:repeat>
+                                                    </ul>
+                                                </div>
+                                            </apex:outputPanel>
+                                        </div>
+                                    <div class="more">More</div>
+                                    </apex:outputPanel>
+                                </div>
+                            
+                        </div>
+                    </apex:repeat>
+                    <!-- 
+                    <div class="event-item">
+                        <div class="event-date">
+                            <div class="month term">JUL</div>
+                            <div class="date">17</div>
+                        </div>
+                        <div class="event-desc">
+                            <h3 class="title">New important reminder today with a relatively long title and no extra content.</h3>
+                            <div class="body">
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eraitconsequat, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eraitconsequat.</p>
+    
+                                <div class="flexslider">
+                                    <ul class="slides">
+                                        <li><img src="images/event-pic.png" /></li>
+                                        <li><img src="images/event-pic.png" /></li>
+                                        <li><img src="images/event-pic.png" /></li>
+                                    </ul>
+                                </div>
+    
+    
+                            </div>
+                            <div class="more">More</div>
+                        </div>
+                    </div>
+    
+                    <div class="event-item">
+                        <div class="event-date">
+                            <div class="month event">AGO</div>
+                            <div class="date">6</div>
+                        </div>
+                        <div class="event-desc">
+                            <h3 class="title">New important reminder today with a relatively long title and no extra content.</h3>
+                            <div class="body">
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eraitconsequat, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eraitconsequat.</p>
+    
+                                <div class="flexslider">
+                                    <ul class="slides">
+                                        <li><img src="images/event-pic.png" /></li>
+                                        <li><img src="images/event-pic.png" /></li>
+                                        <li><img src="images/event-pic.png" /></li>
+                                    </ul>
+                                </div>
+    
+                            </div>
+                            <div class="more">More</div>
+                        </div>
+                    </div> -->
+    
+                </article>
+                <apex:outputPanel layout="block" rendered="{!!hasItems}">
+                    <br/>
+                    <div class="no-results-behavior">
+                        Sorry, there are no records to display. Please adjust the dates or other filter criteria in the sidebar.
+                        <span class="user-icon"></span>
+                        <span class="down-aero"></span>
+                    </div>
+                </apex:outputPanel>
+            </div><!--- End of #main --->
+        </td>
+    </tr></table></div>
+    
+  </body>
+  
+</apex:page>

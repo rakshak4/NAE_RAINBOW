@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Exciting news - The British School of Tashkent joins Nord Anglia Education</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Exciting news - The British School of Tashkent joins Nord Anglia Education</name>
+    <style>freeForm</style>
+    <subject>Exciting news - The British School of Tashkent joins Nord Anglia Education</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear parents,
+
+I am delighted to share some exciting news about the future of our school– we have joined the Nord Anglia Education family of schools. Nord Anglia are committed to the continuing success of our school and joining Nord Anglia will have many benefits for our community. They are well aligned to our approach and will provide even greater access to resources, support and opportunities so that we can continue to build upon the excellent education we already offer students.
+
+You will have the opportunity to meet a representative from Nord Anglia Education and learn more about what it means to be part of their global community, in addition to asking any questions you may have about this news, when George Ghantous, Nord Anglia’s Regional Managing Director for Europe and Middle East visits in January. We will share more details shortly. In the meantime, I’m pleased to share letters from BSF and Nord Anglia Education with you, along with a Q&amp;A document which may answer your immediate questions.
+
+I am very proud of the development of our school to date and am looking forward to this exciting new chapter.
+
+Kind regards,
+
+Adrian Macaulay
+Headmaster
+
+
+Уважаемые родители!
+
+
+Я с большой радостью хочу поделиться с вами интересными новостями о будущем нашей школы - мы присоединились к “семье” школ под названием “Nord Anglia Education”.
+
+“Nord Anglia” разделяет наше активное стремление к непрерывному успеху, поэтому наше присоединение к ним принесет школьному сообществу много преимуществ. Данная “семья” школ разделяет наш подход к процессу образования и сможет обеспечить еще больше доступа к необходимым образовательным ресурсам, поддержке и возможностям для того, чтобы мы cмогли продолжать развивать и поддерживать соответствующий уровень образования, который мы предоставляем нашим учащимся.
+
+У Вас будет возможность встретиться с представителем “Nord Anglia Education” и узнать больше о том, что значит быть частью данного глобального сообщества, в дополнение к этому, Вы сможете задать любые интересующие Вас вопросы, когда Джордж Гантус- региональный управляющий директор “Nord Anglia” по Европе и Ближнему Востоку, приедет к нам с визитом в январе месяце. В ближайшее время мы предоставим Вам более подробную информацию. А пока что, я хочу поделиться с вами письмами от Фонда частных Британских школ “BSF” и “семьи” школ “Nord Anglia Education” и документом Q &amp; A, в котором содержатся ответы на основные вопросы.
+
+Я очень горжусь уровнем развития нашей школы на сегодняшний день и с нетерпением жду этот новый этап в работе!
+
+С уважением,
+
+Эдриан Маколей
+Академический директор
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

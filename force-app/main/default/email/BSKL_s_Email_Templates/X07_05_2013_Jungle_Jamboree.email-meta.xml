@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>07/05/2013 Jungle Jamboree</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>07/05/2013 Jungle Jamboree</name>
+    <style>freeForm</style>
+    <subject>Jungle Jamboree</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The EFC are working very hard to put together a fun, action-packed, family focused Summer Fair for you to enjoy on Saturday 8th June.
+
+But we need your help
+
+Please take the time to read this email to ensure that your children don&apos;t miss out on any of the special treats and activities in the run up to the Fair.
+
+FOR YOUR CHILDREN:
+
+The theme of the fair is Jungle and we will be raising money through donations for BSKL to adopt a tiger and an orang-utan, through the WWF (World Wildlife Fund).
+
+An &quot;Animal-Ometer&quot; will be appearing in the school reception next week. &quot;What&apos;s that, what&apos;s that???&quot;, we hear you shout!  Never fear, all will be clear when you see it next week.
+
+You can place a monetary donation towards the animal adoption programme in this donations box and watch the bar on the jungle rainbow rise towards our goals as we raise money to adopt these jungle animals.
+
+A set of five, collectible, animals stickers will be on sale, 2RM each.
+They are so cute, your kids will love them.   A different animal sticker will be available each week and your child can collect all five.  The stickers will be on sale in the school reception, at the Swim Galas and at the School Instrumental Concert.
+
+
+FOR PARENTS AND CHILDREN:
+
+Photo Competition:  The theme is jungle, the deadline is May 28th.  See posters in school and the teachers&apos; newsletters for rules and categories.  Entries to be handed in at the school reception.
+
+FOR PARENTS:
+
+Vendors:  If you have a product to sell and would like a stall at the school fair then please contact Suets Goh Lan at gohsuetlan@yahoo.com
+
+Donations: It&apos;s hot and it&apos;s thirsty work having fun at the fair.  Donations of bottled water, ribena and juice would be hugely appreciated.  We are also looking for donations of water dispenser bottles to save on the amount of plastic bottles being used.
+
+Second Hand Books:  Please hand any unwanted books that your children have outgrown into the school reception for the second hand book stall.
+
+Thanks for all your support and we look forward to seeing you all on Saturday 8th June at the Jungle Jamboree.
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

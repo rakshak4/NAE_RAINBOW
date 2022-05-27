@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Withdrawal Notice Deadline</name>
+    <style>freeForm</style>
+    <subject>Withdrawal Notice Deadline</subject>
+    <textOnly>Dear Parents,
+In case you are planning to withdraw your child(ren) at the end of the Autumn term, please be informed of the deadline for submission of the Withdrawal Notice, in order to receive reimbursement of the Development Contribution Fees.
+I am attaching the Withdrawal Form that needs to be submitted either by email (signed and scanned) or by post/personal delivery by no later than October 3, 2011. Any form received after this date will unfortunately be outside of the reimbursement timeframe.  
+In order for the submission to be completed, you must receive a receipt of the form from either myself, the Headmaster or from the Head of Administration, Anastasia Ramazanova.
+(Please be aware that on previous occasions forms have gone missing and then later found in school bags!)
+Please contact me should you have any questions in this regard.
+Best Regards
+Dino VikasHead of Admissions</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

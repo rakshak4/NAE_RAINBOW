@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Weekly Update 22nd November, 2012</name>
+    <style>freeForm</style>
+    <subject>Weekly News Update 22nd November, 2012</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear Parents,
+
+
+
+Please take a look at some important information below.
+
+
+
+Parent Teacher Consultations
+
+
+
+Thank you to all parents that have attended the PTCs for Primary and Secondary students this week. We trust the meetings were positive and productive. Many teacher schedules were fully booked which is an excellent indication that teachers and parents are working well together.
+
+
+
+Upper Campus Pick up time
+
+
+
+Our security guards would like to thank our upper campus parents in supporting the policy of keeping the reception as clear as possible at the end of school. This is enabling them to release students safely. They have asked that younger students (siblings) are not encouraged to enter the building and collect/find their older brothers and sisters as this is making their job more difficult. Thanks in advance for your understanding and support in this matter.
+
+
+
+Performing Arts Department
+
+
+
+We will be very soon welcoming a new member of staff to our performing Arts department. Rachel Devlin will be taking on a teaching position at ISM, contributing to both our Music and Drama departments across the school. We are confident that she will bring a great deal of quality and enthusiasm to her role. Her details will be added to our staff directory (nearing completion) on the website very soon.
+
+She will replace Sebastian Domin who has returned to the UK this week and will no longer be teaching at the school. We have supported this decision fully and wish him the very best in the future. This means that the timetable for Music and Drama will be slightly restructured but Mr. Langford who leads the department will be ensure that the transition is as smooth as possible.
+
+
+
+The ISM Giving Tree
+
+
+
+Following the excellent responses over the previous two years, ISM has again decided to support the Khoroshevo Mnevniki Social Centre (KMSC), and this year the Sanatornyi Detskyi centre as well, by giving Christmas presents to every child there. Presents will be placed under our Giving Tree in the school as normal.
+
+
+
+We hope that each ISM family will be willing to donate a present, with a value of approximately RUR 800- 1000. No one is under any obligation to do so, and families are free to choose to purchase one present on behalf of the entire family, or one per child in their family. In the final week of term, we then plan to take a group of ISM students to deliver the presents to the centre and spend some time with the children there.
+
+
+
+As a thank you to children, Friday 14th December, the day of our class primary and foundation Christmas Parties, will be a Non-Uniform Day for years Nursery to Year 5! For Years 6 to 10 the non-uniform day will be on Thursday 20th December, when they will enjoy their Christmas celebrations.
+
+
+
+Please do not purchase or send any presents yet as an organising committee from the Class Representatives will be sending out more details in the near future. However we did want to raise awareness of our plans at an early stage.
+
+
+
+Best regards,
+
+Admissions
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

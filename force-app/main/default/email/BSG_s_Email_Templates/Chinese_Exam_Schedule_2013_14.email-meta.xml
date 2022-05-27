@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>2013-14 Chinese Exam Schedule</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>2013-14 Chinese Exam Schedule</name>
+    <style>freeForm</style>
+    <subject>2013-14 Chinese Exam Schedule</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+6th May 2014
+
+
+Dear Year 1 to Year 9 CAL and CFL Parents,
+
+
+The Chinese Department is currently preparing for an end of year Chinese exam for all CAL and CFL students from Year 1 to Year 9.
+
+
+Chinese teachers will start preparing the students by reviewing all they have learnt in their Chinese lessons from the beginning of the year. It would be appreciated if you could encourage your child to review what they have studied throughout the year.
+
+
+The dates for the exams are as follows:
+
+
+Year Group
+
+Date
+
+Time
+
+Y1
+
+Wednesday, 4th June 2014
+
+9:00 - 9:40
+
+Y2+3
+
+Tuesday, 3rd June 2014
+
+13:00 - 14:00
+
+Y4+5
+
+Thursday, 5th June 2014
+
+10:00 - 11:00
+
+Y6
+
+Wednesday, 4th June 2014
+
+13:00 - 14:00
+
+Y7
+
+Friday, 6th June 2014
+
+8:30 - 9:45
+
+Y8+9
+
+Wednesday, 4th June 2014
+
+11:25 - 12:40
+
+
+Should you have any questions, please do not hesitate to contact your child’s Chinese teacher.
+
+
+Kind regards,
+
+
+Ms. Alison Liu
+
+Head of Chinese
+
+
+The British School of Guangzhou
+
+World Class Education
+
+
+
+____________________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

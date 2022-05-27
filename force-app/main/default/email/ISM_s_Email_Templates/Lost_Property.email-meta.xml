@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Lost Property</name>
+    <style>freeForm</style>
+    <subject>Lost Property</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear Parents,
+
+
+Over the first term we accumulated a large amount of lost property on the Upper Campus. In all areas of the campus it has been checked and all items containing names have been returned to students. Unfortunately, the majority of items are not labelled making it very difficult to return things to their rightful owners.
+
+
+As we are not able to keep accumulating and storing the lost property, I am asking that you please encourage your child to check for any lost items by the end of this week as after this time all items will either be thrown out or donated to charity if in a suitable condition. All items will continue to be stored in the main locker room on the ground floor until the end of this week.
+
+
+I also request that to aid us in avoiding this same situation over the remainder of the year, please carefully label each item of your child’s uniform to help with easy identification should an item get lost.
+
+
+Thank you for your support with this matter.
+
+
+Yours faithfully,
+
+
+Michelle Hamilton
+
+Secondary Phase Leader
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

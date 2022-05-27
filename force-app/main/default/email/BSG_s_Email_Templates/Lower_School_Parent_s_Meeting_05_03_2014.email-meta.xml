@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Lower School Parent&apos;s Meeting 05/03/2014</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Lower School Parent&apos;s Meeting 05/03/2014</name>
+    <style>freeForm</style>
+    <subject>Lower School Parent&apos;s Meeting</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+
+Dear Lower School Parents,
+On Wednesday 12th March at 10:00am we will be holding a Parent Meeting in the Lower School Hall. If you are planning to join us for the meeting I would like to remind you that the main entrance to Lakefront may still be closed due to construction work, therefore parents need to enter the compound at the G Block entrance. Please also note that once the car park directly above the school is full, vehicles will need to be parked in the G Block car park.
+Important - All vehicles must be parked in a designated parking space. Please do not park cars on the road or anywhere else that may cause a safety risk.
+Kind regards,
+Miss Kathy
+Head of Lower School
+The British School of Guangzhou
+
+
+
+
+
+World Class Education
+
+
+____________________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

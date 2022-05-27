@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in August 2014</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Rosinka EYFS PTC November 2014</name>
+    <style>freeForm</style>
+    <subject>Rosinka EYFS PTC November 2014</subject>
+    <textOnly>The International School
+of Moscow
+Chartered By The British Schools Foundation
+
+
+ISM Rosinka Early Years Foundation Stage Parent-Teacher Consultations
+
+
+
+Dear Parents,
+
+Our Early Years’ Parent and Teacher Consultations (PTCs) will be held on Tuesday 25th &amp; Wednesday 26th November from 4:00pm until 7:00pm. This will be an opportunity to discuss the Pupils’ Initial Progress Reports, which will be available on the Parent Portal from Friday 21st November.
+
+Your consultation will of course be with the Class Teacher. Should you wish to meet with any specialist teachers, please note that they will be based on the Lower Primary and Middle School Campus during the event, in the school hall.
+
+We request that children do not attend the actual consultation. If you cannot make alternative arrangements, then an assistant teacher will be able to supervise your child for the duration of your consultation. In such cases, please bring your child to the classroom and the assistant will take over supervision.
+
+How do I book an appointment?
+
+Please note that procedures for booking an appointment vary for Early Years and for Years 1-7. For Early Years Foundation Stage, please proceed as follows:
+
+From today, Friday 14th November at 3pm, it will be possible to make an appointment at the reception desk of the EYFS building. There will be appointment lists for each teacher, and you can write your name next to the time to book your consultation. Alternatively, you may call the Early Years Campus (from 3pm today) to arrange an appointment on 8499 922 44 05.
+
+Please be aware that consultations are scheduled for ten minutes. If you feel that you need more time, please arrange a further meeting with the teacher.
+
+We look forward to meeting with you.
+
+Best regards,
+
+Daniel Frater
+ISM Rosinka EYFS Leader
+The International School of Moscow
+World Class Education
+
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in August 2014</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Uniform Sale</name>
+    <style>freeForm</style>
+    <subject>Uniform Sale 4th September 2014</subject>
+    <textOnly>The International School
+of Moscow
+Chartered By The British Schools Foundation
+
+
+
+Dear Parents,
+
+Please be reminded of the Uniform Sale tomorrow, Thursday 4th September from 8:15 - 9:00am in the Lower Campus dance studio (in basement) (click here to download flyer). The sale is for Lower Campus AND Upper Campus clothing.
+
+Thank you,
+
+Admissions Office
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

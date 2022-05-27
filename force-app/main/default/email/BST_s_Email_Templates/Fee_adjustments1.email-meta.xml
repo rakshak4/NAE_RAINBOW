@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Fee adjustments for Term 3/2016</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Fee adjustments</name>
+    <style>freeForm</style>
+    <subject>Fee adjustments</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We write to you regarding an adjustment to our Tuition fees for Term 3, which reflect rising costs in global and local economy.
+
+
+BST remains significantly more affordable than other international schools in the city, while delivering on our promise of providing the very best education to our children. In order to sustain our high standards and long term financial stability, we need to adjust to changing economic conditions, to ensure we can continue to attract quality British teachers and import the very best academic materials.
+
+
+The school continues to operate a limited financial aid programme to support families in severe financial distress.
+
+
+We trust you find these adjustment reasonable, and thank you for your continued support of our school.
+
+
+
+
+Best regards,
+
+
+Administration Team
+
+The British School of Tashkent
+
+
+
+
+
+
+Данным письмом информируем Вас об изменениях в стоимости обучения с третьего триместра текущего учебного года. Указанные изменения вызваны ростом цен товаров и услуг как на мировом, так и на рынке Узбекистана.
+
+
+Британская школа города Ташкента по-прежнему сохраняет уровень доступности по стоимости образовательных услуг среди международных школ в городе, при этом сохраняется и высший уровень образования студентов школы. Как участники рынка товаров и услуг, мы постоянно приспосабливаемся к изменяющимся экономическим условиям, чтобы обеспечивать привлечение квалифицированных британских преподавателей и импорт высококачественных академических материалов для поддержания наших высоких стандартов и сохранения стабильности.
+
+
+Школа продолжает работу ограниченной программы финансовой помощи для поддержки семей в тяжелой финансовой ситуации.
+
+
+Мы верим, что Вы сочтете изменения в сумме оплаты обоснованными и разумными и как обычно, хотим поблагодарить Вас за Вашу неизменную поддержку!
+
+
+
+С уважением,
+
+
+Администрация Британской школы
+
+города Ташкента
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Attachment_Id__c</fullName>
+        <description>This field captures the id of any attachment created in its parent record</description>
+        <externalId>false</externalId>
+        <label>Attachment Id</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Barcode_Sub_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Barcode Subtype</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Barcode_Type__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>128A</fullName>
+                    <default>false</default>
+                    <label>128A</label>
+                </value>
+                <value>
+                    <fullName>128B</fullName>
+                    <default>false</default>
+                    <label>128B</label>
+                </value>
+                <value>
+                    <fullName>128C</fullName>
+                    <default>false</default>
+                    <label>128C</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Code128</controllingFieldValue>
+                <valueName>128A</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Code128</controllingFieldValue>
+                <valueName>128B</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Code128</controllingFieldValue>
+                <valueName>128C</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Barcode_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Barcode Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Code128</fullName>
+                    <default>false</default>
+                    <label>Code128</label>
+                </value>
+                <value>
+                    <fullName>Code39</fullName>
+                    <default>false</default>
+                    <label>Code39</label>
+                </value>
+                <value>
+                    <fullName>ean13</fullName>
+                    <default>false</default>
+                    <label>ean13</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Biography__c</fullName>
+        <externalId>false</externalId>
+        <label>Biography</label>
+        <length>32000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Campus__c</fullName>
+        <description>Used to filter records on the website staff directory</description>
+        <externalId>false</externalId>
+        <formula>TEXT(Staff_Member__r.Campus__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Campus</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Degree__c</fullName>
+        <externalId>false</externalId>
+        <label>Degree</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Deleted_Attachment_Id__c</fullName>
+        <description>Captures the att id of any deleted attachment in its parent record</description>
+        <externalId>false</externalId>
+        <label>Deleted Attachment Id</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Department__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Staff_Member__r.School_Department__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Department</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EmailFormula__c</fullName>
+        <externalId>false</externalId>
+        <formula>Staff_Member__r.Email_1__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Staff Email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>End_Zip_Postal_Code_Range__c</fullName>
+        <description>When an individual Zip/Postal Code is searched via the public Site, Micro Site records that fall between the Start Zip/Postal Code and the End Zip/Postal Code will be displayed.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When an individual Zip/Postal Code is searched via the public Site, Micro Site records that fall between the Start Zip/Postal Code and the End Zip/Postal Code will be displayed.</inlineHelpText>
+        <label>End Zip/Postal Code Range</label>
+        <length>5</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>English_Parent__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Points at the parent (english) version of this record</description>
+        <externalId>false</externalId>
+        <label>English Parent</label>
+        <referenceTo>Micro_Site__c</referenceTo>
+        <relationshipLabel>Translations</relationshipLabel>
+        <relationshipName>english_parent</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Indicative_Owner_ID__c</fullName>
+        <description>A temporary field used to define the correct owner of a staff directory record i.e. the staff member to which the record refers. Used for updating the owner field easily in lieu of a trigger being created to do the same.</description>
+        <externalId>false</externalId>
+        <formula>Staff_Member__r.PersonContact.User__r.Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Indicative Owner ID</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Language__c</fullName>
+        <description>Language switch for website translation management.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the language of your record.</inlineHelpText>
+        <label>Language</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>EN</fullName>
+                    <default>true</default>
+                    <label>EN</label>
+                </value>
+                <value>
+                    <fullName>ES</fullName>
+                    <default>false</default>
+                    <label>ES</label>
+                </value>
+                <value>
+                    <fullName>PT</fullName>
+                    <default>false</default>
+                    <label>PT</label>
+                </value>
+                <value>
+                    <fullName>RU</fullName>
+                    <default>false</default>
+                    <label>RU</label>
+                </value>
+                <value>
+                    <fullName>UK</fullName>
+                    <default>false</default>
+                    <label>UK</label>
+                </value>
+                <value>
+                    <fullName>UZ</fullName>
+                    <default>false</default>
+                    <label>UZ</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Link_to_File__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE(&quot;https://c.ap4.content.force.com/servlet/servlet.ImageServer?id=&quot;&amp; Photo_ID__c&amp;&quot; &amp;oid=00D6F000001cXAR&quot;,  Name__c , 226, 150)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Link to File</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Name_Override__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Leave blank to use &quot;Staff Member&quot; name shown above</inlineHelpText>
+        <label>Name Override</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Name_Override__c &lt;&gt; &quot;&quot;, Name_Override__c, TEXT(Staff_Member__r.Salutation) &amp;&quot; &quot;&amp; Staff_Member__r.FirstName &amp;&quot; &quot;&amp; Staff_Member__r.LastName )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Nationality__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Staff_Member__r.Nationality__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Country of Origin</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Other_Qualifications__c</fullName>
+        <externalId>false</externalId>
+        <label>Other Qualifications</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Path_Alias__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>OPTIONAL. Paste here the ending url path of the node on the old school website. Ex: from www.oldsite.com/curriculum/overview.asp paste &quot;curriculum/1styear/overview&quot;. No initial &quot;/&quot; no &quot;.asp&quot; or similar.</inlineHelpText>
+        <label>Path Alias</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Person_Contact_ID__c</fullName>
+        <description>Required for transition from the old staff directory (microsite object) to the new staff directory (user object) so that records can be matched using this ID</description>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Staff_Member__r.PersonContact.Id)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Person Contact ID</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Personal_Information__c</fullName>
+        <externalId>false</externalId>
+        <label>Personal Interests</label>
+        <length>32000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Photo_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Photo ID</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Photo_Id_URL__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Photo_ID__c != null,&quot;/servlet/servlet.FileDownload?file=&quot; &amp; Photo_ID__c &amp; &quot;&amp;oid=&quot; &amp; $Organization.Id ,&quot;/servlet/servlet.FileDownload?file=015D0000001RZWe&amp;oid=&quot; &amp; $Organization.Id)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Photo Id URL</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Photo__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Photo_ID__c != null,IMAGE( &quot;/servlet/servlet.FileDownload?file=&quot; &amp; Photo_ID__c &amp; &quot;&amp;oid=&quot; &amp; $Organization.Id, &quot;No Photo Available&quot;),IMAGE( &quot;/servlet/servlet.FileDownload?file=015D0000001RZWe&amp;oid=&quot; &amp; $Organization.Id, &quot;No Photo Available&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Photo</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Position_Override__c</fullName>
+        <externalId>false</externalId>
+        <label>Position Override</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Position__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Position_Override__c =&quot;&quot;,Staff_Member__r.Position_Staff_Directory__c, Position_Override__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Position</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Post_to_FB__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this field if you want a teaser of the node to appear on the school fb page. Not valid for group website posts.</inlineHelpText>
+        <label>Post to FB</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Publish_Status__c</fullName>
+        <description>Only the Status Value of &quot;Active&quot; will publish the Micro Site details to the public web.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Only the Status Value of &quot;Active&quot; will publish the Micro Site details to the public web.</inlineHelpText>
+        <label>Publish_Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Draft</fullName>
+                    <default>false</default>
+                    <label>Draft</label>
+                </value>
+                <value>
+                    <fullName>Under Review</fullName>
+                    <default>false</default>
+                    <label>Under Review</label>
+                </value>
+                <value>
+                    <fullName>Active</fullName>
+                    <default>false</default>
+                    <label>Active</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Publish_on_School_Site__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Staff_Member__r.Status__c = &apos;Employed&apos;, TRUE, FALSE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Publish on School Site</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>School_List__c</fullName>
+        <description>A middle step from the school override field to the school list copy field.</description>
+        <externalId>false</externalId>
+        <formula>IF(OR(ISNULL(School_Override_Field__c), INCLUDES( School_Override_Field__c, &quot;No override&quot;)), TEXT( Owner:User.School__c ), IF(INCLUDES ( School_Override_Field__c , &quot;Guangzhou&quot; ), &quot;The British School of Guangzhou;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Nanjing&quot; ), &quot;The British School of Nanjing;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Marbella&quot; ), &quot;The British School of Marbella;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Navarra&quot; ), &quot;The British School of Navarra;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Tashkent&quot; ), &quot;The British School of Tashkent;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Brazil&quot; ), &quot;The British College of Brazil;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Kuala Lumpur&quot; ), &quot;The British International School of Kuala Lumpur;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Moscow&quot; ), &quot;The International School of Moscow;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Manila&quot; ), &quot;The King&apos;s School Manila;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Beijing&quot; ), &quot;King&apos;s College Beijing;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Group Site&quot; ), &quot;The British Schools Foundation;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;New York&quot; ), &quot;The New York International School;&quot;,null ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Formula field to set the values from the picklist in a text array. The Schools List Copy field will copy this field. Should be hidden.</inlineHelpText>
+        <label>School List</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>School_Override_Field__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Publish this record on the websites of the selected schools.</inlineHelpText>
+        <label>School Override Field</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No Override</fullName>
+                    <default>true</default>
+                    <label>No Override</label>
+                </value>
+                <value>
+                    <fullName>Guangzhou</fullName>
+                    <default>false</default>
+                    <label>Guangzhou</label>
+                </value>
+                <value>
+                    <fullName>Nanjing</fullName>
+                    <default>false</default>
+                    <label>Nanjing</label>
+                </value>
+                <value>
+                    <fullName>Marbella</fullName>
+                    <default>false</default>
+                    <label>Marbella</label>
+                </value>
+                <value>
+                    <fullName>Navarra</fullName>
+                    <default>false</default>
+                    <label>Navarra</label>
+                </value>
+                <value>
+                    <fullName>Tashkent</fullName>
+                    <default>false</default>
+                    <label>Tashkent</label>
+                </value>
+                <value>
+                    <fullName>Brazil</fullName>
+                    <default>false</default>
+                    <label>Brazil</label>
+                </value>
+                <value>
+                    <fullName>Kuala Lumpur</fullName>
+                    <default>false</default>
+                    <label>Kuala Lumpur</label>
+                </value>
+                <value>
+                    <fullName>Moscow</fullName>
+                    <default>false</default>
+                    <label>Moscow</label>
+                </value>
+                <value>
+                    <fullName>Manila</fullName>
+                    <default>false</default>
+                    <label>Manila</label>
+                </value>
+                <value>
+                    <fullName>Beijing</fullName>
+                    <default>false</default>
+                    <label>Beijing</label>
+                </value>
+                <value>
+                    <fullName>New York</fullName>
+                    <default>false</default>
+                    <label>New York</label>
+                </value>
+                <value>
+                    <fullName>Group Site</fullName>
+                    <default>false</default>
+                    <label>Group Site</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>School__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Staff_Member__r.Owner.School__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>School</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Schools_List_Copy__c</fullName>
+        <externalId>false</externalId>
+        <label>Schools List Copy</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Staff_Member__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Staff Member</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Staff Directory</relationshipLabel>
+        <relationshipName>Micro_Sites</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Start_Zip_Postal_Code_Range__c</fullName>
+        <description>When an individual Zip/Postal Code is searched via the public Site, Micro Site records that fall between the Start Zip/Postal Code and the End Zip/Postal Code will be displayed.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When an individual Zip/Postal Code is searched via the public Site, Micro Site records that fall between the Start Zip/Postal Code and the End Zip/Postal Code will be displayed.</inlineHelpText>
+        <label>Positioning</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>Staff_Member__r.Status__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>User_Extension__c</fullName>
+        <description>This Extension is pulled from the User record</description>
+        <externalId>false</externalId>
+        <formula>User__r.Extension</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>This Extension is pulled from the User record</inlineHelpText>
+        <label>Extension</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>User_Phone__c</fullName>
+        <description>This Phone number is pulled from the User record</description>
+        <externalId>false</externalId>
+        <formula>Staff_Member__r.Email_1__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>This Phone number is pulled from the User record</inlineHelpText>
+        <label>Email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>User_Title__c</fullName>
+        <description>This Title is pulled from the User record</description>
+        <externalId>false</externalId>
+        <formula>User__r.Title</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>This Title is pulled from the User record</inlineHelpText>
+        <label>Title</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Tying a Micro Site to a user allows each user to modify their Micro Site through the default application or though the portal.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Tying a Micro Site to a user allows each user to modify their Micro Site through the default application or though the portal.</inlineHelpText>
+        <label>User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Micro_Sites</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Web_id__c</fullName>
+        <description>We use this field to export the record id of the record to the school / group websites. Can have several uses on the sites.</description>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Id)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Web id</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Years_of_Experience__c</fullName>
+        <externalId>false</externalId>
+        <label>Years of Experience</label>
+        <length>2</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Micro Site</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>School__c</columns>
+        <columns>Name__c</columns>
+        <columns>Staff_Member__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Moscow</fullName>
+        <columns>NAME</columns>
+        <columns>School__c</columns>
+        <columns>Name__c</columns>
+        <columns>Staff_Member__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>contains</operation>
+            <value>Moscow</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Employed</value>
+        </filters>
+        <label>All Moscow</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>Positioning</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Micro Sites</pluralLabel>
+    <searchLayouts>
+        <listViewButtons>New_Directory_Record</listViewButtons>
+        <listViewButtons>Email_Request</listViewButtons>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>Disallow_Teacher_Change_To_Positioning</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(ISCHANGED(Name), $Profile.Name = &quot;Teacher&quot;)</errorConditionFormula>
+        <errorMessage>You cannot change the &apos;Positioning&apos; value of this record. Please click &apos;Cancel&apos; or revert the value in the &apos;Positioning&apos; field to continue.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Disallow_Teacher_Creating_Other_Staffs</fullName>
+        <active>true</active>
+        <description>Stops a teacher creating a staff directory record for someone that is not themselves</description>
+        <errorConditionFormula>AND($Profile.Name = &quot;Teacher&quot;, Staff_Member__r.PersonContact.User__r.Id &lt;&gt; $User.Id)</errorConditionFormula>
+        <errorMessage>You cannot create or edit a staff directory record for another staff member</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>first_record_in_english</fullName>
+        <active>true</active>
+        <description>Avoid a record with empty English_Parent__c and other language than english</description>
+        <errorConditionFormula>AND((Publish_on_School_Site__c = TRUE), ISBLANK(English_Parent__c), OR((ISBLANK(TEXT(Language__c))), NOT(ISPICKVAL(Language__c, &quot;EN&quot;))))</errorConditionFormula>
+        <errorDisplayField>Language__c</errorDisplayField>
+        <errorMessage>If you want to publish on a School Website in a language different than English (EN) you must first create it in English and then translate it.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>first_record_in_english_2</fullName>
+        <active>true</active>
+        <description>Avoid user create a first record in english (EN) with a value in English_Parent__C field.</description>
+        <errorConditionFormula>NOT(ISBLANK(English_Parent__c)) &amp;&amp; ISPICKVAL(Language__c, &quot;EN&quot;)</errorConditionFormula>
+        <errorDisplayField>Language__c</errorDisplayField>
+        <errorMessage>You are trying to save a translation of a record in english so the language must be other than EN (English).</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Email_Request</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Email Request</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/_ui/core/email/author/EmailAuthor?&amp;retURL=%2F{!Account.Id}%3FsrPos%3D0%26srKp%3D001&amp;p2_lkid={!Account.Id}&amp;rtype=003&amp;p3_lkid={!Account.Id}&amp;template_id=00X6F000001H1rG</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Name_Card</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Name Card</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>/apex/SDOC__SDCreate1?id={!Micro_Site__c.Id}&amp;Object=Micro_Site__c</url>
+    </webLinks>
+    <webLinks>
+        <fullName>New_Directory_Record</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New Directory Record</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/
+
+/* The below needs to be updated to use Rainbow record IDs if it&apos;s to be used */
+
+/*
+/a14/e?&amp;Name={!Account.Staff_Directory_Positioning_Microsite__c}&amp;CF00ND0000005KQ8e={!Account.Name}&amp;retURL=%2F{!Account.Id}%3FsrPos%3D0%26srKp%3D001&amp;CF00ND0000005KQ8e_lkid={!Account.Id}&amp;00ND0000005hcR7={!Account.Name}
+*/</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Preview_Web_Page</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Preview Web Page</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/apex/micropage?ID={!Micro_Site__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Translate</fullName>
+        <availability>online</availability>
+        <description>Clicking this buttons opens a new window with a clone of the actual record so that the user can translate it.</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Translate</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Upload_Change_Photo</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Upload/Change Photo</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/apex/ImageUploader?id={! Micro_Site__c.Id }</url>
+    </webLinks>
+</CustomObject>

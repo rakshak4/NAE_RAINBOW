@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>EAL Teacher Letter 20141104</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>EAL Teacher Letter 20141104</name>
+    <style>freeForm</style>
+    <subject>EAL Teacher Letter</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+3rd November 2014
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I am writing to let you know that we now have a new EAL teacher, since Sam Hywood’s departure at the end of October.
+
+Suzanne McLaughlin is an experienced teaching assistant, with Teaching English as a Foreign Language (TEFL) training. She has been liaising closely with Mrs Hywood and Mrs Mackey, as well as the class teachers, to ensure she has a good understanding of the needs of each child.
+
+I know she is looking forward to working with the children and will be using the Parent Portal to keep you up-to-date with their learning each week.
+
+If you would like to contact her, her email address is:
+
+suzanne.mclaughlin@britishschool.edu.my
+
+Thank you for your continued support,
+
+
+Kind Regards,
+
+Debra Birchall
+Head of Primary
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

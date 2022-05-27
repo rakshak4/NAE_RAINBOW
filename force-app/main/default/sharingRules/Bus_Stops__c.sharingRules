@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Share_Bus_Routes_with_BCB_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Bus Routes with BCB Admin</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BCB_Administration_Department</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>BCB_Administration_Department</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Bus_Routes_with_BSKL_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Bus Routes with BSKL Admin</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSKL_Administration_Department</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>BSKL_Administration_Department</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Bus_Routes_with_BSNJ_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Bus Routes with BSNJ Admin</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSNJ_Administration_Department</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>BSNJ_Administration_Department</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Bus_Routes_with_BST_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Bus Routes with BST Admin</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BST_Administration_Department</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>BST_Administration_Department</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Bus_Routes_with_BSY_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Bus Routes with BSY Admin</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSY_Administration_Department</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>BSY_Administration_Department</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Bus_Routes_with_ISM_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Bus Routes with ISM Admin</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ISM_Administration_Department</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>ISM_Administration_Department</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Bus_Routes_with_NAISM_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Bus Routes with NAISM Admin</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>NAISM_Administration_Department</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>NAISM_Administration_Department</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

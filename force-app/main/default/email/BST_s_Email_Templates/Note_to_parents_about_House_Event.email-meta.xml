@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Note to parents about House Event</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Note to parents about House Event</name>
+    <style>freeForm</style>
+    <subject>Note about House Events</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+On Wednesday we will be having a House Events day for the children. They will be enjoying a series of team-building events and friendly competitions in school. This will be a great opportunity for them to develop their teamwork and leadership skills while enjoying a range of stimulating activities, from sporting to academic and creative.​
+
+Please send your child to school on Wednesday 19th February dressed in their school tracksuit and coloured house t-shirt. If you do not yet have a house t-shirt, there is still time to buy one from the uniform shop.
+
+
+Thank  you.
+
+
+Уважаемые родители,
+
+В среду состоятся детские соревнования  между “домами ” школы. Дети смогут  поучаствовать в серии  коллективных мероприятий и дружеских соревнований. Это станет прекрасной возможностью для развития командной работы и лидерских навыков детей, в то время как они будут с удовольствием заняты в различных дисциплинах, от спортивной до академической и творческой.
+
+
+Пожалуйста, оденьте  своего ребенка в школу в среду, 19 февраля в школьный спортивный костюм  и цветную футболку согласно   “дому ” школы. Если Вы до сих пор не приобрели  футболку, у Вас еще есть время приобрести ее в нашей школе.
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

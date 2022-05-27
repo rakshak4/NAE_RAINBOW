@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>23/08/2013 Parent Letter</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>23/08/2013 Parent Letter</name>
+    <style>freeForm</style>
+    <subject>Parents primary letter 23-08-2013</subject>
+    <textOnly>Please follow the below link to a letter from our Deputy Headmaster, Mr. Johnson.
+
+https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004Rf3/XBtgAAUUfgg7mSIE.ov9Dr7TZ.NLvSc1edIZinDgTvQ=</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

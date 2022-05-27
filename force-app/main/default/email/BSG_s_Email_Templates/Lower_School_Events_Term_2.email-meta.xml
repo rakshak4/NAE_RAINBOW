@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Lower School Events -- Term 2</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Lower School Events --Term 2</name>
+    <style>freeForm</style>
+    <subject>Lower School Events -- Term 2</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I would like to take this opportunity to inform you of the events that will take place on the Lower School campus over the next few weeks.
+
+Reports and Parent-Teacher Consultation Day
+
+On Friday 8th March you will be receiving your child’s mid-year student report. We hope this gives you an overview of how your child has progressed during the second part of the school year.
+
+On Monday 18th March Parent-Teacher Consultations will take place to discuss your child’s progress in greater depth. We will be dedicating the whole day to parent consultations. There will be no school for children on this day, but they are welcome to attend the consultation with you if need be.
+
+Consultations will begin from 9:00am until 6:00pm. Please complete the form your child will bring home today to indicate your preferred time period during the day and return it to school by Wednesday 13th March. A note will be placed in your child’s communication book on Thursday 14th March to inform you of your confirmed appointment time with your child’s teacher.
+
+Please note that Miss Lou (P.E.) and Miss Queenie (Music) will be available for drop in appointments on the Lower School. Miss Helen (Music) and our Chinese and EAL specialists will be available in the Gymnasium on the upper campus (Nanhu) throughout the day for ‘drop in’ appointments.
+
+For non-English speaking parents you are asked to make your own arrangements to bring along a translator, as we do not have the manpower to provide such support.
+
+Please also note that our coffee shop will be open throughout the day if you would like to relax with a fresh cup of tea or coffee and a snack.
+
+Lower School Sports Day
+
+On Wednesday 20th March we will be holding our annual Lower School Sports Day. Please send your child to school in their P.E. uniform and their house colour t-shirt on this day.
+
+Pre-Nursery &amp; Nursery Sports Day – 9:00-10:30am
+Reception &amp; Year 1 Sports Day – 1:00-2:30pm
+
+We would like to invite you to come and cheer on the children in their house teams. Our sporting events will take place on the playground culminating with the all-important announcement of the 2012 Sports Day winning team!
+
+Book Week
+
+During the last week of term children will participate in our annual Book Week. There will be lots of activities taking place throughout the week which will revolve around our favourite books and Nursery Rhymes.
+
+On Thursday 28th March please send your child to school in their sleepwear for a ‘Snuggle-up and Read’ event.
+
+On Friday 29th March please send you child to school dressed as a character from a book. Please note that school finishes at 12:00pm on this day.
+
+Other Dates for your Diary
+
+Wednesday 13th March - Bake Sale (Nursery to provide cakes and goodies). If you would like your child to participate please send in 5RMB on this day.
+
+Wednesday 13th March - Reception school trip to the Strawberry Farm.
+Thursday 14th March - ‘Red’ themed day. Please send your child to school dressed in red with a donation of 10RMB, which will go to charity.
+Friday 15th March - Nursery school trip to Guangzhou Zoo.
+Wednesday 27th March - House Events. Please send your child to school in their house t-shirt on this day.
+Friday 29th March - School finishes at 12:00pm.
+Monday 8th April - First day of Term 3.
+
+As you can see from the planned events we have a busy few weeks ahead of us. If you have any questions regarding the above events, please do not hesitate to contact you class teacher for further details.
+
+Kind regards,
+
+Miss Kathy
+Head of Lower School
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

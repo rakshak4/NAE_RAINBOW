@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>First Day thanks</name>
+    <style>freeForm</style>
+    <subject>A successful first day!</subject>
+    <textOnly>Dear Parents
+ 
+I wanted to extend a warm welcome to all families new or established to our academic year. I am pleased to say that procedures ran fairly smoothly this morning, with children successfully reaching their classes promptly and happily.
+It was very positive to see so many parents sharing coffee on our first morning as well. I hope that in the coming weeks we will have the opportunity for further gatherings. May I thank you for your support in settling the children quickly and independently into their new classroom. The main objective of the first few days is of course helping all students to feel at home in the school.  Once children feel comfortable and confident, they can fully concentrate on their learning.
+ 
+All of our staff will do everything they can in the next few days to support this objective. On that note, I must say that our staff induction and preparation week was particularly successful this year. Without exception our staff have shown great commitment to the team in the first few days. This augurs well for the rest of the year.
+ 
+Unfortunately we have had one late unexpected issue that has pulled the secondary team immediately together. On Upper Campus, Carol-Anne Greaves has not yet been able to return to Russia due to ill health. We are monitoring that situation carefully and doing everything we can to support a prompt return. Obviously we will keep you informed on her status.
+ 
+In the meantime the team have pulled together to ensure that lessons are covered appropriately. This has meant some temporary adjustments. Mr. Sinkevich will be teaching Art for the majority of classes Year 6 to 9. This is an area of expertise for him as he has previously taught this subject up to IGCSE level. I have every confidence that he will do an excellent job. Mr. Crombie will be supporting the Russian team with their classes and drama lessons. Mrs. Hamilton (previously Ms. Heckford!) will act as tutor to Year 9.
+ 
+Obviously we will return things to our planned organisation as soon as possible. In the meantime we will ensure quality provision is maintained.
+ 
+At this time of year it is very important to share information with parents. Tomorrow, you will receive a Parent/Student Handbook that will provide a great deal of information regarding school routines, organization and expectations. Please find time to read it over the next few days. It is also very useful to refer back during the school year. It will naturally take a few days for some of these procedures to be established, (EG Homework will begin in the second week) but as a source of information, I hope that you will find it useful.
+ 
+In addition, every year group will send out a curriculum letter next Monday, outlining the main topics and themes of Term One in each area of the curriculum. This will be followed in the third week with an opportunity to “Meet The Teacher.” The date and time will be confirmed by the end of this week.  Finally dates for the term will soon appear on our website so that you can plan ahead.
+
+Please also be reminded that on the days where the students have P.E. (Physical Education) incorporated into their timetable, they are required to come to school in their P.E. kit and stay in their P.E. kit for the duration of the day.
+ 
+Best regards
+ 
+Paul.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

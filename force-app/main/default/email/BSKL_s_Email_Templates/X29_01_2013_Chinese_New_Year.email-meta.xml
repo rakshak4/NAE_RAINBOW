@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>29/01/2013 - Chinese New Year</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>29/01/2013 - Chinese New Year</name>
+    <style>freeForm</style>
+    <subject>Chinese New Year</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+The BSKL Chinese New Year Assembly will be held on the 8th February 2013, starting at 9am. We would like to invite all parents to join us in celebrating the Year of the Snake and watch what promises to be a fabulous assembly, which will be held in the school gym.
+
+To celebrate this special occasion we are asking the BSKL students to join in and to dress in traditional Chinese costume on the day. This is an opportunity for the BSKL students to take part in the fun of this wonderfully colourful celebration &amp; wear non-uniform for the day, for which we are asking the BSKL students to donate RM5.  This is however, not compulsory and students may wear school uniform.  The money is being collected by the classroom teachers for the EFC, to be donated to the Beautiful Gate charity, a Chinese charity for the disabled. The Chinese costumes are all readily available at the moment in all department stores, supermarkets and in the event areas of most malls.
+
+To further aid this wonderful charity the EFC are requesting donations from the BSKL parents of homemade cookies to be sold on the day. Could those interested in donating or have any questions, please contact Tracy Lew on (tracylew@hotmail.com). The cookies will need to be delivered to the school for packaging on Wednesday 6th February starting from 2pm onwards in the school cafeteria.
+
+We look forward to seeing you all there at the assembly,
+
+Gong Xi Fa Cai!!!
+
+Kind Regards
+The Events and Fundraising Committee
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

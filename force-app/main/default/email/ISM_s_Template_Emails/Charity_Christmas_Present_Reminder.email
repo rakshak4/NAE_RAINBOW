@@ -1,0 +1,645 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:TrackMoves/>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>JA</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="276">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="0" Name="header"/>
+  <w:LsdException Locked="false" Priority="0" Name="footer"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="0" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="0" Name="Hyperlink"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+</style>
+<![endif]-->
+
+
+
+<!--StartFragment-->
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" align="right" style="text-align:right"><span style="font-size:
+10.0pt;mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" align="right" style="text-align:right"><span style="font-size:
+10.0pt;mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;">25 November 2011<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;">Dear Parents,<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><b style="mso-bidi-font-weight:
+normal"><span style="font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:
+&quot;Helvetica Neue&quot;"><o:p>&nbsp;</o:p></span></b></p>
+
+<p class="MsoNormal" style="text-align:justify"><b style="mso-bidi-font-weight:
+normal"><span style="font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:
+&quot;Helvetica Neue&quot;"><o:p>&nbsp;</o:p></span></b></p>
+
+<p class="MsoNormal" style="text-align:justify"><b style="mso-bidi-font-weight:
+normal"><span style="font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:
+&quot;Helvetica Neue&quot;">Charity Christmas Presents<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoListParagraph" style="margin-left:0cm;mso-add-space:auto"><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;">Following
+the excellent response we had last year, ISM have decided again to support the
+Khoroshevo Mnevniki Social Centre (<b style="mso-bidi-font-weight:normal">KMSC</b>)
+by giving Christmas presents to every child in the centre. <b style="mso-bidi-font-weight:
+normal"><o:p></o:p></b></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;">We hope that each ISM
+family will be willing to donate a present, with a value of approximately <b style="mso-bidi-font-weight:normal">RUR500</b>.<span style="mso-spacerun:yes">&nbsp;
+</span>No one is under any obligation to do so, and families are free to choose
+to purchase one present on behalf of the entire family, or one per child in their
+family. On the 12<sup>th</sup> December, we then plan to take a group of ISM
+students to deliver the presents to the centre and spend some time with the
+children there. <o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;">In exchange and as a
+thank you, Friday 9<sup>th</sup> December, the day of our class Christmas
+Parties, will be a Non-Uniform Day! <o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;">To facilitate this
+initiative, on Monday the 28<sup>th</sup> and Tuesday 29<sup>th</sup> November
+each child in the school will select and bring home a gift tag chosen from the
+Christmas Trees on the Upper and Lower Campuses (one per child, some will
+select on Monday, others on Tuesday). <b style="mso-bidi-font-weight:normal">If
+you notice your child has not brought a tag home please notify the tutor who
+will then give them a new one. </b>If you wish either to opt out of buying a
+present or would prefer to provide one gift from your entire family, not per
+child, please inform your class teacher on Monday 28<sup>th</sup>. Presents
+should be delivered to your classroom teacher <b style="mso-bidi-font-weight:
+normal">on Friday 9<sup>th</sup> December</b>. <o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;">The children in the
+centre range from ages 3 to 17.<span style="mso-spacerun:yes">&nbsp; </span>In order
+to provide an appropriate present, we have received some loose guidelines from the
+KMSC centre’s director (listed on the reverse of this letter). We have also put
+together a tag system to ensure that the presents are not only appropriate to
+age/gender, but that they are equally spread amongst the children in the
+centre.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;">If you would like to
+donate a present, then we would be very grateful if you could please follow the
+instructions on the <u>reverse of this letter.</u><o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="margin-left:0cm;mso-add-space:auto;
+text-align:justify"><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:&quot;Helvetica Neue&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:0cm;mso-add-space:auto;
+text-align:justify"><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:&quot;Helvetica Neue&quot;">On behalf of ISM and the organizing
+volunteers, we would like to thank you for your continued support.<span style="mso-spacerun:yes">&nbsp; </span>These initiatives cannot succeed without it –
+and there is no doubt that it will make these underprivileged children very
+happy this Christmas.<o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:0cm;mso-add-space:auto;
+text-align:justify"><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:&quot;Helvetica Neue&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:0cm;mso-add-space:auto;
+text-align:justify"><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:&quot;Helvetica Neue&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:0cm;mso-add-space:auto;
+text-align:justify"><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:&quot;Helvetica Neue&quot;">With thanks and kindest regards,<o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:0cm;mso-add-space:auto;
+text-align:justify"><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:&quot;Helvetica Neue&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:0cm;mso-add-space:auto;
+text-align:justify"><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:&quot;Helvetica Neue&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:0cm;mso-add-space:auto;
+text-align:justify"><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:&quot;Helvetica Neue&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:0cm;mso-add-space:auto;
+text-align:justify"><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:&quot;Helvetica Neue&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:0cm;mso-add-space:auto;
+text-align:justify"><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:&quot;Helvetica Neue&quot;">Volunteers ‘Orphanage Project’ <o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:0cm;mso-add-space:auto;
+text-align:justify"><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:&quot;Helvetica Neue&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:0cm;mso-add-space:auto;
+text-align:justify"><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:&quot;Helvetica Neue&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" align="center" style="margin-left:0cm;
+mso-add-space:auto;text-align:center"><b style="mso-bidi-font-weight:normal"><u><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;"><o:p><span style="text-decoration:none">&nbsp;</span></o:p></span></u></b></p>
+
+<p class="MsoListParagraphCxSpMiddle" align="center" style="margin-left:0cm;
+mso-add-space:auto;text-align:center"><b style="mso-bidi-font-weight:normal"><u><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;"><o:p><span style="text-decoration:none">&nbsp;</span></o:p></span></u></b></p>
+
+<p class="MsoListParagraphCxSpMiddle" align="center" style="margin-left:0cm;
+mso-add-space:auto;text-align:center"><b style="mso-bidi-font-weight:normal"><u><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;">Charity
+Christmas Present – Instructions and Guidelines<o:p></o:p></span></u></b></p>
+
+<p class="MsoListParagraphCxSpMiddle" align="center" style="margin-left:0cm;
+mso-add-space:auto;text-align:center"><b style="mso-bidi-font-weight:normal"><u><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;"><o:p><span style="text-decoration:none">&nbsp;</span></o:p></span></u></b></p>
+
+<p class="MsoListParagraphCxSpMiddle" align="center" style="margin-left:0cm;
+mso-add-space:auto;text-align:center"><b style="mso-bidi-font-weight:normal"><u><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;">Please
+note: presents must be delivered to your child’s class on the 9<sup>th</sup>
+December<o:p></o:p></span></u></b></p>
+
+<p class="MsoListParagraphCxSpMiddle" align="center" style="margin-left:0cm;
+mso-add-space:auto;text-align:center"><b style="mso-bidi-font-weight:normal"><u><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;"><o:p><span style="text-decoration:none">&nbsp;</span></o:p></span></u></b></p>
+
+<p class="MsoListParagraphCxSpMiddle" align="center" style="margin-left:0cm;
+mso-add-space:auto;text-align:center"><b style="mso-bidi-font-weight:normal"><u><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;"><o:p><span style="text-decoration:none">&nbsp;</span></o:p></span></u></b></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:1.0cm;mso-add-space:
+auto"><b style="mso-bidi-font-weight:normal"><span lang="EN-GB" style="font-size:
+10.0pt;mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;">Blue and Green
+Tags are presents for Boys at the KMSC<o:p></o:p></span></b></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:1.0cm;mso-add-space:
+auto"><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:&quot;Helvetica Neue&quot;">On these tags you will find the child’s name
+written on the front<o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:1.0cm;mso-add-space:
+auto"><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:&quot;Helvetica Neue&quot;">On the reverse side of the tag you will find
+details of the child’s age <o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:1.0cm;mso-add-space:
+auto"><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:&quot;Helvetica Neue&quot;">Ask your child to sign the tag, and attach it
+securely to the gift wrapped present<o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:1.0cm;mso-add-space:
+auto"><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:&quot;Helvetica Neue&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:1.0cm;mso-add-space:
+auto"><b style="mso-bidi-font-weight:normal"><span lang="EN-GB" style="font-size:
+10.0pt;mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;">Pink and Red
+Tags are presents for Girls at the KMSC<o:p></o:p></span></b></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:0cm;mso-add-space:auto;
+text-indent:1.0cm"><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:&quot;Helvetica Neue&quot;">On these tags you will find the child’s
+name written on the front<o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:0cm;mso-add-space:auto;
+text-indent:1.0cm"><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:&quot;Helvetica Neue&quot;">On the reverse side of the tag you will
+find details of the child’s age<o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:1.0cm;mso-add-space:
+auto"><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:&quot;Helvetica Neue&quot;">Ask your child to sign the tag, and attach it
+securely to the gift wrapped present<o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:0cm;mso-add-space:auto"><b style="mso-bidi-font-weight:normal"><span lang="EN-GB" style="font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;"><o:p>&nbsp;</o:p></span></b></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:1.0cm;mso-add-space:
+auto"><b style="mso-bidi-font-weight:normal"><span lang="EN-GB" style="font-size:
+10.0pt;mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;">General
+Guidelines:<o:p></o:p></span></b></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:1.0cm;mso-add-space:
+auto"><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:&quot;Helvetica Neue&quot;">Last year some parents / children wrote a small
+personal Christmas message to the children and these were very well received –
+they really made the children feel special, so we would encourage you to do
+this where possible. For those non-Russian speakers, Google Translate (<a href="http://translate.google.com/">http://translate.google.com/</a>) is an
+excellent facility you can use. Since the tags are very small we would ask that
+you write these messages on a separate card and attach this securely to the
+outside of the parcel itself, preferably with tape.<o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:1.0cm;mso-add-space:
+auto"><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:&quot;Helvetica Neue&quot;">Please ensure that the tag identifying to whom
+your present is for is attached securely by the ribbon onto the present itself.
+If you are placing the present in a gift bag, the label should still be
+attached to the present and not to the bag (this will ensure that if the present
+comes out of the bag for any reason, we will still be able to get it to its
+rightful recipient.)<o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:1.0cm;mso-add-space:
+auto"><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:&quot;Helvetica Neue&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:1.0cm;mso-add-space:
+auto"><b style="mso-bidi-font-weight:normal"><span lang="EN-GB" style="font-size:
+10.0pt;mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;">Present
+Guidelines</span></b><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:&quot;Helvetica Neue&quot;"> <o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:1.0cm;mso-add-space:
+auto"><b style="mso-bidi-font-weight:normal"><span lang="EN-GB" style="font-size:
+10.0pt;mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;">Boys Aged 3 to
+10</span></b><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:&quot;Helvetica Neue&quot;"> – Art sets, Lego sets, small personal items like
+rucksacks or stationary sets, clothing or clothing accessories e.g. t-shirts,
+slippers, hats, scarves, gloves etc <o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:1.0cm;mso-add-space:
+auto"><b style="mso-bidi-font-weight:normal"><span lang="EN-GB" style="font-size:
+10.0pt;mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;">Boys Aged 10 to
+17</span></b><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:&quot;Helvetica Neue&quot;"> – Computer games, “funny shaped mice for
+computers”, personal grooming and hygiene products e.g. deodorants, shower
+gels, clothing or clothing accessories e.g. t-shirts, slippers, hats, scarves,
+gloves etc<o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:1.0cm;mso-add-space:
+auto"><b style="mso-bidi-font-weight:normal"><span lang="EN-GB" style="font-size:
+10.0pt;mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;">Girls Aged 3 to
+10</span></b><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:&quot;Helvetica Neue&quot;"> – Art or craft sets, “girly games, activities”,
+dolls, soft toys, small personal items like jewellery or other small decorative
+boxes, stationary sets, hair accessories, clothing or clothing accessories e.g.
+t-shirts, slippers, hats, scarves, gloves etc<o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpLast" style="margin-left:1.0cm;mso-add-space:auto"><b style="mso-bidi-font-weight:normal"><span lang="EN-GB" style="font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;">Girls Aged 10 to 17</span></b><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;">
+– “Little lady” cosmetics and hygiene products, jewellery, fashion accessories e.g.
+hats, gloves, scarves, slippers, t-shirts, personal items like small decorative
+boxes etc.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:&quot;Helvetica Neue&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:&quot;Helvetica Neue&quot;">**<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Please
+avoid toys/games that require batteries<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:&quot;Helvetica Neue&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify;mso-pagination:none;mso-layout-grid-align:
+none;text-autospace:none"><span style="font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:&quot;Helvetica Neue&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<!--EndFragment-->]]></td>
+</tr>
+</table>

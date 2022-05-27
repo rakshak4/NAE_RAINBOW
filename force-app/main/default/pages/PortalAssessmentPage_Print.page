@@ -1,0 +1,51 @@
+<apex:page standardStylesheets="false" controller="ParentPortalAssessment_Controller" sidebar="false" showHeader="false">
+<html>
+  <head>
+        <apex:stylesheet value="{!$Page.PortalAssessmentPageCSS}"/>
+  </head>
+  <style>
+    *{
+        font-family: Verdana,Helvetica,Arial,sans-serif;
+    }
+  </style> 
+  <body class="print">
+        <div id="main" class="print">
+            <header class="print header">
+                <div class="print img-cont">
+                    <img class="print image" src="{!schoolLogoURL}" width="715" height="141" />
+                </div>
+                <div style="clear: both;"></div>
+            </header>
+            <student>
+              <h2 class="print h-name">{!studentName}</h2>
+            </student>
+            <article class="print term-section first">
+                <apex:repeat value="{!termWrapperList}" var="tw">
+                    <header class="print-t-sec-header index-{!tw.index}"><span class="year">{!selectedStudentYear}</span> | <span class="season">{!tw.term}</span></header>
+                    <apex:repeat value="{!tw.assessments}" var="assessment">
+                        <c:AssessmentDetailPrint reportType="{!assessment.assessment.Assessment_Folder__r.Type__c}" 
+                            record="{!assessment.assessment}"
+                            groupName="{!assessment.groupName}" 
+                            subjectName="{!assessment.subjectName}" 
+                            effort="{!assessment.assessment.Effort__c}" 
+                            effortLabel="{!assessment.assessment.Effort_ATL_Output_Label__c}"
+                            isEffortNumeric="{!assessment.isEffortNumeric}"
+                            grade="{!assessment.assessment.Grade__c}"
+                            achievement="{!assessment.assessment.Achievement__c}"
+                            description="{!assessment.assessment.Comment__c}"
+                            pic="{!assessment.userInfo_PicURL}"
+                            tutorName="{!assessment.userInfo_Name}"
+                            tutorRole="{!assessment.userInfo_Title}"
+                            tutorEmail="{!assessment.userInfo_Email}"
+                            rt="{!assessment.rt}" 
+                        />
+                    </apex:repeat>
+                </apex:repeat>
+            </article>
+        </div>
+        <script>
+            window.print();
+        </script>
+  </body>
+</html>
+</apex:page>

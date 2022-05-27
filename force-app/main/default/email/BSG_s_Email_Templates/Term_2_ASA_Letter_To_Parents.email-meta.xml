@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Term 2 ASA letter to parents</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Term 2 ASA Letter To Parents</name>
+    <style>freeForm</style>
+    <subject>Term 2 ASA Letter To Parents</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Happy New Year and welcome back to term two!
+
+We are pleased to inform you that our Lower School after school activities programme will begin on Tuesday 15th January. The after school clubs will run from 3:00pm to 4:00pm Tuesday and Thursday for six weeks. Due to Chinese National Holidays and other school events ASA’s will not run for six continuous weeks, there will be a few weeks where there will be no ASA’s, you will receive a note via the communication books to inform you about this nearer the time. The last ASA this term will be on Thursday 14th March.
+
+On the Lower School we have a variety of clubs that your child will be participating in:
+
+Nursery – Counting Club, Fun With Colours, Puzzle Club, Ball Games, Fine Motor Skills, Colouring Club, Chinese Story Club and Construction Club.
+
+Reception &amp; Year 1 – Scottish Dance, Nature Club, Science Club, Puzzle Club, Drama Club, Ball Games, Singing Playgrounds, Olympics, Story Club, Magic Key Club, Team Games, Circle Games, Library Club, Construction Club, Music &amp; Movement and a Gymtastic club.
+
+Alongside our ASA programme we are also able to offer Ballet and Kung Fu classes at an extra cost. If you wish for your child to attend these classes you should return the form and payment by the latest Thursday 10th January.
+
+The children will be participating in the ASA programme in their house groups and each club will be specifically designed to ensure the activities are age appropriate to each year group. There will be a specific Nursery programme for our younger students and more challenging activities for our Reception and Year 1 students.
+
+If you do not wish your child to stay after school for the activities, please can you inform your child’s class teacher and make arrangements for them to be collected from the main reception area at 3:00pm on Tuesdays and Thursdays. Children who take the bus home will get on their bus as per normal at 4:00pm on ASA days.
+
+If you have any questions regarding ASA’s please do not hesitate in contacting your child’s class teacher or myself via the communication book or email lousie.ruck@bsg.org.cn
+
+Yours sincerely,
+
+Miss Lou
+
+
+Lower School ASA Coordinator
+
+
+The British School of Guangzhou
+
+World Class Education
+
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

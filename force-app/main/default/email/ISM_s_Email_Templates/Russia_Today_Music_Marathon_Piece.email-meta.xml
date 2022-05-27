@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Russia Today Music Marathon Piece</name>
+    <style>freeForm</style>
+    <subject>Russia Today Music Marathon Piece</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear Parents,
+
+Please make sure you make a note of this: Russia Today are broadcasting a piece on our Music Marathon at around 8.30pm (Russian Time) on Wednesday 14th November on a programme called &apos;Primetime Russia&apos;. The broadcast will only be available to those who can pick up Russia Today through its Russian frequency.
+
+The international version of the channel will not be broadcasting the piece.
+
+Anyone who cannot receive Russia Today through the Russian frequency can watch the piece online at www.rt.com via the link to Primetime Russia.
+
+I hope you enjoy!
+
+Best regards,
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

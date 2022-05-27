@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Swimming Club 2012</name>
+    <style>freeForm</style>
+    <subject>Weekend Swimming Academy at BSG.</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+With the opening of the school’s swimming facility, located on the Nanhu Lake Campus, BSG is pleased to announce the school’s first ever weekend swimming club.
+
+The courses will be under the supervision of Mr. Karl &amp; Mrs. Alison Grice-Glover. Karl and Alison have a depth of experience within swimming and athletics. Alison is the current Head of Secondary P.E. at BSG, bringing 15 years of swimming experience into this role and Karl successfully set up and managed a swimming and sports academy in the Middle East for 10 years prior to moving to Guangzhou this year.
+
+Course Dates:
+
+Week 1: 8th &amp; 9th September
+Week 2: 15th &amp; 16th September
+Week 3: 22nd &amp; 23rd September
+Holiday Break: 29th &amp; 30th September
+Week 4: 6th &amp; 7th October
+Week 5: 13th &amp; 14th October
+
+Course Times:
+
+Saturday 09:30-10:30 (*beginners ages 5-8)
+Saturday 10:30-11:30 (*intermediate/advanced 9+)
+Sunday 09:30-10:30 (*beginners ages 5-8)
+Sunday 10:30-11:30 (*intermediate/advanced 9+)
+
+*Please note ages shown are a guideline and swimmers will be grouped based on assessment during the first lessons.
+
+Cost:
+
+Courses will be paid in advance for either 5 or 10 sessions
+1 day per weekend for 5 weeks will be 500rmb
+2 days per weekend for 5 weeks will be 1000rmb
+
+To enrol your child, please contact Karl directly on 15017535396 or by email at karl.bas1117@yahoo.com. Please note registration will close 5pm Friday, 7th September and places will be limited so please be quick if you are interested in joining us this term.
+
+We are both looking forward to this new experience for BSG children so come and join us as we aim to learn or improve a life skill that will help make the most of your child’s leisure time.
+
+Happy Swimming!
+
+Mr Karl Glover
+Head Coach
+GZ Swimming Academy at BSG.
+
+The British School of Guangzhou
+World Class Education
+________________________________________________________
+Member of The British Schools Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

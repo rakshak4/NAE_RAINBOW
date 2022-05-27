@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in August 2014</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>EYFS Parent Teacher Consultation Autumn Term 2014-15</name>
+    <style>freeForm</style>
+    <subject>EYFS Parent Teacher Consultation Autumn Term 2014-15</subject>
+    <textOnly>The International School
+of Moscow
+Chartered By The British Schools Foundation
+
+
+
+Dear Parents,
+
+As you all know our first Parent Teacher Consultation of the year will be held on Thursday 2nd and Thursday 9th of October from 4pm till 6pm. Please click here to download the Parent Teacher Consultation schedule.
+
+The highlighted students have been allocated a time to meet the teacher by the school. If you are unable to attend for some reason please contact your class teacher.
+
+If you have any questions please do not hesitate to contact me at info@internationalschool.ru. Many thanks.
+
+Have a nice weekend.
+
+Ksenia Mitrofanova
+Lower Campus Front Desk
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

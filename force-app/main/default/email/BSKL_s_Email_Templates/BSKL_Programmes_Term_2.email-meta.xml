@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>BSKL Programmes - Term 2</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>BSKL Programmes - Term 2</name>
+    <style>freeForm</style>
+    <subject>BSKL Programmes - Term 2</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Happy New Year to you!
+Please don’t forget to sign up your children for the following fantastic sports programmes the school is offering this term!
+
+
+BSKL GYMNASTICS PROGRAMME
+Directed by Miss Marwood, the programme will run over 8 weeks and the cost is RM 300 per student. It is available to students in Years 1 – 4.
+Full details of the programme, including how to register can be found by following the link below:
+
+BSKL Gymnastics Flyer
+
+Should you have any questions please contact Miss Marwood on:
+annalicia.marwood@britishschool.edu.my
+BSKL BASKETBALL SKILLS PROGRAMME
+Coached by Mr. Daniel Dean and Ms. Grace McElwaine, the
+programme will run over 8 weeks and the cost is RM 300 per
+student. It is available to students in Years 4 – 8.
+Club Flyer
+Full details of the programme, including how to register can be
+found by following the link below:
+Basketball Skills Club
+Should you have any questions please contact Daniel or
+Grace on:
+daniel.dean@britishschool.edu.my
+grace.mcelwaine@britishschool.edu.my
+BSKL RUGBY DEVELOPMENT PROGRAMME
+
+Coached by Mr. Johnson, Mr. Thomson, Mr Jones and
+Mr. Allday, the programme will run over 7 weeks and
+the cost is RM 250 per student. It is available to students
+in Years 1 – 8.
+
+Full details of the programme can be found by following the link
+below:
+Rugby Development Programme
+To register, kindly fill in the application form through the below
+link:
+Rugby Registration Form
+Should you have any questions please do not hesitate to
+contact Harrie Thomson our Head of PE on:
+
+harrie.thomson@britishschool.edu.my
+BSKL FOOTBALL PROGRAMME
+Coached by Mr. Thomson, Mr. Finch, and Mr. Burton the
+programme will run over 8 weeks and the cost is RM 300 per
+student. It is available to students in Years 1 – 8.
+Full details of the programme can be found by following the
+link below:
+Football Programme
+To register, kindly fill in the application form through the below
+link.
+
+Registration Form
+
+Should you have any questions please do not hesitate to
+contact Harrie Thomson our Head of PE on:
+harrie.thomson@britishschool.edu.my
+BSKL DANCE PROGRAMME
+Presented by Ms. Sabrina Saw and running over 7 weeks the
+cost per student is RM 350.  It is available to students in
+Years 3 – 8.  Parents can also get involved should you wish!
+Sabrina takes our very popular ASA dance workshop and
+furthermore the school is partnering Sabrina with Pet Project
+2013.
+More details regarding the workshop and Pet Project 2013 can
+be found by clicking on the below link:
+
+Swagilicious Saturdays
+
+For all activities highlighted above, payments are to be made
+to the school reception.
+
+
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>note to parents to collect children asap due water problems</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Water problem LC May 04.2015</name>
+    <style>freeForm</style>
+    <subject>WATER ISSUES IN LOWER CAMPUS</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+Kindly asking you to come and collect your children as soon as possible as there are continuing problems with water outside of school. It is a result of the installation of new water pipes in the main road. We had not received prior notice of this so it was a surprise to us all.
+
+Thank you all !
+
+
+
+Kindest Regards
+
+Wendy H Holland
+
+Head of Lower Campus
+
+
+Уважаемые родители!
+
+
+Убедительно просим Вас забрать детей из здания детского сада в ближайшее время, так как нам вновь пришлось закрыть школу в срочном порядке по причине отсутствия воды. К сожалению, мы не получили никакого предупреждения со стороны коммунальных служб.
+
+Благодарим за понимание!
+
+
+С уважением,
+
+Вэнди Холланд
+
+
+Координатор Нижнего Кампуса
+
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

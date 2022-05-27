@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>GIVES EDIT ACCESS TO OPPORTUNITY. This set is created to give read and write access to Bus Service to users whose standard profile prevents them from accessing it.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Manage Bus Service</label>
+</PermissionSet>

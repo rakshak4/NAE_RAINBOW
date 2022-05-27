@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Secondary Bulletin</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Secondary Bulletin</name>
+    <style>freeForm</style>
+    <subject>Secondary Bulletin 14/01/2013</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I would like to wish you a very happy New Year and hope you had a relaxing Christmas break.
+
+This week has seen our Yr. 12 students sitting their very first AS Level examinations in the Sciences and Maths. This is the start of their journey to University that will see them complete full A Levels next year. Our Yr. 11 students are also sitting their IGCSE mock examinations over the next 2 weeks in all subjects, in preparation for their full examinations in the summer term. We wish them all the very best of luck.
+
+We would also like to remind parents about the procedures for absences. If your child is absent from school, can you please write a note in their diary explaining why they are absent. If there is no note the absence will remain unauthorised on our records.
+
+The student council had their first meeting of the New Year this week and will continue to meet throughout the term. Forms or students who would like to raise issues with the council should be approaching their representative.
+
+The ASA programme will be commencing next week with students having signed up online via the Secondary School Virtual Learning Environment.
+
+Below is the schedule for next week:
+
+New House ASA
+
+· House Dodge ball - KS3, KS4/5
+
+· House Art
+
+· House Debating
+
+Day
+
+Activity
+
+When
+
+Staff
+
+Monday 14th January
+
+Monday ASAs (week 1)
+
+3:00–3:55pm
+
+All
+
+Tuesday 15th January
+
+Tuesday ASAs
+
+
+3:00–3:55pm
+
+
+All
+
+
+Wednesday 16th January
+
+Wednesday ASAs
+
+
+3.00-3.55pm
+
+
+All
+
+
+Thursday 17th January
+
+House ASAs
+
+3.00-3.55pm
+
+
+All
+
+
+Friday 18th January
+
+
+
+
+Saturday 19th January
+
+U14 Boys Volleyball
+
+
+All day
+
+AGG
+
+
+
+Kind regards,
+
+Nicholas McKie
+Assistant Head of Secondary/Head of Sixth Form
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

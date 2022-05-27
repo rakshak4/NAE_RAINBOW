@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Bus Information 2012-12-12</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>School Bus Information 2012-12-12</name>
+    <style>freeForm</style>
+    <subject>School Bus Information</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear Pre-Nursery to Year 5 Parents,
+
+This is a follow up message to the email I sent 13th November 2012 referring to new bus pick up procedures for students below Year 6.
+
+Kindly note that you have until the end of this term to send me details of carers or adults you would like to authorise to pick up your child(ren) from the school buses.
+
+NOTE: from the beginning of term 2, only pre-authorised adults or parents will be permitted to meet students off school buses. If you haven’t sent this information to us and would like to authorise an extra adult or Ayi to pick up your child, please do so as a matter of urgency.
+
+To give us this information, please CLICK HERE to download the correct form, fill in the relevant information and send it back via email to grace.kwan@bsg.org.cn before 21st December 2012.
+
+If you would like to review the new collection policy, please CLICK HERE.
+
+Thanks &amp; Warm Regards,
+
+Grace Kwan
+Bus Co-ordinator
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

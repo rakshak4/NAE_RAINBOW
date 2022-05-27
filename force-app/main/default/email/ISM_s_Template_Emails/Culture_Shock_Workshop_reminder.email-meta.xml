@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Culture Shock Workshop reminder</name>
+    <style>freeForm</style>
+    <subject>Culture Shock Workshop Reminder</subject>
+    <textOnly>Dear ParentsA big thank you to those whom have already registered their interest in the &apos;Culture Shock Workshop&apos; that will be held on Thursday 15th September in the Upper Campus library at 9:00 with Claire Geddes. The response so far has been great, which is fantastic to see. I think it&apos;s a great opportunity to make the most out your time here as well as having the chance to build on your social network. I would however just like to send out an encouraging reminder that enrollment for the course is undergo and if you&apos;d like to join the class then you still have time to register. Please do so providing the following information:namename of your child/childrencountry from which you have relocatednationality/language of your homecontact informationJust to reiterate, this is open to all parents, both new and familiar. It really is a fantastic opportunity and we&apos;re thrilled to be able to offer these exclusive workshops to ISM parents.I hope you are all wellBest, 
+Maaike Jane Ruitenbeek</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

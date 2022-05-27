@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>12/07/2013 HFMD</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>12/07/2013 HFMD</name>
+    <style>freeForm</style>
+    <subject>HFMD</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+As many of you will be aware, there are sometimes incidents of Hand, Foot and Mouth disease in Malaysia, and unfortunately we have been informed today of 1 case in Year 1. We wanted to alert you to the fact so that you can keep a close eye on your child and keep them at home if any symptoms occur which will help in prevention of spread of disease.
+
+This morning we conducted the UV light treatment in all classes in KS1 and Sodexo sterilised all utensils.
+
+The school already has in place the preventative measures listed below.
+
+Prevention and control measures already being used in BSKL:
+
+1. Good ventilation of classrooms and other places.
+2. Daily cleaning and disinfection of the door handles, stair railings, bathroom accessories and food utensils using Sodium Hypochlorite 0.5%.
+3. Early Year’s toys thoroughly disinfected.
+4. Unwell children will see nurse and if necessary parents will be contacted.
+5. The children have been taught how to wash their hands by teachers.
+6. Hand washing advice posted in all bathrooms.
+
+The signs and symptoms of hand-foot-and-mouth disease include:
+
+&gt; Fever and/or sore throat.
+&gt; Painful red blister-like lesions on the tongue, mouth, palms of the hands or soles of the feet.
+&gt; Headache and fatigue.
+&gt; Irritability in infants and toddlers and loss of appetite.
+
+The usual period from initial infection to the onset of signs and symptoms (incubation period) is three to seven days. Fever is often the first sign of hand-foot-and-mouth disease, followed by a sore throat and sometimes a poor appetite and the feeling of being sick (malaise). One or two days after fever begins, painful sores may develop in the mouth or throat. Rash on the hands and feet can follow within one or two days, and may also appear on the buttocks. Hand-foot-and-mouth disease may cause all of the above signs and symptoms or just a few of them. Please seek immediate medical advice and advise our school nurse promptly if your child is unwell with any of the above symptoms.
+
+Best regards,
+
+Janet Brock
+Headteacher
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

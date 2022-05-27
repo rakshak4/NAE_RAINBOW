@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>FFD Prize donations</name>
+    <style>freeForm</style>
+    <subject>Family Fun Day Prize Donations</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear parents and friends,
+
+Family Fun Day will soon be here.
+
+As you know, the highlight of the event is the Charity Raffle. If you would like to participate in this great cause by donating prizes please contact Debbie Reynolds at debreynolds@me.com. This year all the money raised from the tickets sales will be divided between two Russian Charities, as well as supporting the ISM Students Charity Committee initiatives in Tanzania and Cambodia. For more information on these charity organisations, please click on the links below.
+
+Centre For Curative Pedagogics (CCP) who provide education and social support to children with disabilities - http://www.ccp.org.ru/en/
+
+Our Sunny World (НАШ СОЛНЕЧНЫЙ МИР) Rehabilitation Centre for Autistic Children -  http://www.solnechnymir.ru/index.php?option=com_content&amp;view=article&amp;id=367&amp;Itemid=7
+
+The Meserani Project (Tanzania) which develops education provision for various schools in East Africa. Next year ISM students will visit the project and supply educational resources - http://meseraniproject.co.uk/
+
+The Trailblazer Foundation (Cambodia) practises a sustainable, community-focused style of development, which is a low cost and long-term solution to alleviating poverty and increasing the quality of life in a sustainable manner. In the future, the students of ISM hope to visit the project and build a fence for one of their schools - http://www.thetrailblazerfoundation.org/
+
+If you have any questions please do not hesitate to contact Admissions or Debbie Reynolds.
+
+Family Fun Day Team
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

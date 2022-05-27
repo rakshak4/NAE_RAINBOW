@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_86822205</developerName>
+        <masterLabel>Region</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Account$School__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>The British College of Brazil</sourceValue>
+            </sourceValues>
+            <value>AMS</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>The British School of Tashkent</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>The International School of Moscow</sourceValue>
+            </sourceValues>
+            <value>EUME</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>The British School of Nanjing</sourceValue>
+            </sourceValues>
+            <value>CN</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>The British International School of Kuala Lumpur</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>The British School Yangon</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Nord Anglia International School Manila</sourceValue>
+            </sourceValues>
+            <value>SEA</value>
+        </values>
+    </buckets>
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <axisBinding>y</axisBinding>
+            <column>RowCount</column>
+        </chartSummaries>
+        <chartType>HorizontalBar</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>Account$School__c</groupingColumn>
+        <location>CHART_TOP</location>
+        <showAxisLabels>true</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <columns>
+        <field>Account.Responsibility_Points__r$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Responsibility_Points__r$Staff_Member_Name__c</field>
+    </columns>
+    <columns>
+        <field>Account.Responsibility_Points__r$Points__c</field>
+    </columns>
+    <columns>
+        <field>Account.Responsibility_Points__r$Responsibility_Title__c</field>
+    </columns>
+    <currency>EUR</currency>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_86822205</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account$School__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Responsibility Points by Region 18/19</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Staff_with_Responsibility_Points__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Account.Responsibility_Points__r$Start_Date__c</dateColumn>
+        <endDate>2019-07-31</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2018-08-01</startDate>
+    </timeFrameFilter>
+</Report>

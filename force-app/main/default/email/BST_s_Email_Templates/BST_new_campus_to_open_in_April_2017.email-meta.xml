@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>BST new campus to open in April 2017</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>BST new campus to open in April 2017</name>
+    <style>freeForm</style>
+    <subject>BST new campus to open in April 2017</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+
+Further to the news shared last week, I am delighted to announce that after rigorous Health and Safety checks and “round the clock” work from all concerned we are able to move into our new campus for Term 3 2016/17.
+
+
+The new campus will open its doors for BST students on Wednesday 19th April:
+
+
+Years 1 to 9 will be in the new building in Term 3 starting on Wednesday 19th April 2017. The school will be closed to students on April 17 &amp; 18 to allow final classroom set-up. They will therefore have 2 extra days holiday, our apologies for this inconvenience.
+
+Early Years (Pre-Nursery to Reception) will stay on Lower Campus for Term 3 and will return to school after the break as normal on Monday 17th April
+
+
+Further information about the occupancy of the new Campus in 2017/18 will be given at a later stage. We are currently working on a whole school campus project, which we hope to share details of in the near future.
+
+
+I look forward to seeing you tomorrow, 5th April, at 9 am for our Parent Workshop presentation at the Upper Campus Theatre. We will also invite the parents (without the students) to tour the new campus on Tuesday, April 18, from 15:30 till 17:00. Details to follow.
+
+
+Kind regards
+
+Adrian Macaulay
+
+
+
+
+Открытие нового кампуса в апреле 2017 года.
+
+
+В продолжение новостей, которыми мы поделились на прошлой неделе, я рад сообщить, что после тщательной проверки здания на предмет соответствия нашим требованиям к безопасности использования и огромных усилий, приложенных всеми задействованными, мы сможем открыть двери нового кампуса уже в апреле.
+
+
+Открытие нового здания состоится в среду 19 апреля:
+
+
+
+Учащиеся 1-9-го классов приступят к занятиям в новом здании со среды 19-го апреля. Школа будет закрыта 17 и 18 апреля, чтобы мы смогли провести окончательную подготовку классов перед открытием. Соответственно, каникулы для 1-9-го классов продлятся на 2 дня дольше, чем указано в школьном календаре. Мы приносим свои извинения за доставленные неудобства.
+Учащиеся Pre-Nursery, Nursery и Reception продолжат учебу в здании детского сада, как и планировалось с 17-го апреля.
+
+
+Информация о распределении классов по корпусам в 2017/18 учебном году будет представлена позже. В настоящее время мы находимся на стадии разработки второго проекта по созданию единого кампуса, о деталях которого мы надеемся сообщить Вам в ближайшем будущем.
+
+
+Я с нетерпением жду встречи с Вами завтра, 5 апреля, в 9 утра в здании театра школы на презентации нового кампуса. Мы также приглашаем родителей (без учеников) на экскурсию по зданию, которая будет проходить во вторник, 18 апреля с 15:30 до 17:00. Более детальная информация будет представлена позже.
+
+
+
+С уважением,
+
+Адриан Маколей.
+
+
+
+
+
+
+
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

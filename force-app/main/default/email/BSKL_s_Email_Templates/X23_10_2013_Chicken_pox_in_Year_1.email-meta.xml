@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>23/10/2013 Chicken pox in Year 1</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>23/10/2013 Chicken pox in Year 1</name>
+    <style>freeForm</style>
+    <subject>Chicken pox in Year 1</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+There has been a confirmed case of chicken pox involving a Year 1 student at school.
+
+Chickenpox is a common illness among children, particularly those under the age of 12. An itchy rash of spots similar to blisters can appear all over the body and may be accompanied by flu-like symptoms. Spots usually appear first on the abdomen or back and face, and then spread to almost everywhere else on the body, including the scalp, mouth, nose, ears, and genitals.
+
+Symptoms usually go away without treatment, but because the infection is very contagious, an infected child should stay home and rest until the symptoms are gone. If your child develops any of these symptoms, please contact your physician for appropriate treatment. You must keep your child at home until all lesions have crusted and the child has been approved by his or her health care provider for return to school.
+
+Please kindly notify the school if the child has any of the symptoms or if the child has been confirmed by a physician.
+
+
+Azilah Chan                                        Soo Beng Yee
+Primary School Nurse                         Secondary School Nurse
+azilah.chan@britishschool.edu.my     soobeng.yee@britishschool.edu.my
+
+
+Kind Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

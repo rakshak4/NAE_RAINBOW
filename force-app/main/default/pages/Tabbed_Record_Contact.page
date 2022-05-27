@@ -1,0 +1,136 @@
+<apex:page standardController="Contact" showheader="true" standardStylesheets="true">
+
+<apex:variable var="ContactId" value="{!contact.id}" /> 
+
+<style>
+   .activeTab {
+    
+  
+        
+   font-size:1.25em;font-style:normal;font-family: 'Calibri';font-weight:bold;background-color: #005225; color:white;width:150px;height:20px;background-image:none;border: 0px solid #747e96;border-bottom: 0px solid #fff;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0 px;
+    border-bottom-right-radius: 0 px;
+}
+.inactiveTab {
+        background-color: #111a48;
+        color: ff9300;
+        background-image: none;
+        }
+</style>
+
+   <table>
+    <tr>
+        <td>
+            <apex:image value="{!Contact.Contact_Photo_URL__c}" height="180px" width="120px"/><br/>
+            <center>
+                <apex:outputLink value="/apex/ContactPhotoUpdate?id={!Contact.Id}" target="_self">
+                    {!IF(Contact.Photo_Attachment_Id__c == null, "Add Photo", "Update/Delete Photo")}
+                </apex:outputLink>
+            </center>    
+        </td>
+        <td>
+            <table>
+                <tr>
+                    <td>
+                        <b><font size="2.5">Student Academic File </font></b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b><font size="4">{!Contact.Student_Full_Name__c}</font></b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b><font size="2.3">Admissions Stage:&nbsp;{!Contact.Opportunity_Stage__c}</font></b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b><font size="2.3">Starting Date:&nbsp;<apex:outputField value="{!Contact.Starting_Date_from_student__c}"/></font></b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b><font size="2.3">Gender:&nbsp;<apex:outputField value="{!Contact.Gender_saf__c}"/></font></b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b><font size="2.3">Tutor Group:&nbsp;<apex:outputField value="{!Contact.Tutor_Group__c}"/></font></b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b><font size="2.3">Class/Form Tutor:&nbsp;{!Contact.Class_Form_Tutor__c}</font></b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b><font size="2.3">Date of Birth:&nbsp;<apex:outputField value="{!Contact.Date_of_Birth__c}"/></font></b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b><font size="2.3">Nationality:&nbsp;{!Contact.Nationality__c}</font></b>
+                    </td>
+                </tr>
+            </table>
+        </td>   
+    </tr>
+   </table>
+ 
+   <apex:tabPanel rendered="{!Contact.RecordType.Name='Student Academic File'}" switchType="client" value="{!IF(!ISNULL($CurrentPage.parameters.stab), $CurrentPage.parameters.stab, 'AccDetails')}" 
+               id="AccountTabPanel" tabClass="activeTab"
+               inactiveTabClass="inactiveTab" style="background-color: white;margin-top: 10px;padding: 10px 0px 0px 0px;">  
+               
+              <apex:tab label="Student Details" name="AccDetails" id="tabdetails" style="background-color:white;font-size:12px;">
+         <apex:detail relatedList="False" title="false"  inlineEdit="false" showChatter="True"/> 
+      </apex:tab>
+      
+      <apex:tab label="Pastoral" name="Behaviour" id="tabBeh">
+         <apex:relatedList subject="{!Contact}" list="Behaviour__r" />
+      </apex:tab>
+          
+      <apex:tab label="Enrolments" name="Enrolments" id="tabAEnr">
+         <apex:relatedList subject="{!Contact}" list="Registrations__r" />
+      </apex:tab>
+      
+      
+      <apex:tab label="Assessments" name="Assessments" id="tabOAss">
+         <!--  <apex:relatedList subject="{!Contact}" list="Assessments__r" />
+         <br/>  -->
+          <apex:include id="assessments" pageName="StudentAssessments" />
+      </apex:tab>
+      
+      
+      <apex:tab label="Attendance" name="Attendance" id="tabAtt">
+         <apex:relatedList subject="{!Contact}" list="ActivityHistories" />
+      </apex:tab>
+      
+      </apex:tabPanel>
+      
+      <apex:tabPanel rendered="{!Contact.RecordType.Name='Additional Parent Email'}" switchType="client" selectedTab="tabdetails"
+               id="AccountTabPanel2" tabClass="activeTab"
+               inactiveTabClass="inactiveTab" style="background-color: white;margin-top: 10px;padding: 10px 0px 0px 0px;">  
+               
+              <apex:tab label="Additional Email" name="AccDetails" id="tabEmail" style="background-color:white;font-size:12px;">
+         <apex:detail relatedList="False" title="True" inlineEdit="true" showChatter="False"/> 
+      </apex:tab>
+      
+      </apex:tabPanel>
+      
+      
+       <apex:tabPanel rendered="{!Contact.RecordType.Name<>'Student Academic File'}" switchType="client" selectedTab="tabdetails"
+               id="AccountTabPanel3" tabClass="activeTab"
+               inactiveTabClass="inactiveTab" style="background-color: white;margin-top: 10px;padding: 10px 0px 0px 0px;">
+
+               <apex:page action="/{!ContactId}?nooverride=1"/>
+       </apex:tabPanel>
+</apex:page>

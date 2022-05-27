@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Note to parents about summer shows 2014</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Summer Shows 2014</name>
+    <style>freeForm</style>
+    <subject>Summer Shows</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+
+The summer shows are nearly upon us and we are very excited about these events. The children have been working really hard to learn their parts in school. Please ensure that your children are learning their words and song lyrics at home as well. There have been some changes to show times:
+
+
+-The Foundation Stage production will take place from 9am on Thursday 26th June
+
+
+-The KS1 production will take place from 2pm on Wednesday 25th June
+
+
+-The KS2 production will take place from 6pm on Thursday 26th June. Children will be invited to remain at school to get ready, and the school will provide them with dinner.
+
+
+Please contact your class teacher or Ms. Aves if you have any pressing questions. Thank you for your ongoing support. I look forward to celebrating these shows with you on the dates stated above.
+
+
+Kind regards,
+
+Ms. Aves
+
+Head of Music
+
+
+Уважаемые родители,
+
+Приближаются летние шоу, и мы очень этому рады. Дети упорно работают над их ролями. Пожалуйста, убедитесь, что ваши дети учат слова и тексты песен дома.
+
+
+Обратите внимание на некоторые изменения во времени проведения шоу:
+
+
+-Шоу Pre Nursery, Nursery и Reception будут проходить с 9 утра в четверг 26 июня
+
+
+-Шоу KS1  1 и 2 классов пройдет с 2 часов  в среду 25 июня
+
+-Шоу KS2 классов 3,4, 5, 6 пройдет с 6 вечера в четверг 26 июня. Дети  останутся в школе, чтобы подготовиться, и школа обеспечит ужин.
+
+Пожалуйста, свяжитесь с вашим классным руководителем или мисс Эйвс, если у вас есть какие-то насущные вопросы. Спасибо за постоянную поддержку. Я с нетерпением жду празднования этих шоу с вами
+
+
+С уважением,
+
+
+Мисс Эйвс
+
+Преподаватель по музыке
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

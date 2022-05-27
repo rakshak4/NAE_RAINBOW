@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Enquiry response</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Enquiry response with attachm</name>
+    <style>freeForm</style>
+    <subject>Enquiry</subject>
+    <textOnly>The British School of Navarra
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Thank you for your enquiry and your interest in The British School of Navarra.
+
+We are happy to inform you that we have places available in the class that you require starting next September.
+
+We would like to take this opportunity to invite you to visit our school where our Headmaster, Mr James Batten will show you around the school.
+
+Ms Laura González, The Admissions Officer,  will contact you shortly to arrange an appointment at your earliest convenience.
+
+Please click here to have a look at a copy of our Admissions booklet which we hope will clarify any questions you may have. Please be aware that the fees may be slightly different every year.
+
+
+Thank you once again for the interest you have shown in The British School of Navarra and we look forward to meeting you.
+
+Kind regards,
+--------------------------------------------------------------------------------------------
+
+Estimada familia,
+
+
+
+Gracias por su interés en The British School of Navarra.
+
+
+
+Nos complace informarles que tenemos plazas disponibles en el aula que usted requiere a partir del próximo mes de Septiembre.
+
+
+Nos gustaría aprovechar esta oportunidad para invitarles a visitar nuestro centro donde el Director, el Sr James Batten, les mostrará las instalaciones del mismo.
+
+
+
+Ms Laura González, Oficial de Admisiones, les contactará en los próximos días para concertar una cita tan pronto como les sea posible.
+
+
+
+Por favor, cliqueen en Admissions booklet en el que encontrarán información general sobre el proceso de admisión y otros aspectos relacionados con nuestro colegio.
+
+Las tasas pueden variar de año en año. Consulten con admisiones.
+
+
+Gracias una vez más por el interés que ha demostrado en el British School of Navarra.
+
+
+A la espera de conocerles reciban un cordial saludo,
+
+
+Administration Team
+The British School of Navarra
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

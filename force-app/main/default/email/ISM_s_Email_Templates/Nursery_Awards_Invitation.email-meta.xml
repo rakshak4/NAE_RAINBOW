@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Nursery Awards Invitation</name>
+    <style>freeForm</style>
+    <subject>Nursery Awards Invitation</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Nursery Awards Ceremony Thursday 4th July (9:15 – 10:00am)
+
+
+Dear Parents,
+
+
+
+On the final morning of school we are holding our Annual Nursery Awards Ceremony at the Lower Campus Main Hall. All students from Nursery are of course expected to attend, as it is the final session of the academic year for this year group.
+
+
+This is an extremely important event, recognizing the achievements of our students and the highlights of the school year. All students and families from those year groups (including siblings) are invited to join us. It will offer a unique chance to get the school community together and celebrate the successes enjoyed this year.
+
+
+The ceremony will begin promptly at 9:15 and will include musical performances from the children. It will also recognise the achievements of many of our students.
+
+
+Awards will be presented for each class in the following categories:
+
+
+Independence Award
+
+Being Helpful Award
+
+Excellent Progress Award
+
+Sharing &amp; Caring Award
+
+
+Please note however that this will not be a graduation event as in previous years. Instead from 2013-14 all students leaving Reception will graduate from the Foundation Stage. (It seems to make more sense as this will be a true milestone in their education- they are entering Lower Primary School. The children will be slightly older and enjoy the “formality” more!)
+
+
+The ceremony should conclude at around approximately 10:00 and will be followed by a reception of light refreshments giving the Nursery community an opportunity to say ‘farewell’ before the summer break.
+
+School buses will be running on this day at noon but all children are welcome to leave with their parents at the end of this event.
+
+
+
+I look forward to seeing you on July 4th and of course before then at our parent consultation evenings.
+
+
+Best regards,
+
+
+Paul Seedhouse
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

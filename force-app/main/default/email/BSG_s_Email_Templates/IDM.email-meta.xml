@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>International Day Sponsor Package FINAL</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>International Day Sponsor Package FINAL</name>
+    <style>freeForm</style>
+    <subject>International Day Sponsor Package FINAL</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The British School of Guangzhou is holding a day of fun for families from the international community on Saturday, 10th November 2012.
+
+The event will be organised by the EFC (The Events and Fundraising Committee), the school’s parent volunteer association, and is expected to attract a large number of families from the school and the greater international community. It is one of the major social days in the school calendar with over 1300 people attending this event last year.
+
+International Day event is an enjoyable way to learn about different countries and their culture with activities, stalls, vendors, games and much more for families to enjoy. All proceeds collected will go directly to the EFC and the school’s nominated charity.
+
+One of the main attractions of the event will be a ‘Prize Draw Raffle’ held on the main stage. As we prepare for the event, we would like to inform you that the EFC is currently taking donations for prizes from individuals, companies and organisations. This is a great way for our supporters to raise their profile within the greater International community while helping the school and supporting various Charities. Last year EFC fundraising contributed towards Charities such as ActionAid!, Thai Flood Relief and Coleurs De Chine.
+
+Please find below details of sponsorship opportunities available for anyone interested in cooperating with the school and the EFC for this event:
+
+‘Basic’ sponsorship of a cash donation greater than 1000rmb or a raffle prize to the value of at least 2000rmb will be reciprocated by:
+
+Thank you letter from the school
+Thank you and mention listed on the school website (www.bsg.org.cn)
+Thank you noted in the May edition of the school Newsletter (delivered by email to all 600 families attending the school)
+
+‘Gold’ sponsorship of 2000rmb cash or a raffle prize to the value of 3000rmb or above will be reciprocated by all the benefits of the ‘Basic’ sponsorship package plus:
+
+Logo printed on the entrance tickets
+Medium sized company logo printed on the main stage backdrop
+Free stall/booth to promote the Company.
+2 complimentary entrance tickets
+Your company’s name highlighted at different times of the day over the PA system during the events programme
+
+‘Platinum’ sponsorship with a cash donation of 3500rmb or raffle prize with a value over 5000rmb will be reciprocated by:
+
+Large company logo placed in the top half of the main stage backdrop
+Large company logo printed on the entrance tickets to the event
+Free stall/booth to promote your venture or product
+4 complimentary entrance tickets
+Thank you certificate or letter presented to your company
+Your company’s name highlighted at different times as a main sponsor of the day over the PA system during the events programme
+Thank you message and logo placed on the school website (www.bsg.org.cn)
+A thank you note in the May edition of the school Newsletter (delivered by email to all families attending the school) recognizing your company as a valued main sponsor of the day
+
+In addition, if any individual or company would like to become an exclusive lead sponsor donating a more generous prize or cash donation should contact the EFC or the school directly for details of cooperation and advertising opportunities.
+
+Kindly note the free booth given to our appreciated Sponsors shall be as a means of advertising only. If anyone interested to have a booth for selling their products should kindly contact our Vendor Stall Coordinator: Monika Agarwal, as mentioned below.
+
+If you, your friends or company/venture is interested in supporting the event through sponsorship, please contact Priyanka Kundnani for further details at priyankakundnani@hotmail.com.
+
+Vendors and Stall Holders
+
+We would also like to inform anyone who would like to set up a stall or booth on the day of the event to help promote a cause, venture or company that we are now accepting applications for this. Please note a donation of 700/300rmb (depending on type of booth/stall) will be required and allocation of stalls will be on a first come first serve basis with limited availability and slots filling up fats so please apply early.
+
+If you are interested in setting up a stall or vendor booth, please contact Mrs. Monica Agarwal  monika2575@yahoo.co.in as soon as possible.
+
+A huge Thank You to all parents and our great friends in the business community for supporting the school this year and we’ll look forward to seeing you all at this International Day Carnival of fun!
+
+Regards,
+
+Dilek Kalkan,Christie Greenhill
+Joint Chairs,Events and Fundraising Committee(EFC)
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

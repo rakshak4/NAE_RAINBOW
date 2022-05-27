@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>The World Education Games</name>
+    <style>freeForm</style>
+    <subject>The World Education Games</subject>
+    <textOnly>Dear Parents,
+
+
+Our school is taking part in the UNICEF World Education Games from 6-8 March, involving 5.5million students from over 200 countries and territories. This is an exciting online challenge for all our students, with our top students going up against the best in the world.
+
+
+We will be mainly focusing on The World Maths Day challenges at ISM, but children can use the same login and password for the Spelling Day on Tuesday 6th March and the Science Day on Thursday 8th March.
+
+As part of World Maths Day, we are organizing an activity to help raise money for UNICEF. We want to find out how many 10 ruble coins are needed to fill a 1m2 area. It will be run as an estimation contest to see who can get the closest estimate.
+
+
+We would be grateful if you could help us with this fundraising activity by allowing your children to bring in and donate as many 10 ruble coins as they can on Wednesday 7th of March.
+
+
+All of the money brought in by students will be given to UNICEF, as our school’s donation to Schools for School-in-a-Box. This provides a readymade kit of classroom supplies and materials, which can be replenished year after year. We are uniting with schools around the world by combining our resources, to help children in poor areas have the opportunity to go to school.
+
+
+
+Thank you in advance for your support of what should be a fun and rewarding event.
+
+
+
+Yours sincerely,
+
+
+
+Mr Stuart Hamilton</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

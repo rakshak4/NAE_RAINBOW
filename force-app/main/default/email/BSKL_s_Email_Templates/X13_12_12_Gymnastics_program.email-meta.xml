@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>13/12/12 Gymnastics program</name>
+    <style>freeForm</style>
+    <subject>Gymnastics program</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+A gymnastics program for Years 1 – 4 will be introduced in term 2!
+
+Directed by Miss. Marwood, the program will run over 8 weeks and the cost is RM 300 per child.
+
+Full details of the program including dates/times and how to register can be found by following the link below:
+
+BSKL Gymnastics
+
+Should you have any questions please contact Miss Marwood on:
+
+annalicia.marwood@britishschool.edu.my
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

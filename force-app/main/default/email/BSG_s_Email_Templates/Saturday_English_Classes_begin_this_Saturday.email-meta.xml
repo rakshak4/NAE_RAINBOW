@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>BSG Newsletter October Issue</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>BSG Newsletter October Issue</name>
+    <style>freeForm</style>
+    <subject>BSG Newsletter, October Issue</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+Dear Parents,
+
+
+
+Welcome to the first BSG newsletter!
+
+
+
+As always we have begun busy with students settling down into new classes and getting stuck into new, exciting topics.
+
+
+
+Lower School children have spent the last few weeks getting to know each other and learning through a variety of creative crafts. On the upper campus, Year 2 tackle the Canton Tower, Year 3 kneed noodles and Year 4 go on app adventures. Year 5 get gassy in Science and Year 6 find their poetic sides.
+
+
+
+In Secondary, we report the latest developments in our House system and Sixth Form, plus we celebrate Mid-Autumn Day and present a letter received from Her Majesty the Queen! Our students have also had excellent success with work experience and visits to Honda.
+
+
+
+As much as we look forward in this issue, we also remember the big events before the summer holiday, such as Graduation Day, Secondary Swimming Gala and Awards Day. As well as all this, we have a Secondary Residential Special with fabulous travel logs and photos showcasing the best of the programme from last year.
+
+
+
+Please view the full newsletter here - http://www.bsg.org.cn/en/school-life/newsletters.aspx
+
+
+
+Kind regards,
+
+
+
+Stuart Geraghty
+
+Publication Editor
+
+
+
+
+
+
+
+
+The British School of Guangzhou
+
+World Class Education
+
+_____________________________________________________
+
+
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

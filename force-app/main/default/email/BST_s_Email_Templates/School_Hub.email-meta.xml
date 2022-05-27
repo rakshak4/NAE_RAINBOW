@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to parents about School Hub</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>School Hub</name>
+    <style>freeForm</style>
+    <subject>Launching of BST Hub</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We’re pleased to see that many parents have already been making use of the new BST hub. However, not everyone has been able to visit the site yet and it is important that you are able to do so in order to follow class events and your child’s progress.
+
+You should have received an email with login details – please let Arofat (Upper campus) or Laziza (Lower campus) know if you haven’t received this or are having difficulty accessing the new BST Hub.
+
+Thank you!
+
+Нам приятно видеть, как много родителей начали пользоваться информационным порталом школы. Тем не менее многие из вас еще не зарегистрировались на сайте. Пожалуйста сделайте это, так как это поможет вам быть в курсе школьной жизни вашего ребенка.
+
+Вы должны были получить электронное письмо содержащее имя пользователя и предлагающее вам создать свой пароль доступа. Пожалуйста сообщите Арофат (в здании школы) или Лазизе (в здании детского сада), если этого не произошло или вы по каким то причинам не смогли зарегистрироваться.
+
+Спасибо!
+
+
+
+Regards,
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

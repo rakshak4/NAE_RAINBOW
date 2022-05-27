@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>29/03/2013 - Foundation Lunch Menu Term 3</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>29/03/2013 - Foundation Lunch Menu Term 3</name>
+    <style>freeForm</style>
+    <subject>Foundation Lunch Menu Term 3</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+This is a gentle reminder that the lunch menu for Term 3 is due this Wednesday, 3th April.
+
+Below is the link to the lunch menu for term 3:
+
+Foundation Lunch Menu Term 3 (https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004QIb/_I.lTb4We.aFgeL7I0tNwBIYb1XMK1meVBu0SnRegP8=)
+
+Please would you kindly make your selections and return the completed menu to Azizan at azizan.sallehhuddin@britishschool.edu.my no later than Wednesday 3rd April. You can also hand it in at the school reception.
+
+Thank you for your support and cooperation
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

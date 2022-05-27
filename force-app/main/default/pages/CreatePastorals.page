@@ -1,0 +1,250 @@
+<apex:page extensions="CreatePastorals" standardController="Group__c">
+     <head>
+    <style>
+        span.dateInput span.dateFormat{
+            display:none;
+        }
+        .imgWrap {
+          position: relative;
+          height: 200px;
+          width: 257px;
+          z-index: 1;
+        }
+        
+        .imgDescription {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background: rgba(29, 106, 154, 0.72);
+          color: black;
+        
+        
+          visibility: hidden;
+          opacity: 0;
+        
+          /*remove comment if you want a gradual transition between states
+          -webkit-transition: visibility opacity 0.2s;
+          */
+        }
+        
+        
+        .imgWrap:hover .imgDescription {
+          visibility: visible;
+          opacity: 1;
+        }
+    </style>
+  
+     <apex:includeScript value="{!$Resource.jQuery}"/>
+     <apex:includeScript value="{!URLFOR($Resource.jQueryBlockUI, 'jquery.blockUI.js')}"/>
+     <script>
+         function close_window() {
+             //alert('1');
+             self.close();
+            // alert('2');
+             return false;
+          
+         }
+         function uiActionBlock(btn){
+             $.blockUI({ message: '<h1>Just a moment...</h1>' });
+             return true;
+         }
+         function backtoGroup(){
+             var d = window.confirm('By returning to the student group any UNSAVED CHANGES WILL BE LOST. If unsure please click cancel, save your work, and then try again. Click OK to return to the student group and lose any unsaved changes.');
+             if(d){
+                uiActionBlock(this);
+             }
+             return d;
+         }
+     </script>
+     </head> 
+    <apex:pageMessages id="messages" escape="false"/>
+    <apex:form id="mainForm">
+        <apex:actionFunction immediate="true" name="onChangeFolderType" action="{!onChangeFolderType}" rerender="mainForm,messages,messages2" status="folderSelectionStatus">
+            <apex:param name="ft" value=""/>
+        </apex:actionFunction>
+    
+        <apex:pageBlock title="Pastorals ({!IF(isSingleStudent,student_selected.Student_Name__c,grp.Name)})" mode="edit">
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Save" action="{!savePastorals}" onClick="uiActionBlock(this);"/>
+                <apex:commandButton rendered="{!!isSingleStudent}" onclick="return backtoGroup();" value="Back to Group" action="{!back}" immediate="true"/> 
+                <apex:commandButton rendered="{!isSingleStudent}" value="Back to Student" action="{!back}" immediate="true" onClick="uiActionBlock(this);"/>                
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection title="Pastoral Folder" columns="2">
+                <apex:inputField value="{!folder.Folder_Title__c}" required="true"/>
+                
+                <apex:outputField value="{!folder.Student_Group__c}"/> 
+                
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="{!$ObjectType.Conduct__c.Fields.Folder_Type__c.Label}"/>
+                    <apex:outputPanel layout="block">
+                        <apex:outputPanel layout="block" rendered="{!!disableFolderType}">
+                            <table>
+                                <tr>
+                                    <td>
+                                         <apex:inputField value="{!folder.Folder_Type__c}" required="true"  onChange="onChangeFolderType(this.value);"/>
+                                    </td>
+                                    <td>
+                                          <apex:actionStatus id="folderSelectionStatus">
+                                                <apex:facet name="start"><apex:image value="{!$Resource.processing_gif}"/></apex:facet>
+                                           </apex:actionStatus>  
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                            
+                        </apex:outputPanel>
+                        
+                        <apex:outputField value="{!folder.Folder_Type__c}" rendered="{!disableFolderType}"/>
+                        
+                    </apex:outputPanel>    
+                </apex:pageBlockSectionItem>
+                
+                <apex:inputField value="{!folder.Pastoral_Date__c}" required="true"/>
+                
+               
+                
+                <apex:inputField value="{!folder.Reason__c}"/>
+                <apex:inputField value="{!folder.Private_Comment__c}"/>
+                
+                
+                
+                <apex:inputField rendered="{!IF(AND(folder.Folder_Type__c == 'Effort & Attitude',isSingleStudent),true,false)}" value="{!folder.Effort__c}"/>
+                <apex:outputPanel rendered="{!IF(AND(folder.Folder_Type__c == 'Effort & Attitude',isSingleStudent),true,false)}"  layout="block">&nbsp;</apex:outputPanel>    
+                <apex:inputField rendered="{!IF(folder.Folder_Type__c == 'Effort & Attitude',true,false)}" value="{!folder.House_Points__c}"/>
+                
+                <apex:inputField rendered="{!IF(AND(folder.Folder_Type__c == 'Incidents',isSingleStudent),true,false)}" value="{!folder.Health_Related__c}"/>
+                
+            </apex:pageBlockSection>
+            <apex:outputPanel layout="block" >
+                <apex:pageBlockSection title="Select Students" columns="1" rendered="{!!isSingleStudent}">
+                    
+                    <apex:outputPanel layout="block">
+                        <table border="0" width="80%">
+                            <tr>
+                                
+                                <td align="center" style="padding-left: 1cm;padding-right: 1cm;">
+                                    <apex:outputPanel layout="block">
+                                        <c:MultiselectPicklist leftLabel="Available Students"
+                                            leftOptions1="{!searchedStudents}"
+                                            rightLabel="Selected Students"
+                                            rightOptions1="{!selectedStudents}"
+                                            size="10"
+                                            width="170px"/>
+                                    </apex:outputPanel>
+                                </td>
+                                <td>
+                                    <table border="0" style="border-left:1px solid ;padding-left: 1cm;">
+                                        <tr><td colspan="2"><b>Filter Available Students (Optional)</b><br/><br/></td></tr>
+                                        <tr><td><b>Keyword</b></td>
+                                        <td><apex:inputText id="studentKeyword" value="{!studentKeyword}"/></td></tr>
+                                        
+                                        <tr><td><b>Year Group</b></td>
+                                        <td><apex:selectList id="yearselection" value="{!selectedYearGroup}" multiselect="false" size="1">
+                                             <apex:selectOptions value="{!yearGroupOptions}"/>
+                                        </apex:selectList></td></tr>
+                                        
+                                        <tr><td><b>Class</b></td>
+                                        <td><apex:selectList id="classselection" value="{!selectedClass}" multiselect="false" size="1">
+                                             <apex:selectOptions value="{!classOptions}"/>
+                                        </apex:selectList></td></tr>
+                                
+                                        <tr><td><b>House</b></td>
+                                        <td><apex:selectList id="houseselection" value="{!selectedHouse}" multiselect="false" size="1">
+                                             <apex:selectOptions value="{!houseOptions}"/>
+                                        </apex:selectList></td></tr>
+                                        
+                                        <tr><td align="left"><br/><apex:commandButton value="Search" action="{!searchStudents}" onClick="uiActionBlock(this);"/></td></tr>
+                                    </table>
+                                </td>
+                                <!-- <td align="left" style="vertical-align:bottom">
+                                    <apex:outputPanel layout="block">
+                                        <apex:commandButton value="Create/Update Pastorals for Selected Students" action="{!createPastorals}" onClick="uiActionBlock(this);"/>
+                                        <br/><br/>
+                                    </apex:outputPanel>  
+                                </td> -->
+                            </tr>
+                            <tr>
+                                <td  align="center" style="vertical-align:bottom">
+                                    <apex:outputPanel layout="block">
+                                        <apex:commandButton value="Create/Update Pastorals for Selected Students" action="{!createPastorals}" onClick="uiActionBlock(this);"/>
+                                        <br/><br/>
+                                    </apex:outputPanel>
+                                </td>
+                                <td></td>
+                            </tr>
+                        </table>
+                        
+                    </apex:outputPanel>
+                </apex:pageBlockSection>    
+                    
+                    <apex:outputPanel layout="block" rendered="{!showPastoralLines}">
+                        <apex:pageBlockSection title="Manage Individual Pastoral Entries" columns="1">
+                            <apex:pageblockTable value="{!pastorals}" var="wrapper">
+                                <apex:column >
+                                    <apex:facet name="header">Saved</apex:facet> 
+                                    <apex:image id="theImage" value="{!$Resource.check_image}" rendered="{!IF(AND(wrapper.pastoral.Id != null,!wrapper.isError), true, false)}" width="16px" height="16px" alt="record was saved"/>
+                                    <apex:image id="theImage2" rendered="{!wrapper.isError}" value="{!$Resource.Excalmation_Mark}"  width="16px" height="16px" alt="error(s) occured while updating"/>
+                                </apex:column> 
+                                <apex:column >
+                                    <apex:facet name="header">Action</apex:facet> 
+                                    <apex:commandLink onclick="return window.confirm('Deleting this pastoral will refresh the page and any other UNSAVED CHANGES WILL BE LOST. If unsure please click cancel, save your work, and then delete the unwanted record. Click OK to continue with the deletion and lose any unsaved changes.');" action="{!deletePastoral}" immediate="true" rendered="{!IF(wrapper.pastoral.Id != null, true, false)}">
+                                        <apex:param value="{!wrapper.pastoral.Id}" name="did"/>
+                                        <!-- <apex:image id="theImage1" value="{!$Resource.remove_icon}"  width="16px" height="16px" alt="delete record"/>  -->
+                                        Del
+                                    </apex:commandLink>
+                                </apex:column> 
+                                <apex:column >
+                                    <apex:facet name="header">Student</apex:facet> 
+                                    <apex:outputPanel >
+                                        {!wrapper.studentName}
+                                    </apex:outputPanel>
+                                </apex:column>
+                                <!-- 
+                                <apex:column rendered="{!IF(folder.Folder_Type__c == 'Awards',true,false)}">
+                                    <apex:facet name="header">{!$ObjectType.Conduct__c.Fields.Award_Type__c.Label}<font color="red">*</font></apex:facet> 
+                                    <apex:inputField value="{!wrapper.pastoral.Award_Type__c}"/>
+                                </apex:column>  -->
+                                <apex:column >
+                                    <apex:facet name="header">{!$ObjectType.Conduct__c.Fields.Title__c.Label}<font color="red">*</font></apex:facet> 
+                                    <apex:inputField value="{!wrapper.pastoral.Title__c}" required="true"/>
+                                </apex:column> 
+                                <apex:column rendered="{!IF(folder.Folder_Type__c == 'Effort & Attitude',true,false)}">
+                                    <apex:facet name="header">{!$ObjectType.Conduct__c.Fields.House_Points__c.Label}</apex:facet> 
+                                    <apex:inputField value="{!wrapper.pastoral.House_Points__c}"/>
+                                </apex:column> 
+                                <apex:column rendered="{!IF(folder.Folder_Type__c == 'Effort & Attitude',true,false)}">
+                                    <apex:facet name="header">{!$ObjectType.Conduct__c.Fields.Effort__c.Label}</apex:facet> 
+                                    <apex:inputField value="{!wrapper.pastoral.Effort__c}"/>
+                                </apex:column> 
+                                <apex:column rendered="{!IF(folder.Folder_Type__c == 'Incidents',true,false)}">
+                                    <apex:facet name="header">{!$ObjectType.Conduct__c.Fields.Health_Related__c.Label}</apex:facet> 
+                                    <apex:inputField value="{!wrapper.pastoral.Health_Related__c}"/>
+                                </apex:column>  
+                                <apex:column >
+                                    <apex:facet name="header">{!$ObjectType.Conduct__c.Fields.Pastoral_Date__c.Label}</apex:facet> 
+                                    <apex:inputField value="{!wrapper.pastoral.Pastoral_Date__c}" required="true"/>
+                                </apex:column>
+                                <apex:column >
+                                    <apex:facet name="header">{!$ObjectType.Conduct__c.Fields.Reason__c.Label}</apex:facet> 
+                                    <apex:inputField value="{!wrapper.pastoral.Reason__c}"/>
+                                </apex:column>
+                                <apex:column >
+                                    <apex:facet name="header">{!$ObjectType.Conduct__c.Fields.Private_Comment__c.Label}</apex:facet> 
+                                    <apex:inputField value="{!wrapper.pastoral.Private_Comment__c}"/>
+                                </apex:column>
+                                <apex:column >
+                                    <apex:facet name="header">{!$ObjectType.Conduct__c.Fields.Display_in_Portal__c.Label}</apex:facet> 
+                                    <apex:outputField value="{!wrapper.pastoral.Display_in_Portal__c}"/>
+                                </apex:column> 
+                                    
+                            </apex:pageblockTable>
+                        </apex:pageBlockSection>
+                    </apex:outputPanel>
+                    <apex:pageMessage rendered="{!!ifSelectedStudents}" severity="warning" summary="No student(s) selected. Please select students and then click 'Create Pastorals' button."/>
+            </apex:outputPanel>
+        </apex:pageBlock>
+        <apex:pageMessages id="messages2" escape="false"/>           
+    </apex:form>
+</apex:page>

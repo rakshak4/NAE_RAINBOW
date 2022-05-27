@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Spring Term 2014 Invoicing</name>
+    <style>freeForm</style>
+    <subject>Spring Term 2014 Invoicing</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear Parents
+
+Please be informed that the invoices for the Spring Term 2014 will be issued on the 15th of November and will be sent home with the students. Please, check your child&apos;s blue folder to ensure that you have received the invoice and accompanying documents. If you have not received the invoice, please contact me at isminvoicing@britishschools.co.uk.
+
+If your child(ren)&apos;s school fees are paid by a company, then you will NOT receive the invoice. All company invoices have been sent directly to the payer.
+
+Should your children currently be studying in the Nursery class for half day only, our academic staff highly recommend that by Spring Term all children are studying full day. This is because full day students progress much faster than half day students. Should you insist on continuing with only half day, the children must leave school before lunch time at 11:40am.
+
+Please, note that Spring Term fees must be paid by December 15, 2013.
+
+If you have any questions or need any assistance, please contact me directly at isminvoicing@britishschools.co.uk
+
+Thank you and kind regards,
+
+Marina Urmanova
+
+Invoicing Manager
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

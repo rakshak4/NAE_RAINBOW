@@ -1,0 +1,1915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Application_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>&quot;You have received a new application for your &apos;&quot;&amp;Title__c&amp;&quot;&apos; job posting&quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Application Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Attachment_Id__c</fullName>
+        <description>This field captures the id of any attachment created in its parent record</description>
+        <externalId>false</externalId>
+        <label>Attachment Id</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Contact_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Email for Submissions</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_Person__c</fullName>
+        <description>18/01/2016: This field is no longer in use. Can be deleted once microsites and relevant apex classes have been deleted.</description>
+        <externalId>false</externalId>
+        <label>Contact Person or Department</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Deleted_Attachment_Id__c</fullName>
+        <description>Captures the att id of any deleted attachment in its parent record</description>
+        <externalId>false</externalId>
+        <label>Deleted Attachment Id</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Deletion_Prevention__c</fullName>
+        <externalId>false</externalId>
+        <formula>OR(
+   TEXT(Owner:User.School__c) = &quot;The British Schools Foundation&quot;,
+   TEXT(Owner:User.School__c) = &quot;NAE&quot;
+   )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Deletion Prevention</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Department__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Controls the questions available on the employment application form on the new website. The &apos;Academic&apos; option will show additional questions to either of the other options.</inlineHelpText>
+        <label>Posting Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Academic</fullName>
+                    <default>false</default>
+                    <label>Academic</label>
+                </value>
+                <value>
+                    <fullName>Administration</fullName>
+                    <default>false</default>
+                    <label>Administration</label>
+                </value>
+                <value>
+                    <fullName>Support Staff</fullName>
+                    <default>false</default>
+                    <label>Support Staff</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please keep this field relatively short i.e. an &apos;Introduction&apos; and add additional documentation such as the job description in the &apos;More Info About This Position&apos; section below.</inlineHelpText>
+        <label>Introduction to Position</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>20</visibleLines>
+    </fields>
+    <fields>
+        <fullName>E_App_Staff_Member_Record_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>&quot;0126F000001hW0U&quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>E/App. Staff Member Record Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>English_Parent__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>English Parent</label>
+        <referenceTo>Job_Posting__c</referenceTo>
+        <relationshipLabel>Translations</relationshipLabel>
+        <relationshipName>english_parent</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>External_ID_18_Char__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>The ID of the record in the alternate SFDC org, where applicable.</description>
+        <externalId>true</externalId>
+        <label>External ID (18 Char)</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Job_Posting_Name_Postfix__c</fullName>
+        <description>Used in submissions from the employment application form to append to the job posting name and identify whether the application was made for a specific job posting or using the general form.</description>
+        <externalId>false</externalId>
+        <formula>&quot; (Job Posting)&quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Job Posting Name Postfix</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Language__c</fullName>
+        <description>Language switch for website translation management.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the language of your record.</inlineHelpText>
+        <label>Language</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>EN</fullName>
+                    <default>true</default>
+                    <label>EN</label>
+                </value>
+                <value>
+                    <fullName>ES</fullName>
+                    <default>false</default>
+                    <label>ES</label>
+                </value>
+                <value>
+                    <fullName>PT</fullName>
+                    <default>false</default>
+                    <label>PT</label>
+                </value>
+                <value>
+                    <fullName>RU</fullName>
+                    <default>false</default>
+                    <label>RU</label>
+                </value>
+                <value>
+                    <fullName>UK</fullName>
+                    <default>false</default>
+                    <label>UK</label>
+                </value>
+                <value>
+                    <fullName>UZ</fullName>
+                    <default>false</default>
+                    <label>UZ</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Link_to_Document_2__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Make sure that the document that this link points to is made publicly available. It is recommend that the document is hosted in Google Drive to provide the best experience for the website user.</inlineHelpText>
+        <label>Link to Document 2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Link_to_Document_3__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Make sure that the document that this link points to is made publicly available. It is recommend that the document is hosted in Google Drive to provide the best experience for the website user.</inlineHelpText>
+        <label>Link to Document 3</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Link_to_Document_4__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Make sure that the document that this link points to is made publicly available. It is recommend that the document is hosted in Google Drive to provide the best experience for the website user.</inlineHelpText>
+        <label>Link to Document 4</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Link_to_Document__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Make sure that the document that this link points to is made publicly available. It is recommend that the document is hosted in Google Drive to provide the best experience for the website user.</inlineHelpText>
+        <label>Link to Document 1</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Name_of_Document_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Name of Document 2</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Name_of_Document_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Name of Document 3</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Name_of_Document_4__c</fullName>
+        <externalId>false</externalId>
+        <label>Name of Document 4</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Name_of_Document__c</fullName>
+        <externalId>false</externalId>
+        <label>Name of Document 1</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Only_1_Translation_Per_Language_Allowed__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <description>A UID for translated records. Populated via a workflow rule, ensures a unique combination of English_Parent.Id and Language__c to prevent more than one translation per language. Field names in this way to make error message more understandable.</description>
+        <externalId>false</externalId>
+        <label>Only 1 Translation Per Language Allowed!</label>
+        <length>30</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Owned_by_Inactive_User__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Owner:User.IsActive = FALSE, TRUE, FALSE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Owned by Inactive User</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OwnerId__c</fullName>
+        <externalId>false</externalId>
+        <formula>OwnerId</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>OwnerId</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Owner_Name__c</fullName>
+        <description>Used in views only</description>
+        <externalId>false</externalId>
+        <formula>Owner:User.FirstName &amp; &quot; &quot; &amp; Owner:User.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Owner Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Path_Alias__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>OPTIONAL. Paste here the ending url path of the node on the old school website. Ex: from www.oldsite.com/curriculum/overview.asp paste &quot;curriculum/1styear/overview&quot;. No initial &quot;/&quot; no &quot;.asp&quot; or similar.</inlineHelpText>
+        <label>Path Alias</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Photo_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Photo ID</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Photo__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE( &quot;/servlet/servlet.ImageServer?id=&quot; &amp; Photo_ID__c &amp; &quot;&amp;oid=&quot; &amp; $Organization.Id, &quot; Photo Available&quot; )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Photo</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Post_to_FB__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this field if you want a teaser of the node to appear on the school fb page. Not valid for group website posts.</inlineHelpText>
+        <label>Post to FB</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Publish_on_School_Site__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Click to publish this record on your school website</inlineHelpText>
+        <label>Publish on School Site</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Request_Dependant_Details__c</fullName>
+        <description>Ben 26/09/17: This field will shortly be retired due to a request made by heads of school to always ask whether or not an applicant has dependants to avoid any surprises later. I&apos;ve left the field behind the scenes (but not on the page layout) so that the link to the websites isn&apos;t compromised as the value in this field is pulled from SF. It can be removed later once that connection has been severed.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Includes a question requesting the basic details of any dependants in the employment application form</inlineHelpText>
+        <label>Request Dependant Details?</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>School_List__c</fullName>
+        <description>A middle step from the school override field to the school list copy field.</description>
+        <externalId>false</externalId>
+        <formula>IF(OR(ISNULL(School_Override_Field__c), INCLUDES( School_Override_Field__c, &quot;No override&quot;)), TEXT( CreatedBy.School__c ),  
+IF ( INCLUDES ( School_Override_Field__c , &quot;Nanjing&quot; ), &quot;nanjing1;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Marbella&quot; ), &quot;marbella1;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Navarra&quot; ), &quot;navarra1;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Tashkent&quot; ), &quot;tashkent1;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;São Paulo&quot; ), &quot;saopaulo1;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Kuala Lumpur&quot; ), &quot;kualalumpur1;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Moscow&quot; ), &quot;moscow1;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Manila&quot; ), &quot;manila1;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Yangon&quot; ), &quot;yangon1;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;New York&quot; ), &quot;newyork1;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Brasilia&quot; ), &quot;brasilia1;&quot;,null ) &amp;
+IF ( INCLUDES ( School_Override_Field__c , &quot;Group Site&quot; ), &quot;The British Schools Foundation;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Sandbox 1&quot; ), &quot;Sandbox 1;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Sandbox 2&quot; ), &quot;Sandbox 2;&quot;,null ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Formula field to set the values from the picklist in a text array. The Schools List Copy field will copy this field. Should be hidden.</inlineHelpText>
+        <label>School List</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>School_Override_Count__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(INCLUDES(School_Override_Field__c, &quot;No Override&quot;), 1, 0) + 
+IF(INCLUDES(School_Override_Field__c, &quot;Nanjing&quot;), 1, 0) + 
+IF(INCLUDES(School_Override_Field__c, &quot;Marbella&quot;), 1, 0) + 
+IF(INCLUDES(School_Override_Field__c, &quot;Navarra&quot;), 1, 0) + 
+IF(INCLUDES(School_Override_Field__c, &quot;Tashkent&quot;), 1, 0) + 
+IF(INCLUDES(School_Override_Field__c, &quot;São Paulo&quot;), 1, 0) + 
+IF(INCLUDES(School_Override_Field__c, &quot;Kuala Lumpur&quot;), 1, 0) + 
+IF(INCLUDES(School_Override_Field__c, &quot;Moscow&quot;), 1, 0) + 
+IF(INCLUDES(School_Override_Field__c, &quot;Manila&quot;), 1, 0) + 
+IF(INCLUDES(School_Override_Field__c, &quot;New York&quot;), 1, 0) + 
+IF(INCLUDES(School_Override_Field__c, &quot;Yangon&quot;), 1, 0) +
+IF(INCLUDES(School_Override_Field__c, &quot;Brasilia&quot;), 1, 0) +
+IF(INCLUDES(School_Override_Field__c, &quot;Group Site&quot;), 1, 0) +
+IF(INCLUDES(School_Override_Field__c, &quot;Sandbox 1&quot;), 1, 0) +
+IF(INCLUDES(School_Override_Field__c, &quot;Sandbox 2&quot;), 1, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>School Override Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>School_Override_Field__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Publish this record on the websites of the selected schools</inlineHelpText>
+        <label>School Override Field</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No Override</fullName>
+                    <default>true</default>
+                    <label>No Override</label>
+                </value>
+                <value>
+                    <fullName>Brasilia</fullName>
+                    <default>false</default>
+                    <label>Brasilia</label>
+                </value>
+                <value>
+                    <fullName>Kuala Lumpur</fullName>
+                    <default>false</default>
+                    <label>Kuala Lumpur</label>
+                </value>
+                <value>
+                    <fullName>Manila</fullName>
+                    <default>false</default>
+                    <label>Manila</label>
+                </value>
+                <value>
+                    <fullName>Marbella</fullName>
+                    <default>false</default>
+                    <label>Marbella</label>
+                </value>
+                <value>
+                    <fullName>Moscow</fullName>
+                    <default>false</default>
+                    <label>Moscow</label>
+                </value>
+                <value>
+                    <fullName>Nanjing</fullName>
+                    <default>false</default>
+                    <label>Nanjing</label>
+                </value>
+                <value>
+                    <fullName>Navarra</fullName>
+                    <default>false</default>
+                    <label>Navarra</label>
+                </value>
+                <value>
+                    <fullName>New York</fullName>
+                    <default>false</default>
+                    <label>New York</label>
+                </value>
+                <value>
+                    <fullName>São Paulo</fullName>
+                    <default>false</default>
+                    <label>São Paulo</label>
+                </value>
+                <value>
+                    <fullName>Tashkent</fullName>
+                    <default>false</default>
+                    <label>Tashkent</label>
+                </value>
+                <value>
+                    <fullName>Yangon</fullName>
+                    <default>false</default>
+                    <label>Yangon</label>
+                </value>
+                <value>
+                    <fullName>Group Site</fullName>
+                    <default>false</default>
+                    <label>Group Site</label>
+                </value>
+                <value>
+                    <fullName>Sandbox 1</fullName>
+                    <default>false</default>
+                    <label>Sandbox 1</label>
+                </value>
+                <value>
+                    <fullName>Sandbox 2</fullName>
+                    <default>false</default>
+                    <label>Sandbox 2</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>School__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Owner:User.School__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>School</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Schools_List_Copy__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( 
+   CONTAINS(RecordType.DeveloperName, &quot;Translation&quot;), 
+   English_Parent__r.School_List__c, 
+   School_List__c 
+   )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>School Sites</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Show_as_Featured_Job_Posting_Until__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Entering a date in this field will prioritise the Job Posting in the &apos;Employment Opportunities&apos; sidebar block around the site until the date indicated.</inlineHelpText>
+        <label>Show as Featured Job Posting Until</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Sort_Order__c</fullName>
+        <externalId>false</externalId>
+        <formula>VALUE( 
+
+IF(TEXT(Show_as_Featured_Job_Posting_Until__c) != &quot;&quot;, &quot;1&quot;, &quot;2&quot;) &amp; 
+
+Name  
+
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Sort Order</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title__c</fullName>
+        <externalId>false</externalId>
+        <label>Title</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Web_id__c</fullName>
+        <description>To be used on the group and school sites. Ask Nico before removing</description>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Id)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Web id</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Job Posting</label>
+    <listViews>
+        <fullName>All_Job_Postings_Published</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Contact_Email__c</columns>
+        <columns>Department__c</columns>
+        <columns>Request_Dependant_Details__c</columns>
+        <columns>Show_as_Featured_Job_Posting_Until__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Schools_List_Copy__c</columns>
+        <columns>Sort_Order__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Publish_on_School_Site__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>All Job Postings (Published)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BSF_Group_Directors_Admin</group>
+            <group>NAE_Group_Marketing</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>All_Job_Postings_Unpublished</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Contact_Email__c</columns>
+        <columns>Department__c</columns>
+        <columns>Request_Dependant_Details__c</columns>
+        <columns>Show_as_Featured_Job_Posting_Until__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Schools_List_Copy__c</columns>
+        <columns>Sort_Order__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Publish_on_School_Site__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>All Job Postings (Unpublished)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BSF_Group_Directors_Admin</group>
+            <group>NAE_Group_Marketing</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>My_Job_Postings_Published</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Contact_Email__c</columns>
+        <columns>Department__c</columns>
+        <columns>Request_Dependant_Details__c</columns>
+        <columns>Show_as_Featured_Job_Posting_Until__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Sort_Order__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>Publish_on_School_Site__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>My Job Postings (Published)</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>My_Job_Postings_Unpublished</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Contact_Email__c</columns>
+        <columns>Department__c</columns>
+        <columns>Request_Dependant_Details__c</columns>
+        <columns>Show_as_Featured_Job_Posting_Until__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Sort_Order__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>Publish_on_School_Site__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>My Job Postings (Unpublished)</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>X01A_ISM_Job_Postings_Published</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Contact_Email__c</columns>
+        <columns>Department__c</columns>
+        <columns>Request_Dependant_Details__c</columns>
+        <columns>Show_as_Featured_Job_Posting_Until__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Sort_Order__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School_List__c</field>
+            <operation>contains</operation>
+            <value>moscow1,The International School of Moscow</value>
+        </filters>
+        <filters>
+            <field>Publish_on_School_Site__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>01A. ISM Job Postings (Published)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Group_Web_Devs</group>
+            <group>NAE_Group_Marketing</group>
+            <group>System_Administrators</group>
+            <roleAndSubordinatesInternal>Headteacher_ISM</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X01B_ISM_Job_Postings_Unpublished</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Contact_Email__c</columns>
+        <columns>Department__c</columns>
+        <columns>Request_Dependant_Details__c</columns>
+        <columns>Show_as_Featured_Job_Posting_Until__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Sort_Order__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School_List__c</field>
+            <operation>contains</operation>
+            <value>moscow1,The International School of Moscow</value>
+        </filters>
+        <filters>
+            <field>Publish_on_School_Site__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>01B. ISM Job Postings (Unpublished)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Group_Web_Devs</group>
+            <group>NAE_Group_Marketing</group>
+            <group>System_Administrators</group>
+            <roleAndSubordinatesInternal>Headteacher_ISM</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X02A_BSKL_Job_Postings_Published</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Contact_Email__c</columns>
+        <columns>Department__c</columns>
+        <columns>Request_Dependant_Details__c</columns>
+        <columns>Show_as_Featured_Job_Posting_Until__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Sort_Order__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School_List__c</field>
+            <operation>contains</operation>
+            <value>kualalumpur1,The British International School of Kuala Lumpur</value>
+        </filters>
+        <filters>
+            <field>Publish_on_School_Site__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>02A. BSKL Job Postings (Published)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Group_Web_Devs</group>
+            <group>NAE_Group_Marketing</group>
+            <group>System_Administrators</group>
+            <roleAndSubordinatesInternal>Headteacher_BSKL</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X02B_BSKL_Job_Postings_Unpublished</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Contact_Email__c</columns>
+        <columns>Department__c</columns>
+        <columns>Request_Dependant_Details__c</columns>
+        <columns>Show_as_Featured_Job_Posting_Until__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Sort_Order__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School_List__c</field>
+            <operation>contains</operation>
+            <value>kualalumpur1,The British International School of Kuala Lumpur</value>
+        </filters>
+        <filters>
+            <field>Publish_on_School_Site__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>02B. BSKL Job Postings (Unpublished)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Group_Web_Devs</group>
+            <group>NAE_Group_Marketing</group>
+            <group>System_Administrators</group>
+            <roleAndSubordinatesInternal>Headteacher_BSKL</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X03A_BSNJ_Job_Postings_Published</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Contact_Email__c</columns>
+        <columns>Department__c</columns>
+        <columns>Request_Dependant_Details__c</columns>
+        <columns>Show_as_Featured_Job_Posting_Until__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Sort_Order__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School_List__c</field>
+            <operation>contains</operation>
+            <value>nanjing1,The British School of Nanjing</value>
+        </filters>
+        <filters>
+            <field>Publish_on_School_Site__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>03A. BSNJ Job Postings (Published)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Group_Web_Devs</group>
+            <group>NAE_Group_Marketing</group>
+            <group>System_Administrators</group>
+            <roleAndSubordinatesInternal>Headteacher_BSNJ</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X03B_BSNJ_Job_Postings_Unpublished</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Contact_Email__c</columns>
+        <columns>Department__c</columns>
+        <columns>Request_Dependant_Details__c</columns>
+        <columns>Show_as_Featured_Job_Posting_Until__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Sort_Order__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School_List__c</field>
+            <operation>contains</operation>
+            <value>nanjing1,The British School of Nanjing</value>
+        </filters>
+        <filters>
+            <field>Publish_on_School_Site__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>03B. BSNJ Job Postings (Unpublished)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Group_Web_Devs</group>
+            <group>NAE_Group_Marketing</group>
+            <group>System_Administrators</group>
+            <roleAndSubordinatesInternal>Headteacher_BSNJ</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X04A_BST_Job_Postings_Published</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Contact_Email__c</columns>
+        <columns>Department__c</columns>
+        <columns>Request_Dependant_Details__c</columns>
+        <columns>Show_as_Featured_Job_Posting_Until__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Sort_Order__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School_List__c</field>
+            <operation>contains</operation>
+            <value>tashkent1,The British School of Tashkent</value>
+        </filters>
+        <filters>
+            <field>Publish_on_School_Site__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>04A. BST Job Postings (Published)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Group_Web_Devs</group>
+            <group>NAE_Group_Marketing</group>
+            <group>System_Administrators</group>
+            <roleAndSubordinatesInternal>BST_Headteacher</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X04B_BST_Job_Postings_Unpublished</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Contact_Email__c</columns>
+        <columns>Department__c</columns>
+        <columns>Request_Dependant_Details__c</columns>
+        <columns>Show_as_Featured_Job_Posting_Until__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Sort_Order__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School_List__c</field>
+            <operation>contains</operation>
+            <value>tashkent1,The British School of Tashkent</value>
+        </filters>
+        <filters>
+            <field>Publish_on_School_Site__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>04B. BST Job Postings (Unpublished)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Group_Web_Devs</group>
+            <group>NAE_Group_Marketing</group>
+            <group>System_Administrators</group>
+            <roleAndSubordinatesInternal>BST_Headteacher</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X05A_NAISM_Job_Postings_Published</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Contact_Email__c</columns>
+        <columns>Department__c</columns>
+        <columns>Request_Dependant_Details__c</columns>
+        <columns>Show_as_Featured_Job_Posting_Until__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Sort_Order__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School_List__c</field>
+            <operation>contains</operation>
+            <value>manila1,Nord Anglia International School Manila</value>
+        </filters>
+        <filters>
+            <field>Publish_on_School_Site__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>05A. NAISM Job Postings (Published)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Group_Web_Devs</group>
+            <group>NAE_Group_Marketing</group>
+            <group>System_Administrators</group>
+            <roleAndSubordinatesInternal>NAISM_Headteacher</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X05B_NAISM_Job_Postings_Unpublished</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Contact_Email__c</columns>
+        <columns>Department__c</columns>
+        <columns>Request_Dependant_Details__c</columns>
+        <columns>Show_as_Featured_Job_Posting_Until__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Sort_Order__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School_List__c</field>
+            <operation>contains</operation>
+            <value>manila1,Nord Anglia International School Manila</value>
+        </filters>
+        <filters>
+            <field>Publish_on_School_Site__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>05B. NAISM Job Postings (Unpublished)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Group_Web_Devs</group>
+            <group>NAE_Group_Marketing</group>
+            <group>System_Administrators</group>
+            <roleAndSubordinatesInternal>NAISM_Headteacher</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X06A_BCB_Job_Postings_Published</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Contact_Email__c</columns>
+        <columns>Department__c</columns>
+        <columns>Request_Dependant_Details__c</columns>
+        <columns>Show_as_Featured_Job_Posting_Until__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Sort_Order__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School_List__c</field>
+            <operation>contains</operation>
+            <value>saopaulo1,The British College of Brazil</value>
+        </filters>
+        <filters>
+            <field>Publish_on_School_Site__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>06A. BCB Job Postings (Published)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Group_Web_Devs</group>
+            <group>NAE_Group_Marketing</group>
+            <group>System_Administrators</group>
+            <roleAndSubordinatesInternal>Headteacher_BCB</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X06B_BCB_Job_Postings_Unpublished</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Contact_Email__c</columns>
+        <columns>Department__c</columns>
+        <columns>Request_Dependant_Details__c</columns>
+        <columns>Show_as_Featured_Job_Posting_Until__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Sort_Order__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School_List__c</field>
+            <operation>contains</operation>
+            <value>saopaulo1,The British College of Brazil</value>
+        </filters>
+        <filters>
+            <field>Publish_on_School_Site__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>06B. BCB Job Postings (Unpublished)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Group_Web_Devs</group>
+            <group>NAE_Group_Marketing</group>
+            <group>System_Administrators</group>
+            <roleAndSubordinatesInternal>Headteacher_BCB</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X07A_BSY_Job_Postings_Published</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Contact_Email__c</columns>
+        <columns>Department__c</columns>
+        <columns>Request_Dependant_Details__c</columns>
+        <columns>Show_as_Featured_Job_Posting_Until__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Sort_Order__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School_List__c</field>
+            <operation>contains</operation>
+            <value>yangon1,The British School Yangon</value>
+        </filters>
+        <filters>
+            <field>Publish_on_School_Site__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>07A. BSY Job Postings (Published)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Group_Web_Devs</group>
+            <group>NAE_Group_Marketing</group>
+            <group>System_Administrators</group>
+            <roleAndSubordinatesInternal>BSY_Headteacher</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X07B_BSY_Job_Postings_Unpublished</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Contact_Email__c</columns>
+        <columns>Department__c</columns>
+        <columns>Request_Dependant_Details__c</columns>
+        <columns>Show_as_Featured_Job_Posting_Until__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Sort_Order__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School_List__c</field>
+            <operation>contains</operation>
+            <value>yangon1,The British School Yangon</value>
+        </filters>
+        <filters>
+            <field>Publish_on_School_Site__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>07B. BSY Job Postings (Unpublished)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Group_Web_Devs</group>
+            <group>NAE_Group_Marketing</group>
+            <group>System_Administrators</group>
+            <roleAndSubordinatesInternal>BSY_Headteacher</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X08A_BSNV_Job_Postings_Published</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Contact_Email__c</columns>
+        <columns>Department__c</columns>
+        <columns>Request_Dependant_Details__c</columns>
+        <columns>Show_as_Featured_Job_Posting_Until__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Sort_Order__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School_List__c</field>
+            <operation>contains</operation>
+            <value>navarra1,The British School of Navarra</value>
+        </filters>
+        <filters>
+            <field>Publish_on_School_Site__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>08A. BSNV Job Postings (Published)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BSF_Group_Directors_Admin</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X08B_BSNV_Job_Postings_Unpublished</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Contact_Email__c</columns>
+        <columns>Department__c</columns>
+        <columns>Request_Dependant_Details__c</columns>
+        <columns>Show_as_Featured_Job_Posting_Until__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Sort_Order__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School_List__c</field>
+            <operation>contains</operation>
+            <value>navarra1,The British School of Navarra</value>
+        </filters>
+        <filters>
+            <field>Publish_on_School_Site__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>08B. BSNV Job Postings (Unpublished)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BSF_Group_Directors_Admin</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X09A_BISM_Job_Postings_Published</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Contact_Email__c</columns>
+        <columns>Department__c</columns>
+        <columns>Request_Dependant_Details__c</columns>
+        <columns>Show_as_Featured_Job_Posting_Until__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Sort_Order__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School_List__c</field>
+            <operation>contains</operation>
+            <value>marbella1,The British International School of Marbella</value>
+        </filters>
+        <filters>
+            <field>Publish_on_School_Site__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>09A. BISM Job Postings (Published)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BSF_Group_Directors_Admin</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X09B_BISM_Job_Postings_Unpublished</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Contact_Email__c</columns>
+        <columns>Department__c</columns>
+        <columns>Request_Dependant_Details__c</columns>
+        <columns>Show_as_Featured_Job_Posting_Until__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Sort_Order__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School_List__c</field>
+            <operation>contains</operation>
+            <value>marbella1,The British International School of Marbella</value>
+        </filters>
+        <filters>
+            <field>Publish_on_School_Site__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>09B. BISM Job Postings (Unpublished)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BSF_Group_Directors_Admin</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X10A_NYIS_Job_Postings_Published</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Contact_Email__c</columns>
+        <columns>Department__c</columns>
+        <columns>Request_Dependant_Details__c</columns>
+        <columns>Show_as_Featured_Job_Posting_Until__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Sort_Order__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School_List__c</field>
+            <operation>contains</operation>
+            <value>newyork1,The New York International School</value>
+        </filters>
+        <filters>
+            <field>Publish_on_School_Site__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>10A. NYIS Job Postings (Published)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BSF_Group_Directors_Admin</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X10B_NYIS_Job_Postings_Unpublished</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Contact_Email__c</columns>
+        <columns>Department__c</columns>
+        <columns>Request_Dependant_Details__c</columns>
+        <columns>Show_as_Featured_Job_Posting_Until__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Sort_Order__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School_List__c</field>
+            <operation>contains</operation>
+            <value>newyork1,The New York International School</value>
+        </filters>
+        <filters>
+            <field>Publish_on_School_Site__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>10B. NYIS Job Postings (Unpublished)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BSF_Group_Directors_Admin</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X11A_BSB_Job_Postings_Published</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Contact_Email__c</columns>
+        <columns>Department__c</columns>
+        <columns>Request_Dependant_Details__c</columns>
+        <columns>Show_as_Featured_Job_Posting_Until__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Sort_Order__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School_List__c</field>
+            <operation>contains</operation>
+            <value>brasilia1,The British School of Brasilia</value>
+        </filters>
+        <filters>
+            <field>Publish_on_School_Site__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>11A. BSB Job Postings (Published)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BSB_Job_Postings_Managers</group>
+            <group>BSF_Group_Directors_Admin</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X11B_BSB_Job_Postings_Unpublished</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Contact_Email__c</columns>
+        <columns>Department__c</columns>
+        <columns>Request_Dependant_Details__c</columns>
+        <columns>Show_as_Featured_Job_Posting_Until__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Sort_Order__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School_List__c</field>
+            <operation>contains</operation>
+            <value>brasilia1,The British School of Brasilia</value>
+        </filters>
+        <filters>
+            <field>Publish_on_School_Site__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>11B. BSB Job Postings (Unpublished)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BSB_Job_Postings_Managers</group>
+            <group>BSF_Group_Directors_Admin</group>
+        </sharedTo>
+    </listViews>
+    <nameField>
+        <label>Positioning</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Job Postings</pluralLabel>
+    <recordTypes>
+        <fullName>Job_Posting</fullName>
+        <active>true</active>
+        <label>Job Posting</label>
+        <picklistValues>
+            <picklist>Department__c</picklist>
+            <values>
+                <fullName>Academic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Administration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Support Staff</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Language__c</picklist>
+            <values>
+                <fullName>EN</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Request_Dependant_Details__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>School_Override_Field__c</picklist>
+            <values>
+                <fullName>Brasilia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Group Site</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kuala Lumpur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manila</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marbella</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Moscow</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nanjing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Navarra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New York</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Override</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Sandbox 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sandbox 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>São Paulo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tashkent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yangon</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Job_Posting_Translation</fullName>
+        <active>true</active>
+        <label>Job Posting Translation</label>
+        <picklistValues>
+            <picklist>Department__c</picklist>
+            <values>
+                <fullName>Academic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Administration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Support Staff</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Language__c</picklist>
+            <values>
+                <fullName>ES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RU</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Request_Dependant_Details__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>School_Override_Field__c</picklist>
+            <values>
+                <fullName>Brasilia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Group Site</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kuala Lumpur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manila</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marbella</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Moscow</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nanjing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Navarra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New York</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Override</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Sandbox 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sandbox 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>São Paulo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tashkent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yangon</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Title__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Contact_Person__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Contact_Email__c</customTabListAdditionalFields>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <listViewButtons>Push_Changes_to_Site</listViewButtons>
+        <searchResultsAdditionalFields>Title__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Contact_Person__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Contact_Email__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>First_Record_in_English</fullName>
+        <active>true</active>
+        <description>Avoid a record with empty English_Parent__c and other language than english</description>
+        <errorConditionFormula>AND((Publish_on_School_Site__c = TRUE), ISBLANK(English_Parent__c), OR((ISBLANK(TEXT(Language__c))), NOT(ISPICKVAL(Language__c, &quot;EN&quot;))))</errorConditionFormula>
+        <errorMessage>The language for this record must be English (EN). If you want to publish on a School Website in a language different than English you must first create the record in English and then translate it under the &apos;Translations&apos; related list.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>No_Blank_and_No_Override</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(
+   ISBLANK(School_Override_Field__c),
+   AND(
+       NOT(CONTAINS(RecordType.DeveloperName, &quot;Translation&quot;)), 
+       INCLUDES(School_Override_Field__c, &quot;No Override&quot;),
+       Publish_on_School_Site__c = TRUE,
+       TEXT(CreatedBy.School__c) = &quot;The British Schools Foundation&quot;
+       )
+   )</errorConditionFormula>
+        <errorMessage>The &apos;School Override Field&apos; must never be left blank and cannot include the value &apos;No Override&apos; if &apos;Publish on School Site&apos; is checked and the record was created by someone in the group office.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Prevent_Blank_Doc_Name_or_Link</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(
+   AND(
+       OR(
+          Link_to_Document__c = &quot;&quot;, 
+          Name_of_Document__c = &quot;&quot;
+          ),
+       OR(
+          Link_to_Document_2__c != &quot;&quot;,
+          Name_of_Document_2__c != &quot;&quot;,
+          Link_to_Document_3__c != &quot;&quot;,
+          Name_of_Document_3__c != &quot;&quot;,
+          Link_to_Document_4__c != &quot;&quot;,
+          Name_of_Document_4__c != &quot;&quot;
+          )
+       ),
+   AND(
+       OR(
+          Link_to_Document__c = &quot;&quot;, 
+          Name_of_Document__c = &quot;&quot;,
+          Link_to_Document_2__c = &quot;&quot;,
+          Name_of_Document_2__c = &quot;&quot;
+          ),
+       OR(
+          Link_to_Document_3__c != &quot;&quot;,
+          Name_of_Document_3__c != &quot;&quot;,
+          Link_to_Document_4__c != &quot;&quot;,
+          Name_of_Document_4__c != &quot;&quot;
+          )
+       ),
+   AND(
+       OR(
+          Link_to_Document__c = &quot;&quot;, 
+          Name_of_Document__c = &quot;&quot;,
+          Link_to_Document_2__c = &quot;&quot;,
+          Name_of_Document_2__c = &quot;&quot;,
+          Link_to_Document_3__c = &quot;&quot;,
+          Name_of_Document_3__c = &quot;&quot;
+          ),
+       OR(
+          Link_to_Document_4__c != &quot;&quot;,
+          Name_of_Document_4__c != &quot;&quot;
+          )
+       ),  
+   AND(
+       Name_of_Document__c = &quot;&quot;, 
+       Link_to_Document__c != &quot;&quot;
+       ),
+
+   AND(
+       Name_of_Document__c != &quot;&quot;, 
+       Link_to_Document__c = &quot;&quot;
+       ),
+
+   AND(
+       Name_of_Document_2__c = &quot;&quot;,  
+       Link_to_Document_2__c != &quot;&quot;
+       ),
+
+   AND(
+       Name_of_Document_2__c != &quot;&quot;, 
+       Link_to_Document_2__c = &quot;&quot;
+       ),
+   
+   AND(
+       Name_of_Document_3__c = &quot;&quot;,  
+       Link_to_Document_3__c != &quot;&quot;
+       ),
+
+   AND(
+       Name_of_Document_3__c != &quot;&quot;, 
+       Link_to_Document_3__c = &quot;&quot;
+       ),
+
+   AND(
+       Name_of_Document_4__c = &quot;&quot;,  
+       Link_to_Document_4__c != &quot;&quot;
+       ),
+
+   AND(
+       Name_of_Document_4__c != &quot;&quot;, 
+       Link_to_Document_4__c = &quot;&quot;
+       )
+   )</errorConditionFormula>
+        <errorMessage>Document details must be completed in order (e.g. you cannot add details of document 2 before you have completed details of document 1) and all documents must have both a name and a link.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Prevent_Change_of_English_Parent</fullName>
+        <active>true</active>
+        <description>Prevents the change of English Parent as this could cause problems on the site. The alternative is to clone (where available) the existing record and then delete it or create a completely new record.</description>
+        <errorConditionFormula>NOT(ISNEW()) &amp;&amp; ISCHANGED(English_Parent__c) &amp;&amp; NOT(ISBLANK(PRIORVALUE(English_Parent__c)))</errorConditionFormula>
+        <errorMessage>You cannot change the &apos;English Parent&apos; of a translated record. Please create a new record instead under the relevant English (EN) record.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Prevent_Invalid_Number_as_Positioning</fullName>
+        <active>false</active>
+        <errorConditionFormula>OR(NOT(ISNUMBER(Name)), LEN(Name) != 3)</errorConditionFormula>
+        <errorMessage>The &apos;Positioning&apos; field must contain a positive number with 3 digits e.g. 001, 015, 210 etc.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Prevent_Invalid_Translation_Record</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+    OR(
+       ISBLANK(English_Parent__c),
+       ISBLANK(TEXT(Language__c)),
+       ISPICKVAL(Language__c, &quot;EN&quot;)
+       ),
+    CONTAINS(RecordType.DeveloperName, &quot;Translation&quot;)
+    )</errorConditionFormula>
+        <errorMessage>A &apos;Translation Request&apos; or &apos;Translated&apos; record must have an &apos;English Parent&apos; and a &apos;Language&apos; other than &apos;EN&apos; (English) selected. If you are not requesting a translation then please use a different record type.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Prevent_Invalid_Translation_Record_Type</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(   
+    NOT(ISBLANK(English_Parent__c)),
+    NOT(CONTAINS(RecordType.DeveloperName, &quot;Translation&quot;))
+    )</errorConditionFormula>
+        <errorMessage>You can only select an &apos;English Parent&apos; for record types that include the word &apos;Translation&apos;. Please cancel this operation and create your &apos;Translation&apos; record via the &apos;Translate&apos; button of the relevant &apos;English Parent&apos; record instead.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Prevent_NAE_User_Editing_BSF_Records</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+    TEXT($User.School__c) = &quot;NAE&quot;,
+    OR(
+       INCLUDES(School_Override_Field__c, &quot;Marbella&quot;),
+       INCLUDES(School_Override_Field__c, &quot;Navarra&quot;),
+       INCLUDES(School_Override_Field__c, &quot;Brasilia&quot;),
+       INCLUDES(School_Override_Field__c, &quot;New York&quot;),
+       INCLUDES(School_Override_Field__c, &quot;Group Site&quot;),
+       INCLUDES(School_Override_Field__c, &quot;Sandbox 1&quot;),
+       INCLUDES(School_Override_Field__c, &quot;Sandbox 2&quot;),
+       School__c = &quot;The British International School of Marbella&quot;,
+       School__c = &quot;The British School of Navarra&quot;,
+       School__c = &quot;The British School of Brasilia&quot;,
+       School__c = &quot;The New York International School&quot;,
+       School__c = &quot;The British Schools Foundation&quot;
+       )
+    )</errorConditionFormula>
+        <errorMessage>You do not have permission to create or edit a record for this school. Please contact your system administrator if you think you should have access.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Prevent_No_Override_with_Other_Schools</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+    INCLUDES(School_Override_Field__c, &quot;No Override&quot;),
+    School_Override_Count__c &gt; 1
+    )</errorConditionFormula>
+        <errorMessage>You cannot include the value &apos;No Override&apos; together with other schools in the &apos;School Override Field&apos;</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Translations_Not_in_English</fullName>
+        <active>true</active>
+        <description>Prevents a user from creating a translate record in English.</description>
+        <errorConditionFormula>NOT(ISBLANK(English_Parent__c)) &amp;&amp; ISPICKVAL(Language__c, &quot;EN&quot;)</errorConditionFormula>
+        <errorMessage>The language of a translation record must be in a language other then EN (English).</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Push_Changes_to_Site</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Push Changes to Site</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>if(&quot;{!$User.User_Cron_Link__c}&quot; == &quot;&quot;){
+alert(&quot;Group users cannot use this button. Please use the links in the sidebar to refresh the relevant site(s) instead.&quot;); 
+}else{
+window.open(&quot;{!$User.User_Cron_Link__c}&quot;, &quot;_blank&quot;, &quot;toolbar=no, scrollbars=no, resizable=no, top=300, left=500, width=400, height=300&quot;);
+}</url>
+    </webLinks>
+</CustomObject>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Reminder about Literacy Open Day (Lower Campus)</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Reminder about Literacy Open Day for Lower Campus</name>
+    <style>freeForm</style>
+    <subject>Literacy Open Day in the British School of Tashkent</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Dear parents ,
+
+Hereby we would like to remind you that ‘Open Day’ with a focus on Literacy will take place in Lower Campus of the British School of Tashkent on Tuesday, January 28th. It will be a wonderful opportunity for BST parents to visit classes and be involved in lessons.
+
+We would just like to confirm that parents are welcome to take photos during the Literacy Open Day however we have to kindly ask you to refrain from making video recordings as this can disrupt the lesson.
+
+Join us and learn how Literacy is taught in British schools. We look forward to seeing you there!
+
+Уважаемые родители,
+
+Мы бы хотели напомнить вам что во вторник, 28 января в Британской школе Ташкента ( здание детского сада) состоится открытый урок по английскому языку. Для Вас это будет прекрасная возможность своими глазами увидеть, как обучаются дети, а также поучаствовать в уроке.
+
+
+
+Мы бы хотели еще раз подчеркнуть, что мы будем рады если вы будете снимать фото на открытом уроке по английскому языку, но мы просим вас не производить видеосъемку, так как это может помешать учебному процессу.
+
+
+
+
+Присоединяйтесь пожалуйста и вы увидите, как обучают английскому языку в британских школах.  С нетерпением ждем встречи с Вами!
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

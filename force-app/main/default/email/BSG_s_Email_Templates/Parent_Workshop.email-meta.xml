@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Parent Workshop - Wednesday 4th June 2014</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Parent Workshop - Wednesday 4th June 2014</name>
+    <style>freeForm</style>
+    <subject>Parent Workshop - Wednesday 4th June 2014</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+
+
+
+
+
+
+
+Dear Parents,
+
+
+
+Please CLICK HERE for the information inviting you to a parent workshop which will be held at the Lower School campus on Wednesday 4th June between 4:00-5:30pm. This workshop is open to all BSG parents and the wider community.
+
+
+
+Kind regards,
+
+
+
+Miss Kathy
+
+
+
+Head of Lower School
+
+
+
+The British School of Guangzhou
+
+World Class Education
+
+
+
+____________________________________________________________
+
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

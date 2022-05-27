@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>International day meeting</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>International day meeting</name>
+    <style>freeForm</style>
+    <subject>International Day Meeting</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I would like to invite you to an International Day Meeting on Thursday 20th September at the Nanhu campus.
+
+We are looking for parent volunteers to help us plan an exciting International Day event. This first meeting will take place at 1:00pm on Thursday 20th September, in the BSG theatre and will be an opportunity to clarify the format of the day, and to enlist parental support.
+
+The actual event will take place on Saturday 10th November and with so many different nationalities represented in our school this day will be an opportunity to celebrate our differences. We would like as many countries as possible to be involved and will need a parent representative for each country.
+
+Last year’s event was a resounding success with a colourful array of national costumes, games, activities and delicious foods, as well as dances, songs and performances from around the world.
+
+We would like as many parents as possible to attend this meeting to begin the process of finding a representative for each country. If you would like to help but are not able to attend please contact Dilek or Christie (our EFC Chairs) on dilek.s.kalkan@gmail.com and greendate@y7mail.com.
+
+Regards,
+
+Mark Thomas
+Headmaster
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

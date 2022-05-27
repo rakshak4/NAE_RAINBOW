@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>June 15: British Day 2013</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>June 15: British Day 2013</name>
+    <style>freeForm</style>
+    <subject>June 15: British Day 2013</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Plans for the British Day event on the 15th June are gaining pace. Please click here for the flyer.This is going to be a really wonderful day for families and will go ahead whatever the weather, so do ensure you add this to your calendar. Teachers are planning lots of activities for children and will be looking forward to seeing as many of you as possible. Any parents who are interested in running their own activity or helping out on a stall are encouraged to contact class teachers or the EFC committee directly.
+
+Kind regards,
+
+
+Mark Thomas
+Headmaster
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

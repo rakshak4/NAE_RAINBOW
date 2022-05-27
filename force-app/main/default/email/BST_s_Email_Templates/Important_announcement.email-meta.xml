@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>David&apos;s last year</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Important announcement</name>
+    <style>freeForm</style>
+    <subject>Important announcement</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I have an important but sad announcement to make. After what will be three very busy and gratifying years in Tashkent, my wife Jennifer and I have decided that this will be our last academic year at BST. I will remain with the British Schools Foundation as I will take over the headship of another school within the group.
+
+
+
+I came to Uzbekistan with a clear mission from the BSF Board: to build on the great work of the previous Head Teacher and improve further BST as the leading international school in Tashkent. Over the last three years the school has grown in every possible respect. The student body has almost doubled, a new campus has opened its doors for our older students, academic standards have risen steadily and the prestige of the school continues to grow.
+
+
+Most important for me though is seeing what a vibrant community BST has become. It is a place that truly brings out the best in all of us - pupils, staff and even parents alike - and gives us the opportunity to thrive. It is also an environment that requires great energy and drive and it is for this reason that I have considered next summer a good time to hand over to a new Head Teacher who will continue to develop the school and take it to new heights.
+
+The BSF Board has organised a thorough and exhaustive selection process to appoint a new Head Teacher. The appointment will be confirmed by December. This will provide us with almost nine months to arrange a smooth transition, similar to the one I experienced when I took over. As part of the selection process, we will be inviting the final candidates to visit Tashkent and the school and meet our impressive students and staff. Some of our Student council pupils will be given the exciting job of interviewing the final candidates during their visit to BST!
+
+
+It is not yet the time to say good byes, our whole family shall be here until July 2016 and we still have an exciting year ahead. We have every intention of making the most of it and continuing to move the school forward.
+
+
+I look forward to seeing you all during the course of this year and thank you, as always, for your continued support.
+
+
+
+Regards,
+
+
+
+David Kirkham
+
+Headmaster
+
+
+Уважаемые родители!
+
+
+
+У меня есть для Вас немного печальное, но важное объявление. По истечении трёх насыщенных и замечательных лет в Ташкенте, моя жена Дженнифер, и я решили, что данный учебный год станет нашим последним учебным годом в Британской школе города Ташкента. Я продолжу работать в системе British Schools Foundation, но буду возглавлять руководство другой школы из этой же группы.
+
+Я прибыл в Узбекистан с четкой миссией от British Schools Foundation: основываясь на проделанной работе предыдущего директора еще больше поднять уровень Британской школы города Ташкента до уровня ведущих международных школ мира. За последние три года школа выросла во всех отношениях: количество учащихся увеличилось в два раза, новый кампус открыл свои двери для старших учащихся школы, академические стандарты и престиж школы неуклонно продолжают расти.
+
+Лично для меня крайне важно то, что Британская школа города Ташкента превратилась в живое динамичное сообщество. Это место, в котором выявляется всё то лучшее, что есть в нас, в учащихся школы, наших сотрудниках и даже наших родителях, что дает нам возможность стать ещё лучше. Наша работа требует больших усилий и затрат энергии, и именно по этой причине я решил передать свой пост новому Академическому Директору школы, который будет продолжать развивать наше учебное заведение и поднимать его до новых высот.
+
+The BSF Board организовал тщательный и обстоятельный процесс отбора для назначения нового Академического директора. Кандидатура нового директора будет утверждена к декабрю месяцу. В таком случае, у нас имеется девять месяцев для организации более плавного перехода при вступлении на новую должность нового кандидата, как это было и со мной, когда я начинал работать в этой школе. В рамках процесса отбора кандидатов, мы будем приглашать потенциальных кандидатов посетить Ташкент и школу, и встретиться с нашими студентами и сотрудниками школы. Некоторые из наших учащихся Студенческого совета также будут привлечены к увлекательному процессу интервьюирования потенциальных кандидатов во время их визита в нашу школу!
+
+Не хочу прощаться с Вами раньше времени, так как вся моя семья пробует в Ташкенте до июля 2016 года и впереди нас всех ожидает ещё один захватывающий учебный год. Мы приложим максимальные усилия для дальнейшего развития нашей школы.
+
+Я жду встречи с Вами в течение этого года, и ,как обычно, хочу поблагодарить Вас за Вашу неизменную поддержку.
+
+
+С уважением,
+
+Дэвид Киркхам.
+
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Headmaster
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

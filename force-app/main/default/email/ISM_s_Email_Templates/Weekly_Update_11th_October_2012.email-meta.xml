@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Weekly Update 11th October, 2012</name>
+    <style>freeForm</style>
+    <subject>Weekly News Update 11th October, 2012</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear Parents,
+
+As every week, please take note of the following information.
+
+Book week and International Week
+
+
+
+Book Week will begin on Monday 15th for all students from Nursery to Year 6, ending on the last Friday before the half term. We hope that the children will arrive home each evening talking about their favourite books and authors and sharing stories with you.
+
+
+
+Immediately after the half term break, International Week will take place with the whole school taking part. All students will be excited to learn more about their chosen country and share their learning with fellow students and parents at the end of the week.
+
+
+
+We are sure that our students will be excited about these two events and look forward to the learning opportunities and activities that these events will offer.
+
+
+
+Winter Uniforms
+
+
+
+Apologies for the late confirmation on this but clearly summer uniform is no longer appropriate for our students. Please do feel comfortable in sending all students in winter uniform from this point onward. Please refer to The Parent /Student Handbook for guidance on what to wear.
+
+
+
+Lower Campus pick-up.
+
+
+
+May we request that all adults collect children from inside the school gate at the end of school. Teachers on duty and security staff will ensure that children are not allowed to pass through the school gate without an adult. By working together on these simple procedures we can ensure that all children are kept safe.
+
+
+Best regards,
+
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

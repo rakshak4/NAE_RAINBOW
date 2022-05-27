@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Company_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Company Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>External_ID_18_Char__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>The ID of the record in the alternate SFDC org, where applicable.</description>
+        <externalId>true</externalId>
+        <label>External ID (18 Char)</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Main_Contact_Person__c</fullName>
+        <externalId>false</externalId>
+        <label>Main Contact Person</label>
+        <length>40</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Main_Person_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Main Person Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Main_Person_Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Main Person Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Other_Useful_Information__c</fullName>
+        <externalId>false</externalId>
+        <label>Other Useful Information</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>OwnerId__c</fullName>
+        <externalId>false</externalId>
+        <formula>OwnerId</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>OwnerId</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>School__c</fullName>
+        <externalId>false</externalId>
+        <formula>CreatedBy.CompanyName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>School</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type_Drill_Down__c</fullName>
+        <externalId>false</externalId>
+        <label>Type Drill Down</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Type__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Advetorial</fullName>
+                    <default>false</default>
+                    <label>Advetorial</label>
+                </value>
+                <value>
+                    <fullName>Billboard</fullName>
+                    <default>false</default>
+                    <label>Billboard</label>
+                </value>
+                <value>
+                    <fullName>Email Marketing</fullName>
+                    <default>false</default>
+                    <label>Email Marketing</label>
+                </value>
+                <value>
+                    <fullName>Event Outside School</fullName>
+                    <default>false</default>
+                    <label>Event Outside School</label>
+                </value>
+                <value>
+                    <fullName>Fayre - Themed Event</fullName>
+                    <default>false</default>
+                    <label>Fayre - Themed Event</label>
+                </value>
+                <value>
+                    <fullName>Flyer Distribution</fullName>
+                    <default>false</default>
+                    <label>Flyer Distribution</label>
+                </value>
+                <value>
+                    <fullName>Fun Day</fullName>
+                    <default>false</default>
+                    <label>Fun Day</label>
+                </value>
+                <value>
+                    <fullName>Internet Ad</fullName>
+                    <default>false</default>
+                    <label>Internet Ad</label>
+                </value>
+                <value>
+                    <fullName>Magazine</fullName>
+                    <default>false</default>
+                    <label>Magazine</label>
+                </value>
+                <value>
+                    <fullName>Merchandise</fullName>
+                    <default>false</default>
+                    <label>Merchandise</label>
+                </value>
+                <value>
+                    <fullName>Newspaper</fullName>
+                    <default>false</default>
+                    <label>Newspaper</label>
+                </value>
+                <value>
+                    <fullName>Open Day</fullName>
+                    <default>false</default>
+                    <label>Open Day</label>
+                </value>
+                <value>
+                    <fullName>Pamphlet</fullName>
+                    <default>false</default>
+                    <label>Pamphlet</label>
+                </value>
+                <value>
+                    <fullName>Presentation</fullName>
+                    <default>false</default>
+                    <label>Presentation</label>
+                </value>
+                <value>
+                    <fullName>Prospectus</fullName>
+                    <default>false</default>
+                    <label>Prospectus</label>
+                </value>
+                <value>
+                    <fullName>Radio</fullName>
+                    <default>false</default>
+                    <label>Radio</label>
+                </value>
+                <value>
+                    <fullName>TV</fullName>
+                    <default>false</default>
+                    <label>TV</label>
+                </value>
+                <value>
+                    <fullName>Visit Agents/Companies/Embassies</fullName>
+                    <default>false</default>
+                    <label>Visit Agents/Companies/Embassies</label>
+                </value>
+                <value>
+                    <fullName>Year Book</fullName>
+                    <default>false</default>
+                    <label>Year Book</label>
+                </value>
+                <value>
+                    <fullName>Other Printed Material</fullName>
+                    <default>false</default>
+                    <label>Other Printed Material</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Other Ad</fullName>
+                    <default>false</default>
+                    <label>Other Ad</label>
+                </value>
+                <value>
+                    <fullName>Other Event</fullName>
+                    <default>false</default>
+                    <label>Other Event</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Advertising</controllingFieldValue>
+                <valueName>Advetorial</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Advertising</controllingFieldValue>
+                <valueName>Billboard</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Advertising</controllingFieldValue>
+                <valueName>Flyer Distribution</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Advertising</controllingFieldValue>
+                <valueName>Internet Ad</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Advertising</controllingFieldValue>
+                <valueName>Magazine</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Advertising</controllingFieldValue>
+                <valueName>Newspaper</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Advertising</controllingFieldValue>
+                <valueName>Radio</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Advertising</controllingFieldValue>
+                <valueName>TV</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Advertising</controllingFieldValue>
+                <valueName>Other Ad</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Event</controllingFieldValue>
+                <valueName>Event Outside School</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Event</controllingFieldValue>
+                <valueName>Fayre - Themed Event</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Event</controllingFieldValue>
+                <valueName>Fun Day</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Event</controllingFieldValue>
+                <valueName>Open Day</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Event</controllingFieldValue>
+                <valueName>Presentation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Event</controllingFieldValue>
+                <valueName>Other Event</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Merchandise</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Visit Agents/Companies/Embassies</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Year Book</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Other Printed Material</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Advertising</fullName>
+                    <default>false</default>
+                    <label>Advertising</label>
+                </value>
+                <value>
+                    <fullName>Event</fullName>
+                    <default>false</default>
+                    <label>Event</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Marketing Channel</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Type__c</columns>
+        <columns>School__c</columns>
+        <columns>Type_Drill_Down__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>King_s_College_Beijing</fullName>
+        <columns>NAME</columns>
+        <columns>Type__c</columns>
+        <columns>School__c</columns>
+        <columns>Type_Drill_Down__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>King&apos;s College Beijing</value>
+        </filters>
+        <label>King&apos;s College Beijing</label>
+    </listViews>
+    <listViews>
+        <fullName>The_British_College_of_Brazil</fullName>
+        <columns>NAME</columns>
+        <columns>Type__c</columns>
+        <columns>School__c</columns>
+        <columns>Type_Drill_Down__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British College of Brazil</value>
+        </filters>
+        <label>The British College of Brazil</label>
+    </listViews>
+    <listViews>
+        <fullName>The_British_School_of_Guangzhou</fullName>
+        <columns>NAME</columns>
+        <columns>Type__c</columns>
+        <columns>School__c</columns>
+        <columns>Type_Drill_Down__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Guangzhou</value>
+        </filters>
+        <label>The British School of Guangzhou</label>
+    </listViews>
+    <listViews>
+        <fullName>The_British_School_of_Kuala_Lumpur</fullName>
+        <columns>NAME</columns>
+        <columns>Type__c</columns>
+        <columns>School__c</columns>
+        <columns>Type_Drill_Down__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Kuala Lumpur</value>
+        </filters>
+        <label>The British School of Kuala Lumpur</label>
+    </listViews>
+    <listViews>
+        <fullName>The_British_School_of_Marbella</fullName>
+        <columns>NAME</columns>
+        <columns>Type__c</columns>
+        <columns>School__c</columns>
+        <columns>Type_Drill_Down__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Marbella</value>
+        </filters>
+        <label>The British School of Marbella</label>
+    </listViews>
+    <listViews>
+        <fullName>The_British_School_of_Nanjing</fullName>
+        <columns>NAME</columns>
+        <columns>Type__c</columns>
+        <columns>School__c</columns>
+        <columns>Type_Drill_Down__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Nanjing</value>
+        </filters>
+        <label>The British School of Nanjing</label>
+    </listViews>
+    <listViews>
+        <fullName>The_British_School_of_Navarra</fullName>
+        <columns>NAME</columns>
+        <columns>Type__c</columns>
+        <columns>School__c</columns>
+        <columns>Type_Drill_Down__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Navarra</value>
+        </filters>
+        <label>The British School of Navarra</label>
+    </listViews>
+    <listViews>
+        <fullName>The_British_School_of_Tashkent</fullName>
+        <columns>NAME</columns>
+        <columns>Type__c</columns>
+        <columns>School__c</columns>
+        <columns>Type_Drill_Down__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Tashkent</value>
+        </filters>
+        <label>The British School of Tashkent</label>
+    </listViews>
+    <listViews>
+        <fullName>The_International_School_of_Moscow</fullName>
+        <columns>NAME</columns>
+        <columns>Type__c</columns>
+        <columns>School__c</columns>
+        <columns>Type_Drill_Down__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The International School of Moscow</value>
+        </filters>
+        <label>The International School of Moscow</label>
+    </listViews>
+    <listViews>
+        <fullName>The_King_s_School_of_Manila</fullName>
+        <columns>NAME</columns>
+        <columns>Type__c</columns>
+        <columns>School__c</columns>
+        <columns>Type_Drill_Down__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The King&apos;s School of Manila</value>
+        </filters>
+        <label>The King&apos;s School of Manila</label>
+    </listViews>
+    <nameField>
+        <label>Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Marketing Channels</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Type_Drill_Down__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OWNER.ALIAS</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Type_Drill_Down__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OWNER.ALIAS</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Type_Drill_Down__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OWNER.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

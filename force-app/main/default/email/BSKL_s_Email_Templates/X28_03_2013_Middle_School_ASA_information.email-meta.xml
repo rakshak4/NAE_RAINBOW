@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>28/03/2013 - Middle School ASA information</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>28/03/2013 - Middle School ASA information</name>
+    <style>freeForm</style>
+    <subject>Middle School ASA information</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Good evening Middle School Parents,
+
+Please see the instructions and information below for Middle School ASA registration for term 3. There have been some minor changes to the programme this term so please check the information handbook for more information on times and costs if you are unsure. We welcome your constructive feedback regarding ASA’s. If there is anything you’d like to see on the programme next term then please let us know.
+
+Below are links for the ASA Middle School Registration form and Middle School ASA Information Handbook. Please see the instructions below for completing the forms:
+
+Decide which ASA you would like your children to do from the information provided in the ASA Information Handbook.
+Click on the ‘Registration Form’ link below.
+
+ASA Middle School Registration Term 3 (https://docs.google.com/spreadsheet/viewform?formkey=dEg0QWlNV1ljUDE4S1VQcS1OWVVyUFE6MA#gid=1)
+Middle School ASA Information Booklet (https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004QHi/3tImuoDbwVTHVamdd0Jn6Ph10lsapPj9agdOh_ZQiDo=)
+
+Fill out all of the information and click on the drop down box to see all of the ASA’s for the whole week.
+The order of ASA’s will be Tuesdays, Thursdays, Monday, Wednesday and finally Friday’s.
+Only register your child for one ASA for each of the above days.
+You will then receive confirmation via email telling you whether your child has been enrolled or put on the waitlist for that ASA.
+If you receive an email saying your child is on the wait list then please submit another registration form with your child’s 2nd choice for that day.
+You must submit separate forms for each ASA’s you wish to register your child in. For example if you would like them to do 1 ASA on Tuesday and 1 ASA on Thursday you would have to submit 2 forms, 1 for each ASA.
+
+Please take note of a few key pieces of information regarding ASA’s next term below:
+
+Please note that the “Middle School Production” &amp; “Saxophone Club” are invitation only.
+The registration deadline is on Friday 5th April.
+
+Cost for paid ASA’s is a termly fee, not for a set number of weeks or sessions. There will be no refunds for missed sessions due to public holidays or absences.
+Please note that there is no other method of registration apart from using the link below any emailed or scanned responses will not be accepted.
+
+Please check the start and finish times for the ASA your child wants to select in the ASA information book as they vary but on the whole they are 3-4pm Tuesday and Thursday.
+
+On Tuesday and Thursday, all school buses will leave just after 4pm. Any child not participating in an ASA’s on these days will need to be picked up by their parents at 3pm.
+
+Parents whose children are participating in ASA’s on Monday, Wednesday or Friday will need to arrange transport for their children as there will be no school bus after their ASA.
+
+Swim team training information and squad information will be out early in the new term.
+
+Any ASA payments can be settled with the BSKL accounts department directly in the new term, please ensure they are paid before May 31st 2013.
+
+The ASA start date is on week beginning 22nd April and end on 14th June 2013.
+
+
+Thank you in advance for your co-operation and understanding. I hope you all have a great break.
+
+
+Overview of Middle School ASA’s term 3:
+
+
+Tuesday
+
+Thursday
+
+Other days
+
+Middle School Football (boys and girls)
+
+Origami
+
+Monday
+
+Photography and Videography
+
+Athletics
+
+Middle School Production
+
+School newspaper
+
+Wall Climbing
+
+
+ICT
+
+Contact Rugby
+
+Wednesday
+
+Public speaking and Debating
+
+Basketball development
+
+Saxophone club (invite only)
+
+Tball –YEAR 6 ONLY
+
+Learning French
+
+Golf
+
+Board games and chess
+
+Drama
+
+
+Chinese Exam preparation
+
+Orchestra
+
+Friday
+
+Badminton
+
+Illustrating and Art
+
+Badminton
+
+Middle School Production
+
+ICT
+
+Tennis
+
+Swimming
+
+Board games and Chess
+
+Golf
+
+Golf
+
+Tennis
+
+
+Dance Fusion
+
+Swimming
+
+
+Taekwondo
+
+Golf
+
+
+NXT robotics
+
+Pilates
+
+
+
+Capoeira
+
+
+
+Key:
+
+Teacher led ASA’s
+
+
+Information for these ASA’s page 1-25
+
+
+Outsourced or paid ASA’s
+
+
+Information can be found from pages 26 onwards
+
+Harrie Thomson
+Head of Physical Education
+Director of Middle School After School Activities
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Scholastic Book Club</name>
+    <style>freeForm</style>
+    <subject>Scholastic Book Club</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parent(s),
+
+
+I am writing to inform you that those of you who supported us in ordering books will unfortunately not receive them prior to 5th July.
+
+
+
+The books arrived promptly in Moscow and have been held in customs for some time now.
+
+
+At this stage it is unknown at what point the books will be released. Our administration department are doing everything they can to help the situation and they will contact you directly once we have further news.
+
+
+I would like to apologise for this frustrating situation and only hope you can understand the difficulties we face when ordering from abroad.
+
+
+Thank you for your understanding,
+
+
+Kind regards
+
+
+
+Lizzie Salter
+
+Elizabeth.salter@internationalschool.ru
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

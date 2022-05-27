@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Upgrading security system. 2014</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Email to all parents about security system</name>
+    <style>freeForm</style>
+    <subject>Upgrading of security system.</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+As part of our upgrading of security on both of our campuses we have employed additional security guards and introduced CCTV cameras covering the exterior of the buildings. In addition we have also improved the parking outside the lower campus. Further improvements to the parking on the upper campus is also planned for in the near future.
+
+Can parents remind their drivers when dropping children off please use one of the designated parking bays and adhere to the one way traffic movement system that we have in place in lower campus. Please do not block the entrances to the school. As always please encourage drivers to slow their speed down in the areas around the school.
+
+When collecting your children from either campus it is important that you bring your ID passes to show at the gate. This will help us enormously and help speed up the end of day process. If you still do not have an ID pass please provide our front desk officers with 2 photos and copy of your passport so that they can issue it.
+
+School gates will open at 3:20pm (Lower Campus) and 3:25pm (Upper Campus)  at the end of each day to allow parents access.
+
+Best regards,
+
+David Kirkham
+Headmaster
+
+
+Уважаемые родители,
+
+
+
+В рамках улучшения безопасности нашего учебного заведения, мы наняли дополнительную охрану, а также ввели систему камер видеонаблюдений, охватывающих внешний периметр зданий. Также, мы усовершенствовали парковку здания детского сада. В ближайшем будущем мы планируем улучшить парковку здания школы.
+
+
+
+Убедительно просим родителей напоминать водителям, что в момент высадки детей, необходимо использовать обозначенные места парковки и придерживаться системы одностороннего движения в здании детского сада. Пожалуйста, не перекрывайте вход в школу. Напоминайте водителям, что необходимо замедлять скорость во время езды вблизи здания школы.
+
+
+
+Когда Вы забираете Ваших детей, Вам следует предъявить свою идентификационную карту личности охранному персоналу школы. Если у Вас до сих пор нет идентификационного пропуска, убедительно просим Вас обратиться на стойку ресепшена, предоставив 2 Ваших фотографии и копию паспорта.
+
+Школьные двери будут открываться в 3:20 дня (территория детского сада) и 3:25 дня (территория школы), чтобы родители смогли забрать своих детей.
+
+
+
+С уважением,
+
+
+Дэвид Киркхам
+
+Директор
+
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

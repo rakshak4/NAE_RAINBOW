@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Scholastic Book Club</name>
+    <style>freeForm</style>
+    <subject>Scholastic Book Club</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear parents,
+
+
+As I am sure you are aware ISM have experienced a few hiccups in the past regarding book orders. So hopefully this new system will be much easier for all.
+
+I have just set up our International School Book Club group order online. Unlike previous orders, each parent can access this via a weblink which will ask the parent to select and pay online direct to the company.
+
+Book catalogues will go out today with all available books. In addition you can access the catalogue online at http://eu.clubs-school.scholastic.co.uk/international-schl-of-moscow
+
+Please order your books by Friday 17th May 2013. After that date, I shall confirm all orders are in and the books will be delivered to school for me to hand out in class. Every book you buy from ISBC helps us to earn commission to spend on much-needed books for our libraries!
+
+Take a look at what is on offer here http://eu.clubs-school.scholastic.co.uk/international-schl-of-moscow – there are some great bargains aswell as books that you may not find on any other book club!
+
+There are more books available online than in the catalogue (especially for older readers). I highly recommend the online catalogue.
+
+
+Lizzie Salter
+
+Literacy Team
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

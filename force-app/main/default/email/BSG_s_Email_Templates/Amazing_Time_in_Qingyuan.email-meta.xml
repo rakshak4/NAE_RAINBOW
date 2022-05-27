@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Year of the Snake Design competition</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Year of the Snake Design competition</name>
+    <style>freeForm</style>
+    <subject>Year of the Snake Design competition</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The Chinese department would like to hold a Chinese zodiac (Year of Snake) design competition for Y1 to Y6 students. The winner’s design will be chosen for our CNY Lakefront and Nanhu performance programme bookletand also on our “BSG 2013 Chinese New Year Cards” which will be available during the last week before our CNY holiday at both Reception desks. Please CLICK here for more details.
+
+
+
+
+
+
+
+Regards,
+Alison Liu
+Head of Chinese Department
+
+
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

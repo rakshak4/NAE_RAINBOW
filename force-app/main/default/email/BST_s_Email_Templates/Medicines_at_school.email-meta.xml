@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Medicines at school</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Medicines at school</name>
+    <style>freeForm</style>
+    <subject>Medicines at school</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+As the weather is becoming colder, an increasing number of children are coming in to school requiring medication.
+
+
+In order for us to keep our students safe, the school doctor and nurse will not be able to administer medication to students or accept phone calls asking to administer medication of any kind. If your child requires regular doses of medication they will be deemed not fit for school.
+
+
+If your child is not able to attend PE due to illness, a medical certificate will also need to be provided. This should include the reason for absence from the lesson and the duration.
+
+
+Thanking you in advance for your understanding!
+
+
+David Kirkham
+
+Headmaster
+
+
+
+
+
+Уважаемые родители!
+
+
+Погода становится всё холоднее и в школу приходит все больше детей, которым требуется медицинское лечение с использованием различных медицинских препаратов.
+
+
+В целях безопасности, школьному врачу и медсестре запрещено давать какие-либо медицинские препараты учащимся даже по Вашей просьбе, озвученной во время телефонного звонка. Даже если Вашему ребёнку требуется регулярный приём лекарственных средств, это не может осуществляться в школе.
+
+
+Если Ваш ребенок не в состоянии посещать уроки физкультуры по состоянию здоровья, необходимо предоставить медицинскую справку. Справка должна содержать причину отсутствия и включать в себя срок её действия.
+
+
+Надеемся на Ваше понимание.
+
+
+Дэвид Киркхам
+
+
+Директор школы.
+
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

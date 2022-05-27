@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Online Club Letter</name>
+    <style>freeForm</style>
+    <subject>Online Club Letter</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+March 22nd 2013
+
+
+Online Club Selection Process
+
+
+Dear Parents,
+
+
+As our school continues to grow, we are constantly striving to make the After School Activities Programme a more efficient and fair process. The new ASA programme will start on Tuesday 23rd April and will end on Wednesday 12th June.
+
+
+We have been working on a new online system, which is now in place for the upcoming round of clubs. This requires you and your child to make the selection on the internet rather than using the old paper version.
+
+
+The link to the website will be sent out by the admissions team on Wednesday 27th March at around 5pm. If the admin team does not have your up to date email address, then please get in touch with them prior to this date. Alternatively, you can visit the school website at this time to click on the link and select your club.
+
+
+To make this process even smoother, please be aware of the following points:
+
+
+· Please only select one club on a Tuesday and one club on a Wednesday.  If a child’s name appears twice on a particular day, they will be removed from their club selections.
+
+
+
+· Please fill in your child’s full name when registering for a club. Then, please add your email address to allow a confirmation ticket to be sent.  You do not have to print this but please keep it for your reference.
+
+
+
+· When the system asks you “did you mean” and provides you with another email address, please click NO.
+
+
+
+· Please make sure that any money for clubs is taken directly to the accounts office in a clearly labeled envelope.  This money should not go to reception or the class teacher.
+
+
+
+· If tickets are not available for a club or it states “sold out”, this means that there are no spaces left.  You should choose another club at this point.
+
+
+
+Thank you for your continued support with the after school activities programme.
+
+
+Kind regards,
+
+
+Mr. Adam Hoult
+
+After School Activities Coordinator
+
+The International School of Moscow
+
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>End of Academic Year 2017/18</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>End of Academic Year 2017/18</name>
+    <style>freeForm</style>
+    <subject>End of Academic Year 2017/18</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+It is the end of a long but successful academic year and I would like to thank the whole BST community for their help and support. After the move to the Nord Anglia Education in December we have been working hard on the transition process to a group of 56 school s and over 50,000 students. Student visits to Switzerland, Poland, Germany and Slovakia are all being prepared for the next academic as well as accessing the collaboration with the Juilliard school, MIT and Unicef.
+
+Over the summer break we will be creating new Year 2 classes, a Music room and new ICT suite for Sayram Campus and extra language classrooms and ICT suite in Kalandar campus.
+New playground equipment will be purchased for both campuses as well as a large supply of new books for the Library.
+
+From September children from Pre-Nursery to Year 2 will be accommodated in Sayram Campus until the completion of the new Secondary campus in 2019.
+Year 3 to Year 11 will be accomodated in Kalandar Campus.
+
+We will be welcoming 25 new staff including 18 expatriate staff coming from the UK, Australia, Spain and South Africa to further enhance our staffing provision.
+Our curriculum provision has been enhanced with the appointment of a Girls PE/Swimming teacher which will mean Swimming being added to the PE curriculum.
+We will be offering French &amp; Korean to the language curriculum from Year 5 upwards and also Computer Science up to IGCSE level is now added to the curriculum.
+
+We will be sad to say goodbye to a number of staff who are leaving BST for new challenges, but I would like to thank them all for their contribution to the school, and we wish them well for the future
+
+Mrs Janine Campbell
+Mrs Sitora Khotamova
+Mr Matt Blake
+Mr Nathan Jeffers
+Ms Lesley Pinault
+Miss Anne Duncan
+Mr Felix Ortiz
+Mr Ben Ramsdale
+Miss Fiona Hutchison
+Mr Ricky Cole
+Mr Paul Appleby
+Miss Rachel Teague
+Miss Amy Armstrong
+Ms Diana Negmatova
+
+I would like to make a special mention for Mrs Sitora who has been at the school since its opening. She has been an outstanding practitioner and someone we have grown to trust and respect. As one of our first UK qualified local teachers, she has been a role model for all.
+
+I would like to thank all parents who completed the Parents Satisfaction Survey and it was pleasing to see the many positive comments about the school. However areas of concern were highlighted and I would like to share with you some of the actions that we will be putting in place to address these concerns.
+
+Extra Curricular Clubs.
+We will be expanding our clubs programme to include outside providers to enrich our Clubs provision. We trialled this year Chess, Martial Arts and Dance and we will now be expanding this programme to give parents and children the opportunity to try more activities. We will also continue to offer clubs run by BST staff. We will also be trialling Adult  English language lessons.
+
+Trips.
+We will be organising trips in collaboration with Nord Anglia Education to Poland, Switzerland., Slovakia and Germany in 2018/19. Year 4-6 will also be accessing residential trips within Uzbekistan, and all Primary classes will have termly day visits within Tashkent
+
+Individual pupil support.
+We will be employing EAL Teacher Assistants to develop support strategies within the classroom and extraction groups to develop language skills within BST. Individualised Education Plans (IEP) will be in place for selected students.
+
+School Communication outside of educational issues.
+I will be inviting selected parents with academic and administrative staff to create a Working group to discuss improving parental communication. Staff will also be contacting parents more frequently on sharing and celebrating successes
+
+School lunches.
+Mr Cardall and Mr Walker will be meeting student groups and School council to discuss menus, food quality and variety. We will also be inviting parents in to sample lunches with selected year groups in 2018/19.
+
+I would like to sincerely thank you for the help and support this year, and I would like to wish you and your family a safe and restful holiday. I look forward to see you in September
+
+Best wishes
+Adrian Macaula
+
+
+Уважаемые родители!
+
+Этот учебный год выдался долгим , но продуктивным, и я хочу поблагодарить всех наших родителей, учеников и сотрудников Британской школы за их помощь и поддержку. После объединения в декабре с командой Nord Anglia Education, мы начали работу в группе из 56 школ и более 50 000 студентов. Мы планируем отправить наших учащихся в Швейцарию, Польшу, Германию и Словакию в рамках образовательного сотрудничества со школой Julliard, Массачусетским технологическим институтом и ЮНИСЕФ.
+Во время летних каникул мы собираемся открыть новые кабинеты для 2-ых классов, музыкальную комнату и новый кабинет по информатике в здании Сайрам, а также- дополнительный кабинет для изучения языков и новый кабинет по  информатике в здании Каландар.
+Новое оборудование для игровых площадок будет закуплено для обоих зданий, а наша библиотека пополнится новыми книгами.
+С сентября учащиеся от Pre-Nursery до Year 2 будут размещены в здании Сайрам до завершения строительства средней школы в 2019 году.
+Учащиеся с 3 по 11 классы продолжат учебу в Каландар кампусе.
+Мы поприветствуем 25 новых сотрудников, в том числе 18 иностранных сотрудников из Великобритании, Австралии, Испании и Южной Африки с целью расширения нашего кадрового обеспечения.
+
+Наша учебная программа была дополнена учебной программой по физической культуре. Новый преподаватель по физической культуре для девочек начнет работу с нового учебного года; также в программу войдет плавание.
+
+С 5 класса будет предложена учебная программа по французскому и корейскому языку, а также уроки информационных технологий (информатика) до уровня IGCSE, которые войдут в учебную программу.
+Нам придется попрощаться с рядом сотрудников, которые покидают Британскую школу, но я хотел бы поблагодарить их за вклад в развитии школы.
+Мисс Джанин Кэмпбелл
+Мисс Ситора Хотамова
+Мистер Мэттью Блейк
+Мистер Натан Джефферс
+Мисс Лесли Пино
+Мисс Энн Дункан
+Мистер Феликс Ортиз
+Мистер Бен Рамсдейл
+Мисс Фиона Хатчисон
+Мистер Рикки Коул
+Мистер Пол Эпплби
+Мисс Рейчел Тиг
+Мисс Эми Армстронг
+Мисс Диана Негматова
+Я хотел бы особо выделить миссис Ситору, которая была в школе с момента ее открытия. Она была прекрасным преподавателем, которая смогла добиться уважения и карьерного роста. Являясь одним из первых преподавателей, которая получила квалификацию в Великобритании, она стала образцом для подражания среди учителей.
+Я хотел бы поблагодарить всех родителей, которые прошли опрос о соответствии школы, и мне было приятно видеть много положительных отзывов о школе. Тем не менее, в опросе были пункты, которые, я бы хотел выделить и которыми хотел бы поделиться с Вами.
+
+Дополнительные учебные клубы
+Мы будем продолжать расширять нашу программу клубов и будем приглашать специалистов извне для их проведения . В этом году мы включили в работу клубов шахматы, боевые искусства и танцы, и мы планируем расширять эту программу, чтобы дать родителям и детям больше выбора. Сотрудники нашей школы также продолжат вести клубы. Мы также  планируем организовать курсы английского языка для родителей наших учащихся.
+
+Образовательные поездки
+Мы планируем организовать поездки в сотрудничестве с Nord Anglia Education в Польшу, Швейцарию, Словакию и Германию в 2018-2019 учебном году. Для учащихся с 4 по 6 классы также будут организованы поездки по Узбекистану, а для начальных классов будут организованы экскурсии по Ташкенту.
+
+Индивидуальная поддержка учащихся
+В нашем штате появятся ассистенты EAL департамента, чья работа будет направлена на развитие языковых навыков. Индивидуальные планы обучения (IEP) будут созданы для отдельных учащихся.
+
+Обратная связь со школой, не касающаяся школьных вопросов
+Мы планируем создать особую группу родителей, которые в сотрудничестве с академическим персоналом и администрацией, будут обсуждать то, как можно улучшить двустороннюю связь между школой и родителями. Сотрудники также будут чаще общаться с родителями для обмена информацией об учащихся и их достижениях.
+
+Школьные обеды
+Мистер Кардалл и мистер Уокер обсудят с учениками и школьным советом качество и разнообразие продуктов питания. Мы также пригласим родителей учащихся на пробные обеды, которые войдут в меню на 2018/19  учебный год.
+Я хотел бы искренне поблагодарить Вас за помощь и поддержку в этом году. Я с нетерпением жду встречи с Вами в сентябре.
+
+С наилучшими пожеланиями,
+Адриан Маколей
+
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

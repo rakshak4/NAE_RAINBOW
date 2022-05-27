@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Sibling Application for 2019-20 School Year Rosinka</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NAE_Branding_Letterhead_ISM</letterhead>
+    <name>Sibling Application for 2019-20 School Year Rosinka</name>
+    <style>freeForm</style>
+    <subject>ISM | Sibling Application Period for 2019-20 School Year</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

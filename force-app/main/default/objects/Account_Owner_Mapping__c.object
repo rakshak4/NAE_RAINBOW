@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>This setting is used to determine appropriate &quot;Mass Email&quot; or &quot;Catch All&quot; account for a given Account/Opportunity Owner. Name field contains &quot;Owner Name&quot; and Account Id field contains Id of associated account.. This setting is used in Opportunity trigger.</description>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Account_Id__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Id of the corresponding &quot;Mass Email &quot; OR &quot;Catch All&quot; Account.</inlineHelpText>
+        <label>Account Id</label>
+        <length>20</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Create_Student_Academic_Files__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Controls the creation of student academic files for new students so that schools can migrate to School Kompanion for the academic aspect of school life</description>
+        <externalId>false</externalId>
+        <label>Create Student Academic Files</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>School_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>School Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>School_Short_Name__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>short name for school. used in accounting processes.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>short name for school. used in accounting processes.</inlineHelpText>
+        <label>School Short Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <label>Account Owner Mapping</label>
+    <listViews>
+        <fullName>All_Settings</fullName>
+        <columns>NAME</columns>
+        <columns>School_Name__c</columns>
+        <columns>School_Short_Name__c</columns>
+        <columns>Account_Id__c</columns>
+        <columns>Create_Student_Academic_Files__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Settings</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Mappings</fullName>
+        <columns>NAME</columns>
+        <columns>School_Name__c</columns>
+        <columns>School_Short_Name__c</columns>
+        <columns>Account_Id__c</columns>
+        <columns>Create_Student_Academic_Files__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Mappings</label>
+        <language>en_US</language>
+    </listViews>
+    <visibility>Protected</visibility>
+</CustomObject>

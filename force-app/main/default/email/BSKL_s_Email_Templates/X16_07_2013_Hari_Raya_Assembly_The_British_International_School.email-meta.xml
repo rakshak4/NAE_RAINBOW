@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>16/07/2013 Hari Raya Assembly - The British International School</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>16/07/2013 Hari Raya Assembly - The British International School</name>
+    <style>freeForm</style>
+    <subject>Hari Raya Assembly - The British International School</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Eid or “Hari Raya” (as it is called in Malaysia) is one of the biggest festivals in Malaysia that is celebrated by the Malay Muslims. It is the month that marked the end of Ramadhan and is celebrated with a lot of traditional food, along with plenty of joy and happiness.
+
+The Bahasa Malaysia Department of The British International School is organizing a “Hari Raya” (Eid) assembly in September 2013 as part of our effort to introduce the Malay culture to the world. On this day, children and teachers usually come to school dressing up in Malay traditional costumes of “Baju Kurung or Baju Kebaya” for girls and women, and “Baju Melayu” for boys and men. Please take a look at the pictures below for examples of the traditional costumes mentioned above.
+
+Additionally, we also have a class decoration competition and a few other activities on that day. Some suggestions for decorations include: Ketupat (rice cubes in coconut leaves), Pelita (Oil Lamp), Lemang (Sticky rice in bamboo), “Selamat Hari Raya” banner, “Hari Raya” money packets and crescent and moon. I have also include pictures for all the items mentioned above for your convenience.
+
+This month is the month of Ramadhan, so it is the best month for you to go out to find beautiful traditional costumes and “hari raya” decorations. Tesco and Giant Hypermarket are among the best places to find nice costumes, as well as mini bazaars in The Curve and Jaya Jusco in One Utama. By September 2013, these items would be off season and will be quite difficult to find. So it is best if you could spend some time browsing around and try to get the best bargain on these items while it is still on sale.
+
+That is all from the Bahasa Department. We wish you all the best settling in and we look forward to see you soon!
+
+Kind Regards
+
+Nurul Shakina
+Bahasa Teacher
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>The COBIS Games 2014</name>
+    <style>freeForm</style>
+    <subject>The COBIS Games 2014</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+I am delighted to announce that information for the 2014 COBIS Games has now been finalised.
+
+The Secondary Games – Years 7 and 8 students – Istanbul, Turkey
+The Primary Games – Year 5 and 6 students – Abu Dhabi
+
+The COBIS Games is an elite sporting competition held over three days.  Students selected will have to compete in Swimming, Football and Athletics.
+
+To get a flavour of what the event is like, then please click on the link to view a video presentation on the 2013 Games. http://vimeo.com/67445908
+
+If you would like your child to trial for the Games then please complete the letter in the links below and return it to your child&apos;s class teacher. Once you have confirmed your place at the trial, further information regarding exact locations will be confirmed.
+
+Abu Dhabi Trials
+Istanbul Trials
+
+Yours sincerely,
+
+Adam Hoult
+Head of Physical Education
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

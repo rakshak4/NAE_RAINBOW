@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Swimming Gala Y1 - Y3</name>
+    <style>freeForm</style>
+    <subject>2013 Swimming Gala Y1 - Y3</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+We are currently 4 weeks into our exciting swimming unit and the children are starting to get very excited about the upcoming Swimming Gala.
+
+This year we have decided to make some slight changes, which will benefit all children and enhance the gala. Children in Year 1 will be having a Splash Day on Wednesday 11th December at 9.30am and will finish no later than 11am. The children will still compete in a variety of races and all points will go towards the final Interhouse total.
+
+By doing this the children will be able to compete in more events and have less time sat on the side. This also means that there will be more space for parents to sit and enjoy the event.
+
+Children in Year 2 and 3 will compete in the traditional Swimming Gala on Thursday 12th December at 9.30am and will finish no later than 12.15pm.
+
+Children need to bring a swimming costume/suit, 2 towels, goggles, swim hat, house t-shirt and suitable footwear for use on the poolside.
+
+All children are expected to swim and will only be excused if a signed doctors note has been sent to school.
+
+The full address where the swimming will take place is:
+
+2 Ostrovnaya Street,
+
+Krylatskoe.
+
++7 (495) 234-74-51
+
+We look forward to seeing you all there on the above dates.
+
+Yours sincerely,
+
+The PE Team
+
+The International School of Moscow
+
+World Class Education
+
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

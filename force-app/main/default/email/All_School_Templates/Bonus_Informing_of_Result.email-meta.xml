@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Bonus - Informing of Result</name>
+    <style>none</style>
+    <subject>Bonus Calculation</subject>
+    <textOnly>Staff Member: {!Account.FirstName}  {!Account.LastName}
+Position: {!Employment_Agreement__c.Position_in_Contract__c}
+Date: {!Employment_Agreement__c.Contract_Text_Today__c}
+
+Dear {!Account.FirstName},
+
+You are to receive a Bonus of {!Employment_Agreement__c.Bonus_Letter_Result_Bonus__c} payable within one month of {!Employment_Agreement__c.Copy_Bonus_Date_Payable__c}. This bonus is the result of the following calculation, based on {!Employment_Agreement__c.Bonus_Criteria__c}:
+
+{!Employment_Agreement__c.Bonus_Letter_Calc_3__c}{!Employment_Agreement__c.Bonus_Letter_Objectives_Calcul_2__c}{!Employment_Agreement__c.Bonus_Letter_Personal_Objectives_Calcul__c}{!Employment_Agreement__c.Bonus_Letter_Result_Bonus__c}
+
+The school has confirmed a total of {!Employment_Agreement__c.Bonus_Copy_Student_Numebers_Confirmed__c} as of {!Employment_Agreement__c.Copy_Bonus_Criteria_Date__c}. If you have any questions regarding the above calculation, please contact your Line Manager.
+
+
+The school thanks you for you continued efforts and work, and trusts that you find this bonus payment a fair reflection of the results achieved over this past academic year.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

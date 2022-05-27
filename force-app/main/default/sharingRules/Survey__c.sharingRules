@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Share_Surveys_with_BCB_Head_of_Admin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share Surveys with BCB Head of Admin</label>
+        <sharedTo>
+            <role>BCB_Head_of_Administration</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>BCB_Administration_Department</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Surveys_with_BSKL_Head_of_Admin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share Surveys with BSKL Head of Admin</label>
+        <sharedTo>
+            <role>BSKL_Head_of_Administration</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>BSKL_Administration_Department</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Surveys_with_BSNJ_Head_of_Admin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share Surveys with BSNJ Head of Admin</label>
+        <sharedTo>
+            <role>BSNJ_Head_of_Administration</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>BSNJ_Administration_Department</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Surveys_with_BST_Head_of_Admin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share Surveys with BST Head of Admin</label>
+        <sharedTo>
+            <role>BST_Head_of_Administration</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>BST_Administration_Department</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Surveys_with_BSY_Head_of_Admin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share Surveys with BSY Head of Admin</label>
+        <sharedTo>
+            <role>BSY_Head_of_Administration</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>BSY_Administration_Department</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Surveys_with_ISM_Head_of_Admin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share Surveys with ISM Head of Admin</label>
+        <sharedTo>
+            <role>ISM_Head_of_Administration</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>ISM_Administration_Department</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Surveys_with_NAISM_Head_of_Admin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share Surveys with NAISM Head of Admin</label>
+        <sharedTo>
+            <role>NAISM_Head_of_Administration</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>NAISM_Administration_Department</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

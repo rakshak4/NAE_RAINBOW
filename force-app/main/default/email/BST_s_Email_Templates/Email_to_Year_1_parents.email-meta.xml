@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>KS1 Sports Day Consent form</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Email to Year 1 parents</name>
+    <style>freeForm</style>
+    <subject>Sports Day in Upper Campus</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+On Thursday 3rd April your children will be taking part in the Key Stage 1 Sports Day at the upper campus from 9 am until 12 pm.  Please find attached consent form for this trip. Could you please sign this form and return it to your child&apos;s class teacher.
+
+
+В четверг, 3 апреля, ваши дети будут принимать участие в Дне спорта в Новом Здании школы с 9 утра до 12.  В прикрепленном документе приводится форма согласия для этой поездки. Пожалуйста, не могли бы вы подписать и вернуть ее  классному руководителю вашего ребенка до пятницы 28 марта.
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

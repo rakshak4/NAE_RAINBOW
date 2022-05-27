@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20150421 Communication in BSKL</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20150421 Communication in BSKL</name>
+    <style>freeForm</style>
+    <subject>Communication at BSKL</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+21 April 2015
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}
+
+Based on feedback and suggestions from the BSKL community we have worked on improving the parent-teacher communication. I would like to explain the different channels of communication that are now in place.
+
+
+
+Face to face
+
+Face to face communication with your child’s teacher or a member of admin is always the best form. We welcome this but also realise that not all parents are able to do this daily.
+
+
+
+Parent portal : Calendar
+
+The calendar contains dates, events and notices relevant to your child or children. All information that require parents to act will be in the calendar, normally long in advance. An email will be sent to parents if there is a change in the calendar within two weeks of the relevant date. As it is important that parents regularly look at the calendar we send automatic reminders every Sunday to parents that have not logged in to the parent portal for a while.
+
+
+
+Parent portal : Blogs
+
+You are invited to follow and participate in any blogs that relate to your child (e.g class blog / sports team blog / head of primary or secondary blog / whole school blog). In these blogs you will find information about what is going on in class, photos and videos of your children at work, team lists and updates on competition results.  This is also an area where we want to see you contributing (liking, commenting, sharing links).
+
+
+
+Essential communication : Email
+
+In addition to posting in the relevant parent portal blog, an email will be sent out if it is imperative that parents receive information and the information is not something that would usually show in the Parent Portal Calendar. This may be a letter from myself informing parents of important changes or initiatives at BSKL. This may also be in an emergency (e.g., school will be closed due to the haze).
+
+
+
+Head of Primary / Head of Secondary
+
+Each week Mr Mackey and Mrs Birchall post a blog entry summarising the highlights of the week, drawing attention to upcoming events and updates on curriculum initiatives.  Mr Mackey holds a half-termly parent forum and Mrs Birchall holds a number of termly ‘Coffee and Chat’ sessions for different key stages in primary to give parents the chance for discussion with the leadership team. Mrs Mackey meets with class reps on a termly basis.
+
+
+
+If you have trouble accessing the parent portal or questions about how it works, please do not hesitate to contact Nigel Parker (Parent Portal Liaison Officer)
+
+either in person at the Parent Portal Centre(secondary library EAL room)
+
+Monday 7.30-8.15am
+
+Thursday 7.30-8.15am/2.30-3.30pm
+
+or by email
+
+portal.support@britishschool.edu.my
+
+
+
+Kind Regards,
+
+
+
+Janet Brock
+
+Headteacher
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

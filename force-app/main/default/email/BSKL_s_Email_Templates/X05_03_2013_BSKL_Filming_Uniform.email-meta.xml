@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>05/03/2013 BSKL Filming - Uniform</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>05/03/2013 BSKL Filming - Uniform</name>
+    <style>freeForm</style>
+    <subject>BSKL Filming - Uniform</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I trust this finds you all well.
+
+Please note that commencing on Wednesday 6th March 2013 we will have a film crew in school.   This film crew will be filming footage to be used in a video for The British Schools Foundation.  The video will represent the daily lives of students in our schools.
+
+We will be  filming all aspects of life here at The British International School of Kuala Lumpur.  Please see below for more information on the filming schedule:
+
+  - Foundation Stage will be filmed on Wednesday 6th and Thursday 7th March
+  - Sports throughout the school will be filmed on Thursday 7th and Friday 8th March
+  - Primary Stage will be filmed on Monday 11th and Tuesday 12th March
+  - Secondary Stage will be filmed on Tuesday 12th March and Wednesday 13th March
+  - Music throughout the school will be filmed on Tuesday 19th March
+  - Information Technology throughout the school will be filmed on Wednesday 20th March
+
+Please ensure that during these periods your child brings their school blazer in to school.  On days that your child has PE, please ensure they come into school in their uniform, bringing their PE kit in their bag.  They will then be given time to change into their PE kits before their lesson.
+
+Thank you in advance for your cooperation and should you require any further information please contact your Class Teacher or a member of the administration team.
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

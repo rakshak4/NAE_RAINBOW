@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Year 8 Curriculum Letter Term 1, 2013</name>
+    <style>freeForm</style>
+    <subject>Year 8 Curriculum Letter Term 1, 2013</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+
+Welcome to The International School of Moscow! We trust that you enjoyed a safe and relaxing summer, and are ready for the excitement of another school year. As with every year, we are fully focused on ensuring every child progresses and fulfills their full potential. We believe that parents are instrumental in achieving this, so your active support is always warmly appreciated.
+
+
+As always there will be much going on this term. To begin with, we would like to invite you to our ‘Meet The Teacher’ evening on Wednesday the 11th of September at 6pm where you will be introduced to your child’s teaching team and given some guidance on what your child’s year of education will be like.
+
+
+
+Please click here for the Year 6 Curriculum overview.
+
+
+Here are more key dates for the term ahead:
+
+
+
+
+11th September                                             Meet the Teacher
+
+24th September                                             ASAs begin
+
+20th September                                             6A assembly
+
+4th October                                                     6B assembly
+
+21st – 25th October                                       Half Term (No School)
+
+28th October – 1st November                     Story Week
+
+1st November                                                Initial reports issued
+
+19th &amp; 20th November                                  Parent Teacher Consultations
+
+11th and 12th December                              Year 6 Production
+
+18th December                                              Christmas Carol Concert
+
+20th December                                               Last day of term
+
+
+
+In order to help the children achieve to the best of their abilities, we will work hard to keep you fully informed of school activities. Each week we will email you an informative Weekly Blurb that contains details of what your child has studied at school. You should also consult the school website and newsletter regularly for other important news and dates. Finally, you should monitor or ask about your child’s book-bag regularly, as notes home and permission slips are also often issued.
+
+
+We look forward to working together with you over the coming school year to help your children achieve great personal and academic success!
+
+
+Yours Faithfully,
+
+
+
+Year 6 Teaching Team
+
+
+Mr. Hamilton                                                               Miss Ngcobo
+
+Classroom Teacher                                               Assistant Teacher
+
+
+Miss Roberts                                                             Mr. Etheridge
+
+Classroom Teacher  Assistant Teacher
+
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

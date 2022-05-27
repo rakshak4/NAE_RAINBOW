@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to all parents about gifts for staff 2014</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Gifts for staff</name>
+    <style>freeForm</style>
+    <subject>Gifts for staff</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I have noted during my time here that parents feel obligated to provide gifts for staff on many occasions during the school year which is not inline with our school policy.
+
+We have many events in school and celebrate many special days such as Teachers Day, Women&apos;s Day , Navruz, UN Day, end of term etc. Your help and support on these days is always welcomed and appreciated and to be perfectly honest is the only gift we we require. Parental support is vital for the healthy development of the school.
+
+Can I make it clear to all parents that purchasing expensive gifts for staff in school is against school policy. Indeed in our staff handbook it states that employees should only accept gifts of a modest and token value.
+
+Whilst your warmth and generosity is appreciated there is no expectation for you to provide any gifts to staff who are merely doing their jobs.
+
+Best regards,
+
+David Kirkham
+
+
+
+Уважаемые родители,
+
+
+В период работы в школе, я заметил что родители считают себя обязанными преподносить подарки сотрудникам школы по различным случаям в течение учебного года, и это не соответствует политике нашей школы.
+
+
+Мы проводим много мероприятий в школе и особо отмечаем некоторые даты, такие как: День учителя, Международный женский день, Навруз, День ООН, окончание учебного года и т.д.  Ваша помощь и поддержка в эти дни всегда приветствуются и высоко ценится нами, и, честно говоря, это единственный подарок, который мы просим. Родительская поддержка очень важна для нормального развития школы.
+
+
+Я бы хотел прояснить перед всеми родителями, что приобретение дорогих подарков для сотрудников школы – это против политики нашей школы. Действительно, в должностной инструкции для персонала указано, что сотрудники могут принимать только скромные и символические подарки.
+
+
+Ваша теплота и щедрость очень ценятся, нет необходимости в предоставлении дополнительных дорогих подарков для сотрудников, которые выполняют свою работу.
+
+
+С уважением,
+
+
+
+Дэвид Киркхам
+
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

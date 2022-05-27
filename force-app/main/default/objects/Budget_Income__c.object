@@ -1,0 +1,1750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Assumptions__c</fullName>
+        <externalId>false</externalId>
+        <label>Assumptions</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Average_Fee_per_Student__c</fullName>
+        <externalId>false</externalId>
+        <formula>School_Budget__r.Tuition_Revenues__c / School_Budget__r.Number_of_Students__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Average Fee per Student</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Children_Using_Service__c</fullName>
+        <externalId>false</externalId>
+        <label>% Children Using Service</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Fee_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Fee Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Fee_del__c</fullName>
+        <externalId>false</externalId>
+        <label>Fee</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pre-Nursery 1 Tuition</fullName>
+                    <default>false</default>
+                    <label>Pre-Nursery 1 Tuition</label>
+                </value>
+                <value>
+                    <fullName>Pre-Nursery Tuition</fullName>
+                    <default>false</default>
+                    <label>Pre-Nursery Tuition</label>
+                </value>
+                <value>
+                    <fullName>Nursery Tuition</fullName>
+                    <default>false</default>
+                    <label>Nursery Tuition</label>
+                </value>
+                <value>
+                    <fullName>Reception Tuition</fullName>
+                    <default>false</default>
+                    <label>Reception Tuition</label>
+                </value>
+                <value>
+                    <fullName>Year 1 Tuition</fullName>
+                    <default>false</default>
+                    <label>Year 1 Tuition</label>
+                </value>
+                <value>
+                    <fullName>Year 2 Tuition</fullName>
+                    <default>false</default>
+                    <label>Year 2 Tuition</label>
+                </value>
+                <value>
+                    <fullName>Year 3 Tuition</fullName>
+                    <default>false</default>
+                    <label>Year 3 Tuition</label>
+                </value>
+                <value>
+                    <fullName>Year 4 Tuition</fullName>
+                    <default>false</default>
+                    <label>Year 4 Tuition</label>
+                </value>
+                <value>
+                    <fullName>Year 5 Tuition</fullName>
+                    <default>false</default>
+                    <label>Year 5 Tuition</label>
+                </value>
+                <value>
+                    <fullName>Year 6 Tuition</fullName>
+                    <default>false</default>
+                    <label>Year 6 Tuition</label>
+                </value>
+                <value>
+                    <fullName>Year 7 Tuition</fullName>
+                    <default>false</default>
+                    <label>Year 7 Tuition</label>
+                </value>
+                <value>
+                    <fullName>Year 8 Tuition</fullName>
+                    <default>false</default>
+                    <label>Year 8 Tuition</label>
+                </value>
+                <value>
+                    <fullName>Year 9 Tuition</fullName>
+                    <default>false</default>
+                    <label>Year 9 Tuition</label>
+                </value>
+                <value>
+                    <fullName>Year 10 Tuition</fullName>
+                    <default>false</default>
+                    <label>Year 10 Tuition</label>
+                </value>
+                <value>
+                    <fullName>Year 11 Tuition</fullName>
+                    <default>false</default>
+                    <label>Year 11 Tuition</label>
+                </value>
+                <value>
+                    <fullName>Year 12 Tuition</fullName>
+                    <default>false</default>
+                    <label>Year 12 Tuition</label>
+                </value>
+                <value>
+                    <fullName>Year 13 Tuition</fullName>
+                    <default>false</default>
+                    <label>Year 13 Tuition</label>
+                </value>
+                <value>
+                    <fullName>Capital Contribution/Deposit</fullName>
+                    <default>false</default>
+                    <label>Capital Contribution/Deposit</label>
+                </value>
+                <value>
+                    <fullName>Lunch Fees</fullName>
+                    <default>false</default>
+                    <label>Lunch Fees</label>
+                </value>
+                <value>
+                    <fullName>Bus Fees</fullName>
+                    <default>false</default>
+                    <label>Bus Fees</label>
+                </value>
+                <value>
+                    <fullName>Uniform Fees</fullName>
+                    <default>false</default>
+                    <label>Uniform Fees</label>
+                </value>
+                <value>
+                    <fullName>Application Fees</fullName>
+                    <default>false</default>
+                    <label>Application Fees</label>
+                </value>
+                <value>
+                    <fullName>EAL Fees</fullName>
+                    <default>false</default>
+                    <label>EAL Fees</label>
+                </value>
+                <value>
+                    <fullName>Extra-Programmes</fullName>
+                    <default>false</default>
+                    <label>Extra-Programmes</label>
+                </value>
+                <value>
+                    <fullName>Other Fees</fullName>
+                    <default>false</default>
+                    <label>Other Fees</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Locked__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(School_Budget__r.Locked__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Locked</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Monthly_Fee__c</fullName>
+        <externalId>false</externalId>
+        <label>Monthly Fee</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Months_in_a_Year__c</fullName>
+        <externalId>false</externalId>
+        <label>Months in a Year</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>10</fullName>
+                    <default>false</default>
+                    <label>10</label>
+                </value>
+                <value>
+                    <fullName>12</fullName>
+                    <default>false</default>
+                    <label>12</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Number_of_Paybacks__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Paybacks</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pay_Monthly__c</fullName>
+        <externalId>false</externalId>
+        <label>% Pay Monthly</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Pay_Termly__c</fullName>
+        <externalId>false</externalId>
+        <label>% Pay Termly</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Pay_Yearly__c</fullName>
+        <externalId>false</externalId>
+        <label>% Pay Yearly</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Quantity__c</fullName>
+        <externalId>false</externalId>
+        <label>Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>School_Budget__c</fullName>
+        <externalId>false</externalId>
+        <label>School Budget</label>
+        <referenceTo>School_Budget__c</referenceTo>
+        <relationshipLabel>Budget - Income</relationshipLabel>
+        <relationshipName>Budget_Income</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Students_Using_Service__c</fullName>
+        <externalId>false</externalId>
+        <formula>Children_Using_Service__c * School_Budget__r.Number_of_Students__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Students Using Service</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Termly_Fee__c</fullName>
+        <externalId>false</externalId>
+        <label>Termly Fee</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Total_Bursaries__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Bursaries</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Income_Text__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Income (Text)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Total_Income__c</fullName>
+        <externalId>false</externalId>
+        <formula>(((Quantity__c* Pay_Yearly__c )*   Yearly_Fee__c )+((Quantity__c*Pay_Termly__c)*   (Termly_Fee__c*3) )+((Quantity__c*Pay_Monthly__c)*   (Monthly_Fee__c* IF(TEXT(Months_in_a_Year__c)=&quot;10&quot;,10,12)) ) )+ (Students_Using_Service__c *Fee_Amount__c   )+( of_Revenue__c *(-School_Budget__r.Gross_Income__c ))+( Number_of_Paybacks__c *(- Fee_Amount__c ))+( Average_Fee_per_Student__c * -Total_Bursaries__c )+(Quantity__c* Fee_Amount__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Income</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Yearly_Fee__c</fullName>
+        <externalId>false</externalId>
+        <label>Yearly Fee</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>of_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <label>% of Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <label>Budget - Income</label>
+    <nameField>
+        <displayFormat>I-{0000}</displayFormat>
+        <label>Entry #</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Budget - Income</pluralLabel>
+    <recordTypes>
+        <fullName>Additional_Programmes</fullName>
+        <active>true</active>
+        <label>1007-Additional Programmes</label>
+        <picklistValues>
+            <picklist>Fee_del__c</picklist>
+            <values>
+                <fullName>Application Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bus Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Capital Contribution%2FDeposit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EAL Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Extra-Programmes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunch Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nursery Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre-Nursery 1 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre-Nursery Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reception Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Uniform Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 1 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 10 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 11 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 12 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 13 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 2 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 3 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 4 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 5 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 6 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 7 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 8 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 9 Tuition</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Months_in_a_Year__c</picklist>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Application_Fees</fullName>
+        <active>true</active>
+        <label>1005-Application Fees</label>
+        <picklistValues>
+            <picklist>Fee_del__c</picklist>
+            <values>
+                <fullName>Application Fees</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Months_in_a_Year__c</picklist>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Bursaries</fullName>
+        <active>true</active>
+        <label>1010-Bursaries</label>
+        <picklistValues>
+            <picklist>Fee_del__c</picklist>
+            <values>
+                <fullName>Application Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bus Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Capital Contribution%2FDeposit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EAL Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Extra-Programmes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunch Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nursery Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre-Nursery 1 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre-Nursery Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reception Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Uniform Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 1 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 10 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 11 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 12 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 13 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 2 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 3 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 4 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 5 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 6 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 7 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 8 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 9 Tuition</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Months_in_a_Year__c</picklist>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Bus_Service</fullName>
+        <active>true</active>
+        <label>1002-Bus Service</label>
+        <picklistValues>
+            <picklist>Fee_del__c</picklist>
+            <values>
+                <fullName>Application Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bus Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Capital Contribution%2FDeposit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EAL Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Extra-Programmes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunch Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nursery Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre-Nursery 1 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre-Nursery Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reception Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Uniform Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 1 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 10 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 11 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 12 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 13 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 2 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 3 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 4 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 5 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 6 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 7 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 8 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 9 Tuition</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Months_in_a_Year__c</picklist>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Capital_Contributions_Deposits</fullName>
+        <active>true</active>
+        <label>1004-Capital Contributions/Deposits</label>
+        <picklistValues>
+            <picklist>Fee_del__c</picklist>
+            <values>
+                <fullName>Capital Contribution%2FDeposit</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Months_in_a_Year__c</picklist>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>EAL_Fees</fullName>
+        <active>true</active>
+        <label>1006-EAL Fees</label>
+        <picklistValues>
+            <picklist>Fee_del__c</picklist>
+            <values>
+                <fullName>Application Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bus Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Capital Contribution%2FDeposit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EAL Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Extra-Programmes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunch Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nursery Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre-Nursery 1 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre-Nursery Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reception Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Uniform Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 1 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 10 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 11 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 12 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 13 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 2 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 3 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 4 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 5 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 6 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 7 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 8 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 9 Tuition</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Months_in_a_Year__c</picklist>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Early_Notice_Paybacks</fullName>
+        <active>true</active>
+        <label>1009-Early Notice Paybacks</label>
+        <picklistValues>
+            <picklist>Fee_del__c</picklist>
+            <values>
+                <fullName>Application Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bus Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Capital Contribution%2FDeposit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EAL Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Extra-Programmes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunch Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nursery Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre-Nursery 1 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre-Nursery Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reception Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Uniform Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 1 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 10 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 11 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 12 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 13 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 2 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 3 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 4 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 5 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 6 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 7 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 8 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 9 Tuition</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Months_in_a_Year__c</picklist>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Lunch_Fees</fullName>
+        <active>true</active>
+        <label>1001-Lunch Fees</label>
+        <picklistValues>
+            <picklist>Fee_del__c</picklist>
+            <values>
+                <fullName>Application Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bus Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Capital Contribution%2FDeposit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EAL Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Extra-Programmes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunch Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nursery Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre-Nursery 1 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre-Nursery Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reception Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Uniform Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 1 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 10 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 11 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 12 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 13 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 2 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 3 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 4 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 5 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 6 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 7 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 8 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 9 Tuition</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Months_in_a_Year__c</picklist>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Other_Fees</fullName>
+        <active>true</active>
+        <label>1007-Other Fees</label>
+        <picklistValues>
+            <picklist>Fee_del__c</picklist>
+            <values>
+                <fullName>Application Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bus Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Capital Contribution%2FDeposit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EAL Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Extra-Programmes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunch Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nursery Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre-Nursery 1 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre-Nursery Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reception Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Uniform Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 1 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 10 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 11 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 12 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 13 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 2 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 3 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 4 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 5 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 6 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 7 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 8 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 9 Tuition</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Months_in_a_Year__c</picklist>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Revenue_Tax</fullName>
+        <active>true</active>
+        <label>1008-Revenue Tax</label>
+        <picklistValues>
+            <picklist>Fee_del__c</picklist>
+            <values>
+                <fullName>Application Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bus Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Capital Contribution%2FDeposit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EAL Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Extra-Programmes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunch Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nursery Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre-Nursery 1 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre-Nursery Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reception Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Uniform Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 1 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 10 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 11 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 12 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 13 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 2 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 3 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 4 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 5 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 6 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 7 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 8 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 9 Tuition</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Months_in_a_Year__c</picklist>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Tuition_Fees</fullName>
+        <active>true</active>
+        <label>1000-Tuition Fees</label>
+        <picklistValues>
+            <picklist>Fee_del__c</picklist>
+            <values>
+                <fullName>Nursery Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre-Nursery 1 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre-Nursery Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reception Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 1 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 10 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 11 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 12 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 13 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 2 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 3 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 4 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 5 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 6 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 7 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 8 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 9 Tuition</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Months_in_a_Year__c</picklist>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Uniform_Fees</fullName>
+        <active>true</active>
+        <label>1003-Uniform Fees</label>
+        <picklistValues>
+            <picklist>Fee_del__c</picklist>
+            <values>
+                <fullName>Application Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bus Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Capital Contribution%2FDeposit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EAL Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Extra-Programmes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunch Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nursery Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre-Nursery 1 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre-Nursery Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reception Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Uniform Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 1 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 10 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 11 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 12 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 13 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 2 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 3 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 4 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 5 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 6 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 7 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 8 Tuition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year 9 Tuition</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Months_in_a_Year__c</picklist>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Checks_Payments</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND((Pay_Monthly__c +Pay_Termly__c+Pay_Yearly__c )&gt; 0,
+
+
+(Pay_Monthly__c +Pay_Termly__c+Pay_Yearly__c) &lt;&gt; 1)</errorConditionFormula>
+        <errorMessage>% Payers must equal 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Locked</fullName>
+        <active>true</active>
+        <description>Prevents New or Edits if the budget is Locked</description>
+        <errorConditionFormula>Locked__c=&quot;Yes&quot;</errorConditionFormula>
+        <errorMessage>This School Budget is Locked. Please contact the Group Administrator for Details</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

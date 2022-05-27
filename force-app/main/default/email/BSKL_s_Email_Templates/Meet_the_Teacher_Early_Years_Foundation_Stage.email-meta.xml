@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Meet the Teacher (Early Years Foundation Stage)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Meet the Teacher (Early Years Foundation Stage)</name>
+    <style>freeForm</style>
+    <subject>Meet the Teacher (Early Years Foundation Stage)</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+For Pre-Nursery, Nursery and Reception Parents:
+Please be reminded that you can meet your child&apos;s teacher on Thursday 28th August from 1-3pm.
+
+
+Kind regards
+Sarah Townend
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

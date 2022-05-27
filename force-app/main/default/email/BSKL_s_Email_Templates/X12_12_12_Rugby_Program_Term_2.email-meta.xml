@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>12/12/12 Rugby Program - Term 2</name>
+    <style>freeForm</style>
+    <subject>Rugby Program - Term 2</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Term 2 sees the return of the school’s rugby program!  This time we are pleased to announce it is open from Year 1 up to Year 8.
+
+Please follow the link below for more details of the course:
+BSKL Rugby Program
+
+To sign up, kindly fill in the application form through the below link and make the payment of RM 250 per student at the school reception. There are limited places available so it is a first come first served basis.
+
+Please follow the link below to fill in the registration form.
+Rugby Registration Form
+
+Should you have any questions please do not hesitate to contact Harrie Thomson our Head of PE on harrie.thomson@britishschool.edu.my
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

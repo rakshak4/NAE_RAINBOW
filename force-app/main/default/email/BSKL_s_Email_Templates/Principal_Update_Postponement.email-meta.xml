@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Principal’s Update for Parents - Physical Re-opening Postponement</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NAE_Branding_Letterhead_BSKL</letterhead>
+    <name>! Principal Update - Postponement</name>
+    <style>freeForm</style>
+    <subject>Principal’s Update for Parents - Physical Re-opening Postponement</subject>
+    <textOnly>Dear Parents,
+Earlier this week we expressed our desire to have a safe and smooth re-opening to school and we outlined some of the steps we’ve been taking to ensure that we could keep all students, parents, and staff healthy.
+I’m writing now to confirm that today a member of staff at the British International School of Kuala Lumpur has tested positive for Covid-19 and while they are asymptomatic, they are undergoing quarantine. They are doing well, and we look forward to welcoming them back to school once they have made a full recovery.
+We are aware that the member of staff has been in contact with other staff and we feel that in the best interests of all in the community we take the precautionary step of postponing the re-opening of on-campus teaching and learning whilst we carry out contact tracing and all necessary testing.
+We will announce a new re-opening date in the coming days following the completion of contact tracing efforts. We are arranging testing for additional staff members who may have been in contact with this person.
+Our virtual school experience will remain in place for all students until further notice, and any proposed class realignments in the Primary School are also postponed until the new re-opening date.
+We will continue to follow guidelines and take all necessary steps to ensure the health and safety of all students, colleagues, and the wider parent community at the British International School of Kuala Lumpur as a matter of priority. Additional deep cleaning and sanitising protocols are in place as we will follow MOH’s guidance.
+We’re in close communication with our colleague, have sent our school’s best wishes and they appreciate our support.
+We understand that you may have questions and you may contact me at Carl.Mincher@britishschool.edu.my if you need more information.
+We know this is a challenging time and thank you for your understanding and support. Please know that we will keep you updated with any new developments.
+Kind regards,
+Carl Mincher
+Principal</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

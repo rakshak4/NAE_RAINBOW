@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Primary Parent Consultation</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Primary Parent Consultation</name>
+    <style>freeForm</style>
+    <subject>Primary parent Consultation</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The Primary department will be hosting their Parent Consultation Day on Wednesday 21st November. The event will take place between the hours of 9:00am – 6:00pm. As a result, students will not be in school on this day. However, we encourage parents to bring their child to the consultation meeting so they can be present when the teacher gives feedback. Meetings should last for approximately ten minutes.
+
+Using the return slip below, please show which is the most convenient session for you to attend by adding 1st, 2nd and 3rd choice to the grid. The teacher will then provide you with a specific time to visit on the day. You may also email or write a note in communication books to confirm timings.
+
+Please note that this meeting is an opportunity to discuss how your child has settled into their class. Chinese and EAL teachers will also be available to speak to on the day.
+
+The first school report of the year will be sent home on Friday 16th November. This document should be used as a discussion point for the consultation meeting.
+
+I would like to add that my office door is very much open to anyone who would like to speak to me personally on the day.
+
+The British School of Guangzhou
+
+Primary Parent Consultation Day
+
+Wednesday 21st November 9:00am-6:00pm
+
+Name of Student:______________________________________
+
+I would like to attend consultation during the following time period:
+
+(Please show 1st, 2nd and 3rd choice)
+
+
+9:00am – 11:30am
+
+12:30pm – 3:30pm
+
+4:00pm – 6:00pm
+
+
+
+
+Please tick:
+
+I would like to speak to the Chinese Teacher: __________
+
+I would like to speak to the EAL Teacher: __________
+
+Signed: __________________________________(Name of parent)
+
+Regards,
+
+
+David Laird
+Head of Primary
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

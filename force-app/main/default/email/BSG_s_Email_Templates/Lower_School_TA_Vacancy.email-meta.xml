@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Lower School TA Vacancy</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Lower School TA Vacancy</name>
+    <style>freeForm</style>
+    <subject>Lower School TA Vacancy</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I would like to inform you that due to continued growth we are currently looking for a Teaching Assistant to join our dedicated Lower School team. Lower School children benefit from small class sizes, highly qualified teachers, experienced teaching assistants, excellent resources, including interactive whiteboards in all classrooms, and impressive facilities.
+
+If you are interested in joining the Lower School team or would like further details please send a full CV, with a recent photo and contact details of two referees to katherine.weir@bsg.org.cn
+
+Candidates must be native English speakers, must hold a university degree and have relevant experience working with young children. At the British School we place great importance on our friendly classroom environment so only candidates with a genuine interest in caring for young children are encouraged to apply.
+
+I shall look forward to receiving interested candidates.
+
+Kind regards,
+
+Miss Kathy
+Head of Lower School
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

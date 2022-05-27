@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Parent Newsletter Link</name>
+    <style>freeForm</style>
+    <subject>Parent Newsletter Link</subject>
+    <textOnly>Dear Parents,
+Please be informed that the Parent Newsletter is now available on the following link......
+http://www.internationalschool.ru/info/Quicklinks/Newsletters/en
+This is a monthly letter with school, class and community news for our ISM families.
+Don&apos;t miss out on keeping up to date with the goings on at ISM !!!
+Best Regards
+The Admissions Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

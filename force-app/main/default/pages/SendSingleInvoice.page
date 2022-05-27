@@ -1,0 +1,6 @@
+<apex:page standardController="Invoice_Statement__c" action="{!sendToXero}" extensions="SendSingleInvoiceController">
+    <apex:pageMessages />
+    <apex:form >
+        <apex:commandButton value="Return to Invoice" action="{!returnToInvoice}"/>
+    </apex:form>
+</apex:page>

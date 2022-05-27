@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>International Day 2016</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>International Day 2016</name>
+    <style>freeForm</style>
+    <subject>International Day 2016</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+BST’s 2016 International Day will take place on Saturday 15th October. The event is a fun and exciting day that educates children about different national cultures through activities such as games, singing and dancing, watching educational films and trying different national cuisines.  On International Day, children may come to school wearing the national costume of the country of their choice.
+
+The usual format is for each room to be decorated in the style of a different country by staff and parent volunteers. The children then visit rooms on a rotational basis, spending around 30 minutes in each ‘country’; on arrival in each new location, they receive a stamp on their special International Day passport.  Whilst we very much hope that our consistently supportive Uzbek, British, American, Armenian, Korean, Indonesian, Chinese, Indian, Australian, Russian and Turkish parents will continue to be willing to prepare rooms and organise activities this year, it would be wonderful to increase the number of countries represented at the event.
+Other popular activities on the day include our International Day buffet lunch, where children, parents and staff can try food from around the world, and our celebratory assembly where our students will entertain the audience with music and dancing from a range of cultures that they have studied in class. It would be great if parents could also support this part of the day with providing costumes.
+
+
+If you are interested in participating, please complete the form provided in this link.
+
+Thank you for your continuing support, we rely heavily on your support to make days like International Day a success. We look forward to a fun and exciting day that will provide the children with a range of fantastic learning experiences whilst also fostering cultural tolerance and understanding among the members of our school community.
+Kind regards,
+Adrian Macaulay
+Headmaster
+
+
+Уважаемые родители!
+Наша школа планирует провести Международный День в субботу 15 октября. Мы хотим познакомить детей с различными культурами через игры, танцы и песни, образовательные фильмы и блюда разных стран с последующей дегустацией. В этот день дети могут прийти в школу в национальном костюме той страны, которую они хотят представлять.
+
+
+Как правило, каждый класс оформляется в национальном стиле какой-либо страны. Взрослые (родители - добровольцы или сотрудники) помогают украсить классы. Дети по очереди приходят в каждый класс и проводят около 30 минут в “стране” каждого класса. При посещении каждой “страны” детям ставят печать в специальный “международный” паспорт. Мы надеемся на сотрудничество наших постоянных родителей-активистов из Узбекистана, Великобритании, Америки, Армении, Азербайджана, Кореи, Индонезии, Австралии, Китая, Индии, России и Турции, которые смогут украсить классы и организовать разные мероприятия. Мы с огромным удовольствием расширим список стран-участниц в этом году.
+
+
+Большой популярностью среди посетителей и детей на Международном Дне пользуется буфет, где все мы можем попробовать различные национальные блюда, а затем посмотреть выступления с  музыкой и танцами,которые подготовили наши учащиеся. Будем крайне признательны,если родители смогут предоставить костюмы для выступлений.
+
+Просим Вас пройти по данной ссылке,если Вы заинтересованы в участии.
+
+Благодарим Вас за Вашу неизменную поддержку! Успех нашего праздника во многом зависит от Вашего участия. Мы с нетерпением ждём Дня ООН, который познакомит   детей с различными культурами и поможет воспитать в них терпимость и понимание друг к другу.
+
+С наилучшими пожеланиями,
+
+Адриан Маколей
+Академический директор.
+
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

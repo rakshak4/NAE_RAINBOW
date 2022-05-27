@@ -1,0 +1,204 @@
+<apex:page controller="SetupDatesController">
+
+<apex:includeScript value="{!URLFOR($Resource.jQuery)}"/>
+<apex:includeScript value="{!URLFOR($Resource.jQueryBlockUI, '/jquery.blockUI.js')}"/>
+
+<script type="text/javascript"> 
+    $(document).ready(function() { });
+     function blockDetail(i) { 
+         $(document.getElementById(i)).block({
+		   message: '<img src="{!URLFOR($Resource.loadingCircle)}">',
+		   css: {
+		       border: '2px solid #fff',
+		       'border-radius': '5px'
+		   }  
+         }); 
+     }
+
+     function unblockDetail(i) { 
+         $(document.getElementById(i)).unblock(); 
+     }
+</script> 
+
+<apex:form > 
+
+<apex:actionFunction name="redrawGenT1" rerender="genT1" oncomplete="unblockDetail('{!$Component.genT1}')"/>
+<apex:actionFunction name="redrawInvT1" rerender="invT1" oncomplete="unblockDetail('{!$Component.invT1}')"/>
+<apex:actionFunction name="redrawGenT2" rerender="genT2" oncomplete="unblockDetail('{!$Component.genT2}')"/>
+<apex:actionFunction name="redrawInvT2" rerender="invT2" oncomplete="unblockDetail('{!$Component.invT2}')"/>
+<apex:actionFunction name="redrawGenT3" rerender="genT3" oncomplete="unblockDetail('{!$Component.genT3}')"/>
+<apex:actionFunction name="redrawInvT3" rerender="invT3" oncomplete="unblockDetail('{!$Component.invT3}')"/>
+	
+	<apex:messages > </apex:messages>
+	<apex:pageBlock title="Dates Setup">
+	
+		<apex:pageBlockButtons >
+			<apex:commandButton value="Save"  action="{!save}"/>
+		</apex:pageBlockButtons>
+	
+		<apex:pageBlockSection title="Monthly Invoices" columns="1" id="monthlyInvoices">
+		
+			<apex:pageBlockSectionItem >
+				<apex:outputText value="Invoice Generation Day: "/>
+				<apex:outputPanel >
+					<apex:selectList value="{!mthGenDay}" multiselect="false" size="1">
+						<apex:selectOptions value="{!monthDays}"/>
+					</apex:selectList>
+					<apex:outputText value=" prior to Month Due"/>
+				</apex:outputPanel>
+			</apex:pageBlockSectionItem>
+			
+			<apex:pageBlockSectionItem >
+				<apex:outputText value="Invoice Date Day: "/>
+				<apex:outputPanel >
+					<apex:selectList value="{!mthInvDay}" multiselect="false" size="1">
+						<apex:selectOptions value="{!monthDays}"/>
+					</apex:selectList>
+					<apex:outputText value=" of month due"/>
+				</apex:outputPanel>
+			</apex:pageBlockSectionItem>
+			
+		</apex:pageBlockSection>
+		
+		<apex:pageBlockSection title="Monthly - Students to include" columns="1" id="monthlyStudentsToInclude">
+			<apex:pageBlockSectionItem >
+				<apex:outputText value="Starting Date "/>
+				<apex:selectList value="{!settings.Inc_Month_Start_Sign__c}" multiselect="false" size="1">
+					<apex:selectOptions value="{!signs}"/>
+				</apex:selectList>
+			</apex:pageBlockSectionItem>
+			<apex:pageBlockSectionItem >
+				<apex:outputText value="Invoice Date  + "/>
+				<apex:inputField value="{!settings.Inc_Month_Start_Date__c}"/>
+			</apex:pageBlockSectionItem>
+			
+			<apex:pageBlockSectionItem >
+				<apex:outputText value="Leaving Date "/>
+				<apex:selectList value="{!settings.Inc_Month_Leave_sign__c}" multiselect="false" size="1">
+					<apex:selectOptions value="{!signs}"/>
+				</apex:selectList>
+			</apex:pageBlockSectionItem>
+			<apex:pageBlockSectionItem >
+				<apex:outputText value="Invoice Generation + "/>
+				<apex:inputField value="{!settings.Inc_Month_Leave_Date__c}"/>
+			</apex:pageBlockSectionItem>
+		</apex:pageBlockSection>
+		
+		<apex:pageBlockSection title="Termly and Yearly Invoices" columns="1" id="termlyInvoices">
+			
+			<apex:pageBlockSectionItem >
+				<apex:outputText value="Term 1: Invoice Generation Date:"/>
+				<apex:outputPanel >
+					<apex:outputPanel id="genT1">
+					<apex:selectList value="{!genT1Day}" multiselect="false" size="1">
+						<apex:selectOptions value="{!monthDays_GenT1}"/>
+					</apex:selectList>
+					</apex:outputPanel>
+					<apex:selectList value="{!settings.T1_Gen_Mth__c}" multiselect="false" size="1" onchange="blockDetail('{!$Component.genT1}'), redrawGenT1()">
+						<apex:selectOptions value="{!months}"/>
+					</apex:selectList>
+				</apex:outputPanel>
+			</apex:pageBlockSectionItem>
+			
+			<apex:pageBlockSectionItem >
+				<apex:outputText value="Invoice Date: "/>
+				<apex:outputPanel >
+					<apex:outputPanel id="invT1">
+					<apex:selectList value="{!invT1Day}" multiselect="false" size="1">
+						<apex:selectOptions value="{!monthDays_InvT1}"/>
+					</apex:selectList>
+					</apex:outputPanel>
+					<apex:selectList value="{!settings.T1_Inv_Mth__c}" multiselect="false" size="1" onchange="blockDetail('{!$Component.invT1}'), redrawInvT1()">
+						<apex:selectOptions value="{!months}"/>
+					</apex:selectList>
+				</apex:outputPanel>
+			</apex:pageBlockSectionItem>
+			<br/>
+			
+			<apex:pageBlockSectionItem >
+				<apex:outputText value="Term 2: Invoice Generation Date:"/>
+				<apex:outputPanel >
+					<apex:outputPanel id="genT2">
+					<apex:selectList value="{!genT2Day}" multiselect="false" size="1">
+						<apex:selectOptions value="{!monthDays_GenT2}"/>
+					</apex:selectList>
+					</apex:outputPanel>
+					<apex:selectList value="{!settings.T2_Gen_Mth__c}" multiselect="false" size="1" onchange="blockDetail('{!$Component.genT2}'), redrawGenT2()">
+						<apex:selectOptions value="{!months}"/>
+					</apex:selectList>
+				</apex:outputPanel>
+			</apex:pageBlockSectionItem>
+			
+			<apex:pageBlockSectionItem >
+				<apex:outputText value="Invoice Date: "/>
+				<apex:outputPanel >
+					<apex:outputPanel id="invT2">
+					<apex:selectList value="{!invT2Day}" multiselect="false" size="1">
+						<apex:selectOptions value="{!monthDays_InvT2}"/>
+					</apex:selectList>
+					</apex:outputPanel>
+					<apex:selectList value="{!settings.T2_Inv_Mth__c}" multiselect="false" size="1" onchange="blockDetail('{!$Component.invT2}'), redrawInvT2()">
+						<apex:selectOptions value="{!months}"/>
+					</apex:selectList>
+				</apex:outputPanel>
+			</apex:pageBlockSectionItem>
+			<br/>
+			
+			<apex:pageBlockSectionItem >
+				<apex:outputText value="Term 3: Invoice Generation Date:"/>
+				<apex:outputPanel >
+					<apex:outputPanel id="genT3">
+					<apex:selectList value="{!genT3Day}" multiselect="false" size="1">
+						<apex:selectOptions value="{!monthDays_GenT3}"/>
+					</apex:selectList>
+					</apex:outputPanel>
+					<apex:selectList value="{!settings.T3_Gen_Mth__c}" multiselect="false" size="1" onchange="blockDetail('{!$Component.genT3}'), redrawGenT3()">
+						<apex:selectOptions value="{!months}"/>
+					</apex:selectList>
+				</apex:outputPanel>
+			</apex:pageBlockSectionItem>
+			
+			<apex:pageBlockSectionItem >
+				<apex:outputText value="Invoice Date: "/>
+				<apex:outputPanel >
+					<apex:outputPanel id="invT3">
+					<apex:selectList value="{!invT3Day}" multiselect="false" size="1">
+						<apex:selectOptions value="{!monthDays_InvT3}"/>
+					</apex:selectList>
+					</apex:outputPanel>
+					<apex:selectList value="{!settings.T3_Inv_Mth__c}" multiselect="false" size="1" onchange="blockDetail('{!$Component.invT3}'), redrawInvT3()">
+						<apex:selectOptions value="{!months}"/>
+					</apex:selectList>
+				</apex:outputPanel>
+			</apex:pageBlockSectionItem>
+			<br/>
+		</apex:pageBlockSection>
+		
+		<apex:pageBlockSection title="Termly and Yearly - Students to include" columns="1" id="studentsToInclude">
+			<apex:pageBlockSectionItem >
+				<apex:outputText value="Starting Date "/>
+				<apex:selectList value="{!settings.Inc_Start_Sign__c}" multiselect="false" size="1">
+					<apex:selectOptions value="{!signs}"/>
+				</apex:selectList>
+			</apex:pageBlockSectionItem>
+			<apex:pageBlockSectionItem >
+				<apex:outputText value="Invoice Date  + "/>
+				<apex:inputField value="{!settings.Inc_Start_Date__c}"/>
+			</apex:pageBlockSectionItem>
+			
+			<apex:pageBlockSectionItem >
+				<apex:outputText value="Leaving Date "/>
+				<apex:selectList value="{!settings.Inc_Leave_sign__c}" multiselect="false" size="1">
+					<apex:selectOptions value="{!signs}"/>
+				</apex:selectList>
+			</apex:pageBlockSectionItem>
+			<apex:pageBlockSectionItem >
+				<apex:outputText value="Invoice Generation + "/>
+				<apex:inputField value="{!settings.Inc_Leave_Date__c}"/>
+			</apex:pageBlockSectionItem>
+		</apex:pageBlockSection>
+		
+	</apex:pageBlock>
+</apex:form>
+
+</apex:page>

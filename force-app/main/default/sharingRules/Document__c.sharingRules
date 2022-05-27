@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>BCB_Academic_Department</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BCB Academic Department</label>
+        <sharedTo>
+            <group>BCB_Academic_Department</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British College of Brazil</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>All Academic Staff</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BCB_Administration_Department</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BCB Administration Department</label>
+        <sharedTo>
+            <group>BCB_Administration_Department</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British College of Brazil</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>All Administration Staff</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BCB_All_Users</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BCB All Users</label>
+        <sharedTo>
+            <group>BCB_All_Users</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British College of Brazil</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>All Departments</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BCB_Finance_Department</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BCB Finance Department</label>
+        <sharedTo>
+            <group>BCB_Finance_Department</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British College of Brazil</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>Finance Department</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BCB_HR_Department</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BCB HR Department</label>
+        <sharedTo>
+            <group>BCB_HR_Department</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British College of Brazil</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>HR Department</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BCB_Head_Head_of_Admin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BCB Head &amp; Head of Admin</label>
+        <sharedTo>
+            <group>BCB_Head_Head_of_Admin</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British College of Brazil</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>Headteacher &amp; Head of Admin</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSKL_Academic_Department</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSKL Academic Department</label>
+        <sharedTo>
+            <group>BSKL_Academic_Department</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Kuala Lumpur</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>All Academic Staff</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSKL_Administration_Department</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSKL Administration Department</label>
+        <sharedTo>
+            <group>BSKL_Administration_Department</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Kuala Lumpur</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>All Administration Staff</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSKL_All_Departments</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSKL All Departments</label>
+        <sharedTo>
+            <group>BSKL_All_Users</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Kuala Lumpur</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>All Departments</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSKL_HR_Department</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSKL HR Department</label>
+        <sharedTo>
+            <group>BSKL_HR_Department</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Kuala Lumpur</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>HR Department</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSKL_Head_Head_of_Admin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSKL Head &amp; Head of Admin</label>
+        <sharedTo>
+            <group>BSKL_Head_Head_of_Admin</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Kuala Lumpur</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>Headteacher &amp; Head of Admin</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSKL_SLT</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSKL SLT</label>
+        <sharedTo>
+            <group>BSKL_SLT</group>
+        </sharedTo>
+        <booleanFilter>((1 OR 2) AND 3)</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Kuala Lumpur</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Document_Category__c</field>
+            <operation>equals</operation>
+            <value>Job Application Document</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSK_Finance_Department</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSK Finance Department</label>
+        <sharedTo>
+            <group>BSKL_Finance_Department</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Kuala Lumpur</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>Finance Department</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSNJ_Academic_Department</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSNJ Academic Department</label>
+        <sharedTo>
+            <group>BSNJ_Academic_Department</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British School of Nanjing</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>All Academic Staff</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSNJ_Administration_Department</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSNJ Administration Department</label>
+        <sharedTo>
+            <group>BSNJ_Administration_Department</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British School of Nanjing</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>All Administration Staff</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSNJ_All_Users</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSNJ All Users</label>
+        <sharedTo>
+            <group>BSNJ_All_Users</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British School of Nanjing</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>All Departments</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSNJ_Finance_Department</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSNJ Finance Department</label>
+        <sharedTo>
+            <group>BSNJ_Finance_Department</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British School of Nanjing</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>Finance Department</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSNJ_HR_Department</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSNJ HR Department</label>
+        <sharedTo>
+            <group>BSNJ_HR_Department</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British School of Nanjing</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>HR Department</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSNJ_Head_Head_of_Admin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSNJ Head &amp; Head of Admin</label>
+        <sharedTo>
+            <group>BSNJ_Head_Head_of_Admin</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British School of Nanjing</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>Headteacher &amp; Head of Admin</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BST_Academic_Deparment</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BST Academic Deparment</label>
+        <sharedTo>
+            <group>BST_Academic_Department</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British School of Tashkent</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>All Academic Staff</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BST_Administration_Department</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BST Administration Department</label>
+        <sharedTo>
+            <group>BST_Administration_Department</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British School of Tashkent</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>All Administration Staff</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BST_All_School</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BST All School</label>
+        <sharedTo>
+            <group>BST_All_Users</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British School of Tashkent</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>All Departments</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BST_Finance_Department</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BST Finance Department</label>
+        <sharedTo>
+            <group>BST_Finance_Department</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British School of Tashkent</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>Finance Department</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BST_HR_Department</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BST HR Department</label>
+        <sharedTo>
+            <group>BST_HR_Department</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British School of Tashkent</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>HR Department</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BST_Head_Head_of_Admin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BST Head &amp; Head of Admin</label>
+        <sharedTo>
+            <group>BST_Head_Head_of_Admin</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British School of Tashkent</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>Headteacher &amp; Head of Admin</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSY_Academic_Department</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSY Academic Department</label>
+        <sharedTo>
+            <group>BSY_Academic_Department</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British School Yangon</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>All Academic Staff</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSY_Administration_Department</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSY Administration Department</label>
+        <sharedTo>
+            <group>BSY_Administration_Department</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British School Yangon</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>All Administration Staff</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSY_All_Users</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSY All Users</label>
+        <sharedTo>
+            <group>BSY_All_Users</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British School Yangon</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>All Departments</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSY_Finance_Department</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSY Finance Department</label>
+        <sharedTo>
+            <group>BSY_Finance_Department</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British School Yangon</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>Finance Department</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSY_HR_Department</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSY HR Department</label>
+        <sharedTo>
+            <group>BSY_HR_Department</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British School Yangon</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>HR Department</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSY_Head_Head_of_Admin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSY Head &amp; Head of Admin</label>
+        <sharedTo>
+            <group>BSY_Head_Head_of_Admin</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British School Yangon</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>Headteacher &amp; Head of Admin</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>ISM_Academic_Department</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>ISM Academic Department</label>
+        <sharedTo>
+            <group>ISM_Academic_Department</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The International School of Moscow</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>All Academic Staff</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>ISM_Administration_Department</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>ISM Administration Department</label>
+        <sharedTo>
+            <group>ISM_Administration_Department</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The International School of Moscow</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>All Administration Staff</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>ISM_All_Deparments</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>ISM All Deparments</label>
+        <sharedTo>
+            <group>ISM_All_Users</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The International School of Moscow</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>All Departments</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>ISM_Finance_Department</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>ISM Finance Department</label>
+        <sharedTo>
+            <group>ISM_Finance_Department</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The International School of Moscow</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>Finance Department</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>ISM_HR_Department</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>ISM HR Department</label>
+        <sharedTo>
+            <group>ISM_HR_Department</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The International School of Moscow</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>HR Department</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>ISM_Head_Head_of_Admin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>ISM Head &amp; Head of Admin</label>
+        <sharedTo>
+            <group>ISM_Head_Head_of_Admin</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>The British School Yangon</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>Headteacher &amp; Head of Admin</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>NAISM_Academic_Department</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>NAISM Academic Department</label>
+        <sharedTo>
+            <group>NAISM_Academic_Department</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>Nord Anglia International School Manila</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>All Academic Staff</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>NAISM_Administration_Department</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>NAISM Administration Department</label>
+        <sharedTo>
+            <group>NAISM_Administration_Department</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>Nord Anglia International School Manila</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>All Administration Staff</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>NAISM_All_Users</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>NAISM All Users</label>
+        <sharedTo>
+            <group>NAISM_All_Users</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>Nord Anglia International School Manila</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>All Departments</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>NAISM_Finance_Department</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>NAISM Finance Department</label>
+        <sharedTo>
+            <group>NAISM_Finance_Department</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>Nord Anglia International School Manila</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>Finance Department</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>NAISM_HR_Department</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>NAISM HR Department</label>
+        <sharedTo>
+            <group>NAISM_HR_Department</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>Nord Anglia International School Manila</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>HR Department</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>NAISM_Head_Head_of_Admin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>NAISM Head &amp; Head of Admin</label>
+        <sharedTo>
+            <group>NAISM_Head_Head_of_Admin</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>Nord Anglia International School Manila</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_to_Share__c</field>
+            <operation>equals</operation>
+            <value>All Schools</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Department_to_share__c</field>
+            <operation>equals</operation>
+            <value>Headteacher &amp; Head of Admin</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_Relevant_School_Docs_with_Group_Designer</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Relevant School Docs with Group Designer</label>
+        <sharedTo>
+            <group>NAE_Group_Marketing</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Document_Category__c</field>
+            <operation>equals</operation>
+            <value>Pictures/Graphic Design</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

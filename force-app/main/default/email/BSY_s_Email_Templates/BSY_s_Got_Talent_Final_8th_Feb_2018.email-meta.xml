@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>BSY&apos;s Got Talent Final - 8th Feb 2018</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>BSY&apos;s Got Talent Final - 8th Feb 2018</name>
+    <style>freeForm</style>
+    <subject>BSY&apos;s Got Talent - 8th Feb 2018</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

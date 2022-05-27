@@ -1,0 +1,59 @@
+<apex:page standardController="Account" showheader="true" standardStylesheets="true">
+
+<apex:variable var="ContactId" value="{!Account.personcontactid}" />
+<apex:variable var="AccountId" value="{!Account.Id}" />
+<apex:variable var="FirstName" value="{!Account.FirstName}" />
+<apex:variable var="LastName" value="{!Account.LastName}" />
+<apex:variable var="Alias" value="{!Account.Contact_Alias__pc}" />
+<apex:variable var="Email" value="{!Account.PersonEmail}" />
+<apex:variable var="Nickname" value="{!Account.Name}" />
+<apex:variable var="School" value="{!Account.SchoolText__pc}" />
+<apex:variable var="LicenseId" value="{!Account.User_License_ID__c }" />
+<apex:variable var="ProfileId" value="{!Account.User_Profile_Id__c }" />
+<apex:variable var="HubVideoID" value="{!Account.Contact_User_School_Hub_Video_Link__pc }" />
+<apex:variable var="TimeZone" value="{!Account.User_Timezone__c }" />
+<apex:variable var="Locale" value="{!Account.User_Locale__c }" />
+<apex:variable var="EmailDomainExtension" value="{!Account.User_Email_Domain_Extension__pc }" />
+<apex:variable var="Campus" value="{!Account.Campus__c }" />
+
+
+
+
+
+
+<apex:tabPanel rendered="{!Account.RecordType.Name='Parent'}" switchType="client" selectedTab="tabdetails"
+               id="AccountTabPanel3" tabClass="activeTab"
+               inactiveTabClass="inactiveTab" style="background-color: white;margin-top: 10px;padding: 10px 0px 0px 0px;">
+
+           
+      <apex:page action="/005/e?ut=c&pa=1&retURL=%2F{!AccountId}&cntc={!ContactId}&user_license_id=1006F000000rHPh&Profile=00e6F0000020GEY&CompanyName=Parent&name_firstName={!FirstName}&name_lastName={!LastName}&Alias={!Alias}&Email=blog-add-notifications@britishschools.co.uk&Username={!Email}&CommunityNickname={!Nickname}&00N6F00000M2znh={!School}&00N6F00000M2znd={!HubVideoID}&TimeZoneSidKey={!TimeZone}&LocaleSidKey={!Locale}">
+</apex:page>
+      
+      </apex:tabPanel>
+      
+     
+     
+      <apex:tabPanel rendered="{!Account.RecordType.Name='Staff Member'}" switchType="client" selectedTab="tabdetails"
+               id="AccountTabPanel4" tabClass="activeTab"
+               inactiveTabClass="inactiveTab" style="background-color: white;margin-top: 10px;padding: 10px 0px 0px 0px;">
+
+           
+      <apex:page action="/005/e?retURL=%2F005%3FretURL%3D%252Fui%252Fsetup%252FSetup%253Fsetupid%253DUsers%26setupid%3DManageUsers&cntc={!ContactId}&00N6F00000M2znM={!ContactId}&user_license_id={!LicenseId}&CompanyName={!School}&name_firstName={!FirstName}&name_lastName={!LastName}&Alias={!Alias}&Email={!Email}&00N6F00000M2zmm={!EmailDomainExtension}&Username={!Email}&CommunityNickname={!Nickname}&00N6F00000M2znh={!School}&00N6F00000M2znd={!HubVideoID}&Profile={!ProfileId}&TimeZoneSidKey={!TimeZone}&00N6F00000M2zmd={!Campus}&LocaleSidKey={!Locale}">
+</apex:page>
+      
+      </apex:tabPanel>
+      
+     
+<apex:tabPanel rendered="{!Account.RecordType.Name='Staff Member - Group Level'}" switchType="client" selectedTab="tabdetails"
+               id="AccountTabPanel5" tabClass="activeTab"
+               inactiveTabClass="inactiveTab" style="background-color: white;margin-top: 10px;padding: 10px 0px 0px 0px;">
+
+           
+      <apex:page action="/005/e?retURL=%2F005%3FretURL%3D%252Fui%252Fsetup%252FSetup%253Fsetupid%253DUsers%26setupid%3DManageUsers&cntc={!ContactId}&00N6F00000M2znM={!ContactId}&user_license_id={!LicenseId}&CompanyName={!School}&name_firstName={!FirstName}&name_lastName={!LastName}&Alias={!Alias}&Email={!Email}&00N6F00000M2zmm={!EmailDomainExtension}&Username={!Email}&CommunityNickname={!Nickname}&00N6F00000M2znh={!School}&00N6F00000M2znd={!HubVideoID}&Profile={!ProfileId}&TimeZoneSidKey={!TimeZone}&00N6F00000M2zmd={!Campus}&LocaleSidKey={!Locale}">
+</apex:page>
+      
+      </apex:tabPanel>
+
+
+              
+</apex:page>

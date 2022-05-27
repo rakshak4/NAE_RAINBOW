@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Job Description</name>
+    <style>none</style>
+    <subject>Job Description - {!Document__c.Person_Company__c}</subject>
+    <textOnly>{!Document__c.School_Name__c}
+Job Description
+
+
+Title:    {!Document__c.Name}
+Staff Member:    {!Document__c.Person_Company__c}
+Reporting To:    {!Document__c.Reporting_To__c}
+
+
+Objective
+{!Document__c.Objective__c}
+
+
+
+Objective
+{!Document__c.Main_Content__c}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

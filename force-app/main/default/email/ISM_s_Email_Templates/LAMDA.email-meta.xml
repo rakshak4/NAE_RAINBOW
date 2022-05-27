@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>LAMDA</name>
+    <style>freeForm</style>
+    <subject>London Academy of Music and Dramatic Art in Moscow</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+Dear Parents,
+
+We are pleased to announce the start of the LAMDA Performing Arts Workshops. The first term of workshops will run from Saturday 18th January to Saturday 5th April (inclusive), from 13:00 to 16:00, for ages 4 to 18 at The International School of Moscow’s lower primary hall and dance studio. Please note this is not only for ISM students so if you know of any one else who may be interested please share the link.
+
+The (LAMDA) London  Academy of Music and Dramatic Art  is one of the oldest drama schools in the United Kingdom.  Founded in 1861, it quickly established itself as a centre of excellence in performance training. LAMDA has provided theatre and the world of film and television with generation upon generation of first-class actors and expertly-trained stage managers across the world. In addition to being the UK’s largest statutory speech and drama awarding body, LAMDA Examinations has a reputation for excellence across the globe and exams can earn UCAS points for college and university entrance.
+
+Following the LAMDA curriculum, students will explore different styles of performance, discovering and developing character through improvisation, dance, voice, music and performance.
+
+Due to demand, our morning sessions are now full and there are limited places, registration is essential by Thursday 16th February and can be completed at the following link, where you will also find more information regarding the workshops:
+
+http://www.lamdainmoscow.ru/2014-registration.html
+
+Kinds regards,
+
+
+
+The International School of Moscow
+
+World Class Education
+
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

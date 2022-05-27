@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>BCB_Share_Enquiries_with_Other_Campus</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BCB Share Enquiries with Other Campus</label>
+        <sharedTo>
+            <role>BCB_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>BCB_Admissions_Admin_Officer</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

@@ -1,0 +1,27 @@
+<apex:page standardController="Document__c">
+<script>
+   
+
+
+
+var newRecords = [];
+
+ 
+
+var c = new sforce.SObject("Document__c"); 
+
+c.id ="{!Document__c.Id}";
+
+
+newRecords.push(c); 
+
+ 
+
+result = sforce.connection.update(newRecords); 
+
+ 
+
+window.location.reload();
+  </script>  
+    
+    </apex:page>

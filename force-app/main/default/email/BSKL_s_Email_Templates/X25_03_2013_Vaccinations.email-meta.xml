@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>25/03/2013 - Vaccinations</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>25/03/2013 - Vaccinations</name>
+    <style>freeForm</style>
+    <subject>Vaccinations</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We would like to inform you of an important presentation taking place in school at 15:15pm on 10th of April in the gym.
+
+We have asked doctors from the Tropicana Medical Centre to come into school on the above date to provide parents who are interested with information regarding a number of vaccinations that we feel are very relevant and important for the pupils of our school.
+
+The vaccinations discussed will be relevant to the pupils age, for example Middle School pupils are at the stage when the HPV vaccination (cervical cancer) should be given. There are other available vaccinations that pupils might have missed or have not been administered with yet. Therefore, vaccinations that are going to be discussed will not only be limited to the HPV vaccine but also the ones listed on the immunisation list.
+
+If you are interested in finding out more information about the vaccinations available then please attend this presentation.
+
+We will provide you with more information about when and where the vaccinations would be administered after we have gauged overall parental interest.
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

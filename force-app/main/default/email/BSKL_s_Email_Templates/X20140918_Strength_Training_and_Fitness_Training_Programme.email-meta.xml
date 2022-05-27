@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20140918 - Strength Training and Fitness Training Programme</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20140918 - Strength Training and Fitness Training Programme</name>
+    <style>freeForm</style>
+    <subject>Strength Training and Fitness Club</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We would like to inform you that we now offer a Strength Training and Fitness Club for Years 9 - 10 students. Please click on the below link for further information and registration details.
+
+Strength Training and Fitness Club (https://drive.google.com/a/britishschools.co.uk/file/d/0B57vMviVDx-xd3pENjFNZmJpYUhDUndfcWV1Z1dDWGR2NGpn/edit?usp=sharing)
+
+
+Kind regards,
+
+Harrie Thomson
+Director of Physical Education and Sport
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

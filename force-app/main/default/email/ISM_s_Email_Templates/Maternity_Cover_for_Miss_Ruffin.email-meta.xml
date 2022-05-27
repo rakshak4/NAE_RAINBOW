@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Maternity Cover for Miss Ruffin</name>
+    <style>freeForm</style>
+    <subject>Maternity Cover for Miss Ruffin</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+As you may be aware, Ms. Ruffin received some wonderful news last term. She is expecting a son with her long time partner Mr. Charlton. I am sure that you would join us in expressing our delight and sincere congratulations.
+
+
+Of course this does mean that Ms. Ruffin will require maternity leave to support the addition to the family. This will begin at half term from Monday 23rd February. She will be away for the rest of the school year.
+
+
+I am pleased to announce that we have secured an excellent replacement to the Year Four team. Ms. Alice Nixon is presently completing visa paperwork in the UK but will join us from Monday 4th February. She has experience of teaching in Year 4 and is an able and enthusiastic professional.
+
+
+By joining us at that time Ms. Nixon will enjoy the opportunity to work alongside Ms. Ruffin for three weeks prior to taking over the class.  This period will enable a smooth transition for all concerned. Mr. Etheridge will continue to support in the class for the remainder of the year.
+
+
+Our intention is to present reports for that class only, one week earlier on Friday the 15th of February so that Parent Teacher Consultations can take place with both Ms. Ruffin and Ms. Nixon present in the week beginning the 18th February.
+
+
+This arrangement will offer an opportunity for parents and teacherMaternity to meet before the break in preparation for the rest of the year. More details will follow on this in the near future.
+
+
+Thanks very much for your understanding and support.
+
+
+Best regards,
+
+
+Paul Seedhouse
+
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

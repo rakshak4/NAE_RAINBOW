@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Weekly Update 19th December, 2013</name>
+    <style>freeForm</style>
+    <subject>Weekly Update 19th December, 2013</subject>
+    <textOnly>Year The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear Parents,
+
+I wanted to take this opportunity to thank all families for your wonderful support this term. The Christmas parties today have offered a suitably celebratory ending to proceedings.
+
+Please note that our final newsletter of the term is imminent and I hope that the holiday will offer you the opportunity to enjoy the latest edition at your leisure.
+
+Do be aware that tomorrow is our last day of term and therefore school will end at 11:50 on the lower campus and 12 Noon on the upper campus.
+
+Please take note of this finishing time if picking up your child from school or receiving them via the school bus service.
+
+The administration office (including the front desk of both campuses) will close at 12:30 tomorrow but will reopen on Monday. During the holidays the school will be closed from December 27 until January 8.
+
+I hope that you have a wonderful Christmas and New Year and we look forward to seeing you back in school on Monday January 13th.
+
+Paul Seedhouse
+
+Headteacher
+
+The International School of Moscow
+
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

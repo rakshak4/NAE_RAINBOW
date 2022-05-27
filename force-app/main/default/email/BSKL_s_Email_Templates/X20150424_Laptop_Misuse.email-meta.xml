@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20150424 Laptop Misuse</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20150424  Laptop Misuse</name>
+    <style>freeForm</style>
+    <subject>Laptop Misuse</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+24th April 2015
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}
+
+A small but significant number of Year 7 pupils have misused their school laptops and other personal devices to receive and send on indecent images to other pupils. Today Ms Coates and I spoke to all of Year 7: although the majority are not involved in this situation, I felt it important that all the year group received a transparent message. I made it clear that any pupil misusing computers in this way would not be welcome in our school. I also briefly discussed the dangers to them, and the legal implications of them becoming involved in this sort of communication. We have dealt robustly with those pupils who instigated this event.
+
+Appropriate use of technology is a subject that is scheduled into our PSHE calendar for later this term, and there will be ample opportunity for mature discussion of this topic. In the meantime I have told pupils to inform a member of staff immediately if they receive any communication they feel may compromise them. Similarly I have told them to remove themselves from any &apos;chat groups&apos; where inappropriate language has been used.
+
+Although I cannot guarantee that nothing like this will happen again, I am confident that Year 7 will respond to this advice, and that sound educational awareness of these issues, and sensitive yet meaningful discussion will help to keep your children safe.
+
+
+Kind regards
+
+Derek Mackey
+Head of Secondary
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>ISI Inspection Update</name>
+    <style>freeForm</style>
+    <subject>ISI Inspection Update</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+
+As you will already be aware, The International School of Moscow is receiving a visit from the ISI inspection team over the next few weeks.
+
+
+We have chosen to complete this inspection now, in order to review the progress and achievements of our school since opening in 2007. We hope that this process will prove beneficial and assist us in our objective of delivering education of the highest standards.
+
+
+Prior to the inspection, ISI have been gathering information and documentation from the school in preparation for their visit. As part of their preparations they are keen to gather information from both parents and pupils about the school. All parents therefore have the opportunity to complete an online survey. Please click here for more information regarding the parent survey.
+
+
+Additionally all students from Year 5 to 11 are offered a similar opportunity. In order for them to do so you may need to assist them with the process by accessing the survey from home. Please click here for more information regarding the student survey.
+
+
+Thanks so much for your valuable contributions to the process.
+
+
+
+Kind regards,
+
+
+
+Paul Seedhouse
+
+Headteacher
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Happy Feet 204 Registration</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Happy Feet 2014 Registration</name>
+    <style>freeForm</style>
+    <subject>Happy Feet 2014 Registration 2014/01/17</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+Dear Parents,
+
+I am pleased to announce that The Guangzhou Football Academy is now taking applications for their ‘Spring Football Programme’ delivered to toddlers aged 3 and 4 years old. This term the classes will take place at the British School of Guangzhou’s Upper School campus (Nanhu Lake).
+
+Due to the populairity of classes last term, two classes will be offered this term:
+
+3 year olds - 10:00-11:00am
+4 year olds - 11:00-12:00am
+
+The football coaches  are experienced and come with a wealth of expertise in teaching pre-soccer skills to young children- a great opportunity to enhance your child&apos;s gross motor skills whist having fun with their friends.
+
+PLEASE CLICK HERE TO VIEW MORE INFORMATION and please be reminded that payment should be made in cash to our friends at the Football Academy on the first day of the programme.
+
+Additionally, this programme is not exclusively for BSG children, therefore if you have any friends that would like to join in the fun please feel free to forward this email to them.
+
+If you have any questions regarding the soccer school please do not hesitate to contact the lead coach Oliver Burton-Towell at guangzhoufa@gmail.com.
+Kind regards,
+Ms Kathy
+Head of Lower School
+The British School of Guangzhou
+
+
+
+
+
+
+
+
+
+
+
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Conference of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

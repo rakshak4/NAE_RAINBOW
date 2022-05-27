@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>After School Activities Years 4 and 5</name>
+    <style>freeForm</style>
+    <subject>After School Activities Years 4 and 5</subject>
+    <textOnly>Dear Parents,
+Please be advised, that an incorrect form was sent to all Year 4 and 5 students in relation to the selecting of their after school activities.
+Mr Tim Walsh has the matter in hand and will work out the situation at school with the students.
+We apologize for any inconvenience caused.
+Kind Regards
+Dino Vikas
+Head of Admissions 
+The International School of Moscow
+Tel:  +7 (499) 922 44 00
+Fax: +7 (499) 922 44 00 Ext.4 
+www.internationalschool.ru
+Part of The British Schools Group</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

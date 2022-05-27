@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Curriculum Letter Term 2 - Year 4</name>
+    <style>freeForm</style>
+    <subject>Curriculum Letter Term 2 - Year 4</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear Parents,
+
+
+Happy New Year and welcome to Spring Term at ISM! We’ll be looking to build on the momentum of the Autumn Term and continue the children’s development. We always appreciate and value the support provided at home by you and we look forward to this positive partnership continuing during the remainder of this academic year.
+
+
+Over the coming term, I would encourage you to actively support the children in maintaining daily reading habits. They should read aloud regularly and ensure they make comments in their Reading Record book. We also encourage you to discuss your child’s writing and Numeracy homework with them. Apart from building new skills, reminders about the basics are always helpful! Please click here to download the curriculum overview.
+
+
+Key Dates
+
+Here are some important upcoming dates that are planned for this term. Please regularly check the school website and refer to the school blurb for more details and information.
+
+
+· January 28th – After School Activities begin for Spring Term.
+
+· January 31st – Year 4A Assembly
+
+· February 7th – Year 4B Assembly
+
+· February 10th – Upper Primary Swimming Lessons commence this week
+
+· February 17th – 21st – International Week
+
+· February 21st – Mid Year Reports sent home
+
+· February 24th to February 28th – Half Term Holidays
+
+· March 3rd – Second Half Term commences
+
+· March 4th &amp; 5th – Parent/Teacher Consultations (No After School Activities)
+
+· March 5th – ISM Maths Day
+
+· March 18th &amp; 19th – Last day of Spring Term After School Activities
+
+· April 4th – Upper Primary Swimming Gala
+
+· April 11th – Spring Term Ends (12pm)
+
+· April 28th – Summer Term Commences
+
+
+Please also ensure you carefully read emails and school notes for information on other potential class activities and events. We look forward to another productive and successful term in partnership with you!
+
+
+Yours Faithfully,
+
+
+Mr. Mason (Teacher 4A) Ms. Eames (Assistant Teacher 4A)
+
+Ms. Ruffin (Teacher 4B) Ms. Davis (Assistant Teacher 4B)
+
+
+
+Upper Primary Coordinator
+
+Mr. Noack
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

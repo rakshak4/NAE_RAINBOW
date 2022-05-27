@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>In person learning update 6 January</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NAE_Branding_Letterhead_BSKL</letterhead>
+    <name>! Return to In-Person Learning</name>
+    <style>freeForm</style>
+    <subject>Primary School Welcome Meetings</subject>
+    <textOnly>Dear New Parents,
+
+I look forward to your children joining the Primary School this coming term and to working with you to ensure your child’s happiness and academic success.
+
+You should by now have received a welcome email from myself containing key documents and information about the Primary School. Unless your child has been admitted in the past two weeks they will also have received an email containing a welcome letter from your child’s new teacher and the class’ timetable. If you have not yet received either of these emails, please email myself or the admissions team and we will get this to you straight away.
+
+Welcome Meetings
+
+One of the ways in which we seek to orientate and integrate new parents into the school is by way of our Parent Welcome Meetings. These will be held virtually via Google Meets on Tuesday 5th January.
+
+9.30-10.30 am
+meet.google.com/kny-uwts-bbq
+
+1.30-2.30 pm
+meet.google.com/hke-ypux-von
+
+There is no need to sign up, just click on the link a few minutes before the meeting is due to start. If you are joining the call on a mobile device, it is recommended that you download the Google Meets App beforehand.
+
+Navigating the Virtual School
+
+As you will know by now, the vast majority of schools in the Klang Valley are not currently open to physical learning until at least Thursday 14th January. This means that the school will open virtually at 8.15 am on Monday 4th January. Your child’s class teacher will be in contact with you as to how to join the virtual class sessions if they have not done so already with details of how to access all the relevant websites and apps. If you have any questions or concerns about the Virtual School please email your class teacher. I you are unsure of their email address please email myself (email below)  or:
+
+For Years 1-6
+
+Mr Tom Kimber, Deputy Head of Primary for Teaching, Learning &amp; Assessment at
+tom.kimber@britishschool.edu.my 
+
+For Pre Nursery, Nursery &amp; Reception
+
+Ms Leah Lewis Assistant Head of Primary (Early Years Centre) at leah.lewis@britishschool.edu.my
+
+For those new to the school, please find linked here the school’s Virtual School Experience Parent Offer. Parents are encouraged to read this as it clearly outlines the school’s offer and what we ask of parents.
+
+I look forward to seeing as many parents as possible on Tuesday. In the meantime please do not hesitate to get in contact with me if I can be of any assistance.
+
+Best Wishes,
+
+Mr Simon Sharp
+Head of Primary
+simon.sharp@britishschool.edu.my</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

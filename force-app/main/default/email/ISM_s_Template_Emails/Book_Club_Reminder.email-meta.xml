@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Book Club Reminder</name>
+    <style>freeForm</style>
+    <subject>Book Club Reminder</subject>
+    <textOnly>Dear Parents,
+Just a quick note to remind you that if you would like to order any books from the Book Club catalogue, the deadline for receiving the orders is Friday 11th November, 2011.
+Please send the order in a closed envelope with the correct fee and your child&apos;s name on the front and hand it in to Ekaterina Foster on the lower campus or your class teacher. On the Upper campus, they can be handed to Tanzilia on the front desk or your child&apos;s class teacher.
+Kind Regards
+Dino VikasHead of Admissions 
+The International School of Moscow
+Tel:  +7 (499) 922 44 00
+Fax: +7 (499) 922 44 00 Ext.4 
+www.internationalschool.ru
+Part of The British Schools Group
+
+*Disclaimer:*
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

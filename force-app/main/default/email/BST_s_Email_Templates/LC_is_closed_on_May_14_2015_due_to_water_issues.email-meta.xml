@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to LC parents about no school on Thursday, May 14th ,2015</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>LC is closed on May 14.2015 due to water issues</name>
+    <style>freeForm</style>
+    <subject>LC is closed on May 14.2015 due to water issues</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+May 12th
+
+IMPORTANT MESSAGE
+
+
+
+We have just received notification from the Water Authorities that the water supply to the Lower Campus, will be cut off ALL DAY on Thursday May 14th from 9.00 am. We are therefore closing the school for one day on Thursday May 14th and school will re-open as usual on Friday May 15th at the normal time.
+
+We are all devastated at this news and very sincerely apologise for the inconvenience it may cause but these are circumstances totally beyond our control.
+
+
+Yours sincerely
+
+Wendy H Holland
+
+Head of Lower Campus
+
+
+Для родителей учеников Нижнего кампуса
+
+ВАЖНОЕ СООБЩЕНИЕ
+
+Уважаемые родители!
+
+Мы только что получили уведомление от водоканала, что 14-мая с 9 утра в здании детского садика будет отсутствовать вода на протяжении всего дня . В связи с этим, мы закрываем школу на один день в четверг 14 мая и откроем в пятницу, 15-мая, в обычное время.
+
+Мы все расстроены из-за этой новости и приносим искренние извинения за предоставленные Вам неудобства, но эти обстоятельства вне нашего контроля.
+
+
+С уважением
+
+Венди Холланд
+
+Глава Нижнего кампуса
+
+
+
+
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

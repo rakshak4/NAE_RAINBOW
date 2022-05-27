@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Newsletter LC June 11.2015 ( Speech day,reports etc)</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Newsletter LC June 11.2015</name>
+    <style>freeForm</style>
+    <subject>Newsletter Lower Campus June 11.2015( Speech day,reports etc.)</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Although we are nearing the end of this school year, pupils and teachers are still working hard as we still have three weeks to go!
+
+All our A.S.A.clubs will finish next Wednesday June 17th and from then on, school for all pupils will be finishing at 3.30pm
+
+You will be receiving the childrens’ Progress Reports  towards the end of June and you will see that everyone has generally made good progress through the year so well done and congratulations to all!
+
+This term, Parent teacher Consultations will be held for pupils who have an Individual Education Plan (I.E.P.) and whole school Parent Consultations will resume again next term once the children have settled into their new classes.
+
+The Lower Campus will be holding their end of term class parties on Tuesday June 30th in the afternoon and it will be a non uniform day!
+
+Year 1 will having their own Leavers Assembly on Thursday July 2nd in the  Lower Campus and school uniform should be worn please. They will also be taking  part in the school’s Speech Day on Friday July 3rd which will be held in the Hall at the Upper Campus and again, school uniform must be worn. Parents are invited to join their children in Year 1 for Speech Day and to take them straight to the Upper Campus for 10.00am and afterwards, they may be taken home.
+
+A personal ‘thank you’ to parents for all your support this year and making me so welcome. I have enjoyed my time with the younger children immensely and the staff team have also been most supportive and helpful, so thank you all very sincerely .
+
+When the time comes, enjoy the holidays and I hope to see you all again next year.
+
+
+
+Уважаемые родители!
+
+Учебный год приближается к концу, но несмотря на это, наши преподаватели все ещё усердно работают, так как у нас впереди еще 3 недели!
+
+Внеклассные занятия (клубы) закончатся в следующую среду, 17-го июня и уроки будут заканчиваться в 15:30.
+
+Вы получите отчеты об успеваемости детей в конце июня и убедитесь в том, что дети в целом достигли успеха за учебный год, с чем мы всех и поздравляем!
+
+В этом триместре родительские собрания будут проводиться для учащихся, которые занимаются по индивидуальному плану обучения (IEP), а общешкольные родительские собрания будут проводиться в следующем учебном году, когда дети перейдут в новые классы.
+
+Классные вечеринки по случаю окончания триместра будут проводиться во вторник, 30-го июня и дети могут прийти в свободной форме.
+
+Ученики 1-класса проведут ассамблею по окончанию учебы в четверг, 2-го июля в Нижнем Кампусе (Lower Campus) и в тот день они должны будут прийти в школьной форме. Они также будут принимать участие в Speech day (Итоговая речь директора) в пятницу, 3-го июля, который состоится в здании школы (Upper Campus), дети должны быть в школьной форме. Приглашаем родителей учеников 1-го класса поучаствовать в Speech day и приехать в здание школы (Upper Campus) в 10:00 утра, и забрать детей домой после окончания мероприятия.
+
+Я хочу лично поблагодарить родителей за поддержку в течение года, а также-за теплый прием. Работа с младшими детьми доставила мне огромное удовольствие, и я искренне благодарна персоналу за постоянную поддержку и помощь.
+
+
+Наслаждайтесь каникулами! Надеюсь увидеть Вас всех снова в следующем учебном году.
+
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

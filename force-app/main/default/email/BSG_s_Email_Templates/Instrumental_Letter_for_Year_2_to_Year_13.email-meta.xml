@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Instrumental Letter for Year 2 to Year 13</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Instrumental Letter for Year 2 to Year 13</name>
+    <style>freeForm</style>
+    <subject>Instrumental Letter for Year 2 to Year 13</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+&lt;?xml:namespace prefix = o /&gt;
+
+
+Dear Parents,
+
+
+We are welcoming new applicants to join the one to one instrumental program for this term at BSG. If you are interested in having your child learn Guitar, Flute, Piano, Violin or Drums with one of our visiting music teachers, please CLICK HERE for the Application Letter and CLICK HERE for the Terms and Conditions, please print, sign and return hard copies of both documents to the music department by Monday the 13th of January. You will find information about our teachers, lesson structure, payment procedure and the benefits of learning a musical instrument in the documents. Late applications will be accepted depending on availability.
+
+
+In the interim thank you for your time.
+
+
+Kind Regards,
+
+
+Fred Zhang
+
+
+Musician in Residence &amp; Music Administrator
+
+
+The British School of Guangzhou
+
+World Class Education
+
+
+_____________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

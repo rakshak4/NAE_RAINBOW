@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Viral meningitis cases in Moscow</name>
+    <style>freeForm</style>
+    <subject>Viral meningitis cases in Moscow</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+We just wanted to inform you that there have been confirmed cases of viral meningitis in Moscow. Children with symptoms have been reported in one of the capital&apos;s schools. A sudden onset of fever, headache and stiff neck usually occurs. Viral meningitis is usually not a severe illness. However, prompt medical attention is necessary to distinguish it from bacterial meningitis, a very serious illness which can quickly cause brain damage or death.
+
+Advice
+
+Pay strict attention to personal hygiene to avoid infection
+
+Wash your hands frequently, especially after using the toilet or changing a diaper. Encourage others to do so as well.
+Avoid crowds in outbreak areas.
+Refrain from touching your mouth, nose and eyes. Avoid close contact, such as kissing.
+Do not share drinks, food or eating utensils.
+Seek medical attention urgently for a headache with fever.
+
+More Detail
+
+Officials have confirmed a small number of viral meningitis cases in the capital. According to media sources, around 10 children are suspected to have enterovirus meningitis. Officially, at least three children have been hospitalised and are said to be in a stable condition. Authorities have explained that the number of cases reported is not unexpected for the time of year. They have further advised people to take basic hygiene precautions to prevent the illness from spreading.
+There is a much larger outbreak of enterovirus meningitis in the south of the country where the infection has been confirmed in at least 55 students with many more suspected cases. It is centred on Rostov-on-Don, Rostov oblast, around 1000km from Moscow. Enteroviruses are known to circulate in the region, especially in summer and autumn months.
+
+What is viral meningitis?
+
+Viral meningitis, also called aseptic meningitis, is an inflammation of the lining of the brain and spinal cord. It is usually caused by a group of viruses called enteroviruses. These are spread through the respiratory secretions and faeces of an infected person. The classic symptoms, which usually come on quickly, are fever, headache and stiff neck. These symptoms may often occur together with nausea, vomiting, photophobia (sensitivity to light) and altered mental status (confusion).
+
+There is no vaccine for viral meningitis, and no specific treatment for it. Most people recover in about a week. There are no long term complications.
+
+However, there is another form of meningitis (bacterial meningitis) that is life-threatening. Anyone who may have meningitis should be evaluated by a physician immediately, to see which form they have. Bacterial meningitis is a very serious illness which can quickly cause brain damage or death. It requires prompt antibiotic treatment.
+
+Please be vigilant of any of the above mentioned symptoms at home and notify us should you spot any of these signs. All of our staff members will be alert and will be extremely attentive with hygiene with students. Our medical team will be very aware of the signs and are ready to take appropriate action should anything occur. We will of course keep you informed.
+
+Kind regards,
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

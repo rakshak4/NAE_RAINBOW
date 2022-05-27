@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>7/02/2013 CNY Assembly</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>7/02/2013 CNY Assembly</name>
+    <style>freeForm</style>
+    <subject>CNY Assembly</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+On Friday the 8th February BSKL will be holding their annual Chinese New Year assembly. This promises to be a fabulous event and the EFC would like to remind all parents that they are invited to watch the assembly at 8.45am in the school gym. All BSKL children are given the opportunity on the day to wear traditional Chinese costumes and the classroom teacher will be collecting RM5 from the students as a donation to the EFC&apos;s chosen charity, Beautiful Gate. However, please note that this is not compulsory.
+
+In addition to the assembly there will be other special activities during the day including the serving of Chinese Tea (unlimited refill) and Yee Sang (CNY Salad). To take part in this activity you will need to purchase a RM10 voucher in advance, this will buy you a teacup for your unlimited refills  and your chopsticks to eat your Yee Sang. The vouchers (for RM10 each)  will be on sale on Wednesday 6th February at 3-4pm and Thursday 7th February at 8-8.30am, to the first 200 people on a first come, first serve basis.  There will also be a bazaar on the day which will start from 8am to 1pm, so please send some money with your children so they can purchase some sweet things and other wonderful goodies that will be for sale!
+
+The money raised on the day will go to Beautiful Gate, a Chinese charity home for handicap children in SS2, Petaling Jaya. It is a newly setup home and they need specially made tables and bunk beds.
+
+We hope to see you all there to support this very worthwhile cause and to see what is always a wonderfully colorful assembly!
+
+Gong Xi Fa Cai!
+The Events and Fundraising Committee
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

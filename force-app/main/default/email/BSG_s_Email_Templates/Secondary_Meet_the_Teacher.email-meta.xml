@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Secondary ASA option booklet</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Secondary ASA option booklet</name>
+    <style>freeForm</style>
+    <subject>Secondary ASA option booklet</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please click here to find attached the ASA option booklet for the ASA block 3 which runs from Monday, 14th January to Thursday, 14th March.
+
+Students should select their first and second choices for each day and this should be completed by Monday, January 7th.
+
+Regards,
+
+Mr. Iain Ruck
+Head of Secondary
+The British School of Guangzhou
+
+
+
+
+World Class Education
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

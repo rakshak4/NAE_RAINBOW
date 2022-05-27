@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Term 2 Enrolled Message</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NAE_Branding_Letterhead_BSKL</letterhead>
+    <name>! January 2021 New Starters</name>
+    <style>freeForm</style>
+    <subject>BSKL New Students - Update from Admissions</subject>
+    <textOnly>Dear ,
+
+
+My name is April Finch, I’ve joined The British International School of Kuala Lumpur as the new Admissions Manager following a recent move to Kuala Lumpur from Houston, Texas. Thank you for choosing BSKL for your child’s school, we’re excited to welcome your family to our community this January. I’m looking forward to getting to know you, and your children, as you join the school community.
+
+
+I’m reaching out today to ensure you are prepared for your upcoming transition to BSKL. My direct contact information follows at the end of this email should you have any additional questions.
+
+
+Transitioning to BSKL
+
+
+I appreciate that transitioning to a new school can at times be a little unsettling for the whole family. Therefore, we have a section of our website dedicated to the new family transition where you can access all of the information you need before starting at school. You will also soon receive a welcome letter from the primary school and/or secondary school leadership team, depending on the year group of your children.
+
+
+CMCO and School Re-Opening
+
+
+We know that this is an uncertain time and that you, and your children, are likely to have many questions about what the start of the second term will look like this school year.
+
+
+We’re hopeful, and planning for, an on-campus start to Term 2 on 4 January. Whether we are on-campus will depend on the status of the Conditional Movement Control Order (CMCO) for Selangor, currently set to expire on 20th December. Should the CMCO be extended, we’ll continue the high quality virtual school experience our teachers are currently delivering. In short, regardless of where your child is receiving their lessons, we are committed to delivering a fantastic educational experience.
+
+
+In anticipation of a return to campus, we recommend that you read the school’s Standard Operating Procedures (SOP) that will be in place when we are able to have students back on school grounds.
+
+
+We understand that campus reopening in January will require a different level of preparation on your part in regards to uniforms, school lunches and transportation. Please be aware that we are closely monitoring the situation and will communicate that information to you as soon as we receive approval to re-open campus. Office staff are continuing to work from home during the upcoming break and are well prepared to assist you with all of these matters as we gain more information from the local government.
+
+
+I want to ensure that you are as ready and excited about starting school as we are to have you as a member of our community. If you have any questions, or concerns, I would be happy to schedule an online appointment with you.
+
+
+Please, do not hesitate to reach out to me directly at april.finch@britishschool.edu.my and we will arrange a time to speak virtually.
+
+
+
+Warm regards,
+
+April
+
+Admissions Manager
+
+The British International School of Kuala Lumpur
+
+Tel: +6 (03) 7727 7775
+
+Fax: +6 (03) 7722 1296
+
+www.britishschool.edu.my
+
+
+
+
+
+Follow us on
+
+*Disclaimer:*
+
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

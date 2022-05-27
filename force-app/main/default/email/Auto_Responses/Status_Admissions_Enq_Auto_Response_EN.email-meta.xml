@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>43.0</apiVersion>
+    <available>true</available>
+    <description>Sent when a new admissions enquiry is submitted via the Status website (English version)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Status Admissions Enquiry Auto-Response (EN)</name>
+    <style>none</style>
+    <subject>- Thank you for your enquiry</subject>
+    <type>visualforce</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

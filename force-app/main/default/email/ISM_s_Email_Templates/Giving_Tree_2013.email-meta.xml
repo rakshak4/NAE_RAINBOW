@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Giving Tree 2013</name>
+    <style>freeForm</style>
+    <subject>Giving Tree 2013</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+Following the excellent responses from parents and students in the past,  ISM will support the Khoroshevo Mnevniki Social Centre,  Sanatorniy Detskiy Dom 17 and the Ruza Foster Home through our Giving Tree initiative this year.
+
+On Friday 29th November each student will bring home a gift tag chosen from the Giving Trees placed on the Upper and Lower campuses. If you notice your child has not brought a tag home, please notify the tutor who will then give them a new one.
+
+Each gift tag will show the age, gender and a wish for a gift. We hope that each ISM student will be willing to donate a present with a value of approximately RUB 800 – 1000.
+
+Should their wish exceed the suggested budget, do not feel under any obligation to purchase the exact gift. Instead, find a similar related item that falls within the budget.
+
+Presents should be brought to school to be placed under the trees on Friday 13th December. (Not before to ensure that presents can be stored safely until delivery).
+
+During the final week of term, a group of ISM students will visit each location and deliver the presents to the children.
+
+As a thank you to ISM students, Thursday 19th December, the day of our Christmas celebrations, will be a non-uniform day.
+
+On behalf of ISM and the Giving Tree Committee, we would like to thank you for your continued support. This fantastic sharing of Christmas spirit cannot succeed without it, and there is no doubt that it will make many  children very happy this Christmas.
+
+With thanks and kindest regards,
+
+Giving Tree Committee
+
+The International School of Moscow
+
+World Class Education
+
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

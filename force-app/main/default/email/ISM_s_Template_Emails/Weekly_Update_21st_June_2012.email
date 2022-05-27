@@ -1,0 +1,853 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<font class="Apple-style-span" face="'Times New Roman', Times, serif">
+
+
+
+
+
+
+
+
+
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Revision>0</o:Revision>
+  <o:TotalTime>0</o:TotalTime>
+  <o:Pages>1</o:Pages>
+  <o:Words>423</o:Words>
+  <o:Characters>2415</o:Characters>
+  <o:Company>ISM</o:Company>
+  <o:Lines>20</o:Lines>
+  <o:Paragraphs>5</o:Paragraphs>
+  <o:CharactersWithSpaces>2833</o:CharactersWithSpaces>
+  <o:Version>14.0</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:TrackMoves/>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-GB</w:LidThemeOther>
+  <w:LidThemeAsian>JA</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="276">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:JA;}
+</style>
+<![endif]-->
+
+
+
+<!--StartFragment-->
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt">Dear Parents, <o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt">As we prepare for
+our final week, there are a few pieces of information that I wanted to confirm
+with you.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><b style="mso-bidi-font-weight:normal"><u><span lang="EN-US" style="font-size:10.0pt;
+mso-bidi-font-size:12.0pt">Library Books<o:p></o:p></span></u></b></p>
+
+<p class="MsoNormal" style="text-align: justify; "><font class="Apple-style-span" size="2"><b><u><br></u></b></font></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt">I am very keen
+that we maintain our growing stock of library books on both sites. It is very
+challenging to get resources into Moscow and so it is essential to preserve
+them when we do! With this in mind I would be extremely grateful if you could
+support us by ensuring that <b style="mso-bidi-font-weight:normal">all </b><u>School
+Library books are returned to school on Monday 25<sup>th</sup> June</u>. If you
+could remind children, check at home and send all books in, this will really
+help our librarians and teachers on both sites. Thanks so much for your
+attention on this.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><b style="mso-bidi-font-weight:normal"><u><span lang="EN-US" style="font-size:10.0pt;
+mso-bidi-font-size:12.0pt">Clearing of Lockers<o:p></o:p></span></u></b></p>
+
+<p class="MsoNormal" style="text-align: justify; "><font class="Apple-style-span" size="2"><b><u><br></u></b></font></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt">Children will be
+asked to bring all of their belongings and schoolwork home this week, ready for
+the summer cleaning and change of classes. Please assist this process by
+reminding students.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><b style="mso-bidi-font-weight:normal"><u><span lang="EN-US" style="font-size:10.0pt;
+mso-bidi-font-size:12.0pt">Nursery Graduation- Thursday 28<sup>th</sup> June</span></u></b><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt">Our Nursery
+graduation will take place on Thursday morning. The Nursery team will have
+provided all of the important information leading up to this event that marks
+the end of the school year for our youngest students.<o:p></o:p></span></p><p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt"><br></span></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt">At the end of the
+ceremony and picnic, children will be able to leave with parents for those
+well-earned holidays. I look forward to seeing families on that morning.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><b style="mso-bidi-font-weight:normal"><u><span lang="EN-US" style="font-size:10.0pt;
+mso-bidi-font-size:12.0pt">Class Lists 2012-13<o:p></o:p></span></u></b></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt">We are almost
+there with class lists.<span style="mso-spacerun:yes">&nbsp; </span>We are awaiting
+the results of a few final assessments and enrolments this week before
+confirming placements for next year. It is our intention to release this
+information by Email to families on Thursday 28<sup>th</sup> June. <o:p></o:p></span></p><p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt"><br></span></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt">This will allow
+all children to know their class for next year before the holidays. <o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt">Please enjoy the introductions
+this week to our new Primary Staff for 2012-13. Secondary staff will be
+introduced next week.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><b style="mso-bidi-font-weight:normal"><u><span lang="EN-US" style="font-size:10.0pt;
+mso-bidi-font-size:12.0pt">Speech Day – Friday June 29<sup>th</sup> Ritz
+Carlton 10-11:30<o:p></o:p></span></u></b></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt">Please may we
+take this final opportunity to invite all families from reception to Year 9 to join
+us for our awards ceremony marking the end of this academic year. <o:p></o:p></span></p><p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt"><br></span></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt">The event will
+start promptly at 10am at the Ritz Carlton, </span><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-family:&quot;Times New Roman&quot;;color:#121312">Tverskaya
+Street 3 in the city centre.</span><span lang="EN-US" style="font-size:10.0pt;
+mso-bidi-font-size:12.0pt"> Please be aware that parking is available
+underground, with access next to the hotel. However to avoid last minute
+stresses we recommend that you do arrive in plenty of time for the event. <o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt">Obviously, school
+buses will not be running on Friday.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt">It is anticipated
+that the ceremony will take just over an hour with light refreshments being served
+in the lobby afterwards. This will provide an opportunity to say fond farewells
+before the summer break.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt">Students that are
+performing will be asked to sit near the front of the stage in a reserved area.
+All other students will be able to enjoy the event while sitting with their
+family.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><b style="mso-bidi-font-weight:normal"><u><span lang="EN-US" style="font-size:10.0pt;
+mso-bidi-font-size:12.0pt">All students</span></u></b><u><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt"> attending this formal event
+should be wearing <b style="mso-bidi-font-weight:normal">full school uniform</b>
+including blazers. <o:p></o:p></span></u></p>
+
+<p class="MsoNormal" style="font-size: small; text-align: justify; "><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt"><o:p>&nbsp;</o:p></span></p></font><div><div><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2"></font></p><div style="font-family: arial; font-size: 12pt; "><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2"><u><b>Contact Details Update</b></u></font></div><div style="font-family: arial; font-size: 12pt; "><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2"><br></font></div><div><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2">
+
+
+
+
+
+
+
+
+
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Revision>0</o:Revision>
+  <o:TotalTime>0</o:TotalTime>
+  <o:Pages>1</o:Pages>
+  <o:Words>109</o:Words>
+  <o:Characters>623</o:Characters>
+  <o:Company>ISM</o:Company>
+  <o:Lines>5</o:Lines>
+  <o:Paragraphs>1</o:Paragraphs>
+  <o:CharactersWithSpaces>731</o:CharactersWithSpaces>
+  <o:Version>14.0</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:TrackMoves/>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-GB</w:LidThemeOther>
+  <w:LidThemeAsian>JA</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="276">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:JA;}
+</style>
+<![endif]-->
+
+
+
+<!--StartFragment-->
+
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph;
+mso-pagination:none;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt">You have received
+the contact information update request yesterday. For many families we have two
+or more contact emails but only the email that is listed as the First parent
+email would have received the full list of contact details while the second and
+other listed emails would have received a blank message. We apologize for the
+inconvenience but unfortunately this is a limitation of our database
+system.&nbsp;<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph;
+mso-pagination:none;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:12.0pt">We are kindly
+asking you to send us the updated contact information by&nbsp;July 5&nbsp;to
+enable us to update the database before August 1. We are also asking you to pay
+attention to the "Guardians and authorized pick ups" and "Car
+license plate" sections as this information will be linked to our security
+database next year.&nbsp;<o:p></o:p></span></p>
+
+<!--EndFragment--></font></div><div style="font-family: arial; font-size: 12pt; "><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2"><br></font></div><div style="font-family: arial; font-size: 12pt; "><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2"><u><b>Lost &amp; Found</b></u></font></div><p style="font-family: arial; font-size: 12pt; "></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2"><b><span lang="EN-US"><br></span></b></font></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2"><b><span lang="EN-US">Upper School</span></b><span lang="EN-US"><o:p></o:p></span></font></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2"><span lang="EN-US">&nbsp;</span><span lang="EN-US"><o:p></o:p></span></font></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2"><u><span lang="EN-US">Uniform</span></u><u><span lang="EN-US"><o:p></o:p></span></u></font></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2"><span lang="EN-US">&nbsp;</span><span lang="EN-US"><o:p></o:p></span></font></p><p class="MsoListParagraphCxSpFirst" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">PE shorts, sizes 8, 10, 14<o:p></o:p></span></font></p><p class="MsoListParagraphCxSpMiddle" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Tracksuit pants, sizes 8, 10, 12<o:p></o:p></span></font></p><p class="MsoListParagraphCxSpMiddle" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Tracksuit tops, sizes 6, 8, 10, 12<o:p></o:p></span></font></p><p class="MsoListParagraphCxSpMiddle" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Blazers, sizes 12, 14<o:p></o:p></span></font></p><p class="MsoListParagraphCxSpMiddle" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Grey jumpers, sizes 10, 18<o:p></o:p></span></font></p><p class="MsoListParagraphCxSpMiddle" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Grey sleeveless jackets, sizes 10, 14<o:p></o:p></span></font></p><p class="MsoListParagraphCxSpMiddle" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">White shirts, sizes 12 (2), 14<o:p></o:p></span></font></p><p class="MsoListParagraphCxSpLast" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Grey trousers, sizes 10, 12, 13<o:p></o:p></span></font></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2"><span lang="EN-US">&nbsp;</span><span lang="EN-US"><o:p></o:p></span></font></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><u><span lang="EN-US"><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2">Non-uniform<o:p></o:p></font></span></u></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2"><span lang="EN-US">&nbsp;</span><span lang="EN-US"><o:p></o:p></span></font></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><u><span lang="EN-US"><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2">Clothes<o:p></o:p></font></span></u></p><p class="MsoListParagraphCxSpFirst" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; "><span lang="EN-US"><o:p><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2">&nbsp;</font></o:p></span></p><p class="MsoListParagraphCxSpMiddle" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Five pairs of tights<o:p></o:p></span></font></p><p class="MsoListParagraphCxSpMiddle" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">White T-shirt<o:p></o:p></span></font></p><p class="MsoListParagraphCxSpMiddle" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Yellow T-shirt, size 12<o:p></o:p></span></font></p><p class="MsoListParagraphCxSpMiddle" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Yellow-grey sports jacket<o:p></o:p></span></font></p><p class="MsoListParagraphCxSpMiddle" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Blue fleece jacket, size XXL<o:p></o:p></span></font></p><p class="MsoListParagraphCxSpMiddle" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Brown fleece jacket, size XL<o:p></o:p></span></font></p><p class="MsoListParagraphCxSpLast" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Khaki jacket, size M<o:p></o:p></span></font></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2"><span lang="EN-US">&nbsp;</span><span lang="EN-US"><o:p></o:p></span></font></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><u><span lang="EN-US"><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2">Hats<o:p></o:p></font></span></u></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2"><span lang="EN-US">&nbsp;</span><span lang="EN-US"><o:p></o:p></span></font></p><p class="MsoListParagraph" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Five hats</span><span lang="EN-US"><o:p></o:p></span></font></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2"><span lang="EN-US">&nbsp;</span><span lang="EN-US"><o:p></o:p></span></font></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><u><span lang="EN-US"><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2">Other<o:p></o:p></font></span></u></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 24pt; margin-bottom: 0.0001pt; "><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2"><span lang="EN-US">&nbsp;</span><span lang="EN-US"><o:p></o:p></span></font></p><p class="MsoListParagraphCxSpFirst" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Small drop-shaped icon (Virgin Mary)<o:p></o:p></span></font></p><p class="MsoListParagraphCxSpMiddle" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Blue USB flash drive<o:p></o:p></span></font></p><p class="MsoListParagraphCxSpMiddle" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">USB flash drive (orange wristband)<o:p></o:p></span></font></p><p class="MsoListParagraphCxSpMiddle" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Silver heart-shaped earrings<o:p></o:p></span></font></p><p class="MsoListParagraphCxSpMiddle" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Azbuka Vkusa plastic bag with a yellow T-shirt and blue shorts in it<o:p></o:p></span></font></p><p class="MsoListParagraphCxSpLast" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Two water bottles<o:p></o:p></span></font></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><span lang="EN-US"><o:p><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2">&nbsp;</font></o:p></span></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2"><span lang="EN-US">&nbsp;</span><span lang="EN-US"><o:p></o:p></span></font></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2"><b><span lang="EN-US">Lower School</span></b><span lang="EN-US"><o:p></o:p></span></font></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><span lang="EN-US"><o:p><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2">&nbsp;</font></o:p></span></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><u><span lang="EN-US"><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2">Uniform<o:p></o:p></font></span></u></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2"><span lang="EN-US">&nbsp;</span><span lang="EN-US"><o:p></o:p></span></font></p><p class="MsoListParagraphCxSpFirst" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Tracksuits, sizes 4, 6, 8<o:p></o:p></span></font></p><p class="MsoListParagraphCxSpMiddle" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Tracksuit top, size 10<o:p></o:p></span></font></p><p class="MsoListParagraphCxSpMiddle" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Blazer, size 8<o:p></o:p></span></font></p><p class="MsoListParagraphCxSpMiddle" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Jumper, size 6<o:p></o:p></span></font></p><p class="MsoListParagraphCxSpLast" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Grey jumper, size 6<o:p></o:p></span></font></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2"><span lang="EN-US">&nbsp;</span><span lang="EN-US"><o:p></o:p></span></font></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><u><span lang="EN-US"><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2">Non-uniform<o:p></o:p></font></span></u></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2"><span lang="EN-US">&nbsp;</span><span lang="EN-US"><o:p></o:p></span></font></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><u><span lang="EN-US"><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2">Clothes<o:p></o:p></font></span></u></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2"><span lang="EN-US">&nbsp;</span><span lang="EN-US"><o:p></o:p></span></font></p><p class="MsoListParagraphCxSpFirst" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Grey T-shirt, size 8<o:p></o:p></span></font></p><p class="MsoListParagraphCxSpMiddle" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Grey sweatshirt, size 128 Cern<o:p></o:p></span></font></p><p class="MsoListParagraphCxSpMiddle" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Black jacket Manchester United<o:p></o:p></span></font></p><p class="MsoListParagraphCxSpMiddle" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">White striped jacket “Polo”, size 6<o:p></o:p></span></font></p><p class="MsoListParagraphCxSpMiddle" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Black raincoat Adidas<o:p></o:p></span></font></p><p class="MsoListParagraphCxSpLast" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Blue leggings<o:p></o:p></span></font></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2"><span lang="EN-US">&nbsp;</span><span lang="EN-US"><o:p></o:p></span></font></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><u><span lang="EN-US"><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2">Shoes<o:p></o:p></font></span></u></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2"><span lang="EN-US">&nbsp;</span><span lang="EN-US"><o:p></o:p></span></font></p><p class="MsoListParagraphCxSpFirst" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Two pairs of black shoes</span><span lang="EN-US"><o:p></o:p></span></font></p><p class="MsoListParagraphCxSpMiddle" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Black ballet shoes, size 32.5</span><span lang="EN-US"><o:p></o:p></span></font></p><p class="MsoListParagraphCxSpLast" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">White sneakers, size 32.5</span><span lang="EN-US"><o:p></o:p></span></font></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><u><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2"><br></font></u></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><u><span lang="EN-US"><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2">Hats<o:p></o:p></font></span></u></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2"><span lang="EN-US">&nbsp;</span><span lang="EN-US"><o:p></o:p></span></font></p><p class="MsoListParagraph" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Three caps<o:p></o:p></span></font></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2"><span lang="EN-US">&nbsp;</span><span lang="EN-US"><o:p></o:p></span></font></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><u><span lang="EN-US"><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2">Other<o:p></o:p></font></span></u></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; "><font class="Apple-style-span" face="'Times New Roman', Times, serif" size="2"><span lang="EN-US">&nbsp;</span><span lang="EN-US"><o:p></o:p></span></font></p><p class="MsoListParagraphCxSpFirst" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Two pairs of gloves<o:p></o:p></span></font></p><p class="MsoListParagraphCxSpLast" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">-<span style="font: normal normal normal 7pt/normal 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span lang="EN-US">Three lunch boxes<o:p></o:p></span></font></p><p class="MsoListParagraphCxSpLast" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US"><br></span></font></p><p class="MsoListParagraphCxSpLast" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">Best regards,</span></font></p><p class="MsoListParagraphCxSpLast" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US"><br></span></font></p><p class="MsoListParagraphCxSpLast" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US">Admissions Team</span></font></p><p class="MsoListParagraphCxSpLast" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US"><br></span></font></p><p class="MsoListParagraphCxSpLast" style="font-family: arial; font-size: 12pt; margin-top: 0cm; margin-right: 0cm; margin-left: 18pt; margin-bottom: 0.0001pt; text-indent: -18pt; "><font class="Apple-style-span" size="2" face="'Times New Roman', Times, serif"><span lang="EN-US"><br></span></font></p></div><div style="font-family: arial; font-size: 14px; "><br></div></div>]]></td>
+</tr>
+</table>

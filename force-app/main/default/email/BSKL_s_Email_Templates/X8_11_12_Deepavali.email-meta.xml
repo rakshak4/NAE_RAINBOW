@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>8/11/12 Deepavali</name>
+    <style>freeForm</style>
+    <subject>Deepavali</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+On Monday, 26th November 2012, BSKL will be holding its Deepavali Assembly.
+
+There will be a school assembly starting at 8.30am whereby all families are invited to attend, it promises to be a colourful and vibrant event!
+
+As part of this celebration the Events and Fund Raising Committee (EFC) are giving all BSKL students the opportunity to take part by dressing in traditional Indian costumes, though this is not compulsory. For this special event the EFC will be collecting RM5 from each student for dressing up, which will be donated to Rumah Anak Yatim Taman Baiduri, a charity that is predominantly Indian children who are in desperate need.  On the day the RM5 will be collected from the classroom teacher. We hope that all of the BSKL students will get into the spirit of the celebration and dress up and take part in what promises to be a fabulous day.
+
+If you are having trouble locating costumes they can be found in most large supermarkets like Giant, Jusco, Tesco, Carrefour, Kamdar and also in all Indian stores in Brickfields.
+
+Looking forward to seeing all of you all there!
+
+
+The Events and Fund Raising Committee (EFC)
+
+Kind Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>7/11/12 Scholastic Book Club</name>
+    <style>freeForm</style>
+    <subject>Scholastic Book Club</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Most of you will have the Scholastic book club brochure for your children to order books.
+
+Could you please ignore this catalogue as we are getting new ones sent in Malaysian RM currency, instead of British pounds/American dollars.
+
+The new brochures should arrive within the next 10 days and will be distributed accordingly.
+
+Sorry for any inconvenience. It will be worth the wait, as the newly ordered brochures have books that are specifically aimed at very young children as well as older ones.
+
+Thank you,
+
+Alan Savage
+Literacy Co-ordinator, Head of Year 8.
+
+Kind Regards,
+
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

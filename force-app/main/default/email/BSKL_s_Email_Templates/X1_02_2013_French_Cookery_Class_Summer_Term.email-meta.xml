@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>1/02/2013 French Cookery Class Summer Term</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>1/02/2013 French Cookery Class Summer Term</name>
+    <style>freeForm</style>
+    <subject>French Cookery Class Summer Term</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We would like to thank you for your interest in the French cooking class. Unfortunately, your child couldn&apos;t be enrolled this time as the list was complete by the time your email arrived in school.
+
+Nevertheless, since this class has proven very popular, we would be pleased to run it again later on this year. We have therefore registered your child on a waiting list. Should we run this course again during the Summer term, your child will be given priority.
+
+Yours faithfully,
+Blandine Pouchard and Tom Hickman
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

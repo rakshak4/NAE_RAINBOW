@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>The CAREton Recycling Project</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>The CAREton Recycling Project</name>
+    <style>freeForm</style>
+    <subject>The CAREton Recycling Project</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We hope this email finds you well.
+
+In collaboration with Tetrapak, we would like to bring you the CAREton Project.
+
+The CAREton Project is a recycling program for used beverage cartons in which all collected cartons will be recycled into items for donation to less fortunate schools. This year&apos;s beneficiary for this project is the Dignity for Children Foundation that provides education for the impoverished children of Malaysia
+
+We would like to seek your support by bringing in your empty beverage cartons to be recycled into exercise books and school furniture. In order to produce 10,000 exercise books and 100 sets of desk and chairs, we will need 300,000 beverage cartons
+
+A special bin will be set up at the school cafeteria to collect the empty beverage cartons.
+
+So please do your bit for charity while helping the environment by bringing in your rinsed and flattened beverage cartons (please see the link below) from now till the 28th February 2013.
+The CAREton Project
+
+Together, we can make a difference.
+
+Thanks and best regards,
+
+EFC
+Events and Fundraising Committee
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

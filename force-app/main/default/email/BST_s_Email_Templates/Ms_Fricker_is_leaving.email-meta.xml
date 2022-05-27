@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Note to parents about staff changes in Year 1 Venus</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Ms. Fricker is leaving</name>
+    <style>freeForm</style>
+    <subject>Staff changes in January 2015</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+
+Sadly we shall be saying ‘goodbye’ to Miss Alex Fricker, the class teacher of Year 1 Venus at the end of this this term and we wish her well for the future  and thank her for her work and support over the past few months.
+
+
+We are pleased to announce however that Mrs Marta Smith who is an experienced teacher will be taking her place in January. Mrs Smith has previously worked with Year 1 before joining BST and we wish her every success in her new role.
+
+
+Mrs Sitora Khotamova will move into Reception Class Jupiter and the pupils will all know her as she was in the class recently when Mrs Smith was away but many of them will remember her from their Nursery days too!
+
+
+Filling Miss Sitora’s place in Nursery Star will be Miss Sophie Vandyck who is well known and liked by all the pupils in Nursery Star as she has worked alongside Miss Sitora since September.
+
+
+Although staff may change from time to time the life of the school continues in exactly the same manner and we shall continue to challenge and enthuse the children in all they do and learn.
+
+
+Best Wishes for the Season and the coming New Year.
+
+
+Wendy H Holland
+
+Head of Lower Campus
+
+
+
+
+
+
+
+Уважаемые родители!
+
+
+К сожалению, в конце этого триместра мы вынуждены попрощаться с руководителем класса Y1 Venus-мисс Алекс Фрикер. Мы хотим пожелать ей всего наилучшего в будущем, а также-поблагодарить ее за проделанную работу и поддержку в течение последних нескольких месяцев.
+
+
+Мы рады сообщить, что в январе ее заменит новый квалифицированный преподаватель- Миссис Марта Смит. Миссис Смит работала с 1-ми классами до того, как начала работать в Британской школе города Ташкента, и мы желаем ей успехов на её новой должности.
+
+
+Миссис Ситора Хотамова станет преподавателем класса Reception Jupiter. Миссис Хотамова знакома всем ученикам, так как она заменяла Миссис Смит в её отсутствие, а некоторые дети помнят её со своих дней в Nursery.
+
+
+Мисс Софи Вэндайк займёт место Миссис Ситоры Хатамовой в классе Nursery Star. Она знакома и любима всеми учащимися этой группы, так как она работала вместе с Мисс Ситорой с сентября  месяца.
+
+
+Несмотря на то, что персонал сотрудников может  время от времени меняться, школа будет продолжать свою работу в обычном режиме. А мы, в свою очередь, будем стараться стимулировать детей в процессе обучения.
+
+
+С наилучшими пожеланиями в наступающем Новом году.
+
+
+Венди Холланд
+
+Координатор Нижнего Кампуса
+
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Parent Portal Communication</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Parent Portal Communication</name>
+    <style>freeForm</style>
+    <subject>Parent Portal Communication</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+We would normally communicate via the Parent Portal, however I hope this email solves a few issues people are having and helps you change your settings so that you don&apos;t get all your email updates on Sundays.
+
+Firstly the idea is that you would regularly check the Parent Portal (regardless of any email updates) for information. The Portal is now the way that school keeps you informed of all information and more features are planned for the Portal in the future.
+
+However If you still wish to use email notifications, you can manually set the frequency of email notifications from the Portal. You should first log into the Portal, then go to Settings and choose Email Settings. I hope this email helps.
+
+
+
+Regards,
+
+Academic Team
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

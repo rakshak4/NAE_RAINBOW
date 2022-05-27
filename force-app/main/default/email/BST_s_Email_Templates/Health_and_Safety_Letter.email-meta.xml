@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to Lower Campus Parents about Health and Safety</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Health and Safety Letter</name>
+    <style>freeForm</style>
+    <subject>Health and Safety</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I hope this email finds you well and that you have had a restful long weekend.  Please find below some reminders which will help keep your child safe in school.
+
+
+Sweets, Chocolate and Chewing Gum
+
+Please do not provide sweeties, chocolate bars or chewing gum for your child to eat whilst in school. We are trying to promote healthy eating during snack times and we need your support to enable us to do this successfully.  Hard boiled sweets and chewing gum are also choking hazards and we need to ensure that no children on the Lower Campus have access to these things whilst in school.
+
+
+Nut products
+
+We have a number of children in our school who are allergic to nuts.  Kindly be reminded that all nut products are not allowed in school including birthday cakes.  Allergic reactions can occur very quickly and can be dangerous for the child who is allergic to nuts.  Please help us to reduce the opportunity for this to happen by making sure that any food that you or your child brings into school is nut free.
+
+
+Medicine
+
+Kindly be reminded that children are not allowed to bring medicines of any kind to school.  For health and safety reasons, if you son or daughter needs to take medicine during the school day this must be done under the supervision of the school nurse.
+
+You can either speak with the school nurse directly or email schoolnurse@britishschool.uz with an outline of which medicine is to be taken, when and the reason why.  Any medicines being brought into school should be done so by the adult who brings your child to school.  Medicines should then be given directly to the school nurse. At no point should children have medicine of any kind in his/her school bag, snack box or be carrying it.
+
+
+Should you have any questions about this please do not hesitate to ask.
+
+
+Best wishes
+
+Jennifer Kirkham
+
+
+
+
+
+Дорогие родители,
+
+
+
+Я надеюсь вы хорошо провели выходные. Ниже вы найдете напоминание о некоторых вещах, которые обеспечат безопасность вашего ребенка в школе.
+
+
+Сладости, шоколад и жевательная резинка
+
+Пожалуйста не передавайте ребенку в школу сладкое, шоколад и жевательную резинку. Мы стараемся приучать детей к здоровому образу питания в школе и для того, чтобы это произошло нам нужна ваша поддержка. Дети могут поперхнуться твердыми конфетами или жевательной резинкой, и мы должны быть уверены в том, что ни у одного ребенка в здании детского сада их нет в наличии.
+
+
+Продукты содержащие орехи
+
+В школе имеются ученики, у которых аллергия на продукты содержащие орехи. Хотелось бы напомнить вам, что в школе запрещены любые продукты содержащие орехи, включая торты ко дню рождения. Аллергические реакции могут проявляться очень быстро и могут быть опасны для ребенка с аллергией на эти продукты. Пожалуйста помогите нам обезопасить этих детей и не передавайте своему ребенку в школу продукты содержащие орехи.
+
+
+
+Лекарственные средства
+
+Хотелось бы напомнить вам, что детям не разрешено приносить в школу лекарственные средства любого происхождения. В целях безопасности все лекарственные средства, которые ваш ребенок должен принимать на территории школы, должны быть приняты под присмотром школьной медсестры.
+
+
+
+Вы можете обратиться непосредственно к школьной медсестре или написать ей по электронному адресу: schoolnurse@britishschool.uz , с подробным описанием того что, когда и по какой причине ребенок должен принять. Любые лекарственные средства передаваемые в школу должны быть принесены взрослым и им же переданы школьной медсестре. Ни при каких обстоятельствах лекарственные средства не должны находиться у ребенка.
+
+
+Буду рада ответить на возникшие по этому поводу вопросы.
+
+
+
+
+С уважением,
+
+
+Дженнифер Киркхам
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

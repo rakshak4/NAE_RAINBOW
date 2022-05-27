@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Updated Bus Schedule 2012/13</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Updated Bus Schedule 2012/13</name>
+    <style>freeForm</style>
+    <subject>Updated Bus Schedule 2012/13</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please be aware that the most up-to-date bus schedule is now available on the school website.
+
+Kindly note that changes have been made to some pick up and drop off times/locations and bus monitors&apos; contact details have been adjusted after further trials this week.
+
+For the full schedule, please refer to the website (www.bsg.org.cn) or click here for more information.
+
+Also, a reminder that the school day starts at 8:00 am from 20th August and there are no After School Activities (ASAs) for the first two weeks of term so school will finish at 3pm each day.
+
+Many thanks for your understanding and support.
+
+Kind Regards,
+
+Grace.K
+Administration Assistant
+The British School of Guangzhou
+Tel: +86 (20) 8709 4788
+www.bsg.org.cn
+Part of The British Schools Group – World Class Education
+
+*Disclaimer:*
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or taking of any action based on it, is strictly prohibited.
+
+World Class Education
+
+________________________________________________________
+
+Member of The British Schools Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

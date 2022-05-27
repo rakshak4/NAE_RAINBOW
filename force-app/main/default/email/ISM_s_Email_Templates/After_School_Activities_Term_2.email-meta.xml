@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>After School Activities Term 2</name>
+    <style>freeForm</style>
+    <subject>After School Activities Term 2</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+The term two upper campus ASA programme will start on Tuesday 28th January and end on Wednesday 19th March.
+
+The club lists will be published and available to view by 6pm on Wednesday 15th January. Students cannot select clubs until the system goes live at 6:30pm on Friday 17th January.
+
+Please be aware that, although tickets sales are marked as ‘free’, some clubs do require payment.
+
+Some clubs also require students to be picked up from school or an off-site venue after 4:30pm.
+
+Please check club information carefully before signing up.
+
+The link to the ASA website is:
+
+http://www.eventbrite.com/org/2966850589
+
+If the admin team does not have your up to date email address, then please get in touch with them prior to this date. Alternatively, you can visit the school website to click on the link and select your club.
+
+To make this process even smoother, please be aware of the following points:
+
+- Please only select 1 club on a Tuesday and 1 club on a Wednesday.  If a child’s name appears twice on a particular day, then they will be removed from their club selections unless otherwise stated.
+
+- Please fill in your child’s full name when registering for a club. Then please add your email address to allow a confirmation ticket to be sent.  You do not have to print this but please keep for your reference.
+
+- When the system asks you “did you mean”, and provides you with another email address, please click NO.
+
+- Please make sure that any money for clubs is taken directly to the accounts office in a clearly labeled envelope unless otherwise stated in the club description.
+
+- If tickets are not available for a club or it states “sold out’, this means that there are no spaces left.  You should choose another club at this point.
+
+Kind regards,
+
+Mr. P. Carr
+
+UC ASA Coordinator
+
+Miss. A. Hodgson
+
+LC ASA Coordinator
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

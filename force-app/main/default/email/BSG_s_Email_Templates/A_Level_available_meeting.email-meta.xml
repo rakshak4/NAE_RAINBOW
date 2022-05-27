@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Residential photos</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Residential photos</name>
+    <style>freeForm</style>
+    <subject>Residential photos</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+I am sure you have heard from your children all about their residential trip; the places they visited and the activities they took part in. Now you have the opportunity to see what they did and where they went by viewing and downloading the photos from the residential trips online. This is a new method of providing residential trip photos so hopefully this will be more efficient and convenient than in previous years. The website can also be viewed using mobile smart phones where photos again can be conveniently downloaded.
+
+Please follow the instruction below for viewing and downloading photos:
+
+Click on the link http://bsgtrips.smugmug.com
+Enter password in lowercase: bsgtrips
+Click on the year group(s) for your child or children to browse the photos.
+To download, click on the download file icon on the right side of the picture or after clicking on a picture to view, click save at the top of the screen.
+
+
+
+
+
+We hope you enjoy viewing these photos as much as we enjoyed taking them.
+
+If you have any further questions or feedback about this site, then please don’t hesitate to email me david.barton@bsg.org.cn
+
+
+Regards,
+
+
+David Barton
+Residential Trips Co-ordinator
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

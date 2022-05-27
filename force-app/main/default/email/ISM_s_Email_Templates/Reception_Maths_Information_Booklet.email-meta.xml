@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Reception Maths Information Booklet</name>
+    <style>freeForm</style>
+    <subject>Reception Maths Information Booklet</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+
+During the recent teacher parent consultations, we were asked about the strategies we use to teach Maths and how you, as a parent, can help your child at home.
+
+Please click here to download the booklet.
+
+
+This booklet explains many of the number-based Maths concepts, which are taught to children in Reception. It is intended to help you to understand what we teach, so that you can support your child’s learning at home. We teach the children a variety of strategies, which they can use in a given context. It is important to remember that at this stage in Reception, the children can still use their fingers to help them solve a problem; this is just one of the many strategies we teach them. Also, it is important for children to realise that Maths is not just about Number and sums. Maths is all around us in shape, counting, measurement, time and data. Maths arises constantly in our everyday lives, and children will benefit from being involved in purposeful applications of Maths at home with you, such as when shopping, reading timetables, construction, cooking, looking at maps and doing jigsaws.
+
+
+In this booklet we have outlined common strategies for solving number problems. Our intention, always, is to teach for understanding, not just to be able to ‘do’ the process. Bear in mind that children may need to experience a process many times before they understand it. Every bit of practice they do at home makes a difference.
+
+
+We hope that this booklet will be a useful reference for you and your child. If you have specific questions or concerns, please don’t hesitate to contact your child’s teacher.
+
+
+Kind regards,
+
+Mrs. Elaine Maguire
+
+
+Lower Campus Maths Co-ordinator
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,179 @@
+<!-- 
+    Author: Kunal Sharma
+    Created Date: 27 Feb 2013
+    Description: VF page for adding bulk student registrations 
+    Audit Date:
+    Audited By: 
+    
+    COMMENTS:
+    
+
+ -->
+
+<apex:page standardController="Group__c" extensions="AddRegistrations_Controller" sidebar="false" showHeader="false">
+ 
+    <script>
+        function refreshParentClose(){
+            //alert('ting');
+            window.opener.location.href = "/apex/Tabbed_Group_Detail?id={!grp.Id}&stab=manageRegistration"; 
+            window.close();
+        }
+        function refreshParent(){
+            window.opener.location.href = "/apex/Tabbed_Group_Detail?id={!grp.Id}&stab=manageRegistration"; 
+        }
+    </script>
+    <apex:form id="mainForm">
+        <apex:actionFunction name="selectAll" action="{!selectAllContacts}" rerender="searchResults,messages" status="addallstatus"/>
+        <apex:pageBlock title="{!grp.Name} : Add Students" mode="edit">
+            <apex:pageBlockButtons location="Bottom">
+                <apex:actionStatus id="saveStatus">
+                    <apex:facet name="stop">
+                        <apex:commandButton value="Add Students" action="{!saveRegistration}" status="saveStatus" reRender="mainForm" onComplete="refreshParent();"/>       
+                    </apex:facet>
+                    <apex:facet name="start">
+                        <apex:commandButton value="Adding Students..." disabled="true"/>        
+                    </apex:facet>
+                </apex:actionStatus>
+                
+                <apex:commandButton value="Done" onClick="window.close();return false;"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection title="Filter Students" columns="2">
+                <apex:pageBlockSectionItem helpText="searches in Student Name, Student Number and Language Options">
+                    <apex:outputLabel for="studentKeyword" value="Keyword"/>
+                    <apex:inputText id="studentKeyword" value="{!studentKeyword}"/>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel for="yearselection" value="Year Group"/>
+                    <apex:selectList id="yearselection" value="{!selectedYearGroup}" multiselect="false" size="1">
+                         <apex:selectOptions value="{!yearGroupOptions}"/>
+                    </apex:selectList>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel for="classselection" value="Class"/>
+                    <apex:selectList id="classselection" value="{!selectedClass}" multiselect="false" size="1">
+                         <apex:selectOptions value="{!classOptions}"/>
+                    </apex:selectList>
+                </apex:pageBlockSectionItem>
+                <!-- <apex:inputField value="{!opp.Year_Group__c}"/>
+                <apex:inputField value="{!opp.Class__c}"/>  -->
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel for="houseselection" value="House"/>
+                    <apex:selectList id="houseselection" value="{!selectedHouse}" multiselect="false" size="1">
+                         <apex:selectOptions value="{!houseOptions}"/>
+                    </apex:selectList>
+                </apex:pageBlockSectionItem>
+                <apex:commandButton value="Search Students" action="{!searchContacts}"/>
+            </apex:pageBlockSection>
+            
+            
+            <br/>
+            <apex:actionStatus startText=" (processing ...)" stopText="" id="addallstatus"/>
+            <apex:actionStatus startText=" (sorting list ...)" stopText="" id="sortingStatus"/>
+            <apex:pageBlockTable title="Search Results" value="{!fetchedContacts}" var="con" id="searchResults">
+                <apex:column >
+                    <apex:facet name="header">
+                        <apex:outputPanel layout="block">
+                         Add <apex:inputCheckBox value="{!selectAll}" onChange="selectAll();"/>
+                        </apex:outputPanel>
+                    </apex:facet>           
+                    <apex:inputCheckBox value="{!con.selected}" disabled="{!IF(con.registration == null, false, true)}"/>
+                </apex:column>        
+                
+                <apex:column >
+                    <apex:facet name="header">
+                        <apex:commandLink action="{!sortByField}" immediate="true" reRender="searchResults" status="sortingStatus" value="Student">
+                                <apex:param name="field" value="Student_Name__c"/>
+                        </apex:commandLink>
+                    </apex:facet>           
+                    <apex:outputField value="{!con.con.Student_Name__c}"/>
+                </apex:column>
+                
+                <apex:column >
+                    <apex:facet name="header">
+                        <apex:commandLink action="{!sortByField}" immediate="true" reRender="searchResults" status="sortingStatus" value="Student#">
+                                <apex:param name="field" value="Student_Number__c"/>
+                        </apex:commandLink>
+                    </apex:facet>           
+                    <apex:outputField value="{!con.con.Student_Number__c}"/>
+                </apex:column>
+                
+                <apex:column >
+                    <apex:facet name="header">
+                        <apex:commandLink action="{!sortByField}" immediate="true" reRender="searchResults" status="sortingStatus" value="DOB">
+                                <apex:param name="field" value="Date_of_Birth__c"/>
+                        </apex:commandLink>
+                    </apex:facet>           
+                    <apex:outputField value="{!con.con.Date_of_Birth__c}"/>
+                </apex:column>
+                
+                <apex:column >
+                     <apex:facet name="header">
+                        <apex:commandLink action="{!sortByField}" immediate="true" reRender="searchResults" status="sortingStatus" value="{!$ObjectType.Contact.Fields.Year_Group__c.Label}">
+                            <apex:param name="field" value="Year_Group__c"/>
+                        </apex:commandLink>
+                     </apex:facet>                  
+                    <apex:outputField value="{!con.con.Year_Group__c}"/>
+                </apex:column>
+                
+                <apex:column >
+                    <apex:facet name="header">
+                        <apex:commandLink action="{!sortByField}" immediate="true" reRender="searchResults" status="sortingStatus" value="Half Day?">
+                                <apex:param name="field" value="Half_Day__c"/>
+                        </apex:commandLink>
+                    </apex:facet>           
+                    <apex:outputField value="{!con.con.Half_Day__c}"/>
+                </apex:column>
+                
+                <apex:column >
+                     <apex:facet name="header">
+                        <apex:commandLink action="{!sortByField}" immediate="true" reRender="searchResults" status="sortingStatus" value="{!$ObjectType.Contact.Fields.Class__c.Label}">
+                            <apex:param name="field" value="Class__c"/>
+                        </apex:commandLink>
+                     </apex:facet>                  
+                    <apex:outputField value="{!con.con.Class__c}"/>
+                </apex:column>
+                
+                <apex:column >
+                    <apex:facet name="header">
+                        <apex:commandLink action="{!sortByField}" immediate="true" reRender="searchResults" status="sortingStatus" value="{!$ObjectType.Contact.Fields.House__c.Label}">
+                            <apex:param name="field" value="House__c"/>
+                        </apex:commandLink>
+                     </apex:facet>              
+                    <apex:outputField value="{!con.con.House__c}"/>
+                </apex:column>
+                
+                <apex:column >
+                    <apex:facet name="header">
+                        <apex:commandLink action="{!sortByField}" immediate="true" reRender="searchResults" status="sortingStatus" value="Starting Date">
+                                <apex:param name="field" value="Starting_Date_from_student__c"/>
+                        </apex:commandLink>
+                    </apex:facet>           
+                    <apex:outputField value="{!con.con.Starting_Date_from_student__c}"/>
+                </apex:column>
+                
+                <apex:column >
+                    <apex:facet name="header">
+                        <apex:commandLink action="{!sortByField}" immediate="true" reRender="searchResults" status="sortingStatus" value="{!$ObjectType.Contact.Fields.EAL__c.Label}">
+                            <apex:param name="field" value="EAL__c"/>
+                        </apex:commandLink>
+                     </apex:facet>          
+                    <apex:outputField value="{!con.con.EAL__c}"/>
+                </apex:column>
+                
+                <apex:column >
+                    <apex:facet name="header">
+                        <apex:commandLink action="{!sortByField}" immediate="true" reRender="searchResults" status="sortingStatus" value="Language Options">
+                            <apex:param name="field" value="Language_Option_s__c"/>
+                        </apex:commandLink>
+                     </apex:facet>          
+                    <apex:outputField value="{!con.con.Language_Option_s__c}"/>
+                </apex:column>
+                
+               
+            </apex:pageBlockTable>
+            
+            <apex:pageMessages escape="false"/>
+        </apex:pageBlock>
+    </apex:form> 
+ 
+</apex:page>

@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Academic_Year_Copy__c</fullName>
+        <externalId>false</externalId>
+        <label>Academic Year Copy</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Academic_Year__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND(MONTH(DATEVALUE(CreatedDate))&gt;7,MONTH(DATEVALUE(CreatedDate))&lt;13),TEXT(YEAR(DATEVALUE(CreatedDate)))&amp;&quot;/&quot;&amp; TEXT(CreatedDate_plus_1__c ),TEXT(CreatedDate_minus_1__c)&amp;&quot;/&quot;&amp;TEXT(YEAR(DATEVALUE(CreatedDate))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Academic Year</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Action_Taken__c</fullName>
+        <externalId>false</externalId>
+        <label>Action Taken</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Contact_Campus__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(Student_Name__r.Admissions_File__r.Class__c,
+&quot;Pending&quot;,&quot;Campus 1&quot;, 
+&quot;A&quot;,&quot;Campus 1&quot;,
+&quot;B&quot;,&quot;Campus 1&quot;,
+&quot;C&quot;,&quot;Campus 1&quot;,
+&quot;D&quot;,&quot;Campus 1&quot;,
+&quot;E&quot;,&quot;Campus 1&quot;,
+&quot;F&quot;,&quot;Campus 1&quot;,
+&quot;G&quot;,&quot;Campus 1&quot;,
+&quot;H&quot;,&quot;Campus 1&quot;,
+&quot;Pending (Campus 1: A-H)&quot;,&quot;Campus 1&quot;,
+&quot;I&quot;,&quot;Campus 2&quot;,
+&quot;J&quot;,&quot;Campus 2&quot;,
+&quot;K&quot;,&quot;Campus 2&quot;,
+&quot;L&quot;,&quot;Campus 2&quot;,
+&quot;M&quot;,&quot;Campus 2&quot;,
+&quot;N&quot;,&quot;Campus 2&quot;,
+&quot;O&quot;,&quot;Campus 2&quot;,
+&quot;P&quot;,&quot;Campus 2&quot;,
+&quot;Pending (Campus 2: I-P)&quot;,&quot;Campus 2&quot;,
+&quot;Q&quot;,&quot;Campus 3&quot;,
+&quot;R&quot;,&quot;Campus 3&quot;,
+&quot;S&quot;,&quot;Campus 3&quot;,
+&quot;T&quot;,&quot;Campus 3&quot;,
+&quot;U&quot;,&quot;Campus 3&quot;,
+&quot;V&quot;,&quot;Campus 3&quot;,
+&quot;W&quot;,&quot;Campus 3&quot;,
+&quot;X&quot;,&quot;Campus 3&quot;, &quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contact Campus</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CreatedDate_minus_1__c</fullName>
+        <externalId>false</externalId>
+        <formula>YEAR(DATEVALUE(CreatedDate ))-1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CreatedDate-1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CreatedDate_plus_1__c</fullName>
+        <externalId>false</externalId>
+        <formula>YEAR(DATEVALUE(CreatedDate ))+1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CreatedDate+1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Display_Date__c</fullName>
+        <description>The date as it is to be displayed in the parent portal</description>
+        <externalId>false</externalId>
+        <formula>IF($User.Is_US_Locale__c = TRUE,
+
+Display_Month__c&amp;&quot; &quot;&amp; TEXT(DAY(Pastoral_Date__c)) &amp;&quot;, &quot;&amp;TEXT(YEAR(Pastoral_Date__c)),
+
+TEXT(DAY(Pastoral_Date__c))&amp;&quot; &quot;&amp;Display_Month__c&amp;&quot; &quot;&amp;TEXT(YEAR(Pastoral_Date__c)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Display Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Display_Header__c</fullName>
+        <description>header text to be displayed on portal</description>
+        <externalId>false</externalId>
+        <formula>IF(AND(RecordType.Name = &quot;Incidents&quot;, Health_Related__c = TRUE), &quot;Incident - Health Related&quot;, CASE(RecordType.Name, &quot;Incidents&quot;, &quot;Incident&quot;, &quot;Achievements&quot;, &quot;Achievement&quot;, RecordType.Name))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Display Header</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Display_Month__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(MONTH(Pastoral_Date__c), 
+
+1, &quot;Jan&quot;,
+2, &quot;Feb&quot;,
+3, &quot;Mar&quot;,
+4, &quot;Apr&quot;,
+5, &quot;May&quot;,
+6, &quot;Jun&quot;,
+7, &quot;Jul&quot;,
+8, &quot;Aug&quot;,
+9, &quot;Sep&quot;,
+10, &quot;Oct&quot;,
+11, &quot;Nov&quot;,
+12, &quot;Dec&quot;, &quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Display Month</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Display_Title__c</fullName>
+        <description>title text to be displayed on portal</description>
+        <externalId>false</externalId>
+        <formula>Title__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>title text to be displayed on portal</inlineHelpText>
+        <label>Display Title</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Display_in_Portal__c</fullName>
+        <description>Controls whether or not a pastoral record is visible in the parent portal</description>
+        <externalId>false</externalId>
+        <formula>IF(OR(RecordType.Name = &quot;Achievements&quot;, RecordType.Name = &quot;Incidents&quot;, AND(RecordType.Name = &quot;Effort &amp; Attitude&quot;, TEXT(House_Points__c) &lt;&gt; &quot;&quot;, TEXT(Effort__c) = &quot;&quot;)), TRUE,  Is_Approved__c)</formula>
+        <label>Visible in Parent Portal</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Effort__c</fullName>
+        <externalId>false</externalId>
+        <label>Effort</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Excellent</fullName>
+                    <default>false</default>
+                    <label>Excellent</label>
+                </value>
+                <value>
+                    <fullName>Good</fullName>
+                    <default>false</default>
+                    <label>Good</label>
+                </value>
+                <value>
+                    <fullName>Satisfactory</fullName>
+                    <default>false</default>
+                    <label>Satisfactory</label>
+                </value>
+                <value>
+                    <fullName>Improvement Needed</fullName>
+                    <default>false</default>
+                    <label>Improvement Needed</label>
+                </value>
+                <value>
+                    <fullName>Cause for Concern</fullName>
+                    <default>false</default>
+                    <label>Cause for Concern</label>
+                </value>
+                <value>
+                    <fullName>------------</fullName>
+                    <default>false</default>
+                    <label>------------</label>
+                </value>
+                <value>
+                    <fullName>Above Expected Level</fullName>
+                    <default>false</default>
+                    <label>Above Expected Level</label>
+                </value>
+                <value>
+                    <fullName>Meeting Expectations</fullName>
+                    <default>false</default>
+                    <label>Meeting Expectations</label>
+                </value>
+                <value>
+                    <fullName>Below Expected Level</fullName>
+                    <default>false</default>
+                    <label>Below Expected Level</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>External_ID_18_Char__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>The ID of the record in the alternate SFDC org, where applicable.</description>
+        <externalId>true</externalId>
+        <label>External ID (18 Char)</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Folder_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Folder Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Folder_Title__c</fullName>
+        <externalId>false</externalId>
+        <label>Title</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Folder_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Effort &amp; Attitude</fullName>
+                    <default>false</default>
+                    <label>Effort &amp; Attitude</label>
+                </value>
+                <value>
+                    <fullName>Achievements</fullName>
+                    <default>false</default>
+                    <label>Achievements</label>
+                </value>
+                <value>
+                    <fullName>Incidents</fullName>
+                    <default>false</default>
+                    <label>Incidents</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Folder__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Folder</label>
+        <referenceTo>Conduct__c</referenceTo>
+        <relationshipLabel>Pastorals</relationshipLabel>
+        <relationshipName>Pastorals</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Health_Related__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Health Related</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>House_Points__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter a number between 1 and 999 to represent the number of house points, merits etc. that are being awarded</inlineHelpText>
+        <label>Point Value (Optional)</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>House__c</fullName>
+        <externalId>false</externalId>
+        <formula>Student_Name__r.House__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>House</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Approved__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Approved</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Location__c</fullName>
+        <externalId>false</externalId>
+        <label>Location</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_Approved_Pastorals_in_Folder__c</fullName>
+        <description>Populated via apex, defines the number of approved pastorals within a pastoral folder</description>
+        <externalId>false</externalId>
+        <label>Number of Approved Pastorals in Folder</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_Pastorals_in_Folder__c</fullName>
+        <description>Populated via apex, defines the number of pastorals within a pastoral folder</description>
+        <externalId>false</externalId>
+        <label>Number of Pastorals in Folder</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Owner_Title__c</fullName>
+        <description>auto populated by workflow</description>
+        <externalId>false</externalId>
+        <label>Owner Title</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Parent_Portal_Visibility__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(AND(OR(TEXT(Folder_Type__c) = &quot;Incidents&quot;, TEXT(Folder_Type__c) = &quot;Achievements&quot;), Number_of_Pastorals_in_Folder__c &lt;&gt; 0), AND(TEXT(Folder_Type__c) = &quot;Effort &amp; Attitude&quot;, Number_of_Pastorals_in_Folder__c = Number_of_Approved_Pastorals_in_Folder__c, Number_of_Pastorals_in_Folder__c &lt;&gt; 0, Number_of_Approved_Pastorals_in_Folder__c &lt;&gt; 0)), &quot;Visible in Portal&quot;, 
+
+IF(AND(TEXT(Folder_Type__c) = &quot;Effort &amp; Attitude&quot;, Number_of_Pastorals_in_Folder__c &lt;&gt; Number_of_Approved_Pastorals_in_Folder__c, Number_of_Pastorals_in_Folder__c &lt;&gt; 0, Number_of_Approved_Pastorals_in_Folder__c &lt;&gt; 0), &quot;Visible to Some Parents&quot;, 
+
+IF(Number_of_Pastorals_in_Folder__c = 0, &quot;Nothing to Display&quot;, 
+
+&quot;Not Visible in Portal&quot;)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Parent Portal Visibility</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pastoral_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Pastoral Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Private_Comment__c</fullName>
+        <externalId>false</externalId>
+        <label>Internal Comment</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Comment</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>School__c</fullName>
+        <externalId>false</externalId>
+        <formula>Student_Group__r.School__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>School</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Staff_Member_to_Notify__c</fullName>
+        <description>Populates, via a worklow rule/field update, with the email address of the form tutor of the child for which a pastoral record is being created</description>
+        <externalId>false</externalId>
+        <label>Staff Member to Notify</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Start_Date_Last_Week__c</fullName>
+        <description>Calculates the date of the first day (Monday) of the previous week</description>
+        <externalId>false</externalId>
+        <formula>CASE(MOD(TODAY() - DATE(2014, 9, 1), 7), 
+0, TODAY()-7, 
+1, TODAY()-8,
+2, TODAY()-9,
+3, TODAY()-10,
+4, TODAY()-11,
+5, TODAY()-12,
+TODAY()-13)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Start Date Last Week</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Student_Group__c</fullName>
+        <externalId>false</externalId>
+        <label>Student Group</label>
+        <referenceTo>Group__c</referenceTo>
+        <relationshipLabel>Pastorals</relationshipLabel>
+        <relationshipName>Pastoral</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>true</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Student_Name__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Student Name</label>
+        <lookupFilter>
+            <active>false</active>
+            <filterItems>
+                <field>Contact.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Student Academic File</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Pastorals</relationshipLabel>
+        <relationshipName>Behaviour</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Term_Dashboard_Filter__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND(Pastoral_Date__c &gt;= Student_Group__r.Start_Date_Last_Week__c + 7, 
+       Pastoral_Date__c &lt;= Student_Group__r.Start_Date_Last_Week__c + 13
+       ),
+   &quot;This Calendar Week (Mon-Sun) &quot;, &quot;&quot;) &amp;
+
+IF(MONTH(Pastoral_Date__c) = MONTH(TODAY()), &quot;This Calendar Month (1st - Last) &quot;, &quot;&quot;) &amp;
+
+IF(
+   AND(Pastoral_Date__c &gt;= Student_Group__r.Start_Date_Last_Week__c, 
+       Pastoral_Date__c &lt;= Student_Group__r.Start_Date_Last_Week__c + 6
+       ),
+   &quot;Last Calendar Week (Mon-Sun) &quot;, &quot;&quot;) &amp;
+
+IF(
+   AND(Pastoral_Date__c &gt;= Student_Group__r.Start_Date_Last_Week__c - 7, 
+       Pastoral_Date__c &lt;= Student_Group__r.Start_Date_Last_Week__c - 1
+       ),
+   &quot;Last 2 Calendar Weeks (Mon-Sun) &quot;, &quot;&quot;) &amp;
+
+IF(
+   AND(Pastoral_Date__c &gt;= Student_Group__r.Start_Date_Last_Week__c - 21, 
+       Pastoral_Date__c &lt;= Student_Group__r.Start_Date_Last_Week__c - 8
+       ),
+   &quot;Last 4 Calendar Weeks (Mon-Sun) &quot;, &quot;&quot;) &amp;
+
+IF(MONTH(Pastoral_Date__c) = MONTH(TODAY())-1, &quot;Last Calendar Month (1st - Last) &quot;, &quot;&quot;) &amp;
+
+Academic_Year__c &amp; &quot; &quot; &amp; Term__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Term Dashboard Filter</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Term__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND(MONTH(Pastoral_Date__c)&gt;7,MONTH(Pastoral_Date__c)&lt;13),&quot;Term 1&quot;,IF(AND(MONTH(Pastoral_Date__c)&gt;=1,(OR(MONTH(Pastoral_Date__c)&lt;4,(AND(MONTH(Pastoral_Date__c)=4,DAY(Pastoral_Date__c)&lt;11))))),&quot;Term 2&quot;,&quot;Term 3&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Term</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title__c</fullName>
+        <externalId>false</externalId>
+        <label>Title</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Pastoral</label>
+    <nameField>
+        <displayFormat>B-{0000}</displayFormat>
+        <label>Record Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Pastoral</pluralLabel>
+    <recordTypes>
+        <fullName>Awards</fullName>
+        <active>true</active>
+        <label>Achievements</label>
+        <picklistValues>
+            <picklist>Effort__c</picklist>
+            <values>
+                <fullName>------------</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Above Expected Level</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Expected Level</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cause for Concern</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Excellent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Good</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Improvement Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting Expectations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Satisfactory</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Folder_Type__c</picklist>
+            <values>
+                <fullName>Achievements</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Effort %26 Attitude</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Incidents</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>House_Points</fullName>
+        <active>true</active>
+        <label>Effort &amp; Attitude</label>
+        <picklistValues>
+            <picklist>Effort__c</picklist>
+            <values>
+                <fullName>------------</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Above Expected Level</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Expected Level</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cause for Concern</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Excellent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Good</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Improvement Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting Expectations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Satisfactory</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Folder_Type__c</picklist>
+            <values>
+                <fullName>Achievements</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Effort %26 Attitude</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Incidents</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Leadership_Roles</fullName>
+        <active>false</active>
+        <label>Leadership Roles</label>
+        <picklistValues>
+            <picklist>Effort__c</picklist>
+            <values>
+                <fullName>------------</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Above Expected Level</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Expected Level</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cause for Concern</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Excellent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Good</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Improvement Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting Expectations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Satisfactory</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Folder_Type__c</picklist>
+            <values>
+                <fullName>Achievements</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Effort %26 Attitude</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Incidents</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Pastoral</fullName>
+        <active>true</active>
+        <label>Incidents</label>
+        <picklistValues>
+            <picklist>Effort__c</picklist>
+            <values>
+                <fullName>------------</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Above Expected Level</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Expected Level</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cause for Concern</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Excellent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Good</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Improvement Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting Expectations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Satisfactory</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Folder_Type__c</picklist>
+            <values>
+                <fullName>Achievements</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Effort %26 Attitude</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Incidents</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Pastoral_Folder</fullName>
+        <active>true</active>
+        <label>Pastoral Folder</label>
+        <picklistValues>
+            <picklist>Effort__c</picklist>
+            <values>
+                <fullName>------------</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Above Expected Level</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Expected Level</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cause for Concern</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Excellent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Good</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Improvement Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting Expectations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Satisfactory</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Folder_Type__c</picklist>
+            <values>
+                <fullName>Achievements</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Effort %26 Attitude</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Incidents</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>RECORDTYPE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Title__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>RECORDTYPE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Title__c</lookupPhoneDialogsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Pastoral_Effort_Attitude_Validation</fullName>
+        <active>true</active>
+        <description>Pastorals of type &apos;Effort &amp; Attitude&apos; must have a &apos;House Point Value&apos; greater than zero OR &apos;Effort&apos; grade AND a &apos;Pastoral Date&apos; and &apos;Title&apos;.</description>
+        <errorConditionFormula>AND(
+    RecordType.DeveloperName == &quot;House_Points&quot;,
+    OR(
+       AND(
+           !ISBLANK(TEXT(Effort__c)), 
+           !ISBLANK(TEXT(House_Points__c))
+           ),
+       AND(ISBLANK(TEXT(Effort__c)), 
+           OR(ISBLANK(TEXT(House_Points__c)), 
+              House_Points__c == 0
+              )
+           )
+       )
+    )</errorConditionFormula>
+        <errorMessage>Pastorals of type &apos;Effort &amp; Attitude&apos; must have a &apos;House Point Value&apos; OR &apos;Effort&apos; grade (but not both) AND a &apos;Pastoral Date&apos; and &apos;Title&apos;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Pastoral_General_Validation</fullName>
+        <active>true</active>
+        <description>Title and Pastoral Date must be provided, and &apos;Effort&apos; cannot be &quot;------------&quot;</description>
+        <errorConditionFormula>AND( 
+    RecordType.DeveloperName != &apos;Pastoral_Folder&apos;,
+    OR(ISBLANK( Title__c ), 
+       ISBLANK( Pastoral_Date__c ), 
+       TEXT(Effort__c)=&quot;------------&quot;
+       )
+    )</errorConditionFormula>
+        <errorMessage>Title and Pastoral Date must be provided, and &apos;Effort&apos; cannot be &quot;------------&quot;</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>New_Pastoral</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>New Pastoral</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/apex/CreatePastorals?gid={!Contact.Tutor_GroupId__c}&amp;sid={!Contact.Id}</url>
+    </webLinks>
+</CustomObject>

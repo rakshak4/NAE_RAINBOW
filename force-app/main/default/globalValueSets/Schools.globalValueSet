@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>The British Schools Foundation</fullName>
+        <default>false</default>
+        <label>The British Schools Foundation</label>
+    </customValue>
+    <customValue>
+        <fullName>The British School of Guangzhou</fullName>
+        <default>false</default>
+        <label>The British School of Guangzhou</label>
+    </customValue>
+    <customValue>
+        <fullName>The British School of Nanjing</fullName>
+        <default>false</default>
+        <label>The British School of Nanjing</label>
+    </customValue>
+    <customValue>
+        <fullName>The British International School of Marbella</fullName>
+        <default>false</default>
+        <label>The British International School of Marbella</label>
+    </customValue>
+    <customValue>
+        <fullName>The British School of Navarra</fullName>
+        <default>false</default>
+        <label>The British School of Navarra</label>
+    </customValue>
+    <customValue>
+        <fullName>The British School of Tashkent</fullName>
+        <default>false</default>
+        <label>The British School of Tashkent</label>
+    </customValue>
+    <customValue>
+        <fullName>The British College of Brazil</fullName>
+        <default>false</default>
+        <label>The British College of Brazil</label>
+    </customValue>
+    <customValue>
+        <fullName>The British International School of Kuala Lumpur</fullName>
+        <default>false</default>
+        <label>The British International School of Kuala Lumpur</label>
+    </customValue>
+    <customValue>
+        <fullName>The International School of Moscow</fullName>
+        <default>false</default>
+        <label>The International School of Moscow</label>
+    </customValue>
+    <customValue>
+        <fullName>Nord Anglia International School Manila</fullName>
+        <default>false</default>
+        <label>Nord Anglia International School Manila</label>
+    </customValue>
+    <customValue>
+        <fullName>King&apos;s College Beijing</fullName>
+        <default>false</default>
+        <label>King&apos;s College Beijing</label>
+    </customValue>
+    <customValue>
+        <fullName>The British School Yangon</fullName>
+        <default>false</default>
+        <label>The British School Yangon</label>
+    </customValue>
+    <customValue>
+        <fullName>Ukraine International School</fullName>
+        <default>false</default>
+        <label>Ukraine International School</label>
+    </customValue>
+    <customValue>
+        <fullName>The New York International School</fullName>
+        <default>false</default>
+        <label>The New York International School</label>
+    </customValue>
+    <customValue>
+        <fullName>The British School of Brasilia</fullName>
+        <default>false</default>
+        <label>The British School of Brasilia</label>
+    </customValue>
+    <masterLabel>Schools</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

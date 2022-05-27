@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Giving Tree 2013 Guidelines</name>
+    <style>freeForm</style>
+    <subject>Giving Tree 2013 Guidelines</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+
+Dear Parents,
+
+All pupils should return home today with a gift tag from the giving tree. If this is not the case, do let tutors know. Please remember that the present should have an approximate value of RUB 800 – 1000. Presents must be delivered to your child’s class on the 13th December.
+
+On the reverse of all tags you will find some information about the child; name, gender and age. Some tags will also include a wish. Should their wish exceed the suggested budget, do not feel under any obligation to purchase the exact gift. Instead, find a similar related item that falls within the budget.
+
+During Russian lessons next week, the Russian teachers have organised activities where students will write their own Christmas cards for the orphanage children.
+
+Please ensure that the tag identifying to whom your present is for and Christmas card is attached securely onto the gift itself.
+
+It is easier to transfer all presents from ISM to the orphanage if they are brought to school in a present bag, so we would ask you to do this where possible. However, even if you are placing the present in a gift bag, the tag should still be securely attached to the present and not to the bag (this will ensure that if the present comes out of the bag for any reason, we will still be able to get it to its rightful recipient.)
+
+Present Guidelines:
+
+If the tag that your child(ren) receive does not have a wish but just the age and gender then please follow the ideas/guidelines below:
+
+Boys Aged 3 to 10 – Art sets, Lego sets, puzzles, age appropriate games, school bag or stationary sets, football/basketball ball, clothing accessories e.g. hats, scarves, gloves etc
+
+Boys Aged 11 to 18 – Computer games, board games, football/basketball ball, personal grooming and hygiene products packs, clothing accessories e.g. t-shirts, slippers, hats, scarves, gloves etc
+
+Girls Aged 3 to 10 – Art or craft sets, “girly games, activities”, dolls, soft toys, small personal items like jewellery or other small decorative boxes, stationary sets, hair accessories, clothing accessories e.g. hats, scarves, gloves, ear muffs etc
+
+Girls Aged 11 to 18 – Cosmetics and hygiene products, jewellery, fashion accessories e.g. hats, gloves, scarves, ear muffs, handbag, personal items like small decorative boxes etc.
+
+** If toys/games require batteries, it would be a good idea to include a pack of rechargeable batteries in the gift **
+
+A very big thank you for supporting this initiative, there is no doubt that it will make many children very happy this Christmas.
+
+Have a nice weekend,
+
+
+
+The International School of Moscow
+
+World Class Education
+
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>BSY School Hub Launch</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>BSY School Hub Launch</name>
+    <style>freeForm</style>
+    <subject>Launch of BSY School Hub</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

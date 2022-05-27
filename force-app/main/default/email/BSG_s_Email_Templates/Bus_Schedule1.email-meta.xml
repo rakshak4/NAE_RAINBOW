@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Transportation arrangement for primary performance</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BSG</letterhead>
+    <name>Transportation arrangement</name>
+    <style>freeForm</style>
+    <subject>transportation arrangement for The Lion King Performances</subject>
+    <textOnly>Dear  {!Solution.SolutionName} {!Contact.FirstName} {!Contact.LastName}
+
+As you are all aware, the Lion King performances will be taking place next Wednesday and Thursday. If you are coming along to watch on the Wednesday matinee performance and intend to take your child home with you at the end of the day instead of them getting on the school bus, please can you email Zoe, the bus manager at zoe@bsg.org.cn so she can make arrangements.
+
+Many thanks
+
+Gemma Silk
+KS2 Leader
+The British School of Guangzhou
++8620 87094788
+www.bsg.org.cn</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

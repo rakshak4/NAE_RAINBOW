@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Foundation Stage Parent &amp; Teacher Consultations</name>
+    <style>freeForm</style>
+    <subject>Foundation Stage Parent &amp; Teacher Consultations</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Foundation Stage
+
+Parent and Teacher Consultations
+
+
+Dear Parents,                                                                  Thursday 26th September  2013
+
+
+Our first Parent and Teacher Consultations (PTCs) will be held on Thursday 3rd and Thursday 10th of October from 4:00pm until 6:00pm.  This will be an early opportunity to follow up our Meet the Teacher Evenings with an individual meeting to discuss how your child is settling into their new class.  The consultations will be followed by a Term One Report (initial report), issued on Friday November 22nd. The report will identify progress made so far this year. (There will be no post consultation unless specifically requested by either the teacher or parent.)
+
+
+Please note that it is school policy that children do not attend the actual consultation. However, if you are unable to find appropriate supervision then your child may accompany you and he/she will be cared for in the library during your consultation time. Please collect and supervise your child from 3:20pm until the time of your meeting as teachers will be preparing for consultations. Your consultation will of course be with the form tutor. Should you wish to meet with any specialist teachers, please note that they will be available until 6pm in their respective rooms.
+
+
+Please indicate your preferred day and time on the slip below and return it to school by Monday 30th September. Your appointment will then be confirmed in writing. Please be aware that consultations are scheduled for ten minutes. If you feel that you need more time please arrange a further meeting with the teacher.
+
+
+Yours Sincerely,
+
+Mrs Doubleday
+
+Head of Lower Campus
+
+
+
+Child’s Name …………………………… Class:………………………….
+
+
+
+
+Thursday
+
+3rd Oct
+
+Thursday
+
+10th Oct
+
+4:00
+
+
+
+4:10
+
+
+
+4:20
+
+
+
+4:30
+
+
+
+4:40
+
+
+
+4:50
+
+
+
+5:00
+
+
+
+5:10
+
+
+
+5:20
+
+
+
+5:30
+
+
+
+5:40
+
+
+
+5:50
+
+
+
+
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

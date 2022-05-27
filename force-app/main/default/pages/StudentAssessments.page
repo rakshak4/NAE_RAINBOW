@@ -1,0 +1,46 @@
+<apex:page standardController="Contact" extensions="StudentAssessments_Controller" showHeader="false" sidebar="false">
+  <apex:pageBlock title="Assessments">
+    <apex:pageBlockTable value="{!assessments}" var="a">
+        <apex:column >
+            <apex:facet name="header">Name</apex:facet>           
+            <apex:outputLink value="/{!a.Id}">{!a.Assessment_Display_Name__c}</apex:outputLink>
+        </apex:column>
+        <apex:column >
+            <apex:facet name="header">Group Name</apex:facet> 
+            <apex:outputField value="{!a.Group_Name__c}"/>
+        </apex:column>
+        <apex:column >
+            <apex:facet name="header">Achievement</apex:facet> 
+            <apex:outputField value="{!a.Achievement__c}"/>
+        </apex:column>
+        <apex:column >
+            <apex:facet name="header">Effort</apex:facet> 
+            <apex:outputField value="{!a.Effort__c}"/>
+        </apex:column>
+        <apex:column >
+            <apex:facet name="header">Grade</apex:facet> 
+            <apex:outputField value="{!a.Grade__c}"/>
+        </apex:column>
+        <apex:column >
+            <apex:facet name="header">TG/PG</apex:facet> 
+            <apex:outputField value="{!a.Target_Predicted_Grade__c}"/>
+        </apex:column>
+        <apex:column >
+            <apex:facet name="header">Comment</apex:facet> 
+            <apex:outputField value="{!a.Comment__c}"/>
+        </apex:column>
+        <apex:column >
+            <apex:facet name="header">Created By</apex:facet> 
+            <apex:outputField value="{!a.CreatedById}"/>
+        </apex:column>
+        <apex:column >
+            <apex:facet name="header">Assessment Date</apex:facet> 
+            <apex:outputField value="{!a.Assessment_Date_Copy__c}"/>
+        </apex:column>
+        <apex:column >
+            <apex:facet name="header">Visible in Parent Portal</apex:facet> 
+            <apex:outputField value="{!a.Auto_Approve__c}"/>
+        </apex:column>
+    </apex:pageBlockTable>
+  </apex:pageBlock>
+</apex:page>

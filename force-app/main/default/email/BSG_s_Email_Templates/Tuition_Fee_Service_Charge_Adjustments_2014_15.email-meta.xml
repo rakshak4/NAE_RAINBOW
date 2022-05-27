@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Tuition Fee &amp; Service Charge Adjustments 2014/15</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Tuition Fee &amp; Service Charge Adjustments 2014/15</name>
+    <style>freeForm</style>
+    <subject>Tuition Fee &amp; Service Charge Adjustments 2014/15</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+
+
+
+Dear Parents,
+
+
+As we continue to plan for the Academic Year 2014/15, we would like to inform you of adjustments to tuition fees and service charges that will come into effect Term 1, 2014/15.
+
+
+Tuition Fees:
+
+Tuition fees will be adjusted to cover increased operating costs and to allow us to continue to provide the very highest quality teaching and learning services. Individual year group increases will vary but, if taken as an average across all year groups, they equate to a fee increase of slightly more than 4%. Please note that tuition fees will continue to cover &apos;Residential Trips&apos;, &apos;Primary Instrumental Music (PIMS)&apos; tuition and device costs relating to the 1-1 Apple Programme.
+
+
+We are pleased to announce standard tuition fees will now cover all examination costs, including external charges for IGCSE and AS/A-Level examinations that our Secondary students take in preparation for University entrance.
+
+
+We would also like to highlight that in response to feedback from parents, termly tuition fees will be adjusted to match the length of each term, with a higher fee for Term 1 and lower fees in Terms 2 &amp; 3. Please be aware that this change does not represent any further increase to fees.
+
+
+In addition, we would like to remind all fee payers that the 5% discount available for &apos;Yearly&apos; payments will remain in place for 2014/15.
+
+
+Service Charges:
+
+Bus service charges will be adjusted, with a 3% increase to all routes, to allow us to keep the current services we provide. Other service charges, including lunches, will remain unchanged for next year.
+
+Please find full details of all school fees for 2014-15 on our website: http://www.bsg.org.cn/en/admissions/school-fees.aspx
+
+
+If you require any further information or clarification on any school fees, please contact the school through info@bsg.org.cn.
+
+
+Kind regards,
+
+
+Mr. Mark Thomas
+
+(School Principal)
+
+
+
+
+
+The British School of Guangzhou
+
+
+World Class Education
+
+
+
+
+
+——————————————————————————————————————
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

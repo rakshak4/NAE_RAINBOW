@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Hand foot and mouth info for parents</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Hand Foot and Mouth Info for parents</name>
+    <style>freeForm</style>
+    <subject>Hand Foot and Mouth Info for parents</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+At this time of the year outbreaks of Hand, Foot and Mouth disease are relatively common in China, and unfortunately we have had a couple of cases in our Lakefront campus. The school has already put into place the preventative measures listed below and these will continue until we are satisfied the virus is no longer in circulation.
+
+Prevention and control measures already being used include:
+
+Daily cleaning and disinfection of the door handles, stair railings, toys, bathroom accessories and food utensils.
+Temperature taking before embarking the buses or entering school grounds.
+Feverish children will not be allowed to get on the bus. Those displaying symptoms during the day will see the nurse immediately and parents will be contacted.
+The children have been taught how to wash their hands properly.
+Hand washing advice posted in all bathrooms.
+Dry hand washing liquids are available in all classrooms.
+
+We are confident that this will minimise the number of cases however, we will continue to be vigilant and if increasing numbers of children are infected, the school will consult with local education and health departments to decide on vacation measures.
+
+The signs and symptoms of hand-foot-and-mouth disease include:
+
+· Fever and/or sore throat.
+
+· Painful red blister-like lesions on the tongue, mouth, palms of the hands or soles of the feet.
+
+· Headache and fatigue.
+
+· Irritability in infants and toddlers and loss of appetite.
+
+The usual period from initial infection to the onset of symptoms (incubation period) is 3 to 7 days. Fever is often the first sign of the disease, followed by a sore throat and a poor appetite and generally feeling unwell. One or two days after fever begins, painful sores may develop in the mouth or throat. A rash on the hands and feet can follow, and may also appear on the buttocks. Hand-foot-and-mouth disease may cause all of the above symptoms or just a few of them. Please seek immediate medical advice and inform our school nurse promptly if your child is unwell with any of the above symptoms. Rest assured that we are taking all possible precautions to minimise further infections and we greatly appreciate you support and assistance in this matter.
+
+Regards,
+
+Miss Kathy
+(Head of Lower School)
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

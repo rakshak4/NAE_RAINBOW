@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Glandular Fever</name>
+    <style>freeForm</style>
+    <subject>Glandular Fever</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+We have had a single case of infectious mononucleosis (Glandular fever) on the Upper Campus.
+
+The main symptoms are:
+
+
+- extreme tiredness
+
+- sore throat
+
+- Fever 38 +
+
+- swollen glands in the neck
+
+Glandular fever is not usually a serious threat to a person&apos;s health, but can be unpleasant and last several weeks.
+
+If your child has one or several of the above symptoms he/she should stay at home and checked by a doctor. A blood test is necessary to confirm if your child has infectious mononucleosis.
+
+Please do let us know if your child has a confirmed case of the virus.
+
+Best Regards
+
+The ISM nursing team
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

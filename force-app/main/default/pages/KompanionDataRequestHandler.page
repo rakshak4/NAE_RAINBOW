@@ -1,0 +1,3 @@
+<apex:page showHeader="false" sidebar="false" showChat="false" controller="KompanionDataRequestHandler" standardStylesheets="false" contentType="text/xml" action="{!processRequest}">
+ <response>OK</response>
+</apex:page>

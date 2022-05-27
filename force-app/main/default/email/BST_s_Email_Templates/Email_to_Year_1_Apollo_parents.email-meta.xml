@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Note to Year 1 Apollo parents about staff changes. 2014</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Email to Year 1 Apollo parents</name>
+    <style>freeForm</style>
+    <subject>Staff Changes in Year 1 Apollo</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Mrs Appleby will be stepping down from the role of Year 1 Apollo class teacher to take up a new post taking on a new role at the school as cover teacher across the school. Whilst she is excited about the new post she will miss the contact with the children of Year 1 Apollo on a daily basis.  She would like me to express her thanks to parents for their support given during her time as class teacher.
+
+
+I am delighted to inform you that Mrs Rosemary Davies, who joined the team this year from her teaching post in China, will from Monday 29th take over the role of class teacher of Year 1 Apollo and she will be supported by the ever dependable Miss Ifoda.
+
+
+I am sure you will join me in congratulating them both in their new roles.
+
+
+
+Regards,
+
+
+
+
+
+David Kirkham
+
+Headmaster
+
+
+
+Уважаемые родители,
+
+
+Миссис Эпплби больше не является классным руководителем Year 1 Apollo, так как ей вверена роль преподавателя-заместителя в школе. Будучи в восторге от новой роли, Мисссис Эпплби все же будет скучать по тесному каждодневному взаимодействию с детьми Year 1 Apollo и просила меня выразить от ее имени благодарность всем родителям за оказанную ей как Классному руководителю поддержку в течение этого времени.
+
+
+Я рад сообщить Вам, что Миссис Розмари Дэвис, которая присоединилась к нашему коллективу в этом году, сменив роль учителя в Китае, с понедельника 29 сентября примет роль Классного руководителя Year 1 Apollo с постоянной поддержкой Мисс Ифоды.
+
+
+Я уверен, что вы присоединитесь к поздравлениям учителей с их вступлением в новые роли.
+
+
+
+С уважением,
+
+
+
+Давид Киркхам
+
+Директор
+
+
+
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>To notify initial submitter about Stage 1 approval</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Reply to Contract Approval Request Stage 1</name>
+    <style>freeForm</style>
+    <subject>Stage 1 Approval Request for {!Employment_Agreement__c.Copy_Staff_Member_Capitalised__c}</subject>
+    <textOnly>There has been a reply to your recent approval request for:  {!Employment_Agreement__c.Copy_Staff_Member_Capitalised__c}
+
+Contract Link: {!Employment_Agreement__c.Link}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

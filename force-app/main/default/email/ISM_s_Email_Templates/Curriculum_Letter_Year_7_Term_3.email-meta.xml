@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Curriculum Letter Year 7 Term 3</name>
+    <style>freeForm</style>
+    <subject>Curriculum Letter Year 7 Term 3</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Sir/Madam,
+
+
+
+Please click here to find the curriculum information for all subjects for this Summer Term 2013. If you have any questions pertaining to the information contained in this curriculum letter, please contact the relevant teachers of each subject.
+
+
+
+Kind regards,
+
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Has info on ASA options date and starting date</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Welcome to BSB 20.01.2017</name>
+    <style>freeForm</style>
+    <subject>Welcome to BSB!</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+Welcome to The British School of Brasilia. It is really nice to have your family joining the BSB community.  
+
+Please find the link to our Student/ParentHandbook and also the link to access our school calendar. This will provide you with the school&apos;s guidelines and all the key dates and events for the academic year 2016/17, including when reports will be available, parent consultations and our weekend events such as Festa Junina. In the very unlikely event that any of these dates need to be changed, we will provide you with as much notice as possible.
+
+All uniforms are sold in school and appointments can be made through phone calls or emails. Purchases can be paid for with cash or cheques only. Please click the following link to access the Uniforms Guidelines. 
+
+On this second term, ASAs will begin on February 14th taking place every Tuesday, Wednesday and Thursday from 3:30 pm - 4:30 pm.  The options and procedures to register will be sent home to parents by January 27th.
+
+If you would like to use the school bus service, please contact us for further information about our partners. All information regarding routes and prices can be discussed directly with them, but should you require any kind of assistance, kindly let us know and we will gladly help you.
+
+Warm Regards,
+Admissions Team
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

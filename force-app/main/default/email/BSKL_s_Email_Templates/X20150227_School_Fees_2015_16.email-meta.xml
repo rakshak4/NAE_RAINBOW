@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20150227 School Fees 2015/16</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20150227 School Fees 2015/16</name>
+    <style>freeForm</style>
+    <subject>Primary Enrichment Online Registration</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+19th March 2015
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}
+
+The online registration will be available on Monday 23rd March from 9am until Friday 27th March 2pm​. Please download the document in the link below to see a list of Enrichment activities available and links to the registration forms included:
+
+Go to the following website for the Primary Enrichment Activities Lists &amp; Online Registration Forms:
+http://www.britishschool.edu.my/media/731401/programme_information.pdf
+
+Visit for the following website for Years 1 &amp; 2 ​ : 
+http://tinyurl.com/n5ymopz
+
+Visit for the following website for Years 3 &amp; 4​ :
+http://tinyurl.com/mu26lkh
+
+Visit for the following website for Years 5 &amp; 6 :
+http://tinyurl.com/nzk2ttt
+
+Kind regards
+
+Admin Team
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

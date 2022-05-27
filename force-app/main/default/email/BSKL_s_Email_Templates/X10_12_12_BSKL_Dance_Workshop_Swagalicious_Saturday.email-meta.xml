@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>10/12/12 BSKL Dance Workshop - Swagalicious Saturday!</name>
+    <style>freeForm</style>
+    <subject>BSKL Dance Workshop - Swagalicious Saturday!</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+BSKL is pleased to announce a brand new 7 week dance workshop conducted by Sabrina Saw!
+
+Sabrina takes our very popular ASA dance workshop and furthermore the school is partnering Sabrina with Pet Project 2013.
+
+The workshop is open to students in Years 3 up to Year 8.  Parents can also get involved too!
+
+More details regarding the workshop and Pet Project 2013 can be found by clicking on the below link:
+
+Swagilicious Saturdays
+
+To register please make the full payment as indicated in the link to the school reception along with the name of your child taking part in the course.
+
+Regards,
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

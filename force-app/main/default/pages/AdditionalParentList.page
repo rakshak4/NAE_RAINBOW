@@ -1,0 +1,38 @@
+<apex:page standardController="Account" extensions="AdditionalParentList_Controller" showHeader="false" sidebar="false">
+  <apex:pageBlock >
+    <apex:pageBlockTable value="{!additionalParentList}" var="a">
+        <apex:column >
+            <apex:facet name="header"></apex:facet>
+            <apex:outputPanel >
+                <apex:outputLink target="_parent" value="/{!a.Id}/e?nooverride=1&retURL=%2F{!a.Main_Parent_File__c}">Edit</apex:outputLink>
+            </apex:outputPanel>            
+        </apex:column>
+        <apex:column >
+            <apex:facet name="header">{!$ObjectType.Contact.Fields.Staff_Member_Parent_Number_Formula__c.Label}</apex:facet>
+            <apex:outputField value="{!a.Staff_Member_Parent_Number_Formula__c}"/>          
+        </apex:column>
+        <apex:column >
+             <apex:facet name="header">{!$ObjectType.Contact.Fields.Name.Label}</apex:facet>
+             <apex:outputPanel >
+                <apex:outputLink target="_parent" value="/{!a.Id}">{!a.Name}</apex:outputLink>
+            </apex:outputPanel>
+         </apex:column>
+         <apex:column >
+             <apex:facet name="header">{!$ObjectType.Contact.Fields.Contact_Relationship__c.Label}</apex:facet>
+             <apex:outputField value="{!a.Contact_Relationship__c}"/>
+         </apex:column>
+         <apex:column >
+             <apex:facet name="header">{!$ObjectType.Contact.Fields.Email.Label}</apex:facet>
+             <apex:outputField value="{!a.Email}"/>
+         </apex:column>
+         <apex:column >
+             <apex:facet name="header">Main Phone C/Code</apex:facet>
+             <apex:outputField value="{!a.xsms__Mobile_Phone_Country_Code__c}"/>
+         </apex:column>
+         <apex:column >
+             <apex:facet name="header">{!$ObjectType.Contact.Fields.MobilePhone.Label}</apex:facet>
+             <apex:outputField value="{!a.MobilePhone}"/>
+         </apex:column>
+    </apex:pageBlockTable>
+  </apex:pageBlock>
+</apex:page>

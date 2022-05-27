@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Assesment__c$Assessment_ID_18_Char__c</field>
+    </columns>
+    <columns>
+        <field>Assesment__c$Name</field>
+    </columns>
+    <columns>
+        <field>Assesment__c$Assessment_Type_From_Folder__c</field>
+    </columns>
+    <columns>
+        <field>Assesment__c$Group__c</field>
+    </columns>
+    <columns>
+        <field>Assesment__c$Assessment_Date_Copy__c</field>
+    </columns>
+    <columns>
+        <field>Assesment__c$Is_Approved__c</field>
+    </columns>
+    <columns>
+        <field>Assesment__c$School__c</field>
+    </columns>
+    <currency>EUR</currency>
+    <description>Used to generate a list of reports for manual approval where Connector would otherwise time out.</description>
+    <filter>
+        <criteriaItems>
+            <column>Assesment__c$Manual_Approval__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Assessment Manual Approvals</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Assessments__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Assesment__c$Assessment_Date_Copy__c</dateColumn>
+        <endDate>2017-01-31</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2016-09-01</startDate>
+    </timeFrameFilter>
+</Report>

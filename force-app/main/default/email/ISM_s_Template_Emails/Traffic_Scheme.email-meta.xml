@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Traffic Scheme</name>
+    <style>freeForm</style>
+    <subject>Traffic Scheme</subject>
+    <textOnly>Dear Parents,
+	
+	The school academic year is now a week old and the pupils are settling in well. Paramount to the smooth arrival and departure of our students is the “Traffic Scheme” arranged to make the process as smooth as possible for everyone.
+
+	With this in mind, we would ask you to please note the following:-
+
+	1. Please follow the traffic schemes (Attached) to avoid creating      unnecessary delays. 
+	
+2.	Ensure that your driver is familiar with the scheme and FOLLOWS the scheme and the instructions from security guards regulating the traffic. 
+	
+	3. Do not exceed 30 km/h speed limit.
+	
+	4. If there is traffic congestion when approaching or leaving the school, be patient and follow the security guards&apos; instructions. Do not try to overpass the cars that are waiting for the lane to clear (often when 1-2 cars are waiting for the opposite direction traffic to clear the lane, a car behind them will cut through and obviously stop the traffic from the opposite lane from moving. This results in cars having to reverse all the way out of the lane creating a 5-7 minute delay.
+
+5.  Please ensure that you wear your security pass when entering the school property. 
+
+Finally, please understand that the safety of all families is our first concern. By following these procedures and crucially by sharing them with drivers, you are assisting us with this.
+
+Kind regards,
+
+Anastasia Ramazanova
+Head of Administration
+The International School of Moscow
+Tel:  +7 (499) 922 44 00
+Fax: +7 (499) 922 44 00 Ext.4 
+www.internationalschool.ru
+Part of The British Schools Group
+
+*Disclaimer:*
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

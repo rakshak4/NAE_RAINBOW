@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Primary Charity House Event on Thursday, 5th December</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Primary Charity House Event on Thursday, 5th December</name>
+    <style>freeForm</style>
+    <subject>Primary Charity House Event on Thursday, 5th December</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+&lt;?xml:namespace prefix = o /&gt;
+
+Dear Parents,
+
+
+Please note the primary house charity event (information was sent out at the end of last week) will now be taking place on Thursday 5th December, instead of Friday. If you have any items to donate then please send these in to upper school by Thursday 5th December.
+
+
+Any questions then please contact at amanda.boby@bsg.org.cn.
+
+
+Regards,
+
+
+
+
+Amanda Boby
+
+
+Community Action and Fundraising Coordinator
+
+
+British School of Guangzhou
+
+
+
+_________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

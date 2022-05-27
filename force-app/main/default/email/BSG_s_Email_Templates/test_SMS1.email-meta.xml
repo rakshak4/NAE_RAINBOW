@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>test SMS</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>test SMS</name>
+    <style>freeForm</style>
+    <subject>Info Test June 2012</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+This is a revised email template setup in June 2012, to be used by all the schools.
+
+It is important you don&apos;t touch the top and bottom text sections, and only edit the text in the body of the email. To create a new email, simply clone this template or clone any future emails that have used this email template.
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Guangzhou
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

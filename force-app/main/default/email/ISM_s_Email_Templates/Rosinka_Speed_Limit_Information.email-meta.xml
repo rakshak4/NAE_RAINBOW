@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in August 2014</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Rosinka Speed Limit Information</name>
+    <style>freeForm</style>
+    <subject>Rosinka Speed Limit Information</subject>
+    <textOnly>The International School
+of Moscow
+Chartered By The British Schools Foundation
+
+
+Dear Parents,
+
+Rosinka management has contacted us in regards to their speed limit of 20km. They have informed us that many cars are driving past this speed limit, which is not only a danger to children present and around school, but also to the Rosinka community and families who live here.
+
+Rosinka management has also informed us that those who do not follow the speed limit will be prohibited from entering the complex and will be made to wait outside the gates, and therefore you will have to walk to school, no matter the circumstance.
+
+Security has radar sensors that they use to gauge the speed of the cars and are noting those who are breaking the limit. They will collate the license plate numbers and if it happens continuously, those cars will be blocked from entering.
+
+Unfortunately, we will not be able to help you as these are their regulations.
+
+For everyone&apos;s safety, and respect for the Rosinka community and management, please follow the limit of driving maximum 20km.
+
+Thank you.
+
+Kind Regards,
+
+Rosinka Team
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>PTC schedule</name>
+    <style>freeForm</style>
+    <subject>Parent &amp; Teacher Consultations Schedule</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+Please click on the links below to download the schedules for the parent &amp; teacher consultations next week.
+
+LC PTC schedule
+
+UC PTC schedule
+
+If you have any questions, please do not hesitate to me, Katie Foster, at ekaterina.foster@internationalschool.ru
+
+Kind regards,
+
+Katie Foster
+
+Front Desk Upper School Campus
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

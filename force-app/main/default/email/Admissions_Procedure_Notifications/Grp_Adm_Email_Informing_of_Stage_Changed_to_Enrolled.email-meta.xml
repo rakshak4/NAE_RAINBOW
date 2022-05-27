@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Automatic email informing the recipient(s) that a student has been registered as enrolled</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Grp/Adm Email Informing of Stage Changed to Enrolled</name>
+    <style>freeForm</style>
+    <subject>{!Opportunity.School_Acronym__c} Admissions Update {!Opportunity.Campus_Text__c}- {!Opportunity.Name} ({!Opportunity.Year_Group__c}) is now {!Opportunity.StageName}</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

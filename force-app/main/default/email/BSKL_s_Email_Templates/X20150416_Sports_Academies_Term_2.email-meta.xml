@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20150416 Sports Academies Term 3</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20150416 Sports Academies Term 3</name>
+    <style>freeForm</style>
+    <subject>Sports Academies Term 3</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+16th April 2015
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}
+
+BSKL is delighted to announce that Sports Academies will be starting again this week and early next week.They are for students of certain ages and all abilities who are interested in having further coaching to develop their abilities and knowledge. They will be led by BSKL&apos;s specialist PE teachers and coaches (apart from Strength Training). Please click on the below links for further information regarding dates, times, costs and registration.
+
+
+
+Badminton
+
+Basketball
+
+Football
+
+Strength Training
+
+Trampolining
+
+
+
+They will start 1 hour after school finishes or will be on weekends which is different from last term. Academies will be after 4.30pm from Monday – Thursday and 3.15pm on Friday or weekends. This is to avoid staff and facility clashes, and allow for more clubs and opportunities to participate.
+
+
+
+The teachers in charge of these academies will ensure there is supervision or activities organised for students until the start. Unfortunately, changes have had to be made to the timetable to support the school’s development and growth.  We appreciate your understanding and support on this.
+
+
+
+
+
+Kind Regards,
+
+
+
+Harrie Thomson
+
+Director of Physical Education and Sport
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

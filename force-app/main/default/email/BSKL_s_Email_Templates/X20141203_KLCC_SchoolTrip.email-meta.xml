@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20141203 KLCC SchoolTrip</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20141203 KLCC SchoolTrip</name>
+    <style>freeForm</style>
+    <subject>IMPORTANT: END OF SCHOOL DAY LATER THURSDAY 4TH DEC</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+3rd December 2014
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}
+
+On Thursday 4th December there is a school trip for Year 2 to Year 10 students to KLCC for a musical concert.
+
+Due to the timings for the trip, the students will not be back at school until 4.10pm approximately.  Upon returning to BSKL all students will go to their classrooms and can be collected there.  For those that take the school bus service they will assemble at the school gym as usual to board the buses which will leave approximately 4.20pm.  Please note all children will be required to return to BSKL and not be collected at KLCC.
+
+Y9 students will return by 4pm for IGCSE options evening.
+
+Students in EYFS to Year 1 can be picked up as usual at 3.30pm.  However, for those EYFS to Year 1 students that have sibling(s) in Years 2 to 10 there will be a classroom set up where children will be supervised by teaching staff and they can be collected at 4pm at the time that Years 2 to 10 return back from KLCC.  EYFS children will be in RMC classroom, and Year 1 children will be in 1ML and 1SB.
+
+EYFS children have a performance in the morning of the 4th December and may go home with parents after their performance.
+
+Kind Regards,
+
+Janet Brock
+Headteacher
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

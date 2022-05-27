@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Reminder of Parent Workshop</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Reminder of Parent Workshop</name>
+    <style>freeForm</style>
+    <subject>Reminder of Parent Workshop</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dear Parents,
+
+
+We would like to remind you of the parent workshop that will be held on the Lower School Campus (Lakefront) on Wednesday, 4th June at 4pm.
+
+
+PLEASE CLICK HERE FOR DETAILS
+
+
+The workshop is free to all BSG parents and will be presented by a Psychologist and Speech and Language Therapist  from the &apos;Essential Learning Group’.
+
+
+Kind regards,
+
+
+
+
+The British School of Guangzhou
+
+World Class Education
+
+
+
+____________________________________________________________
+
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

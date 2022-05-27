@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>16/11/12 Christmas Tree Auction</name>
+    <style>freeForm</style>
+    <subject>Christmas Tree Auction</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The EFC will be holding a Christmas Tree Auction! There will be 21 trees placed around the school from Monday 19th November. Each tree will have a star on the top depicting which country/ countries it represents. (See list of countries below). Those with only a few children in the school of that nationality will be asked to share with other countries.
+
+Between Monday 19th November and Monday 3rd December, children will be asked to make decorations at home to hang on the trees representing their home country. They can think about items/customs/colours pertaining to their home country. In the spirit of Christmas they can add decorations to multiple trees if they wish!
+
+On Monday 3rd December the EFC will put a clip board, with forms for silent bids from parents, at the foot of each tree.  Bidding closes on Friday 7th December at 2pm, with the winners to be announced on 10th December.
+
+The starting bid is RM50 and payment for the winning bids to be made to the school reception before collecting your beautifully decorated tree!
+
+The EFC hopes that each and every student will take part in this fabulous event which celebrates not only our different customs and traditions but helps remind us of the true spirit of Christmas - and help us to raise money for the children of Persatuan Kebajikan Kanak-kanak Kajang (PKKK) and Promise Home, both orphanages are in desperate need of even the most basic necessities.
+
+We look forward to seeing all of the beautiful decorations from all of the different countries!
+
+Kind Regards
+Events and Fund Raising Committee (EFC)
+
+
+List of Countries:
+1    Nationality: Australia / NZ
+2    Nationality: Brazil / Venezuela - South America
+3    Nationality: China / Hong Kong
+4    Nationality: France
+5    Nationality: India / Pakistan / Bangladesh
+6    Nationality: Indonesia
+7    Nationality: Italy
+8    Nationality: Japan
+9    Nationality: Korea
+10  Nationality: Malaysia
+11  Nationality: Netherlands
+12  Nationality: Singapore
+13  Nationality: South Africa
+14  Nationality: United Kingdom / Ireland
+15  Nationality: United States / Canada - North America
+16  Nationality: Germany
+17  Nationality: Nigeria / Egypt - Africa
+18  Nationality: Russia/ Czech Republic (Eastern Europe)
+19  Nationality: Sweden / Denmark, Norway - Scandinavia
+20  Rest of Europe - Austria/ Belgium/ Portugal/ Spain / Switzerland
+21  Rest of Asia -  Iran/ Maldives/ Nepal/ Philippines/ Thailand/ UAE
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

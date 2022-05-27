@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in August 2014</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Rosinka PTC November 2014</name>
+    <style>freeForm</style>
+    <subject>Rosinka PTC November 2014</subject>
+    <textOnly>The International School
+of Moscow
+Chartered By The British Schools Foundation
+
+
+Year 1-7 Parent-Teacher Consultations
+
+
+
+Friday 14th October 2014
+
+Dear Parents,
+
+Parent-Teacher Consultations (PTCs) will be held on Tuesday 25th &amp; Wednesday 26th November from 16:00 until 19:00. This will be an opportunity to discuss Initial Progress Reports with your child’s Class Teacher and Assistant Teacher, as well as to consult with teachers of Music, Physical Education and Russian. Pupils’ Initial Progress Reports will be available on the Parent Portal from Friday 21st November (details to follow).
+
+Please note that the PTCs are intended for parents only and that children should not accompany you to appointments1; in the event that you are unable to make alternative supervision arrangements, we will have capacity to supervise a small number of children in the school library but please only leave your children in the care of these staff during your appointment time.
+
+Please indicate your preferred day and time on the following table and return (in hard copy or by email) to the LP/MS Receptionist, Anastasia Ulturgasheva, no later than Wednesday 19th November;
+
+mailto: anastasia.ulturgasheva@internationalschool.ru
+
+Please download the appointment form here.
+
+An email will be sent to you confirming your appointment time/s; although we will do our best to accommodate your requests, appointments will be allocated on a first come, first served basis. In the event that you receive a time that you are unable to make, please contact Anastasia by phone on the main school number: 8499 922 44 05.
+
+We look forward to meeting you and to reviewing your children’s progress and the next steps in their learning.
+
+
+Kind regards,
+
+Raymond Finch
+ISM Rosinka Head Teacher
+The International School of Moscow
+
+World Class Education
+
+1 Children should be collected on both days by 15.25 since ASAs for the term will be over by this point.
+
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

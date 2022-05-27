@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>13/06/2014 Parent Invitation to the Secondary School Summer Production</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>13/06/2014 Parent Invitation to the Secondary School Summer Production</name>
+    <style>freeForm</style>
+    <subject>Invitation to the Secondary School Summer Production</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We cordially invite you to the Secondary School Production of ‘A Midsummer Night’s Dream. It’s a Scream!’ The performance will be held in the Secondary Theatre, Thursday 03rd July at 1.30pm. All Secondary Students will be in attendance.
+
+Join us for the magic, mystery and mayhem of Shakespeare’s most beloved of romantic comedies.  The timeless script has been adapted by Alan Savage who has also created original songs for this production.
+
+Alex Douglas has arranged the music.
+
+This will truly be a spectacular performance by our Secondary Students.
+
+Tickets are complimentary and are available at the Box Office (Secondary Reception) from Friday 13th June - Thursday 19th June only.
+
+We hope you can join us for our Summer Production.
+
+Kind regards,
+Janine Murphy
+
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

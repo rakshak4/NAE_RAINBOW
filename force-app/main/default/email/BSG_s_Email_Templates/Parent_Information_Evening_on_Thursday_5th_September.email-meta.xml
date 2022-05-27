@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Parent Information Evening on Thursday 5th, September</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Parent Information Evening on Thursday 5th, September</name>
+    <style>freeForm</style>
+    <subject>Parent Information Evening on Thursday 5th, September</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+Dear Parents,
+
+&lt;?xml:namespace prefix = o /&gt;
+
+I am pleased to announce that all students in Years 4, 5 and 6 will be able to receive their iPad Mini from Friday 6th September.
+
+
+The device will be used extensively as a teaching and learning tool both in school and at home.
+
+
+In order to receive the iPad mini, you must sign the &apos;Tablet Loan Agreement&apos; form and return it to school by Friday.
+
+
+We understand that if you are new to the iPad Mini scheme you may have a lot of questions to ask.
+
+
+We will be holding a parent information evening on Thursday 5th September at 6:00pm in the school theatre.
+
+
+I would encourage you to attend, as there will be useful information presented. It is also the perfect opportunity to raise any questions you may have about the project.
+
+
+If your child has already received an iPad as part of last year&apos;s pilot, there is no need to attend the information evening.
+
+
+If you have any questions or queries please contact me at david.laird@bsg.org.cn
+
+
+I look forward to seeing you on Thursday.
+
+
+Kind Regards,
+
+
+David Laird
+
+Head of Primary
+
+The British School of Guangzhou
+
+
+
+
+____________________________________________________
+
+
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

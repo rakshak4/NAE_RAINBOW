@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Money for Activities</name>
+    <style>freeForm</style>
+    <subject>Money for Activities</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+
+
+Please let us remind you that whenever you send any cash money to school, all payments should be presented in the following way:
+
+
+- In a sealed envelope with the full name of the student, class, event the payment is for and amount of money inside.
+
+
+
+- Wherever possible please give the exact amount. We will issue a receipt once the Accounting Team have received and processed the payment.
+
+
+
+This will help us to make sure that all money is safely delivered to the department/member of staff it is intended for.
+
+
+
+Ekaterina Foster
+
+Front Desk Upper Campus School
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

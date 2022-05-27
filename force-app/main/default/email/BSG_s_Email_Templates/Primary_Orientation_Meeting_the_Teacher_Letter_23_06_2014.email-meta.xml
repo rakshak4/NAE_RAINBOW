@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Primary Orientation-Meeting the Teacher Letter 23/06/2014</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Primary Orientation-Meeting the Teacher Letter 23/06/2014</name>
+    <style>freeForm</style>
+    <subject>Primary Orientation-Meeting the Teacher Letter 23/06/2014</subject>
+    <textOnly>The British School
+of Guangzhou
+
+Dear Parents,
+Please be aware that the first day of the new academic year on Friday 22nd August will be an &apos;Orientation Day&apos; &amp; ‘Meet the Teacher’ event.
+New Families Only:
+We would like to formally invite new BSG students and parents to join us from 10:00am-12:00pm. As well as a presentation from the Head of Primary in the Nanhu Dance Studio, you will be able to join your child in their new class and spend some time getting to know the teacher. They will provide you with information specific to your child’s class to help make starting the school year as smooth as possible.
+Existing BSG Families:
+Existing parents are invited to join us from 12:00 midday. You will visit your child’s class where you will meet their new teacher and teaching assistants.
+There will be light refreshments served for all primary parents between 11:00am – 2:00pm.
+All parents will also be able tour our brand new Key Stage 1 building.
+Please note that there will be no lessons on this day, however, children are welcome to come along to the ‘Orientation’ morning (new children only) and ‘Meet the Teacher’ event. School uniform is not required for this day.
+All students will come to school as normal, with a full bus service being provided from Monday, 25th August.
+Please also note that the uniform shop, situated on the Nanhu Campus will be open from Monday 18th August.
+We look forward to seeing you and hope you have a relaxing summer holiday.
+Kind regards,
+David Laird
+Head of Primary
+The British School of Guangzhou
+
+
+
+
+
+World Class Education
+
+
+____________________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

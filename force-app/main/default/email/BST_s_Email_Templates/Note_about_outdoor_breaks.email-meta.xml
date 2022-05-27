@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Note to parents about out door breaks.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Note about outdoor breaks</name>
+    <style>freeForm</style>
+    <subject>Note about outdoor breaks</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Over the weekend all of the snow will be removed from the school play areas. As the weather is improving we will be allowing the children the option for outdoor play again from tomorrow. Please make sure that children wishing to play outside have appropriate outdoor clothing.
+
+
+As a general rule the children will not be allowed outside if the temperature reaches -15 degrees or if we feel that the area is not safe, as with the large snow fall last weekend.
+
+
+На выходных территория школьного двора будет полностью очищена от снега. В связи с тем, что на улице становится теплее с завтрашнего дня у детей при желании будет возможность выйти на игровую площадку во время перемен. Пожалуйста, удостоверьтесь, что Ваши дети приходят в школу в соответствующей теплой зимней одежде.
+
+
+В целом дети не будут выходить во двор во время перемен при температуре -15 или ниже.  А также в случаях, когда по нашему мнению нахождение во дворе будет небезопасным для них, как было на этой неделе в связи с обильными снежными осадками.
+
+
+
+
+Regards,
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

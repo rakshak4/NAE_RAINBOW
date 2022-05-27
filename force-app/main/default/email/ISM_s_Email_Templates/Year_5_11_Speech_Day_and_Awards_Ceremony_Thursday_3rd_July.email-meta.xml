@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Year 5-11 Speech Day and Awards Ceremony Thursday 3rd July</name>
+    <style>freeForm</style>
+    <subject>Krylatskoe Year 5-11 Speech Day and Awards Ceremony Thursday 3rd July</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Year 5-11 Speech Day and Awards Ceremony
+
+Thursday 3rd July (6 – 7:30pm)
+
+
+This year, we are holding our Upper Campus Annual Speech Day at the Grand Marriott Hotel Ballroom in the evening.  All students from Year 5 to Year 11 are of course expected to attend, as it is the final session of the academic year for these year groups.
+
+This is an extremely important event, recognizing the achievements of our students and the highlights of the school year. All students and families from those year groups are invited to join us. It will offer a unique chance to get the school community together and celebrate the successes enjoyed this year.
+
+The ceremony will begin promptly at 6pm and will include musical performances and speeches from students. It will also recognise the achievements of many of our students.
+
+Awards will be presented for outstanding qualities such as Endeavour, Leadership, Citizenship, Creativity and Sportsmanship as well as a range of curriculum areas.
+
+So that you can enjoy the event as a family, students will sit with their parents and family members during the ceremony. The only exception will be for those students who will be performing. They will be notified prior to the event and will sit near the stage and be supervised by our staff. Please note that this is a formal occasion therefore full school uniform including blazers, should be worn by all pupils.
+
+The ceremony should conclude at around approximately 19:00 and will be followed by a reception of light refreshments giving the community an opportunity to say ‘farewell’ before the summer break.
+
+Please not that school buses will not provide transportation directly to the hotel on that day. School will finish at noon on Thursday 3rd June and buses will run as normal at this time, in order for all students and staff to have the opportunity to return home and freshen up before the evening ceremony.
+
+Please note that limited parking is available at the hotel. Do consider this when making your arrangements for arriving at the hotel on time.
+
+I look forward to seeing you on July 3rd and of course before then at our end of year parent and teacher consultation evenings.
+
+Best regards,
+
+Paul Seedhouse
+
+Headteacher
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

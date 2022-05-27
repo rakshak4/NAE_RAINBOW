@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Room to Read: &quot;Giving Every Child Access to Reading, One Child at a Time&quot;</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Room to Read: &quot;Giving Every Child Access to Reading, One Child at a Time&quot;</name>
+    <style>freeForm</style>
+    <subject>Room to Read: &quot;Giving Every Child Access to Reading, One Child at a Time&quot;</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+&lt;?xml:namespace prefix = o /&gt;
+
+Dear Parents,
+
+
+
+The Secondary Charity Committee will be holding a &apos;Bring and Buy a Book Sale&apos; on Friday, 1st November at lunch time for Primary and Secondary students to be held in the Upper School Library. Students are encouraged to donate a book they have finished reading and buy a new one. There will be a minimum donation of 5 RMB for each book.
+
+
+
+The money raised will be going to a charity called ‘Room to Read’ (www.roomtoread.org). The charity works to provide education to those in remote parts of the world. &apos;Room to Read’s programmes have benefitted more than 7.8 million children so far and we are on track to have helped 10 million under privileged children by 2015.  Imagine a world in which every child has access to an education. ‘Room to Read’ is doing its best to make this dream a reality, one child at a time.
+
+
+
+Parents and staff are also welcome to bring books in for the event, as well as purchasing donated books.
+
+
+
+Thank you very much for your ongoing support to the school&apos;s Charity Committee.
+
+
+
+Kindest regards.
+
+
+
+Amanda Boby (Community Action and Fundraising Coordinator) &amp; Emily Hardwick (Secondary English KS3 Lead Teacher).
+
+
+
+
+
+The British School of Guangzhou
+
+World Class Education
+
+&lt;?xml:namespace prefix = u2 /&gt;&lt;?xml:namespace prefix = u1 /&gt;
+
+
+___________________________________________________________
+
+A Member of the Nord Anglia Education Family of Schools- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

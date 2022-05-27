@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Early leaving and late arrival procedures</name>
+    <style>freeForm</style>
+    <subject>Early leaving and late arrivals</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+
+We have been fine-tuning our evacuation procedures since the beginning of term with fire drills taking place before the winter weather sets in. I am pleased to say that on both sites all members of the school have been able to evacuate safely in under three minutes.
+
+
+However, one issue under review has been the Health and Safety of every visitor onsite and children arriving late or leaving early. In order to ensure that we are aware of every person in the school buildings we have tightened up on our procedures and agreed the following procedures to be put in place from Monday 2nd November:
+
+
+
+Early Release Procedures
+
+
+Parents should notify the class tutor as far in advance as possible but with at least 24 hours notice, stating the requested time of pick up and the reason why. (Emergencies apart of course)
+
+Before collecting any student early, the responsible adult (nanny/driver/parent) must collect a release slip from the front desk with the agreed time and date. If the reception has not received notification they will need to check with either the tutor OR a member of the Academic Senior Management Team before releasing the student.
+
+
+The responsible adult may then collect the student showing the release form to the teacher in charge of the class at that time.
+
+
+
+The release form should be given to security on leaving the site. No student will be allowed to leave early without a signed and dated release slip.
+
+
+**** Please note that these procedures will also apply to students that are registered on ASAS on Tuesday and Wednesday afternoons
+
+
+Late Arrivals Procedures
+
+
+
+
+
+All late arrivals must be taken to Front Desk so that they are marked on the register. Security will insist upon this after 8:40 on UC and 8:45 on LC.
+
+
+Front Desk will enter the name of the student, time of arrival and date on a release form which the students will take to class with them.
+
+The students will be marked in the register as late arrivals by the front desk.
+
+
+
+Adult Visitors Onsite
+
+
+
+All adults that enter the school building between 9am and 3pm (outside of normal pick up and drop of times) during the school day will be required to report to the relevant front desk on each site.
+
+
+
+Visitors will complete the sign in sheet stating their name, date and purpose of visit. They will then receive a visitor’s badge, which they should wear at all times.
+
+Parents/ Adult carers with the usual school ID will not be required to wear an additional badge but MUST sign in.
+
+
+
+On leaving the school, parents MUST also sign out so that we know that they have left the site in the case of evacuation of the buildings. They will be given a sign out slip by reception to present to security.
+
+
+
+To assist with these procedures all adults above Foundation Stage are asked not to enter the school building before or after school unless they are meeting with a member of staff.
+
+
+
+The only exception to these arrangements will be for special events with a high volume of visitors such as Class Assemblies, International Day, Christmas celebrations, Sports Days, concerts and productions.
+
+
+Please understand that these procedures are essential in order to ensure that we know where students and adults are at all times and maintain Health and Safety standards on our site. We thank all parents in advance for your cooperation and understanding on these matters.
+
+
+Kind regards,
+
+
+
+Paul Seedhouse
+
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

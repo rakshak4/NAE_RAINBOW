@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>SingUp! 2013 @ FOBISSEA MT Conference Thursday 16th May 6pm</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>SingUp! 2013 @ FOBISSEA MT Conference Thursday 16th May 6pm</name>
+    <style>freeForm</style>
+    <subject>SingUp! 2013 @ FOBISSEA MT Conference Thursday 16th May 6pm</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Sing Up!
+
+International School’s Music Association Guangzhou (ISMAG)
+
+Thursday 16th May 2013
+
+Hosted by the British School of Guangzhou
+
+Concert 6:00pm
+
+I am pleased to announce that building upon the success of previous events the British School will once again be hosting the annual Primary SingUp! 2013 organised by the International Schools Music Association Guangzhou (ISMAG). We are happy to announce that this year’s event will be held in partnership with the American International School of Guangzhou, Utahloy International School, and Clifford School.
+
+The aim of the event is to bring pupils together to share and experience the opportunity to make and perform vocal music through a community singing project.
+
+We expect this event will yet again provide a great opportunity for pupils with an interest in singing to come together and provide a forum for sharing skills, having fun and encouraging a sense of community. As your child is a member of the Junior Choir they have been selected to participate in this event. I would be grateful if you could complete the tear off slip below and return it to me by Monday 18th March to confirm your child’s attendance.
+
+SingUp! 2013 Schedule
+
+Wednesday 15th May - Children come to school as usual for registration and then take school transportation to Favourview Palace where the music workshops will take place throughout the day. A packed lunch will be provided by the school. Children will return to school in time for the buses home at 4pm.
+
+Thursday 16th May - Children come to school as usual. They have a brief rehearsal in the afternoon and a light meal. The ISMAG SingUp! 2013 concert will commence at 6pm.
+
+Please be aware that the school cannot provide transportation after the concert. I look forward to seeing you at the SingUp! concert here at the
+
+school and at the   refreshments afterwards.
+
+I hereby give permission for my child________ in Year________to attend the ISMAG SingUp! workshops and concert at The Fountains and British School of Guangzhou on 16th &amp; 17th May 2013.
+
+I will require ________ (indicate numbers) seats to watch the performance at 6:00 pm
+
+Kind regards,
+
+Peter Sinclair
+Head of Primary Music
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,123 @@
+<apex:page tabStyle="Pastoral__tab" standardStylesheets="false" controller="PortalConduct_Controller" action="{!filterConducts}" sidebar="false">
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <apex:stylesheet value="/apex/PortalAssessmentPageCSS"/>
+  </head>
+  <apex:form >
+  <apex:actionFunction name="handleStudentChange" action="{!filterConducts}" />
+  <apex:actionFunction name="handleYearChange" action="{!filterConducts}" />
+  <apex:actionFunction name="handleReportTypeChange" action="{!filterConducts}" />
+  <body>
+        <table>
+        <tr>
+        <td valign="top">
+        <aside id="sidebar">
+            <div class="sidebar-top">
+                <h1>Pastoral Dashboard</h1><br/>
+                <h3>Configure the<br/>Report below</h3>
+            </div>
+            
+            <div class="section first">
+                <div class="section-heading"><apex:actionStatus startText="(updating report)" stopText="Student" id="studentStatus"/></div>
+                <div class="section-select">
+                    <apex:selectList id="studentselection" value="{!selectedStudentId}" multiselect="false" size="1" onChange="handleStudentChange();">
+                        <apex:selectOptions value="{!studentList}"/>
+                    </apex:selectList>
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-heading"><apex:actionStatus startText="(updating report)" stopText="Academic Year" id="yearStatus"/></div>
+                <div class="section-select">
+                    <apex:selectList id="ayear" value="{!selectedAcademicYear}" multiselect="false" size="1" onChange="handleYearChange();">
+                        <apex:selectOptions value="{!academicYearOptions}"/>
+                    </apex:selectList>
+                </div>
+        </div>
+            
+            <div class="section">
+                <div class="section-heading">Report types</div>         
+                <table class="chk-container">
+                    <apex:repeat value="{!conductTypeOptions}" var="conductType">
+                        <tr>
+                            <td class="{!IF(conductType.index == 1, 'first', '')}">
+                                <div class="chk-side chk{!conductType.rt}"></div>
+                                <apex:inputCheckBox id="chk1" value="{!conductType.selected}" styleClass="chekbox" onChange="handleReportTypeChange();"/>
+                                <span class="chk-display"><span class="fill"></span></span>
+                                <apex:outputLabel for="chk1" styleClass="chk-label">{!conductType.reportType}</apex:outputLabel>
+                            </td>
+                        </tr>
+                    </apex:repeat>
+                </table>
+            </div>
+            
+            <!--<div class="section">
+                <div class="section-heading">Submit to view your selected report</div>
+                <apex:commandButton value="Submit" styleClass="button btn-section" action="{!filterConducts}"/>
+                <apex:commandButton value="Reset" styleClass="button btn-section" action="{!reset}"/>
+            </div> -->
+       </aside>
+        </td>
+        <td valign="top">
+        <div id="main">
+            <article class="term-section first">
+                <header class="t-sec-header"><apex:outputPanel layout="block" id="reportBlock">Academic Year {!selectedAcademicYear}</apex:outputPanel></header>
+                <apex:outputPanel layout="block" id="detailpanel">
+                <apex:outputPanel layout="block" rendered="{!AND(hasItems,false)}">
+                    <ul class="conduct-summary">
+                        <!-- <li class="cs-fourth"><span class="cs-value">{!pastoral}</span>Pastoral</li> 
+                        <li class="cs-second"><span class="cs-value">{!awards}</span>Awards</li>
+                        <li class="cs-third"><span class="cs-value">{!leadership}</span>Leadership<br/>Positions</li> -->
+                        <li class="cs-first" style="width:250px;"><span class="cs-value">{!housePoints}</span>Points Scored for Effort &amp; Attitude</li>
+                    </ul>
+                </apex:outputPanel>    
+                <div style="clear: both;"></div>
+                <apex:repeat value="{!conductWrapperList}" var="cw">
+                    <div class="t-sec-item">
+                        <div class="item-name i-name-{!cw.rt}"><span><apex:outputText value="{!cw.title1}"/></span></div>
+                        <div class="item-description"><span>{!cw.titleDescription1}</span></div>
+                        <div class="item-grades">
+                            <!-- <ul>     
+                                <li class="first"><span class="grade">{!cw.dateString}</span></li>
+                            </ul>  -->    
+                            <apex:outputPanel layout="block" rendered="{!IF(AND(cw.rType == 'Effort & Attitude', cw.conduct.Effort__c != null), true, false)}"><div class='grade-item' style="margin-left:25px;">Effort<div class='eval'>{!cw.conduct.Effort__c}</div></div></apex:outputPanel>
+                            <apex:outputPanel layout="block" rendered="{!IF(AND(cw.rType == 'Effort & Attitude', cw.conduct.House_Points__c != null), true, false)}"><div class='grade-item' style="margin-left:25px;">Points<div class='eval'>{!cw.conduct.House_Points__c}</div></div></apex:outputPanel>
+                            <div class='grade-item letter-cont' style="font-size:11px;width:85px;line-height:40px;letter-spacing: 1px;text-transform: none;">{!cw.dateString}</div>
+                        </div>
+                        <apex:outputPanel layout="block" rendered="{!IF(cw.conduct.Reason__c == null, false, true)}">  
+                            <div class="item-body">
+                                <img src="{!cw.userInfo_PicURL}" /><apex:outputField value="{!cw.conduct.Reason__c}"/> 
+                                <div style="clear: both;"></div>
+                                <ul class="item-contact">
+                                    <li class="i-cont-name">{!cw.userInfo_Name}</li>
+                                    <li class="i-cont-title">{!cw.userInfo_Title}</li>
+                                    <li class="i-cont-email"><a href="mailto:{!cw.userInfo_Email}">{!cw.userInfo_Email}</a></li>  
+                                </ul>
+                                <div style="clear: both;"></div>
+                            </div>
+                        </apex:outputPanel>
+                        <apex:outputPanel layout="block" rendered="{!IF(cw.conduct.Reason__c == null, true, false)}">
+                            <div class="item-body-empty"></div>
+                        </apex:outputPanel>
+                    </div>
+                </apex:repeat>
+                </apex:outputPanel>
+            </article>
+            <apex:outputPanel layout="block" rendered="{!!hasItems}">
+                <br/><br/><br/><br/><br/><br/><br/><br/>
+                <div class="no-results-behavior">
+                    Sorry, there are no records to display. Please adjust filter criteria in the sidebar.
+                    <span class="user-icon"></span>
+                    <span class="down-aero"></span>
+                </div>
+            </apex:outputPanel> 
+        </div>
+        </td>
+        </tr>
+        </table> 
+  </body>
+  </apex:form>
+      
+  
+</apex:page>

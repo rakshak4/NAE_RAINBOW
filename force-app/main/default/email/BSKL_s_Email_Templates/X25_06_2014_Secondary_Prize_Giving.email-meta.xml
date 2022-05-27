@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>25/06/2014 Secondary Prize Giving</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>25/06/2014 Secondary Prize Giving</name>
+    <style>freeForm</style>
+    <subject>Invitation to Secondary Prize Giving</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please find in the link below your invitation for Prize Giving on the last day of term. A large number of pupils will be receiving prizes for attainment and application, and we will also be announcing our Head Boy and Head Girl for 2014 – 2015. Our guest speaker is Mr Giles Duley, an award-winning war photojournalist. I know you will be very moved by his talk. Can you RSVP to azizan.sallehhuddin@britishschool.edu.my so that we can make seating and catering arrangements.
+
+I am also pleased to be able to invite Year 6 pupils and parents. I appreciate that you will have already attended the KS2 Prize Giving, but you are most welcome to join the Secondary event by way of an introduction to your son/daughter&apos;s new school: I would be delighted to see you there.
+
+Invitation to Secondary Prize Giving (https://school.my.salesforce.com/sfc/p/#D0000000DDpn/a/D00000004Tug/Z0jQgLTCK3kXdda22FitzzjVj4C5wnK_8Lk1G5bsCxc=)
+
+
+Kind regards,
+
+Derek Mackey
+Head of Secondary
+
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

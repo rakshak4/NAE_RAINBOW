@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>BSKL- Happy Child, Bright Future Invitation</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NAE_Branding_Letterhead_BSKL</letterhead>
+    <name>! Webinar Invitation</name>
+    <style>freeForm</style>
+    <subject>Happy Child, Bright Future: Raising Kids Who Live to Thrive - A Parenting Webinar</subject>
+    <textOnly>Dear Parents,
+
+We invite you to attend “Happy Child, Bright Future: Raising Kids Who Live to Thrive” a parenting webinar on Tuesday 9 February 2021 at 3pm (GMT+8).
+
+Hosted by Search Inside Yourself-certified mindfulness teacher (the popular mindfulness &amp; emotional intelligence program created at Google) and mental health coach Komal Chopra Jodha, the webinar will cover:
+
+How to cultivate a home environment that encourages success
+
+Instilling a true love for learning in your child
+
+How happiness is key to unlocking your child’s full potential
+
+RSVP and sign up here: [http://bit.ly/3pPQH6H]
+
+This online event is brought to you by the British International School of Kuala Lumpur.
+
+
+Kind Regards,
+
+
+April and Nadia
+
+
+
+--
+
+Admissions Team
+
+The British International School of Kuala Lumpur
+
+Tel: +6 (03) 7727 7775
+
+Fax: +6 (03) 7722 1296
+
+www.britishschool.edu.my
+
+
+Follow us on
+
+*Disclaimer:*
+
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

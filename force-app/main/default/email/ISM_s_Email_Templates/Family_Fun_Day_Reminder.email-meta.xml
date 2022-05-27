@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Family Fun Day Reminder</name>
+    <style>freeForm</style>
+    <subject>Family Fun Day - Reminder</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+Since the Lower Campus field is near to lakes it would be convenient for you to wear and bring insect repellent, as there are a few insects flying around. Please also bring sun cream and hats.
+
+Also be reminded that some of the ice creams and candy bars that will be  available thanks to our sponsors, will contain nuts. If your child(ren) have a nut allergy please make sure they are aware of this and you keep an eye on them when they&apos;re heading towards the ice cream trolleys.
+
+We look forward to seeing you all at the Family Fun Day tomorrow.
+
+Best regards,
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

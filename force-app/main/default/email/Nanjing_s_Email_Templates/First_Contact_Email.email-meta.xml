@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>First Contact Email</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>First Contact Email</name>
+    <style>freeForm</style>
+    <subject>Thank you for contacting the British School of Nanjing</subject>
+    <textOnly>Dear Parent,
+
+Thank you for your enquiry about joining the British School of Nanjing.  We will be in touch within 24 hours (slightly longer at weekends and holidays) to answer questions and tell you more about our school.
+
+In the meantime, find out about what is happening on campus by clicking here.
+
+Ready to take the next step in your child&apos;s education?
+* Take a virtual tour of our campus
+* View our School Prospectus
+* Fill out an Online Application Form
+
+We are looking forward to speaking to you soon and getting to know your family.
+
+Warm Regards,
+
+The Admissions Department
+The British School of Nanjing
+
+www.bsn.org.cn
+admissions@bsn.org.cn
++86 25 5210 8987</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

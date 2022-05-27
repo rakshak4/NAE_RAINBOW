@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Ballet Tuition</name>
+    <style>freeForm</style>
+    <subject>Ballet Tuition</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear parents,
+
+There has been a slight change to the timing of Ballet sessions at the International School of Moscow.  The dates below are the new dates for Ballet tuition for your children. Please make a note of the following important points:
+
+-Foundation stage children will have their lesson from 4 – 4.45pm
+
+-Years 1-3 children will have their lesson from 4.50 – 5.35pm
+
+-You must have an adult to accompany your child in between sessions, teachers at the school will have no involvement in this.
+
+-Money for the tuition needs to be handed to the reception desk at the lower campus.
+
+-Children who sign up for the activity must commit to both a Monday and a Thursday session.
+
+Monday 11th February
+Thursday 14th February
+Monday 18th February
+Thursday 21st February
+
+Half term holiday – no children for 1 week
+
+Monday 4th March
+Thursday 7th March
+Monday 11th March
+Thursday 14th March
+
+If you have questions regarding the above, please contact the following:
+Mr. Egor Simachev – egoro@mail.ru
+
+Kindest regards,
+
+The PE department
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

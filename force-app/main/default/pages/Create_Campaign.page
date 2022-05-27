@@ -1,0 +1,16 @@
+<apex:page >
+<apex:form >
+ 
+ 
+  
+  <input type="button" value="Click here for New Email Campaign" onClick="window.open('/701/e?retURL=%2F701%2Fo&cpn16=1&cpn1={!$User.Alias}-{!Day(Today())}/{!Month(Today())}/{!Year(Today())}&cpn5={!Day(Today())}/{!Month(Today())}/{!Year(Today())}','test',config='height=500,
+width=1000,left=200,screenX=200 ');" />
+  
+ 
+  
+  </apex:form>
+  
+  
+  
+  
+</apex:page>

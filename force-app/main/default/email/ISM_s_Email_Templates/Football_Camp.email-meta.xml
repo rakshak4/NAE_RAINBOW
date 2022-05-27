@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Football Camp</name>
+    <style>freeForm</style>
+    <subject>Tottenham Football Camp</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+You will be able to register for the Tottenham Hotspur Football Camp at 7.30pm this evening.  Just click on the link below and select only 1 ticket for your child.  Please enter your child&apos;s full name and class during the first part of registration.
+
+http://www.eventbrite.com/event/6208607111/eorg
+
+Once you have registered, you will have a confirmation ticket sent to your email address.  Please print this and hand in to reception desks along with the 9,500rb payment.  No money will be accepted if you do not appear on the registered list or you do not have a valid ticket.
+
+Kindest regards,
+
+Mr Adam Hoult
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

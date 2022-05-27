@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Foundation Stage Parent &amp; Teacher Consultations - Session II</name>
+    <style>freeForm</style>
+    <subject>Foundation Stage Parent &amp; Teacher Consultations - Session II</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear parents,
+
+Please find the schedules for the Parent and Teacher consultations in the links below. Please be advised that the date for the second part of PTC&apos;s will take place on the 10th of October, 2013.
+
+Nursery A
+Reception A
+Reception B
+Reception C
+
+Kind regards,
+
+Magomet Gamurziev
+Lower Campus Front Desk Secretary
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

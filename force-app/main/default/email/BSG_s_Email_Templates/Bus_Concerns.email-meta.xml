@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Leadership Sailing Programme</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Leadership Sailing Programme</name>
+    <style>freeForm</style>
+    <subject>Leadership Sailing Programme</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I am writing to inform you of the arrangements for the upcoming leadership sailing programme in Hong Kong next week. Due to the early start on Monday morning, students will now be required to meet on Sunday 14th October. The meeting point will be at 2.30pm outside McDonalds at Guangzhou East Railway Station. Students and staff will then make their way to Shenzhen and across into Hong Kong, where they will be met by Outward Bound representatives. Students and staff will have an evening meal and stay the night at the base on Sunday, before embarking on their voyage after breakfast the following morning.
+
+Please ensure that all students bring their passports as well as any money they may need to buy food when travelling on the train. In my previous correspondence I attached an outline of the five-day programme and a list of essential clothes needed for the week. Please ensure that students have these essential items.
+
+Students will be back in Guangzhou on Friday 19th October, around 7pm at Guangzhou East Railway Station. Below are the contact numbers of  school staff on the course in case of emergency.
+
+Francine Hearn: 15958006044
+
+
+Francis Burlingham: 15017536139
+
+I am very excited about providing our students with such a fantastic experience. I would like to take this opportunity to thank you for your support.
+
+
+Regards,
+
+Nicholas McKie
+Assistant Head of Secondary
+The British School of Guangzhou
+
+
+www.bsg.org.cn
+
+World Class Education
+
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

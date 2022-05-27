@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>PE and Club Update</name>
+    <style>freeForm</style>
+    <subject>PE and Clubs Update</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+I have outlined some key information below to update you all on what is happening over the next few weeks.  If you have any further questions then please get in touch with me directly.
+
+AFTER SCHOOL ACTIVITIES
+
+Thank you for your patience and support for the new online club system.  It has certainly been a much smoother process and we hope to make it even easier for the next academic year.  The last after school activities of this academic year will be on Tuesday 11th and Wednesday 12th June.  There will be no activities after this time.
+
+YEAR 1-3 SPORTS DAY
+
+All students in years 1-3 will perform in the annual ISM sports day on Friday 28th June.  For more information, please click here.
+
+UPPER CAMPUS 4-10 TRACK AND FIELD EVENT
+
+The Upper Campus track and field day will take place on Wednesday 19th June and this will be instead of Friday 21st June.  Please click here for detailed information. The event will take place between the hours of 10am – 2pm.  Lunch will not be provided due to the timing of the event so it is important that your child has a substantial breakfast to provide enough energy for their performances. The link below will provide further details on the location.
+
+http://wikimapia.org/128091/ulitsa-Marshala-Katukova-26
+
+Students must have the following:
+
+-ISM PE kit with house coloured shirt
+-Snacks/light packed lunch – ideally not to much to avoid students being uncomfortable when performing.
+-Water bottle
+-Sun screen
+-Adequate trainers (no skateboarding or high top trainers)
+-Rain jacket – the event will take place regardless of the weather conditions.
+
+I hope that you can all come and support the event.  This is a fabulous opportunity for the students to develop their athletic skills and perform in a more competitive setting.
+
+Thank you for your support on all of the above points and I look forward to seeing you all over the next few weeks.
+
+Kindest regards,
+
+Mr Adam Hoult
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

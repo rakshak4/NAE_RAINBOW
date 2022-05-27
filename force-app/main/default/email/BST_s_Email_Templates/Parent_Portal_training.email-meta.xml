@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Parent Portal Training</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Parent Portal training</name>
+    <style>freeForm</style>
+    <subject>Parent Portal training</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+In order to improve your experience with using the Parent Portal, which is an essential part of school – parent communication, we are planning to conduct training on November 14th 2015. It will be on the same day as celebration of UN Day at the British School of Tashkent. For your convenience we decided to break it into two sessions. First session will be in Russian and it will start at 10 am until 11 am and the second session, for English speaking parents from 12pm till 1pm. I will go through the basics of the parent portal, where to find reports, how to print them out, how to contact teachers etc. I will be more than happy to assist you in resolving the issues you might encounter while using the Parent Portal. The venue will take place at the Science Lab on the 3rd floor in Upper Campus.
+
+
+Gozel Appleby,
+
+Science Teacher
+
+
+
+Уважаемые родители!
+
+14-го ноября 2015 года состоится тренинг, посвященный использованию Родительского Портала (Parent Portal), который является связующим звеном между школой и родителями учащихся. Данный тренинг будет проводиться в тот же день, что и празднование Международного Дня ООН. Для Вашего удобства тренинг разбит на две части. Первая часть тренинга будет проходить на русском языке и продолжаться с 10:00 до 11:00 часов утра; вторая часть тренинга будет проходить на английском языке и продолжаться с 12:00 до 13:00 часов дня. Я объясню основы работы с Родительским Порталом, где найти отчеты, как распечатать их, как связаться с учителями и т.д. Я буду рада помочь Вам в решении вопросов, которые могут возникнуть при использовании Родительского Портала. Место проведения тренинга - научная лаборатория на 3-ем этаже здания школы.
+
+
+Гозель Эпплби,
+
+Преподаватель науковедения.
+
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

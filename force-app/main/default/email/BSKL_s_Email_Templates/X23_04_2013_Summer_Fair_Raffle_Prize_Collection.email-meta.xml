@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>23/04/2013 Summer Fair Raffle Prize Collection</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>23/04/2013 Summer Fair Raffle Prize Collection</name>
+    <style>freeForm</style>
+    <subject>Summer Fair Raffle Prize Collection</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Raffle Prize Collection
+
+Parent and Company Donations
+
+We are now collecting Prizes for the Raffle at this years Summer event, and request your generous donations. Please also approach your companies for donations. All funds raised go toward the EFC’s adopted charities and will help change the lives of those less fortunate than ourselves.
+Suggested donations might include: Electronics (iPads, iTouch, iPod, cameras, video camera &amp; TV). Gift sets. Spa Treatment. Book Vouchers. Wine &amp; Spirits. Gourmet (ambient) Food Hamper. Weekend Break. Children’s Toys &amp; Soft Toys. Artwork, Ornaments &amp; Soft Furnishings. Perfume &amp; Cologne, Jewellery. Leather Purse or Wallet. Local Attraction Gift Card. Gift baskets. Use of a Sports Car for a Weekend. Sunday Brunch Certificate. Travel package. Homemade Gift Basket. Coffee Table Book.Consider recycling and donating any unwanted and unused gifts
+
+Donations can be handed to Alice Gibbons at the BSKL Reception Desk
+
+Your support and generosity is very much appreciated by the EFC
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,29 @@
+<messaging:emailTemplate subject="{!RelatedTo.Related_School__r.School_Full_Name__c} - Thank you for your enquiry" recipientType="Lead" relatedToType="Lead">
+<messaging:HtmlEmailBody >
+
+ 
+
+ 
+
+*** This is an automatically generated email ***<br/><br/>
+
+ 
+Thank you for your enquiry about joining our school. We’ll be in touch within 24 hours (local time, Monday to Friday) to answer your questions and tell you more about our school. We’ll also be able to give you updated advice on how you can visit our campus: if local regulations prevent us from being able to welcome you for a real school tour, we’ll be happy to offer you the very best online experience.<br/><br/>
+
+We’re looking forward to speaking to you soon and getting to know your family!<br/><br/>
+
+In the meantime, find out <a href="{!RelatedTo.Related_School__r.What_s_Happening_Link__c}">what’s happening</a> on campus.<br/><br/>
+
+Warmest regards,
+
+<br/><br/>
+
+{!RelatedTo.Related_School__r.School_Full_Name__c} Admissions team
+
+<br/><br/>
+
+Click <a href="{!RelatedTo.Related_School__r.Contact_Details_Link__c}">here</a> for contact details
+
+</messaging:HtmlEmailBody>
+
+</messaging:emailTemplate>

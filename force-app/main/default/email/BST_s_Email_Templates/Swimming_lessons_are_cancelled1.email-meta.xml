@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Note to parents about cancellation of swimming lessons</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Swimming lessons are cancelled</name>
+    <style>freeForm</style>
+    <subject>Swimming Lessons are cancelled</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please note that swimming lessons will now be cancelled for the rest of the term. This will allow us to begin some maintenance work so the pool is ready for next term.
+
+Children will attend PE lessons  as timetabled.
+
+Best regards,
+
+David Kirkham
+Headmaster
+
+Уважаемые родители,
+
+Просим Вас обратить внимание на то, что уроки плавания будут отменены до конца учебного года в связи с ремонтными работами, котрый позволит нам подготовить бассейн к следующему учебному году.
+
+Дети будут посещать уроки физкультуры согласно расписанию.
+
+
+С уважением,
+
+Давид Киркхам
+Директор
+
+Regards,
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

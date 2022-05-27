@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>House Swimming Caps</name>
+    <style>freeForm</style>
+    <subject>House Swimming Caps</subject>
+    <textOnly>Dear Parents,
+ 
+I am delighted to announce that we finally have some house coloured swimming caps available.  We will be selling these for 350 Rubles each. These have been specially made in the UK and will look great during swimming lessons and the upcoming swimming galas.
+
+To get your swim cap, please follow the steps below.
+
+1 – Visit the link http://www.eventbrite.com/event/8431572059 and select the house swimming cap you would like.  Please enter your child&apos;s name and your email address for confirmation. 
+2 – Send a clearly marked envelope with the correct amount of 350 Rubles and your child&apos;s name and class written on the front. Hand in the envelope to the Upper Campus or Lower Campus Reception desks.
+3 – Orders will be processed on a Friday and swimming caps will be delivered to students on a Monday. 
+
+If you have any further questions then please let me know.
+
+Your Sincerely,
+
+Adam Hoult
+Head of Physical Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

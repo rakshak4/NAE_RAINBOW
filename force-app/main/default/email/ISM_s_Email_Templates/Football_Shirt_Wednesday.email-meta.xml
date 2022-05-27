@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Football Shirt Wednesday</name>
+    <style>freeForm</style>
+    <subject>Football Shirt Wednesday</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+This Wednesday, 3rd July, will be &quot;Football Shirt Wednesday&quot;. All students will be allowed to wear their football team&apos;s kit for the day. If they do not have a football kit then any sport&apos;s team kit will be allowed.
+
+It will cost 100 Rubles per child and all the proceeds will go towards ISM&apos;s Madrid football tour.
+
+Kind regards,
+
+Stuart Hamilton
+Year 4 Teacher
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

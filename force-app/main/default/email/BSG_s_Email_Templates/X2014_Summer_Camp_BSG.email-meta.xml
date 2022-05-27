@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>2014 Summer Sports Camp @ BSG</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>2014 Summer Sports Camp @ BSG</name>
+    <style>freeForm</style>
+    <subject>2014 Summer Sports Camp @ BSG</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dear Parents,
+
+
+Our friends from the Guangzhou Football Academy (GFA) will be holding &apos;Multi-Sports Summer Camps&apos; from 30th June to 11th July this year.
+
+
+Please CLICK HERE for more details or contact the coaches directly through &lt;guangzhoufa@gmail.com&gt;
+
+
+Best wishes,
+
+
+
+
+
+
+
+The British School of Guangzhou
+
+World Class Education
+
+
+
+____________________________________________________________
+
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

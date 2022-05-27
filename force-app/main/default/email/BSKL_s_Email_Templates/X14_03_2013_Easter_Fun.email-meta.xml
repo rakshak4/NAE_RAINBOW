@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>14/03/2013 Easter Fun</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>14/03/2013 Easter Fun</name>
+    <style>freeForm</style>
+    <subject>Easter Fun</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+With Easter just around the corner, we have planned for an hour of fun for children who wish to join in some Easter fun.  Activities include the Easter egg race, egg hunt, best dressed bunny, and a surprise activity by some of our school teachers.
+
+This will be held on WEDNESDAY MARCH 27TH, from 11.30 – 12.30pm (School ends at 11.30pm) and will be open to children from Pre-nursery to Year 5.
+
+For children keen to join in the Easter fun, please do email gohsuetlan@yahoo.com or ulrika_brunner@yahoo.com  before March 22nd.  The participation fee is RM 5 and all proceeds will go to the EFC charity.
+
+Please note for those children who normally take the school bus, parents would need to make their own arrangements to collect their children as a service leaving after the activities will not be available.
+
+For those children who would like to join in the Easter celebration on this day, they will need to be supervised by their parents/guardians too.
+
+Looking forward to some great bunny hopping fun.
+
+Warm Regards,
+Goh Suet Lan &amp; Ulrika Brunner, from the EFC
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

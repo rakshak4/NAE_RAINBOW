@@ -1,0 +1,2288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>Tabbed_Record_Assessment</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Academ_Year_Manual_Override__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>To manually override the value of the Academic_Year__c field on the assessment record. In case of manual override the value from the Manual_Academ_Year__c field should be used.</description>
+        <externalId>false</externalId>
+        <label>Academic Year Manual Override</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Academic_Year__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+   Academ_Year_Manual_Override__c = TRUE,
+   Manual_Academ_Year__c,
+   IF(
+      OR(
+         AND(
+             MONTH(DATEVALUE(CreatedDate))=7, 
+             DAY(DATEVALUE(CreatedDate))&gt;30
+             ), 
+         AND(
+             MONTH(DATEVALUE(CreatedDate))&lt;=12, 
+             MONTH(DATEVALUE(CreatedDate))&gt;=8
+             )
+        ), 
+        TEXT(YEAR(DATEVALUE(CreatedDate)))&amp;&quot;/&quot;&amp; TEXT(YEAR(DATEVALUE(CreatedDate))+1), 
+        TEXT(YEAR(DATEVALUE(CreatedDate ))-1)&amp;&quot;/&quot;&amp;TEXT(YEAR(DATEVALUE(CreatedDate)))
+      )
+  )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Academic Year</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Achievement__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>★★★★ = highest</inlineHelpText>
+        <label>Achievement</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>----EYFS/PRIMARY----</fullName>
+                    <default>false</default>
+                    <label>----EYFS/PRIMARY----</label>
+                </value>
+                <value>
+                    <fullName>★★★★</fullName>
+                    <default>false</default>
+                    <label>★★★★</label>
+                </value>
+                <value>
+                    <fullName>★★★</fullName>
+                    <default>false</default>
+                    <label>★★★</label>
+                </value>
+                <value>
+                    <fullName>★★</fullName>
+                    <default>false</default>
+                    <label>★★</label>
+                </value>
+                <value>
+                    <fullName>★</fullName>
+                    <default>false</default>
+                    <label>★</label>
+                </value>
+                <value>
+                    <fullName>A</fullName>
+                    <default>false</default>
+                    <label>A</label>
+                </value>
+                <value>
+                    <fullName>B</fullName>
+                    <default>false</default>
+                    <label>B</label>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C</label>
+                </value>
+                <value>
+                    <fullName>D</fullName>
+                    <default>false</default>
+                    <label>D</label>
+                </value>
+                <value>
+                    <fullName>-------------</fullName>
+                    <default>false</default>
+                    <label>-------------</label>
+                </value>
+                <value>
+                    <fullName>Excellent</fullName>
+                    <default>false</default>
+                    <label>Excellent</label>
+                </value>
+                <value>
+                    <fullName>Good</fullName>
+                    <default>false</default>
+                    <label>Good</label>
+                </value>
+                <value>
+                    <fullName>Satisfactory</fullName>
+                    <default>false</default>
+                    <label>Satisfactory</label>
+                </value>
+                <value>
+                    <fullName>Improvement Needed</fullName>
+                    <default>false</default>
+                    <label>Improvement Needed</label>
+                </value>
+                <value>
+                    <fullName>Cause for Concern</fullName>
+                    <default>false</default>
+                    <label>Cause for Concern</label>
+                </value>
+                <value>
+                    <fullName>------------</fullName>
+                    <default>false</default>
+                    <label>------------</label>
+                </value>
+                <value>
+                    <fullName>Above Expected Level</fullName>
+                    <default>false</default>
+                    <label>Above Expected Level</label>
+                </value>
+                <value>
+                    <fullName>Meeting Expectations</fullName>
+                    <default>false</default>
+                    <label>Meeting Expectations</label>
+                </value>
+                <value>
+                    <fullName>Below Expected Level</fullName>
+                    <default>false</default>
+                    <label>Below Expected Level</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Approval_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Comments for Parents</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Approver_Email__c</fullName>
+        <description>to be populated by workflow</description>
+        <externalId>false</externalId>
+        <label>Approver Email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Assessment_Date_Copy__c</fullName>
+        <externalId>false</externalId>
+        <formula>Assessment_Folder__r.Assessment_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Assessment Date (Copy)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Assessment_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Assessment Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Assessment_Display_Name_Folder__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(TEXT(Group__r.Group_Type__c) = &quot;Subject&quot;, AND(TEXT(Group__r.Group_Type__c) = &quot;Other&quot;, TEXT(Group__r.Subject_Name__c) &lt;&gt; &quot;&quot;)), TEXT(Group__r.Subject_Name__c) &amp; &quot; - &quot; &amp; Title__c, 
+
+IF(TEXT(Group__r.Group_Type__c) = &quot;School Group&quot;, &quot;Summative Comment&quot;, 
+
+Title__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Assessment Display Name (Folder)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Assessment_Display_Name_Short__c</fullName>
+        <description>Used to display the assessment name on some internal reports/charts where space is limited.</description>
+        <externalId>false</externalId>
+        <formula>IF(AND(TEXT(Assessment_Folder__r.Exam_Type__c) &lt;&gt; &quot;&quot;, TEXT(Assessment_Folder__r.Grade_Type__c) &lt;&gt; &quot;&quot;), Group__r.Subject_Name_Short__c &amp;&quot;-&quot;&amp;TEXT(Assessment_Folder__r.Exam_Type__c) &amp;&quot; &quot;&amp; Grade_Type_Short__c, Assessment_Display_Name__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Assessment Display Name (Short)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Assessment_Display_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(TEXT(Group__r.Group_Type__c) = &quot;Subject&quot;, AND(TEXT(Group__r.Group_Type__c) = &quot;Other&quot;, TEXT(Group__r.Subject_Name__c) &lt;&gt; &quot;&quot;)), TEXT(Group__r.Subject_Name__c) &amp; &quot; - &quot; &amp; Assessment_Folder__r.Title__c,
+
+IF(TEXT(Group__r.Group_Type__c) = &quot;School Group&quot;, &quot;Summative Comment&quot;,
+
+Assessment_Folder__r.Title__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Assessment Display Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Assessment_Display_User__c</fullName>
+        <description>Defines the ID of the user that shows in the parent portal for the particular assessment record</description>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(CreatedBy.Id)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Assessment Display User</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Assessment_Folder_Created_By__c</fullName>
+        <description>A temporary field used to check whether the created by value of the assessment record is the same as the created by value of the assessment folder, using a connector workbook</description>
+        <externalId>false</externalId>
+        <formula>Assessment_Folder__r.CreatedBy.FirstName &amp; &quot; &quot; &amp; Assessment_Folder__r.CreatedBy.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Assessment Folder Created By</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Assessment_Folder__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Assessment Folder</label>
+        <referenceTo>Assesment__c</referenceTo>
+        <relationshipLabel>Assessments</relationshipLabel>
+        <relationshipName>Assessments</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Assessment_ID_18_Char__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Id)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Assessment ID (18 Char)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Assessment_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Assessment_Folder__r.Title__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Assessment Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Assessment_Type_From_Folder__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Assessment_Folder__r.Type__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Assessment Type From Folder</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Auto_Approve__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+   OR(
+      TEXT(Assessment_Folder__r.Type__c) = &quot;Assignment&quot;, 
+      TEXT(Assessment_Folder__r.Type__c) = &quot;Test&quot;
+      ), 
+   TRUE, 
+   IF(
+      TEXT(Assessment_Folder__r.Type__c) = &quot;Tracking&quot;, 
+      FALSE, 
+      Is_Approved__c
+      )
+   )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Visible in Parent Portal</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Auto_Publish__c</fullName>
+        <description>Defines the parameters on which an assessment is published</description>
+        <externalId>false</externalId>
+        <formula>IF(TEXT(Type__c) = &quot;Tracking&quot;, FALSE, TRUE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Published</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Comment__c</fullName>
+        <externalId>false</externalId>
+        <label>Comment</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Comments_for_Teacher__c</fullName>
+        <externalId>false</externalId>
+        <label>Comments for Teachers</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Contact_Campus__c</fullName>
+        <description>Defines the campus of a student for use in the assessment approval screen</description>
+        <externalId>false</externalId>
+        <formula>CASE(Student__r.Admissions_File__r.Class__c, 
+&quot;Pending&quot;,&quot;Campus 1&quot;,
+&quot;A&quot;,&quot;Campus 1&quot;, 
+&quot;B&quot;,&quot;Campus 1&quot;, 
+&quot;C&quot;,&quot;Campus 1&quot;,
+&quot;D&quot;,&quot;Campus 1&quot;,
+&quot;E&quot;,&quot;Campus 1&quot;,
+&quot;F&quot;,&quot;Campus 1&quot;,
+&quot;G&quot;,&quot;Campus 1&quot;,
+&quot;H&quot;,&quot;Campus 1&quot;,
+&quot;Pending (Campus 1: A-H)&quot;,&quot;Campus 1&quot;,
+&quot;I&quot;,&quot;Campus 2&quot;,
+&quot;J&quot;,&quot;Campus 2&quot;,
+&quot;K&quot;,&quot;Campus 2&quot;,
+&quot;L&quot;,&quot;Campus 2&quot;,
+&quot;M&quot;,&quot;Campus 2&quot;,
+&quot;N&quot;,&quot;Campus 2&quot;,
+&quot;O&quot;,&quot;Campus 2&quot;,
+&quot;P&quot;,&quot;Campus 2&quot;,
+&quot;Pending (Campus 2: I-P)&quot;,&quot;Campus 2&quot;,
+&quot;Q&quot;,&quot;Campus 3&quot;, 
+&quot;R&quot;,&quot;Campus 3&quot;, 
+&quot;S&quot;,&quot;Campus 3&quot;, 
+&quot;T&quot;,&quot;Campus 3&quot;, 
+&quot;U&quot;,&quot;Campus 3&quot;, 
+&quot;V&quot;,&quot;Campus 3&quot;, 
+&quot;W&quot;,&quot;Campus 3&quot;, 
+&quot;X&quot;,&quot;Campus 3&quot;, &quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contact Campus</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_Year_Group__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Student__r.Admissions_File__r.Year_Group__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contact Year Group</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Copy_Title__c</fullName>
+        <externalId>false</externalId>
+        <formula>Assessment_Folder__r.Title__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Assessment Title</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Deletion_Prevention__c</fullName>
+        <externalId>false</externalId>
+        <formula>ISBLANK(Mid_Term_Report__c)
+
+
+/*IF(
+   AND(
+       LEN(TRIM(Grade__c))=2, 
+       VALUE(LEFT(TRIM(Grade__c),1))&gt;0, 
+       VALUE(LEFT(TRIM(Grade__c),1))&lt;=9, 
+       OR(
+          RIGHT(TRIM(Grade__c),1)=&quot;A&quot;, 
+          RIGHT(TRIM(Grade__c),1)=&quot;B&quot;, 
+          RIGHT(TRIM(Grade__c),1)=&quot;C&quot;
+          )
+       ),
+   TRUE, 
+   FALSE
+   )*/</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Deletion Prevention</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Folder Description</inlineHelpText>
+        <label>Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Effort_ATL_Output_Label__c</fullName>
+        <description>Defines the label that is used in the reports output template in the parent portal. NOT YET IN USE.</description>
+        <externalId>false</externalId>
+        <formula>IF(
+   AND(
+       VALUE(LEFT(Academic_Year__c, 4)) &gt;= 2017,
+       OR(
+          Year_Group_Grade__c = &quot;PN&quot;,
+          Year_Group_Grade__c = &quot;N&quot;,
+          Year_Group_Grade__c = &quot;R&quot;
+          )
+       ),
+   &quot;Attitude to Learning&quot;,
+   &quot;Effort&quot;
+   )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Effort/ATL Output Label</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Effort__c</fullName>
+        <description>Primary: ★★★★ = highest
+Secondary: 1 = highest</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ATL is only used for EYFS reports that include grades. &apos;ATTITUDE TO LEARNING&apos; or &apos;EFFORT&apos; will appear in the parent portal based on the Year Group a student is in when an assessment is added.</inlineHelpText>
+        <label>Effort/ATL</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>----EYFS/PRIMARY----</fullName>
+                    <default>false</default>
+                    <label>----EYFS/PRIMARY----</label>
+                </value>
+                <value>
+                    <fullName>★★★★</fullName>
+                    <default>false</default>
+                    <label>★★★★</label>
+                </value>
+                <value>
+                    <fullName>★★★</fullName>
+                    <default>false</default>
+                    <label>★★★</label>
+                </value>
+                <value>
+                    <fullName>★★</fullName>
+                    <default>false</default>
+                    <label>★★</label>
+                </value>
+                <value>
+                    <fullName>★</fullName>
+                    <default>false</default>
+                    <label>★</label>
+                </value>
+                <value>
+                    <fullName>------SECONDARY------</fullName>
+                    <default>false</default>
+                    <label>------SECONDARY------</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+                <value>
+                    <fullName>--------------</fullName>
+                    <default>false</default>
+                    <label>--------------</label>
+                </value>
+                <value>
+                    <fullName>A</fullName>
+                    <default>false</default>
+                    <label>A</label>
+                </value>
+                <value>
+                    <fullName>B</fullName>
+                    <default>false</default>
+                    <label>B</label>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C</label>
+                </value>
+                <value>
+                    <fullName>D</fullName>
+                    <default>false</default>
+                    <label>D</label>
+                </value>
+                <value>
+                    <fullName>-------------</fullName>
+                    <default>false</default>
+                    <label>-------------</label>
+                </value>
+                <value>
+                    <fullName>Excellent</fullName>
+                    <default>false</default>
+                    <label>Excellent</label>
+                </value>
+                <value>
+                    <fullName>Good</fullName>
+                    <default>false</default>
+                    <label>Good</label>
+                </value>
+                <value>
+                    <fullName>Satisfactory</fullName>
+                    <default>false</default>
+                    <label>Satisfactory</label>
+                </value>
+                <value>
+                    <fullName>Improvement Needed</fullName>
+                    <default>false</default>
+                    <label>Improvement Needed</label>
+                </value>
+                <value>
+                    <fullName>Cause for Concern</fullName>
+                    <default>false</default>
+                    <label>Cause for Concern</label>
+                </value>
+                <value>
+                    <fullName>------------</fullName>
+                    <default>false</default>
+                    <label>------------</label>
+                </value>
+                <value>
+                    <fullName>Above Expected Level</fullName>
+                    <default>false</default>
+                    <label>Above Expected Level</label>
+                </value>
+                <value>
+                    <fullName>Meeting Expectations</fullName>
+                    <default>false</default>
+                    <label>Meeting Expectations</label>
+                </value>
+                <value>
+                    <fullName>Below Expected Level</fullName>
+                    <default>false</default>
+                    <label>Below Expected Level</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Exam_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Exam Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SAT</fullName>
+                    <default>false</default>
+                    <label>SAT</label>
+                </value>
+                <value>
+                    <fullName>GCSE</fullName>
+                    <default>false</default>
+                    <label>GCSE</label>
+                </value>
+                <value>
+                    <fullName>A-Level</fullName>
+                    <default>false</default>
+                    <label>A-Level</label>
+                </value>
+                <value>
+                    <fullName>Internal</fullName>
+                    <default>false</default>
+                    <label>Internal</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>External_Examination__c</fullName>
+        <externalId>false</externalId>
+        <label>External Examination</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Type__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SAT</fullName>
+                    <default>false</default>
+                    <label>SAT</label>
+                </value>
+                <value>
+                    <fullName>IGCSE</fullName>
+                    <default>false</default>
+                    <label>IGCSE</label>
+                </value>
+                <value>
+                    <fullName>AS Level</fullName>
+                    <default>false</default>
+                    <label>AS Level</label>
+                </value>
+                <value>
+                    <fullName>A Level</fullName>
+                    <default>false</default>
+                    <label>A Level</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Examination</controllingFieldValue>
+                <valueName>SAT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Examination</controllingFieldValue>
+                <valueName>IGCSE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Examination</controllingFieldValue>
+                <valueName>AS Level</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Examination</controllingFieldValue>
+                <valueName>A Level</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>External_ID_18_Char__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>The ID of the record in the alternate SFDC org, where applicable.</description>
+        <externalId>true</externalId>
+        <label>External ID (18 Char)</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Folder_Order_Manual_Override__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>To manually override the value of the Folder_Order__c field on the assessment record. In case of manual override the value from the Manual_Folder_Order__c field should be used.</description>
+        <externalId>false</externalId>
+        <label>Folder Order Manual Override</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Folder_Order_Text__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(YEAR(Assessment_Date__c))&amp; 
+
+CASE(Term_Copy__c,&quot;Term 1&quot;,&quot;3&quot;,&quot;Term 3&quot;,&quot;2&quot;,&quot;1&quot;)&amp; 
+
+IF(Mid_Term_Report__c =&quot;YES&quot;,&quot;0&quot;,&quot;1&quot;)&amp; 
+
+CASE(TEXT(Type__c),&quot;Progress Report&quot;,&quot;1&quot;,&quot;Examination&quot;,&quot;1&quot;,&quot;0&quot;)&amp; 
+
+CASE(Group__r.Group_Type__c,&quot;School Group&quot;,&quot;2&quot;,&quot;Tutor Group&quot;,&quot;1&quot;,&quot;0&quot;)&amp; 
+
+Owner_Order_Copy__c &amp; 
+
+Case(Group__r.Subject_Name__c, &quot;Personal, Social and Emotional Development&quot;,&quot;70&quot;, &quot;Communication and Language&quot;,&quot;65&quot;, &quot;Physical Development&quot;,&quot;60&quot;, &quot;English&quot;,&quot;55&quot;, &quot;Literacy&quot;,&quot;54&quot;, &quot;Reading&quot;,&quot;53&quot;, &quot;Writing&quot;,&quot;52&quot;, &quot;Mathematics&quot;,&quot;47&quot;, &quot;Mathematics - Statistics&quot;,&quot;46&quot;, &quot;Numeracy&quot;,&quot;45&quot;, &quot;Understanding the World&quot;,&quot;44&quot;, &quot;Expressive Arts &amp; Design&quot;,&quot;43&quot;, &quot;Science&quot;,&quot;42&quot;, &quot;Physics&quot;,&quot;41&quot;, &quot;Chemistry&quot;,&quot;40&quot;, &quot;Biology&quot;,&quot;39&quot;, &quot;History&quot;,&quot;38&quot;, &quot;Geography&quot;,&quot;37&quot;, &quot;Humanities&quot;,&quot;36&quot;, &quot;Integrated Curriculum&quot;,&quot;35&quot;, &quot;ICT&quot;,&quot;34&quot;, &quot;Computing&quot;,&quot;33&quot;, &quot;Computer Science&quot;,&quot;32&quot;, &quot;Business Studies&quot;,&quot;30&quot;, &quot;Media Studies&quot;,&quot;29&quot;, &quot;Economics&quot;,&quot;28&quot;, &quot;Myanmar&quot;,&quot;26&quot;, &quot;Russian&quot;,&quot;25&quot;, &quot;Chinese&quot;,&quot;24&quot;, &quot;Bahasa&quot;,&quot;23&quot;, &quot;Portuguese&quot;,&quot;22&quot;, &quot;Uzbek&quot;,&quot;21&quot;, &quot;French&quot;,&quot;20&quot;, &quot;Spanish&quot;,&quot;19&quot;, &quot;German&quot;,&quot;17&quot;, &quot;PSHE&quot;,&quot;16&quot;, &quot;Music&quot;,&quot;15&quot;, &quot;Drama&quot;,&quot;14&quot;, &quot;Dance&quot;,&quot;13&quot;, &quot;Art &amp; Design&quot;,&quot;12&quot;, &quot;Graphic Design&quot;,&quot;11&quot;, &quot;PE&quot;,&quot;10&quot;, &quot;Religious Education&quot;,&quot;09&quot;, &quot;Sociology&quot;,&quot;08&quot;, &quot;EAL&quot;,&quot;02&quot;, &quot;Learning Support&quot;,&quot;01&quot;, &quot;00&quot;)&amp; 
+
+CASE(TEXT(Type__c),&quot;Progress Report&quot;,&quot;2&quot;,&quot;Examination&quot;,&quot;1&quot;,&quot;0&quot;)&amp; 
+
+CASE(Grade_Type__c, &quot;Exam&quot;, &quot;5&quot;, &quot;Predicted Grade&quot;, &quot;4&quot;, &quot;Mock Exam&quot;, &quot;3&quot;, &quot;Target Grade&quot;, &quot;2&quot;, &quot;Current Working Grade&quot;, &quot;1&quot;, &quot;0&quot;)&amp; 
+
+LEFT(RIGHT(TEXT(CreatedDate), 15), 2) &amp; 
+LEFT(RIGHT(TEXT(CreatedDate), 12), 2) &amp; 
+LEFT(RIGHT(TEXT(CreatedDate), 9), 2) &amp; 
+LEFT(RIGHT(TEXT(CreatedDate), 6), 2) &amp; 
+LEFT(RIGHT(TEXT(CreatedDate), 3), 2)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Folder Order Text</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Folder_Order__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+   Folder_Order_Manual_Override__c = FALSE,
+   VALUE(Folder_Order_Text__c),
+   VALUE(Manual_Folder_Order__c)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Folder Order</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Grade_Type_Short__c</fullName>
+        <description>A shortened version of the grade type for use in some internal reports</description>
+        <externalId>false</externalId>
+        <formula>CASE(TEXT(Assessment_Folder__r.Grade_Type__c), &quot;Predicted Grade&quot;, &quot;PG&quot;, &quot;Target Grade&quot;, &quot;TG&quot;, &quot;Current Working Grade&quot;, &quot;CWG&quot;, &quot;Mock Exam&quot;, &quot;Mock&quot;, TEXT(Assessment_Folder__r.Grade_Type__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Grade Type (Short)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Grade_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Exam Sub-Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Exam</fullName>
+                    <default>false</default>
+                    <label>Exam</label>
+                </value>
+                <value>
+                    <fullName>Mock Exam</fullName>
+                    <default>false</default>
+                    <label>Mock Exam</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Grade__c</fullName>
+        <externalId>false</externalId>
+        <label>Grade</label>
+        <length>4</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Group_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( RecordType.Name = &quot;Assessment Record&quot;, Assessment_Folder__r.Group__r.Name, Group__r.Name )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Group Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Group_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Group__r.Group_Type__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Group Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Group__c</fullName>
+        <externalId>false</externalId>
+        <label>Group</label>
+        <referenceTo>Group__c</referenceTo>
+        <relationshipLabel>Assessments</relationshipLabel>
+        <relationshipName>Assessments</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Has_Lettered_Grade_Level__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(Grade__c = &quot;A*&quot;, Grade__c = &quot;A&quot;, Grade__c = &quot;B&quot;, Grade__c = &quot;C&quot;, Grade__c = &quot;D&quot;, Grade__c = &quot;E&quot;, Grade__c = &quot;F&quot;, Grade__c = &quot;a*&quot;, Grade__c = &quot;a&quot;, Grade__c = &quot;b&quot;, Grade__c = &quot;c&quot;, Grade__c = &quot;d&quot;, Grade__c = &quot;e&quot;, Grade__c = &quot;f&quot;), TRUE, FALSE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Has Lettered Grade Level</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Has_NC_Grade__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND(LEN(TRIM(Grade__c))=2, VALUE(LEFT(TRIM(Grade__c),1))&gt;0, VALUE(LEFT(TRIM(Grade__c),1))&lt;=9, OR(RIGHT(TRIM(Grade__c),1)=&quot;A&quot;, RIGHT(TRIM(Grade__c),1)=&quot;B&quot;, RIGHT(TRIM(Grade__c),1)=&quot;C&quot;, RIGHT(TRIM(Grade__c),1)=&quot;a&quot;, RIGHT(TRIM(Grade__c),1)=&quot;b&quot;, RIGHT(TRIM(Grade__c),1)=&quot;c&quot;)), TRUE, FALSE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Has NC Grade?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Include_Target_Predicted_Grade__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Optional; select &apos;Target&apos; or &apos;Predicted&apos; if you wish to record one of these grade types for the assessments in this folder. Only available for &apos;Progress Reports&apos; and &apos;Examinations&apos;</inlineHelpText>
+        <label>Include Target/Predicted Grade?</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Target</fullName>
+                    <default>false</default>
+                    <label>Target</label>
+                </value>
+                <value>
+                    <fullName>Predicted</fullName>
+                    <default>false</default>
+                    <label>Predicted</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Is_Approved__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Approved</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Letter_Grade_Numerical__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(Grade__c, &quot;A*&quot;, 7, &quot;A&quot;, 6, &quot;B&quot;, 5, &quot;C&quot;, 4, &quot;D&quot;, 3, &quot;E&quot;, 2, &quot;F&quot;, 1, &quot;a*&quot;, 7, &quot;a&quot;, 6, &quot;b&quot;, 5, &quot;c&quot;, 4, &quot;d&quot;, 3, &quot;e&quot;, 2, &quot;f&quot;, 1, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Letter Grade (Numerical)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Locked_for_Editing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Locked for Editing</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Manual_Academ_Year__c</fullName>
+        <description>To be used for manual override of the Academic Year field. The manual input of the order is used in the Academic_Year__c field</description>
+        <externalId>false</externalId>
+        <label>Manual Academic Year</label>
+        <length>9</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Manual_Approval__c</fullName>
+        <description>Created by Ben on 17/12/2016 to assist with filtering assessments so that they can be manually approved via connector. Needs to be properly tested before use.</description>
+        <externalId>false</externalId>
+        <formula>AND(
+    RecordType.DeveloperName = &quot;Assessment_Record&quot;,
+    Is_Approved__c = FALSE,
+    /* Set School */
+    School__c = &quot;The King&apos;s School Manila&quot;,
+    /* Set Campus if Required or Comment out for All */
+    /*Contact_Campus__c = &quot;Campus 1&quot;,*/
+    /* Set Assessment Type */
+    /*OR(
+       Assessment_Type_From_Folder__c = &quot;Progress Report&quot;,
+       Assessment_Type_From_Folder__c = &quot;Examination&quot;
+       ),*/
+    Assessment_Type_From_Folder__c = &quot;Progress Report&quot;,
+    /* Set Assessment Date */
+    Assessment_Date_Copy__c &lt;= TODAY(),
+    /* Set Year Groups / Grades - If many then may exceed compilation size limit and will need to be broken down into smaller batches */
+    OR(
+       Contact_Year_Group__c = &quot;PN&quot;,
+       Contact_Year_Group__c = &quot;N&quot;,
+       Contact_Year_Group__c = &quot;R&quot;,
+       Contact_Year_Group__c = &quot;Y1&quot;,
+       Contact_Year_Group__c = &quot;Y2&quot;,
+       Contact_Year_Group__c = &quot;Y3&quot;,
+       Contact_Year_Group__c = &quot;Y4&quot;,
+       Contact_Year_Group__c = &quot;Y5&quot;,
+       Contact_Year_Group__c = &quot;Y6&quot;,
+       Contact_Year_Group__c = &quot;Y7&quot;,
+       Contact_Year_Group__c = &quot;Y8&quot;,
+       Contact_Year_Group__c = &quot;Y9&quot;
+       )
+    )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Manual Approval</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Manual_Folder_Order__c</fullName>
+        <description>To be used for manual override of the ordering number in the Folder_Order_Text__c field. The manual input of the order is used in the Folder_Order__c field</description>
+        <externalId>false</externalId>
+        <label>Manual Folder Order</label>
+        <length>30</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Manual_Term__c</fullName>
+        <description>To be used for manual override of the Term field. The manual input of the order is used in the Term__c</description>
+        <externalId>false</externalId>
+        <label>Manual Term</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Term 1</fullName>
+                    <default>false</default>
+                    <label>Term 1</label>
+                </value>
+                <value>
+                    <fullName>Term 2</fullName>
+                    <default>false</default>
+                    <label>Term 2</label>
+                </value>
+                <value>
+                    <fullName>Term 3</fullName>
+                    <default>false</default>
+                    <label>Term 3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Mass_Update__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Mass Update</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Mid_Term_Report__c</fullName>
+        <externalId>false</externalId>
+        <label>Mid Term Report</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NC_Level_Numerical__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(Grade__c, &quot;1c&quot;, 7, &quot;1b&quot;, 9, &quot;1a&quot;, 11, &quot;2c&quot;, 13, &quot;2b&quot;, 15, &quot;2a&quot;, 17, &quot;3c&quot;, 19, &quot;3b&quot;, 21, &quot;3a&quot;, 23, &quot;4c&quot;, 25, &quot;4b&quot;, 27, &quot;4a&quot;, 29, &quot;5c&quot;, 31, &quot;5b&quot;, 33, &quot;5a&quot;, 35, &quot;6c&quot;, 37, &quot;6b&quot;, 39, &quot;6a&quot;, 41, &quot;7c&quot;, 43, &quot;7b&quot;, 45, &quot;7a&quot;, 47, &quot;8c&quot;, 49, &quot;8b&quot;, 51, &quot;8a&quot;, 53, &quot;9c&quot;, 55, &quot;9b&quot;, 57, &quot;9a&quot;, 59,
+
+&quot;1C&quot;, 7, &quot;1B&quot;, 9, &quot;1A&quot;, 11, &quot;2C&quot;, 13, &quot;2B&quot;, 15, &quot;2A&quot;, 17, &quot;3C&quot;, 19, &quot;3B&quot;, 21, &quot;3A&quot;, 23, &quot;4C&quot;, 25, &quot;4B&quot;, 27, &quot;4A&quot;, 29, &quot;5C&quot;, 31, &quot;5B&quot;, 33, &quot;5A&quot;, 35, &quot;6C&quot;, 37, &quot;6B&quot;, 39, &quot;6A&quot;, 41, &quot;7C&quot;, 43, &quot;7B&quot;, 45, &quot;7A&quot;, 47, &quot;8C&quot;, 49, &quot;8B&quot;, 51, &quot;8A&quot;, 53, &quot;9C&quot;, 55, &quot;9B&quot;, 57, &quot;9A&quot;, 59, 
+
+0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>NC Level (Numerical)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_Approved_Assessments_in_Folder__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Approved Assessments in Folder</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_Assessments_in_Folder__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Assessments in Folder</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Student__r.Admissions_File__r.Id)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity ID</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Leaving_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Student__r.Admissions_File__r.Leaving_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity Leaving Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Stage__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Student__r.Admissions_File__r.StageName)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity Stage</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Order_Text__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(YEAR(Assessment_Folder__r.Assessment_Date__c))&amp; 
+
+CASE(Assessment_Folder__r.Term_Copy__c,&quot;Term 1&quot;,&quot;3&quot;,&quot;Term 3&quot;,&quot;2&quot;,&quot;1&quot;)&amp; 
+
+IF(Assessment_Folder__r.Mid_Term_Report__c =&quot;YES&quot;,&quot;0&quot;,&quot;1&quot;)&amp; 
+
+CASE(TEXT(Assessment_Folder__r.Type__c),&quot;Progress Report&quot;,&quot;1&quot;,&quot;Examination&quot;,&quot;1&quot;,&quot;0&quot;)&amp; 
+
+CASE(Assessment_Folder__r.Group__r.Group_Type__c,&quot;School Group&quot;,&quot;2&quot;,&quot;Tutor Group&quot;,&quot;1&quot;,&quot;0&quot;)&amp; 
+
+Assessment_Folder__r.Owner_Order_Copy__c &amp; 
+
+Case(Assessment_Folder__r.Group__r.Subject_Name__c, &quot;Personal, Social and Emotional Development&quot;,&quot;70&quot;, &quot;Communication and Language&quot;,&quot;65&quot;, &quot;Physical Development&quot;,&quot;60&quot;, &quot;English&quot;,&quot;55&quot;, &quot;Literacy&quot;,&quot;54&quot;, &quot;Reading&quot;,&quot;53&quot;, &quot;Writing&quot;,&quot;52&quot;, &quot;Mathematics&quot;,&quot;47&quot;, &quot;Mathematics - Statistics&quot;,&quot;46&quot;, &quot;Numeracy&quot;,&quot;45&quot;, &quot;Understanding the World&quot;,&quot;44&quot;, &quot;Expressive Arts &amp; Design&quot;,&quot;43&quot;, &quot;Science&quot;,&quot;42&quot;, &quot;Physics&quot;,&quot;41&quot;, &quot;Chemistry&quot;,&quot;40&quot;, &quot;Biology&quot;,&quot;39&quot;, &quot;History&quot;,&quot;38&quot;, &quot;Geography&quot;,&quot;37&quot;, &quot;Humanities&quot;,&quot;36&quot;, &quot;Integrated Curriculum&quot;,&quot;35&quot;, &quot;ICT&quot;,&quot;34&quot;, &quot;Computing&quot;,&quot;33&quot;, &quot;Computer Science&quot;,&quot;32&quot;, &quot;Business Studies&quot;,&quot;30&quot;, &quot;Media Studies&quot;,&quot;29&quot;, &quot;Economics&quot;,&quot;28&quot;, &quot;Myanmar&quot;,&quot;26&quot;, &quot;Russian&quot;,&quot;25&quot;, &quot;Chinese&quot;,&quot;24&quot;, &quot;Bahasa&quot;,&quot;23&quot;, &quot;Portuguese&quot;,&quot;22&quot;, &quot;Uzbek&quot;,&quot;21&quot;, &quot;French&quot;,&quot;20&quot;, &quot;Spanish&quot;,&quot;19&quot;, &quot;Dutch&quot;,&quot;18&quot;, &quot;German&quot;,&quot;17&quot;, &quot;Music&quot;,&quot;15&quot;, &quot;Drama&quot;,&quot;14&quot;, &quot;Dance&quot;,&quot;13&quot;, &quot;Art &amp; Design&quot;,&quot;12&quot;, &quot;Graphic Design&quot;,&quot;11&quot;, &quot;PE&quot;,&quot;10&quot;, &quot;Religious Education&quot;,&quot;09&quot;, &quot;Sociology&quot;,&quot;08&quot;, &quot;Psychology&quot;, &quot;07&quot;,&quot;Extended Project&quot;,&quot;03&quot;, &quot;EAL&quot;,&quot;02&quot;, &quot;Learning Support&quot;,&quot;01&quot;, &quot;00&quot;)&amp;
+
+CASE(Assessment_Folder__r.Type__c,&quot;Progress Report&quot;,&quot;2&quot;,&quot;Examination&quot;,&quot;1&quot;,&quot;0&quot;)&amp;
+
+CASE(Assessment_Folder__r.Grade_Type__c, &quot;Exam&quot;, &quot;5&quot;, &quot;Predicted Grade&quot;, &quot;4&quot;, &quot;Mock Exam&quot;, &quot;3&quot;, &quot;Target Grade&quot;, &quot;2&quot;, &quot;Current Working Grade&quot;, &quot;1&quot;, &quot;0&quot;)&amp;
+
+LEFT(RIGHT(TEXT(Assessment_Folder__r.CreatedDate), 15), 2) &amp; 
+LEFT(RIGHT(TEXT(Assessment_Folder__r.CreatedDate), 12), 2) &amp; 
+LEFT(RIGHT(TEXT(Assessment_Folder__r.CreatedDate), 9), 2) &amp; 
+LEFT(RIGHT(TEXT(Assessment_Folder__r.CreatedDate), 6), 2) &amp; 
+LEFT(RIGHT(TEXT(Assessment_Folder__r.CreatedDate), 3), 2)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Order Text</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Order__c</fullName>
+        <externalId>false</externalId>
+        <formula>VALUE( Order_Text__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Order</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Owner_Order_Copy__c</fullName>
+        <description>Populated whenever Owner_Order__c is changed by means of a workflow</description>
+        <externalId>false</externalId>
+        <label>Owner Order Copy</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Owner_Order__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(Contains( CreatedBy.UserRole.Name ,&quot;Headteacher&quot;),Contains(CreatedBy.UserRole.Name ,&quot;Headmaster&quot; )),&quot;3&quot;,IF( OR(Contains(CreatedBy.UserRole.Name ,&quot;Head of Primary&quot;),Contains(CreatedBy.UserRole.Name ,&quot;Head of Secondary&quot; ),Contains(CreatedBy.UserRole.Name ,&quot;Head of Middle&quot; )),&quot;2&quot;,IF(AND(Contains(CreatedBy.Title ,&quot;Head of Year&quot;), TEXT(Group__r.Group_Type__c) = &quot;School Group&quot;),&quot;1&quot;,&quot;0&quot;)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Owner Order</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Owner_Title__c</fullName>
+        <description>auto populated by workflow https://ap4.salesforce.com/01Q6F0000008Meg</description>
+        <externalId>false</externalId>
+        <label>Owner Title</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Parent_Portal_Visibility__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(AND(OR(TEXT(Type__c) = &quot;Test&quot;, TEXT(Type__c) = &quot;Assignment&quot;), Number_of_Assessments_in_Folder__c &lt;&gt; 0), AND(OR(TEXT(Type__c) = &quot;Progress Report&quot;, TEXT(Type__c) = &quot;Examination&quot;),  Number_of_Assessments_in_Folder__c = Number_of_Approved_Assessments_in_Folder__c, Number_of_Assessments_in_Folder__c &lt;&gt; 0, Number_of_Approved_Assessments_in_Folder__c &lt;&gt; 0)), &quot;Visible in Portal&quot;, 
+
+IF(AND(OR(TEXT(Type__c) = &quot;Progress Report&quot;, TEXT(Type__c) = &quot;Examination&quot;),  Number_of_Assessments_in_Folder__c &lt;&gt; Number_of_Approved_Assessments_in_Folder__c, Number_of_Assessments_in_Folder__c &lt;&gt; 0, Number_of_Approved_Assessments_in_Folder__c &lt;&gt; 0), &quot;Visible to Some Parents&quot;, 
+
+IF(Number_of_Assessments_in_Folder__c = 0, &quot;Nothing to Display&quot;,
+
+&quot;Not Visible in Portal&quot;)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Parent Portal Visibility</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Record_Created_By_Folder_Created_By__c</fullName>
+        <description>A temporary field provided so that a check can be performed with connector to ensure that the  person who created the assessment folder is the same as the person who created the assessment record</description>
+        <externalId>false</externalId>
+        <formula>AND(RecordType.Name = &quot;Assessment Record&quot;, CreatedBy.Id &lt;&gt; Assessment_Folder__r.CreatedBy.Id)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Record Created By &lt;&gt; Folder Created By</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Record_Type_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>RecordType.DeveloperName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Record Type Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>School__c</fullName>
+        <externalId>false</externalId>
+        <formula>Text( Group__r.Owner:User.School__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>School</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Student__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Student</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Assessments</relationshipLabel>
+        <relationshipName>Assessments</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Target_Predicted_Grade__c</fullName>
+        <externalId>false</externalId>
+        <label>Target/Predicted Grade</label>
+        <length>4</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Target_or_Predicted_Grade__c</fullName>
+        <description>Required to filter assessment records in reports based on Target or Predicted as selected in the related assessment folder</description>
+        <externalId>false</externalId>
+        <formula>TEXT(Assessment_Folder__r.Include_Target_Predicted_Grade__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Target or Predicted Grade?</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Term_Copy__c</fullName>
+        <description>Populated by means of a workflow whenever Term__c is changed</description>
+        <externalId>false</externalId>
+        <label>Term Copy</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Term_Dashboard_Filter__c</fullName>
+        <externalId>false</externalId>
+        <formula>Academic_Year__c &amp;&quot; &quot;&amp; Assessment_Folder__r.Term_Copy__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Term Dashboard Filter</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Term_Manual_Override__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>To manually override the value of the Term__c field on the assessment record. In case of manual override the value from the Manual_Term__c field should be used.</description>
+        <externalId>false</externalId>
+        <label>Term Manual Override</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Term__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+   Term_Manual_Override__c = TRUE,
+   TEXT(Manual_Term__c),
+   IF(
+      RecordType.Name = &quot;Assessment Folder&quot;, 
+      IF(
+         AND(
+             MONTH(Assessment_Date__c)&gt;7,
+             MONTH(Assessment_Date__c)&lt;13
+             ),
+         &quot;Term 1&quot;,
+         IF(
+            AND(
+                MONTH(Assessment_Date__c)&gt;=1,
+                (OR(
+                    MONTH(Assessment_Date__c)&lt;4,
+                    (AND(
+                         MONTH(Assessment_Date__c)=4,
+                         DAY(Assessment_Date__c)&lt;11
+                         )
+                     )
+                     )
+                 )
+             ),
+          &quot;Term 2&quot;,
+          &quot;Term 3&quot;)
+       ),  
+    Assessment_Folder__r.Term_Copy__c )
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Term</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title__c</fullName>
+        <externalId>false</externalId>
+        <label>Title</label>
+        <length>65</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Parent Portal Visibility
+1) Progress Reports &amp; Examinations: Require Headteacher Approval
+2) Tests &amp; Assignments: Visible in Portal on Save
+3) Tracking: Never Visible in Portal</inlineHelpText>
+        <label>Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Progress Report</fullName>
+                    <default>false</default>
+                    <label>Progress Report</label>
+                </value>
+                <value>
+                    <fullName>Examination</fullName>
+                    <default>false</default>
+                    <label>Examination</label>
+                </value>
+                <value>
+                    <fullName>Test</fullName>
+                    <default>false</default>
+                    <label>Test</label>
+                </value>
+                <value>
+                    <fullName>Assignment</fullName>
+                    <default>false</default>
+                    <label>Assignment</label>
+                </value>
+                <value>
+                    <fullName>Tracking</fullName>
+                    <default>false</default>
+                    <label>Tracking</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Year_Group_Dashboard_Filter__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(Year_Group_Grade__c, 
+&quot;PN1&quot;, &quot;Pre-Nursery, Early Years, Pre-School, Primary&quot;, 
+&quot;PN&quot;, &quot;Pre-Nursery, Early Years, Pre-School, Primary&quot;, 
+&quot;N&quot;, &quot;Nursery, Early Years, Pre-School, Primary&quot;, 
+&quot;R&quot;, &quot;Reception, Early Years, Primary&quot;, 
+&quot;Y1&quot;, &quot;Year 1, Key Stage 1, Primary&quot;, 
+&quot;Y2&quot;, &quot;Year 2, Key Stage 1, Primary&quot;, 
+&quot;Y3&quot;, &quot;Year 3, Key Stage 2, Primary&quot;, 
+&quot;Y4&quot;, &quot;Year 4, Key Stage 2, Primary&quot;, 
+&quot;Y5&quot;, &quot;Year 5, Key Stage 2, Primary&quot;, 
+&quot;Y6&quot;, &quot;Year 6, Key Stage 2, Primary&quot;, 
+&quot;Y7&quot;, &quot;Year 7, Key Stage 3, Secondary&quot;, 
+&quot;Y8&quot;, &quot;Year 8, Key Stage 3, Secondary&quot;, 
+&quot;Y9&quot;, &quot;Year 9, Key Stage 3, Secondary&quot;, 
+&quot;Y10&quot;, &quot;Year 10, Key Stage 4, Secondary&quot;, 
+&quot;Y11&quot;, &quot;Year 11, Key Stage 4, Secondary&quot;, 
+&quot;Y12&quot;, &quot;Year 12, Key Stage 5, Secondary&quot;, 
+&quot;Y13&quot;, &quot;Year 13, Key Stage 5, Secondary&quot;, 
+&quot;PK&quot;, &quot;Pre-Kindergarten, Pre-School&quot;,
+&quot;K&quot;, &quot;Kindergarten, Elementary&quot;,
+&quot;G1&quot;, &quot;Grade 1, Elementary&quot;,
+&quot;G2&quot;, &quot;Grade 2, Elementary&quot;,
+&quot;G3&quot;, &quot;Grade 3, Elementary&quot;,
+&quot;G4&quot;, &quot;Grade 4, Elementary&quot;,
+&quot;G5&quot;, &quot;Grade 5, Elementary&quot;,
+&quot;G6&quot;, &quot;Grade 6, Middle School&quot;,
+&quot;G7&quot;, &quot;Grade 7, Middle School&quot;,
+&quot;G8&quot;, &quot;Grade 8, Middle School&quot;,
+&quot;G9&quot;, &quot;Grade 9, High School&quot;,
+&quot;G10&quot;, &quot;Grade 10, High School&quot;,
+&quot;G11&quot;, &quot;Grade 11, High School&quot;,
+&quot;G12&quot;, &quot;Grade 12, High School&quot;,
+&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Year Group Dashboard Filter</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Year_Group_Grade__c</fullName>
+        <description>Records the year group / grade of the student at the time the assessment is created</description>
+        <externalId>false</externalId>
+        <label>Year Group / Grade</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Assessment</label>
+    <listViews>
+        <fullName>Assessment_Folders</fullName>
+        <columns>NAME</columns>
+        <columns>Assessment_Name__c</columns>
+        <columns>Title__c</columns>
+        <columns>Grade__c</columns>
+        <columns>Effort__c</columns>
+        <columns>Achievement__c</columns>
+        <columns>Comment__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Assesment__c.Assessment_Folder</value>
+        </filters>
+        <label>Assessment Folders</label>
+    </listViews>
+    <listViews>
+        <fullName>Assessment_Records</fullName>
+        <columns>NAME</columns>
+        <columns>Assessment_Name__c</columns>
+        <columns>Title__c</columns>
+        <columns>Grade__c</columns>
+        <columns>Effort__c</columns>
+        <columns>Achievement__c</columns>
+        <columns>Comment__c</columns>
+        <columns>School__c</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Assesment__c.Assessment_Record</value>
+        </filters>
+        <label>Assessment Records</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>A-{0000}</displayFormat>
+        <label>Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Assessments</pluralLabel>
+    <recordTypes>
+        <fullName>Assessment_Folder</fullName>
+        <active>true</active>
+        <label>Assessment Folder</label>
+        <picklistValues>
+            <picklist>Achievement__c</picklist>
+            <values>
+                <fullName>%E2%98%85</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%E2%98%85%E2%98%85</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%E2%98%85%E2%98%85%E2%98%85</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%E2%98%85%E2%98%85%E2%98%85%E2%98%85</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>------------</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>----EYFS%2FPRIMARY----</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Above Expected Level</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Expected Level</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cause for Concern</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Excellent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Good</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Improvement Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting Expectations</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Effort__c</picklist>
+            <values>
+                <fullName>------------</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Above Expected Level</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Expected Level</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cause for Concern</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Excellent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Good</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Improvement Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting Expectations</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Exam_Type__c</picklist>
+            <values>
+                <fullName>A-Level</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GCSE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAT</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>External_Examination__c</picklist>
+            <values>
+                <fullName>A Level</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AS Level</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IGCSE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAT</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Grade_Type__c</picklist>
+            <values>
+                <fullName>Exam</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mock Exam</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Include_Target_Predicted_Grade__c</picklist>
+            <values>
+                <fullName>Predicted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Target</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Manual_Term__c</picklist>
+            <values>
+                <fullName>Term 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Term 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Term 3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Assignment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Examination</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Progress Report</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tracking</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Assessment_Record</fullName>
+        <active>true</active>
+        <label>Assessment Record</label>
+        <picklistValues>
+            <picklist>Achievement__c</picklist>
+            <values>
+                <fullName>%E2%98%85</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%E2%98%85%E2%98%85</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%E2%98%85%E2%98%85%E2%98%85</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%E2%98%85%E2%98%85%E2%98%85%E2%98%85</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>----EYFS%2FPRIMARY----</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Effort__c</picklist>
+            <values>
+                <fullName>%E2%98%85</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%E2%98%85%E2%98%85</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%E2%98%85%E2%98%85%E2%98%85</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%E2%98%85%E2%98%85%E2%98%85%E2%98%85</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>--------------</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>------SECONDARY------</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>----EYFS%2FPRIMARY----</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Exam_Type__c</picklist>
+            <values>
+                <fullName>A-Level</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GCSE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAT</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>External_Examination__c</picklist>
+            <values>
+                <fullName>A Level</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AS Level</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IGCSE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAT</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Grade_Type__c</picklist>
+            <values>
+                <fullName>Exam</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mock Exam</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Include_Target_Predicted_Grade__c</picklist>
+            <values>
+                <fullName>Predicted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Target</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Manual_Term__c</picklist>
+            <values>
+                <fullName>Term 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Term 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Term 3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Assignment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Examination</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Progress Report</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <searchResultsAdditionalFields>Assessment_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Assessment_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Copy_Title__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>School__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <fullName>Assesment_Record_and_Student</fullName>
+        <active>true</active>
+        <description>Ensuring an Assesment record always has a student attached</description>
+        <errorConditionFormula>/*This contained an invalid RecordTypeId value in BSF SFDC and has only just been corrected. If any problems occur than it may be down to this increased validation */
+
+AND(RecordTypeId  =&quot;0126F000001hVzJ&quot;, Student__c =&quot;&quot;)</errorConditionFormula>
+        <errorDisplayField>Student__c</errorDisplayField>
+        <errorMessage>An Assessment record must be linked to a student.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Disallow_Spacers</fullName>
+        <active>true</active>
+        <description>Prevents the spacers being used as an effort grade</description>
+        <errorConditionFormula>OR(
+   TEXT(Achievement__c) = &quot;------PRIMARY------&quot;,
+   TEXT(Achievement__c) = &quot;----EYFS/PRIMARY----&quot;,
+   TEXT(Effort__c) = &quot;------PRIMARY------&quot;,
+   TEXT(Effort__c) = &quot;----EYFS/PRIMARY----&quot;,
+   TEXT(Effort__c) = &quot;------SECONDARY------&quot;,
+   TEXT(Effort__c) = &quot;--------------&quot;
+   )</errorConditionFormula>
+        <errorMessage>You cannot use a spacer in the &apos;Effort&apos; or &apos;Achievement&apos; field. Please select a valid option.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Grade_Length</fullName>
+        <active>true</active>
+        <description>The rule allows 4 characters length only in case the grade is &apos;100%&apos; or &apos;A*A*&apos;</description>
+        <errorConditionFormula>AND(LEN(Grade__c) = 4, Grade__c != &quot;100%&quot;, Grade__c != &quot;A*A*&quot;)</errorConditionFormula>
+        <errorDisplayField>Grade__c</errorDisplayField>
+        <errorMessage>Grade may be 4 characters long only if it is &apos;100%&apos; or &apos;A*A*&apos;.
+If you need another 4 character grade to be added then please contact your system administrator.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>ISM_KS3_Validate_Effort_Options</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(
+   AND(
+       ISNEW(),
+       AND(
+           School__c = &quot;The International School of Moscow&quot;,
+           OR(
+              Contact_Year_Group__c = &quot;Y7&quot;,
+              Contact_Year_Group__c = &quot;Y8&quot;,
+              Contact_Year_Group__c = &quot;Y9&quot;
+              )
+          ),
+       OR(
+          TEXT(Effort__c) = &quot;1&quot;,
+          TEXT(Effort__c) = &quot;2&quot;,
+          TEXT(Effort__c) = &quot;3&quot;,
+          TEXT(Effort__c) = &quot;4&quot;
+          )
+       ),
+   AND(
+       AND(
+           School__c != &quot;The International School of Moscow&quot;,
+           OR(
+              Contact_Year_Group__c = &quot;Y7&quot;,
+              Contact_Year_Group__c = &quot;Y8&quot;,
+              Contact_Year_Group__c = &quot;Y9&quot;
+              )
+          ),
+       OR(
+          TEXT(Effort__c) = &quot;A&quot;,
+          TEXT(Effort__c) = &quot;B&quot;,
+          TEXT(Effort__c) = &quot;C&quot;,
+          TEXT(Effort__c) = &quot;D&quot;
+          )
+       ),
+   AND(
+       AND(
+           School__c = &quot;The International School of Moscow&quot;,
+           OR(
+              Contact_Year_Group__c = &quot;Y7&quot;,
+              Contact_Year_Group__c = &quot;Y8&quot;,
+              Contact_Year_Group__c = &quot;Y9&quot;
+              )
+          ),
+       OR(
+          TEXT(Effort__c) = &quot;1&quot;,
+          TEXT(Effort__c) = &quot;2&quot;,
+          TEXT(Effort__c) = &quot;3&quot;,
+          TEXT(Effort__c) = &quot;4&quot;
+          )
+       ),
+   AND(
+       ISNEW(),
+       AND(
+           School__c != &quot;The International School of Moscow&quot;,
+           OR(
+              Contact_Year_Group__c = &quot;Y7&quot;,
+              Contact_Year_Group__c = &quot;Y8&quot;,
+              Contact_Year_Group__c = &quot;Y9&quot;
+              )
+          ),
+       OR(
+          TEXT(Effort__c) = &quot;A&quot;,
+          TEXT(Effort__c) = &quot;B&quot;,
+          TEXT(Effort__c) = &quot;C&quot;,
+          TEXT(Effort__c) = &quot;D&quot;
+          )
+       )
+   )</errorConditionFormula>
+        <errorMessage>The effort option that you have selected is not valid for a student in this year group. Please select another.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Target_Predicted_Grade_Length</fullName>
+        <active>true</active>
+        <description>The rule allows 4 characters length only in case the grade is &apos;100%&apos; or &apos;A*A*&apos;</description>
+        <errorConditionFormula>AND(LEN(Target_Predicted_Grade__c) = 4, Target_Predicted_Grade__c != &quot;100%&quot;, Target_Predicted_Grade__c != &quot;A*A*&quot;)</errorConditionFormula>
+        <errorDisplayField>Target_Predicted_Grade__c</errorDisplayField>
+        <errorMessage>Grade may be 4 characters long only if it is &apos;100%&apos; or &apos;A*A*&apos;. 
+If you need another 4 character grade to be added then please contact your system administrator.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Validate_Achievement_Options</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(
+   AND(
+       ISNEW(),
+       OR( 
+          AND(
+              OR(
+                 School__c = &quot;The British School of Nanjing&quot;,
+                 School__c = &quot;The King&apos;s School Manila&quot;
+                 ),    
+              Contact_Year_Group__c = &quot;Y6&quot;
+              ),
+          Contact_Year_Group__c = &quot;Y7&quot;,
+          Contact_Year_Group__c = &quot;Y8&quot;,
+          Contact_Year_Group__c = &quot;Y9&quot;,
+          Contact_Year_Group__c = &quot;Y10&quot;,
+          Contact_Year_Group__c = &quot;Y11&quot;,
+          Contact_Year_Group__c = &quot;Y12&quot;,
+          Contact_Year_Group__c = &quot;Y13&quot;
+          ),
+       CONTAINS(TEXT(Achievement__c), &quot;★&quot;)
+       ),
+   AND(
+       OR( 
+          AND(
+              OR(
+                 School__c = &quot;The British School of Nanjing&quot;,
+                 School__c = &quot;The King&apos;s School Manila&quot;
+                 ),    
+              Year_Group_Grade__c = &quot;Y6&quot;
+              ),
+          Year_Group_Grade__c = &quot;Y7&quot;,
+          Year_Group_Grade__c = &quot;Y8&quot;,
+          Year_Group_Grade__c = &quot;Y9&quot;,
+          Year_Group_Grade__c = &quot;Y10&quot;,
+          Year_Group_Grade__c = &quot;Y11&quot;,
+          Year_Group_Grade__c = &quot;Y12&quot;,
+          Year_Group_Grade__c = &quot;Y13&quot;
+          ),
+       CONTAINS(TEXT(Achievement__c), &quot;★&quot;)
+       )
+   )</errorConditionFormula>
+        <errorMessage>You cannot select ★★★★, ★★★, ★★ or ★ for the achievement of a student in this year group. Please leave the achievement field blank.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Validate_Effort_Options</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(
+   AND(
+       ISNEW(),
+       OR( 
+          AND(
+              OR(
+                 School__c = &quot;The British School of Nanjing&quot;,
+                 School__c = &quot;The King&apos;s School Manila&quot;
+                 ),    
+              Contact_Year_Group__c = &quot;Y6&quot;
+              ),
+          Contact_Year_Group__c = &quot;Y7&quot;,
+          Contact_Year_Group__c = &quot;Y8&quot;,
+          Contact_Year_Group__c = &quot;Y9&quot;,
+          Contact_Year_Group__c = &quot;Y10&quot;,
+          Contact_Year_Group__c = &quot;Y11&quot;,
+          Contact_Year_Group__c = &quot;Y12&quot;,
+          Contact_Year_Group__c = &quot;Y13&quot;
+          ),
+       CONTAINS(TEXT(Effort__c), &quot;★&quot;)
+       ),
+   AND(
+       ISNEW(),
+       OR( 
+          AND(
+              School__c != &quot;The British School of Nanjing&quot;,
+              School__c != &quot;The King&apos;s School Manila&quot;,
+              Contact_Year_Group__c = &quot;Y6&quot;
+              ),
+          Contact_Year_Group__c = &quot;PN1&quot;,
+          Contact_Year_Group__c = &quot;PN&quot;,
+          Contact_Year_Group__c = &quot;N&quot;,
+          Contact_Year_Group__c = &quot;R&quot;,
+          Contact_Year_Group__c = &quot;Y1&quot;,
+          Contact_Year_Group__c = &quot;Y2&quot;,
+          Contact_Year_Group__c = &quot;Y3&quot;,
+          Contact_Year_Group__c = &quot;Y4&quot;,
+          Contact_Year_Group__c = &quot;Y5&quot;
+          ),
+       OR(
+          TEXT(Effort__c) = &quot;1&quot;,
+          TEXT(Effort__c) = &quot;2&quot;,
+          TEXT(Effort__c) = &quot;3&quot;,
+          TEXT(Effort__c) = &quot;4&quot;,
+          TEXT(Effort__c) = &quot;A&quot;,
+          TEXT(Effort__c) = &quot;B&quot;,
+          TEXT(Effort__c) = &quot;C&quot;,
+          TEXT(Effort__c) = &quot;D&quot;
+          )
+       ),
+   AND(
+       OR( 
+          AND(
+              OR(
+                 School__c = &quot;The British School of Nanjing&quot;,
+                 School__c = &quot;The King&apos;s School Manila&quot;
+                 ),    
+              Year_Group_Grade__c = &quot;Y6&quot;
+              ),
+          Year_Group_Grade__c = &quot;Y7&quot;,
+          Year_Group_Grade__c = &quot;Y8&quot;,
+          Year_Group_Grade__c = &quot;Y9&quot;,
+          Year_Group_Grade__c = &quot;Y10&quot;,
+          Year_Group_Grade__c = &quot;Y11&quot;,
+          Year_Group_Grade__c = &quot;Y12&quot;,
+          Year_Group_Grade__c = &quot;Y13&quot;
+          ),
+       CONTAINS(TEXT(Effort__c), &quot;★&quot;)
+       ),
+   AND(
+       OR( 
+          AND(
+              School__c != &quot;The British School of Nanjing&quot;,
+              School__c != &quot;The King&apos;s School Manila&quot;,
+              Year_Group_Grade__c = &quot;Y6&quot;
+              ),
+          Year_Group_Grade__c = &quot;PN1&quot;,
+          Year_Group_Grade__c = &quot;PN&quot;,
+          Year_Group_Grade__c = &quot;N&quot;,
+          Year_Group_Grade__c = &quot;R&quot;,
+          Year_Group_Grade__c = &quot;Y1&quot;,
+          Year_Group_Grade__c = &quot;Y2&quot;,
+          Year_Group_Grade__c = &quot;Y3&quot;,
+          Year_Group_Grade__c = &quot;Y4&quot;,
+          Year_Group_Grade__c = &quot;Y5&quot;
+          ),
+       OR(
+          TEXT(Effort__c) = &quot;1&quot;,
+          TEXT(Effort__c) = &quot;2&quot;,
+          TEXT(Effort__c) = &quot;3&quot;,
+          TEXT(Effort__c) = &quot;4&quot;,
+          TEXT(Effort__c) = &quot;A&quot;,
+          TEXT(Effort__c) = &quot;B&quot;,
+          TEXT(Effort__c) = &quot;C&quot;,
+          TEXT(Effort__c) = &quot;D&quot;
+          )
+       )
+   )</errorConditionFormula>
+        <errorMessage>The effort option that you have selected is not valid for a student in this year group. Please select another.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>New_Assessment_Folder</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New Assessment Folder</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/</url>
+    </webLinks>
+</CustomObject>

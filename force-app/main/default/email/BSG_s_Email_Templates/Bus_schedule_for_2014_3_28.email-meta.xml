@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Bus schedule for 2014.3.28</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Bus schedule for 2014.3.28</name>
+    <style>freeForm</style>
+    <subject>Bus schedule for 2014.3.28</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+
+
+
+
+
+Dear Parents,
+
+
+This coming Friday, 28th March is the last day of Term 2. School will finish at 12:00pm. Bus timetables for this day are now available. Please CLICK HERE or visit our website http://www.bsg.org.cn/en/school-services/school-buses.aspx to view or download the timetable.
+
+
+
+Should you have any questions or if you require further information, please feel free to contact me.
+
+
+
+Best Regard,
+
+
+
+Claire Guo
+
+Facility Assistant
+
+
+
+
+
+
+The British School of Guangzhou
+
+World Class Education
+
+
+
+
+
+——————————————————————————————————————
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,108 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+<p align="center" style=text-align: center;font-family:arial,helvetica,sans-serif;color:#182a4c;> <img width="120px" height="127px"  alt="Payslip" src="https://c.ap4.content.force.com/servlet/servlet.ImageServer?id=0156F00000F0E28&oid=00D6F000001cXAR" /></p>
+</br>
+</br>
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 700px; ">
+			<tbody>
+				<tr>
+						<p style="text-align: justify; ">
+							<span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">Dear&nbsp;{!Account.FirstName},</p></span>
+<p style="font-size:16px;font-family:arial,helvetica,sans-serif;text-align: justify;">Find below a copy of your payslip for the period between {!Pay_Slip__c.From__c} and {!Pay_Slip__c.To__c}. If there is anything you would like to clarify regarding the information presented, please do not hesitate to contact the School Administration:
+</p></span>
+</span>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+</br>
+</br>
+
+		<table align="center" border="1" cellpadding="10" cellspacing="0" style="text-align: justify; width: 700px; ">
+			<tbody>
+				<tr>
+					<td style="width: 30%; background-color: #A0DAE5; text-align: left; ">
+						<strong><span style="font-family:courier new,courier,monospace; font-size:24px; font-color: rgb(255, 255, 255); ">Payslip</span></strong></td>
+				</tr>
+			</tbody>
+		</table>
+		<table align="center" border="1" cellpadding="10" cellspacing="0" style="text-align: justify; width: 700px; ">
+			<tbody>
+				<tr>
+					<td style="width: 30%; background-color: #A0DAE5; text-align: left; ">
+						<span style="font-family:courier new,courier,monospace;"><span style="font-size:12px;"><span style=" font-color: rgb(255, 255, 255); "><strong>Staff Member:<br />
+						<strong>Position:<br />
+						<strong>Employment Agreement#:<br />
+						Period Covered:<br />
+						<strong>Amounts in:</strong></strong></strong></strong></span></span></span></td>
+					<td style="width: 70%;background-color: rgb(237, 237, 237); text-align: left; ">
+						<span style="font-family:courier new,courier,monospace;"><span style="font-size:12px;"><span style="font-color: rgb(255, 255, 255); "><strong>{!Employment_Agreement__c.Copy_Staff_Member_Capitalised__c}<br />
+						<strong>{!Pay_Slip__c.Position__c}<br />
+						<strong>{!Employment_Agreement__c.Name}<br />
+						From&nbsp;<strong><span style="font-color: rgb(255, 255, 255); ">{!Pay_Slip__c.Copy_Text_From_Date__c} to&nbsp;</span></strong><strong><span style="font-color: rgb(255, 255, 255); ">{!Pay_Slip__c.Copy_Text_To_Date__c}</span></strong><br />
+						<strong>{!Pay_Slip__c.CurrencyIsoCode}</strong></strong></strong></strong></span></span></span></td>
+				</tr>
+			</tbody>
+		</table>
+		<table align="center" border="1" cellpadding="10" cellspacing="0" style="text-align: justify; width: 700px; ">
+			<tbody>
+				<tr>
+					<td style="width: 65%; text-align: right; " valign="top">
+						<p style="text-align: left; margin-left: 80px; ">
+							<span style="font-size:12px;"><span style="font-family:courier new,courier,monospace;">{!Pay_Slip__c.Copy_Text_PaySlip_Salary_Items__c} &nbsp; &nbsp;&nbsp;</span></span><br />
+							<span style="font-size:12px;"><span style="font-family:courier new,courier,monospace;">{!Pay_Slip__c.Copy_Text_PaySlip_Other_Items_1__c}</span></span>
+							<span style="font-size:12px;"><span style="font-family:courier new,courier,monospace;">{!Pay_Slip__c.Copy_Text_PaySlip_Other_Items_2__c}
+							{!Pay_Slip__c.Copy_Text_Bonus_Items__c}
+{!Pay_Slip__c.Copy_Text_Other_Items_4__c}
+							{!Pay_Slip__c.Copy_Text_PaySlip_Other_Items_3__c}
+							{!Pay_Slip__c.Copy_Text_Tax_Items__c}</span></span></p>
+					</td>
+					<td style="width: 35%; text-align: left; " valign="top">
+						<p style="margin-right: 70px; text-align: right; ">
+							<span style="font-size:12px;"><span style="font-family:courier new,courier,monospace;">{!Pay_Slip__c.Copy_Text_PaySlip_Salary_Amounts__c}</span></span><br />
+							<span style="font-family:courier new,courier,monospace;"><span style="font-size:12px;">{!Pay_Slip__c.Copy_Text_PaySlip_Other_Amounts_1__c}
+							{!Pay_Slip__c.Copy_Text_PaySlip_Other_Amounts_2__c}
+							{!Pay_Slip__c.Copy_Text_Bonus_Amounts__c}
+{!Pay_Slip__c.Copy_Text_Other_Amounts_4__c}
+
+							{!Pay_Slip__c.Copy_Text_PaySlip_Other_Amounts_3__c}
+							{!Pay_Slip__c.Copy_Text_Tax_Amounts__c}</span></span></p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<table align="center" border="1" cellpadding="1" cellspacing="0" style="text-align: justify; width: 700px; ">
+			<tbody>
+				<tr>
+					<td style="width: 70%; background-color: #A0DAE5; text-align: right; ">
+						<span style="font-family:courier new,courier,monospace;"><span style="font-size:12px;"><span style="font-color: rgb(255, 255, 255); "><strong>TOTAL DUE:</strong></span></span></span></td>
+					<td style="width: 30%; background-color: r#A0DAE5; text-align: left; ">
+						<p style="margin-right: 70px; text-align: right; ">
+							<span style="font-family:courier new,courier,monospace;"><span style="font-size:12px;"><span style="font-color: rgb(255, 255, 255); "><strong>{!Pay_Slip__c.Copy_Total_to_be_Paid__c}</strong></span></span></span></p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			&nbsp;</p>
+		<table align="center" border="1" cellpadding="10" cellspacing="0" style="text-align: justify; width: 700px; ">
+			<tbody>
+				<tr>
+					<td style="width: 30%; text-align: left; " valign="top">
+						<span style="font-size:12px;"><strong><span style="font-family:courier new,courier,monospace;">Message(s) to Employee:</span></strong></span></td>
+					<td style="width: 70%; " valign="top">
+						<p>
+							<span style="font-size:12px;"><span style="font-family:courier new,courier,monospace;">{!Pay_Slip__c.Copy_Text_Currency_Conversion__c}{!Pay_Slip__c.Copy_Text_Tally_Exchange_Rate_Gains_Loss__c}{!Pay_Slip__c.Message_to_Employee__c}</span></span></p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			&nbsp;</p>
+	</body>
+</html>

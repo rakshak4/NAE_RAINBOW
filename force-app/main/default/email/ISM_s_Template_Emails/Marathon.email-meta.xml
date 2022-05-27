@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Marathon</name>
+    <style>freeForm</style>
+    <subject>Marathon Run.......Mr Adam Hoult</subject>
+    <textOnly>Dear Parents,
+This weekend, our very own Physical Education teacher, Mr Adam Hoult,  will be attempting to &quot;TRY and Complete&quot; the Moscow Marathon. 
+Mr Hoult is &quot;putting his body on the line&quot; for a great cause.......                                                                         A charity known as &quot;Get Kids Going&quot;.
+It would be great if our wonderful school community could get behind Adam (May need a push or three) and sponsor him in his efforts.
+I have placed a link below.  There you will find a description of the charity and how to sponsor Adam.
+www.justgiving.com/adam-hoult 
+Hoping for a great response!!!
+Best Regards
+Dino VikasHead of Admissions The International School of Moscow
+Tel:  +7 (499) 922 44 00
+Fax: +7 (499) 922 44 00 Ext.4 
+www.internationalschool.ru
+Part of The British Schools Group
+
+*Disclaimer:*
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

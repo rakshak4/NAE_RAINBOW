@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>28/11/12 Primary Christmas Production - Year 1 and 2 &quot;A Christmas Recipe&quot;</name>
+    <style>freeForm</style>
+    <subject>Primary Christmas Production - Year 1 and 2 &quot;A Christmas Recipe&quot;</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I trust this finds you all well.
+
+We are happy to announce that tickets for our upcoming Primary Christmas Production, “A Christmas Recipe” will be on sale from tomorrow morning at the school reception.  For Year 1 and 2 the production falls on Wednesday 12th December.
+
+Please note the tickets are in the form of a programme, on the front of each programme is a number and this will be your designated seat for the production.  There is a seating plan at the school reception and from here you can choose your seat(s).  Please note that parents are only able to buy three tickets per student, this is due to seating space in the hall.  Please remember to bring your programme on the night of the production as this is your entry ticket.
+
+Kindly take note that it is not possible to buy or reserve tickets through email, in order to buy a ticket please come to the school reception to purchase them.  Your cooperation is very much appreciated.
+
+Tickets are sold on a first come first served basis so be sure to get yours!  It promises to be a wonderful production.
+
+
+Administration Team
+
+The British International School of Kuala Lumpur
+
+World Class Education
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

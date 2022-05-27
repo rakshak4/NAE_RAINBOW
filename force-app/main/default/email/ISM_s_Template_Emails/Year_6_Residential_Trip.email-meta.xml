@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>ISM</letterhead>
+    <name>Year 6 Residential Trip</name>
+    <style>freeForm</style>
+    <subject>Year 6 Residential Trip</subject>
+    <textOnly>Dear Parents
+
+Thank you to all who have paid your deposits for the Year 6 residential trip so far and thank you to those who have explained when the payment will be received.
+
+In an effort to reduce the cost of the trip, we have decided to shorten the length by 2 days. A revised total and itinerary will be forwarded to you as soon as we know the exact number of students attending, which will also determine the overall cost reduction.
+
+Those students who are not taking part in the expeditions will be expected to attend school as normal and a full program of lessons will be provided.
+
+Best regards.
+
+Michelle Heckford
+Math Teacher
+The International School of Moscow
+Tel:  +7 (499) 922 44 00
+Fax: +7 (499) 922 44 00 Ext.4
+www.internationalschool.ru
+Part of The British Schools Group
+
+*Disclaimer:*
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

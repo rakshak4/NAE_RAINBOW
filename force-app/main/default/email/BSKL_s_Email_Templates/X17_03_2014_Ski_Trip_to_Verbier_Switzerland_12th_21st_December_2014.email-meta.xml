@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>17/03/2014 Ski Trip to Verbier, Switzerland (12th - 21st December 2014)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>17/03/2014 Ski Trip to Verbier, Switzerland (12th - 21st December 2014)</name>
+    <style>freeForm</style>
+    <subject>Ski Trip to Verbier, Switzerland (12th - 21st December 2014)</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+BSKL will be running another Ski Trip to Verbier, Switzerland due to the success and popularity of the recent one in February. It will be in the first week of the Christmas holidays 2014 from Friday December 12th to the 21st. If your child is in Year 5 - Year 10 from September 2014 then they are eligible for the trip. This time includes traveling times. The cost will be RM12,000 and includes the following:
+
+• all transportation,
+• meals,
+• flights,
+• accommodation,
+• ski clothes hire if needed,
+• ski equipment
+• ski pass,
+• ski lessons,
+• swiss accident insurance policy,
+• travel insurance,
+• BSKL clothing item,
+• excursions to Nestle Chocolate Factory, Lausanne Town and possibly the Olympic Village.
+
+It does not include a tourist visa if your child requires one. Our school will inform you if you need to arrange this for your child before the dates of travel. There are limited places on the trip so please complete the attached form if you wish to register your child. Once we have a confirmed list we will inform you and you will be required to pay half the cost in order for us to book flights early. We will require this by 11th April. Please complete the form below if you wish your child to attend.
+
+BSKL Ski Trip 2014 Registration Form (https://docs.google.com/a/britishschool.edu.my/forms/d/1r1WhixqTw8gX4J19MYvCqkgyDcsvZU7EvlIXQZi0bd4/viewform)
+
+BSKL Ski Trip Highlight Video from February 2014 (https://www.youtube.com/watch?v=3YZ-HNofr0Y)
+
+
+Kind regards,
+
+Admin Team
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

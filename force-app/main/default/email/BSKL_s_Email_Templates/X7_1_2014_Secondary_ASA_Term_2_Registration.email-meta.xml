@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>7/1/2014 Secondary ASA</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>7/1/2014 Secondary ASA</name>
+    <style>freeForm</style>
+    <subject>Secondary ASA</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please find attached the list of After School Activities for Term 2. Students will be choosing their ASAs on Friday 10th January during Tutor Time using an online choices form. Please take the time to sit with your son and daughter and choose from the extensive range of activities on offer.
+
+Secondary ASA Guide (https://school.my.salesforce.com/sfc/p/D0000000DDpn/a/D00000004SWT/TqP48sBxgLMx1rh1gpVtrRxXebg8Ip34hrHe6itBoCM=)
+
+If you have any questions please feel free to contact me by email: simon.major@britishschool.edu.my
+
+Kind regards,
+
+Simon Major
+Science Teacher &amp; Secondary ASA Coordinator
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

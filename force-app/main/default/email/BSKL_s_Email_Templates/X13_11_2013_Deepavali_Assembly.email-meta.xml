@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>13/11/2013 Deepavali Assembly</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>13/11/2013 Deepavali Assembly</name>
+    <style>freeForm</style>
+    <subject>Deepavali Assembly</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Trust this email finds you all well.
+
+Deepavali – the Festival of Lights is celebrated by Indians all over the world. This year’s Deepavali Assembly at BSKL is themed “Indian Fashion Extravaganza”. The assembly will be showcasing various costumes from various parts of India as well as dance performances. Currently, the children are all working very hard at learning their steps and routines.
+
+However, no show is complete without an audience. Hence, we would like to invite you to come and witness this vibrant show. The assembly starts at 8.45am on Friday, 22nd November 2013 at the new Secondary school theatre.
+
+On the day of the assembly, all students and teachers are encouraged to wear traditional Indian costumes such as the Lengha, Jeepa Suit or Salwar Kameez.  If you wish to purchase one of these, you may go to Little India, Brickfields which is very near KL Sentral.
+
+There will be a “Food Charity Sale” selling various Indian delicacies, held at the swimming pool area at the secondary school. So please come along and support this good cause. If you are unable to attend, kindly send your child/children in with some cash to purchase these items.  All proceeds will go to Sinthamani Divine Life Ashram. The Ashram houses and supports  orphans, single mothers, old folks as well as children from broken or poor families.
+
+We hope that you will come along and be a part of BSKL’s Deepavali Assembly.  Should require any further information, kindly email Loshini at loshinibala@yahoo.com.
+
+Thank you
+Deepavali Assembly Committee 2013
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

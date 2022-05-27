@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Parents on School Buses</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Parents on School Buses</name>
+    <style>freeForm</style>
+    <subject>Parents on School Buses</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+
+Dear Parents,
+
+
+
+Recently some of you have used the school bus service after attending meetings or events at school. Please note, the school bus service is exclusively for children.
+
+
+
+Parents are not permitted to use the school bus service unless prior written permission has been sought from the school and the bus coordinator, Ms. Claire Guo (Claire@bsg.org.cn), has been informed.
+
+
+
+As always, we respectfully appreciate your cooperation.
+
+
+
+Kind regards,
+
+
+
+The Administration Team
+
+
+
+
+
+
+
+The British School of Guangzhou
+
+World Class Education
+
+
+____________________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

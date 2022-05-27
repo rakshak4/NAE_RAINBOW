@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 500px; ">
+			<tbody>
+				<img border="0" id="m_3308685547825015245r1sp1" src="https://ci6.googleusercontent.com/proxy/67dXnVocysCsXlJug8sCwjBn53jHY6vok7ArlGUgs6iyEW02S5lmjGnO2wFvRa8wDolQRwuNpB8ZtRQ8DJ6xCSAcsylyglo6hKkrKdXXbJylHPQ1hCaOBcGGhBiWL5qWYSWwjpyjE4ENzbEgIN7XEqzPgw=s0-d-e1-ft#https://ap4.salesforce.com/servlet/servlet.ImageServer?id=0156F00000F05db&amp;oid=00D6F000001cXAR" class="CToWUd">
+				<tr>
+					<td>
+						<p>
+							&nbsp;</p>
+						<p style="text-align: justify; ">
+							&nbsp;</p>
+						<p style="text-align: justify; ">
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; ">Prezado/a {!Lead.Salutation_for_Auto_Response_BR__c}{!Lead.Primary_Contact_Name_for_Auto_Response__c},</span></span></p>
+						<p style="text-align: justify; ">
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; ">Agradecemos seu interesse em nosso colégio e confirmamos o recebimento da inscrição para {!Lead.Name_s_of_Children_in_Enquiry__c} fazer parte de nosso colégio.</span></span></p>
+						<p style="text-align: justify; ">
+							<span style="font-family: 'Verdana'; font-size: 12px; ">Um membro do nosso Departamento de Admissões entrará em contato com você nos próximos dois dias úteis para dar continuidade ao processo de admissão. Por favor entre em contato com o colégio para qualquer outra dúvida ou se não receber uma reposta no prazo citado acima.&nbsp;</span></p>
+						<p style="text-align: justify; ">
+							<span style="font-family: 'Verdana'; font-size: 12px; ">Por favor entenda que ao encaminhar esta inscrição você concordou aos termos e condições especificados em nosso site. Os detalhes completos dos mesmos podem ser encontrados no Documento de Declarações e Condições anexo.</span></p></span></p>
+						<p style="text-align: justify; ">
+							<span style="font-family: 'Verdana'; font-size: 12px; ">Gostaríamos de convidar você a preparar os documentos seguintes, que precisam ser entregues ao nosso Departamento de Admissões.</span></p>
+						<p style="margin-left: 26pt; text-align: left; ">
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; ">1. Cópia assinada do Documento de Declarações e Condições <br />(<a href="{!Lead.00ND000000657f9}"><strong>Clique aqui para baixar</strong></a>)</span></span><br />
+							<span style="font-family: 'Verdana'; font-size: 12px; ">2. Cópia do passaporte ou RG dos pais</span><br />
+							<span style="font-family: 'Verdana'; font-size: 12px; ">3. Cópia do passaporte, RG ou Certidão de Nascimento da criança</span><br />
+							<span style="font-family: 'Verdana'; font-size: 12px; ">4. Cópias do histórico escolar da escola atual (se disponíveis)</span><br />
+<span style="font-family: 'Verdana'; font-size: 12px; ">5. Taxa de inscrição</span><br />
+							<span style="font-family: 'Verdana'; font-size: 12px; ">6. CPF do pai responsável pelos pagamentos e endereço completo ou CNPJ, Razão Social e endereço completo da empresa responsável pelos pagamentos.</span></p>
+						<p style="text-align: justify; ">
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; ">Se não puder entregar os documentos em pessoa, por favor envie-os escaneados por email.</span></span></p>
+						<p style="text-align: justify; ">
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; ">Gostaríamos de agradecê-lo/a pela sua confiança e aguardamos para conhecê-lo/a pessoalmente com sua família em nosso colégio.</span></span></p>
+						<p style="text-align: justify; ">
+							&nbsp;</p>
+						<div style="font-family: 'Verdana'; font-size: 12pt; ">
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; "><b>Equipe de Admissões</b></span></span><br />
+							<b style="font-family: 'Verdana'; font-size: 12px; ">{!Lead.School__c}</b><br />
+							&nbsp;</div>
+						<p>
+							&nbsp;</p>
+						<p>
+							&nbsp;</p>
+						<p>
+							&nbsp;</p>
+					</td>
+				</tr>
+				<tr bgcolor="a0dae5">
+					<td>
+						&nbsp;</td>
+				</tr>
+				<tr bgcolor="003255">
+					<td>
+						&nbsp;</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			&nbsp;</p>
+	</body>
+</html>

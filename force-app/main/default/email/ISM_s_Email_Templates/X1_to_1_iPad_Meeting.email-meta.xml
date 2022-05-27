@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>1 to 1 iPad Meeting</name>
+    <style>freeForm</style>
+    <subject>1 to 1 iPad Meeting</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents
+
+Firstly I would like to say how pleased I am with the positive response I have had from so many of you regarding the introduction of our 1:1 iPad Programme in Years 6-8.
+
+As you know, this Thursday I will be holding an information evening to discuss any questions you may have regarding the information that has been sent home. Up until this point I have received only a small number of responses from parents to say that they will be attending and I hope that this is in most part a reflection of the detailed information that has been sent home. Due to this small demand for the meeting, I have decided to move the location from the hall to my classroom, G2 on Upper Campus.
+
+If you are planning to attend but have not yet sent in the reply slip, could you please do so tomorrow morning so that I know approximately how many people to expect.
+
+I would also like to remind you that if you are not able to attend the meeting but have questions pertaining to the programme, please feel free to email them to me at michelle.heckford@internationalschool.ru and I will endeavor to answer them as quickly as possible.
+
+
+Kind Regards
+
+
+
+Michelle Hamilton
+
+Secondary Phase Leader
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

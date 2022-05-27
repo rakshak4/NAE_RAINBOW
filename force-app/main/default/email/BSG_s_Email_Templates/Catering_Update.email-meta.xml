@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Primary Sports Day</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Primary Sports Day</name>
+    <style>freeForm</style>
+    <subject>Primary Sports Day</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The Primary Sports day is scheduled for Friday, April 26th 2013 at the Foreign Students University, 9:00am-12:30am
+
+All Primary children should arrive to school;
+
+1. Dressed in their PE Kits with House colour T-Shirts
+
+2. With their own water bottle to be used to fill from the water stations provided.
+
+3. Pocket Money (maximum of 20RMB) to buy further refreshments and treats provided by EFC.
+
+The students will participate within year groups, competing to gain points for their respective House Teams.
+
+Events include;
+
+- Traditional Track: Sprint, Relay and Longer Distance Running
+
+- Field Games: Distance Throwing and Jumping
+
+- British Carnival Sports Day: Egg and Spoon Race, Sack Race and Obstacle.
+
+- Team Games
+
+If parents would like to attend; the address for the venue is as follows;
+
+Guangdong University of Foreign Studies
+
+No.2, Baiyun Dadao Bei
+
+白云大道北2号广东外语外贸大学
+
+Please kindly note that there are two athletics tracks at the university site and the sports day will be held on the athletics track furthest away from the main gates.
+
+Refreshments will also be available for parents to purchase in support of the EFC.
+
+It is hoped that the children will participate fully in a fun and enjoyable morning of competition and sport.
+
+Regardless of weather conditions, please ensure that all children are fully dressed in their PE kit.  In the event of rain, the PE Department will decide whether to cancel or postpone the event.
+
+Kind Regards,
+
+Kate Stephenson
+
+
+Head of Primary PE
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

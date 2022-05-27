@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>14/06/2013 Library</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>14/06/2013 Library</name>
+    <style>freeForm</style>
+    <subject>Library</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The library staff would like to thank all the volunteers who have helped cover the new library books.  Your help is really appreciated.  We have nearly completed the task now.
+
+If parents would like to sign up as borrowers could you please come to the library first to register.  You will need to provide your name and contact details.  Parents will be able to borrow 2 books for a 1 week period.  The books may be renewed if necessary.
+
+The library has many books that aren&apos;t readily available in bookstores in Kuala Lumpur.  Whilst there are some books that adults might enjoy reading, I would like to encourage parents to borrow books to read aloud to their children.  Not only is it a time that can be spent bonding with your child, but research suggests that regularly reading aloud to children helps build vocabulary, enhances comprehension, helps with writing, broadens their understanding of the world around them, those struggling with reading don&apos;t have to miss out on what their friends are reading, and children love it.
+
+Please do drop by the library; we would love to see you.
+
+Regards,
+
+Yvonne Bowyer
+Librarian
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

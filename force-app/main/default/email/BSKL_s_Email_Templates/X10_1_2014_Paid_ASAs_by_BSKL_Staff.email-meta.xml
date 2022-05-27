@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>10/1/2014 Paid ASAs by BSKL Staff</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>10/1/2014 Paid ASAs by BSKL Staff</name>
+    <style>freeForm</style>
+    <subject>Paid ASAs by BSKL Staff</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please find below information about additional paid ASAs by BSKL Staff and links to their respective online registration forms:
+
+Badminton Academy Information (https://school.my.salesforce.com/sfc/p/D0000000DDpn/a/D00000004SYF/.x3O11fgnmZKLArko4O4j324mKaa5vESiEKJgRsQr28=)
+Badminton Academy Online Registration Form (https://docs.google.com/forms/d/1qlkZ9eLG7V3EBmsHw9mrYjuiVen5FX7eTWSQsyLjuqM/viewform)
+
+Basketball Skills Programme Information (https://school.my.salesforce.com/sfc/p/D0000000DDpn/a/D00000004SYK/6x9MZmOPR4JBnyq.KPvzpTWUdx4qrvPeaoaz_hrmj1w=)
+Basketball Skills Programme Online Registration Form (https://docs.google.com/forms/d/1LhBssuTdLZXfNCKmMnCkCOhkEaU6UcmZwnsw2mVdzQw/viewform)
+
+Rugby Programme Information (https://school.my.salesforce.com/sfc/p/D0000000DDpn/a/D00000004SYP/iQJ_llKMVaQMH421OSVS4f7BA5AaBs.b8QZW5uxmO_o=)
+Rugby Programme Online Registration Form (https://docs.google.com/forms/d/1bD6i_869H2P3eSBbCVmorFemltfK-TrDDa2wONstVCQ/viewform)
+
+Saturday Football Development Programme Information (https://school.my.salesforce.com/sfc/p/D0000000DDpn/a/D00000004SYU/gy4RAEIfncOP1EDiMnGK4qrgbWWf5oWYxwWsmjgXRsg=)
+Saturday Football Development Programme Online Registration Form (https://docs.google.com/forms/d/1rxuBHZQEHOQG6AHDGWNE5Ev6QAVb1xEuqnyuI6RF-Lc/viewform)
+
+Trampolining Club Information (https://school.my.salesforce.com/sfc/p/D0000000DDpn/a/D00000004SYZ/EvxoTwgtKdzB9q.6.srjJujgo2Cc8kZOAwQiblJgiNY=)
+Trampolining Club Online Registration Form (https://docs.google.com/forms/d/1XfBnkljt25LG1Cio1Dz1h8NObuhhXFA8KJzBRfMUYBc/viewform)
+
+
+Kind regards
+
+The Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

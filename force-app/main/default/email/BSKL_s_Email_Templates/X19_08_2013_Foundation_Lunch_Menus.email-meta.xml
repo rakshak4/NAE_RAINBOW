@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>19/08/2013 Foundation Lunch Menus</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>19/08/2013 Foundation Lunch Menus</name>
+    <style>freeForm</style>
+    <subject>Foundation Lunch Menus</subject>
+    <textOnly>Please follow the below link to select lunch options for your children in their foundation classes. 
+ 
+Primary campus lunch menu link
+ 
+We would very much appreciate if you could take the time to select options for your children and pass the completed copy back to school.  We would like to take this opportunity to introduce you to Nazra who oversees the foundation children lunch menus.  Please can you either email a copy back to Nazra on nazrathul.rahim@britishschool.edu.my.  Alternatively there will be paper copies available at both the Primary and Secondary campus receptions for you to fill in. 
+ 
+If you could submit the menu by 26th August that would be very much appreciated.
+ 
+Thank you and have a great week.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

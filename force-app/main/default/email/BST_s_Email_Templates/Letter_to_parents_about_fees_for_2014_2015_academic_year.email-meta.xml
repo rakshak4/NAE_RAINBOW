@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Letter to parents about fees for 2014-2015 academic year</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Letter to parents about fees for 2014-2015 academic year</name>
+    <style>freeForm</style>
+    <subject>Fees for 2014-2015 academic year</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+Please find attached a detailed breakdown of the fees for our Education Services for next academic year.
+
+This year has seen more growth than ever experienced at the British School of Tashkent in terms of both numbers of students and staff since its opening in 2009. Brand new facilities with the opening of the second campus has provided us with a stable foundation with which to move the school on. The addition of some excellent teachers next year to further compliment the current team will continue to improve on the high teaching and learning standards we strive for in the Foundation of schools.  Expansion into our secondary phase is an exciting option that will see us combine the very best of the UK National Curriculum with the national requirements for the Uzbek Curriculum to allow our pupils to attain recognised qualifications for both education bodies, providing them the best possible options for universities both at home and abroad.
+
+
+If you wish to reserve you child&apos;s place for next academic year our accounts department will be available to complete the correct paperwork for you from Friday, 11th April.
+
+
+
+Best regards,
+
+
+David Kirkham
+
+
+Уважаемые родители,
+
+В приложении детализированная информация по стоимости наших Образовательных Услуг на следующий учебный год.
+
+В этом году наблюдался невероятный рост, которого прежде не было в Британской школе Ташкента в триместрах, как по числу учащихся, так и сотрудников с открытия в 2009 году. С открытием второго здания, появились новые удобства, что обеспечило нам стабильную основу для дальнейшего развития школы. Приход некоторых замечательных учителей в следующем году, что окажет преимущество действующей команде, позволит продолжить улучшать уровень преподавания и стандарты обучения, к которым мы стремимся в Фонд школ. Расширение нашей вторичной фазы является потрясающим вариантом, который сформирует лучшую Национальную Образовательную Программу Великобритании с местными требованиями для Узбекской Образовательной Программы, чтобы позволить нашим ученикам получить признанные квалификации от обоих образовательных органов, предоставляя им лучший выбор университетов как дома, так и за границей.
+
+
+Если Вы желаете зарезервировать место для Вашего ребенка на следующий учебный год, Вы можете обратиться в нашу бухгалтерию, для осуществления всей бумажной работы с пятницы, 11 апреля.
+
+
+С уважением,
+
+
+Давид Киркхам
+
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

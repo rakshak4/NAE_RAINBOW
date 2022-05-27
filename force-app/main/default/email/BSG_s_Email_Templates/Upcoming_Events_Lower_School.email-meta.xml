@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Upcoming Events - Lower School</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Upcoming Events - Lower School</name>
+    <style>freeForm</style>
+    <subject>Upcoming Events -- Lower School</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I would like to take this opportunity to inform you of some of the forthcoming events that are due to take place in the final part of Term 1.
+
+· Friday 26th October – Halloween Day. Please send your child to school in a Halloween/Fancy Dress costume. There will be fun and games throughout the day and each child will receive a Halloween Goody bag which we ask parents to send in 20RMB to cover the cost of these treats. For our Nursery, Reception and Year 1 classes there will be a Halloween Disco in the afternoon organized by the EFC.
+
+· Wednesday 31st October – Lower School House Lunch; please send your child to school in their house t-shirt on this day.
+
+· Saturday 10th November – BSG International Day; more details to follow nearer the time.
+
+· Wednesday 14th November – Lower School Bake Sale.
+
+· Friday 16th November – You will receive your child’s Term 1 report.
+
+· Wednesday 21st November – Parent-Teacher Consultation Day. Consultations will take place throughout the day and therefore there will be no school for children on this day.
+
+· Friday 23rd November – Non-uniform Day. Children may come to school in their choice of clothes and pay 10RMB for the privilege. All proceeds will go to Action Aid.
+
+· Wednesday 28th November – Lower School House Lunch; please send your child to school in their house t-shirt on this day.
+
+· Sunday 9th December – Family Christmas Lunch at the Sofitel Hotel; more details to follow nearer the time.
+
+· Tuesday 11th and Wednesday 12th December – Lower School Christmas performances.
+
+· Thursday 13th December – Lower School Bake Sale.
+
+· Friday 21st December – Last day of term: School finishes at 12:00pm.
+
+As you can see from the above information, we have a very busy term ahead of us which we are sure will be enjoyed by everyone!
+
+More information will be provided about each event nearer the time. In the meantime, if you have any questions about any of the planned events please do not hesitate to contact your child’s teacher.
+
+Kind regards,
+
+Miss Kathy
+
+Head of Lower School
+
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

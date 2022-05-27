@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Year11 Dinner on Saturday,16th June</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BSG</letterhead>
+    <name>Year11 Dinner on Saturday,16th June</name>
+    <style>freeForm</style>
+    <subject>Year11 Dinner on Saturday,16th June</subject>
+    <textOnly>Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+We are organising a dinner for our Year 11 students on Saturday, 16th June 2012 in celebration of their successful completion of Year 11 and their first set of external examinations. The students will be able to reminisce about their time at the School and also say goodbye to those Year 11 students who are leaving.
+
+
+The dinner will take place at Prego, the Italian restaurant at the Westin Hotel in Tianhe. We would ask the students to be present from 6:30pm for dinner at 7:00pm. The dinner is anticipated to be finished at 8:30pm. The dress code is smart casual.
+
+
+
+Please find the attached letter for more details.
+
+
+Kind regards,
+
+Mr.Iain Ruck
+Deputy Head of Secondary
+
++8620 87094788
+
+www.bsg.org.cn</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Bus Schedule 2013-14</name>
+    <style>freeForm</style>
+    <subject>Bus Schedule 2013-14</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+
+I hope you are well.
+
+
+Please click here for the Bus Schedule for the new academic year. I am sending the schedule to all families, including those who are not on the bus. Please, ignore this email if you are not planning on using the school bus.
+
+
+You will find the bus policy on the first page of the schedule. Please make sure that you read it carefully. On the page with your pick up and drop off time you will find the information about the type of bus, license plate number, bus monitor&apos;s name and contact phone number. Please keep in mind that our bus monitors speak very limited English and might not understand complex sentences. If you have any questions you wish to discuss please don&apos;t hesitate to e-mail  the school bus coordinator at bus@internationalschool.ru.
+
+
+For confidentiality reasons we have removed all personal information from the bus schedule lists. Should you wish to confirm your address or other personal information please contact the school bus coordinator.
+
+
+If you requested bus service but did not find your name on the list, please contact us and I will make sure to follow it up as soon as possible.
+
+
+If you are not planning to use the bus on Monday, Aug 26th or any other days next week, please make sure to let us know, so there are no delays.
+
+
+Please be reminded that on Club Days the drop off time will be 1 hour later than stated on the schedule.
+
+
+I would like to kindly ask you to be patient during the first week of school as it usually takes a few days for the buses to start running smoothly.
+
+
+I am wishing all of you a safe trip back to Moscow and am looking forward to seeing you on Monday!
+
+
+Kind regards,
+
+Magomet Gamurziev
+
+School Bus Coordinator / Lower Campus Front Desk Secretary
+
+The International School of Moscow
+
+Tel:  +7 (499) 922 44 00
+
+Fax: +7 (499) 922 44 00 Ext.4
+
+Mob: +7 (916)  995 51 10
+
+
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

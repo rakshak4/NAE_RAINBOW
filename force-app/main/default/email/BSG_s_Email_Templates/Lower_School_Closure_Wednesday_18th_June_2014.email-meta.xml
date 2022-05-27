@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>IMPORTANT SCHOOL NOTICE! Lower School Closed, Wednesday 18th June 2014</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>IMPORTANT SCHOOL NOTICE! Lower School Closed, Wednesday 18th June 2014</name>
+    <style>freeForm</style>
+    <subject>IMPORTANT SCHOOL NOTICE! Lower School Closed, Wednesday 18th June 2014</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+请点击此处阅读此邮件的中文版本
+
+
+IMPORTANT INFORMATION!
+
+Lower School Closed - Wednesday, 18th June 2014
+
+
+Dear Lower School Parents,
+
+
+Due to a burst water pipe, the air conditioning system on our the Lower School campus (Lakefront) is currently out of order and was shut down by building management at 14:35 today.
+
+
+We are working closely with Lakefront’s building management to rectify this situation but as we can not guarantee the school will have air conditioning systems working tomorrow, we have taken the decision to close the school for one day to assess damage and hopefully fix the problem.
+
+
+We apologise for any inconvenience caused but am sure you will understand, we must put the health, safety and well being of the children as a priority so feel we have no choice but to close the school for at least one day.
+
+
+Thank you for your understanding and we will keep you fully informed of the situation as we better understand the problem and available solutions.
+
+
+Kind Regards,
+
+
+Miss Kathy
+
+Head of Lower School
+
+
+
+
+The British School of Guangzhou
+
+World Class Education
+
+
+
+____________________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

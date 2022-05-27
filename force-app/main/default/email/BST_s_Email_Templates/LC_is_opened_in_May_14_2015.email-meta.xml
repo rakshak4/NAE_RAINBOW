@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>parents informing that water will be  in LC on May 14.2015</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>LC will be open on May 14.2015</name>
+    <style>freeForm</style>
+    <subject>LC will be open on May 14.2015</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+URGENT MESSAGE FOR ALL PARENTS
+
+
+
+
+
+We have just been informed that our water supply has  been reinstated so the school will NOW be open tomorrow, Thursday, May 14th  as usual.
+
+My most sincere apologies once again for any inconvenience this may have caused.
+
+
+Yours sincerely
+
+Wendy H Holland
+
+Head of Lower Campus
+
+
+
+ВАЖНОЕ СООБЩЕНИЕ ДЛЯ РОДИТЕЛЕЙ НИЖНЕГО КАМПУСА
+
+Уважаемые родители!
+
+Нас только что проинформировали, что вода будет подключена и детский сад будет работать в обычном режиме завтра, в четверг, 14-го мая.
+
+Просим принять наши извинения за доставленные неудобства.
+
+
+С уважением,
+
+Вэнди Холланд,
+
+
+Координатор Нижнего Кампуса.
+
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

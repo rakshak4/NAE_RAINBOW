@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to parents about football academy in BST 2014</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Email to parents about football academy in BST</name>
+    <style>freeForm</style>
+    <subject>Football academy in BST</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We would like to announce that we opened The British Lions Football Academy in Upper Campus at BST which usually held in weekends.
+
+Dates:
+* Week 6 - 7.06.2014, 8. 06.2014,
+* Week 7 - 14. 06.2014, 15. 06.2014,
+* Week 8- 21. 06.2014, 22. 06.2014,
+* Week 9 - 28. 06.2014,29. 06.2014
+* Week 10 – 05.07.2014, 06.07.2014
+
+Times:
+* 9:00 am – 10:30 am Years 1,2 &amp; 3,
+* 10:30 am – 12:00 pm – Years 4, 5, 6
+
+• Girls are welcome to our football academy
+• Location -   BST Upper campus
+
+Children will be registered at the beginning of the session
+• 15.000 UZS per session
+
+During the lessons:
+• Children will develop their physical fitness.
+• Children will learn the basics about the rules of football.
+• Children will practice playing football according to the rules.
+• They will have various warm up activities, which will be followed by drills which will help develop their technique and tactics.
+• Children will watch sport videos which show how to employ the skills learnt properly
+• All children will be active during the course of the session.
+• They will develop their skills at playing in a team.
+
+Regards,
+
+Fatkhulla Irisqulov
+
+
+Сообщаем вам, что мы открыли Британскую футбольную академию в Upper Campus в нашей школе, занятия которой проводятся в выходные дни.
+
+
+Даты проведения:
+
+* Неделя 6 - . 7.06.2014 , 8 06,2014 ,
+
+* Неделя 7 - . 14. 06,2014 , 15 06,2014 ,
+
+* Неделя 8 - . . 21 06,2014 , 22 06,2014 ,
+
+* Неделя 9 - 28. 06.2014,29 . 06,2014
+
+* Неделя 10 - 05.07.2014 , 06.07.2014
+
+
+Время :
+
+* 9:00 - 10:30 утра 1,2 и 3 классы
+
+* 10:30 - 12:00  4 , 5, 6 классы
+
+
+• Девочки приветствуются в нашей футбольной академии.
+
+• Расположение – Upper Campus нашей школы.
+
+
+Дети будут зарегистрированы в начале занятия
+
+• 15.000 сум за занятие
+
+
+Во время занятий :
+
+• Дети будут развивать свое физическое здоровье .
+
+• Дети узнают об основных правилах в футболе.
+
+• Дети будут практиковать игру в футбол по правилам .
+
+• Они будут иметь различные виды разминки, которые будут сопровождаться тренировками на развитие техники и тактики.
+
+• Дети будут смотреть спортивные видео, в которых они увидят, как использовать полученные навыки
+
+• Все дети будут активны в ходе тренировки.
+
+• Они будут развивать свои навыки в командной игре.
+
+
+
+С уважением,
+
+
+
+Фатхулла Ирискулов
+
+
+
+Regards,
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

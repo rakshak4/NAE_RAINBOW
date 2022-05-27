@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20150521 Letter to Parents</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20150521 Letter to Parents</name>
+    <style>freeForm</style>
+    <subject>Letter from headteacher</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+15 May 2015
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}
+
+As many of you are aware we have experienced a substantial increase in mosquitos especially in the primary campus. It has been established that this increase is mainly due to the neighbouring construction site.
+
+
+
+We have been working to combat this in the following ways:
+
+
+
+• Fogging 3 times every week began last week - in sync with the
+
+fogging at the construction site.
+
+
+
+• Frequent abate treatment is being carried out at the construction site
+
+and BSKL.
+
+
+
+• Citronella, rosemary and lemongrass plants have been purchased
+
+
+
+• Spraying corridors and classrooms of both campuses with mosquito
+
+spray every day before and after school
+
+
+
+• Outdoor UV lights have been placed in the Primary campus (namely Foundation recreation area and 4th floor recreation area) and in the
+
+Secondary campus on the 2nd and 3rd floor walkways.
+
+
+
+• Purchasing of indoor UV lights.
+
+
+
+• Using a different type of misting system that uses a product called
+
+Pyrethrum (more rapid process of destroying insects and also acting
+
+as a repellent).
+
+
+
+We have been in constant communication with Bandar Utama who have advised that they will introduce a fine system in the event that stagnant water is found at the construction site.
+
+
+
+We have also asked Bandar Utama to look at the area between the school and BU1.
+
+
+
+Today we met with MBPJ (Petaling Jaya City Council) who walked around the school and observed the construction site to give us advice and support. They were happy with what we have put in place and suggested ways of treating areas in our own car parks that may collect water. They will be talking to the health and safety department of MBPJ about the construction site.
+
+
+
+We hope and believe that we will shortly see the positive effects of our efforts.
+
+
+
+Kind Regards,
+
+
+
+Janet Brock
+
+Headteacher
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

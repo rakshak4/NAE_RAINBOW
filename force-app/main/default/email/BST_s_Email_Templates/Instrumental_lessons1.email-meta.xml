@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to parents about music lessons 2014-2015</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Instrumental lessons</name>
+    <style>freeForm</style>
+    <subject>Instrumental lessons</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+
+Dear parents,
+
+
+We are making some changes to the way that pupils are registered for instrumental lessons for the new academic year. If your child is interested in continuing/ starting instrumental lessons, you will need to register your interest by Tuesday 2nd September at the very latest. This will enable us to draw up a timetable. Priority will be given on a first come first served basis. Confirmation will be given soon after, and payment will then be required in the second week of the autumn term to secure your place. Children cannot sign up for instrumental lessons mid-term, and they will be expected to continue their lessons for the academic year as seen fit.
+
+Costs and the duration of tuition
+
+All lessons cost 20.000 soums per half hour. Your child will receive one lesson a week during school hours.
+
+Timetabling of lessons
+
+These will take place during the school day but outside of the core lessons (English, Maths and Phonics).
+
+Buying instruments for practice at home.
+
+The children taking guitar, violin, dutar, and doira lessons are expected to have their own instruments and bring them to school every time they have a lesson. Obviously children will make far better progress if they can practice and enjoy their chosen instrument at home on a daily basis.
+
+As adults, many of us regret not having learned to play a musical instrument so it is wonderful that all the children at BST will have this opportunity. If you wish for your child to be involved in our instrument tuition program, please clearly complete the reply slip on the next page and return to the reception desk for the attention of Ms. Aves (at the upper campus).
+
+
+Kind regards,
+
+
+
+Ms. Naomi Aves
+
+Head of Music
+
+
+
+
+
+
+Reply slip (To be returned to Upper Campus by Tuesday 2nd September):
+
+
+I would like my child ____________________________ (child’s name and class) to have the following weekly instrument lessons (select one):
+
+
+
+ÿ Piano
+
+ÿ Guitar
+
+ÿ Violin
+
+ÿ Dutar (Uzbek two stringed instrument)
+
+ÿ Doyra (Uzbek hand drum)
+
+
+
+
+Signed:  ________________________ (parent’s signature)
+
+
+
+Please print name: _________________
+
+
+
+
+
+Уважаемые родители,
+
+
+
+В новом учебном году мы вносим некоторые изменения в регистрацию учеников по музыкальным инструментальным занятиям. Если Ваш ребенок заинтересован начать или продолжить данные уроки, Вам необходимо зарегистрировать заявку до вторника, 2 сентября. Это позволит нам составить расписание музыкальных уроков. Приоритет получат те дети, которые придут и запишутся первыми. Подтверждения мест будут известны вскоре, а оплату необходимо произвести в течение второй недели осеннего триместра для бронирования места. Дети не могут записаться на инструментальные уроки в середине триместра и им нужно будет продолжать эти уроки в течение всего учебного года.
+
+Оплата и продолжительность обучения
+
+Стоимость всех уроков составляет 20,000 сум за полчаса. У Вашего ребенка будет один урок в неделю во время школьных занятий.
+
+Расписание уроков
+
+Они будут проходить в течение учебного дня, но не во время основных занятий (английский, математика и фонетика).
+
+Покупка инструментов для практики в домашних условиях.
+
+Дети, играющие на гитаре, скрипке, дутаре, дойре должны иметь свои собственные инструменты и должны приносить их в школу каждый раз, когда у них есть урок. Очевидно, что дети значительно быстрее достигнут успеха в том случае, если они будут ежедневно заниматься на этих инструментах дома.
+
+Став взрослыми, многие из нас жалеют, что не научились играть на музыкальном инструменте. Замечательно, что у всех учеников Британской школы будет такая возможность. Если Вы хотите, чтобы Ваш ребенок посещал инструментальные уроки, пожалуйста, заполните анкету на следующей странице и отдайте ее на стойку ресепшена с пометкой Мисс Эйвс (здание школы).
+
+
+
+
+
+С уважением,
+
+
+
+Мисс Наоми Эйвс
+
+Учитель музыки
+
+
+
+
+
+
+
+
+Форма для заполнения (должна быть заполнена и возвращена до вторника 2 сентября)
+
+
+
+Я  хотел/а бы, чтобы мой ребенок ____________________ (имя ребенка) посещал/а следующие уроки музыки (выберите один)
+
+·
+
+Фортепиано
+
+· Гитара
+
+· Скрипка
+
+· Дутар (узбекский двухструнный инструмент)
+
+· Доира (узбекский барабан)
+
+
+
+Подпись: ____________ (Подпись родителя)
+
+
+Имя и фамилия родителя ____________________
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>27/01/2014 Message from Head of Secondary</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>27/01/2014 Message from Head of Secondary</name>
+    <style>freeForm</style>
+    <subject>Message from Head of Secondary</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Message from the Head of Secondary
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Thank you to those of you who attended the forum last Wednesday morning. I was able to address a number of issues on the spot and I have now had some time to speak to other staff and get answers to your other questions – there are some I am still working on, however! I hope you find the summary below useful – you will see that much of the discussion revolved around ASAs:
+
+Q: How will GCSE reforms in the UK affect BSKL?
+A: The main reforms in the UK consist of a removal of coursework in some subjects, a return to linear courses, and a new grading system using numbers (1 – 9) instead of letters (A* - G). Most of the courses we offer are IGCSE (Cambridge examinations and Edexcel) and these exams will be unaffected: these boards have no plans to follow suit. Many universities around the world will continue to recognise the IGCSE as a more robust qualification than the GCSEs taken in the UK.
+
+Q: We receive all of our Parent Portal notifications on a Sunday – this means we often miss important notices.
+A: I will ask staff to adjust their default settings so that messages appear instantly.
+
+Q: Will Bahasa and Chinese IGCSE have to be selected as one of the four option choices?
+A: No. For most pupils (native speakers) we will run additional classes outside of the timetable. For non-native speakers there will be the option of studying these subjects as one of the four options within the school day.
+
+Q: I have heard that pupils will no longer have a choice of languages in Year 7 – is this true?
+A: Absolutely not! In fact, we are increasing pupil exposure to French and Spanish at the end of Year 6 so that pupils can make a more informed choice (two from Chinese/Spanish/French) for Year 7.
+
+Q: Some of the residential trips are very expensive and the distances involved are large – is that necessary?
+A: We will review the provision of these trips and welcome constructive feedback from parents and pupils.
+
+Q: Will pupils have a ‘voice’ in school, along the lines of the parents’ forum?
+A: We currently involve pupils (through small working parties or survey) in many decisions that affect them, but we will soon be formalising this with the creation of a School Council and other positions of responsibility.
+
+Q: The Badminton ASA is full – is it possible to offer additional sessions?
+A: The number of pupils involved in all ASAs put a strain on our resources, particularly space. Currently, Primary and Secondary share a badminton session on a Tuesday afternoon. Next term we will allocate a badminton session only for Secondary pupils and those that were unable to play this term will have priority.
+
+Q: Why has the tennis ASA stopped?
+A: We are unable to use our previous provider but Mr Thomson is investigating whether we can find another.
+
+Q: Why is there no golf?
+A: Only one person signed up for golf in Term 1 and this term the facilities at the club have been unavailable – they are being upgraded and we will offer golf in term 3. If there is sufficient uptake we will run the activity.
+
+Q: Why are some BSKL staff being paid for activities?
+A: The only ASAs we charge for are cookery (ingredients) and Carnegie Club (book cost/competition entry). Some staff run activities outwith of the ASA programme, and on top of their ASA commitment (e.g. rugby on a Friday or badminton academy on a Friday) for which there may be a charge.
+
+Q: Why is there no Public Speaking?
+A: We agree this is an important activity and we are actively recruiting additional staff from the UK for next year – we very much hope that one or more of these appointments will be able to offer some expertise in debating.
+
+Q: How will the International Award (International Duke of Edinburgh) work?
+A: This will be open to all Year 10 pupils as an ASA (1 hour per week). Community Service can happen within school (e.g. helping primary pupils) or outside of school time – it will be up to individual pupils how they organise this. We very much hope that as many Year 10s as possible will choose this activity – there will be no cap on numbers.
+
+As ever, if you need clarification on these issues, or have other questions, do not hesitate to contact me or another relevant staff member.
+
+Notices
+
+. From next week all students will be able to update, configure, install/uninstall and manage their MacBook Airs. We have found that our current policy of restricting these rights is having an adverse impact on learning – for example, they are currently unable to install ‘Google Earth’ and other valuable programmes. This decision has been made to utilise the full potential of the technology and enable students to develop a greater understanding of how computers work.  The terms and conditions of the loan agreement remain in place and random checks will be carried out to ensure pupils are adhering to the guidelines set out in the agreement. Under no circumstances are students allowed to install games or any other software application that is not deemed educational viable – only those applications approved by teachers can be installed. The benefits of enabling students to manage the devices will derestrict their use of technology and we are confident that this move will improve learning outcomes.
+. Message from Miss Benson: I apologise for the delay in reporting this to you, however we have had to change the password to our www.myimaths.com account. The new password for students is: prime (previously digital). Please note that students’ login details have not changed and if you have any questions then do not hesitate to email your son/daughters Maths teacher.
+. Apologies for the delay in getting this email to you, due to technical issues this email was unable to be sent on Friday. Rest assured all students will be informed today and maths teachers will take this into account when it come to the submission of online homework.
+
+Upcoming Dates
+
+. Wednesday 29th January 3.15pm – 6.00pm: Year 7 Parents’ Consultation.
+. Friday 31st January: Chinese New Year (Public Holiday).
+. Thursday 6th February: School reopens.
+
+And finally……
+
+Year 7 parents please check that your son/daughter is making subject appointments for Wednesday evening. All, have a very week ahead.
+
+Derek Mackey
+Head of Secondary
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

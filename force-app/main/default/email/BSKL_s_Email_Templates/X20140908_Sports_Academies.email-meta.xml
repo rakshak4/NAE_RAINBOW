@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20140908 - Sports Academies</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20140908 - Sports Academies</name>
+    <style>freeForm</style>
+    <subject>Sports Academies</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}
+
+BSKL is delighted to announce that Sports Academies will be starting again this week and early next week. They are for students of certain ages and all abilities who are interested to have further coaching to develop their abilities and knowledge. They will be led by BSKL&apos;s specialist PE teachers and coaches (apart from Cricket). Please click on the below links for further information regarding dates, times, costs and registration links.
+
+Badminton (https://drive.google.com/file/d/0B57vMviVDx-xQTBsVWc3X2l3UnVBeVNaS3pNRjBOS3AwM0ow/edit?usp=sharing)
+
+Basketball (https://drive.google.com/file/d/0B57vMviVDx-xSmgwOXZtN3Utbmp5dE9nZVEyb2ZjbG91OHFB/edit?usp=sharing)
+
+Cricket (https://drive.google.com/file/d/0B57vMviVDx-xSjRIclRzWFg5UlNSTkdleWtQVkVZYkNSaUhR/edit?usp=sharing)
+
+Football (https://drive.google.com/a/britishschools.co.uk/file/d/0B57vMviVDx-xZ1ZBMjY1ckxyRGJlRnZ2OGtXVXdQelNidFpV/edit?usp=sharing)
+
+Netball (https://drive.google.com/file/d/0B57vMviVDx-xYnRtc0s5d3ZhTXJ5VF9waVVfUng3OEZMMDM0/edit?usp=sharing)
+
+Rugby (https://drive.google.com/file/d/0B57vMviVDx-xRS1FRS1vQlBjX2xkU3FPdjNPMjE4LUFheHY0/edit?usp=sharing)
+
+Trampolining (https://drive.google.com/file/d/0B57vMviVDx-xcGRJSEppMkNrSnprVzlGWkdVS1lBWnZibXZB/edit?usp=sharing)
+
+
+Kind regards,
+
+Harrie Thomson
+Director of Physical Education and Sport
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

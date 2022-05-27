@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Traffic Today 2/11/11</name>
+    <style>freeForm</style>
+    <subject>Traffic Today  2/11/11</subject>
+    <textOnly>Dear Parents,
+Please be aware that the Ice Skating Rink next to the school is hosting a hockey match today, therefore the access to the school and the parking on the UC may be affected by this. 
+We do apologise for any inconveniences and kindly ask you to arrive slightly earlier to ensure you are not delayed by this. 
+ Kind regards,
+Anastasia Ramazanova
+Head of Administration
+The International School of Moscow
+Tel:  +7 (499) 922 44 00
+Fax: +7 (499) 922 44 00 Ext.4 
+www.internationalschool.ru
+Part of The British Schools Group
+
+*Disclaimer:*
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>ISM</letterhead>
+    <name>Bus Schedule</name>
+    <style>freeForm</style>
+    <subject>Bus Schedule</subject>
+    <textOnly>Dear Parents,
+
+Hope you are well. As the beginning of the school year is approaching we have now started to design the bus schedule for the next academic year. We would be most grateful if those of you who still haven&apos;t confirmed your intention to join/ continue/discontinue the use of our School bus service from August 27 could please contact our School bus coordinator.
+
+In case you would like to join or continue with our bus service, please email the following information to bus@internationalschool.ru:
+
+- the names of your children and their year groups
+- your current address
+- contact phone number for the bus monitor
+- when are you planning to start using the school bus (August 27 or later)
+
+In case you were using the School bus this year but are not planning to continue with the service, please send us an email to confirm your intention to discontinue the use of bus service.
+
+In case you never used the School bus and are not planning on doing that this year, please ignore this email.
+
+Please send all the information required for adding you to the bus list to bus@internationalschool.ru by no later than August 10.
+
+In case we receive your request after August 10 there might be a delay in adding you to the bus schedule and you would not be able to start using the bus service until September 3.
+
+Please do not hesitate to contact me if you have any questions.
+
+Thank you in advance and I hope you all are having a wonderful summer!
+
+Kind regards,
+Olga Tenisheva
+
+Bus Coordinator
+
+The International School of Moscow
+
+
+Tel: +7 (499) 922 44 00
+
+Tel: +7 (916) 995 51 10
+
+
+www.internationalschool.ru
+
+
+The British Schools Group – World Class Education
+
+
+
+*Disclaimer:*
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

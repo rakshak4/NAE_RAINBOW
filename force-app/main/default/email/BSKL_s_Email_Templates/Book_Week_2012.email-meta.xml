@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Book Week 2012</name>
+    <style>freeForm</style>
+    <subject>Book Week</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+
+
+Next week is Book Week at school.
+Please see below details regarding the week:
+• Ian Billings, acclaimed children’s writer will be visiting school on Tuesday, October 2nd. There are 3 titles of his that are for sale in school and they are RM 40 per book.  Copies of these books are in the school reception for you to view.  An official book order form was put into school bags earlier this week.  Full details are on the form and if you wish to order them please hand in the order form and money to the teachers no later than Friday 28th September.  We would like to add that the books themselves are not for very young readers, they are aimed more at the 8 – 12 years age range.  Ian will be signing copies of the book on Tuesday, conducting workshops with the students and taking a school assembly.
+• Roving books will be setting up a book stall at the school reception on the 4th and 5th October.  She will be selling books appropriate for children in Nursery up to Year 6 so parents are welcome to come and purchase books that are for sale.
+• Friday 5th October is Book Week dress up day.  All students are welcome to come into school on this day dressed up as a character from their favourite book.  This is not compulsory and no donation is required.  There will also be an assembly on Friday and we would like to invite parents to attend.  The assembly starts at 8.15am promptly. It’s a ‘show and tell’ assembly about the work and activities that students have been doing during Book Week.
+•The EFC will be collecting used books during the week.  A box will be placed near to the school reception where parents can drop in their book donations.  Furthermore the EFC wish to politely request that parents only donate books up to and including primary school level.  They will accept anything from non-fiction, fiction, educational – anything you would like to donate.  These books will be going to orphanages that the EFC supports.
+• To culminate Book Week, Gulliver’s Travels Theatre will perform for the students only on Monday 8th October.
+
+
+
+
+Kind Regards,
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

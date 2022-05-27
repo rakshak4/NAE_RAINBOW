@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Important Reminder - Secondary Pupil Reports</name>
+    <style>freeForm</style>
+    <subject>Important Reminder - Secondary Pupil Reports</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+I wanted to remind all Secondary parents that the Term Two Secondary Reports for Year 7 to 10 will be available on the parent portal from noon on Friday, 28th March.
+
+They will give you a detailed insight into the progress and achievements of your children during the latest assessment period.
+
+Please do ensure that you have access to this important document by logging on to the parent portal and contacting admissions if you need support or advice to do so.
+
+We hope that you will find the reports to be informative as always and look forward to meeting with you in the following Parent Teacher Consultations evenings in the last week of school before the break.
+
+Regards,
+
+Paul Seedhouse
+
+Headteacher
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

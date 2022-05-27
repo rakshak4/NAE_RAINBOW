@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>UC Speech Day Invitation</name>
+    <style>freeForm</style>
+    <subject>UC Speech Day Invitation</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+Upper Campus Speech Day and Awards Ceremony Thursday 4th July (18:00 – 19:30pm)
+
+
+Dear Parents,
+
+
+
+This year, we are holding our Upper Campus Annual Speech Day at the Grand Marriott Hotel Ballroom in the evening. All students from Year 4 to Year 10 are of course expected to attend, as it is the final session of the academic year for these year groups.
+
+
+This is an extremely important event, recognizing the achievements of our students and the highlights of the school year. All students and families from those year groups are invited to join us. It will offer a unique chance to get the school community together and celebrate the successes enjoyed this year.
+
+
+The ceremony will begin promptly at 18:00 and will include musical performances and speeches from students. It will also recognise the achievements of many of our students.
+
+
+Awards will be presented for each class (Y4-Y10) in the following categories:
+
+
+
+Outstanding Achievement
+
+Outstanding Progress
+
+
+Awards will be presented for each year group (Y4-Y10) in the following categories:
+
+
+
+Outstanding performance in Music and Performance Art
+
+Outstanding performance in Physical Education
+
+Outstanding performance in Russian Language
+
+Outstanding performance in Art
+
+
+So that you can enjoy the event as a family, students will sit with their parents/ family members during the ceremony. The only exception will be for those students who will be performing. They will be notified at the beginning of the week and will sit near the stage and be supervised by our staff.
+
+
+The ceremony should conclude at around approximately 19:00 and will be followed by a reception of light refreshments giving the community an opportunity to say ‘farewell’ before the summer break. Please be aware that school buses will not provide transportation directly to the hotel on that day. School will finish at noon and buses will run as normal at this time, in order for all students and staff to have the opportunity to return home and freshen up before the evening ceremony.
+
+
+
+Please note that limited parking is available at the hotel. Do consider this when making your arrangements for arriving at the hotel on time.
+
+
+I look forward to seeing you on July 4th and of course before then at our parent consultation evenings.
+
+
+Best regards,
+
+
+Paul Seedhouse
+
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

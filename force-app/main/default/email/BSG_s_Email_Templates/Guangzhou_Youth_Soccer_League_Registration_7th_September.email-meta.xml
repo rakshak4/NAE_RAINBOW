@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Guangzhou Youth Soccer League Registration 7th September</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Guangzhou Youth Soccer League Registration 7th September</name>
+    <style>freeForm</style>
+    <subject>Guangzhou Youth Soccer League Registration 7th September</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+
+
+
+
+
+Dear Parents,&lt;?xml:namespace prefix = o /&gt;
+
+
+Our friends from the volunteer run and popular Guangzhou Youth Soccer League (GYSL) would like you to be aware that registration for this year&apos;s competition will be held next Saturday, 7th September at the venue, Utahloy International School from 9am to 12noon.
+
+
+If you would like to register, PLEASE CLICK HERE for further details and a registration form.
+
+
+Best wishes,
+
+
+
+Administration Team
+
+The British School of Guangzhou
+
+World Class Education
+
+
+
+
+
+
+
+_____________________________________________________
+
+
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

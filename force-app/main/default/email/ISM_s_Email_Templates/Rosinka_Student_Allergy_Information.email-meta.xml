@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in August 2014</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Rosinka Student Allergy Information</name>
+    <style>freeForm</style>
+    <subject>Rosinka Student Allergy Information</subject>
+    <textOnly>The International School
+of Moscow
+Chartered By The British Schools Foundation
+
+
+
+Dear Parents,
+
+We hope that everyone had a great first morning at school today!
+
+It has come to our attention that some students have allergies that we are unaware of. We understand that over the summer holidays it may have been difficult to respond to our request for your child(ren)&apos;s medical information. Please take this opportunity to do so by contacting the admissions team at admissions@internationalschool.ru.
+
+Please let us know immediately if your child(ren) has any type of allergy, or has any medical condition(s) we should be informed of.
+
+If you could do this at your earliest opportunity, we would be most appreciative.
+
+Also, please note that we require doctors notes for certain allergies or conditions and in all cases before we will administer any medication on your behalf.
+
+On a final note, when providing a morning snack for your child, please remember that we are a nut free school and that children should not share their snacks under any circumstances.
+
+Thank you.
+
+Kind Regards,
+
+Rosinka Team
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

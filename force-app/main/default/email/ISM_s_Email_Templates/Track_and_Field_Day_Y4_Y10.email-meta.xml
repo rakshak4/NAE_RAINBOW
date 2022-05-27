@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Track and Field Day (Y4 - Y10)</name>
+    <style>freeForm</style>
+    <subject>Track and Field Day (Y4 - Y10)</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+I am delighted to confirm that the upper campus track and field day will take place on Wednesday 19th June from 10am – 2pm.  The letter (please click here) includes important information regarding the location of this and specific equipment that the children need to bring.  Students will get the chance to demonstrate their athletic skills using a top class venue.
+
+You are very welcome to come and show your support.  This is the first year that the school will be offering a more traditional athletics competition.  The emphasis of the day will be for children of all abilities to get a flavour of what it is like to perform real athletic events.  The events that will be on show are the 60m, 100m, 200m, 400m, 4 x 200m relay, the shot put, the javelin and the long jump.  All children will be encouraged to take part in every event in order to earn points for their house. Attached to this email is also a schedule (please click here) of what will take place on the day for your reference.
+
+Please support us in the organisation of this by handing the letters back to the form tutor as quickly as possible.  All students should be in school at the normal time to complete registration and other daily procedures.  Children will then be transported by bus to the venue.  Following the completion of the event you have two options which are seen below. You must give consent, in written form, for one of the below.
+
+OPTION 1 -Collection by parents at 2pm from the facility – This ideally would only be if parents are attending the event.
+
+OPTION 2 -Travel back to school via school bus – The bus will return to school and allow children to catch their normal school bus home at 3.25pm.
+
+Please clearly mark which one you are giving consent for.  This will help us when arranging buses from the venue.  Should anything change regarding this, please contact the form tutor directly.
+
+Please contact me if you have any questions and I look forward to seeing you all there.
+
+Kindest regards,
+Adam Hoult
+Teacher of Physical Education
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
