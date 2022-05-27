@@ -1,0 +1,2643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement</fullName>
+        <description>Lead: Application Acknowledgement</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>naebedrocktestmail@gmail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_AUB</fullName>
+        <description>Lead: Application Acknowledgement AUB</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@lcis.ch</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF2</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_BAB</fullName>
+        <description>Lead: Application Acknowledgement BAB</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@bisad.ae</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_BAC</fullName>
+        <description>Lead: Application Acknowledgement BAC</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@bischarlotte.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_BCB</fullName>
+        <description>Lead: Application Acknowledgement BCB</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions-bcb@britishcollegebrazil.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_BCL</fullName>
+        <description>Lead: Application Acknowledgement BCL</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@bischicagolp.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_BCS</fullName>
+        <description>Lead: Application Acknowledgement BCS</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@bischicagosl.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_BCS_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_BGZ</fullName>
+        <description>Lead: Application Acknowledgement BGZ</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@bsg.org.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_BGZ_Baidu</fullName>
+        <description>Lead: Application Acknowledgement BGZ Baidu</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Parent1PrimaryEmail__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@bsg.org.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_BHO</fullName>
+        <description>Lead: Application Acknowledgement BHO</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@houston.nae.school</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_BIH</fullName>
+        <description>Lead: Application Acknowledgement BIH</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>bishanoi@bishanoi.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_BIS</fullName>
+        <description>Lead: Application Acknowledgement BIS</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>bis.admissions@bisvietnam.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_BKL</fullName>
+        <description>Lead: Application Acknowledgement BKL</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@britishschool.edu.my</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_BNJ</fullName>
+        <description>Lead: Application Acknowledgement BNJ</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@bsn.org.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_BOS</fullName>
+        <description>Lead: Application Acknowledgement BOS</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@bisboston.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_BPD</fullName>
+        <description>Lead: Application Acknowledgement BPD</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@naispudong.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_BPX</fullName>
+        <description>Lead: Application Acknowledgement BPX</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@bisspuxi.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_BRA</fullName>
+        <description>Lead: Application Acknowledgement BRA</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@bisb.sk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF2</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_BSI</fullName>
+        <description>Lead: Application Acknowledgement BSI</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@bsbshunyi.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_BSN</fullName>
+        <description>Lead: Application Acknowledgement BSN</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>sltadmissions@britishschool.org.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_BST</fullName>
+        <description>Lead: Application Acknowledgement BST</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@britishschool.uz</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_BSY</fullName>
+        <description>Lead: Application Acknowledgement BSY</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@britishschoolyangon.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_BUD</fullName>
+        <description>Lead: Application Acknowledgement BUD</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@bisb.hu</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF2</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_BVH</fullName>
+        <description>Lead: Application Acknowledgement BVH</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>enquiry@bvishanoi.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_BVH</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_BVI</fullName>
+        <description>Lead: Application Acknowledgement BVI</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@bvisvietnam.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_BVI_VF2</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_CAM</fullName>
+        <description>Lead: Application Acknowledgement CAM</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@daischina.net</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF_CAM</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_CBS</fullName>
+        <description>Lead: Application Acknowledgement CBS</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@beausoleil.ch</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_CBS_VF2</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_CDS</fullName>
+        <description>Lead: Application Acknowledgement CDS</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>cds_admissions@cds.ed.cr</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_CNY</fullName>
+        <description>Lead: Application Acknowledgement CNY</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>nyon@champittet.ch</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF2</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_CPU</fullName>
+        <description>Lead: Application Acknowledgement CPU</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@champittet.ch</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF2</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_DCS</fullName>
+        <description>Lead: Application Acknowledgement DCS</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@dovercourt.edu.sg</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_DHA</fullName>
+        <description>Lead: Application Acknowledgement DHA</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@daischina.net</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_Chi_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_DHO</fullName>
+        <description>Lead: Application Acknowledgement DHO</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions.cisd@nais.qa</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_DOV</fullName>
+        <description>Lead: Application Acknowledgement DOV</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>registrar@doverbroecks.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_ICM</fullName>
+        <description>Lead: Application Acknowledgement ICM</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@icsmadrid.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF2</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_ISD</fullName>
+        <description>Lead: Application Acknowledgement ISD</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@naisdublin.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_ISD_VF2</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_ISM</fullName>
+        <description>Lead: Application Acknowledgement ISM</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@internationalschool.ru</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_ISM_VF2</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_ISR</fullName>
+        <description>Lead: Application Acknowledgement ISR</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>familyservices@sanroberto.edu.mx</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_JKT</fullName>
+        <description>Lead: Application Acknowledgement JKT</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@nasjakarta.sch.id</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF_JKT</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_KSM</fullName>
+        <description>Lead: Application Acknowledgement KSM</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@naismanila.edu.ph</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_LCI</fullName>
+        <description>Lead: Application Acknowledgement LCI</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@lis-chengdu.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_MET</fullName>
+        <description>Lead: Application Acknowledgement MET</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@themetropolitanschool.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_NBO</fullName>
+        <description>Lead: Application Acknowledgement NBO</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>info.ningbo@nasningbo.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_Chi_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_NBP</fullName>
+        <description>Lead: Application Acknowledgement NBP</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@nbps.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_NCS</fullName>
+        <description>Lead: Application Acknowledgement NCS</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>apply@nacis.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_Chi_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_NDB</fullName>
+        <description>Lead: Application Acknowledgement NDB</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@nasdubai.ae</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_NDL</fullName>
+        <description>Lead: Application Acknowledgement NDL</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@daischina.net</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF_CAM</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_NFG</fullName>
+        <description>Lead: Application Acknowledgement NFG</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>info.beijing@nacis.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_Chi_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_NFS</fullName>
+        <description>Lead: Application Acknowledgement NFS</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>info.foshan@nacis.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_Chi_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_NGM</fullName>
+        <description>Lead: Application Acknowledgement NGM</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@naisgz.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_NGZ</fullName>
+        <description>Lead: Application Acknowledgement NGZ</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>info.guangzhou@nasguangzhou.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_Chi_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_NHK</fullName>
+        <description>Lead: Application Acknowledgement NHK</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@nais.hk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF_NHK</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_NJX</fullName>
+        <description>Lead: Application Acknowledgement NJX</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>info.jiaxing@nacis.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_Chi_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_NSB</fullName>
+        <description>Lead: Application Acknowledgement NSB</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>info.shunyi@nasshunyi.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_Chi_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_NSC</fullName>
+        <description>Lead: Application Acknowledgement NSC</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@nisc.edu.kh</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_NSH</fullName>
+        <description>Lead: Application Acknowledgement NSH</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>info.shenzhen@nacis.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF_NSH</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_NSZ</fullName>
+        <description>Lead: Application Acknowledgement NSZ</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>info@nassuzhou.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_NSU_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_NTO</fullName>
+        <description>Lead: Application Acknowledgement NTO</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>info.nantong@nacis.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_Chi_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_NWZ</fullName>
+        <description>Lead: Application Acknowledgement NWZ</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>info.wenzhou@nacis.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_Chi_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_OIC</fullName>
+        <description>Lead: Application Acknowledgement OIC</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@oxcoll.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF_OIC</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_OSF</fullName>
+        <description>Lead: Application Acknowledgement OSF</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@oxfordsixthformcollege.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_PEB</fullName>
+        <description>Lead: Application Acknowledgement PEB</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@britishschool.edu.pe</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_PRA</fullName>
+        <description>Lead: Application Acknowledgement PRA</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@pbis.cz</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF2</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_QAK</fullName>
+        <description>Lead: Application Acknowledgement QAK</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions.naisak@nais.qa</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_RDM</fullName>
+        <description>Lead: Application Acknowledgement RDM</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@naisr.nl</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_RPA</fullName>
+        <description>Lead: Application Acknowledgement RPA</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@regents-pattaya.co.th</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_SBK</fullName>
+        <description>Lead: Application Acknowledgement SBK</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@standrews.ac.th</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_SNY</fullName>
+        <description>Lead: Application Acknowledgement SNY</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@ny.nae.school</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_Summer_CBS</fullName>
+        <description>Lead: Application Acknowledgement Summer CBS</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@beausoleil.ch</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>BeauSoleilEmailTemplates/Summer_Camp</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_VIL</fullName>
+        <description>Lead: Application Acknowledgement VIL</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@thevillageschool.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_WAS</fullName>
+        <description>Lead: Application Acknowledgement WAS</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@biswashington.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF_WAS</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_WAW</fullName>
+        <description>Lead: Application Acknowledgement WAW</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@thebritishschool.pl</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF2</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Application_Acknowledgement_WPS</fullName>
+        <description>Lead: Application Acknowledgement WPS</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@windermereprep.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Application_Acknowledgement_VF2</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_AUB</fullName>
+        <description>Lead: Assignment Notification AUB</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@international-school.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_BAB</fullName>
+        <description>Lead: Assignment Notification BAB</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@bisad.ae</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_BAC</fullName>
+        <description>Lead: Assignment Notification BAC</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@bischarlotte.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_BCB</fullName>
+        <description>Lead: Assignment Notification BCB</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions-bcb@britishcollegebrazil.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_BCL</fullName>
+        <description>Lead: Assignment Notification BCL</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@bischicagolp.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_BCS</fullName>
+        <description>Lead: Assignment Notification BCS</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@bischicagosl.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_BGZ</fullName>
+        <description>Lead: Assignment Notification BGZ</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@bsg.org.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_BHO</fullName>
+        <description>Lead: Assignment Notification BHO</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@houston.nae.school</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_BIH</fullName>
+        <description>Lead: Assignment Notification BIH</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>bishanoi@bishanoi.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_BIS</fullName>
+        <description>Lead: Assignment Notification BIS</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>bis.admissions@bisvietnam.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_BKL</fullName>
+        <description>Lead: Assignment Notification BKL</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@britishschool.edu.my</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_BNJ</fullName>
+        <description>Lead: Assignment Notification BNJ</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@bsn.org.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_BOS</fullName>
+        <description>Lead: Assignment Notification BOS</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@bisboston.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_BPD</fullName>
+        <description>Lead: Assignment Notification BPD</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@naispudong.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_BPX</fullName>
+        <description>Lead: Assignment Notification BPX</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@bisspuxi.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_BRA</fullName>
+        <description>Lead: Assignment Notification BRA</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@bisb.sk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_BSI</fullName>
+        <description>Lead: Assignment Notification BSI</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@bsbshunyi.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_BSN</fullName>
+        <description>Lead: Assignment Notification BSN</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>sltadmissions@britishschool.org.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_BST</fullName>
+        <description>Lead: Assignment Notification BST</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@britishschool.uz</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_BSY</fullName>
+        <description>Lead: Assignment Notification BSY</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@britishschoolyangon.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_BUD</fullName>
+        <description>Lead: Assignment Notification BUD</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@bisb.hu</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_BVH</fullName>
+        <description>Lead: Assignment Notification BVH</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>enquiry@bvishanoi.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_BVH_Queue</fullName>
+        <description>Lead: Assignment Notification BVH Queue</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>enquiry@bvishanoi.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_BVI</fullName>
+        <ccEmails>Admissions@bvisvietnam.com</ccEmails>
+        <description>Lead: Assignment Notification BVI</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@bvisvietnam.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_CAM</fullName>
+        <description>Lead: Assignment Notification CAM</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@daischina.net</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_CBS</fullName>
+        <description>Lead: Assignment Notification CBS</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@beausoleil.ch</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_CDS</fullName>
+        <description>Lead: Assignment Notification CDS</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>cds_admissions@cds.ed.cr</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_CNY</fullName>
+        <description>Lead: Assignment Notification CNY</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>nyon@champittet.ch</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_CPU</fullName>
+        <description>Lead: Assignment Notification CPU</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@champittet.ch</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_DAI</fullName>
+        <description>Lead: Assignment Notification DAI</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@daischina.net</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_DCS</fullName>
+        <description>Lead: Assignment Notification DCS</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@dovercourt.edu.sg</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_DHA</fullName>
+        <description>Lead: Assignment Notification DHA</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@daischina.net</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_DHO</fullName>
+        <description>Lead: Assignment Notification DH0</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>DHO_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>admissions.cisd@nais.qa</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_DOV</fullName>
+        <description>Lead: Assignment Notification DOV</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>registrar@doverbroecks.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_ICM</fullName>
+        <description>Lead: Assignment Notification ICM</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@icsmadrid.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_ISD</fullName>
+        <description>Lead: Assignment Notification ISD</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@naisdublin.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_ISM</fullName>
+        <description>Lead: Assignment Notification ISM</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@internationalschool.ru</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_ISR</fullName>
+        <description>Lead: Assignment Notification ISR</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>familyservices@sanroberto.edu.mx</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_JKT</fullName>
+        <description>Lead: Assignment Notification JKT</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@nasjakarta.sch.id</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_KSM</fullName>
+        <description>Lead: Assignment Notification KSM</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@naismanila.edu.ph</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_LCI</fullName>
+        <description>Lead: Assignment Notification LCI</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@lis-chengdu.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_MET</fullName>
+        <description>Lead: Assignment Notification MET</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@themetropolitanschool.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_NBO</fullName>
+        <description>Lead: Assignment Notification NBO</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>info.ningbo@nasningbo.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_NBP</fullName>
+        <description>Lead: Assignment Notification NBP</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@nbps.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_NCS</fullName>
+        <description>Lead: Assignment Notification NCS</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>NCS_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>apply@nacis.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_NDB</fullName>
+        <description>Lead: Assignment Notification NDB</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@nasdubai.ae</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_NDL</fullName>
+        <description>Lead: Assignment Notification NDL</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@daischina.net</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_NFG</fullName>
+        <description>Lead: Assignment Notification NFG</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>info.beijing@nacis.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_NFS</fullName>
+        <description>Lead: Assignment Notification NFS</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>info.foshan@nacis.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_NGM</fullName>
+        <ccEmails>admissions@naisgz.com</ccEmails>
+        <description>Lead: Assignment Notification NGM</description>
+        <protected>false</protected>
+        <senderAddress>admissions@naisgz.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_NGZ</fullName>
+        <description>Lead: Assignment Notification NGZ</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>info.guangzhou@nasguangzhou.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_NHK</fullName>
+        <description>Lead: Assignment Notification NHK</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@nais.hk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_NJX</fullName>
+        <description>Lead: Assignment Notification NJX</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>lora.tu@nacis.cn</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>info.jiaxing@nacis.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_NSB</fullName>
+        <description>Lead: Assignment Notification NSB</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>info.shunyi@nasshunyi.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_NSC</fullName>
+        <ccEmails>chamnan.heng@nisc.edu.kh</ccEmails>
+        <description>Lead: Assignment Notification NSC</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@nisc.edu.kh</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_NSH</fullName>
+        <description>Lead: Assignment Notification NSH</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>info.shenzhen@nacis.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_NSZ</fullName>
+        <description>Lead: Assignment Notification NSZ</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>info@nassuzhou.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_NTO</fullName>
+        <description>Lead: Assignment Notification NTO</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>info.nantong@nacis.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_NWZ</fullName>
+        <description>Lead: Assignment Notification NWZ</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>info.wenzhou@nacis.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_OIC</fullName>
+        <description>Lead: Assignment Notification OIC</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@oxcoll.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_OSF</fullName>
+        <description>Lead: Assignment Notification OSF</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@oxfordsixthformcollege.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_PEB</fullName>
+        <description>Lead: Assignment Notification PEB</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@britishschool.edu.pe</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_PRA</fullName>
+        <description>Lead: Assignment Notification PRA</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@pbis.cz</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_QAK</fullName>
+        <description>Lead: Assignment Notification QAK</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions.naisak@nais.qa</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_RDM</fullName>
+        <description>Lead: Assignment Notification RDM</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@naisr.nl</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_RPA</fullName>
+        <description>Lead: Assignment Notification RPA</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@regents-pattaya.co.th</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_SBK</fullName>
+        <description>Lead: Assignment Notification SBK</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jan.lu@standrews.ac.th</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>jeep.fu@standrews.ac.th</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>admissions@standrews.ac.th</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_SNY</fullName>
+        <description>Lead: Assignment Notification SNY</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>theresa.hasman@ny.nae.school</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>admissions@ny.nae.school</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_VIL</fullName>
+        <description>Lead: Assignment Notification VIL</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@thevillageschool.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_WAS</fullName>
+        <description>Lead: Assignment Notification WAS</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@biswashington.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_WAW</fullName>
+        <description>Lead: Assignment Notification WAW</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@thebritishschool.pl</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Notification_WPS</fullName>
+        <description>Lead: Assignment Notification WPS</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>admissions@windermereprep.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadAssignmentTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Summer_Camp_Enquiry_CBS</fullName>
+        <description>Lead:Summer Camp Enquiry CBS</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>summercamp@beausoleil.ch</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadSummerCampEnquiry</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_thank_you_GRU_Agent</fullName>
+        <description>Lead: thank you GRU Agent</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Lead_Thank_you_Agent</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>LED_setPriority</fullName>
+        <field>Priority__c</field>
+        <literalValue>1</literalValue>
+        <name>LED_setPriority</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>LED_unsetPriority</fullName>
+        <field>Priority__c</field>
+        <literalValue>0</literalValue>
+        <name>LED_unsetPriority</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Lead_Acknowledgment_sent</fullName>
+        <field>Send_Acknowledgement__c</field>
+        <literalValue>0</literalValue>
+        <name>Lead: Acknowledgment sent</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Lead_Follow_up_in_iSAMS</fullName>
+        <field>Send_to_ISAMS__c</field>
+        <literalValue>1</literalValue>
+        <name>Lead: Follow up in iSAMS</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Lead_Mark_as_Junk</fullName>
+        <field>is_Junk__c</field>
+        <literalValue>1</literalValue>
+        <name>Lead: Mark as Junk</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Lead_Unmark_as_Junk</fullName>
+        <field>is_Junk__c</field>
+        <literalValue>0</literalValue>
+        <name>Lead: Unmark as Junk</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Lead_unfollow_up_in_iSAMS</fullName>
+        <field>Send_to_ISAMS__c</field>
+        <literalValue>0</literalValue>
+        <name>Lead: unfollow up in iSAMS</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PopulateEmail</fullName>
+        <field>Parent1PrimaryEmail__c</field>
+        <formula>Email</formula>
+        <name>PopulateEmail</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PopulateFirstname</fullName>
+        <field>Parent1FirstName__c</field>
+        <formula>FirstName</formula>
+        <name>PopulateFirstname</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PopulateLastname</fullName>
+        <field>Parent1LastName__c</field>
+        <formula>LastName</formula>
+        <name>PopulateLastname</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Temporary_for_Prague_school</fullName>
+        <description>This is temporary for Prague (PRA) school so that the Lead record will not be pushed to iSAMS by the talend job</description>
+        <field>sent_to_ISAMS__c</field>
+        <literalValue>1</literalValue>
+        <name>Temporary for Prague school</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>UpdateLeadCompany</fullName>
+        <field>Company</field>
+        <formula>Parent1Name__c + &apos; Family&apos;</formula>
+        <name>Update Lead Company</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>UpdateLeadEmail</fullName>
+        <field>Email</field>
+        <formula>Parent1PrimaryEmail__c</formula>
+        <name>Update Lead Email</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>UpdateLeadFirstName</fullName>
+        <field>FirstName</field>
+        <formula>Parent1FirstName__c</formula>
+        <name>Update Lead First Name</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>UpdateLeadLastName</fullName>
+        <field>LastName</field>
+        <formula>Parent1LastName__c</formula>
+        <name>Update Lead Last Name</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>UpdateLeadPhone</fullName>
+        <field>Phone</field>
+        <formula>Parent1HomePhone__c</formula>
+        <name>Update Lead Phone</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>LED_setPriority</fullName>
+        <actions>
+            <name>LED_setPriority</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c),   TECH_Priority__c 		 )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>LED_unsetPriority</fullName>
+        <actions>
+            <name>LED_unsetPriority</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		NOT(TECH_Priority__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead Assignment BNJ</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_BNJ</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_BNJ</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;BNJ&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A %28Temporary for Prague school%29 Follow up in iSAMS</fullName>
+        <actions>
+            <name>Temporary_for_Prague_school</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>This is temporary for Prague (PRA) school so that the Lead record will not be pushed to iSAMS by the talend job</description>
+        <formula>AND(  ISPICKVAL(School_Code__c,&apos;PRA&apos;),  NOT($Setup.CS_Bypass__c.BypassWorkflows__c ), OR(ISPICKVAL(Follow_Up_Action__c, &apos;Follow up in iSAMS&apos;),  Send_to_ISAMS__c=true))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement AUB</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_AUB</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_AUB</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;AUB&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement BAB</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_BAB</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_BAB</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;BAB&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement BCL</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_BCL</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_BCL</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;BCL&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement BCS</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_BCS</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_BCS</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;BCS&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement BGZ</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_BGZ</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_BGZ</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;BGZ&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement BNJ</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_BNJ</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_BNJ</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;BNJ&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement BOS</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_BOS</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_BOS</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;BOS&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement BPD</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_BPD</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_BPD</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND(    Send_Acknowledgement__c,    ISPICKVAL(School_Code__c,&apos;BPD&apos;),    NOT($Setup.CS_Bypass__c.BypassWorkflows__c),    ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement BPX</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_BPX</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_BPX</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;BPX&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement BRA</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_BRA</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_BRA</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;BRA&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement BSI</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_BSI</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_BSI</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND(  		Send_Acknowledgement__c,   		ISPICKVAL(School_Code__c,&apos;BSI&apos;),  		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement BSL</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_BSN</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_BSN</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND(    Send_Acknowledgement__c,    ISPICKVAL(School_Code__c,&apos;BSL&apos;),    NOT($Setup.CS_Bypass__c.BypassWorkflows__c),    ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement BUD</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_BUD</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_BUD</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;BUD&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement BVH</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_BVH</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_BVH</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;BVH&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		 NOT(AutoConvert__c), ISNULL(Owner:Queue.Id) )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement BVH Queue</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_BVH</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_BVH_Queue</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		 Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;BVH&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		 NOT(AutoConvert__c), NOT( ISNULL(Owner:Queue.Id) )  )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement BVI</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_BVI</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_BVI</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;BVI&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement CBS</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_CBS</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;CBS&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement CDS</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_CDS</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_CDS</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;CDS&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement CNY</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_CNY</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_CNY</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;CNY&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement CPU</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_CPU</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_CPU</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;CPU&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement DGH</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_DHO</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_DHO</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;DGH&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement DPS</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_DCS</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_DCS</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;DPS&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement ICM</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_ICM</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_ICM</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;ICM&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement ISD</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_ISD</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_ISD</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND(    Send_Acknowledgement__c,    ISPICKVAL(School_Code__c,&apos;ISD&apos;),    NOT($Setup.CS_Bypass__c.BypassWorkflows__c),    ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement ISM</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_ISM</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_ISM</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;ISM&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement JKT</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_JKT</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_JKT</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;JKT&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement LCI</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_LCI</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_LCI</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND(    Send_Acknowledgement__c,    ISPICKVAL(School_Code__c,&apos;LCI&apos;),    NOT($Setup.CS_Bypass__c.BypassWorkflows__c),    ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement MET</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_MET</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_MET</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;MET&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement NBO</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_NBO</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_NBO</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;NBO&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement NCS</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_NCS</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_NCS</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND(    Send_Acknowledgement__c,    ISPICKVAL(School_Code__c,&apos;NCS&apos;),    NOT($Setup.CS_Bypass__c.BypassWorkflows__c),    ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement NDB</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_NDB</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;NDB&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement NFB</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_NFG</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_NFG</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND(
+		Send_Acknowledgement__c,
+		ISPICKVAL(School_Code__c,&apos;NFB&apos;),
+		NOT($Setup.CS_Bypass__c.BypassWorkflows__c),
+		ISNULL(APIModifiedDate__c),
+		NOT(AutoConvert__c)
+)</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement NFS</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_NFS</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_NFS</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND(
+		Send_Acknowledgement__c,
+		ISPICKVAL(School_Code__c,&apos;NFS&apos;),
+		NOT($Setup.CS_Bypass__c.BypassWorkflows__c),
+		ISNULL(APIModifiedDate__c),
+		NOT(AutoConvert__c)
+)</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement NGM</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_NGM</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_NGM</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		
+      Send_Acknowledgement__c, 		 
+      ISPICKVAL(School_Code__c,&apos;NGM&apos;), 		 
+      NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		 
+      ISNULL(APIModifiedDate__c), 		
+      NOT(AutoConvert__c)
+)</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement NHK</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_NHK</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_NHK</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;NHK&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement NJX</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_NJX</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_NJX</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;NJX&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement NNT</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_NTO</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_NTO</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND(
+		Send_Acknowledgement__c,
+		ISPICKVAL(School_Code__c,&apos;NNT&apos;),
+		NOT($Setup.CS_Bypass__c.BypassWorkflows__c),
+		ISNULL(APIModifiedDate__c),
+		NOT(AutoConvert__c)
+)</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement NSC</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_NSC</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_NSC</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;NSC&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement NSU</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_NSZ</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_NSZ</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND(
+		Send_Acknowledgement__c,
+		ISPICKVAL(School_Code__c,&apos;NSU&apos;),
+		NOT($Setup.CS_Bypass__c.BypassWorkflows__c),
+		ISNULL(APIModifiedDate__c),
+		NOT(AutoConvert__c)
+)</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement NSZ</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_NSH</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_NSH</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND(
+		Send_Acknowledgement__c,
+		ISPICKVAL(School_Code__c,&apos;NSZ&apos;),
+		NOT($Setup.CS_Bypass__c.BypassWorkflows__c),
+		ISNULL(APIModifiedDate__c),
+		NOT(AutoConvert__c)
+)</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement NWZ</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_NWZ</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_NWZ</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND(
+		Send_Acknowledgement__c,
+		ISPICKVAL(School_Code__c,&apos;NWZ&apos;),
+		NOT($Setup.CS_Bypass__c.BypassWorkflows__c),
+		ISNULL(APIModifiedDate__c),
+		NOT(AutoConvert__c)
+)</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement PRA</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_PRA</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_PRA</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;PRA&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement QAK</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_QAK</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_QAK</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;QAK&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement RPA</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_RPA</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;RPA&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement SBK</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_SBK</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_SBK</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;SBK&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Application Acknowledgement WAW</fullName>
+        <actions>
+            <name>Lead_Application_Acknowledgement_WAW</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Assignment_Notification_WAW</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;WAW&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Follow up in iSAMS</fullName>
+        <actions>
+            <name>Lead_Follow_up_in_iSAMS</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Lead_Unmark_as_Junk</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND( NOT($Setup.CS_Bypass__c.BypassWorkflows__c ), ISPICKVAL(Follow_Up_Action__c, &apos;Follow up in iSAMS&apos;))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Mark as Junk</fullName>
+        <actions>
+            <name>Lead_Mark_as_Junk</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Lead_unfollow_up_in_iSAMS</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND( NOT($Setup.CS_Bypass__c.BypassWorkflows__c ),   ISPICKVAL( Follow_Up_Action__c , &apos;Is Junk&apos;))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3A Mark as New</fullName>
+        <actions>
+            <name>Lead_Unmark_as_Junk</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Lead_unfollow_up_in_iSAMS</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Remove lead Mark as Follow up in iSAMS or Junk</description>
+        <formula>AND(
+NOT($Setup.CS_Bypass__c.BypassWorkflows__c),
+OR(
+AND(
+ISNEW(),
+OR(is_Junk__c= true, Send_to_ISAMS__c = true)
+),
+AND(
+ISCHANGED(Follow_Up_Action__c),ISPICKVAL(Follow_Up_Action__c,&apos;To be actioned&apos;)
+)
+)
+)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead%3AApplication Acknowledgement MET</fullName>
+        <active>false</active>
+        <formula>AND( 		Send_Acknowledgement__c, 		ISPICKVAL(School_Code__c,&apos;MET&apos;), 		NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 		ISNULL(APIModifiedDate__c), 		NOT(AutoConvert__c) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

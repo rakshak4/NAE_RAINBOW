@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deposit_Form_Link__c</fullName>
+    <description>Deposit link - bespoke to school object and used to populate a formula field on the account object</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Deposit link - bespoke to school object and used to populate a formula field on the account object</inlineHelpText>
+    <label>Deposit Form Link</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

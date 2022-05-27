@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Han</fullName>
+        <default>false</default>
+        <label>Han</label>
+    </customValue>
+    <customValue>
+        <fullName>Others</fullName>
+        <default>false</default>
+        <label>Others</label>
+    </customValue>
+    <customValue>
+        <fullName>Asian</fullName>
+        <default>false</default>
+        <label>Asian</label>
+    </customValue>
+    <customValue>
+        <fullName>Black/African</fullName>
+        <default>false</default>
+        <label>Black/African</label>
+    </customValue>
+    <customValue>
+        <fullName>Caucasian</fullName>
+        <default>false</default>
+        <label>Caucasian</label>
+    </customValue>
+    <customValue>
+        <fullName>Hispanic/Latino</fullName>
+        <default>false</default>
+        <label>Hispanic/Latino</label>
+    </customValue>
+    <customValue>
+        <fullName>Native American</fullName>
+        <default>false</default>
+        <label>Native American</label>
+    </customValue>
+    <customValue>
+        <fullName>Pacific Islander</fullName>
+        <default>false</default>
+        <label>Pacific Islander</label>
+    </customValue>
+    <customValue>
+        <fullName>Mixed Race</fullName>
+        <default>false</default>
+        <label>Mixed Race</label>
+    </customValue>
+    <customValue>
+        <fullName>Prefer not to answer</fullName>
+        <default>false</default>
+        <label>Prefer not to answer</label>
+    </customValue>
+    <description>Specific for China Region</description>
+    <masterLabel>Ethnicity</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

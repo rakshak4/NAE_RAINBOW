@@ -1,0 +1,39 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId,force:appHostable" access="global" controller="LC04_DocumentChecklist">
+
+    <aura:attribute name="lstDocCheck" type="DocumentChecklist__c[]" />
+    <aura:attribute name="displaySpinner" type="boolean" default="false"/>
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:handler event="lightning:tabRefreshed" action="{!c.refresh }"/>
+    <aura:handler name="change" value="{!v.displaySpinner}" action="{!c.spinnerChange}"/>
+
+    <article class="slds-card">
+        <div class="slds-card__header slds-grid">
+            <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                <div class="slds-media__figure">
+                    <span class="slds-icon_container">
+                        <lightning:icon iconName="standard:product_required" size="small"/>
+                    </span>
+                </div>
+                <div class="slds-media__body">
+                    <h2>
+                        <a class="slds-card__header-link slds-truncate slds-text-heading_small" onclick="{!c.gotoRelatedList}">
+                           {! $Label.c.DocumentChecklists +' ('+ v.lstDocCheck.length +')'}
+                        </a>
+                    </h2>
+                </div>
+            </header>
+        </div>
+
+        <div class="slds-card__body slds-card__body_inner">
+            <div aura:id="spinner" class="slds-hide">
+                <lightning:spinner variant="brand" size="medium"/>
+            </div>
+            
+            <aura:iteration items="{!v.lstDocCheck}" var="docCheck" >
+                <c:LC04_ChecklistLine  docCheck="{! docCheck}" displaySpinner="{! v.displaySpinner}"/>
+            </aura:iteration>
+        </div>
+    </article>
+
+</aura:component>

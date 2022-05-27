@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Bank Transfer</fullName>
+        <default>false</default>
+        <label>Bank Transfer</label>
+    </customValue>
+    <customValue>
+        <fullName>Cash</fullName>
+        <default>false</default>
+        <label>Cash</label>
+    </customValue>
+    <customValue>
+        <fullName>Cheque</fullName>
+        <default>false</default>
+        <label>Cheque</label>
+    </customValue>
+    <description>payment structure</description>
+    <masterLabel>Payment</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

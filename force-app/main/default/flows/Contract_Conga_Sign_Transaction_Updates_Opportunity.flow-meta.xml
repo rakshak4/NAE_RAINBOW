@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <assignments>
+        <description>Update the Parent Contract Stage</description>
+        <name>Parent_Contract_Stage_Contract_Sent</name>
+        <label>Parent Contract Stage = Contract Sent</label>
+        <locationX>50</locationX>
+        <locationY>575</locationY>
+        <assignmentItems>
+            <assignToReference>Get_Parent_Opportunity.Contract_Stage__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Contract Sent</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Opportunity</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Parent_Contract_Stage_Terminated</name>
+        <label>Parent Contract Stage = Terminated</label>
+        <locationX>314</locationX>
+        <locationY>575</locationY>
+        <assignmentItems>
+            <assignToReference>Get_Parent_Opportunity.Contract_Stage__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Terminated</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Opportunity</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Parent_Opportunity_Contract_Stage</name>
+        <label>Parent Opportunity Contract Stage</label>
+        <locationX>578</locationX>
+        <locationY>575</locationY>
+        <assignmentItems>
+            <assignToReference>Get_Parent_Opportunity.Contract_Stage__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Contract Signed</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Opportunity</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Sign_Status</name>
+        <label>Sign Status</label>
+        <locationX>446</locationX>
+        <locationY>455</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Draft_Sent</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.APXT_CongaSign__Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>DRAFT</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Parent_Contract_Stage_Contract_Sent</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Draft (Sent)</label>
+        </rules>
+        <rules>
+            <name>Terminated_Decline_or_Cancel</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.APXT_CongaSign__Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>DECLINED</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.APXT_CongaSign__Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>CANCELLED</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Parent_Contract_Stage_Terminated</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Terminated: Decline or Cancel</label>
+        </rules>
+        <rules>
+            <name>Complete</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.APXT_CongaSign__Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>COMPLETE</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Parent_Opportunity_Contract_Stage</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Complete</label>
+        </rules>
+    </decisions>
+    <description>When Conga Sign Transaction status changes, update the Opportunity contract status.</description>
+    <interviewLabel>Contract - Conga Sign Transaction Updates Opportunity {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Contract - Conga Sign Transaction Updates Opportunity</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Parent_Opportunity</name>
+        <label>Get Parent Opportunity</label>
+        <locationX>446</locationX>
+        <locationY>335</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Sign_Status</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Parent_006__r.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Opportunity</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Opportunity</name>
+        <label>Update Opportunity</label>
+        <locationX>446</locationX>
+        <locationY>791</locationY>
+        <inputReference>Get_Parent_Opportunity</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>320</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Parent_Opportunity</targetReference>
+        </connector>
+        <object>APXT_CongaSign__Transaction__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>ParentOpportunity</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Opportunity</objectType>
+    </variables>
+</Flow>

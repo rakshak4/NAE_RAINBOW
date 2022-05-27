@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AP09_FinancialContactMissing</fullName>
+        <categories>AP09</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AP09_FinancialContactMissing</shortDescription>
+        <value>No Financial Contact found. Please add a Financial Contact to move the stage to &quot;Enrolled&quot;.</value>
+    </labels>
+    <labels>
+        <fullName>AP09_RequiredFieldsMissing</fullName>
+        <categories>AP09</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AP09_RequiredFieldsMissing</shortDescription>
+        <value>One or more of your related contacts is missing a Nature of Relationship and/or a Gender is blank or invalid. Please update the contact(s) to move the Opportunity Stage to Enrolled.</value>
+    </labels>
+    <labels>
+        <fullName>AccountName</fullName>
+        <categories>LC03</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account Name</shortDescription>
+        <value>Account Name</value>
+    </labels>
+    <labels>
+        <fullName>AllLanguagesofChild</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>All Languages of Child</shortDescription>
+        <value>All Languages of Child</value>
+    </labels>
+    <labels>
+        <fullName>AppDocNameApplicationForm</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Application Form AppDoc Name</shortDescription>
+        <value>Application form</value>
+    </labels>
+    <labels>
+        <fullName>BAT13_TaskDescription</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BAT13_TaskDescription</shortDescription>
+        <value>Follow Up On Lead for the {!diffInDays} day</value>
+    </labels>
+    <labels>
+        <fullName>BAT13_TaskDescriptionOpp</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BAT13_TaskDescriptionOpp</shortDescription>
+        <value>Follow Up On Opportunity for the {!diffInDays}th day</value>
+    </labels>
+    <labels>
+        <fullName>BAT13_TaskSubject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BAT13_TaskSubject</shortDescription>
+        <value>Follow Up On {!LeadName} Lead</value>
+    </labels>
+    <labels>
+        <fullName>BAT13_TaskSubjectAcc</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BAT13_TaskSubjectAcc</shortDescription>
+        <value>{!AccName} - {!diffInDays} day follow up</value>
+    </labels>
+    <labels>
+        <fullName>BAT13_TaskSubjectOpp</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BAT13_TaskSubjectOpp</shortDescription>
+        <value>{!diffInDays} day follow up</value>
+    </labels>
+    <labels>
+        <fullName>BAT13_emailAddress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BAT13_emailAddress</shortDescription>
+        <value>nae.crm@nordanglia.com</value>
+    </labels>
+    <labels>
+        <fullName>BAT13_statusNew</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BAT13_statusNew</shortDescription>
+        <value>New</value>
+    </labels>
+    <labels>
+        <fullName>BAT13_statusQualified</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BAT13_statusQualified</shortDescription>
+        <value>Qualified</value>
+    </labels>
+    <labels>
+        <fullName>BAT14_Subject</fullName>
+        <categories>BAT14</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BAT14_Subject</shortDescription>
+        <value>Follow up after Completed Visit</value>
+    </labels>
+    <labels>
+        <fullName>Boarding</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Boarding</shortDescription>
+        <value>Boarding</value>
+    </labels>
+    <labels>
+        <fullName>Campus</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Campus</shortDescription>
+        <value>Campus</value>
+    </labels>
+    <labels>
+        <fullName>Cancel</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>ChildDetails</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Child Details</shortDescription>
+        <value>Child Details</value>
+    </labels>
+    <labels>
+        <fullName>ChildNotes</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Child Notes</shortDescription>
+        <value>Child Notes</value>
+    </labels>
+    <labels>
+        <fullName>ConfirmLeadConversion</fullName>
+        <categories>LC05</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Confirm Lead Conversion</shortDescription>
+        <value>Confirm Lead Conversion</value>
+    </labels>
+    <labels>
+        <fullName>Contact</fullName>
+        <categories>LC03</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact</shortDescription>
+        <value>Contact</value>
+    </labels>
+    <labels>
+        <fullName>Contact1Country</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact 1 Country</shortDescription>
+        <value>Contact 1 Country</value>
+    </labels>
+    <labels>
+        <fullName>Contact1Nationality</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact 1 Nationality</shortDescription>
+        <value>Contact 1 Nationality</value>
+    </labels>
+    <labels>
+        <fullName>Contact1OtherRelationshiptoChild</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact 1 Other Relationship to Child</shortDescription>
+        <value>Contact 1 Other Relationship to Child</value>
+    </labels>
+    <labels>
+        <fullName>Contact1PreferredLanguage</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact 1 Preferred Language</shortDescription>
+        <value>Contact 1 Preferred Language</value>
+    </labels>
+    <labels>
+        <fullName>Contact1RelationshiptoChild</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact 1 Relationship to Child</shortDescription>
+        <value>Contact 1 Relationship to Child</value>
+    </labels>
+    <labels>
+        <fullName>Contact2Country</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact 2 Country</shortDescription>
+        <value>Contact 2 Country</value>
+    </labels>
+    <labels>
+        <fullName>Contact2Nationality</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact 2 Nationality</shortDescription>
+        <value>Contact 2 Nationality</value>
+    </labels>
+    <labels>
+        <fullName>Contact2OtherRelationship_to_Child</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact 2 Other Relationship to Child</shortDescription>
+        <value>Contact 2 Other Relationship to Child</value>
+    </labels>
+    <labels>
+        <fullName>Contact2PreferredLanguage</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact 2 Preferred Language</shortDescription>
+        <value>Contact 2 Preferred Language</value>
+    </labels>
+    <labels>
+        <fullName>Contact2RelationshiptoChild</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact 2 Relationship to Child</shortDescription>
+        <value>Contact 2 Relationship to Child</value>
+    </labels>
+    <labels>
+        <fullName>ContactDetails</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact Details</shortDescription>
+        <value>Contact Details</value>
+    </labels>
+    <labels>
+        <fullName>CreateOpportunity</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Create Opportunity?</shortDescription>
+        <value>Create Opportunity?</value>
+    </labels>
+    <labels>
+        <fullName>DateReceived</fullName>
+        <categories>LC04</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Date Received</shortDescription>
+        <value>Date Received</value>
+    </labels>
+    <labels>
+        <fullName>DocRequiredMessage</fullName>
+        <categories>AP11</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Document Checklists required message</shortDescription>
+        <value>Required documents should be submitted before advancing to next stage</value>
+    </labels>
+    <labels>
+        <fullName>DocumentChecklists</fullName>
+        <categories>LC04</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Document Checklists</shortDescription>
+        <value>Document Checklists</value>
+    </labels>
+    <labels>
+        <fullName>DuplicateOwner</fullName>
+        <categories>LC06</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Owner:</shortDescription>
+        <value>Owner:</value>
+    </labels>
+    <labels>
+        <fullName>EnquiryComments</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enquiry Comments</shortDescription>
+        <value>Enquiry Comments</value>
+    </labels>
+    <labels>
+        <fullName>EnquiryDetails</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enquiry Details</shortDescription>
+        <value>Enquiry Details</value>
+    </labels>
+    <labels>
+        <fullName>EthnicityofChild</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ethnicity of Child</shortDescription>
+        <value>Ethnicity of Child</value>
+    </labels>
+    <labels>
+        <fullName>ExpectedStartDate</fullName>
+        <categories>LC03</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Expected Start Date</shortDescription>
+        <value>Expected Start Date</value>
+    </labels>
+    <labels>
+        <fullName>ExpectedYearGradeofChild</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ExpectedYearGradeofChild</shortDescription>
+        <value>Expected Year Grade of Child</value>
+    </labels>
+    <labels>
+        <fullName>FamilyView</fullName>
+        <categories>LC03</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>360 Family View</shortDescription>
+        <value>360 Family View</value>
+    </labels>
+    <labels>
+        <fullName>FinancialContact</fullName>
+        <categories>LC03</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Financial Contact</shortDescription>
+        <value>Financial Contact</value>
+    </labels>
+    <labels>
+        <fullName>Gender</fullName>
+        <categories>LC03</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Gender</shortDescription>
+        <value>Gender</value>
+    </labels>
+    <labels>
+        <fullName>GenderofChild</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Gender of Child</shortDescription>
+        <value>Gender of Child</value>
+    </labels>
+    <labels>
+        <fullName>HasAttendedSummercamp</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Has Attended Summercamp?</shortDescription>
+        <value>Has Attended Summercamp?</value>
+    </labels>
+    <labels>
+        <fullName>InterestedinanOpenHouseVisit</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Interested in an Open House Visit?</shortDescription>
+        <value>Interested in an Open House Visit?</value>
+    </labels>
+    <labels>
+        <fullName>LeadCreateSuccessMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Lead Create Success Message</shortDescription>
+        <value>New Lead created.</value>
+    </labels>
+    <labels>
+        <fullName>LeadDetails</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Lead Details</shortDescription>
+        <value>Lead Details</value>
+    </labels>
+    <labels>
+        <fullName>LeadMethods</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Lead Method</shortDescription>
+        <value>Lead Method</value>
+    </labels>
+    <labels>
+        <fullName>LeadOwner</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Lead Owner</shortDescription>
+        <value>Lead Owner</value>
+    </labels>
+    <labels>
+        <fullName>LeadSource</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Lead Source</shortDescription>
+        <value>Lead Source</value>
+    </labels>
+    <labels>
+        <fullName>LeadStatus</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Lead Status</shortDescription>
+        <value>Lead Status</value>
+    </labels>
+    <labels>
+        <fullName>Loading</fullName>
+        <categories>LC07</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Loading..</shortDescription>
+        <value>Loading..</value>
+    </labels>
+    <labels>
+        <fullName>Merge</fullName>
+        <categories>LC03</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Merge</shortDescription>
+        <value>Merge</value>
+    </labels>
+    <labels>
+        <fullName>NationalityofChild</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Nationality of Child</shortDescription>
+        <value>Nationality of Child</value>
+    </labels>
+    <labels>
+        <fullName>NativeLanguageofChild</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Native Language of Child</shortDescription>
+        <value>Native Language of Child</value>
+    </labels>
+    <labels>
+        <fullName>NatureofRelationship</fullName>
+        <categories>LC03</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Nature of Relationship</shortDescription>
+        <value>Nature of Relationship</value>
+    </labels>
+    <labels>
+        <fullName>NoRecordsFound</fullName>
+        <categories>LC03</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No records found</shortDescription>
+        <value>No records found.</value>
+    </labels>
+    <labels>
+        <fullName>NumberofChildren</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Number of Children</shortDescription>
+        <value>Number of Children</value>
+    </labels>
+    <labels>
+        <fullName>OpportunityCloneSuccessMessage</fullName>
+        <categories>LC08</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opportunity Clone Success Message</shortDescription>
+        <value>Opportunity cloned successfully</value>
+    </labels>
+    <labels>
+        <fullName>OpportunityName</fullName>
+        <categories>LC03</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opportunity Name</shortDescription>
+        <value>Opportunity Name</value>
+    </labels>
+    <labels>
+        <fullName>PermissionMarketingInformation</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Permission Marketing Information</shortDescription>
+        <value>Permission (Marketing Information)</value>
+    </labels>
+    <labels>
+        <fullName>PotentialDuplicates</fullName>
+        <categories>LC06</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Potential Duplicates</shortDescription>
+        <value>Potential Duplicates</value>
+    </labels>
+    <labels>
+        <fullName>PrimaryContact</fullName>
+        <categories>LC03</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Primary Contact</shortDescription>
+        <value>Primary Contact</value>
+    </labels>
+    <labels>
+        <fullName>Received</fullName>
+        <categories>LC04</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Received</shortDescription>
+        <value>Received</value>
+    </labels>
+    <labels>
+        <fullName>RecordCreateSuccessMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Record Create Success Message</shortDescription>
+        <value>Record created successfully</value>
+    </labels>
+    <labels>
+        <fullName>RecordUpdateSuccessMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Record Update Success Message</shortDescription>
+        <value>Record updated successfully</value>
+    </labels>
+    <labels>
+        <fullName>ReferredBy</fullName>
+        <categories>LC03</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Referred By</shortDescription>
+        <value>Referred By</value>
+    </labels>
+    <labels>
+        <fullName>Requested</fullName>
+        <categories>LC04</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Requested</shortDescription>
+        <value>Requested</value>
+    </labels>
+    <labels>
+        <fullName>Required</fullName>
+        <categories>LC04</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Required</shortDescription>
+        <value>Required</value>
+    </labels>
+    <labels>
+        <fullName>Save</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>School</fullName>
+        <categories>LC06</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>School:</shortDescription>
+        <value>School:</value>
+    </labels>
+    <labels>
+        <fullName>Stage</fullName>
+        <categories>LC03</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Stage</shortDescription>
+        <value>Stage</value>
+    </labels>
+    <labels>
+        <fullName>VisitDetails</fullName>
+        <categories>LC02</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Details</shortDescription>
+        <value>Visit Details</value>
+    </labels>
+    <labels>
+        <fullName>error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>error</shortDescription>
+        <value>error</value>
+    </labels>
+    <labels>
+        <fullName>success</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>success</shortDescription>
+        <value>success</value>
+    </labels>
+</CustomLabels>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>China_BL</fullName>
+    <columns>NAME</columns>
+    <columns>School__c</columns>
+    <columns>Stage__c</columns>
+    <columns>Required__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>School__c</field>
+        <operation>contains</operation>
+        <value>FoShan,FangShan,NingBo,NanTong</value>
+    </filters>
+    <label>China_BL</label>
+    <sharedTo>
+        <role>China_BL</role>
+    </sharedTo>
+</ListView>

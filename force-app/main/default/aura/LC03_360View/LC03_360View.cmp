@@ -1,0 +1,36 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global"
+    controller="LC03_360View" >
+
+    <aura:attribute name="height" type="Integer"/>
+    <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+    <aura:handler event="lightning:tabRefreshed" action="{!c.init }"/> 
+    <aura:attribute name="lstFamily" type="list" access="global" default="[]"/>
+    <aura:attribute name="lstOpp" type="list"/>
+    <aura:attribute name="lstAcc" type="list"/>
+
+    <article class="slds-card ">
+        <div class="slds-card__header slds-grid">
+            <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                <div class="slds-media__figure">
+                    <lightning:icon iconName="standard:team_member" size="medium"/>
+                </div>
+                <div class="slds-media__body">
+                    <div class="slds-text-heading_small">
+                        {!$Label.c.FamilyView}
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="slds-card__body slds-card__body_inner">
+            <div class="slds-grid slds-grid_pull-padded-xx-small">
+                <div class="slds-col slds-p-horizontal_xx-small slds-box slds-m-around_x-small">
+                    <c:LC03_FamilyTree recordId="{!v.recordId}" lstFamily="{!v.lstFamily}" lstAcc="{!v.lstAcc}"/>
+                </div>
+
+                <div class="slds-col slds-p-horizontal_xx-small slds-box slds-m-around_x-small">
+                    <c:LC03_OppFamilyTree recordId="{!v.recordId}" opportunities="{!v.lstOpp}"/>
+                </div>
+            </div> 
+        </div>
+    </article>
+</aura:component>

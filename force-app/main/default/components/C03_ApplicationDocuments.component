@@ -1,0 +1,14 @@
+<apex:component controller="VFC03_ApplicationDocuments" access="global">
+	 <table border="0" >
+        <tr>
+            <th>Document Name</th>
+        </tr>
+        <apex:repeat var="doc" value="{!AppDocs}">
+            <tr>
+                <td>
+                    <apex:outputtext value="{!doc.Name}"/>
+                </td>
+            </tr>
+        </apex:repeat> 
+    </table> 
+</apex:component>

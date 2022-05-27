@@ -1,0 +1,50 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId,force:appHostable" access="global" controller="LC04_DocumentChecklist">
+    <aura:attribute name="docCheck" type="DocumentChecklist__c" access="public"/>
+    <aura:attribute name="displaySpinner" type="boolean" default="false"/>
+
+    <article class="slds-tile slds-hint-parent">
+        <div class="slds-grid slds-grid_align-spread slds-grid_vertical-align-center slds-has-flexi-truncate">
+            <h3 class="slds-tile__title slds-size_4-of-12" title="{! v.docCheck.Name}">
+                <a onclick="{!c.handleOpenChecklist}" data-checklist="{! v.docCheck.Id}">
+                    {! v.docCheck.Name}
+                </a>
+            </h3>
+            <div class="{! 'slds-size_2-of-12 ' + if(v.docCheck.Required__c, 'slds-show', 'slds-hide') }">
+                <div style="text-align: center;">
+                    <lightning:icon iconName="utility:success" title="Document is required!" alternativeText="required"  size="small" variant="warning"/>
+                </div>
+                <div style="text-align: center;">
+                    <label class="slds-form-element__label slds-p-left_small">  {!$Label.c.Required}</label>
+                </div>
+            </div>
+            <div class="{! 'slds-size_2-of-12 ' + if(v.docCheck.Required__c, 'slds-hide', 'slds-show') }">
+            </div>
+            <div class="slds-size_3-of-12" aura:id="outputDate">
+                <label class="slds-form-element__label">{!$Label.c.DateReceived}</label>
+                <div>
+                     <!--<ui:outputDate value="{! v.docCheck.DateReceived__c}" class="slds-truncate"/>-->
+                    <lightning:formattedDateTime timeZone="{! $Locale.timezone }" value="{! v.docCheck.DateReceived__c}"  class="slds-truncate" year="numeric" month="numeric" day="numeric"/> <!-- CRA- 20190213 -->
+                    <lightning:buttonIcon iconName="utility:edit"  onclick="{! c.displayDatePicker}" variant="bare" class="slds-m-left_x-small slds-p-bottom_x-small slds-float_right slds-m-right_x-small"/>
+                </div>
+            </div>
+            <div class="slds-size_3-of-12 slds-hide" aura:id="inputDate">
+                <label class="slds-form-element__label">{!$Label.c.DateReceived}</label>
+                <div>
+                    
+                    <ui:inputDate  value="{! v.docCheck.DateReceived__c}" displayDatePicker="true" change="{! c.saveDate}" blur="{! c.hideDatePicker}" />
+                </div>
+            </div>
+            <div class="slds-form-element">
+                <label class="slds-checkbox_toggle">
+                    <ui:inputCheckbox change="{!c.handleStatusChange}"  value="{! v.docCheck.Status__c == 'Received' }" updateOn="change"  />
+                    <span class="slds-checkbox_faux_container" aria-live="assertive">
+                        <span class="slds-checkbox_faux"></span>
+                        <span class="slds-checkbox_on">{!$Label.c.Received}</span>
+                        <span class="slds-checkbox_off">{!$Label.c.Requested}</span>
+                    </span>
+                </label>
+            </div>
+        </div>
+    </article>
+
+</aura:component>

@@ -1,0 +1,96 @@
+<aura:component controller="LC03_360View"  access="global">
+
+    <aura:attribute name="recordId" type="String" access="global"/>
+    <aura:attribute name="lstFamily" type="list" access="global" default="[]"/>
+    <aura:attribute name="lstAcc" type="list"/>
+    <aura:attribute name="show" type="Boolean" access="global" default="true" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+
+    <lightning:card iconName="custom:custom103" title="{!'Family Tree (' + v.lstAcc.length + ')'}" class="slds-scrollable_y" >
+        <lightning:spinner aura:id="spinner" variant="brand" size="medium" class="slds-hide"/>
+        
+        <aura:if isTrue="{! empty(v.lstFamily)}"  >
+            <div class="slds-text-color_weak slds-align_absolute-center italics">
+                {!$Label.c.NoRecordsFound}
+            </div>
+            <aura:set attribute="else">
+                <lightning:accordion allowMultipleSectionsOpen="true">
+                    <aura:iteration items="{!v.lstAcc}" var="acc" >
+                        <lightning:accordionSection name="{! acc.name}" label="{! acc.name}">
+                             <div class="slds-table "> 
+                                <div class="slds-grid slds-grid_vertical-align-center slds-p-bottom_xx-small slds-p-left_x-small">
+                                    <div class="{! v.show ? 'slds-text-title slds-p-horizontal_small slds-size_4-of-12' : 'slds-text-title slds-p-horizontal_small slds-size_3-of-12'}" aura:id="changeSizeName">
+                                        {!$Label.c.Contact}
+                                    </div>
+                                    <div class="slds-text-title slds-p-horizontal_small slds-size_2-of-12">
+                                        {!$Label.c.NatureofRelationship}
+                                    </div>
+                                     <div class="slds-text-title slds-p-horizontal_small slds-size_2-of-12">
+                                        {!$Label.c.Gender}
+                                    </div>
+                                    <div class="{! v.show ? 'slds-text-title slds-p-horizontal_small slds-size_1-of-12' : 'slds-text-title slds-p-horizontal_small slds-size_2-of-12' }" >
+                                        {!$Label.c.PrimaryContact}
+                                    </div>
+                                     <div class="{! v.show ? 'slds-text-title slds-p-horizontal_small slds-size_1-of-12' : 'slds-text-title slds-p-horizontal_small slds-size_2-of-12' }">
+                                        {!$Label.c.FinancialContact}
+                                    </div>
+                                    <!--<aura:if isTrue="{! v.show }">   //CRA20200723 - Comment due to Merge Functionality Non usage                                    
+                                        <div class="slds-text-title slds-p-horizontal_small  slds-size_1-of-12">
+                                            {!$Label.c.Merge}
+                                        </div>
+                                    </aura:if> -->
+                                    <div class="slds-text-title slds-size_1-of-12 slds-text-heading_small title">
+                           
+                                    </div>
+                                </div>
+                                <aura:iteration var="family" items="{! v.lstFamily}" indexVar="rowNum">
+                                    <aura:if isTrue="{!family.accId == acc.accId}">
+                                        <div class="slds-grid slds-grid_vertical-align-center slds-p-bottom_xx-small slds-p-left_x-small table-border-top">
+                                            <div class="{! v.show ? 'slds-p-horizontal_small slds-p-top_xx-small  slds-size_4-of-12' : 'slds-p-horizontal_small slds-p-top_xx-small  slds-size_3-of-12' }">
+                                                <lightning:icon iconName="standard:contact" size="x-small" variant="inverse" />
+                                                <a onclick="{!c.handleClick}"  data-contact="{!family.contId}" class="{! if(family.RecordType.Name == 'Family', 'text-bold', '')+ ' slds-p-left_xx-small'}" title="{! family.lname}" >
+                                                    {! if(empty(family.pname), 
+                                                    family.fname+' '+family.lname, 
+                                                    family.fname+' '+family.pname+' '+family.lname ) }
+                                                    {! if(empty(family.prname), 
+                                                    '', 
+                                                    ' (' + family.prname +')' ) }
+                                                    
+                                                    
+                                                </a>
+                                            </div>
+                                            <div class="slds-p-horizontal_small slds-size_2-of-12">
+                                                {!family.relationship}
+                                            </div>
+                                             <div class="slds-p-horizontal_small slds-size_2-of-12">
+                                                {!family.gender}
+                                            </div>
+                                            <div class="{! v.show ? 'slds-m-left-medium slds-p-horizontal_small  slds-size_1-of-12' : 'slds-m-left-medium slds-p-horizontal_small  slds-size_2-of-12' }">
+                                                <ui:inputCheckbox value="{!family.isPrimary}" change="{! c.handlePrimaryContact}" text="{!family.accContId}"/>
+                                            </div>
+                                            <div class="{! v.show ? 'slds-p-horizontal_small slds-size_1-of-12' : 'slds-p-horizontal_small slds-size_2-of-12' }">
+                                                <ui:inputCheckbox value="{!family.isFinancial}" change="{! c.handleFinancialContact}" text="{!family.accContId}"/>
+                                            </div>
+                                            <!--<aura:if isTrue="{! v.show}">  //CRA20200723 - Comment due to Merge Functionality Non usage
+                                                <div class="slds-p-horizontal_small slds-size_1-of-12"> 
+                                                    <ui:inputCheckbox class="{! family.className}" disabled="{!family.isDisabled}" value="{!family.isMerged}" change="{!c.handleMergeContact}" text="{!family.contId}"/>   
+                                                </div>
+                                            </aura:if> -->
+                                             <div class = "waitlisted slds-size_1-of-12 slds-align_absolute-center slds-text-color_weak slds-text-body_small">
+                                                <aura:if isTrue="{!family.hasDuplicates}" >
+                                                    <!-- <lightning:icon iconName="custom:custom95" size="small" alternativeText="Duplicate contact" title="Duplicate contact" variant="warning"/> -->
+                                                <img src="{! $Resource.DuplicateIcon}" class = "slds-avatar--x-small" size="small" alternativeText="Duplicate contact" title="Duplicate contact" />
+
+                                                </aura:if>
+                                            </div>
+                                        </div>
+                                    </aura:if>
+                                </aura:iteration>
+                            </div>
+                        </lightning:accordionSection>
+                    </aura:iteration>
+                </lightning:accordion>
+            </aura:set>
+        </aura:if>
+    </lightning:card>
+</aura:component>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>CREATED_DATE</columns>
+    <columns>NAME</columns>
+    <columns>Day_Boarding__c</columns>
+    <columns>Region__c</columns>
+    <columns>School_Name__c</columns>
+    <columns>Sub_Region__c</columns>
+    <columns>Total_Enquiry_Lead__c</columns>
+    <columns>Total_Enquiry_Oppty__c</columns>
+    <columns>Total_Visit__c</columns>
+    <columns>Visit_Event_Type__c</columns>
+    <columns>Total_Application__c</columns>
+    <columns>Total_Of_Enquiries_FY21__c</columns>
+    <columns>Total_Of_Visits_FY21__c</columns>
+    <columns>Total_Of_Applications_FY21__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

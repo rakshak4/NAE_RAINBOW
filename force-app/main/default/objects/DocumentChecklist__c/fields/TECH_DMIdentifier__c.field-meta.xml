@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TECH_DMIdentifier__c</fullName>
+    <description>Field used to identify record updated via data migration. The identifier is MidtierContactId - ApplicationDocumentId</description>
+    <externalId>false</externalId>
+    <label>TECH_DMIdentifier</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

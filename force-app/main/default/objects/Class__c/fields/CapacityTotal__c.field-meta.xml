@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CapacityTotal__c</fullName>
+    <externalId>false</externalId>
+    <label>Capacity Total</label>
+    <summarizedField>ClassCapacity__c.CapacityTotal__c</summarizedField>
+    <summaryFilterItems>
+        <field>ClassCapacity__c.CurrentYear__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>ClassCapacity__c.Class__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

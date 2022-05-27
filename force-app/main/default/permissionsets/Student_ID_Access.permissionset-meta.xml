@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>For BF testing</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Student_ID_from_iSAMS__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Student ID Access</label>
+    <license>Salesforce</license>
+</PermissionSet>

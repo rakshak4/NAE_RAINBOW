@@ -1,0 +1,7 @@
+<apex:component controller="VF10_EmailTemplateController" access="global">
+
+    <apex:attribute name="emailBody" description="Email Body" assignTo="{!ctrlEmailBody}" type="String" />
+
+    <apex:outputText value="{!EnhancedEmailBody}"  escape="false" />
+
+</apex:component>

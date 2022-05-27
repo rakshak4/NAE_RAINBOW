@@ -1,0 +1,7 @@
+<design:component >
+    <design:attribute name ="fieldSetName" label="Field Set Name" required="true" description="Standard fieldset from the object for the datatable's columns"/>
+    <design:attribute name="objectList" required="true" label="Lead Record List" description="A list of lead records to display"/> 
+    <design:attribute name ="dataTableHeight" label="Datatable Height" required="true" description="Datatable Height (Integer). Minimum height is 100px" default="250"/>
+    <design:attribute name="disableRowSelect" label="Disable Row Selection?" description="Input 'true' to disable or 'false' to enable row selection" datasource="false,true" default="true" />
+    <design:attribute name="selectedRecordId" label="Selected Record ID Flow Variable" description="Flow variable (Text) to store selected record id"/>
+</design:component>

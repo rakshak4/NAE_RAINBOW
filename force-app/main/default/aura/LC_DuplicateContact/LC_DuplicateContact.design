@@ -1,0 +1,5 @@
+<design:component >
+    <design:attribute name="lstExistingContact" required="true" label="Existing Duplicate Contact Record List"/>
+    <design:attribute name="lstNewContact" required="true" label="New Duplicate Contact Record List"/>   
+    <design:attribute name="lstModifiedContact" label="Output: Modified Contact Record List"/>   
+</design:component>

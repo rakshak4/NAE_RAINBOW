@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Contract_BAC_Confirm_completion_by_Student</fullName>
+        <description>Contract - BAC Confirm completion by Student</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Confirmation_Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@bischarlotte.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Reenrolment_templates/Contract_BAC_Confirmation_of_Completion</template>
+    </alerts>
+    <alerts>
+        <fullName>Contract_BCL_Confirm_completion_by_Student</fullName>
+        <description>Contract - BCL Confirm completion by Student</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Confirmation_Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@bischicagolp.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Reenrolment_templates/Contract_BCL_Confirmation_of_Completion</template>
+    </alerts>
+    <alerts>
+        <fullName>Contract_BCS_Confirm_completion_by_Student</fullName>
+        <description>Contract - BCS Confirm completion by Student</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Confirmation_Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@bischicagosl.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Reenrolment_templates/Contract_BCS_Confirmation_of_Completion</template>
+    </alerts>
+    <alerts>
+        <fullName>Contract_BHO_Confirm_completion_by_Student</fullName>
+        <description>Contract - BHO Confirm completion by Student</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Confirmation_Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>enrollment@houston.nae.school</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Reenrolment_templates/Contract_BHO_Confirmation_of_Completion</template>
+    </alerts>
+    <alerts>
+        <fullName>Contract_BOS_Confirm_completion_by_Student</fullName>
+        <description>Contract - BOS Confirm completion by Student</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Confirmation_Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>enrollment@bisboston.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Reenrolment_templates/Contract_BOS_Confirmation_of_Completion</template>
+    </alerts>
+    <alerts>
+        <fullName>Contract_Confirm_completion_by_Student</fullName>
+        <description>Contract - Confirm completion by Student</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Confirmation_Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Reenrolment_templates/Confirmation_of_Completion</template>
+    </alerts>
+    <alerts>
+        <fullName>Contract_NBP_Confirm_completion_by_Student</fullName>
+        <description>Contract - NBP Confirm completion by Student</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Confirmation_Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@nbps.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Reenrolment_templates/Contract_NBP_Confirmation_of_Completion</template>
+    </alerts>
+    <alerts>
+        <fullName>Contract_SNY_Confirm_completion_by_Student</fullName>
+        <description>Contract - SNY Confirm completion by Student</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Confirmation_Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@ny.nae.school</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Reenrolment_templates/Contract_SNY_Confirmation_of_Completion</template>
+    </alerts>
+    <alerts>
+        <fullName>Contract_VIL_Confirm_completion_by_Student</fullName>
+        <description>Contract - VIL Confirm completion by Student</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Confirmation_Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@thevillageschool.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Reenrolment_templates/Contract_VIL_Confirmation_of_Completion</template>
+    </alerts>
+    <alerts>
+        <fullName>Contract_WAS_Confirm_completion_by_Student</fullName>
+        <description>Contract - WAS Confirm completion by Student</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Confirmation_Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@biswashington.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Reenrolment_templates/Contract_WAS_Confirmation_of_Completion</template>
+    </alerts>
+    <alerts>
+        <fullName>Contract_WPS_Confirm_completion_by_Student</fullName>
+        <description>Contract - WPS Confirm completion by Student</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Confirmation_Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@windermereprep.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Reenrolment_templates/Contract_WPS_Confirmation_of_Completion</template>
+    </alerts>
+    <alerts>
+        <fullName>FA_Form_New_or_Updated_Application_Recieved</fullName>
+        <description>FA Form - New or Updated Application Received</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Admissions_central_email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/FA_Form_on_Opportunity</template>
+    </alerts>
+    <alerts>
+        <fullName>FA_Form_New_or_Updated_Application_Recieved_American</fullName>
+        <description>FA Form - New or Updated Application Received American</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Admissions_central_email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/FA_FormOpportunityAmerican</template>
+    </alerts>
+    <alerts>
+        <fullName>North_Broward_BAM_Alert_for_Opportunities</fullName>
+        <ccEmails>na.boarding@nordanglia.com</ccEmails>
+        <description>North Broward BAM Alert for Opportunities</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>North_Broward_BAM</recipient>
+            <type>role</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/FA_Form_on_Opportunity_for_BAMs</template>
+    </alerts>
+    <alerts>
+        <fullName>OPP_SendOwnerNotificationStarted</fullName>
+        <description>Opportunity: Opp started email notification</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>NAE/OPP_OppStartedEmailNotif</template>
+    </alerts>
+    <alerts>
+        <fullName>OPP_SendReEnrollmentEmail</fullName>
+        <description>Send email alert to parents for re enrollement</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ParentEmail__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>NAE/OPP_AOfferOutNotification</template>
+    </alerts>
+    <alerts>
+        <fullName>Opp_startdate_change_or_stage_enrolled</fullName>
+        <description>Opp start date change or stage becomes enrolled</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>BCB_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>admissions-bcb@britishcollegebrazil.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Opportunity_startDateChangeStageEnrolled</template>
+    </alerts>
+    <alerts>
+        <fullName>Opportunity_Assessment_Done</fullName>
+        <description>Opportunity Assessment Done</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>NAE/OPP_AssessmentDoneNotification</template>
+    </alerts>
+    <alerts>
+        <fullName>Village_BAM_Alert_for_Opportunities</fullName>
+        <ccEmails>na.boarding@nordanglia.com</ccEmails>
+        <description>Village BAM Alert for Opportunities</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Village_BAM</recipient>
+            <type>role</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/FA_Form_on_Opportunity_for_BAMs</template>
+    </alerts>
+    <alerts>
+        <fullName>Windermere_BAM_Alert_for_Opportunities</fullName>
+        <ccEmails>na.boarding@nordanglia.com</ccEmails>
+        <description>Windermere BAM Alert for Opportunities</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Windermere_BAM</recipient>
+            <type>role</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/FA_Form_on_Opportunity_for_BAMs</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Admissions_Officer_Central_Eail</fullName>
+        <field>Admissions_central_email__c</field>
+        <formula>SchoolOfInterest__r.School_Admissions_Team_Email_Address__c</formula>
+        <name>Admissions Officer Central Email</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Admissions_Officer_Central_Email</fullName>
+        <description>Add the Central Admissions Email address to the opportunity</description>
+        <field>Admissions_central_email__c</field>
+        <formula>SchoolOfInterest__r.School_Admissions_Team_Email_Address__c</formula>
+        <name>Admissions Officer Central Email</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_to_Enrolled</fullName>
+        <description>Change to enrolled stage when the deposit received field is updated to be External payment confirmed</description>
+        <field>StageName</field>
+        <literalValue>Enrolled</literalValue>
+        <name>Change to Enrolled</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>OPP_UpdateApplicationStartDate</fullName>
+        <description>Update application start date of opportunity to TODAY</description>
+        <field>ApplicationStartDate__c</field>
+        <formula>TODAY()</formula>
+        <name>OPP_UpdateApplicationStartDate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>OPP_UpdateAssessmentCompletedDate</fullName>
+        <field>ApplicationAssessmentCompletedDate__c</field>
+        <formula>TODAY()</formula>
+        <name>OPP_UpdateAssessmentCompletedDate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>OPP_UpdateDeferredStartDate</fullName>
+        <field>Deferred_Start_Date__c</field>
+        <formula>TODAY()</formula>
+        <name>OPP_UpdateDeferredStartDate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>UpdateTechFields</fullName>
+        <field>TECH_IsSentToMidtier__c</field>
+        <literalValue>0</literalValue>
+        <name>UpdateTechFields</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Corporate Account</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Opportunity.Parent_Corporate_Account__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Add in the corporate account</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>North Broward BAM</fullName>
+        <actions>
+            <name>North_Broward_BAM_Alert_for_Opportunities</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <criteriaItems>
+            <field>Opportunity.Name_s_of_Other_Schools_Interested_in__c</field>
+            <operation>contains</operation>
+            <value>North Broward</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Preferred_School__c</field>
+            <operation>contains</operation>
+            <value>North Broward</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.DayOrBoardingSchool__c</field>
+            <operation>contains</operation>
+            <value>Boarding</value>
+        </criteriaItems>
+        <description>If North Broward school is named as an alternative school email the BAM</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>OPP_ApplicationStartDate</fullName>
+        <actions>
+            <name>OPP_UpdateApplicationStartDate</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 		NOT($Setup.CS_Bypass__c.BypassValidationRules__c), 		ISPICKVAL(StageName,&apos;Application&apos;) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>OPP_DeferredStartDate</fullName>
+        <actions>
+            <name>OPP_UpdateDeferredStartDate</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Auto populate &apos;deferred start date&apos; when the Opportunity stage is selected as &quot;Deferred&quot;</description>
+        <formula>AND( 		NOT($Setup.CS_Bypass__c.BypassValidationRules__c), 		ISPICKVAL(StageName,&apos;Deferred&apos;) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>OPP_SendOwnerNotificationStarted</fullName>
+        <actions>
+            <name>OPP_SendOwnerNotificationStarted</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND(  NOT($Setup.CS_Bypass__c.BypassWorkflows__c),  ISPICKVAL(StageName ,&apos;Started&apos;) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Opp - Add Email address from School</fullName>
+        <actions>
+            <name>Admissions_Officer_Central_Email</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Name</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Add the admissions email address to all the opportunities - used for the central email trigger for notification</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Opp_StartDateChangeStageEnrol</fullName>
+        <actions>
+            <name>Opp_startdate_change_or_stage_enrolled</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Fires every time the starting date of a opportunity is changed or when an opportunity is changed to the enrolled stage in SF.</description>
+        <formula>AND ( SchoolOfInterest__r.SchoolCode__c = &apos;BCB&apos;,
+OR (ISCHANGED(CloseDate),
+AND(ISCHANGED(StageName)) &amp;&amp; ISPICKVAL(StageName,&quot;Enrolled&quot;)))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Opportunity Assessment Done</fullName>
+        <actions>
+            <name>OPP_UpdateAssessmentCompletedDate</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>This fires when an assessment is done</description>
+        <formula>AND(NOT( $Setup.CS_Bypass__c.BypassWorkflows__c ), AssessmentDone__c )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update to Enrolled Stage</fullName>
+        <actions>
+            <name>Change_to_Enrolled</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Opportunity.Deposit_Received__c</field>
+            <operation>equals</operation>
+            <value>Deposit Form</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Deposit_Received__c</field>
+            <operation>equals</operation>
+            <value>External Payment Confirmed</value>
+        </criteriaItems>
+        <description>Update to enrolled stage when the record deposit field is on External payment confirmed</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Village BAM</fullName>
+        <actions>
+            <name>Village_BAM_Alert_for_Opportunities</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <criteriaItems>
+            <field>Opportunity.Name_s_of_Other_Schools_Interested_in__c</field>
+            <operation>contains</operation>
+            <value>Village</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Preferred_School__c</field>
+            <operation>contains</operation>
+            <value>Village</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.DayOrBoardingSchool__c</field>
+            <operation>equals</operation>
+            <value>Boarding</value>
+        </criteriaItems>
+        <description>If Village school is named as an alternative school email the BAM</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Windermere BAM</fullName>
+        <actions>
+            <name>Windermere_BAM_Alert_for_Opportunities</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <criteriaItems>
+            <field>Opportunity.Name_s_of_Other_Schools_Interested_in__c</field>
+            <operation>contains</operation>
+            <value>Windermere</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Preferred_School__c</field>
+            <operation>contains</operation>
+            <value>Windermere</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.DayOrBoardingSchool__c</field>
+            <operation>equals</operation>
+            <value>Boarding</value>
+        </criteriaItems>
+        <description>If Windermere school is named as an alternative school email the BAM</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

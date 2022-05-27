@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AP - Advanced Placement (Exams)</fullName>
+        <default>false</default>
+        <label>AP - Advanced Placement (Exams)</label>
+    </customValue>
+    <customValue>
+        <fullName>A level (UK based)</fullName>
+        <default>false</default>
+        <label>A level (UK based)</label>
+    </customValue>
+    <customValue>
+        <fullName>EYFS – Early Years Foundation Stage (UK)</fullName>
+        <default>false</default>
+        <label>EYFS – Early Years Foundation Stage (UK)</label>
+    </customValue>
+    <customValue>
+        <fullName>ENC – English National Curriculum</fullName>
+        <default>false</default>
+        <label>ENC – English National Curriculum</label>
+    </customValue>
+    <customValue>
+        <fullName>FB - French Bacc. Examination</fullName>
+        <default>false</default>
+        <label>FB - French Bacc. Examination</label>
+    </customValue>
+    <customValue>
+        <fullName>GCSE /iGCSE - General Certificate of Sec Education Exams</fullName>
+        <default>false</default>
+        <label>GCSE /iGCSE - General Certificate of Sec Education Exams</label>
+    </customValue>
+    <customValue>
+        <fullName>German – German Primary School</fullName>
+        <default>false</default>
+        <label>German – German Primary School</label>
+    </customValue>
+    <customValue>
+        <fullName>IB Diploma - International Bacc. Diploma Examinations</fullName>
+        <default>false</default>
+        <label>IB Diploma - International Bacc. Diploma Examinations</label>
+    </customValue>
+    <customValue>
+        <fullName>IBCP – International Bacc. Careers Programme</fullName>
+        <default>false</default>
+        <label>IBCP – International Bacc. Careers Programme</label>
+    </customValue>
+    <customValue>
+        <fullName>IEYC – International Early Years Curriculum</fullName>
+        <default>false</default>
+        <label>IEYC – International Early Years Curriculum</label>
+    </customValue>
+    <customValue>
+        <fullName>IMYC - International Middle Years Curriculum</fullName>
+        <default>false</default>
+        <label>IMYC - International Middle Years Curriculum</label>
+    </customValue>
+    <customValue>
+        <fullName>IPC - International Primary Curriculum</fullName>
+        <default>false</default>
+        <label>IPC - International Primary Curriculum</label>
+    </customValue>
+    <customValue>
+        <fullName>Mat Suisse - Maturite Suisse Examination</fullName>
+        <default>false</default>
+        <label>Mat Suisse - Maturite Suisse Examination</label>
+    </customValue>
+    <customValue>
+        <fullName>MYP - Middle Years Programme (IB based)</fullName>
+        <default>false</default>
+        <label>MYP - Middle Years Programme (IB based)</label>
+    </customValue>
+    <customValue>
+        <fullName>NTC - Nederlandse Taal en Cultuur</fullName>
+        <default>false</default>
+        <label>NTC - Nederlandse Taal en Cultuur</label>
+    </customValue>
+    <customValue>
+        <fullName>PYP - Primary Years Programme (IB based)</fullName>
+        <default>false</default>
+        <label>PYP - Primary Years Programme (IB based)</label>
+    </customValue>
+    <customValue>
+        <fullName>Sh. Dutch – Shanghai Dutch School</fullName>
+        <default>false</default>
+        <label>Sh. Dutch – Shanghai Dutch School</label>
+    </customValue>
+    <customValue>
+        <fullName>SNC - Shanghai National Curriculum</fullName>
+        <default>false</default>
+        <label>SNC - Shanghai National Curriculum</label>
+    </customValue>
+    <customValue>
+        <fullName>Close</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Close</label>
+    </customValue>
+    <description>List of curricula</description>
+    <masterLabel>Curriculum</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

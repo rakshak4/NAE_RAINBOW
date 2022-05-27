@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Corporate</fullName>
+        <default>false</default>
+        <label>Corporate</label>
+    </customValue>
+    <customValue>
+        <fullName>Early Payment</fullName>
+        <default>false</default>
+        <label>Early Payment</label>
+    </customValue>
+    <customValue>
+        <fullName>Financial Aid</fullName>
+        <default>false</default>
+        <label>Financial Aid</label>
+    </customValue>
+    <customValue>
+        <fullName>Landlord</fullName>
+        <default>false</default>
+        <label>Landlord</label>
+    </customValue>
+    <customValue>
+        <fullName>Non-Tuition</fullName>
+        <default>false</default>
+        <label>Non-Tuition</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment</fullName>
+        <default>false</default>
+        <label>Payment</label>
+    </customValue>
+    <customValue>
+        <fullName>Scholarship</fullName>
+        <default>false</default>
+        <label>Scholarship</label>
+    </customValue>
+    <customValue>
+        <fullName>Sibling</fullName>
+        <default>false</default>
+        <label>Sibling</label>
+    </customValue>
+    <customValue>
+        <fullName>Staff</fullName>
+        <default>false</default>
+        <label>Staff</label>
+    </customValue>
+    <customValue>
+        <fullName>Early Pay</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Early Pay</label>
+    </customValue>
+    <masterLabel>Discount Type</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

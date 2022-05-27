@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>Dover Court International School, Singapore Admissions Officer</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Dover Court International School, Singapore Admissions Officer</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>Dover_Court_International_School_Singapore_DAM</parentRole>
+</Role>

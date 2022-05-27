@@ -1,0 +1,59 @@
+<apex:page standardController="opportunity" extensions="AP19_MassCloneAndClose" lightningStylesheets="true" recordSetVar="opp"> 
+    <!-- <apex:includeLightning /> -->
+    <apex:pageMessages />
+    <apex:slds />
+    
+    <div class="slds-scope slds-align_absolute-center">        
+        <apex:form >
+            <apex:pageBlock >
+                <apex:pageBlockSection title="Clone Opportunity" >
+                    <apex:selectList id="chooseColor" size="1" value="{!stageName}">
+                        <apex:outputLabel >Select close stage:   </apex:outputLabel> <br/>
+                        <apex:selectOption itemValue="Lost" itemLabel="Lost"/>
+                        <apex:selectOption itemValue="Denied" itemLabel="Denied"/>
+                        <apex:selectOption itemValue="Deferred" itemLabel="Deferred"/>
+                    </apex:selectList> 
+                    <br/>
+                    <br/>
+                    <apex:inputTextarea id="a" value="{!Lost_Reason_Description}"  html-placeholder="Lost Reason description">
+                        <apex:outputLabel >Lost Reason Description:   </apex:outputLabel> <br/>
+                    </apex:inputTextarea>
+    				
+                    <br/>
+                    <apex:actionRegion >
+                        <div >
+                             <apex:commandbutton action="{!MassClone}"  value="Clone"  Styleclass="slds-button slds-button_brand"/>
+							 <apex:commandbutton action="{!cancel}"  value="Cancel"/>
+   						 </div>
+                       
+                    </apex:actionRegion>
+                </apex:pageBlockSection>
+            </apex:pageBlock>
+        </apex:form>
+    </div>
+    
+    <script>
+        var lstOpportunities = JSON.parse('{!serializedList }');
+        console.log(lstOpportunities);
+        if(lstOpportunities.length > 0){
+                $Lightning.use("c:LC08_CloneOpportunityApp", function() {
+                $Lightning.createComponent("c:LC09_CloneOpportunityBulk",
+                        {
+                            "lstOpportunities" : lstOpportunities
+                        },
+                        "CloneClose",
+                        function(cmp) {
+                            console.log('>>>>> App is hosted');
+                        });
+            });
+        }
+    
+        function close(){
+            //window.parent.location.href = '/lightning/o/Opportunity/list?filterName=Recent';
+            //sforce.one.navigateToURL("/lightning/o/Opportunity/list?filterName=Recent");
+            console.log("doAction()");
+            doAction();
+        }
+    
+    </script>    
+</apex:page>

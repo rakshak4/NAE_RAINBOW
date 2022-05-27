@@ -1,0 +1,171 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" controller="LC11_PreNurseryTable" >
+    <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+    <aura:handler event="lightning:tabRefreshed" action="{!c.refresh }"/>
+    <aura:attribute name="thisOpp" type="Opportunity"/>
+    <aura:attribute name="region" type="String" default="IDK"/>
+
+    <div class="slds-form-element">
+        
+    </div>
+    
+    
+    <div class="slds-page-header">
+        <div class="slds-page-header__row">
+            <div class="slds-page-header__col-title">
+                <div class="slds-media">
+                    <div class="slds-media__figure">
+                        <span class="slds-icon_container slds-icon-standard-opportunity">
+                        </span>
+                    </div>
+                    <div class="slds-media__body">
+                        <div class="slds-page-header__name">
+                            <div class="slds-page-header__name-title">
+                                <h1>
+                                    <span class="slds-card__header-link slds-truncate slds-text-heading_small" title="early years">Early Years</span>
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+   
+    <article class="slds-card">
+        <div class="slds-card__header slds-grid">
+            
+            <table style="width:100%;">
+                <tr>
+                    <label></label>
+                    <aura:if isTrue="{!v.region == 'ME'}">
+                        <th class="aligncenter">Sunday</th>    
+                    </aura:if>  
+                    <th class="aligncenter">Monday</th> 
+                    <th class="aligncenter">Tuesday</th>
+                    <th class="aligncenter">Wednesday</th>
+                    <th class="aligncenter">Thursday</th>
+                    <aura:if isTrue="{!v.region != 'ME'}">
+                        <th class="aligncenter">Friday</th>
+                    </aura:if>
+                </tr>
+                <tr>
+                    <td><b>AM</b></td>
+                    <aura:if isTrue="{!v.region == 'ME'}">
+                        <td  class="aligncenter">
+                            <div class="slds-form-element__control;">
+                                <div class="slds-checkbox">
+                                    <lightning:input type="checkbox" name="chk1" aura:id="chk11" value="{!v.thisOpp.TECH_EarlyYSunAM__c}" onchange="{! c.saveOpp }" checked="{!v.thisOpp.TECH_EarlyYSunAM__c}" />
+                                </div>
+                            </div>
+                        </td> 
+                    </aura:if> 
+                    <td  class="aligncenter">
+                        <div class="slds-form-element__control;">
+                            <div class="slds-checkbox">
+                                <lightning:input type="checkbox" name="chk1" aura:id="chk1" value="{!v.thisOpp.TECH_EarlyYMonAM__c}" onchange="{! c.saveOpp }" checked="{!v.thisOpp.TECH_EarlyYMonAM__c}" />
+                            </div>
+                        </div>
+                    </td> 
+                    <td  class="aligncenter">
+                        <div class="slds-form-element;">
+                            <div class="slds-form-element__control">
+                                <div class="slds-checkbox">
+                                    <lightning:input type="checkbox" name="chk2" aura:id="chk2" value="{!v.thisOpp.TECH_EarlyYTuesAM__c}" onchange="{! c.saveOpp }" checked="{!v.thisOpp.TECH_EarlyYTuesAM__c}" />
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td  class="aligncenter">
+                        <div class="slds-form-element;">
+                            <div class="slds-form-element__control">
+                                <div class="slds-checkbox">
+                                    <lightning:input type="checkbox" name="chk3" aura:id="chk3" value="{!v.thisOpp.TECH_EarlyYWedAM__c}" onchange="{! c.saveOpp }" checked="{!v.thisOpp.TECH_EarlyYWedAM__c}" />
+                                </div>
+                            </div>
+                        </div>
+                    </td> 
+                    <td  class="aligncenter">
+                        <div class="slds-form-element;">
+                            <div class="slds-form-element__control">
+                                <div class="slds-checkbox">
+                                    <lightning:input type="checkbox" name="chk4" aura:id="chk4" value="{!v.thisOpp.TECH_EarlyYThurAM__c}" onchange="{! c.saveOpp }" checked="{!v.thisOpp.TECH_EarlyYThurAM__c}" />
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <aura:if isTrue="{!v.region != 'ME'}">
+                        <td  class="aligncenter">
+                            <div class="slds-form-element;">
+                                <div class="slds-form-element__control">
+                                    <div class="slds-checkbox">
+                                        <lightning:input type="checkbox" name="chk5" aura:id="chk5" value="{!v.thisOpp.TECH_EarlyYFriAM__c}" onchange="{! c.saveOpp }" checked="{!v.thisOpp.TECH_EarlyYFriAM__c}" />
+                                    </div>
+                                </div>
+                            </div>
+                        </td> 
+                    </aura:if>
+                </tr>
+                <tr>
+                    <td><b>PM</b></td>
+                    <aura:if isTrue="{!v.region == 'ME'}">
+                        <td  class="aligncenter">
+                            <div class="slds-form-element__control;">
+                                <div class="slds-checkbox">
+                                    <lightning:input type="checkbox" name="chk1" aura:id="chk11" value="{!v.thisOpp.TECH_EarlyYSunPM__c}" onchange="{! c.saveOpp }" checked="{!v.thisOpp.TECH_EarlyYSunPM__c}" />
+                                </div>
+                            </div>
+                        </td> 
+                    </aura:if>                    
+                    <td class="aligncenter">  
+                        <div class="slds-form-element;">
+                            <div class="slds-form-element__control">
+                                <div class="slds-checkbox">
+                                    <lightning:input type="checkbox" name="chk6" aura:id="chk6" value="{!v.thisOpp.TECH_EarlyYMonPM__c}" onchange="{! c.saveOpp }" checked="{!v.thisOpp.TECH_EarlyYMonPM__c}" />
+                                </div>
+                            </div>
+                        </div>
+                    </td> 
+                    <td class="aligncenter">
+                        <div class="slds-form-element;">
+                            <div class="slds-form-element__control">
+                                <div class="slds-checkbox">
+                                    <lightning:input type="checkbox" name="chk7" aura:id="chk7" value="{!v.thisOpp.TECH_EarlyYTuesPM__c}" onchange="{! c.saveOpp }" checked="{!v.thisOpp.TECH_EarlyYTuesPM__c}" />
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="aligncenter">
+                        <div class="slds-form-element;">
+                            <div class="slds-form-element__control">
+                                <div class="slds-checkbox">
+                                    <lightning:input type="checkbox" name="chk8" aura:id="chk8" value="{!v.thisOpp.TECH_EarlyYWedPM__c}" onchange="{! c.saveOpp }" checked="{!v.thisOpp.TECH_EarlyYWedPM__c}" />
+                                </div>
+                            </div>
+                        </div>
+                    </td> 
+                    <td class="aligncenter">
+                        <div class="slds-form-element;">
+                            <div class="slds-form-element__control">
+                                <div class="slds-checkbox">
+                                    <lightning:input type="checkbox" name="chk9" aura:id="chk9" value="{!v.thisOpp.TECH_EarlyYThurPM__c}" onchange="{! c.saveOpp }" checked="{!v.thisOpp.TECH_EarlyYThurPM__c}" />
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <aura:if isTrue="{!v.region != 'ME'}">
+                        <td class="aligncenter">
+                            <div class="slds-form-element;;">
+                                <div class="slds-form-element__control">
+                                    <div class="slds-checkbox">
+                                        <lightning:input type="checkbox" name="chk10" aura:id="chk10" value="{!v.thisOpp.TECH_EarlyYFriPM__c}" onchange="{! c.saveOpp }" checked="{!v.thisOpp.TECH_EarlyYFriPM__c}" />
+                                    </div>
+                                </div>
+                            </div>
+                        </td> 
+                    </aura:if>
+                </tr>
+            </table>
+        </div>
+    </article>
+</aura:component>

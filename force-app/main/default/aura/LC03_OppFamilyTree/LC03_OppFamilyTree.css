@@ -1,0 +1,32 @@
+.THIS {
+}
+
+.THIS .italics{
+    font-style: italic;
+}
+
+.THIS .table-border-top{
+    border-top: 1px solid rgb(221, 219, 218);
+}
+
+.THIS .text-bold{
+    font-weight: bold;
+}
+
+.THIS .title{
+    font-size: inherit !important;;
+}
+
+.THIS .waitlisted .slds-icon-custom-custom95, .THIS .waitlisted .slds-icon-custom-95{
+    background-color: rgb(255, 183, 93);
+}
+
+.THIS .waitlisted .slds-icon_container, .THIS .waitlisted .slds-icon__container {
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.THIS .iconSize svg {
+    width: 0.75rem;
+    height: 0.75rem;
+}

@@ -1,0 +1,11 @@
+<apex:component controller="VF10_EmailTemplateController" access="global">
+    <apex:attribute name="imageName" description="File Name to Render" assignTo="{!fileName}" type="String" />
+    <apex:attribute name="imageWidth" description="Width of Image" assignTo="{!customImageWidth}" type="String" />
+    <apex:attribute name="imageAlignment" description="Alignment of Image" assignTo="{!customImageAlignment}" type="String" />
+    <apex:attribute name="imagePadding" description="Padding of Image" assignTo="{!customImagePadding}" type="String" />
+
+
+    <!-- <img src="{!imageUrl}" style="vertical-align: middle; border:0px; padding: {!customImagePadding}px; width:{!customImageWidth}px; height: auto;" title="" width="{!customImageWidth}" alt="" border="0" height="auto" align="{!imageAlignment}"/> -->
+    <img src="{!imageUrl}" style="vertical-align: middle; margin:0  ; padding-right: {!customImagePadding}px; width:{!customImageWidth}px; height: auto; " hspace="10px" title="" width="{!customImageWidth}" alt="" border="0" height="auto" align="{!imageAlignment}"/>
+
+</apex:component>

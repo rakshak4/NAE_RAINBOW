@@ -1,0 +1,36 @@
+<apex:page renderAs="{!renderedAs}" standardController="Account" extensions="VFC02_AccApplicationForm" showHeader="false"
+           sidebar="false" standardStylesheets="false" applyBodyTag="false" applyHtmlTag="false" showQuickActionVfHeader="false" language="{!lang}">
+    <html>
+        <head>
+            <style type="text/css" media="print">
+                @page {
+                	margin-bottom: 2cm;
+                   	@bottom-center {
+                        content: "Application Form - {! theAcc.Name}";
+                        font-family: 'Arial Unicode MS';
+                        font-size: 11px;
+                        font-weight: normal;
+                        color: #767676;
+                    }
+                }
+                @page :first{
+                    margin-top: 0cm;
+                    margin-bottom: 0cm;
+                    @bottom-center {
+                    }
+                }
+            </style>
+        </head>
+        
+        <body>
+            <apex:outputPanel rendered="{!isFormAvailable}">
+                <c:C02_ApplicationForm accAttr="{!theAcc}" isGeneratedManually="{! IF(ISBLANK(generationType), true, false)}" />
+            </apex:outputPanel>
+            <apex:outputPanel rendered="{!!isFormAvailable}">
+                <h3 style="text-align: center;vertical-align: middle; margin-top: 30px;">Application form unavailable</h3>
+            </apex:outputPanel>
+        </body>
+        
+    </html>
+    
+</apex:page>

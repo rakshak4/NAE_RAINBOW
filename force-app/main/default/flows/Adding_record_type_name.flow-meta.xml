@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>51.0</apiVersion>
+    <assignments>
+        <name>Adding_the_record_name</name>
+        <label>Adding the record name</label>
+        <locationX>158</locationX>
+        <locationY>312</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Record_Type_for_Dup_Rules__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.RecordType.Name</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <interviewLabel>Adding record type name {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Adding record type name</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>51</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Adding_the_record_name</targetReference>
+        </connector>
+        <object>Lead</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

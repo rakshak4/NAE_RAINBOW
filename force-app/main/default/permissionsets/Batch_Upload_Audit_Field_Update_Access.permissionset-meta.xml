@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>For Users in Standard Profiles to set the Created Date (Audit Date Fields) to a Historical Date.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Batch Upload - Audit Field Update Access</label>
+    <license>Salesforce</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateAuditFields</name>
+    </userPermissions>
+</PermissionSet>

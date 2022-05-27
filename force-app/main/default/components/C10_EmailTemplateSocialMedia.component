@@ -1,0 +1,47 @@
+<apex:component controller="VF10_EmailTemplateController" access="global">
+
+    <apex:attribute name="schoolId" description="School Record Id" assignTo="{!schoolRecordId}" type="String" />
+    <apex:attribute name="schoolCode" description="School Code" type="String" assignTo="{!schoolNAECode}" />
+    <!-- <apex:attribute name="isSummerCamp" description="SummerCamp Logo" type="Boolean" assignTo="{!isSummer}"/> -->
+    <!-- School Logo -->
+    <div>
+        <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td>
+                    <!-- <c:C10_EmailTemplateImage imageName="{!schoolCode}_Logo_SC" imageWidth="290" imageAlignment="left" imagePadding="0" /> -->
+                    <c:C10_EmailTemplateImage imageName="{!LogoName}" imageWidth="200" imageAlignment="left" imagePadding="0" />
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!--<br/>-->
+    <!-- School Website -->
+    <!-- <a href="{!website}" style="{!IF(isSummerCamp,'display : none','')}"><span
+            style="font-weight: bold; color: black; text-decoration: none;">{!website}</span></a> -->
+
+    <br />
+
+    <!-- Social Media Icons -->
+    <div>
+        <!--<table border="0" cellspacing="2" cellpadding="2" style="border-spacing: 2px; border-collapse: separate;">-->
+            <table>
+            <tr>
+                <apex:repeat value="{!ListSchoolSocialMedia}" var="schoolSocialMedia">
+
+                <td>
+                    <!-- <apex:repeat value="{!ListSchoolSocialMedia}" var="schoolSocialMedia"> -->
+                        <a href="{!schoolSocialMedia.socialMediaURL}" target="_blank">
+                            <c:C10_EmailTemplateImage imageName="{!schoolSocialMedia.documentName}" imageWidth="27"
+                            imageAlignment="left" imagePadding="3" />
+                        </a>
+                    <!-- </apex:repeat> -->
+                    
+                </td>
+            </apex:repeat>
+
+            </tr>
+        </table>
+    </div>
+
+</apex:component>

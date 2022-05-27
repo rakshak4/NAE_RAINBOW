@@ -1,0 +1,34 @@
+.THIS {
+}
+
+.THIS .popover{
+    display: inline-table;
+    position: absolute;
+    margin-left: 13px;
+    margin-top: -25px;
+}
+
+.THIS .italics{
+    font-style: italic;
+}
+
+.THIS .table-border-top{
+    border-top: 1px solid rgb(221, 219, 218);
+}
+
+.THIS .text-bold{
+    font-weight: bold;
+}
+
+.THIS .waitlisted .slds-icon-custom-custom95, .THIS .waitlisted .slds-icon-custom-95{
+    background-color: rgb(255, 183, 93);
+}
+
+.THIS .waitlisted .slds-icon_container, .THIS .waitlisted .slds-icon__container {
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.THIS .backgroundBlue {
+    background-color: var(--lwc-colorBackgroundInputInputActive,rgb(21, 137, 238)) !important;
+}

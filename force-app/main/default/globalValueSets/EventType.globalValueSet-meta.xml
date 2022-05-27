@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Meeting Abroad (Off-Site, F2F)</fullName>
+        <default>false</default>
+        <label>Off-Site,F2F Meeting (Meeting Abroad,Roadshow)</label>
+    </customValue>
+    <customValue>
+        <fullName>Open day</fullName>
+        <default>false</default>
+        <label>Open day</label>
+    </customValue>
+    <customValue>
+        <fullName>1 on 1 visit</fullName>
+        <default>false</default>
+        <label>1 on 1 visit</label>
+    </customValue>
+    <customValue>
+        <fullName>Group visit</fullName>
+        <default>false</default>
+        <label>Group visit</label>
+    </customValue>
+    <customValue>
+        <fullName>Trial day</fullName>
+        <default>false</default>
+        <label>Trial day</label>
+    </customValue>
+    <customValue>
+        <fullName>Assessment</fullName>
+        <default>false</default>
+        <label>Assessment</label>
+    </customValue>
+    <customValue>
+        <fullName>Virtual Visit (VOD)</fullName>
+        <default>false</default>
+        <label>Virtual Visit (VOD)</label>
+    </customValue>
+    <customValue>
+        <fullName>Virtual Discovery Meeting (VDM)</fullName>
+        <default>false</default>
+        <label>Virtual Discovery Meeting (VDM)</label>
+    </customValue>
+    <description>Change Required For the VOD &amp; VDM Events</description>
+    <masterLabel>Event Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

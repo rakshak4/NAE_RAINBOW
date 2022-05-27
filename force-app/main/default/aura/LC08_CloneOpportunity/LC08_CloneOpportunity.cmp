@@ -1,0 +1,23 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:lightningQuickActionWithoutHeader,lightning:actionOverride,force:hasRecordId,force:appHostable" access="global" controller="LC08_CloneOpportunity" >
+
+	<lightning:workspaceAPI aura:id="workspace"/>
+	<aura:attribute  name="Opp" type="Opportunity"/>
+	<aura:attribute name="showSpinner" type="boolean" default="false" description="control the spinner object"/>  
+	<aura:attribute name="inModal" type="boolean" default="true"/>
+	<aura:handler name="init" value="{!this}" action="{!c.handleInit}"/>
+	<aura:attribute  name="closeOppStages"  type="String[]" default="Lost, Denied" />
+	<aura:attribute  name="lstLostReasons"  type="list" />
+    
+    <aura:attribute name="setOppIds" type="list" />
+
+	<c:LC_Spinner aura:id="xid-spinner" show="{!v.showSpinner}" inModal="{!v.inModal}"/>
+
+	<div class="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_info slds-text-heading_large" role="alert">
+	    <h2>Confirm Clone Opportunity</h2>
+	</div>
+
+	<div style="text-align: right;margin-top: 10px;padding: .75rem 1rem;border-top: 2px solid rgb(217, 219, 221);">
+	    <lightning:button aura:id="btnCancel" variant="neutral" label="Cancel" title="" onclick="{! c.handleCancel }" />
+	    <lightning:button aura:id="btnConvert" variant="brand" label="Clone" title="" onclick="{! c.handleClone }" />
+	</div>
+</aura:component>

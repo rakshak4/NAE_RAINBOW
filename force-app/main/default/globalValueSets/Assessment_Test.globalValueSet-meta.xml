@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Classroom trial / Play observation</fullName>
+        <default>false</default>
+        <label>Classroom trial / Play observation</label>
+    </customValue>
+    <customValue>
+        <fullName>Pupil interview</fullName>
+        <default>false</default>
+        <label>Pupil interview</label>
+    </customValue>
+    <customValue>
+        <fullName>Parent interview</fullName>
+        <default>false</default>
+        <label>Parent interview</label>
+    </customValue>
+    <customValue>
+        <fullName>Subject-specific assessment</fullName>
+        <default>false</default>
+        <label>Subject-specific assessment</label>
+    </customValue>
+    <customValue>
+        <fullName>Grade-specific assessment</fullName>
+        <default>false</default>
+        <label>Grade-specific assessment</label>
+    </customValue>
+    <customValue>
+        <fullName>Language-specific assessment</fullName>
+        <default>false</default>
+        <label>Language-specific assessment</label>
+    </customValue>
+    <customValue>
+        <fullName>SEN assessment</fullName>
+        <default>false</default>
+        <label>SEN assessment</label>
+    </customValue>
+    <customValue>
+        <fullName>TOEFL Junior</fullName>
+        <default>false</default>
+        <label>TOEFL Junior</label>
+    </customValue>
+    <customValue>
+        <fullName>NFER</fullName>
+        <default>false</default>
+        <label>NFER</label>
+    </customValue>
+    <customValue>
+        <fullName>CAT4</fullName>
+        <default>false</default>
+        <label>Cognitive Ability Test (CAT4)</label>
+    </customValue>
+    <customValue>
+        <fullName>New Group Reading Test (NGRT)</fullName>
+        <default>false</default>
+        <label>New Group Reading Test (NGRT)</label>
+    </customValue>
+    <customValue>
+        <fullName>Non Verbal Reasoning (NVR) Assessment</fullName>
+        <default>false</default>
+        <label>Non Verbal Reasoning (NVR) Assessment</label>
+    </customValue>
+    <customValue>
+        <fullName>Cognitive Ability Test – Non-Verbal</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cognitive Ability Test – Non-Verbal</label>
+    </customValue>
+    <customValue>
+        <fullName>Cognitive Ability Test – Verbal</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cognitive Ability Test – Verbal</label>
+    </customValue>
+    <customValue>
+        <fullName>TOEFL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TOEFL</label>
+    </customValue>
+    <customValue>
+        <fullName>SAT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SAT</label>
+    </customValue>
+    <customValue>
+        <fullName>Cognitive Ability Test – Spatial</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cognitive Ability Test – Spatial</label>
+    </customValue>
+    <customValue>
+        <fullName>COOP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COOP</label>
+    </customValue>
+    <customValue>
+        <fullName>SSAT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SSAT</label>
+    </customValue>
+    <customValue>
+        <fullName>ISEE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ISEE</label>
+    </customValue>
+    <customValue>
+        <fullName>Cognitive Ability Test – Mathematical</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cognitive Ability Test – Mathematical</label>
+    </customValue>
+    <customValue>
+        <fullName>PSAT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PSAT</label>
+    </customValue>
+    <description>Global value set for assessment</description>
+    <masterLabel>Assessment Test</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Add_date_time_in_Progress</fullName>
+        <field>In_Progress_Date_Time__c</field>
+        <formula>NOW()</formula>
+        <name>Add date/time in Progress</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Add_name_of_resolved</fullName>
+        <field>Resolved_By__c</field>
+        <formula>$User.FirstName  &amp;&quot; &quot;&amp; $User.LastName</formula>
+        <name>Add name of resolved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Add_resolved_Time_Date</fullName>
+        <field>Resolved_Date_Time__c</field>
+        <formula>NOW()</formula>
+        <name>Add resolved Time/Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Awaiting_Input_Date_Time</fullName>
+        <field>Awaiting_Input_Date_Time__c</field>
+        <formula>NOW()</formula>
+        <name>Awaiting Input Date/Time</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Date_Time_for_Added_to_Backlog</fullName>
+        <field>Date_Time_Added_to_Backlog__c</field>
+        <formula>NOW()</formula>
+        <name>Date/Time for Added to Backlog</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Date_Time_for_Not_Resolved</fullName>
+        <field>Date_Time_Not_Resolved__c</field>
+        <formula>NOW()</formula>
+        <name>Date/Time for Not Resolved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Date_Time_for_Ready_for_Deployment</fullName>
+        <field>Date_Time_Ready_for_Deployment__c</field>
+        <formula>NOW()</formula>
+        <name>Date/Time for Ready for Deployment</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Date_Time_for_Ready_for_Testing</fullName>
+        <field>Ready_for_Testing_Date_Time__c</field>
+        <formula>NOW()</formula>
+        <name>Date/Time for Ready for Testing</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Who_Closed_the_Case</fullName>
+        <description>Add who closed the case</description>
+        <field>Closed_By__c</field>
+        <formula>$User.FirstName &amp;&quot; &quot;&amp; $User.LastName</formula>
+        <name>Who Closed the Case</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Add Date to when Closed</fullName>
+        <actions>
+            <name>Who_Closed_the_Case</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Closed</value>
+        </criteriaItems>
+        <description>Timestamp the date the case is put on &quot;Closed&quot;</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Add Date to when In Progress</fullName>
+        <actions>
+            <name>Add_date_time_in_Progress</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>In Progress</value>
+        </criteriaItems>
+        <description>Timestamp the date the case is put on &quot;In Progress&quot;</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Add Date%2FTime to when awaiting input</fullName>
+        <actions>
+            <name>Awaiting_Input_Date_Time</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Awaiting Input</value>
+        </criteriaItems>
+        <description>Timestamp the date/Time the case is put on &quot;Awaiting Input&quot;</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Add Date%2FTime when Added to Backlog</fullName>
+        <actions>
+            <name>Date_Time_for_Added_to_Backlog</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Added to Backlog</value>
+        </criteriaItems>
+        <description>Time/date the case is put on &quot;Added to Backlog&quot;</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Add Date%2FTime when Not Resolved</fullName>
+        <actions>
+            <name>Date_Time_for_Not_Resolved</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Not Resolved</value>
+        </criteriaItems>
+        <description>Timestamp the date/time the case is put on &quot;Not Resolved&quot;</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Add Date%2FTime when Ready for Deployment</fullName>
+        <actions>
+            <name>Date_Time_for_Ready_for_Deployment</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Ready For Deployment</value>
+        </criteriaItems>
+        <description>Timestamp the date/time the case is put on &quot;Ready for Deployment&quot;</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Add Date%2FTime when Ready for Testing</fullName>
+        <actions>
+            <name>Date_Time_for_Ready_for_Testing</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Ready for Testing</value>
+        </criteriaItems>
+        <description>Time/date the case is put on &quot;Ready for Testin&quot;</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Add Date%2FTime when Resolved</fullName>
+        <actions>
+            <name>Add_name_of_resolved</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Add_resolved_Time_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Resolved</value>
+        </criteriaItems>
+        <description>Timestamp the date/time the case is put on &quot;Resolved&quot;</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

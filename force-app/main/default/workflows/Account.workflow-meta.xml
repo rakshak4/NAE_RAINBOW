@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>ACC_AcknowlegdmentEmailAlert</fullName>
+        <description>ACC_Acknowlegdment Email Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/ACC_ApplicationAcknowledgement</template>
+    </alerts>
+    <alerts>
+        <fullName>ACC_AcknowlegdmentEmailAlert_BSY</fullName>
+        <description>ACC_Acknowlegdment Email Alert_BSY</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@bsbshunyi.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/ACC_ApplicationAcknowledgement</template>
+    </alerts>
+    <alerts>
+        <fullName>ACC_AcknowlegdmentEmailAlert_NBO</fullName>
+        <description>ACC_Acknowlegdment Email Alert_NBO</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>info.ningbo@nasningbo.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/ACC_ApplicationAcknowledgement</template>
+    </alerts>
+    <alerts>
+        <fullName>ACC_AcknowlegdmentEmailAlert_NFB</fullName>
+        <description>ACC_Acknowlegdment Email Alert_NFB</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>info.beijing@nacis.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/ACC_ApplicationAcknowledgement</template>
+    </alerts>
+    <alerts>
+        <fullName>ACC_AcknowlegdmentEmailAlert_NFS</fullName>
+        <description>ACC_Acknowlegdment Email Alert_NFS</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>info.foshan@nacis.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/ACC_ApplicationAcknowledgement</template>
+    </alerts>
+    <alerts>
+        <fullName>ACC_AcknowlegdmentEmailAlert_NHK</fullName>
+        <description>ACC_Acknowlegdment Email Alert_NHK</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@nais.hk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/ACC_ApplicationAcknowledgement</template>
+    </alerts>
+    <alerts>
+        <fullName>ACC_AcknowlegdmentEmailAlert_NNT</fullName>
+        <description>ACC_Acknowlegdment Email Alert_NNT</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>info.nantong@nacis.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/ACC_ApplicationAcknowledgement</template>
+    </alerts>
+    <alerts>
+        <fullName>ACC_AcknowlegdmentEmailAlert_NWZ</fullName>
+        <description>ACC_Acknowlegdment Email Alert_NWZ</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>info.wenzhou@nacis.cn</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/ACC_ApplicationAcknowledgement</template>
+    </alerts>
+    <alerts>
+        <fullName>ACC_Acknowlegdment_Email_Alert_AUB</fullName>
+        <description>ACC_Acknowlegdment Email Alert_AUB</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@lcis.ch</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/ACC_ApplicationAcknowledgement</template>
+    </alerts>
+    <alerts>
+        <fullName>ACC_Acknowlegdment_Email_Alert_NSC</fullName>
+        <description>ACC_Acknowlegdment Email Alert_NSC</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@nisc.edu.kh</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/ACC_ApplicationAcknowledgement</template>
+    </alerts>
+    <alerts>
+        <fullName>ACC_Acknowlegdment_Email_Alert_RPA</fullName>
+        <description>ACC_Acknowlegdment Email Alert_RPA</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@regents-pattaya.co.th</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/ACC_ApplicationAcknowledgement</template>
+    </alerts>
+    <alerts>
+        <fullName>ACC_NewAssignementNotifEmailAlert</fullName>
+        <description>ACC_NewAssignementNotifEmailAlert</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <senderAddress>naebedrocktestmail@gmail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/ACC_NewAssignmentNotification</template>
+    </alerts>
+    <alerts>
+        <fullName>AccNotificationEmailOnlineApplicationForm</fullName>
+        <description>Account: Notification Email For Online Application Form</description>
+        <protected>false</protected>
+        <recipients>
+            <field>TECH_SchoolAdmQueueEmail__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>NAE/ACC_OnlineApplicationFormNotification</template>
+    </alerts>
+    <alerts>
+        <fullName>Contract_NBP_Send_Deposit_Email</fullName>
+        <description>Contract - NBP Send Deposit Email</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@nbps.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Reenrolment_templates/Deposit_Invitation</template>
+    </alerts>
+    <alerts>
+        <fullName>Contract_Send_Deposit_Email</fullName>
+        <ccEmails>philippa.brown@nordanglia.com</ccEmails>
+        <description>Contract - Send Deposit Email NBP</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@nbps.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Reenrolment_templates/Deposit_Invitation</template>
+    </alerts>
+    <alerts>
+        <fullName>Contract_Send_Deposit_Email_BAC</fullName>
+        <ccEmails>philippa.brown@nordanglia.com</ccEmails>
+        <description>Contract - Send Deposit Email BAC</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@bischarlotte.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Reenrolment_templates/Deposit_Invitation_BAC</template>
+    </alerts>
+    <alerts>
+        <fullName>Contract_Send_Deposit_Email_BCL</fullName>
+        <ccEmails>philippa.brown@nordanglia.com</ccEmails>
+        <description>Contract - Send Deposit Email BCL</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>enrollment@bischicagolp.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Reenrolment_templates/Deposit_Invitation_BCL</template>
+    </alerts>
+    <alerts>
+        <fullName>Contract_Send_Deposit_Email_BCS</fullName>
+        <ccEmails>philippa.brown@nordanglia.com</ccEmails>
+        <description>Contract - Send Deposit Email BCS</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@bischicagosl.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Reenrolment_templates/Deposit_Invitation_BCS</template>
+    </alerts>
+    <alerts>
+        <fullName>Contract_Send_Deposit_Email_BHO</fullName>
+        <ccEmails>philippa.brown@nordanglia.com</ccEmails>
+        <description>Contract - Send Deposit Email BHO</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>enrollment@houston.nae.school</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Reenrolment_templates/Deposit_Invitation_BHO</template>
+    </alerts>
+    <alerts>
+        <fullName>Contract_Send_Deposit_Email_BOS</fullName>
+        <ccEmails>philippa.brown@nordanglia.com</ccEmails>
+        <description>Contract - Send Deposit Email BOS</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@bisboston.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Reenrolment_templates/Deposit_Invitation_BOS</template>
+    </alerts>
+    <alerts>
+        <fullName>Contract_Send_Deposit_Email_SNY</fullName>
+        <ccEmails>philippa.brown@nordanglia.com</ccEmails>
+        <description>Contract - Send Deposit Email SNY</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@ny.nae.school</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Reenrolment_templates/Deposit_Invitation_SNY</template>
+    </alerts>
+    <alerts>
+        <fullName>Contract_Send_Deposit_Email_VIL</fullName>
+        <ccEmails>philippa.brown@nordanglia.com</ccEmails>
+        <description>Contract - Send Deposit Email VIL</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@thevillageschool.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Reenrolment_templates/Deposit_Invitation_VIL</template>
+    </alerts>
+    <alerts>
+        <fullName>Contract_Send_Deposit_Email_WAS</fullName>
+        <ccEmails>philippa.brown@nordanglia.com</ccEmails>
+        <description>Contract - Send Deposit Email WAS</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>enrollment@biswashington.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Reenrolment_templates/Deposit_Invitation_WAS</template>
+    </alerts>
+    <alerts>
+        <fullName>Contract_Send_Deposit_Email_WPS</fullName>
+        <description>Contract - Send Deposit Email WPS</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@windermereprep.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Reenrolment_templates/Deposit_Invitation_WPS</template>
+    </alerts>
+    <alerts>
+        <fullName>Contracts_Preenrolment_Form</fullName>
+        <description>Contracts - Preenrolment Form</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Reenrolment_templates/PreContract_Form_Invitation</template>
+    </alerts>
+    <alerts>
+        <fullName>Contracts_Preenrolment_Form_BAC</fullName>
+        <description>Contracts - Preenrolment Form BAC</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@bischarlotte.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Reenrolment_templates/PreContract_Form_Invitation_BAC</template>
+    </alerts>
+    <alerts>
+        <fullName>Contracts_Preenrolment_Form_BCS</fullName>
+        <description>Contracts - Preenrolment Form BCS</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@bischicagosl.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Reenrolment_templates/PreContract_Form_Invitation_BCS</template>
+    </alerts>
+    <alerts>
+        <fullName>Contracts_Preenrolment_Form_NBP</fullName>
+        <description>Contracts - Preenrolment Form NBP</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@nbps.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Reenrolment_templates/PreContract_Form_Invitation_NBP</template>
+    </alerts>
+    <alerts>
+        <fullName>Contracts_Preenrolment_Form_VIL</fullName>
+        <description>Contracts - Preenrolment Form VIL</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@thevillageschool.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Reenrolment_templates/PreContract_Form_Invitation_VIL</template>
+    </alerts>
+    <alerts>
+        <fullName>Contracts_Preenrolment_Form_WPS</fullName>
+        <description>Contracts - Preenrolment Form WPS</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>admissions@windermereprep.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Reenrolment_templates/PreContract_Form_Invitation_WPS</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Update_AdmEmail</fullName>
+        <field>TECH_SchoolAdmQueueEmail__c</field>
+        <formula>SchoolOfInterest__r.AdmissionsQueueCoordinator__r.Email</formula>
+        <name>Update_AdmEmail</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>ACC_Application Acknowledgement_AUB</fullName>
+        <actions>
+            <name>ACC_Acknowlegdment_Email_Alert_AUB</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>ACC_NewAssignementNotifEmailAlert</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <description>W-00344 - Send Application Acknowlegment Email to Parent and to Admission Queue for Aubonne</description>
+        <formula>AND( ISCHANGED(TECH_SendACKMTDate__c),  NOT(ISBLANK( Email__c ) ), NOT($Setup.CS_Bypass__c.BypassWorkflows__c), SchoolOfInterest__r.SchoolCode__c = &apos;AUB&apos;   )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>ACC_Application Acknowledgement_BSY</fullName>
+        <actions>
+            <name>ACC_AcknowlegdmentEmailAlert_BSY</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>ACC_NewAssignementNotifEmailAlert</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <description>W-00344 - Send Application Acknowlegment Email to Parent and to Admission Queue for Shunyi</description>
+        <formula>AND( ISCHANGED(TECH_SendACKMTDate__c),  NOT(ISBLANK( Email__c ) ), NOT($Setup.CS_Bypass__c.BypassWorkflows__c), SchoolOfInterest__r.SchoolCode__c = &apos;BSY&apos;   )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>ACC_Application Acknowledgement_NBO</fullName>
+        <actions>
+            <name>ACC_AcknowlegdmentEmailAlert_NBO</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>ACC_NewAssignementNotifEmailAlert</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <description>W-00344 - Send Application Acknowlegment Email to Parent and to Admission Queue for Ningbo</description>
+        <formula>AND( ISCHANGED(TECH_SendACKMTDate__c),  NOT(ISBLANK( Email__c ) ), NOT($Setup.CS_Bypass__c.BypassWorkflows__c), SchoolOfInterest__r.SchoolCode__c = &apos;NBO&apos;   )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>ACC_Application Acknowledgement_NDB</fullName>
+        <actions>
+            <name>ACC_NewAssignementNotifEmailAlert</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <description>W-00344 - Send Application Acknowlegment Email to Parent and to Admission Queue for Dubai</description>
+        <formula>AND(ISCHANGED(TECH_SendACKMTDate__c),  NOT(ISBLANK( Email__c ) ), NOT($Setup.CS_Bypass__c.BypassWorkflows__c), SchoolOfInterest__r.SchoolCode__c = &apos;NDB&apos;  )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>ACC_Application Acknowledgement_NFB</fullName>
+        <actions>
+            <name>ACC_AcknowlegdmentEmailAlert_NFB</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>ACC_NewAssignementNotifEmailAlert</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <description>W-00344 - Send Application Acknowlegment Email to Parent and to Admission Queue for Fangshan</description>
+        <formula>AND( ISCHANGED(TECH_SendACKMTDate__c),  NOT(ISBLANK( Email__c ) ), NOT($Setup.CS_Bypass__c.BypassWorkflows__c), SchoolOfInterest__r.SchoolCode__c = &apos;NFB&apos;   )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>ACC_Application Acknowledgement_NFS</fullName>
+        <actions>
+            <name>ACC_AcknowlegdmentEmailAlert_NFS</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>ACC_NewAssignementNotifEmailAlert</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <description>W-00344 - Send Application Acknowlegment Email to Parent and to Admission Queue for Foshan</description>
+        <formula>AND( ISCHANGED(TECH_SendACKMTDate__c),  NOT(ISBLANK( Email__c ) ), NOT($Setup.CS_Bypass__c.BypassWorkflows__c), SchoolOfInterest__r.SchoolCode__c = &apos;NFS&apos;   )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>ACC_Application Acknowledgement_NHK</fullName>
+        <actions>
+            <name>ACC_AcknowlegdmentEmailAlert_NHK</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>ACC_NewAssignementNotifEmailAlert</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <description>W-00344 - Send Application Acknowlegment Email to Parent and to Admission Queue for Hong Kong</description>
+        <formula>AND(ISCHANGED(TECH_SendACKMTDate__c),  NOT(ISBLANK( Email__c ) ), NOT($Setup.CS_Bypass__c.BypassWorkflows__c), SchoolOfInterest__r.SchoolCode__c = &apos;NHK&apos;  )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>ACC_Application Acknowledgement_NNT</fullName>
+        <actions>
+            <name>ACC_AcknowlegdmentEmailAlert_NNT</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>ACC_NewAssignementNotifEmailAlert</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <description>W-00344 - Send Application Acknowlegment Email to Parent and to Admission Queue for Nantong</description>
+        <formula>AND( ISCHANGED(TECH_SendACKMTDate__c),  NOT(ISBLANK( Email__c ) ), NOT($Setup.CS_Bypass__c.BypassWorkflows__c), SchoolOfInterest__r.SchoolCode__c = &apos;NNT&apos;   )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>ACC_Application Acknowledgement_NSC</fullName>
+        <actions>
+            <name>ACC_Acknowlegdment_Email_Alert_NSC</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>ACC_NewAssignementNotifEmailAlert</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <description>W-00344 - Send Application Acknowlegment Email to Parent and to Admission Queue for Cambodia</description>
+        <formula>AND( ISCHANGED(TECH_SendACKMTDate__c),  NOT(ISBLANK( Email__c ) ), NOT($Setup.CS_Bypass__c.BypassWorkflows__c), SchoolOfInterest__r.SchoolCode__c = &apos;NSC&apos;   )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>ACC_Application Acknowledgement_NWZ</fullName>
+        <actions>
+            <name>ACC_AcknowlegdmentEmailAlert_NWZ</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>ACC_NewAssignementNotifEmailAlert</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <description>W-00344 - Send Application Acknowlegment Email to Parent and to Admission Queue for Wenzhou</description>
+        <formula>AND( ISCHANGED(TECH_SendACKMTDate__c),  NOT(ISBLANK( Email__c ) ), NOT($Setup.CS_Bypass__c.BypassWorkflows__c), SchoolOfInterest__r.SchoolCode__c = &apos;NWZ&apos;   )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>ACC_Application Acknowledgement_RPA</fullName>
+        <actions>
+            <name>ACC_Acknowlegdment_Email_Alert_RPA</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>ACC_NewAssignementNotifEmailAlert</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <description>W-00344 - Send Application Acknowlegment Email to Parent and to Admission Queue for Pattaya</description>
+        <formula>AND( ISCHANGED(TECH_SendACKMTDate__c),  NOT(ISBLANK( Email__c ) ), NOT($Setup.CS_Bypass__c.BypassWorkflows__c), SchoolOfInterest__r.SchoolCode__c = &apos;RPA&apos;   )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>ACC_Application Aknowledgement</fullName>
+        <actions>
+            <name>ACC_NewAssignementNotifEmailAlert</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <description>W-00344 - Send Application Acknowlegment Email to Admission Queue</description>
+        <formula>AND(ISCHANGED(TECH_SendACKMTDate__c),
+NOT($Setup.CS_Bypass__c.BypassWorkflows__c), 
+ SchoolOfInterest__r.ActivateApplicationForm__c )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>ACC_ApplicationFormNotif</fullName>
+        <actions>
+            <name>AccNotificationEmailOnlineApplicationForm</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Account.OnlineApplication__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.CreatedById</field>
+            <operation>notEqual</operation>
+            <value>FA Online Forms</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.LastModifiedById</field>
+            <operation>notEqual</operation>
+            <value>FA Online Forms</value>
+        </criteriaItems>
+        <description>Notification Email For Online Application Form</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <tasks>
+        <fullName>ACC_AcknowledgmentEmailSent</fullName>
+        <assignedToType>owner</assignedToType>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Completed</status>
+        <subject>Acknowledgment Email Sent</subject>
+    </tasks>
+</Workflow>

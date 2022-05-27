@@ -1,0 +1,1120 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:lightningQuickAction,lightning:actionOverride,lightning:hasPageReference" access="global" controller="LC02_NewLeadForm" >
+	<lightning:workspaceAPI aura:id="workspace"/>
+	<aura:attribute name="lead" type="Lead" default="{'sobjectType': 'Lead'}" access="public"/>
+	<aura:attribute name="children" type="Object[]" access="global" default="[{}]"/>
+	<aura:attribute name="mapCountry" type="Map" />
+	<aura:attribute name="mapPicklist" type="Map" />
+	<aura:attribute name="mapDepPicklist" type="Map" />
+	<aura:attribute name="lstSubSource" type="list" />
+	<aura:attribute name="lstMethod" type="list" />
+	<aura:attribute name="lstDayBoarding" type="list" />
+	<aura:attribute name="lstCampus" type="list" />
+	<aura:attribute name="visitTime" type="String" />
+	<aura:attribute name="dayBoardingDefaulted" type="boolean" default="false" />
+	<aura:attribute name="inModal" type="boolean" default="false"/>
+	<aura:attribute name="isLoaded" type="boolean" default="false"/>
+	<aura:attribute name="isVisible" type="boolean" default="false"/>
+	<aura:attribute name="showSpinner" type="boolean" default="false" description="control the spinner object"/>
+	<aura:attribute name="child1active" type="Boolean" default="true" />
+	<aura:attribute name="child2active" type="Boolean" />
+	<aura:attribute name="child3active" type="Boolean" />
+	<aura:attribute name="child4active" type="Boolean" />
+	<aura:attribute name="child5active" type="Boolean" />
+	<!-- <aura:attribute name="child6active" type="Boolean" /> --> 
+    <aura:attribute name="RecordTypeName" type="String" />
+    <aura:attribute name="sldsRequired" type = "String" default="slds-hide" />
+    <aura:attribute name="sldsRequired2" type = "String" default="slds-required" />
+    <aura:attribute name="Required" type="boolean" default ="true"/>
+    <aura:attribute name="Required2" type="boolean" default ="true"/>
+    <aura:attribute name="Required3" type="boolean" default ="true"/>
+
+    
+	<aura:handler name="init" value="{!this}" action="{!c.init}"/>
+
+	<aura:handler name="change" value="{!v.lead.Parent1FirstName__c}" action="{!c.valueChanged}"/>
+    <aura:handler name="change" value="{!v.lead.Parent1LastName__c}" action="{!c.valueChanged}"/>
+    <aura:handler name="change" value="{!v.lead.Parent1Title__c}" action="{!c.valueChanged}"/>
+
+	<c:LC_Spinner aura:id="xid-spinner" show="{!v.showSpinner}" inModal="{!v.inModal}"/>
+
+	 <aura:attribute name="interestOptions" type="List"/>
+
+	 
+	<lightning:unsavedChanges aura:id="unsaved"
+                              onsave="{!c.save}"
+                              ondiscard="{!c.cancel}" />
+
+	<lightning:card title="{!'New Lead: ' + v.RecordTypeName}" iconName="standard:lead" class="slds-p-around_large" >
+		<div class="slds-form slds-box slds-m-bottom_xx-small slds-is-relative">
+			<div class="slds-form_compound slds-m-bottom_x-small">
+		 		<fieldset class="slds-form-element">
+				 	<div class=" slds-theme_shade slds-form-element_label slds-text-heading_small slds-m-top_x-small slds-m-bottom_x-small">
+				      	<legend class="slds-truncate slds-p-around_x-small slds-m-left_x-small" title="Lead Details">{!$Label.c.LeadDetails}</legend>
+				  	</div>
+
+				  	<div class="slds-p-around_x-small">
+						<div class="slds-form-element__row">
+			  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+				  				<label class="slds-form-element__label">{!$Label.c.LeadOwner}</label>
+				  				<br/>
+				  				<ui:outputText aura:id="ownerLookup" value=""/>	
+			  				</div>
+
+			  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+			  					<label class="slds-form-element__label">{!$Label.c.LeadStatus}</label>
+								<force:inputField value="{!v.lead.Status}" change="{!c.statusChanged}"/>
+			  				</div>
+				  	 	</div>
+
+				  	 	<div class="slds-form-element__row">
+			  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+			  					<label class="slds-form-element__label">{!$Label.c.LeadSource}</label>
+				  				<force:inputField value="{!v.lead.LeadSource}" change="{!c.handleChangeSource}"  aura:id="LeadSource" />
+			  				</div>
+
+			  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+				  				<lightning:select name="{!$Label.c.LeadMethods}" label="{!$Label.c.LeadMethods}" value="{!v.lead.LeadMethod__c}" class="slds-p-top_small" aura:id="LeadMethod__c">
+									<option value="">-- None --</option>	
+									<aura:iteration items="{!v.lstMethod}" var="method">
+										<aura:if isTrue="{!method != 'Web'}"  >
+											<option text="{!method}" value="{!method}"/>
+										</aura:if>
+									</aura:iteration>
+							    </lightning:select>
+			  				</div>
+				  	 	</div>
+
+				  	 	<div class="slds-form-element__row">
+			  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+			  					<lightning:select name="Lead subsource" label="Lead SubSource" disabled="{! if(v.lstSubSource.length == 0, true, false)}"  value="{!v.lead.LeadSubSource__c}" class="slds-p-top_small" >
+									<option value="" selected="true">-- None --</option>	
+									<aura:iteration items="{!v.lstSubSource}" var="subsource">
+										<option text="{!subsource}" value="{!subsource}"/>
+									</aura:iteration>
+							    </lightning:select>
+			  				</div>
+
+			  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+								<lightning:select name="{!$Label.c.Campus}" label="{!$Label.c.Campus}" value="{!v.lead.Campus__c}" class="slds-p-top_small" aura:id="Campus__c">
+									<option value="">-- None --</option>	
+									<aura:iteration items="{!v.lstCampus}" var="campus">
+										<option text="{!campus}" value="{!campus}"/>
+									</aura:iteration>
+							    </lightning:select> 
+			  				</div>
+				  	 	</div>
+
+				  	 	<div class="slds-form-element__row slds-p-top_small">
+			  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small"  >
+			  					<label class="slds-form-element__label"  for="form-element-05">
+                                    <abbr class="{!v.sldsRequired}" title="required">* </abbr>
+                                    Referred By (Account)
+                                </label>
+								<force:inputField value="{!v.lead.ReferredBy__c}"/>
+			  				</div>
+
+			  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+			  					<label class="slds-form-element__label">
+                                    <abbr class="{!v.sldsRequired}" title="required">* </abbr>
+                                    Referred By (Contact)
+                                </label>
+								<force:inputField value="{!v.lead.ReferredByContact__c}" />
+			  				</div>
+				  	 	</div>
+
+				  	 	<div class="slds-form-element__row slds-p-top_small">
+			  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+			  					<lightning:Input type="checkbox" name="Is NAE Transfer?" label="Is NAE Transfer?" value="{!v.lead.isNAETransfer__c}"  checked="{!v.lead.isNAETransfer__c}"/>
+			  				</div>
+
+							<!-- VJA -->
+			  				<!-- <div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+								<lightning:Input type="checkbox" name="Financial Aid Requested" label="Financial Aid Requested" value="{!v.lead.FinancialAidRequested__c}" checked="{!v.lead.FinancialAidRequested__c}"/>
+			  				</div> -->
+
+							<!-- VJA -->
+							<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+								<lightning:Input type="checkbox" name="Priority" label="Priority" value="{!v.lead.Priority__c}" checked="{!v.lead.Priority__c}"/>
+							</div>
+				  	 	</div>
+
+				  	 	<div class="slds-form-element__row slds-p-top_small">
+							
+			  				<!-- VJA -->
+							<div class="slds-form-element__control slds-size_1-of-2">
+								<lightning:Input type="checkbox" name="Marketing Permission Email" label="Marketing Permission Email" value="{!v.lead.MarketingPermissionEmail__c}" checked="{!v.lead.MarketingPermissionEmail__c}"/>
+							</div>
+
+			  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+								  <!-- CRA 20190703 - W000531 - Moved logic to child
+									<lightning:Input type="checkbox" name="Has Attended Summercamp?" label="Has Attended Summercamp?" value="{!v.lead.HasAttendedSummercamp__c}" checked="{!v.lead.HasAttendedSummercamp__c}" /> -->
+									<lightning:Input type="checkbox" name="Permission to Send Information" label="Permission to Send Information" value="{!v.lead.Permission_to_send_you_information__c}" checked="{!v.lead.Permission_to_send_you_information__c}" /> 
+			  				</div>
+						   </div>
+						   
+						   <div class="slds-form-element__row slds-p-top_small">
+							<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+								<lightning:Input type="checkbox" name="Marketing Permission Phone" label="Marketing Permission Phone" value="{!v.lead.MarketingPermissionPhone__c}"  checked="{!v.lead.MarketingPermissionPhone__c}"/>
+							</div>
+
+							
+						 </div>
+				  	 </div>
+				</fieldset>
+			</div>
+
+			<div class="slds-form_compound slds-m-bottom_x-small">
+		 		<fieldset class="slds-form-element">
+				 <div class=" slds-theme_shade slds-form-element_label slds-text-heading_small slds-m-top_x-small slds-m-bottom_x-small">
+				      	<legend class="slds-truncate slds-p-around_x-small slds-m-left_x-small" title="Contact Details">{!$Label.c.ContactDetails}</legend>
+				  	</div>
+
+					<div class="slds-grid slds-p-around_x-small">
+			  			<div class="slds-form-element slds-col">
+				  			<div>
+				  				<label class="slds-form-element__label slds-p-bottom_xx-small" required="{!v.Required}">
+					  				<aura:if isTrue="{!v.Required2}">
+					  					<span class="required">* </span>
+					  				</aura:if>
+									Contact 1 Salutation
+								</label>
+				  				<force:inputfield  value="{!v.lead.Parent1Title__c}" aura:id ="Parent1Title__c" class="slds-p-top_xxx-small"/>
+				  			</div>
+
+				  			<div>
+				  				<lightning:Input name="Contact 1 First Name" label="Contact 1 First Name" value="{!v.lead.Parent1FirstName__c}" required="{!v.Required}" class=" capitalizeFirstLetter slds-p-top_small"  />
+				  			</div>
+
+				  			<div>
+				  				<lightning:Input name="Contact 1 Last Name" label="Contact 1 Last Name" value="{!v.lead.Parent1LastName__c}" required="{!v.Required2}"  class=" capitalizeFirstLetter slds-p-top_small"/>   
+				  			</div>
+
+				  			<div>
+				  				<lightning:Input name="Contact 1 Preferred Name" label="Contact 1 Preferred Name" value="{!v.lead.Parent1PreferredName__c}" class=" capitalizeFirstLetter slds-p-top_small"/>   
+				  			</div>
+
+		  					<label class="slds-form-element__label slds-p-top_small"><span class="{!v.sldsRequired}">* </span>
+		  						{!$Label.c.Contact1RelationshiptoChild}</label>
+		  					<force:inputField class="slds-input" value="{!v.lead.Parent1NatureOfRelationship__c}" aura:id="Parent1NatureOfRelationship__c" change="{!c.updateRelationship}"/>
+
+							<!-- VJA  -->
+		  					<!-- <div class="{! if(v.lead.Parent1NatureOfRelationship__c == 'Other', 'slds-show', 'slds-hide')}" >
+		  						<label class="slds-form-element__label slds-p-top_small">
+		  						<span class="required">* </span>{!$Label.c.Contact1OtherRelationshiptoChild}</label>
+		  						<force:inputField class="slds-input" value="{!v.lead.Parent1OtherRelationship__c}" aura:id="Parent1OtherRelationship__c"/>
+		  					</div> -->
+		  						
+		  					<label class="slds-form-element__label slds-p-top_small">{!$Label.c.Contact1PreferredLanguage}</label>
+		  					<force:inputField class="slds-input" value="{!v.lead.Parent1PreferredLanguage__c}" aura:id="Parent1PreferredLanguage__c"/>
+
+		  					<label class="slds-form-element__label slds-p-top_small">
+								{!$Label.c.Contact1Nationality }
+							</label>
+		  					<force:inputField class="slds-input" value="{!v.lead.Parent1Nationality__c}" aura:id="Parent1Nationality__c"/>
+
+		  					<lightning:Input name="Address Line 1" label="Address Line 1" class="slds-p-top_small" value="{!v.lead.Parent1Street__c}"/>
+		  					<lightning:Input name="Address Line 2" label="Address Line 2" class="slds-p-top_small" value="{!v.lead.Parent1AddLine2__c}"/>
+		  					<lightning:Input name="Address Line 3" label="Address Line 3" class="slds-p-top_small" value="{!v.lead.Parent1AddLine3__c}"/>
+
+		  					<div class="slds-form-element__row slds-p-top_small">
+		  						<div class="slds-form-element__control slds-size_1-of-2">
+				  					<lightning:Input name="Contact 1 City" label="Contact 1 City" value="{!v.lead.Parent1City__c}"/>
+		  						</div>
+
+		  						<div class="slds-form-element__control slds-size_1-of-2">
+		  							<lightning:Input name="Contact 1 State" label="Contact 1 State" value="{!v.lead.Parent1State__c}"/>
+		  						</div>
+		  					</div>
+
+		  					<div class="slds-form-element__row">
+		  						<div class="slds-form-element__control slds-size_1-of-2">
+		  							<label class="slds-form-element__label">
+		  							<!--<aura:if isTrue="{!v.lead.LeadSource != 'External Relationships'}">
+		  								<span class="required">* </span>
+		  							</aura:if>-->
+		  						{!$Label.c.Contact1Country}</label>
+		  							<force:inputField aura:id="parentCountry" class="slds-input" value="{!v.lead.Parent1CountryOfResidence__c}" change="{!c.handleCountryChangeParent1}"/>
+		  						</div>
+
+		  						<div class="slds-form-element__control slds-size_1-of-2">
+		  							<lightning:Input name="Contact 1 Zip/Postal Code" label="Contact 1 Zip/Postal Code" value="{!v.lead.Parent1ZipPostalCode__c}"/>
+		  						</div>
+		  					</div>
+
+		  					<div>
+					  			<lightning:Input name="Contact 1 Primary Email" label="Contact 1 Primary Email" value="{!v.lead.Parent1PrimaryEmail__c}" type="email" required="{!and(v.Required, and(empty(v.lead.Parent1HomePhone__c), v.lead.LeadSource != 'External Relationships'))}"  class="slds-p-top_small"/>   
+					  		</div>
+
+							<!-- VJA  -->
+					  		<!-- <div>
+					  			<lightning:Input name="Contact 1 Secondary Email" label="Contact 1 Secondary Email" value="{!v.lead.Parent1SecondaryEmail__c}" type="email" class="slds-p-top_small"/>   
+					  		</div> -->
+
+							<div>
+			  					<lightning:Input type="tel" name="Contact 1 Phone" label="Contact 1 Phone" value="{!v.lead.Parent1HomePhone__c}" aura:id="Parent1HomePhone__c" required="{!and(v.Required,and(empty(v.lead.Parent1PrimaryEmail__c), v.lead.LeadSource != 'External Relationships'))}" onfocus="{!c.populateParent1Phone}" onblur="{!c.validateParent1Phone}" class="slds-p-top_small"/> 
+			  				</div>
+
+		  					<div>
+				  				<lightning:Input type="tel" name="Contact 1 Mobile Phone" label="Contact 1 Mobile Phone" value="{!v.lead.Parent1MobilePhone__c}" aura:id="Parent1MobilePhone__c"  class="slds-p-top_small"/>
+				  			</div>
+
+		  					<!--<label class="slds-form-element__label slds-p-top_small">{!$Label.c.PermissionMarketingInformation}</label>
+							<span>
+				  				<ui:inputCheckbox class="slds-checkbox slds-p-top_small" value="{!v.lead.PermissionMarketingInformation__c}" aura:id="PermissionMarketingInformation__c"/>
+				  			</span> CRA20200121 - Case 00002200 -->
+			  			</div>
+			  			<div class="slds-form-element copyButton" style="width: 50px; padding-top: 180px;">
+			  				<div class="slds-align_absolute-center" >
+			  					<lightning:buttonIcon iconName="utility:right" variant="border" onclick="{!c.copyLastName}" alternativeText="Copy" />
+			  				</div>
+
+			  				<div class="slds-align_absolute-center" style="padding-top: 245px;">
+			  					<lightning:buttonIcon iconName="utility:right" variant="border" onclick="{!c.copyNationality}" alternativeText="Copy" />
+			  				</div>
+
+			  				<div class="slds-align_absolute-center" style="padding-top: 2px;">
+			  					<lightning:buttonIcon iconName="utility:right" variant="border" onclick="{!c.copyAddress}" alternativeText="Copy" />
+			  				</div>
+							  <div class="slds-align_absolute-center" style="margin-top: 135px;">
+							</div>	
+			  				<div class="slds-align_absolute-center" style="padding-top: 146px;">
+			  					<lightning:buttonIcon iconName="utility:right" variant="border" onclick="{!c.copyPrimaryEmail}" alternativeText="Copy" />
+			  				</div>
+
+			  				<!-- <div class="slds-align_absolute-center" style="padding-top: 4px;">
+			  					<lightning:buttonIcon iconName="utility:right" variant="border" onclick="{!c.copySecondaryEmail}"  alternativeText="Copy" />
+			  				</div> -->
+
+			  				<div class="slds-align_absolute-center" style="padding-top: 2px;">
+			  					<lightning:buttonIcon iconName="utility:right" variant="border" onclick="{!c.copyPhone}" alternativeText="Copy" />
+			  				</div>
+			  			</div>
+			  			<div class="slds-form-element slds-col">
+
+			  				<div>
+				  				<!-- <lightning:Input name="Contact 2 Title" label="Contact 2 Title" value="{!v.lead.ParentTitle__c}" /> -->
+				  				<label class="slds-form-element__label slds-p-bottom_xx-small" required="{!v.Required}" >
+				  					Contact 2 Salutation
+								</label>
+				  				<force:inputfield  value="{!v.lead.Parent2Title__c}" aura:id ="Parent2Title__c" />
+				  			</div>
+
+				  			<div>
+				  				<lightning:Input  name="Contact 2 First Name" label="Contact 2 First Name" value="{!v.lead.Parent2FirstName__c}" required="{! !empty(v.lead.Parent2LastName__c)}" class=" capitalizeFirstLetter slds-p-top_small"/>
+				  			</div>
+
+				  			<div>
+				  				<lightning:Input name="Contact 2 Last Name" label="Contact 2 Last Name" value="{!v.lead.Parent2LastName__c}" required="{! !empty(v.lead.Parent2FirstName__c)}" class=" capitalizeFirstLetter slds-p-top_small"/>   
+				  			</div>
+							  
+							<!-- VJA  --> 
+				  			<!-- <div>
+				  				<lightning:Input name="Contact 2 Preferred Name" label="Contact 2 Preferred Name" value="{!v.lead.Parent2PreferredName__c}" class=" capitalizeFirstLetter slds-p-top_small"/>   
+				  			</div> -->
+							<div class="slds-m-top_xx-large"></div>  
+
+			  				<label class="slds-form-element__label slds-m-top_x-large"><span class="{! 'required '+ if(and(empty(v.lead.Parent2FirstName__c), empty(v.lead.Parent2LastName__c)),'slds-hide', 'slds-show')}">* </span>{!$Label.c.Contact2RelationshiptoChild}</label>
+		  					<force:inputField class="slds-input" value="{!v.lead.Parent2NatureOfRelationship__c}" aura:id="Parent2NatureOfRelationship__c" change="{!c.updateRelationship}"  />
+
+							<!-- VJA   -->
+			  				<!-- <div class="{! if(v.lead.Parent2NatureOfRelationship__c == 'Other', 'slds-show', 'slds-hide')}" >
+			  					<label class="slds-form-element__label slds-p-top_small">
+			  						<span class="required">* </span>{!$Label.c.Contact2OtherRelationship_to_Child}</label>
+			  					<force:inputField class="slds-input" value="{!v.lead.Parent2OtherRelationship__c}" aura:id="Parent2OtherRelationship__c"/>
+			  				</div> -->
+
+		  					<label class="slds-form-element__label slds-p-top_small">{!$Label.c.Contact2PreferredLanguage}</label>
+		  					<force:inputField class="slds-input" value="{!v.lead.Parent2PreferredLanguage__c}" aura:id="Parent2PreferredLanguage__c"/>
+
+		  					<label class="slds-form-element__label slds-p-top_small">
+		  						{!$Label.c.Contact2Nationality}
+		  					</label>
+		  					<force:inputField class="slds-input" value="{!v.lead.Parent2Nationality__c}" aura:id="Parent2Nationality__c"/>
+
+		  					<lightning:Input name="Address Line 1" label="Address Line 1" value="{!v.lead.Parent2Street__c}" class="slds-p-top_small"/>
+		  					<lightning:Input name="Address Line 2" label="Address Line 2" value="{!v.lead.Parent2AddLine2__c}" class="slds-p-top_small"/>
+		  					<lightning:Input name="Address Line 3" label="Address Line 3" value="{!v.lead.Parent2AddLine3__c}" class="slds-p-top_small"/>
+
+		  					<div class="slds-form-element__row slds-p-top_small">
+		  						<div class="slds-form-element__control slds-size_1-of-2">
+		  							<lightning:Input name="Contact 2 City" label="Contact 2 City" value="{!v.lead.Parent2City__c}"/>
+		  						</div>
+
+		  						<div class="slds-form-element__control slds-size_1-of-2">
+		  							<lightning:Input name="Contact 2 State" label="Contact 2 State" value="{!v.lead.Parent2State__c}"/>
+		  						</div>
+		  					</div>
+
+		  					<div class="slds-form-element__row">
+		  						<div class="slds-form-element__control slds-size_1-of-2">
+		  							<label class="slds-form-element__label">
+		  								<aura:if isTrue="{!v.lead.LeadSource != 'External Relationships'}">
+		  									<span class="{! 'required '+ if(and(empty(v.lead.Parent2FirstName__c), empty(v.lead.Parent2LastName__c)),'slds-hide', 'slds-show')}">* </span>
+		  								</aura:if>
+		  								{!$Label.c.Contact2Country}</label>
+		  							<force:inputField aura:id="parentCountry" class="slds-input" value="{!v.lead.Parent2CountryOfResidence__c}" change="{!c.handleCountryChangeParent2}"/>
+		  						</div>
+
+		  						<div class="slds-form-element__control slds-size_1-of-2">
+		  							<lightning:Input name="Contact 2 Zip/Postal Code" label="Contact 2 Zip/Postal Code" value="{!v.lead.Parent2ZipPostalCode__c}"/>
+		  						</div>
+		  					</div>
+
+		  					<div>
+				  				<lightning:Input name="Contact 2 Primary Email" label="Contact 2 Primary Email" value="{!v.lead.Parent2PrimaryEmail__c}" type="email" class="slds-p-top_small"  />
+				  			</div>
+
+							<!-- VJA  -->
+				  			<!-- <div>
+				  				<lightning:Input name="Contact 2 Secondary Email" label="Contact 2 Secondary Email" value="{!v.lead.Parent2SecondaryEmail__c}" type="email" class="slds-p-top_small"  />
+				  			</div> -->
+
+							<div>
+					  			<lightning:Input type="tel" name="Contact 2 Phone" label="Contact 2 Phone" value="{!v.lead.Parent2HomePhone__c}" aura:id="Parent2HomePhone__c"  onfocus="{!c.populateParent2Phone}" onblur="{!c.validateParent2Phone}" class="slds-p-top_small"/>
+					  		</div>
+
+		  					<div>
+				  				<lightning:Input type="tel" name="Contact 2 Mobile Phone" label="Contact 2 Mobile Phone" value="{!v.lead.Parent2MobilePhone__c}" aura:id="Parent2MobilePhone__c" class="slds-p-top_small"  />
+				  			</div>
+
+		  					<label class="slds-form-element__label slds-p-top_small">{!$Label.c.NumberofChildren}</label>
+			  				<force:inputField class="slds-input" value="{!v.lead.number_of_children__c}" aura:id="number_of_children__c" required="{!v.Required3}" change="{!c.updateChild}"  />
+			  			</div>
+			  		</div>
+				</fieldset>
+			</div>
+
+			<div class="slds-form_compound slds-m-bottom_xx-small">
+		 		<fieldset class="slds-form-element">
+				 	<div class=" slds-theme_shade slds-form-element_label slds-text-heading_small slds-m-top_x-small slds-m-bottom_x-small">
+				      	<legend class="slds-truncate slds-p-around_x-small slds-m-left_x-small" title="Child Details">{!$Label.c.ChildDetails}</legend>
+				  	</div>
+
+				  	<lightning:accordion >
+				  		<aura:if isTrue="{!v.child1active}">
+				  			<lightning:accordionSection name="Child 1 Details" label="Child 1 Details">
+						  	 	<div class="slds-form-element__group slds-p-around_x-small">
+						  	 		<div class="slds-form-element__row">
+						  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+						  					<lightning:input label="First Name" name="First Name" value="{!v.lead.FirstNameFirstChild__c}"  class="capitalizeFirstLetter" required="{!v.Required3}"/>
+						  				</div>
+
+						  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+						  					<lightning:input label="Preferred Name" class="capitalizeFirstLetter"  name="Preferred Name" value="{!v.lead.PreferredNameFirstChild__c}" />
+						  				</div>
+							  	 	</div>
+
+							  	 	<div class="slds-form-element__row">
+						  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+						  					<lightning:input label="Last Name" class="capitalizeFirstLetter"  name="Last Name" value="{!v.lead.LastNameFirstChild__c}" required="{!v.Required3}"/>
+						  				</div>
+
+						  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+										    <label class="slds-form-element__label">{!$Label.c.NationalityofChild}</label>
+										    <force:inputField class="slds-input" value="{!v.lead.NationalityFirstChild__c}"/>
+						  				</div>
+							  	 	</div>
+
+							  	 	<div class="slds-form-element__row">
+						  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+                                            <lightning:input type="date" class="dateInput"  timeZone="{! $Locale.timezone }" aura:id="DateOfBirthFirstChild__c" value="{!v.lead.DateOfBirthFirstChild__c}" label="Date of Birth" />
+						  					<!-- <lightning:input type="date" class="dateInput"  timeZone="{! $Locale.timezone }" aura:id="DateOfBirthFirstChild__c" value="{!v.lead.DateOfBirthFirstChild__c}" label="Date of Birth" required="{!v.Required3}" /> -->
+                                            <!--<ui:inputDate  displayDatePicker="true" value="{!v.lead.DateOfBirthFirstChild__c}" format="MM/DD/YYYY" label="Date of Birth" required="true"/> -->
+						  				</div>
+
+						  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+						  				 <lightning:input class="dateInput" type="date" timeZone="{! $Locale.timezone }"  aura:id="EnrollmentDateFirstChild__c" value="{!v.lead.EnrollmentDateFirstChild__c}" label="Expected Start Date of Child" required="{!v.Required3}" /> 
+						  				   <!--   <ui:inputDate  displayDatePicker="true"  timeZone="{! $Locale.timezone }" value="{!v.lead.EnrollmentDateFirstChild__c}" label="Expected Start Date of Child" required="true"/>  -->
+                                        </div>
+							  	 	</div>
+
+							  	 	<div class="slds-form-element__row">
+							  	 		<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+						  					<label class="slds-form-element__label">{!$Label.c.NativeLanguageofChild}</label>
+						  					<force:inputField class="slds-input" value="{!v.lead.Native_Language_of_First_Child__c}" aura:id="NativeLanguageFirstChild__c"/>
+						  				</div>	
+
+						  				<div class="slds-form-element__control slds-size_1-of-2">
+										    <label class="slds-form-element__label"><span class="{!v.sldsRequired}">* </span>{!$Label.c.GenderofChild}</label>
+										    <force:inputField class="slds-input" value="{!v.lead.GenderFirstChild__c}"/>
+						  				</div>	
+							  	 	</div>
+
+							  	 	<div class="slds-form-element__row">
+						  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+						  					<label class="slds-form-element__label">Second Language of child</label>
+						  					<force:inputField class="slds-input" value="{!v.lead.SecondLanguageFirstChild__c}" aura:id="NativeLanguageFirstChild__c"/>
+						  				</div>
+							  	 	</div>
+
+							  	 	<div class="slds-form-element__row">
+										<!-- VJA -->
+						  				<!-- <div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+						  					<label class="slds-form-element__label">{!$Label.c.AllLanguagesofChild}</label>
+						  					<force:inputField class="slds-input" value="{!v.lead.LanguageSkillsFirstChild__c}" aura:id="LanguageSkillsFirstChild__c"/>
+						  				</div> -->
+
+										<!-- VJA  -->
+						  				<!-- <div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+											<label class="slds-form-element__label">Interest of Child</label>
+
+											 <lightning:dualListbox 
+											 	aura:id="interest1"
+											 	name="interest1"  
+					                           	label= "" 
+					                           	sourceLabel="Available" 
+					                           	selectedLabel="Selected"					
+					                           	options="{!v.interestOptions}" 
+					                           />
+						  				</div> -->
+							  	 	</div>
+
+							  	 	<div class="slds-form-element__row">
+							  	 		<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+							  	 			<!--cra20190603-W000535 -->
+							  	 			<!-- cra20191127-case00002115 <lightning:select disabled="{! v.dayBoardingDefaulted}" name="{!$Label.c.Boarding}" label="{!$Label.c.Boarding}"  value="{!v.lead.DayOrBoardingSchoolFirstChild__c}" aura:id="DayOrBoardingSchoolFirstChild__c" class="slds-p-top_small" > -->
+											<lightning:select name="{!$Label.c.Boarding}" label="{!$Label.c.Boarding}"  value="{!v.lead.DayOrBoardingSchoolFirstChild__c}" aura:id="DayOrBoardingSchoolFirstChild__c" class="slds-p-top_small" > 
+							  	 				<option value="">-- None --</option>
+										        <aura:iteration items="{!v.lstDayBoarding}" var="dayorboarding">
+										            <option text="{!dayorboarding}" value="{!dayorboarding}" selected="{! dayorboarding==v.lead.DayOrBoardingSchoolFirstChild__c}" />
+										        </aura:iteration>
+										    </lightning:select>
+							  	 			<!--
+							  	 			<label class="slds-form-element__label">{!$Label.c.Boarding}</label>
+							  	 				<force:inputField disabled="true" class="slds-input" value="{!v.lead.DayOrBoardingSchoolFirstChild__c}" aura:id="DayOrBoardingSchoolFirstChild__c"/>-->
+							  	 		</div>
+
+							  	 		<div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+						  					<label class="slds-form-element__label">{!$Label.c.ChildNotes}</label>
+						  					<force:inputField class="slds-input" value="{!v.lead.FirstChildNotes__c}" aura:id="FirstChildNotes__c"/>
+						  				</div>
+							  	 	</div>
+
+							  	 	
+							  	 	<div class="slds-form-element__row">
+							  	 		<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+							  	 			<label class="slds-form-element__label">{!$Label.c.CreateOpportunity}</label>
+							  	 			<ui:inputCheckbox class="slds-checkbox" value="{!v.lead.MarketingQualifiedFirstChild__c}" aura:id="MarketingQualifiedFirstChild__c"/>
+							  	 		</div>
+
+							  	 		<div class="{! 'slds-form-element__control slds-size_1-of-2 slds-p-left_small ' + if(v.isVisible, '', 'slds-hide')}">
+						  					<label class="slds-form-element__label">
+						  						{!$Label.c.EthnicityofChild}
+						  						<lightning:helptext content="For China Region" iconName="utility:info" class="popover"/>
+						  					</label>
+						  					<force:inputField class="slds-input" value="{!v.lead.EthnicityFirstChild__c}" aura:id="EthnicityFirstChild__c"/>
+						  				</div>
+							  	 	</div>
+                                    
+                                    <!-- Start CRA (2018/12/06):W-00465 -->
+                                    <div class="slds-form-element__row slds-p-top_small">
+                                        <div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small ">
+                                            <label class="slds-form-element__label">{!$Label.c.ExpectedYearGradeofChild}</label>
+                                            <force:inputField value="{!v.lead.ExpectedYearGradeFirstChild__c}"/>
+                                        </div>
+            
+										<div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+											<label class="slds-form-element__label">{!$Label.c.HasAttendedSummercamp}</label>
+											<ui:inputCheckbox class="slds-checkbox" value="{!v.lead.HasAttendedSummercampFirstChild__c}" aura:id="HasAttendedSummercampFirstChild__c"/>											 
+                                        </div>
+				  	 				</div>
+                                    <!-- End CRA (2018/12/06):W-00465 -->
+                                    
+							  	 </div>
+						  	 </lightning:accordionSection>
+				  		</aura:if>
+
+				  		<lightning:accordionSection name="Child 2 Details" label="Child 2 Details" class="{! if(v.child2active, 'slds-show', 'slds-hide')}">
+					  	 	<div class="slds-form-element__group slds-p-around_x-small">
+					  	 		<div class="slds-form-element__row">
+					  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+					  					<lightning:input label="First Name" class=" capitalizeFirstLetter " name="First Name" value="{!v.lead.FirstNameSecondChild__c}" required="true"/>
+					  				</div>
+
+					  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+					  					<lightning:input label="Preferred Name" class=" capitalizeFirstLetter " name="Preferred Name" value="{!v.lead.PreferredNameSecondChild__c}" />
+					  				</div>
+						  	 	</div>
+
+						  	 	<div class="slds-form-element__row">
+					  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+					  					<lightning:input label="Last Name" class=" capitalizeFirstLetter " name="Last Name" value="{!v.lead.LastNameSecondChild__c}" required="true"/>
+					  				</div>
+
+					  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+									     <label class="slds-form-element__label">{!$Label.c.NationalityofChild}</label>
+									    <force:inputField class="slds-input" value="{!v.lead.NationalitySecondChild__c}"/>
+					  				</div>
+						  	 	</div>
+
+						  	 	<div class="slds-form-element__row">
+						  	 		<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+                                        <lightning:input type="date" timeZone="{! $Locale.timezone }" class="dateInput"  aura:id="DateOfBirthSecondChild__c" value="{!v.lead.DateOfBirthSecondChild__c}" label="Date of Birth" /> 
+					  					<!-- <lightning:input type="date" timeZone="{! $Locale.timezone }" class="dateInput"  aura:id="DateOfBirthSecondChild__c" value="{!v.lead.DateOfBirthSecondChild__c}" label="Date of Birth" required="true" />  -->
+                                    	<!-- <ui:inputDate value="{!v.lead.DateOfBirthSecondChild__c}" format="MM/DD/YYYY" label="Date of Birth" required="true"/> -->
+                                    </div>
+
+					  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+					  					 <lightning:input type="date" class="dateInput" aura:id="EnrollmentDateSecondChild__c" value="{!v.lead.EnrollmentDateSecondChild__c}" label="Expected Start Date of Child" required="true" /> 
+					  					<!--<ui:inputDate value="{!v.lead.EnrollmentDateSecondChild__c}" format="MM/DD/YYYY" label="Expected Start Date of Child" required="true"/> -->
+                                    </div>
+						  	 	</div>
+                                
+                                <div class="slds-form-element__row">
+                                    <div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+                                        <label class="slds-form-element__label">{!$Label.c.NativeLanguageofChild}</label>
+                                        <force:inputField class="slds-input" value="{!v.lead.Native_Language_of_Second_Child__c}" aura:id="NativeLanguageFirstChild__c"/>
+                                    </div>	
+                                    
+                                    <div class="slds-form-element__control slds-size_1-of-2">
+                                        <label class="slds-form-element__label"><span class="required">* </span>{!$Label.c.GenderofChild}</label>
+                                        <force:inputField class="slds-input" value="{!v.lead.GenderSecondChild__c}"/>
+                                    </div>	
+                                </div>
+                                
+                                <div class="slds-form-element__row">
+									<!-- VJA -->
+                                    <!-- <div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+                                        <label class="slds-form-element__label">Second Language of child</label>
+                                        <force:inputField class="slds-input" value="{!v.lead.SecondLanguageSecondChild__c}" aura:id="NativeLanguageFirstChild__c"/>
+                                    </div> -->
+                                </div>
+                                
+
+						  	 	<div class="slds-form-element__row">
+									<!-- VJA    -->
+					  				<!-- <div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+					  					<label class="slds-form-element__label">{!$Label.c.AllLanguagesofChild}</label>
+					  					<force:inputField class="slds-input" value="{!v.lead.LanguageSkillsSecondChild__c}" aura:id="LanguageSkillsSecondChild__c"/>
+					  				</div> -->
+
+									
+
+									<!-- VJA -->
+					  				<!-- <div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+					  					<label class="slds-form-element__label">Interest of Child</label>
+
+										 <lightning:dualListbox 
+										 	aura:id="interest2"
+										 	name="interest2"  
+				                           	label= "" 
+				                           	sourceLabel="Available" 
+				                           	selectedLabel="Selected"					
+				                           	options="{!v.interestOptions}" 
+				                           />
+					  				</div> -->
+						  	 	</div>
+
+						  	 	<div class="slds-form-element__row">
+						  	 		<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+						  	 			<!--cra20190603-W000535 -->
+							  	 			<!-- cra20191127-case00002115 <lightning:select disabled="{! v.dayBoardingDefaulted}" value="{!v.lead.DayOrBoardingSchoolSecondChild__c}" name="{!$Label.c.Boarding}" label="{!$Label.c.Boarding}" aura:id="DayOrBoardingSchoolSecondChild__c" class="slds-p-top_small" > -->
+											<lightning:select value="{!v.lead.DayOrBoardingSchoolSecondChild__c}" name="{!$Label.c.Boarding}" label="{!$Label.c.Boarding}" aura:id="DayOrBoardingSchoolSecondChild__c" class="slds-p-top_small" > 
+											   <option value="">-- None --</option>
+										        <aura:iteration items="{!v.lstDayBoarding}" var="dayorboarding">
+										            <option text="{!dayorboarding}" value="{!dayorboarding}" selected="{!dayorboarding==v.lead.DayOrBoardingSchoolSecondChild__c}" />
+										        </aura:iteration>
+										    </lightning:select>
+						  	 			<!--<label class="slds-form-element__label">{!$Label.c.Boarding}</label>
+						  	 			<force:inputField class="slds-input" value="{!v.lead.DayOrBoardingSchoolSecondChild__c}" aura:id="DayOrBoardingSchoolSecondChild__c"/>-->
+						  	 		</div>
+ 
+
+									<!-- VJA   -->
+									<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small slds-p-top_small">
+										<label class="slds-form-element__label">{!$Label.c.ChildNotes}</label>
+										<force:inputField class="slds-input" value="{!v.lead.SecondChildNotes__c}" aura:id="SecondChildNotes__c"/>
+									</div>
+
+						  	 	</div>
+
+						  	 	<div class="slds-form-element__row">
+						  	 		<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+					  					<label class="slds-form-element__label">{!$Label.c.CreateOpportunity}</label>
+						  	 			<ui:inputCheckbox class="slds-checkbox" value="{!v.lead.MarketingQualifiedSecondChild__c}" aura:id="MarketingQualifiedSecondChild__c"/>
+						  	 		</div>
+
+									<!-- VJA  -->
+						  	 		<!-- <div class="{! 'slds-form-element__control slds-size_1-of-2 slds-p-left_small ' + if(v.isVisible, '', 'slds-hide')}">
+					  					<label class="slds-form-element__label">{!$Label.c.EthnicityofChild}
+					  						<lightning:helptext content="For China Region" iconName="utility:info" class="popover"/>
+					  					</label>
+					  					<force:inputField class="slds-input" value="{!v.lead.EthnicitySecondChild__c}" aura:id="EthnicitySecondChild__c"/>
+					  				</div> -->
+						  	 	</div>
+
+						  	 	<!-- Start CRA (2018/12/06):W-00465 -->
+                                <div class="slds-form-element__row slds-p-top_small">
+									<!-- VJA -->
+									<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small ">
+                                        <label class="slds-form-element__label">{!$Label.c.ExpectedYearGradeofChild}</label>
+                                        <force:inputField value="{!v.lead.ExpectedYearGradeSecondChild__c}"/>
+                                    </div>  
+
+                                    <div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small"> 
+										<label class="slds-form-element__label">{!$Label.c.HasAttendedSummercamp}</label>
+										<ui:inputCheckbox class="slds-checkbox" value="{!v.lead.HasAttendedSummercampSecondChild__c}" aura:id="HasAttendedSummercampSecondChild__c"/>   
+                                    </div>
+			  	 				</div>
+                                <!-- End CRA (2018/12/06):W-00465 -->
+
+						  	 </div>
+					  	 </lightning:accordionSection>
+				  
+				  		<lightning:accordionSection name="Child 3 Details" label="Child 3 Details" class="{! if(v.child3active, 'slds-show', 'slds-hide')}">
+					  	 	<div class="slds-form-element__group slds-p-around_x-small">
+					  	 		<div class="slds-form-element__row">
+					  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+					  					<lightning:input label="First Name" name="First Name" value="{!v.lead.FirstNameThirdChild__c}"  class=" capitalizeFirstLetter " required="true"/>
+					  				</div>
+
+					  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+					  					<lightning:input label="Preferred Name" name="Preferred Name" value="{!v.lead.PreferredNameThirdChild__c}"  class="capitalizeFirstLetter" />
+					  				</div>
+						  	 	</div>
+
+						  	 	<div class="slds-form-element__row">
+					  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+					  					<lightning:input label="Last Name" name="Last Name" value="{!v.lead.LastNameThirdChild__c}"  class=" capitalizeFirstLetter " required="true"/>
+					  				</div>
+
+					  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+									    <label class="slds-form-element__label">{!$Label.c.NationalityofChild}</label>
+									    <force:inputField class="slds-input" value="{!v.lead.NationalityThirdChild__c}"/>
+					  				</div>
+						  	 	</div>
+
+						  	 	<div class="slds-form-element__row">
+						  	 		<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+                                         <lightning:input type="date" timeZone="{! $Locale.timezone }" class="dateInput" aura:id="DateOfBirthThirdChild__c" value="{!v.lead.DateOfBirthThirdChild__c}" label="Date of Birth" /> 
+					  					 <!-- <lightning:input type="date" timeZone="{! $Locale.timezone }" class="dateInput" aura:id="DateOfBirthThirdChild__c" value="{!v.lead.DateOfBirthThirdChild__c}" label="Date of Birth" required="true" />  -->
+					  					 <!--<ui:inputDate value="{!v.lead.DateOfBirthThirdChild__c}" format="MM/DD/YYYY" label="Date of Birth" required="true"/>-->
+                                    </div>
+					  					
+					  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+					  					 <lightning:input type="date" timeZone="{! $Locale.timezone }" class="dateInput" aura:id="EnrollmentDateThirdChild__c" value="{!v.lead.EnrollmentDateThirdChild__c}" label="Expected Start Date of Child" required="true" /> 
+										<!--<ui:inputDate value="{!v.lead.EnrollmentDateThirdChild__c}" format="MM/DD/YYYY" label="Expected Start Date of Child" required="true"/> -->
+                                        
+					  					<!-- <label class="slds-form-element__label"><span class="required">* </span>Expected Start Date of Child</label>
+									    <force:inputField class="slds-input" value="{!v.lead.EnrollmentDateThirdChild__c}" required="true"  /> -->
+					  				</div>
+						  	 	</div>
+                                
+                                <div class="slds-form-element__row">
+                                    <div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+                                        <label class="slds-form-element__label">{!$Label.c.NativeLanguageofChild}</label>
+                                        <force:inputField class="slds-input" value="{!v.lead.Native_Language_of_Third_Child__c}" aura:id="NativeLanguageFirstChild__c"/>
+                                    </div>	
+                                    
+                                    <div class="slds-form-element__control slds-size_1-of-2">
+                                        <label class="slds-form-element__label"><span class="required">* </span>{!$Label.c.GenderofChild}</label>
+                                        <force:inputField class="slds-input" value="{!v.lead.GenderThirdChild__c}"/>
+                                    </div>	
+                                </div>
+                                
+                                <div class="slds-form-element__row">
+									<!-- VJA -->
+                                    <!-- <div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+                                        <label class="slds-form-element__label">Second Language of child</label>
+                                        <force:inputField class="slds-input" value="{!v.lead.SecondLanguageThirdChild__c}" aura:id="NativeLanguageFirstChild__c"/>
+                                    </div> -->
+
+									<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+										<!--cra20190603-W000535 -->
+										<!-- cra20191127-case00002115 <lightning:select disabled="{! v.dayBoardingDefaulted}" value="{!v.lead.DayOrBoardingSchoolThirdChild__c}" name="{!$Label.c.Boarding}" label="{!$Label.c.Boarding}" aura:id="DayOrBoardingSchoolThirdChild__c" class="slds-p-top_small" > -->
+										 <lightning:select value="{!v.lead.DayOrBoardingSchoolThirdChild__c}" name="{!$Label.c.Boarding}" label="{!$Label.c.Boarding}" aura:id="DayOrBoardingSchoolThirdChild__c" class="slds-p-top_small" >
+											 <option value="">-- None --</option>
+											 <aura:iteration items="{!v.lstDayBoarding}" var="dayorboarding">
+												 <option text="{!dayorboarding}" value="{!dayorboarding}" selected="{!dayorboarding==v.lead.DayOrBoardingSchoolThirdChild__c}" />
+											 </aura:iteration>
+										 </lightning:select>
+										<!--<label class="slds-form-element__label">{!$Label.c.Boarding}</label>
+										<force:inputField class="slds-input" value="{!v.lead.DayOrBoardingSchoolThirdChild__c}" aura:id="DayOrBoardingSchoolThirdChild__c"/> -->
+
+									</div>
+
+									<!-- VJA -->
+									<div class="slds-form-element__control slds-size_1-of-2 slds-p-top_small">
+										<label class="slds-form-element__label">{!$Label.c.ChildNotes}</label>
+										<force:inputField class="slds-input" value="{!v.lead.ThirdChildNotes__c}" aura:id="Child_3_Notes__c"/>
+									</div>
+                                </div>
+
+						  	 	<div class="slds-form-element__row">
+					  				<!-- <div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+					  					<label class="slds-form-element__label">{!$Label.c.AllLanguagesofChild}</label>
+					  					<force:inputField class="slds-input" value="{!v.lead.LanguageSkillsThirdChild__c}" aura:id="LanguageSkillsThirdChild__c"/>
+					  				</div> -->
+
+									<!-- VJA -->
+					  				<!-- <div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+					  					<label class="slds-form-element__label">Interest of Child</label>
+
+										 <lightning:dualListbox 
+										 	aura:id="interest3"
+										 	name="interest3"  
+				                           	label= "" 
+				                           	sourceLabel="Available" 
+				                           	selectedLabel="Selected"					
+				                           	options="{!v.interestOptions}" 
+				                           />
+					  				</div> -->
+						  	 	</div>
+
+						  	 	<div class="slds-form-element__row">
+
+						  	 		<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+					  					<label class="slds-form-element__label">{!$Label.c.CreateOpportunity}</label>
+						  	 			<ui:inputCheckbox class="slds-checkbox" value="{!v.lead.MarketingQualifiedThirdChild__c}" aura:id="MarketingQualifiedThirdChild__c"/>
+						  	 		</div>
+
+									<!-- VJA   -->
+						  	 		<!-- <div class="{! 'slds-form-element__control slds-size_1-of-2 slds-p-left_small ' + if(v.isVisible, '', 'slds-hide')}">
+					  					<label class="slds-form-element__label">{!$Label.c.EthnicityofChild}
+					  						<lightning:helptext content="For China Region" iconName="utility:info" class="popover"/>
+					  					</label>
+					  					<force:inputField class="slds-input" value="{!v.lead.EthnicityThirdChild__c}" aura:id="EthnicityThirdChild__c"/>
+					  				</div> -->
+						  	 	</div>
+
+						  	 	<!-- Start CRA (2018/12/06):W-00465 -->
+                                <div class="slds-form-element__row slds-p-top_small">
+									<!-- VJA -->
+									<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+										<label class="slds-form-element__label">{!$Label.c.ExpectedYearGradeofChild}</label>
+										<force:inputField value="{!v.lead.ExpectedYearGradeThirdChild__c}"/>
+									</div>
+
+                                    <div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+										<label class="slds-form-element__label">{!$Label.c.HasAttendedSummercamp}</label>
+										<ui:inputCheckbox class="slds-checkbox" value="{!v.lead.HasAttendedSummercampThirdChild__c}" aura:id="HasAttendedSummercampThirdChild__c"/> 
+                                    </div>
+			  	 				</div>
+                                <!-- End CRA (2018/12/06):W-00465 -->
+
+						  	 </div>
+					  	 </lightning:accordionSection>
+
+				  		<lightning:accordionSection name="Child 4 Details" label="Child 4 Details" class="{! if(v.child4active, 'slds-show', 'slds-hide')}">
+					  	 	<div class="slds-form-element__group slds-p-around_x-small">
+					  	 		<div class="slds-form-element__row">
+					  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+					  					<lightning:input label="First Name" name="First Name" value="{!v.lead.FirstNameFourthChild__c}" class=" capitalizeFirstLetter " required="true"/>
+					  				</div>
+
+					  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+					  					<lightning:input label="Preferred Name"  class=" capitalizeFirstLetter " name="Preferred Name" value="{!v.lead.PreferredNameFourthChild__c}" />
+					  				</div>
+						  	 	</div>
+
+						  	 	<div class="slds-form-element__row">
+					  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+					  					<lightning:input label="Last Name" name="Last Name" value="{!v.lead.LastNameFourthChild__c}"  class=" capitalizeFirstLetter " required="true"/>
+					  				</div>
+
+					  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+									     <label class="slds-form-element__label">{!$Label.c.NationalityofChild}</label>
+									    <force:inputField class="slds-input" value="{!v.lead.NationalityFourthChild__c}"/>
+					  				</div>
+						  	 	</div>
+
+						  	 	<div class="slds-form-element__row">
+						  	 		<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+                                       <lightning:input type="date" timeZone="{! $Locale.timezone }" class="dateInput" aura:id="DateOfBirthFourthChild__c" value="{!v.lead.DateOfBirthFourthChild__c}" label="Date of Birth" /> 
+					  					<!-- <lightning:input type="date" timeZone="{! $Locale.timezone }" class="dateInput" aura:id="DateOfBirthFourthChild__c" value="{!v.lead.DateOfBirthFourthChild__c}" label="Date of Birth" required="true" />  -->
+					  					<!--<ui:inputDate value="{!v.lead.DateOfBirthFourthChild__c}" format="MM/DD/YYYY" label="Date of Birth" required="true"/>-->
+                                    </div>
+
+					  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+					  					<lightning:input type="date" timeZone="{! $Locale.timezone }" class="dateInput"  aura:id="EnrollmentDateFourthChild__c" value="{!v.lead.EnrollmentDateFourthChild__c}" label="Expected Start Date of Child" required="true" /> 
+					  					<!--<ui:inputDate value="{!v.lead.EnrollmentDateFourthChild__c}" format="MM/DD/YYYY" label="Expected Start Date of Child" required="true"/>-->
+                                    </div>
+						  	 	</div>
+                                
+                                <div class="slds-form-element__row">
+                                    <div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+                                        <label class="slds-form-element__label">{!$Label.c.NativeLanguageofChild}</label>
+                                        <force:inputField class="slds-input" value="{!v.lead.Native_Language_of_Fourth_Child__c}" aura:id="NativeLanguageFirstChild__c"/>
+                                    </div>	
+                                    
+                                    <div class="slds-form-element__control slds-size_1-of-2 ">
+                                        <label class="slds-form-element__label"><span class="required">* </span>{!$Label.c.GenderofChild}</label>
+                                        <force:inputField class="slds-input" value="{!v.lead.GenderFourthChild__c}"/>
+                                    </div>	
+                                </div>
+                                
+                                <div class="slds-form-element__row">
+									<!-- VJA -->
+                                    <!-- <div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+                                        <label class="slds-form-element__label">Second Language of child</label>
+                                        <force:inputField class="slds-input" value="{!v.lead.SecondLanguageFourthChild__c}" aura:id="NativeLanguageFirstChild__c"/>
+                                    </div> -->
+
+									<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+										<!--cra20190603-W000535 -->
+									 <!-- cra20191127-case00002115 <lightning:select disabled="{! v.dayBoardingDefaulted}"  value="{!v.lead.DayOrBoardingSchoolFourthChild__c}" name="{!$Label.c.Boarding}" label="{!$Label.c.Boarding}" aura:id="DayOrBoardingSchoolFourthChild__c" class="slds-p-top_small" > -->
+										 <lightning:select value="{!v.lead.DayOrBoardingSchoolFourthChild__c}" name="{!$Label.c.Boarding}" label="{!$Label.c.Boarding}" aura:id="DayOrBoardingSchoolFourthChild__c" class="slds-p-top_small" >
+											 <option value="">-- None --</option>
+											 <aura:iteration items="{!v.lstDayBoarding}" var="dayorboarding">
+												 <option text="{!dayorboarding}" value="{!dayorboarding}" selected="{!dayorboarding==v.lead.DayOrBoardingSchoolFourthChild__c}" />
+											 </aura:iteration>
+										 </lightning:select>
+										<!--<label class="slds-form-element__label">{!$Label.c.Boarding}</label>
+										<force:inputField class="slds-input" value="{!v.lead.DayOrBoardingSchoolFourthChild__c}" aura:id="DayOrBoardingSchoolFourthChild__c"/>-->
+									</div>
+
+									<!-- VJA -->
+									<div class="slds-form-element__control slds-size_1-of-2 slds-p-top_small">
+										<label class="slds-form-element__label">{!$Label.c.ChildNotes}</label>
+										<force:inputField class="slds-input" value="{!v.lead.FourthChildNotes__c}" aura:id="Child_4_Notes__c"/>
+									</div>
+                                </div>
+
+						  	 	<div class="slds-form-element__row">
+									<!-- VJA -->
+					  				<!-- <div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+					  					<label class="slds-form-element__label">{!$Label.c.AllLanguagesofChild}</label>
+					  					<force:inputField class="slds-input" value="{!v.lead.LanguageSkillsFourthChild__c}" aura:id="LanguageSkillsFourthChild__c"/>
+					  				</div> -->
+
+									<!-- VJA -->
+					  				<!-- <div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+					  					<label class="slds-form-element__label">Interest of Child</label>
+
+										<lightning:dualListbox 
+										 	aura:id="interest4"
+										 	name="interest4"  
+				                           	label= "" 
+				                           	sourceLabel="Available" 
+				                           	selectedLabel="Selected"					
+				                           	options="{!v.interestOptions}" 
+				                           />
+					  				</div> -->
+
+									
+						  	 	</div>
+
+						  	 	<div class="slds-form-element__row">
+								
+						  	 		<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+					  					<label class="slds-form-element__label">{!$Label.c.CreateOpportunity}</label>
+						  	 			<ui:inputCheckbox class="slds-checkbox" value="{!v.lead.MarketingQualifiedFourthChild__c}" aura:id="MarketingQualifiedFourthChild__c"/>
+						  	 		</div>
+
+									<!-- VJA -->
+						  	 		<!-- <div class="{! 'slds-form-element__control slds-size_1-of-2 slds-p-left_small ' + if(v.isVisible, '', 'slds-hide')}">
+					  					<label class="slds-form-element__label">{!$Label.c.EthnicityofChild}
+					  						<lightning:helptext content="For China Region" iconName="utility:info" class="popover"/>
+					  					</label>
+					  					<force:inputField class="slds-input" value="{!v.lead.EthnicityFourthChild__c}" aura:id="Child_4_Ethnicity"/>
+					  				</div> -->
+						  	 	</div>
+
+						  	 	<!-- Start CRA (2018/12/06):W-00465 -->
+                                <div class="slds-form-element__row slds-p-top_small">
+
+									<!-- VJA -->
+									<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+                                        <label class="slds-form-element__label">{!$Label.c.ExpectedYearGradeofChild}</label>
+                                        <force:inputField value="{!v.lead.ExpectedYearGradeFourthChild__c}"/>
+                                    </div>
+
+									
+                                    <div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+										<label class="slds-form-element__label">{!$Label.c.HasAttendedSummercamp}</label>
+										<ui:inputCheckbox class="slds-checkbox" value="{!v.lead.HasAttendedSummercampFourthChild__c}" aura:id="HasAttendedSummercampFourthChild__c"/>  
+                                    </div>
+			  	 				</div>
+                                <!-- End CRA (2018/12/06):W-00465 -->
+
+						  	 </div>
+					  	 </lightning:accordionSection>
+
+				  		<lightning:accordionSection name="Child 5 Details" label="Child 5 Details" class="{! if(v.child5active, 'slds-show', 'slds-hide')}">
+					  	 	<div class="slds-form-element__group slds-p-around_x-small">
+					  	 		<div class="slds-form-element__row">
+					  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+					  					<lightning:input label="First Name"  class="capitalizeFirstLetter" name="First Name" value="{!v.lead.FirstNameFifthChild__c}" required="true"/>
+					  				</div>
+
+					  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+					  					<lightning:input label="Preferred Name" class=" capitalizeFirstLetter " name="Preferred Name" value="{!v.lead.PreferredNameFifthChild__c}" />
+					  				</div>
+						  	 	</div>
+
+						  	 	<div class="slds-form-element__row">
+					  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+					  					<lightning:input label="Last Name" name="Last Name" value="{!v.lead.LastNameFifthChild__c}" class=" capitalizeFirstLetter " required="true"/>
+					  				</div>
+
+					  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+									  	<label class="slds-form-element__label">{!$Label.c.NationalityofChild}</label>
+									    <force:inputField class="slds-input" value="{!v.lead.NationalityFifthChild__c}"/>
+					  				</div>
+						  	 	</div>
+
+						  	 	<div class="slds-form-element__row">
+						  	 		<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+					  					<lightning:input type="date" timeZone="{! $Locale.timezone }" class="dateInput" aura:id="DateOfBirthFifthChild__c" value="{!v.lead.DateOfBirthFifthChild__c}" label="Date of Birth" /> 
+                                          <!-- <lightning:input type="date" timeZone="{! $Locale.timezone }" class="dateInput" aura:id="DateOfBirthFifthChild__c" value="{!v.lead.DateOfBirthFifthChild__c}" label="Date of Birth" required="true" />  -->
+					  					<!--<ui:inputDate value="{!v.lead.DateOfBirthFifthChild__c}" format="MM/DD/YYYY" label="Date of Birth" required="true"/> -->
+                                    </div>
+
+					  				<div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+                                        <!--<ui:inputDate value="{!v.lead.EnrollmentDateFifthChild__c}" format="MM/DD/YYYY" label="Expected Start Date of Child" required="true"/> -->
+					  					<lightning:input type="date" timeZone="{! $Locale.timezone }" class="dateInput" aura:id="EnrollmentDateFifthChild__c" value="{!v.lead.EnrollmentDateFifthChild__c}" label="Expected Start Date of Child" required="true" />
+					  				</div>
+						  	 	</div>
+                                
+                                <div class="slds-form-element__row">
+                                    <div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+                                        <label class="slds-form-element__label">{!$Label.c.NativeLanguageofChild}</label>
+                                        <force:inputField class="slds-input" value="{!v.lead.Native_Language_of_Fifth_Child__c}" aura:id="NativeLanguageFirstChild__c"/>
+                                    </div>	
+                                    
+                                    <div class="slds-form-element__control slds-size_1-of-2">
+                                        <label class="slds-form-element__label"><span class="required">* </span>{!$Label.c.GenderofChild}</label>
+                                        <force:inputField class="slds-input" value="{!v.lead.GenderFifthChild__c}"/>
+                                    </div>	
+                                </div>
+                                
+                                <div class="slds-form-element__row">
+									<!-- VJA -->
+                                    <!-- <div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+                                        <label class="slds-form-element__label">Second Language of child</label>
+                                        <force:inputField class="slds-input" value="{!v.lead.SecondLanguageFifthChild__c}" aura:id="NativeLanguageFirstChild__c"/>
+                                    </div> -->
+
+									<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+										<!--cra20190603-W000535 -->
+										<!-- cra20191127-case00002115 <lightning:select disabled="{! v.dayBoardingDefaulted}"  value="{!v.lead.DayOrBoardingSchoolFifthChild__c}" name="{!$Label.c.Boarding}" label="{!$Label.c.Boarding}" aura:id="DayOrBoardingSchoolFifthChild__c" class="slds-p-top_small" > -->
+										 <lightning:select value="{!v.lead.DayOrBoardingSchoolFifthChild__c}" name="{!$Label.c.Boarding}" label="{!$Label.c.Boarding}" aura:id="DayOrBoardingSchoolFifthChild__c" class="slds-p-top_small" >
+											 <option value="">-- None --</option>
+											 <aura:iteration items="{!v.lstDayBoarding}" var="dayorboarding">
+												 <option text="{!dayorboarding}" value="{!dayorboarding}" selected="{!dayorboarding==v.lead.DayOrBoardingSchoolFifthChild__c}" />
+											 </aura:iteration>
+										 </lightning:select>
+										<!--<label class="slds-form-element__label">{!$Label.c.Boarding}</label>
+										<force:inputField class="slds-input" value="{!v.lead.DayOrBoardingSchoolFifthChild__c}" aura:id="DayOrBoardingSchoolFifthChild__c"/>-->
+									</div>
+
+									
+									<!-- VJA   -->
+									<div class="slds-form-element__control slds-size_1-of-2 slds-p-top_small">
+										<label class="slds-form-element__label">{!$Label.c.ChildNotes}</label> 
+										<force:inputField class="slds-input" value="{!v.lead.FifthChildNotes__c}" aura:id="Child_5_Notes__c"/>
+									</div>
+                                </div>
+
+						  	 	<div class="slds-form-element__row">
+									<!-- VJA    -->
+					  				<!-- <div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+					  					<label class="slds-form-element__label">{!$Label.c.AllLanguagesofChild}</label>
+					  					<force:inputField class="slds-input" value="{!v.lead.LanguageSkillsFifthChild__c}" aura:id="LanguageSkillsFifthChild__c"/>
+					  				</div> -->
+
+									<!-- VJA  -->
+					  				<!-- <div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+					  					<label class="slds-form-element__label">Interest of Child</label>
+
+										<lightning:dualListbox 
+										 	aura:id="interest5"
+										 	name="interest5"  
+				                           	label= "" 
+				                           	sourceLabel="Available" 
+				                           	selectedLabel="Selected"					
+				                           	options="{!v.interestOptions}" 
+				                           />
+					  				</div> -->
+
+									
+						  	 	</div>
+
+						  	 	<div class="slds-form-element__row">
+
+						  	 		<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+					  					<label class="slds-form-element__label">{!$Label.c.CreateOpportunity}</label>
+						  	 			<ui:inputCheckbox class="slds-checkbox" value="{!v.lead.MarketingQualifiedFifthChild__c}" aura:id="MarketingQualifiedFifthChild__c"/>
+						  	 		</div>
+
+									<!-- VJA -->
+						  	 		<!-- <div class="{! 'slds-form-element__control slds-size_1-of-2 slds-p-left_small ' + if(v.isVisible, '', 'slds-hide')}">
+					  					<label class="slds-form-element__label">{!$Label.c.EthnicityofChild}
+						  					<lightning:helptext content="For China Region" iconName="utility:info" class="popover"/>
+						  				</label>
+					  					<force:inputField class="slds-input" value="{!v.lead.EthnicityFifthChild__c}" aura:id="Child_5_Ethnicity"/>
+					  				</div> -->
+						  	 	</div>
+
+						  	 	<!-- Start CRA (2018/12/06):W-00465 -->
+                                <div class="slds-form-element__row slds-p-top_small">
+
+									<!-- VJA -->
+									<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+                                        <label class="slds-form-element__label">{!$Label.c.ExpectedYearGradeofChild}</label>
+                                        <force:inputField value="{!v.lead.ExpectedYearGradeFifthChild__c}"/>
+                                    </div>  
+
+                                    <div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+										<label class="slds-form-element__label">{!$Label.c.HasAttendedSummercamp}</label>
+										<ui:inputCheckbox class="slds-checkbox" value="{!v.lead.HasAttendedSummercampFifthChild__c}" aura:id="HasAttendedSummercampFifthChild__c"/> 
+                                    </div>
+			  	 				</div>
+                                <!-- End CRA (2018/12/06):W-00465 -->
+
+						  	 </div>
+					  	 </lightning:accordionSection>
+						<!--CRA20190731: Removed Sixth Child section - Application Form 2.0 -->
+				  	</lightning:accordion>
+				</fieldset>
+			</div>
+
+			<div class="slds-form_compound">
+		 		<fieldset class="slds-form-element">
+				 	<div class=" slds-theme_shade slds-form-element_label slds-text-heading_small slds-m-top_x-small slds-m-bottom_x-small">
+				      	<legend class="slds-truncate slds-p-around_x-small slds-m-left_x-small" title="Contact Details">{!$Label.c.EnquiryDetails}</legend>
+				  	</div>
+
+					<div class="slds-form-element__group slds-p-around_x-small">
+				  		<div class="slds-form-element__row">
+				  			<div class="slds-form-element__control slds-size_1-of-2 slds-p-right_small">
+								<label class="slds-form-element__label">{!$Label.c.EnquiryComments}</label>
+			  					<force:inputField class="slds-input" value="{!v.lead.EnquiryComments__c}" aura:id="EnquiryComments__c"/>
+				  			</div>
+				  		</div>
+				  	</div>
+				</fieldset>
+			</div>
+
+			<div class="slds-form_compound slds-m-bottom_xx-small">
+		 		<fieldset class="slds-form-element">
+				 	<div class=" slds-theme_shade slds-form-element_label slds-text-heading_small slds-m-top_x-small slds-m-bottom_x-small">
+				      	<legend class="slds-truncate slds-p-around_x-small slds-m-left_x-small" title="Visit Details">{!$Label.c.VisitDetails}</legend>
+				  	</div>
+
+					<div class="slds-form-element__group slds-p-around_x-small">
+						<div class="slds-form-element__row">
+				  			<div class="slds-form-element__control slds-size_1-of-2 date slds-p-right_small">
+			  					<lightning:input type="date" timeZone="{! $Locale.timezone }"  class="dateInput"  aura:id="VisitPreferredDate__c" value="{!v.lead.VisitPreferredDate__c}" label="Preferred Date of Visit"  />
+				  			</div>
+							<div class="slds-form-element__control slds-size_1-of-2 slds-p-left_small">
+								<label class="slds-form-element__label">{!$Label.c.InterestedinanOpenHouseVisit}</label>
+								<span>
+					  				<ui:inputCheckbox class="slds-checkbox" value="{!v.lead.Interested_in_an_open_house_visit__c}" aura:id="Interested_in_an_open_house_visit__c"/>
+					  			</span>
+				  			</div>
+				  		</div>
+					</div>
+				</fieldset>
+
+				<div style="height: 180px;">
+					<div class="slds-docked-form-footer">
+						<button type="button" class="slds-button slds-button_neutral" onclick="{!c.cancel}">{!$Label.c.Cancel}</button>
+						<button type="button" class="slds-button slds-button_brand" onclick="{!c.save}">{!$Label.c.Save}</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</lightning:card>
+
+</aura:component>

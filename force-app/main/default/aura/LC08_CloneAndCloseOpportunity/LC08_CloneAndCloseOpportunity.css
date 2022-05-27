@@ -1,0 +1,3 @@
+.THIS .divRecordEditForm .slds-form-element_stacked:not(.slds-is-editing) {
+    padding: 0;
+}

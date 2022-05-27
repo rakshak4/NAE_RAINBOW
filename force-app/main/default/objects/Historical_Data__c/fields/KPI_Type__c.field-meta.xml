@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KPI_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>KPI Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Enquiry</fullName>
+                <default>false</default>
+                <label>Enquiry</label>
+            </value>
+            <value>
+                <fullName>Application</fullName>
+                <default>false</default>
+                <label>Application</label>
+            </value>
+            <value>
+                <fullName>Visit</fullName>
+                <default>false</default>
+                <label>Visit</label>
+            </value>
+            <value>
+                <fullName>Virtual Visit (VOD)</fullName>
+                <default>false</default>
+                <label>Virtual Visit (VOD)</label>
+            </value>
+            <value>
+                <fullName>Virtual Meeting (VDM)</fullName>
+                <default>false</default>
+                <label>Virtual Meeting (VDM)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

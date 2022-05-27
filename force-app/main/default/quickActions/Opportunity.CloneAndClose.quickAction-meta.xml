@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Clone and Close Opportunity</description>
+    <height>420</height>
+    <label>Clone &amp; Close</label>
+    <lightningComponent>LC08_CloneAndCloseOpportunity</lightningComponent>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>LightningComponent</type>
+    <width>-100</width>
+</QuickAction>

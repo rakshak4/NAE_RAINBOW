@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>ConcernsOnSocialAcademicProgress__c</label>
+    <protected>false</protected>
+    <values>
+        <field>TranslatedLabel__c</field>
+        <value xsi:type="xsd:string">ท่านมีความกังวลใดๆ เกี่ยวกับพัฒนาการด้านสังคมหรือด้านวิชาการของบุตรหลานของท่านที่ต้องการที่จะแจ้งให้เราทราบหรือไม่?</value>
+    </values>
+</CustomMetadata>

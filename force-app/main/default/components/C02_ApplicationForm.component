@@ -1,0 +1,642 @@
+<apex:component controller="VFC02_ApplicationFormAsAttachement" access="global" language="{!lang}">
+    <apex:attribute name="oppAttr" type="Opportunity" description="The related opportunity" assignTo="{!theOppToSend}"/>
+    <apex:attribute name="accAttr" type="Account" description="The related account" assignTo="{!theAcc}"/>
+    <apex:attribute name="isGeneratedManually" type="Boolean" description="For CSS Style" assignTo="{!isGenManual}" />    
+    <apex:outputtext rendered="{!init}" /> 
+    <html>
+        <head><!--renderAs="advanced_pdf" renderAs="{!renderedAs}"    -->
+            <apex:stylesheet value="{!IF(theSchoolOfInterest == 'Default', URLFOR($Resource.ApplicationForm_Assets,'ApplicationForm_Assets/ApplicationFormStyles.css') , URLFOR($Resource[theSchoolOfInterest],theSchoolOfInterest+'/ApplicationFormStyles.css'))}"/>
+        </head>
+        <body>  
+            <apex:variable var="listFields" value="{!''}{!fieldsNotVisible}"/>
+            <apex:outputPanel rendered="{! NOT(CONTAINS(listFields, 'CoverPage'))}">
+                <div class="page-break" style="position: absolute;top: 0; width: 100%"> 
+                    <div >
+                        <div id="header_container0">
+                            <div class="header_container0" style="{! IF(CONTAINS(listFields, 'CoverPicture'), 'height: 850px;', '')}">
+                                <apex:outputPanel rendered="{! NOT(CONTAINS(listFields, 'CoverPicture'))}">
+                                   <!-- <img src="{!URLFOR($Resource[schoolCode],schoolCode+'/ApplicationForm_CoverPicture.jpg')}"  style="{!IF(!isBISSchool,'height: 850px; max-height:850px;','')}" width="{!IF(!isBISSchool,'95%','100%')}" />
+                                -->
+                                 <img src="{!URLFOR($Resource[schoolCode],schoolCode+'/ApplicationForm_CoverPicture.jpg')}"  style="{!IF(AND(!isBISSchool,!isDalianSchool),'height: 850px; max-height:850px;',IF(isDalianSchool,'height:1100px; max-height:850px',''))}" width="{!IF(OR(isBISSchool,isDalianSchool),'100%','95%')}" />
+
+                                </apex:outputPanel>
+                            </div>
+                            <div class="footer_container0">
+                                <div class="{! IF(CONTAINS(listFields, 'CoverPicture'), 'footer', '')}">
+                                    <img src="{!URLFOR($Resource[schoolCode],schoolCode+'/ApplicationForm_CoverFooter.png')}" height="40px" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </apex:outputPanel>
+
+                        <apex:variable var="i" value="{!0}"/><apex:repeat value="{!thefamily['ChildContact']}" var="theChild"><apex:variable var="i" value="{!i + 1}"/> 
+            <apex:variable var="contactId" value="{!theChild.Id}" />
+            <apex:variable var="theOpp" value="{!theOpportunities[contactId]}" />
+            <div class="page-break">
+                <div id="header_container2">
+                    <div class="header_container">
+                        <img src="{!IF(theSchoolOfInterest == 'Default' , URLFOR($Resource.ApplicationForm_Assets,'ApplicationForm_Assets/banner.png') , URLFOR($Resource[theSchoolOfInterest],theSchoolOfInterest+'/banner.png'))}" width="100%" />
+                        <img src="{!URLFOR($Resource.ApplicationForm_Assets,'ApplicationForm_Assets/sections/ApplicationForm_ChildInformation.png') }"  class="overlayedText" height="110px" />
+                    </div>
+                </div>
+                
+                <h1 class="subTopic"><img src="{!IF(theSchoolOfInterest == 'Default' , URLFOR($Resource.ApplicationForm_Assets,'ApplicationForm_Assets/child_'+TEXT(i)+'_of_'+TEXT(noOfChilds)+'.png') , URLFOR($Resource[theSchoolOfInterest],theSchoolOfInterest+'/child_'+TEXT(i)+'_of_'+TEXT(noOfChilds)+'.png'))}" height="20px" /></h1>
+                <table id="childInfo" class="tableWholeWidth" cellspacing="0"> 
+                    <tr>
+                        <td rowspan="{!IF(isCBLSchool,5,4)}">
+                            <div class="childPhoto"><apex:outputText value="{!theChild.Photo__c}" escape="false"/></div>
+                        </td>
+                        <td style="{!IF(CONTAINS(listFields, 'Child_FirstName'),'display : none','')}"><span class="label"> {!mapAPILabel['Child_FirstName']}</span><div class="inputControlComments">{!theChild.FirstName}</div></td>
+                    </tr>
+                    <tr style="{!IF(isCBLSchool,'','display : none')}" >
+                        <td style="{!IF(CONTAINS(listFields, 'Child_MiddleName'),'display : none','')}"><span class="label">{!mapAPILabel['Child_MiddleName']}</span><div class="inputControlComments">{!theChild.MiddleName}</div></td>
+                    </tr>
+                    <tr>
+                        <td style="{!IF(CONTAINS(listFields, 'Child_LastName'),'display : none','')}"><span class="label"> {!mapAPILabel['Child_LastName']}</span><div class="inputControlComments">{!theChild.LastName}</div></td>
+                    </tr>
+                    <tr>
+                        <td style="{!IF(CONTAINS(listFields, 'preferredName__c'),'display : none','')}"><span class="label">{!mapAPILabel['preferredName__c']}</span><div class="inputControlComments">{!theChild.PreferredName__c}</div></td>
+                    </tr>
+                    <tr>
+                        <td style="{!IF(CONTAINS(listFields, 'Gender__c'),'display : none','')}"><span class="label">{!mapAPILabel['Gender__c']}</span><div class="inputControlComments">{!theChild.Gender__c}</div></td>
+                    </tr>
+                    <tr style="{!IF(AND(CONTAINS(listFields, 'Birthdate'), CONTAINS(listFields, 'PassportNumber__c')),'display : none','')}">
+                        <td style="{!IF(CONTAINS(listFields, 'Birthdate'),'display : none','')}"><span class="label">{!mapAPILabel['Birthdate']}</span><div class="inputControlComments"><apex:outputText value=" {0,date,dd/MM/yyyy}"> <apex:param value="{!theChild.Birthdate}" /> </apex:outputText></div></td>
+                        <td style="{!IF(CONTAINS(listFields, 'PassportNumber__c'),'display : none','')}"><span class="label">{!mapAPILabel['PassportNumber__c']}</span><div class="inputControlComments">{!theChild.PassportNumber__c}</div></td>
+                    </tr>
+                    <tr style="{!IF(AND(CONTAINS(listFields, 'Child_Nationality1'), CONTAINS(listFields, 'NativeLanguage__c')),'display : none','')}">
+                        <td style="{!IF(CONTAINS(listFields, 'Child_Nationality1'),'display : none','')}"><span class="label">{!mapAPILabel['Child_Nationality1']}</span><div class="inputControlComments">{!theChild.Nationality__c}</div></td>
+                        <td style="{!IF(CONTAINS(listFields, 'NativeLanguage__c'),'display : none','')}"><span class="label">{!mapAPILabel['NativeLanguage__c']}</span><div class="inputControlComments">{!theChild.NativeLanguage__c}</div></td>
+                    </tr>
+                    <tr style="{!IF(AND(CONTAINS(listFields, 'Nationality2__c'), CONTAINS(listFields, 'SecondLanguage__c')),'display : none','')}">
+                        <td style="{!IF(CONTAINS(listFields, 'Nationality2__c'),'display : none','')}"><span class="label">{!mapAPILabel['Nationality2__c']}</span><div class="inputControlComments">{!theChild.Nationality2__c}</div></td>
+                        <td style="{!IF(CONTAINS(listFields, 'SecondLanguage__c'),'display : none','')}"><span class="label">{!mapAPILabel['SecondLanguage__c']}</span><div class="inputControlComments">{!theChild.SecondLanguage__c}</div></td>
+                    </tr>
+                    <tr style="{!IF(AND(CONTAINS(listFields, 'Religion__c'), CONTAINS(listFields, 'Ethnicity__c')),'display : none','')}">
+                        <td style="{!IF(CONTAINS(listFields, 'Religion__c'),'display : none','')}"><span class="label">{!mapAPILabel['Religion__c']}</span><div class="inputControlComments">{!theChild.ReligionPicklist__c}</div></td>
+                        <td style="{!IF(CONTAINS(listFields, 'Ethnicity__c'),'display : none','')}"><span class="label">{!mapAPILabel['Ethnicity__c']}</span><div class="inputControlComments">{!theChild.Ethnicity__c}</div></td>
+                    </tr>
+                    <tr style="{!IF(CONTAINS(listFields, 'CloseDate'),'display : none','')}">
+                        <td><span class="label">{!mapAPILabel['CloseDateMonth']}</span><div class="inputControlComments"><apex:outputText value=" {0,date,MMMMM}"> <apex:param value="{!theOpp.CloseDate}" /> </apex:outputText></div></td>
+                        <td><span class="label">{!mapAPILabel['CloseDateYear']}</span><div class="inputControlComments"><apex:outputText value=" {0,date,yyyy}"> <apex:param value="{!theOpp.CloseDate}" /> </apex:outputText></div></td>
+                    </tr>
+                    <tr style="{!IF(AND(CONTAINS(listFields, 'RequestedYearLevel__c'), CONTAINS(listFields, 'Campus__c')),'display : none','')}">
+                        <td style="{!IF(CONTAINS(listFields, 'RequestedYearLevel__c'),'display : none','')}"><span class="label">{!mapAPILabel['RequestedYearLevel__c']}</span><div class="inputControlComments">{!theOpp.RequestedYearLevel__c}</div></td>
+                        <td style="{!IF(CONTAINS(listFields, 'Campus__c'),'display : none','')}" ><span class="label">{!mapAPILabel['Campus__c']}</span><div class="inputControlComments">{!theOpp.Campus__c}</div></td>
+                    </tr>
+                    <tr style="{!IF(AND(CONTAINS(listFields, 'DayOrBoardingSchool__c')),'display : none','')}">
+                        <td style="{!IF(CONTAINS(listFields, 'DayOrBoardingSchool__c'),'display : none','')}"><span class="label">{!mapAPILabel['DayOrBoardingSchool__c']}</span><div class="inputControlComments">{!theOpp.DayOrBoardingSchool__c}</div></td>
+                        <td ></td>
+                    </tr>
+                    <tr style="{!IF(OR(!isOxfordSchool,AND(isOxfordSchool,CONTAINS(listFields, 'ChildVisa__c'))),'display : none','')}">
+                        <td>
+                            <span class="label">{!mapAPILabel['ChildVisa__c']}</span><div class="radioButtonGroup">
+                            <div class="radioButtonLabel">{!mapAPILabel['Yes']}</div><div class="{!IF(theOpp.ChildVisa__c,'radioButtonChecked','radioButtonUnchecked')}"></div>
+                            <div class="radioButtonLabel">{!mapAPILabel['No']}</div><div class="{!IF(!theOpp.ChildVisa__c,'radioButtonChecked', 'radioButtonUnchecked')}"></div>
+                            </div><br/><br/></td>
+                    </tr>
+                    <tr style="{!IF(!isTARegionSchool,'display : none','')}">
+                        <td style="{!IF(CONTAINS(listFields, 'I20Required'),'display : none','')}" colspan="2">
+                            <span class="label">{!mapAPILabel['I20Required']}</span><div class="radioButtonGroup">
+                            <div class="radioButtonLabel">{!mapAPILabel['Yes']}</div><div class="{!IF(theChild.I_20_Required_for_Visa__c,'radioButtonChecked','radioButtonUnchecked')}"></div>
+                            <div class="radioButtonLabel">{!mapAPILabel['No']}</div><div class="{!IF(!theChild.I_20_Required_for_Visa__c,'radioButtonChecked', 'radioButtonUnchecked')}"></div>
+                            </div><br/><br/></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="page-break">
+                <div id="header_container3">
+                    <div class="header_container">
+                        <img src="{!IF(theSchoolOfInterest == 'Default' , URLFOR($Resource.ApplicationForm_Assets,'ApplicationForm_Assets/banner.png') ,URLFOR($Resource[theSchoolOfInterest],theSchoolOfInterest+'/banner.png'))}" width="100%"/>
+                        <img src="{!URLFOR($Resource.ApplicationForm_Assets,'ApplicationForm_Assets/sections/ApplicationForm_ChildAcademics.png')}" class="overlayedText" height="110px"/>
+                    </div>
+                </div>
+                <h1 class="subTopic"><img src="{!IF(theSchoolOfInterest == 'Default' , URLFOR($Resource.ApplicationForm_Assets,'ApplicationForm_Assets/child_'+TEXT(i)+'_of_'+TEXT(noOfChilds)+'.png') , URLFOR($Resource[theSchoolOfInterest],theSchoolOfInterest+'/child_'+TEXT(i)+'_of_'+TEXT(noOfChilds)+'.png'))}" height="20px"/></h1>
+                <table id="childInfoAcademics" class="tableWholeWidth" cellspacing="0">
+                    <tr style="{!IF(OR(!isOxfordSchool,AND(isOxfordSchool,CONTAINS(listFields, 'Subject_Choices__c'))),'display : none','')}">
+                        <td><span class="label">{!mapAPILabel['Subject_Choices__c']}</span><div class="inputControlComments">{!theOpp.Subject_Choices__c}</div></td>
+                    </tr>
+                    <tr>
+                        <td style="{!IF(CONTAINS(listFields, 'EnglishProficiencySpoken__c'),'display : none','')}"><span class="label">{!mapAPILabel['EnglishProficiencySpoken__c']}</span><div class="inputControlComments">{!theOpp.EnglishProficiencySpoken__c}</div></td>
+                        <td style="{!IF(CONTAINS(listFields, 'EnglishProficiencyWritten__c'),'display : none','')}"><span class="label">{!mapAPILabel['EnglishProficiencyWritten__c']}</span><div class="inputControlComments">{!theOpp.EnglishProficiencyWritten__c}</div></td>
+                    </tr>
+                    <tr>
+                        <td style="{!IF(CONTAINS(listFields, 'ChineseProficiencySpoken__c'),'display : none','')}"><span class="label">{!mapAPILabel['ChineseProficiencySpoken__c']}</span><div class="inputControlComments">{!theOpp.ChineseProficiencySpoken__c}</div></td>
+                        <td style="{!IF(CONTAINS(listFields, 'ChineseProficiencyWritten__c'),'display : none','')}"><span class="label">{!mapAPILabel['ChineseProficiencyWritten__c']}</span><div class="inputControlComments">{!theOpp.ChineseProficiencyWritten__c}</div></td>
+                    </tr>
+                    <tr>
+                        <td style="{!IF(CONTAINS(listFields, 'FrenchProficiencySpoken__c'),'display : none','')}"><span class="label">{!mapAPILabel['FrenchProficiencySpoken__c']}</span><div class="inputControlComments">{!theOpp.ChineseProficiencySpoken__c}</div></td>
+                        <td style="{!IF(CONTAINS(listFields, 'FrenchProficiencyWritten__c'),'display : none','')}"><span class="label">{!mapAPILabel['FrenchProficiencyWritten__c']}</span><div class="inputControlComments">{!theOpp.ChineseProficiencyWritten__c}</div></td>
+                    </tr>
+                    <tr>
+                        <td style="{!IF(CONTAINS(listFields, 'ConcernsOnSocialAcademicProgress__c'),'display : none','')}" colspan="2">
+                            <span class="label">{!mapAPILabel['ConcernsOnSocialAcademicProgress__c']}</span><div class="radioButtonGroup">
+                            <div class="radioButtonLabel">{!mapAPILabel['Yes']}</div><div class="{!IF(ISBLANK(theOpp.ConcernsOnSocialAcademicProgress__c),'radioButtonUnchecked','radioButtonChecked')}"></div>
+                            <div class="radioButtonLabel">{!mapAPILabel['No']}</div><div class="{!IF(ISBLANK(theOpp.ConcernsOnSocialAcademicProgress__c), IF(AND(isGenManual, isAppForm), 'radioButtonChecked', 'radioButtonUnchecked'),'radioButtonUnchecked')}"></div>
+                            </div><br/><br/><div class="inputControlCommentsUpperNormal">{!theOpp.ConcernsOnSocialAcademicProgress__c}</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="{!IF(CONTAINS(listFields, 'EducationSupportNeeded__c'),'display : none','')}" colspan="2">
+                            <span class="label">{!mapAPILabel['EducationSupportNeeded__c']}</span><div class="radioButtonGroup">
+                            <div class="radioButtonLabel">{!mapAPILabel['Yes']}</div><div class="{!IF(ISBLANK(theOpp.EducationSupportNeeded__c),'radioButtonUnchecked','radioButtonChecked')}"></div>
+                            <div class="radioButtonLabel">{!mapAPILabel['No']}</div><div class="{!IF(ISBLANK(theOpp.EducationSupportNeeded__c), IF(AND(isGenManual, isAppForm), 'radioButtonChecked', 'radioButtonUnchecked'),'radioButtonUnchecked')}"></div>
+                            </div><br/><br/><div class="inputControlCommentsUpperNormal">{!theOpp.EducationSupportNeeded__c}</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="{!IF(CONTAINS(listFields, 'childNeedAdditionalSupport__c'),'display : none','')}" colspan="2"> 
+                            <span class="label">{!mapAPILabel['childNeedAdditionalSupport__c']}</span><div class="radioButtonGroup">
+                            <div class="radioButtonLabel">{!mapAPILabel['Yes']}</div><div class="{!IF(ISBLANK(theOpp.AttendedSpecialClasses__c),'radioButtonUnchecked','radioButtonChecked')}"></div>
+                            <div class="radioButtonLabel">{!mapAPILabel['No']}</div><div class="{!IF(ISBLANK(theOpp.AttendedSpecialClasses__c),IF(AND(isGenManual, isAppForm), 'radioButtonChecked', 'radioButtonUnchecked'),'radioButtonUnchecked')}"></div>
+                            </div><br/><br/><div class="inputControlCommentsUpperNormal">{!theOpp.AttendedSpecialClasses__c}</div>
+                        </td>
+                    </tr>
+                    <tr style="{!IF(CONTAINS(listFields, 'ChildTalent__c'),'display : none','')}">
+                        <!-- <td style="{!IF(!isMadridSchool,'display : none','')}" colspan="2"><span class="label">{!mapAPILabel['ChildTalent__c']}</span><div class="inputControlComments">{!theOpp.Interests__c}</div></td> -->
+                        <td style="{!IF(!isMadridSchool,'display : none','')}" colspan="2"><span class="label">{!mapAPILabel['ChildTalent__c']}</span><div class="inputControlComments">{!theOpp.ChildsFavouriteSubjects__c}</div></td>
+                    </tr>
+                    
+                    <tr style="{!IF(CONTAINS(listFields, 'CurrentPreviousSchoolName__c'),'display : none','')}">
+                        <td colspan="2"><span class="label">{!mapAPILabel['CurrentPreviousSchoolName__c']}</span><div class="inputControlComments">{!theOpp.CurrentPreviousSchoolName__c}</div></td>
+                    </tr>
+                    <tr>
+                        <td style="{!IF(CONTAINS(listFields, 'AttendedFrom__c'),'display : none','')}"><span class="label">{!mapAPILabel['AttendedFrom__c']}</span><div class="inputControlComments"><apex:outputText value=" {0,date,dd/MM/yyyy}"> <apex:param value="{!theOpp.AttendedFrom__c}" /> </apex:outputText></div></td>
+                        <td style="{!IF(CONTAINS(listFields, 'AttendedTo__c'),'display : none','')}"><span class="label">{!mapAPILabel['AttendedTo__c']}</span><div class="inputControlComments"><apex:outputText value=" {0,date,dd/MM/yyyy}"> <apex:param value="{!theOpp.AttendedTo__c}" /> </apex:outputText></div></td>
+                    </tr>
+                    <tr>
+                        <td style="{!IF(CONTAINS(listFields, 'Country__c'),'display : none','')}"><span class="label">{!mapAPILabel['Country__c']}</span><div class="inputControlComments">{!theOpp.Country__c}</div></td>
+                        <td style="{!IF(CONTAINS(listFields, 'City__c'),'display : none','')}"><span class="label">{!mapAPILabel['City__c']}</span><div class="inputControlComments">{!theOpp.City__c}</div></td>
+                    </tr>
+                    <tr>
+                        <td style="{!IF(CONTAINS(listFields, 'Curriculum__c'),'display : none','')}"><span class="label">{!mapAPILabel['Curriculum__c']}</span><div class="inputControlComments">{!theOpp.Curriculum__c}</div></td>
+                        <td style="{!IF(CONTAINS(listFields, 'LanguageOfInstruction__c'),'display : none','')}"><span class="label">{!mapAPILabel['LanguageOfInstruction__c']}</span><div class="inputControlComments">{!theOpp.LanguageOfInstruction__c}</div></td>
+                    </tr>
+                    <tr>
+                        <td style="{!IF(CONTAINS(listFields, 'ReferenceRequest__c'),'display : none','')}"><span class="label">{!mapAPILabel['ReferenceRequest__c']}</span><div class="radioButtonGroup">
+                            <div class="radioButtonLabel">{!mapAPILabel['Agree']}</div><div class="{!IF(OR(theOpp.ReferenceRequest__c == 'Agree',theOpp.ReferenceRequest__c == 'true'),'radioButtonChecked','radioButtonUnchecked')}"></div>
+                            <div class="radioButtonLabel">{!mapAPILabel['NotAgree']}</div><div class="{! IF(AND(isGenManual, isAppForm, OR(theOpp.ReferenceRequest__c == 'Not Agree', theOpp.ReferenceRequest__c == 'false')), 'radioButtonChecked', 'radioButtonUnchecked')}"></div>
+                            </div><br/><br/></td>
+                    </tr>
+                    <tr style="{!IF(OR(theOpp.ReferenceRequest__c == 'Not Agree', theOpp.ReferenceRequest__c == 'false', ISBLANK(theOpp.ReferenceRequest__c)),'display : none','')}">
+                        <td style="{!IF(CONTAINS(listFields, 'ContactName__c'),'display : none','')}"><span class="label">{!mapAPILabel['ContactName__c']}</span><div class="inputControlComments">{!theOpp.ContactName__c}</div></td>
+                        <td style="{!IF(CONTAINS(listFields, 'ContactEmailAddress__c'),'display : none','')}"><span class="label">{!mapAPILabel['ContactEmailAddress__c']}</span><div class="inputControlComments">{!theOpp.ContactEmailAddress__c}</div></td>              
+                    </tr>
+                    <tr style="{!IF(OR(theOpp.ReferenceRequest__c == 'false',ISBLANK(theOpp.ReferenceRequest__c),CONTAINS(listFields, 'ReasonForLeaving__c')),'display : none','')}">
+                        <td colspan="2"><span class="label">{!mapAPILabel['ReasonForLeaving__c']}</span><div class="inputControlComments">{!theOpp.ReasonForLeaving__c}</div></td>
+                    </tr>
+                    <tr>
+                        <td style="{!IF(CONTAINS(listFields, 'SchoolRejection__c'),'display : none','')}" colspan="2"><span class="label">{!mapAPILabel['SchoolRejection__c']}</span><div class="radioButtonGroup">
+                            <div class="radioButtonLabel">{!mapAPILabel['Yes']}</div><div class="{!IF(theOpp.SchoolRejection__c,'radioButtonChecked','radioButtonUnchecked')}"></div>
+                            <div class="radioButtonLabel">{!mapAPILabel['No']}</div><div class="{!IF(theOpp.SchoolRejection__c, 'radioButtonUnchecked', IF(AND(isGenManual, isAppForm), 'radioButtonChecked', 'radioButtonUnchecked'))}"></div>
+                            </div><br/><br/></td>
+                    </tr>
+                    <tr style="{!IF(OR(NOT(theOpp.SchoolRejection__c), CONTAINS(listFields, 'WhatIsTheReason__c')),'display : none','')}" >
+                        <td colspan="2"><span class="label">{!mapAPILabel['WhatIsTheReason__c']}</span><div class="inputControlCommentsUpperNormal">{!theOpp.WhatIsTheReason__c}</div></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="page-break"  style="{!IF(CONTAINS(listFields, 'MedHistory'),'display : none','')}">
+                <div id="header_container4">
+                    <div class="header_container">
+                        <img src="{!IF(theSchoolOfInterest == 'Default' , URLFOR($Resource.ApplicationForm_Assets,'ApplicationForm_Assets/banner.png') , URLFOR($Resource[theSchoolOfInterest],theSchoolOfInterest+'/banner.png'))}" width="100%" />
+                        <img src="{!URLFOR($Resource.ApplicationForm_Assets,'ApplicationForm_Assets/sections/ApplicationForm_ChildMedicalInformation.png')}" class="overlayedText" height="110px"/>
+                    </div>
+                </div>
+                <h1 class="subTopic"><img src="{!IF(theSchoolOfInterest == 'Default' , URLFOR($Resource.ApplicationForm_Assets,'ApplicationForm_Assets/child_'+TEXT(i)+'_of_'+TEXT(noOfChilds)+'.png') , URLFOR($Resource[theSchoolOfInterest],theSchoolOfInterest+'/child_'+TEXT(i)+'_of_'+TEXT(noOfChilds)+'.png'))}" height="20px"/></h1>
+                <table id="childInfoMedical" class="tableWholeWidth" cellspacing="0" > 
+                    <tr>
+                        <td style="{!IF(CONTAINS(listFields, 'MedicalConditions__c'),'display : none','')}" colspan="2">
+                            <span class="label">{!mapAPILabel['MedicalConditions__c']}</span><div class="radioButtonGroup">
+                            <div class="radioButtonLabel">{!mapAPILabel['Yes']}</div><div class="{!IF(ISBLANK(theOpp.MedicalConditions__c),'radioButtonUnchecked','radioButtonChecked')}"></div>
+                            <div class="radioButtonLabel">{!mapAPILabel['No']}</div><div class="{!IF(ISBLANK(theOpp.MedicalConditions__c), IF(AND(isGenManual, isAppForm), 'radioButtonChecked', 'radioButtonUnchecked'),'radioButtonUnchecked')}"></div>
+                            </div><br/><br/><div class="inputControlCommentsMedium">{!theOpp.MedicalConditions__c}</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="{!IF(CONTAINS(listFields, 'PrescriptionDrugs__c'),'display : none','')}" colspan="2">
+                            <span class="label">{!mapAPILabel['PrescriptionDrugs__c']}</span><div class="radioButtonGroup">
+                            <div class="radioButtonLabel">{!mapAPILabel['Yes']}</div><div class="{!IF(ISBLANK(theOpp.PrescriptionDrugs__c),'radioButtonUnchecked','radioButtonChecked')}"></div>
+                            <div class="radioButtonLabel">{!mapAPILabel['No']}</div><div class="{!IF(ISBLANK(theOpp.PrescriptionDrugs__c), IF(AND(isGenManual, isAppForm), 'radioButtonChecked', 'radioButtonUnchecked'),'radioButtonUnchecked')}"></div>
+                            </div><br/><br/><div class="inputControlCommentsMedium">{!theOpp.PrescriptionDrugs__c}</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="{!IF(CONTAINS(listFields, 'InabilityToParticipateInSports__c'),'display : none','')}" colspan="2">
+                            <span class="label">{!mapAPILabel['InabilityToParticipateInSports__c']}</span><div class="radioButtonGroup">
+                            <div class="radioButtonLabel">{!mapAPILabel['Yes']}</div><div class="{!IF(ISBLANK(theOpp.InabilityToParticipateInSports__c),'radioButtonUnchecked','radioButtonChecked')}"></div>
+                            <div class="radioButtonLabel">{!mapAPILabel['No']}</div><div class="{!IF(ISBLANK(theOpp.InabilityToParticipateInSports__c), IF(AND(isGenManual, isAppForm), 'radioButtonChecked', 'radioButtonUnchecked'),'radioButtonUnchecked')}"></div>
+                            </div><br/><br/><div class="inputControlCommentsMedium">{!theOpp.InabilityToParticipateInSports__c}</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="{!IF(CONTAINS(listFields, 'ChildsAllergies__c'),'display : none','')}" colspan="2">
+                            <span class="label">{!mapAPILabel['ChildsAllergies__c']}</span><div class="radioButtonGroup">
+                            <div class="radioButtonLabel">{!mapAPILabel['Yes']}</div><div class="{!IF(ISBLANK(theOpp.ChildsAllergies__c),'radioButtonUnchecked','radioButtonChecked')}"></div>
+                            <div class="radioButtonLabel">{!mapAPILabel['No']}</div><div class="{!IF(ISBLANK(theOpp.ChildsAllergies__c), IF(AND(isGenManual, isAppForm), 'radioButtonChecked', 'radioButtonUnchecked'),'radioButtonUnchecked')}"></div>
+                            </div><br/><br/><div class="inputControlCommentsMedium">{!theOpp.ChildsAllergies__c}</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="{!IF(CONTAINS(listFields, 'Vaccinations__c'),'display : none','')}" colspan="2">
+                            <span class="label">{!mapAPILabel['Vaccinations__c']}</span><div class="radioButtonGroup">
+                            <div class="radioButtonLabel">{!mapAPILabel['Yes']}</div><div class="{!IF(ISBLANK(theOpp.Vaccinations__c),'radioButtonUnchecked','radioButtonChecked')}"></div>
+                            <div class="radioButtonLabel">{!mapAPILabel['No']}</div><div class="{!IF(ISBLANK(theOpp.Vaccinations__c), IF(AND(isGenManual, isAppForm), 'radioButtonChecked', 'radioButtonUnchecked'),'radioButtonUnchecked')}"></div>
+                            </div><br/><br/><div class="inputControlCommentsMedium">{!theOpp.Vaccinations__c}</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="{!IF(CONTAINS(listFields, 'DietaryRequirements__c'),'display : none','')}" colspan="2">
+                            <span class="label">{!mapAPILabel['DietaryRequirements__c']}</span><div class="radioButtonGroup">
+                            <div class="radioButtonLabel">{!mapAPILabel['Yes']}</div><div class="{!IF(ISBLANK(theOpp.DietaryRequirements__c),'radioButtonUnchecked','radioButtonChecked')}"></div>
+                            <div class="radioButtonLabel">{!mapAPILabel['No']}</div><div class="{!IF(ISBLANK(theOpp.DietaryRequirements__c), IF(AND(isGenManual, isAppForm), 'radioButtonChecked', 'radioButtonUnchecked'),'radioButtonUnchecked')}"></div>
+                            </div><br/><br/><div class="inputControlCommentsMedium">{!theOpp.DietaryRequirements__c}</div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            </apex:repeat>
+            
+            <apex:variable var="i" value="{!0}"/><apex:repeat value="{!thefamily['allParents']}" var="theParent"><apex:variable var="i" value="{!i + 1}"/> 
+            
+            <div style="{!IF(AND(CONTAINS(listFields, 'CoverPage'), i == 1), 'position: absolute;top: 0;', '')}" >
+                <div class="page-break">
+                    <div id="header_container1">
+                        <div class="header_container">
+                            <img src="{!IF(theSchoolOfInterest == 'Default' , URLFOR($Resource.ApplicationForm_Assets,'ApplicationForm_Assets/banner.png') ,URLFOR($Resource[theSchoolOfInterest],theSchoolOfInterest+'/banner.png') )}" width="100%" />
+                            <img src="{!URLFOR($Resource.ApplicationForm_Assets,'ApplicationForm_Assets/sections/ApplicationForm_ParentGuardianInformation.png')}" height="110px" class="overlayedText" />
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="subTopic"><!-- Parent/Guardian {!i} of {!noOfParents} --> <img src="{!IF(theSchoolOfInterest == 'Default' ,URLFOR($Resource.ApplicationForm_Assets,'ApplicationForm_Assets/parent_'+TEXT(i)+'_of_'+TEXT(noOfParents)+'.png') , URLFOR($Resource[theSchoolOfInterest],theSchoolOfInterest+'/parent_'+TEXT(i)+'_of_'+TEXT(noOfParents)+'.png'))}" height="20px" /></h1>
+                        <table id="parentInfo" class="tableWholeWidth" cellspacing="0"> 
+                            <tr>
+                                <td style="{!IF(CONTAINS(listFields, 'Title'),'display : none','')}" colspan="2">
+                                    <span class="label">{!mapAPILabel['Title']}</span><div class="inputControlComments">{!theParent.Salutation}</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="{!IF(CONTAINS(listFields, 'FirstName'),'display : none','')}"><span class="label">{!mapAPILabel['FirstName']}</span><div class="inputControlComments">{!theParent.FirstName}</div></td>
+                                <td style="{!IF(CONTAINS(listFields, 'LastName'),'display : none;','')}"><span class="label">{!mapAPILabel['LastName']}</span><div class="inputControlComments">{!theParent.LastName}</div></td>
+                            </tr>
+                            <tr style="{!IF(!isMadridSchool,'display : none','')}">
+                                <td style="{!IF(CONTAINS(listFields, 'ParentDOB__c'),'display : none','')}"><span class="label">{!mapAPILabel['Birthdate']}</span><div class="inputControlComments"><apex:outputText value=" {0,date,dd/MM/yyyy}"> <apex:param value="{!theParent.Birthdate}" /> </apex:outputText></div></td>  
+                                <td style="{!IF(OR(CONTAINS(listFields, 'PersonDeceased__c'), NOT(CONTAINS(theParent.NatureOfRelationship__c, 'Grand'))),'display : none','')}"><span class="label">{!mapAPILabel['PersonDeceased__c']}</span><div class="inputControlComments">{!IF(theParent.Is_Contact_Deceased__c,'Yes','No')}</div></td>
+                            </tr>
+                            <tr>
+                                <td style="{!IF(CONTAINS(listFields, 'Nationality__c'),'display : none','')}"><span class="label">{!mapAPILabel['Nationality__c']}</span><div class="inputControlComments">{!theParent.Nationality__c}</div></td>
+                                <td style="{!IF(CONTAINS(listFields, 'NatureOfRelationship__c'),'display : none','')}"><span class="label">{!mapAPILabel['NatureOfRelationship__c']}</span><div class="inputControlComments">{!theParent.NatureOfRelationship__c}</div></td>
+                            </tr>
+                            <tr>
+                                <td><span class="label">{!mapAPILabel['Email']}</span><div class="inputControlComments">{!theParent.Email}</div></td>
+                                <td style="{!IF(OR(isMadridSchool,CONTAINS(listFields, 'CountryOfResidence__c')),'display : none','')}"><span class="label">{!mapAPILabel['CountryCode__c']}</span><div class="inputControlComments">{!theParent.CountryOfResidence__c}</div></td>
+                            </tr>
+                            <tr>
+                                <td style="{!IF(CONTAINS(listFields, 'Phone'),'display : none','')}"><span class="label">{!mapAPILabel['Phone']}</span><div class="inputControlComments">{!theParent.Phone}</div></td>
+                                <td style="{!IF(CONTAINS(listFields, 'MobilePhone'),'display : none','')}"><span class="label">{!mapAPILabel['MobilePhone']}</span><div class="inputControlComments">{!theParent.MobilePhone}</div></td>
+                            </tr>
+                            <tr style="{!IF(AND(CONTAINS(listFields, 'WeChatUserId__c'), CONTAINS(listFields, 'Household_registration__c')),'display : none','')}">
+                                <td style="{!IF(CONTAINS(listFields, 'WeChatUserId__c'),'display : none','')}"><span class="label">{!mapAPILabel['WeChatUserId__c']}</span><div class="inputControlComments">{!theParent.WeChatUserId__c}</div></td>
+                                <td style="{!IF(CONTAINS(listFields, 'Household_registration__c'),'display : none','')}"><span class="label">{!mapAPILabel['Household_registration__c']}</span><div class="inputControlComments">{!theParent.Household_registration__c}</div></td>
+                            </tr>
+                            <tr style="{!IF(CONTAINS(listFields, 'MailingAddress'),'display : none','')}">
+                                <td style="{!IF(CONTAINS(listFields, 'MailingAddress'),'display : none;','')}" colspan="2"><span class="label">{!mapAPILabel['MailingAddress']}</span><div class="inputControlCommentsMedium">{!theParent.AddressLine1__c + IF(ISBLANK(theParent.AddressLine1__c),'',', ') + theParent.AddressLine2__c + IF(ISBLANK(theParent.AddressLine2__c),'',', ') + theParent.AddressLine3__c +IF(ISBLANK(theParent.AddressLine3__c),'',', ') +theParent.City__c+IF(ISBLANK(theParent.City__c),'',', ')+theParent.State__c+IF(ISBLANK(theParent.State__c),'',', ')+theParent.ZipPostalCode__c+IF(ISBLANK(theParent.ZipPostalCode__c),'',', ')+theParent.CountryOfResidence__c}</div></td>
+
+                            </tr>
+                            <tr style="{!IF(OR(!isMadridSchool,AND(isMadridSchool,CONTAINS(listFields, 'CountryOfResidence__c'))),'display : none','')}">
+                                <td><span class="label">{!mapAPILabel['CountryCode__c']}</span><div class="inputControlComments">{!theParent.CountryOfResidence__c}</div></td>
+                            </tr>
+                            <tr style="{!IF(!isMadridSchool,'display : none','')}">
+                                <td style="{!IF(CONTAINS(listFields, 'ParentsMaritalStatus__c'),'display : none','')}"><span class="label">{!mapAPILabel['ParentsMaritalStatus__c']}</span><div class="inputControlComments">{!theParent.MaritalStatus__c}</div></td>
+                                <td style="{!IF(CONTAINS(listFields, 'Remarried_Status__c'),'display : none','')}"><span class="label">{!mapAPILabel['RemarriedStatus__c']}</span><div class="inputControlComments">{!theParent.Remarried_Status__c}</div></td>
+                            </tr>
+
+
+                            <tr style="{!IF(CONTAINS(listFields, 'Company__c'),'display : none','')}">
+                                <td style="{!IF(isMadridSchool,'display : none','')}" colspan="2"><span class="label">{!mapAPILabel['Company__c']}</span><div class="inputControlComments">{!theParent.Company__c}</div></td>
+                            </tr>
+
+
+
+                            <tr style="{!IF(CONTAINS(listFields, 'isAlumni__c'),'display : none','')}">
+                                <td style="{!IF(CONTAINS(listFields, 'isAlumni__c'),'display : none','')}" colspan="2"><span class="label">{!mapAPILabel['isAlumni__c']}</span><div class="radioButtonGroup">
+                                    <div class="radioButtonLabel">{!mapAPILabel['Yes']}</div><div class="{!IF(theParent.isAlumni__c,'radioButtonChecked','radioButtonUnchecked')}"></div>
+                                    <div class="radioButtonLabel">{!mapAPILabel['No']}</div>
+                                    <div class="{!IF(theParent.isAlumni__c,'radioButtonUnchecked', IF(AND(isGenManual, isAppForm), 'radioButtonChecked', 'radioButtonUnchecked'))}"></div>
+                                    </div><br/><br/>
+                                </td>
+                            </tr>
+                            <tr style="{!IF(CONTAINS(listFields, 'hasLegalCustodyOfChild__c'),'display : none','')}">
+                                <td style="{!IF(CONTAINS(listFields, 'hasLegalCustodyOfChild__c'),'display : none','')}" colspan="2">
+                                    <span class="label">{!mapAPILabel['hasLegalCustodyOfChild__c']}</span><div class="radioButtonGroup">
+                                    <div class="radioButtonLabel">{!mapAPILabel['Yes']}</div><div class="{!IF(theParent.hasLegalCustodyOfChild__c,'radioButtonChecked','radioButtonUnchecked')}"></div>
+                                    <div class="radioButtonLabel">{!mapAPILabel['No']}</div><div class="{!IF(theParent.hasLegalCustodyOfChild__c,'radioButtonUnchecked',IF(AND(isGenManual, isAppForm), 'radioButtonChecked', 'radioButtonUnchecked'))}"></div>
+                                    </div><br/><br/></td>
+
+                            </tr>
+                            <tr style="{!IF(OR(CONTAINS(listFields, 'SiblingInformation__c')),'display : none','')}">
+                                <td colspan="2">
+                                    <span class="label">{!IF(isMadridSchool, mapAPILabel['Parent_1_child_enrolled__c_ISR'], mapAPILabel['Parent_1_child_enrolled__c'])}</span><div class="radioButtonGroup">
+                                    <div class="radioButtonLabel">{!mapAPILabel['Yes']}</div><div class="{!IF(NOT(ISBLANK(theParent.SiblingInformation__c)),'radioButtonChecked','radioButtonUnchecked')}"></div>
+                                    <div class="radioButtonLabel">{!mapAPILabel['No']}</div>
+                                    <div class="{!IF(ISBLANK(theParent.SiblingInformation__c),'radioButtonChecked', 'radioButtonUnchecked')}"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            
+                            <tr style="{!IF(OR(ISBLANK(theParent.SiblingInformation__c), CONTAINS(listFields, 'SiblingInformation__c')),'display : none','')}">
+                                <td colspan="2"><span class="label">{!mapAPILabel['SiblingInformation__c']}</span><div class="inputControlCommentsUpperNormal">{!theParent.SiblingInformation__c}</div></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div> 
+            </div>
+            <!-- Madrid school page break -->
+            
+            <div style="{!IF(AND(CONTAINS(listFields, 'CoverPage'), i == 1), 'position: absolute;top: 0;', '')}" >
+                <div class="page-break" style="{!IF(!isMadridSchool,'display : none','')}">
+                    <div id="header_container1">
+                        <div class="header_container">
+                            <img src="{!IF(theSchoolOfInterest == 'Default' , URLFOR($Resource.ApplicationForm_Assets,'ApplicationForm_Assets/banner.png') ,URLFOR($Resource[theSchoolOfInterest],theSchoolOfInterest+'/banner.png') )}" width="100%" />
+                            <img src="{!URLFOR($Resource.ApplicationForm_Assets,'ApplicationForm_Assets/sections/ApplicationForm_ParentGuardianInformation.png')}" height="110px" class="overlayedText" />
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="subTopic"><!-- Parent/Guardian {!i} of {!noOfParents} --> <img src="{!IF(theSchoolOfInterest == 'Default' ,URLFOR($Resource.ApplicationForm_Assets,'ApplicationForm_Assets/parent_'+TEXT(i)+'_of_'+TEXT(noOfParents)+'.png') , URLFOR($Resource[theSchoolOfInterest],theSchoolOfInterest+'/parent_'+TEXT(i)+'_of_'+TEXT(noOfParents)+'.png'))}" height="20px" /></h1>
+                        <table id="parentInfo" class="tableWholeWidth" cellspacing="0"> 
+
+                            <tr>
+                             <td style="{!IF(OR(CONTAINS(listFields, 'NumberOfChildrenEnrol__c'),i!=1),'display : none','')}" colspan="2"><span class="label">{!mapAPILabel['NumberOfChildrenEnrol__c']}</span><div class="inputControlComments">{!oppForLegalPage.Account.NumberOfChildren__c}</div></td>
+                            </tr>
+
+                            <tr style="{!IF(OR(CONTAINS(listFields, 'FinancialConsent__c')),'display : none','')}">
+                                <td colspan="2"><span class="label">{!mapAPILabel['FinancialConsent__c']}</span><div class="radioButtonGroup">
+                                    <div class="radioButtonLabel">{!mapAPILabel['Yes']}</div><div class="{!IF(theParent.IsFinancialContact__c,'radioButtonChecked','radioButtonUnchecked')}"></div>
+                                    <div class="radioButtonLabel">{!mapAPILabel['No']}</div><div class="{!IF(theParent.IsFinancialContact__c,'radioButtonUnchecked','radioButtonChecked')}"></div>
+                                    </div><br/><br/>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="{!IF(CONTAINS(listFields, 'Company__c'),'display : none','')}" colspan="2"><span class="label">{!mapAPILabel['Company__c']}</span><div class="inputControlComments">{!theParent.Company__c}</div></td>
+                            </tr>
+                            <tr>
+                                <td style="{!IF(OR(CONTAINS(listFields, 'WorkTitle__c')),'display : none','')}"><span class="label">{!mapAPILabel['WorkTitle__c']}</span><div class="inputControlComments">{!theParent.JobTitle__c}</div></td>
+                                <td style="{!IF(OR(isMadridSchool,CONTAINS(listFields, 'Occupation__c')),'display : none','')}"><span class="label">{!mapAPILabel['Occupation__c']}</span><div class="inputControlComments">{!theParent.Title}</div></td>
+                                <td style="{!IF(OR(!isMadridSchool,CONTAINS(listFields, 'Profession__c')),'display : none','')}"><span class="label">{!mapAPILabel['Profession__c']}</span><div class="inputControlComments">{!theParent.Profession__c}</div></td>
+                            </tr>
+                            <tr>
+                                <td style="{!IF(OR(CONTAINS(listFields, 'WorkPhoneNumber__c')),'display : none','')}" colspan="2"><span class="label">{!mapAPILabel['WorkPhoneNumber__c']}</span><div class="inputControlComments">{!theParent.Work_Phone__c}</div></td>
+                            </tr>
+                            <tr>
+                                <td style="{!IF(OR(CONTAINS(listFields, 'OwnershipPartnership__c')),'display : none','')}" colspan="2"><span class="label">{!mapAPILabel['OwnershipPartnership__c']}</span><div class="inputControlComments">{!theParent.Other_Businesses__c}</div></td>
+                            </tr>
+                            
+                            <!--<tr>
+                                <td style="{!IF(CONTAINS(listFields, 'ParentConvictionArrested__c'),'display : none','')}" colspan="2"><span class="label">{!mapAPILabel['ParentConvictionArrested__c']}</span><div class="inputControlComments">{!theParent.Parent_Conviction__c}</div></td>
+                            </tr>-->
+                            <tr>
+                                <td style="{!IF(CONTAINS(listFields, 'Parent_Conviction__c'),'display : none','')}" colspan="2">
+                                    <span class="label">{!mapAPILabel['ParentConvictionArrested__c']}</span><div class="radioButtonGroup">
+                                    <div class="radioButtonLabel">{!mapAPILabel['Yes']}</div><div class="{!IF(ISBLANK(theParent.Parent_Conviction__c),'radioButtonUnchecked','radioButtonChecked')}"></div>
+                                    <div class="radioButtonLabel">{!mapAPILabel['No']}</div><div class="{!IF(ISBLANK(theParent.Parent_Conviction__c), IF(AND(isGenManual, isAppForm), 'radioButtonChecked', 'radioButtonUnchecked'),'radioButtonUnchecked')}"></div>
+                                    </div><br/><br/>
+                                    <div style="{!IF(ISBLANK(theParent.Parent_Conviction__c),'display : none','')}" class="inputControlCommentsUpperNormal">{!theParent.Parent_Conviction__c}</div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div> 
+            </div>
+
+            </apex:repeat>
+            <!-- referrer1 section -->
+            <apex:variable var="i" value="{!0}"/><apex:repeat value="{!thefamily['ChildContact']}" var="theChild"><apex:variable var="i" value="{!i + 1}"/> 
+            <apex:variable var="contactId" value="{!theChild.Id}" />
+            <apex:variable var="theOpp" value="{!theOpportunities[contactId]}" />
+            <div style="{!IF(AND(CONTAINS(listFields, 'CoverPage'), i == 1), 'position: absolute;top: 0;', '')}" >
+                <div class="page-break" style="{!IF(!isMadridSchool,'display : none','')}">
+                    <div id="header_container1">
+                        <div class="header_container">
+                            <img src="{!IF(theSchoolOfInterest == 'Default' , URLFOR($Resource.ApplicationForm_Assets,'ApplicationForm_Assets/banner.png') ,URLFOR($Resource[theSchoolOfInterest],theSchoolOfInterest+'/banner.png') )}" width="100%" />
+                            <img src="{!URLFOR($Resource.ApplicationForm_Assets,'ApplicationForm_Assets/sections/ApplicationForm_Referrer.png')}" height="110px" class="overlayedText" />
+                        </div>
+                    </div>
+                    <div style="margin-top:20px;important">
+                        <table id="parentInfo" class="tableWholeWidth" cellspacing="0" > 
+                            <tr>
+                                <td style="{!IF(CONTAINS(listFields, 'ReferrerFamilyName__c'),'display : none','')}" colspan="2"><span class="label">{!mapAPILabel['ReferrerFamilyName__c']}</span><div class="inputControlComments">{!theOpp.Account.Referrer_Family_1_Name__c}</div></td>
+                            </tr>
+                            <tr>
+                                <td style="{!IF(CONTAINS(listFields, 'ReferrerEmail'),'display : none','')}"><span class="label">{!mapAPILabel['Email']}</span><div class="inputControlComments">{!theOpp.Account.Referrer_Family_1_Email__c}</div></td>
+                                <td style="{!IF(CONTAINS(listFields, 'ReferrerPhone'),'display : none','')}"><span class="label">{!mapAPILabel['Phone']}</span><div class="inputControlComments">{!theOpp.Account.Referrer_Family_1_Phone_Number__c}</div></td>
+                            </tr>
+
+                            <tr>
+                                <td style="{!IF(CONTAINS(listFields, 'ReferrerFamilyName__c'),'display : none','')}" colspan="2"><span class="label">{!mapAPILabel['ReferrerFamilyName__c']}</span><div class="inputControlComments">{!theOpp.Account.Referrer_Family_2_Name__c}</div></td>
+                            </tr>
+                            <tr>
+                                <td style="{!IF(CONTAINS(listFields, 'ReferrerEmail'),'display : none','')}"><span class="label">{!mapAPILabel['Email']}</span><div class="inputControlComments">{!theOpp.Account.Referrer_Family_2_Email__c}</div></td>
+                                <td style="{!IF(CONTAINS(listFields, 'ReferrerPhone'),'display : none','')}"><span class="label">{!mapAPILabel['Phone']}</span><div class="inputControlComments">{!theOpp.Account.Referrer_Family_2_Phone_Number__c}</div></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div> 
+            </div>
+            </apex:repeat>
+            
+            <div class="page-break" style="{!IF(CONTAINS(listFields, 'AdditionalInformation'),'display : none','')}">
+                <div id="header_container5">
+                    <div class="header_container">
+                        <img src="{!IF(theSchoolOfInterest == 'Default' , URLFOR($Resource.ApplicationForm_Assets,'ApplicationForm_Assets/banner.png') , URLFOR($Resource[theSchoolOfInterest],theSchoolOfInterest+'/banner.png'))}" width="100%"/>
+                        <img src="{!URLFOR($Resource.ApplicationForm_Assets,'ApplicationForm_Assets/sections/ApplicationForm_AdditionalInformation.png')}" class="overlayedText" height="110px"/>
+                    </div>
+                </div>
+                <br/>
+                <!-- <h1 class="subTopic">Additional information</h1> -->
+                <table id="additionalInformation" class="tableWholeWidth" cellspacing="0"> 
+                    <tr>
+                        <td style="{!IF(CONTAINS(listFields, 'PrimaryContact__c'),'display : none','')}"><span class="label">{!mapAPILabel['PrimaryContact__c']}</span><div class="inputControlCommentsMedium">{!oppForLegalPage.Account.PrimaryContact__r.Name}</div></td>
+                        <td style="{!IF(CONTAINS(listFields, 'ReportsReceipient__c'),'display : none','')}"><span class="label">{!mapAPILabel['ReportsReceipient__c']}</span><div class="inputControlCommentsMedium">{!oppForLegalPage.ReportsReceipient__c}</div></td>
+                    </tr>
+                    <tr>
+                        <td style="{!IF(CONTAINS(listFields, 'SchoolNewsCommContact__c'),'display : none','')}"><span class="label">{!mapAPILabel['SchoolNewsCommContact__c']}</span><div class="inputControlCommentsMedium">{!oppForLegalPage.SchoolNewsCommContact__c}</div></td>
+                        <td style="{!IF(CONTAINS(listFields, 'ParentPortalAccess__c'),'display : none','')}"><span class="label">{!mapAPILabel['ParentPortalAccess__c']}</span><div class="inputControlCommentsMedium">{!oppForLegalPage.ParentPortalAccess__c}</div></td>
+                    </tr>
+                    <tr>
+                        <td style="{!IF(CONTAINS(listFields, 'EmergencyContact__c'),'display : none','')}"><span class="label">{!mapAPILabel['EmergencyContact__c']}</span><div class="inputControlCommentsMedium">{!oppForLegalPage.EmergencyContact__c}</div></td>
+                        <td style="{!IF(CONTAINS(listFields, 'EmergencyContactNum__c'),'display : none','')}"><span class="label">{!mapAPILabel['EmergencyContactNum__c']}</span><div class="inputControlCommentsMedium">{!oppForLegalPage.EmergencyContactNum__c}</div></td>
+                    </tr>
+                    <tr>
+                        <td style="{!IF(CONTAINS(listFields, 'FeesPayer__c'),'display : none','')}"><span class="label">{!mapAPILabel['FeesPayer__c']}</span><div class="inputControlCommentsMedium">{!oppForLegalPage.Account.FinancialContact__r.Name}</div></td>
+                        <td style="{!IF(CONTAINS(listFields, 'CompanyOther__c'),'display : none','')}"><span class="label">{!mapAPILabel['CompanyOther__c']}</span><div class="inputControlCommentsMedium">{!oppForLegalPage.CompanyOther__c}</div></td>
+                    </tr>
+                    <tr style="{!IF(CONTAINS(listFields, 'InvoiceAddress1__c'),'display : none','')}">
+                        <td colspan="2"><span class="label">{!mapAPILabel['InvoiceAddress1__c']}</span><div class="inputControlCommentsMedium">{!oppForLegalPage.InvoiceAddress1__c+IF(ISBLANK(oppForLegalPage.InvoiceAddress1__c),'',', ')+oppForLegalPage.InvoiceCity__c+IF(ISBLANK(oppForLegalPage.InvoiceCity__c),'',', ')+oppForLegalPage.PostalZipCode__c+IF(ISBLANK(oppForLegalPage.PostalZipCode__c),'',', ')+oppForLegalPage.InvoiceCountry__c}</div></td>
+                    </tr>
+                    <!--<tr>
+<td style="{!IF(CONTAINS(listFields, 'PrimaryContact_InvoiceAddress'),'display : none','')}" colspan="2"><span class="label">{!mapAPILabel['PrimaryContact_InvoiceAddress']}</span><div class="inputControlCommentsMedium">{!IF(hasFinancialContact,thefamily['FinancialContact'][0].MailingStreet+', '+thefamily['FinancialContact'][0].MailingCity+', '+thefamily['FinancialContact'][0].MailingState+' '+thefamily['FinancialContact'][0].MailingPostalCode+', '+thefamily['FinancialContact'][0].MailingCountry ,thePrimaryContact.MailingStreet+', '+thePrimaryContact.MailingCity+', '+thePrimaryContact.MailingState+', '+thePrimaryContact.MailingPostalCode+', '+thePrimaryContact.MailingCountry)}</div></td>
+</tr>-->
+                </table>
+            </div>
+            <div class="page-break" style="{!IF(CONTAINS(listFields, 'PastSchool'),'display : none','')}">
+                <div id="header_container6">
+                    <div class="header_container">
+                        <img src="{!IF(theSchoolOfInterest == 'Default' , URLFOR($Resource.ApplicationForm_Assets,'ApplicationForm_Assets/banner.png') , URLFOR($Resource[theSchoolOfInterest],theSchoolOfInterest+'/banner.png'))}" width="100%"/>
+                        <img src="{!URLFOR($Resource.ApplicationForm_Assets,'ApplicationForm_Assets/sections/ApplicationForm_PastSchoolRecords.png')}" class="overlayedText" height="110px"/>
+                    </div>
+                </div>
+                <br/>
+                <!-- <h1 class="subTopic">Past school records</h1> -->
+                <table id="pastSchoolRecords" class="tableWholeWidth" cellspacing="0"> 
+                    <apex:variable var="PermissionText" value="{!IF(lang != 'en-US', IF(theAcc != null, theAcc.SchoolOfInterest__r.PermissionToSubmitLetter__c, theOppToSend.SchoolOfInterest__r.PermissionToSubmitLetter__c), '')}" />                   
+                    
+                    <apex:repeat value="{!thefamily['ChildContact']}" var="theChild">
+                        <apex:variable var="childId" value="{!theChild.Id}" />
+                        <apex:variable var="theOpp" value="{!theOpportunities[childId]}" />
+                        <tr>
+                            <td><span class="label">{!IF(lang=='es', mapAPILabel['StudentFamilyName_PSR'], mapAPILabel['StudentFamilyName'])}</span><div class="inputControlComments">{!theChild.LastName}</div></td>
+                            <td><span class="label">{!IF(lang=='es', mapAPILabel['FirstName_PSR'], mapAPILabel['FirstName'])}</span><div class="inputControlComments">{!theChild.FirstName}</div></td>
+                        </tr>  
+                        <tr>
+                            <td colspan="2"><span class="label">{!IF(lang=='es', mapAPILabel['CurrentPreviousSchoolName__c_PSR'], mapAPILabel['CurrentPreviousSchoolName__c'])}</span><div class="inputControlComments">{! theOpp.CurrentPreviousSchoolName__c }</div></td>
+                        </tr>
+                    </apex:repeat>    
+                    <tr style="{! IF(ISBLANK(PermissionText), '', 'display: none;')}">
+                        <td style="{!IF((!isMadridSchoolESpdf),'','display : none')}" colspan="2"><span class="labelDescription">I hereby give my permission to the school(s) listed above to submit a Letter of Recommendation, if requested, or to release my child’s school records to <b>{!IF(theAcc != null, theAcc.SchoolOfInterest__r.Name, theOppToSend.SchoolOfInterest__r.Name)}</b> and to provide information regarding my child’s, IF APPLICABLE:</span></td>
+                    </tr>
+                    <tr style="{! IF(ISBLANK(PermissionText), '', 'display: none;')}">
+                        <td  style="{!IF((isMadridSchoolESpdf),'','display : none')}"  colspan="2"><span class="labelDescription">Autorizo a la(s) escuela(s) enumeradas anteriormente para enviar una Carta de recomendación, si se solicita, o para divulgar los registros escolares de mi hijo a San Roberto International School y proporcionar la siguiente información de mi hijo: SI ES APLICABLE:</span></td>
+                    </tr>
+                    
+                    <tr style="{! IF(ISBLANK(PermissionText), '', 'display: none;')}">
+                        <td colspan="2">
+                            <ul style="{!IF((!isMadridSchoolESpdf),'','display : none')}" class="list">
+                                <li>Grades and report cards</li>
+                                <li>Standardised test results</li>
+                                <li>Attendance records</li>
+                                <li>Special education records (if any)</li>
+                                <li>Discipline records</li>
+                                <li>Individualised education plan (if any)</li>
+                                <li>Other relevant records</li>
+                            </ul>
+
+                            <ul style="{!IF((isMadridSchoolESpdf),'','display : none')}" class="list">
+                                <li>Calificaciones y reportes</li>
+                                <li>Resultados de pruebas estandarizadas</li>
+                                <li>Registros de asistencia</li>
+                                <li>Registros de educación especial (si los hay)</li>
+                                <li>Registros de disciplina</li>
+                                <li>Plan de educación individualizado (si lo hubiera)</li>
+                                <li>Otros registros relevantes</li>
+                            </ul>
+
+                            <br />
+                            <div class="radioButtonGroup">
+                                <div class="radioButtonLabel">{!IF(lang=='es', mapAPILabel['Agree_PSR'], mapAPILabel['Agree'])}</div><div class="radioButtonUnchecked"></div>
+                                <div class="radioButtonLabel">{!IF(lang=='es', mapAPILabel['NotAgree_PSR'], mapAPILabel['NotAgree'])}</div><div class="radioButtonUnchecked"></div>
+                            </div><br/><br/>
+                        </td>
+                    </tr>
+                    <tr style="{!IF(ISBLANK(PermissionText), 'display: none', '')}">
+                        <td colspan="2"><span class="labelDescription"><apex:outputText value="{!IF(theAcc != null, theAcc.SchoolOfInterest__r.PermissionToSubmitLetter__c, theOppToSend.SchoolOfInterest__r.PermissionToSubmitLetter__c)}" escape="false"/></span><div class="radioButtonGroup">
+                            <div class="radioButtonLabel">{!IF(lang=='es', mapAPILabel['Agree_PSR'], mapAPILabel['Agree'])}</div><div class="radioButtonUnchecked"></div>
+                            <div class="radioButtonLabel">{!IF(lang=='es', mapAPILabel['NotAgree_PSR'], mapAPILabel['NotAgree'])}</div><div class="radioButtonUnchecked"></div>
+                            </div><br/><br/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="label">{!IF(lang=='es', mapAPILabel['Signature_PSR'], mapAPILabel['Signature'])}</span><div class="inputControlComments"></div></td>
+                        <td><span class="label">{!IF(lang=='es', mapAPILabel['DateMonthYear_PSR'], mapAPILabel['DateMonthYear'])}</span><div class="inputControlComments"></div></td>
+                    </tr>
+                </table>
+            </div>    
+            <div class="page-break" style="page-break-after:avoid;">
+                <div id="header_container7">
+                    <div class="header_container">
+                        <img src="{!IF(theSchoolOfInterest == 'Default' , URLFOR($Resource.ApplicationForm_Assets,'ApplicationForm_Assets/banner.png') , URLFOR($Resource[theSchoolOfInterest],theSchoolOfInterest+'/banner.png'))}" width="100%"/>
+                        <img src="{!URLFOR($Resource.ApplicationForm_Assets,'ApplicationForm_Assets/sections/ApplicationForm_LegalInformation.png')}" class="overlayedText" height="110px"/>
+                    </div>
+                </div>
+                <br/>
+                <table id="legalInformation" class="tableLegalInformation" cellspacing="0"> 
+                    <tr style="{!IF(CONTAINS(listFields, 'LegalPage'),'display : none','')}">
+                        <td style="{!IF(CONTAINS(listFields, 'TermsConditions__c'),'display : none','')}" colspan="2"><span class="label subTopic">{!mapAPILabel['TermsConditions__c']}</span><br/><span class="labelDescription"><apex:outputText value="{!termsAndConditions}" style="white-space: pre;" escape="false"/></span>
+                            <div class="radioButtonGroup">
+                                <div class="radioButtonLabel">{!mapAPILabel['Agree']}</div><div class="{!IF(oppForLegalPage.TermsConditions__c,'radioButtonChecked','radioButtonUnchecked')}"></div>
+                                <!-- <div class="radioButtonLabel">{!mapAPILabel['NotAgree']}</div><div class="{!IF(oppForLegalPage.TermsConditions__c,'radioButtonUnchecked', IF(OR(CONTAINS(listFields, 'Unchecked'), AND(isGenManual, NOT(isAppForm))), 'radioButtonUnchecked', 'radioButtonChecked') )}"></div> -->
+                                <div class="radioButtonLabel">{!mapAPILabel['NotAgree']}</div><div class="radioButtonUnchecked"></div>
+                            </div>
+                            <br/><br/>
+                        </td>
+                    </tr>
+                    <tr style="{!IF(CONTAINS(listFields, 'LegalPage'),'display : none','')}">
+                        <td style="{!IF(CONTAINS(listFields, 'MedicalTermsConditions__c'),'display : none','')}" colspan="2"><span class="label subTopic">{!mapAPILabel['MedicalTermsConditions__c']}</span><br/><span class="labelDescription"><apex:outputText value="{!medicalTermsConditions}" escape="false"/></span>
+                            <div class="radioButtonGroup">
+                                <div class="radioButtonLabel">{!mapAPILabel['Agree']}</div><div class="{!IF(oppForLegalPage.MedicalTermsConditions__c,'radioButtonChecked','radioButtonUnchecked')}"></div>
+                                <div class="radioButtonLabel">{!mapAPILabel['NotAgree']}</div><div class="radioButtonUnchecked"></div>
+                                <!-- <div class="radioButtonLabel">{!mapAPILabel['NotAgree']}</div><div class="{!IF(oppForLegalPage.MedicalTermsConditions__c,'radioButtonUnchecked', IF(OR(CONTAINS(listFields, 'Unchecked'), AND(isGenManual, NOT(isAppForm))), 'radioButtonUnchecked', 'radioButtonChecked') )}"></div> -->
+                            </div>
+                            <br/><br/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="{!IF(CONTAINS(listFields, 'PrivacyPolicy__c'),'display : none','')}" colspan="2">
+                            <span class="label subTopic">{!mapAPILabel['PrivacyPolicy__c']}</span>
+                            <span class="labelDescription">
+                                <apex:outputText style="width: 100%;" value="{!privacyPolicy}" escape="false"/>
+                            </span><div style="{!IF(CONTAINS(listFields, 'LegalPage'),'display : none','')}"  class="radioButtonGroup">
+                            <div class="radioButtonLabel">{!mapAPILabel['Agree']}</div>
+                            <div class="{!IF(oppForLegalPage.PrivacyPolicy__c,'radioButtonChecked','radioButtonUnchecked')}"></div>
+                            <div class="radioButtonLabel">{!mapAPILabel['NotAgree']}</div><div class="radioButtonUnchecked"></div>
+                            <!-- <div class="{!IF(oppForLegalPage.PrivacyPolicy__c,'radioButtonUnchecked', IF(OR(CONTAINS(listFields, 'Unchecked'), AND(isGenManual, NOT(isAppForm))), 'radioButtonUnchecked', 'radioButtonChecked') )}"></div> -->
+                            </div><br/><br/>
+                        </td>
+                    </tr>
+                    <tr style="{!IF(CONTAINS(listFields, 'LegalPage'),'display : none','')}">
+                        <td colspan="2">
+                            
+                            <div style="{!IF(CONTAINS(listFields, 'ChildPhotoDisclaimer__c'),'display : none','')}" >
+                                 <span class="label subTopic">{!mapAPILabel['ChildPhotoDisclaimer__c']}</span>
+                                <br/><span class="labelDescription"><apex:outputText value="{!childPhotoDisclaimer}" escape="false"/></span>
+                                <div class="radioButtonGroup">
+                                    <div class="radioButtonLabel">{!mapAPILabel['Agree']}</div><div class="{!IF(oppForLegalPage.ChildPhotoDisclaimer__c,'radioButtonChecked','radioButtonUnchecked')}"></div>
+                                    <div class="radioButtonLabel">{!mapAPILabel['NotAgree']}</div><div class="radioButtonUnchecked"></div>
+                                    <!-- <div class="radioButtonLabel">{!mapAPILabel['NotAgree']}</div><div class="{!IF(oppForLegalPage.ChildPhotoDisclaimer__c,'radioButtonUnchecked', IF(OR(CONTAINS(listFields, 'Unchecked'), AND(isGenManual, NOT(isAppForm))), 'radioButtonUnchecked', 'radioButtonChecked') )}"></div> -->
+                                </div>
+                                <br/><br/>
+                            </div>
+                            
+                        </td>
+                    </tr>
+                </table>
+                <div style="{!IF(CONTAINS(listFields, 'LegalPage'),'display : none','padding-left: 13% !important;')}">
+                    <div style="page-break-inside: avoid; padding-top: 30px;">
+                        <table class="tableWholeWidth" cellspacing="0" id="signatureSection"> 
+                            <!-- <apex:repeat value="{!thefamily['allParents']}"  var="theParent"> -->
+                                <apex:repeat value="{!thefamily['onlyParents']}"  var="theParent">
+                                <tr>
+                                    <!-- <td colspan="2"><span class="label">{!mapAPILabel['ParentGuardianName']} </span><div class="inputControlComments">{!theParent.Name}</div></td> -->
+                                    <td colspan="2"><span class="label">{!mapAPILabel['ParentGuardianName']}: {!IF((isMadridSchool),theParent.NatureOfRelationship__c,"")}  </span><div class="inputControlComments">{!theParent.Name}</div></td>
+
+                                </tr>
+                                <tr>
+                                    <td><span class="label">{!mapAPILabel['Signature']}</span><div class="inputControlComments"></div></td>
+                                    <td><span class="label">{!mapAPILabel['DateMonthYear']}</span><div class="inputControlComments"></div></td>
+                                </tr>
+                            </apex:repeat>
+                            <tr>
+                                <td style="{!IF(CONTAINS(listFields, 'LeadSubmissionDate__c'),'display : none','')}">
+                                    <span class="label">{!mapAPILabel['LeadSubmissionDate__c']}</span>
+                                    <div class="inputControlComments"><apex:outputText value="{0,date,dd/MM/yyyy}"><apex:param value="{!oppForLegalPage.LeadSubmissionDate__c}"/></apex:outputText></div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </html>
+</apex:component>

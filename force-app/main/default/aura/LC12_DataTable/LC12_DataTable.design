@@ -1,0 +1,8 @@
+<design:component >
+    <design:attribute name ="objectApiName" label="Object API Name" required="true" description="Object API Name"/>
+    <design:attribute name ="fieldSetName" label="Field Set Name" required="true" description="Standard fieldset from the object for the datatable's columns"/>
+    <design:attribute name="objectRecordIdsList" required="true" label="Object Record Ids List" description="A list of records Ids to display"/>
+    <design:attribute name="disableRowSelect" label="Disable Row Selection?" description="Input 'true' to disable or 'false' to enable row selection" datasource="false,true" default="false" />
+    <design:attribute name ="dataTableHeight" label="Datatable Height" required="true" description="Datatable Height (Integer). Minimum height is 100px" default="250"/>
+    <design:attribute name="selectedRecordId" label="Selected Record ID Flow Variable" description="Flow variable (Text) to store selected record id"/>
+</design:component>

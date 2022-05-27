@@ -1,0 +1,47 @@
+.THIS .lookup input{
+	width: 100%;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.THIS .date a{
+   /* float: right;
+    margin-top: -23px;
+    margin-right: -10px;*/
+}
+
+.THIS .childNo{
+	width: auto;
+    text-align: center;
+    min-width: 3rem;
+    display: inline-block;;
+}
+
+.THIS .copyButton div{
+    margin-bottom: 33px;
+}
+
+.THIS .dateInput .slds-dropdown-trigger{
+    display: block;
+}
+
+.THIS lightning-calendar div div .slds-select_container .slds-select {
+    border-radius: 0;
+    display: inline-block;
+    -webkit-appearance: menulist;
+    -moz-appearance: menulist;
+    appearance: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.THIS lightning-calendar div div .slds-select_container:after {
+    border-left: none !important;
+    border-right: none !important;
+}
+.THIS lightning-calendar div div .slds-select_container:before {
+    border-bottom: none !important;
+}
+.THIS .capitalizeFirstLetter input{
+    text-transform: capitalize;
+}

@@ -1,0 +1,177 @@
+@page {
+	size: A4;
+	margin: 0.0125in;
+	margin-top: .0000pt;
+	padding-top: 0.0001in;
+	@top-center {
+		content: none;
+	}
+	@bottom-center {
+		color:rgb(149,149,149);
+		content: none;
+	}
+}
+.page-break {
+	display:block;
+	margin-top: 1px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	page-break-after:always;
+}
+body {
+	font-family: 'Arial Unicode MS';
+	font-size: 11px;
+	font-weight: normal;
+	color: #767676;
+}
+#parentInfo td,#childInfo td,#childInfoAcademics td,#childInfoMedical td,#additionalInformation td,#pastSchoolRecords td,#legalInformation td{
+	border:none;
+	padding: 5px 25px 5px 25px;
+	text-align: left;
+	width:50%;
+	height:50px;
+}
+.label,.labelDescription{
+	font-family: 'Arial Unicode MS';
+	font-size: 11px;
+	padding: 10px 0px;
+}
+.labelDescription > p{
+	text-align: justify;
+	margin-top:5px;
+}
+div.inputControlComments {
+	margin-top: 7px;
+	height:25px;
+	line-height:25px;
+	background-color:rgb(242,242,239);
+	border-radius: 3px;
+	padding-left:5px;
+	vertical-align: middle;
+	text-align: left;
+}
+div.inputControlCommentsUpperNormal {
+	margin-top: 7px;
+	height:35px;
+	line-height:35px;
+	padding-left:5px;
+	background-color:rgb(242,242,239);
+	vertical-align: middle;
+	text-align: left;
+}
+div.inputControlCommentsMedium {
+	margin-top: 7px;
+	height:50px;
+	padding-top:5px;
+    line-height: 15px;
+	padding-left:5px;
+	background-color:rgb(242,242,239);
+	vertical-align: middle;
+	text-align: left;
+}
+div.inputControlCommentsLarge {
+	margin-top: 7px;
+	height:100px;
+	padding-top:5px;
+    line-height: 15px;
+	padding-left:5px;
+	background-color:rgb(242,242,239);
+	vertical-align: middle;
+	text-align: left;
+}
+h1.subTopic{
+	padding-left: 30px;
+	color:#4dc3cf;
+	font-style: italic;
+}
+.subTopic{
+	color:#4dc3cf;
+}
+ul.list{
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 13px;
+	font-family: 'Arial Unicode MS';
+	font-size: 11px;
+}
+.tableWholeWidth{
+	width:80%;
+}
+.childPhoto{
+	background-color:rgb(255,255,255);
+	border: 1px solid #4dc3cf; 
+	height: 250px;
+	width: 230px;
+	vertical-align: middle;
+	text-align: center;
+}
+.childPhoto > p{
+	margin: 0px;
+}
+.childPhoto > p > img{
+	max-height: 250px;
+	height: 250px;
+	max-width: 230px;
+}
+.header_container{
+	/*position:absolute; */
+	top: 0em; 
+	margin:-14px -14px; 
+	width:100%; 
+	height:110px;
+	/* margin-bottom:5px;*/
+}
+
+div.radioButtonUnchecked{
+	background: url('{!URLFOR($Resource.SCNAE_ApplicationForm_Assets,'SCNAE_ApplicationForm_Assets/'+theSchoolOfInterest+'/radiobutton1.png')}') no-repeat 0 0;
+	background-position: -157px -111px; 
+	width: 22px;
+	height: 22px;
+	padding-right: 10px;
+	float:left;
+	/*display: inline;*/
+}
+div.radioButtonChecked{
+	background: url('{!URLFOR($Resource.SCNAE_ApplicationForm_Assets,'SCNAE_ApplicationForm_Assets/'+theSchoolOfInterest+'/radiobutton1.png')}') no-repeat 0 0;
+	background-position: -158px -85px; 
+	width: 22px;
+	height: 22px;
+	padding-right: 10px;
+	float:left;
+	/*display: inline;*/
+}
+.radioButtonGroup > div{
+	vertical-align: middle;
+	margin:3px 0px 3px 0px;
+}
+.radioButtonLabel{
+	font-family: 'Arial Unicode MS';
+	font-size: 11px;
+	float:left;
+	padding-top: 2px;
+}
+html,body {margin:0;padding:0;height:100%;}
+#header_container0{
+	page-break-after:always;
+}
+.header_container0{
+	text-align:right;
+}
+.footer_container0{
+	padding-left: 30px;
+	padding-top: 150px;
+}
+div.footer_container0{
+    vertical-align: bottom;   
+}
+.header_container > img{
+	position: absolute;
+}
+img.overlayedText{
+	z-index: 1;
+}
+#header_container1,#header_container2,#header_container3,#header_container4,#header_container5,#header_container6,#header_container7{
+	padding-bottom: 30px;
+}

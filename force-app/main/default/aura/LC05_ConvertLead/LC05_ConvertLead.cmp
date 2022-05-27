@@ -1,0 +1,19 @@
+<aura:component implements="force:lightningQuickActionWithoutHeader,force:hasRecordId,force:hasSObjectName" controller="LC05_ConvertLead">
+    
+    <aura:attribute name="showSpinner" type="boolean" default="false"  />
+
+    <aura:if isTrue="{! v.showSpinner}">
+        <div style="position: sticky;display: block;z-index: 99999;">
+            <lightning:spinner alternativeText="Loading" size="large" variant="brand"/>
+        </div>
+    </aura:if>
+    <div>
+        <div class="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_info slds-text-heading_large" role="alert">
+            <h2>{!$Label.c.ConfirmLeadConversion}</h2>
+        </div>
+        <div style="text-align: right;margin-top: 5px;padding: .75rem 1rem;border-top: 2px solid rgb(217, 219, 221);">
+            <lightning:button aura:id="btnCancel" variant="neutral" label="Cancel" title="" onclick="{! c.handleCancel }" />
+            <lightning:button aura:id="btnConvert" variant="brand" label="Convert" title="" onclick="{! c.handleConvert }" />
+        </div>
+    </div>
+</aura:component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BSY_Application_Docs</fullName>
+    <columns>NAME</columns>
+    <columns>Required__c</columns>
+    <columns>Stage__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>School__c</field>
+        <operation>contains</operation>
+        <value>Shunyi</value>
+    </filters>
+    <label>BSY - Application Docs</label>
+    <sharedTo>
+        <role>Shunyi_Admissions_Officer</role>
+        <roleAndSubordinates>Shunyi_DAM</roleAndSubordinates>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,48 @@
+<apex:page renderAs="{!renderedAs}" standardController="Opportunity" extensions="VFC02_ApplicationForm" showHeader="false" sidebar="false" standardStylesheets="false" applyBodyTag="false" applyHtmlTag="false" showQuickActionVfHeader="false" language="{!lang}">
+    <html>
+        <head>
+            <style type="text/css" media="print">
+                @page {
+                margin-bottom: 2cm;
+                @bottom-center {
+                    content: "Application Form - {! theOpp.Account.Name}";
+                    font-family: 'Arial Unicode MS';
+                    font-size: 11px;
+                    font-weight: normal;
+                    color: #767676;
+                    }
+                }
+                @page :first{
+                    margin-top: 0cm;
+                    margin-bottom: 0cm;
+                    @bottom-center {
+                    }
+                }
+            </style>
+        </head>
+        
+        <body>
+            <apex:outputPanel rendered="{!isFormAvailable}">
+                <c:C02_ApplicationForm oppAttr="{!theOpp}" isGeneratedManually="true"/>
+            </apex:outputPanel>
+            <apex:outputPanel rendered="{!!isFormAvailable}">
+                <apex:slds >
+                    <div class="slds-page-header">
+                        <div class="slds-grid">
+                            <div class="slds-col slds-has-flexi-truncate">
+                                <div class="slds-media slds-no-space slds-grow">
+                                    <div class="slds-media__body">
+                                        <h1 class="slds-page-header__title slds-m-right--small slds-align-middle slds-truncate" title="this should match the Record Title">
+                                            Application form unavailable
+                                        </h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </apex:slds>
+            </apex:outputPanel>
+        </body>
+        
+    </html>
+</apex:page>

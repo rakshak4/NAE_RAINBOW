@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Needs Manual Adjustment</fullName>
+        <default>false</default>
+        <label>Needs Manual Adjustment</label>
+    </customValue>
+    <customValue>
+        <fullName>Override Complete</fullName>
+        <default>false</default>
+        <label>Override Complete</label>
+    </customValue>
+    <description>For Tuition, Fees, Discounts - ability to tag the ability to override manually from the pricebook entry if needed.</description>
+    <masterLabel>Override</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

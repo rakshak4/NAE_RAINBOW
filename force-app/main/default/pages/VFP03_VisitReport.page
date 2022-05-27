@@ -1,0 +1,278 @@
+<apex:page standardController="Account" extensions="VFC03_VisitReport"  renderAs="pdf" showHeader="false" applyHtmlTag="false">
+    <html>
+        <head>
+            <style>
+                @page {
+                    size: letter;
+                    margin: 25mm;
+                    @top-center {
+                    }
+                    @bottom-center {
+                        content: "Page " counter(page) " of " counter(pages);
+                    }
+                }
+                .page-break {
+                    display:block;
+                    page-break-after:always;
+                }
+                body {
+                    font-family: Arial Unicode MS;
+                }
+
+                div.heading1 {
+                  font-family: Arial, Helvetica, sans-serif;
+                  color:#7F9AB2;
+                  padding:10px;
+                  font-size: 20px;
+                }
+                div.heading2 {
+                  font-family: Arial, Helvetica, sans-serif;
+                  background-color: #7F9AB2;
+                  padding:8px;
+                  color:white;
+                  font-size:15px;
+                }
+                td.head2{
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+                tr.heading3 {
+                  font-family: Arial, Helvetica, sans-serif;
+                  padding:20px;              
+                  color:#7F9AB2;
+                  font-size:15px;
+                  width:100%;
+                }
+                div.line1 {
+                  display:block;
+                  width:100%;
+                  height:0.5px;
+                  background:#7F9AB2;
+                }
+
+                .assessment {
+                    padding-left: 10px;
+                    text-align:justify;
+                }
+            </style> 
+        </head>
+        <body>   
+        <apex:variable var="j" value="{!0}" /> <apex:repeat value="{!mapOpp}" var="a"> <apex:variable var="j" value="{!j+1}" />
+                <div style="{! IF(j>1, 'page-break-before: always;', '')}">
+                    <table width="100%">
+                        <tr>
+                            <td></td>
+                            <td colspan ='2' >
+                                <div style="height: 40px">
+                                    <img src="{!IF(mapSchool[a] == 'Default' , 
+                                        URLFOR($Resource.ApplicationForm_Assets,'ApplicationForm_Assets/ApplicationForm_Logo.png') ,
+                                        URLFOR($Resource[mapSchool[a]],mapSchool[a]+'/ApplicationForm_CoverFooter.png') )}" width="50%" height="40px" style="float:right;max-height: 40px" >
+                                    </img>      
+                                </div>
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td colspan="2">
+                                <div class="heading1">VISIT REPORT</div>
+                            </td>
+                            <td>
+                                <div class="heading1" >
+                                    <apex:outputText value="{0,date,dd/MM/yyyy}"> 
+                                        <apex:param value="{!mapOpp[a].VisitStartDate__c}"/>
+                                    </apex:outputText>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- APPLICATION -->
+                            <tr>
+                                <td class="head2" colspan="3">
+                                    <div class="heading2">APPLICANT</div>
+                                </td>
+                            </tr> 
+                            <tr class="heading3">
+                                <td style="padding-left: 10px;" width="40%" >Name</td>
+                                <td width="30%" >Nationality</td>
+                                <td width="30%" >Date of Birth</td>
+                            </tr>
+                            <tr class="heading3">
+                                <td style="padding-left: 10px;" width="40%" >
+                                    <apex:outputText value="{!mapOpp[a].Child__r.Name}"/>
+                                    <apex:outputText value="{!CASE(mapOpp[a].Child__r.Gender__c,'Male', '(M)', 'Female', '(F)', ' ')}"/> 
+                                </td>
+                                <td width="30%" >
+                                    <apex:outputText value="{!mapOpp[a].Child__r.Nationality__c}"/>
+                                </td>
+                                <td width="30%" >
+                                    <apex:outputText value="{0,date,dd/MM/yyyy}">
+                                        <apex:param value="{!mapOpp[a].Child__r.Birthdate}"/>
+                                    </apex:outputText>
+                                </td>
+                            </tr>                            
+                            <!-- LINE --><tr><td colspan="3"><div class="line1"/></td></tr><!-- /LINE -->
+                            <tr class="heading3">
+                                <td style="padding-left: 10px;" width="40%" >Expected Start Date</td>
+                                <td width="30%" >Current/Previous School</td>
+                                <td width="30%" >Year Grade</td>
+                            </tr>
+                            <tr class="heading3">
+                                <td style="padding-left: 10px;" width="40%" >
+                                    <apex:outputText value="{0,date,dd/MM/yyyy}"><apex:param value="{!mapOpp[a].closedate}" /></apex:outputText>&nbsp;
+                                </td>
+                                <td width="30%" >
+                                    <apex:outputText value="{!mapOpp[a].CurrentPreviousSchoolName__c}"/>
+                                </td>
+                                <td width="30%" >
+                                    <!--<apex:outputText value="{!mapOpp[a].ExpectedStartMonth__c}"/>&nbsp;-->
+                                    <apex:outputText value="{!mapOpp[a].YearGrade__r.Name}"/>
+                                    
+                                </td>
+                            </tr>
+                            <!-- LINE --><tr><td colspan="3"><div class="line1"/></td></tr><!-- /LINE -->
+                            <tr class="heading3">
+                                <td style="padding-left: 10px;" width="40%" >Sibling(s)</td>
+                                <td width="30%" >Referred By</td>
+                                <td width="30%" >Languages Spoken</td>
+                            </tr>
+                            <tr class="heading3">
+                                <td style="padding-left: 10px;" width="40%" >
+                                    <apex:repeat value="{!mapSibling[a]}" var="sib">
+                                        <apex:outputText value="{!sib}"/><br/>
+                                    </apex:repeat>
+                                </td>
+                                <td width="30%" >
+                                    <apex:outputText value="{!mapOpp[a].ReferredBy__r.Name}"/><br/>
+                                    <apex:outputText value="{!mapOpp[a].ReferredByContact__r.Name}"/>
+                                </td>
+                                <td width="30%" >
+                                    <apex:outputText value="{!mapOppLang[a] }"/>
+                                </td>
+                            </tr>
+
+                             <!-- LINE --><tr><td colspan="3"><div class="line1"/></td></tr><!-- /LINE -->
+                             <tr class="heading3">
+                                <td style="padding-left: 10px;" width="40%" >Day/Boarding</td>
+                            </tr>
+                            <tr class="heading3">
+                                <td style="padding-left: 10px;" width="40%" >
+                                    <apex:outputText value="{!mapOpp[a].DayOrBoardingSchool__c}"/>&nbsp;
+                                </td>
+                            </tr>
+
+
+                        <!-- /APPLICATION -->
+                        <!-- PARENT DETAILS -->
+                        <tr>
+                            <td class="head2" colspan="3">
+                                <div class="heading2">PARENT DETAILS</div>
+                            </td>
+                        </tr> 
+                        <tr class="heading3">
+                            <td style="padding-left: 10px;" width="45%" >Parent Names</td>
+                            <td width="40%" >Email</td>
+                            <td width="40%" >Phone</td>
+                        </tr>
+                        <tr class="heading3">
+                            <td style="padding-left: 10px;" width="45%" >
+                                <apex:repeat value="{!mapCon}" var="conName">
+                                    <apex:outputText value="{!mapCon[conName].Name}"/><br/><br/>
+                                </apex:repeat>
+                            </td>
+                            <td width="40%" >
+                                <apex:repeat value="{!mapCon}" var="conEmail">
+                                    <apex:outputText value="{!mapCon[conEmail].Email}"/><br/><br/>
+                                </apex:repeat>   
+                            </td>
+                            <td width="40%" >
+                                <apex:repeat value="{!mapCon}" var="conPh">
+                                    <apex:outputText value="{!mapCon[conPh].Phone}"/><br/><br/>
+                                </apex:repeat>
+                            </td>
+                        </tr>
+
+                        <!-- LINE --><tr><td colspan="3"><div class="line1"/></td></tr><!-- /LINE -->
+                        <tr class="heading3">
+                            <td style="padding-left: 10px;" width="40%" >Preferred Language</td>
+                        </tr>
+                        <tr class="heading3">
+                            <td style="padding-left: 10px;" width="30%" >
+                                <apex:repeat value="{!mapCon}" var="conPrefLang">
+                                    <apex:outputText value="{!IF(mapCon[conPrefLang].PreferredLanguage__c == null,'None',mapCon[conPrefLang].PreferredLanguage__c)}"/><br/>
+                                </apex:repeat>
+                            </td>
+                        </tr>
+
+
+                        <!-- /PARENT DETAILS -->
+
+                       <!-- BACKGROUND -->
+                            <tr>
+                                <td class="head2" colspan="3">
+                                    <div class="heading2">BACKGROUND/ENQUIRY INFORMATION</div>
+                                </td>
+                            </tr> 
+                            <tr class="heading3">
+                                <td colspan="3" style="padding-left: 10px;">
+                                    <apex:outputPanel rendered="{! IF(mapOpp[a].LeadSource != null, true, false)}" >Enquiry source: &nbsp;</apex:outputPanel><apex:outputText value="{!mapOpp[a].LeadSource}"/>&nbsp;<apex:outputText value="{!mapOpp[a].LeadSubSource__c}"/><br/>
+                                    <apex:outputPanel rendered="{! IF(mapOpp[a].VisitStartDate__c != null, true, false)}" >Schedule: Visit at &nbsp;<apex:outputText value="{0,date,dd/MM/yyyy}"><apex:param value="{!mapOpp[a].VisitStartDate__c}" /></apex:outputText>.<br/></apex:outputPanel>
+                                    <apex:outputPanel rendered="{! IF(mapOpp[a].Notes__c != null, true, false)}" ><apex:outputText value="{!mapOpp[a].Notes__c}"/><br/></apex:outputPanel>
+                                    <apex:outputPanel rendered="{! IF(mapOpp[a].Child__r.CountryOfResidence__c != null, true, false)}" >Family is based in &nbsp;<apex:outputText value="{!mapOpp[a].Child__r.CountryOfResidence__c}"/></apex:outputPanel><br/>
+                                </td>
+                            </tr>
+                        <!-- /BACKGROUND-->
+                        <!-- MISSING DOC -->
+                            <tr>
+                                <td class="head2" colspan="3">
+                                    <div class="heading2">MISSING DOCUMENTS</div>
+                                </td>
+                            </tr>
+                            <apex:variable var="i" value="{!0}"/><apex:repeat value="{!mapDocum[a]}" var="doc"><apex:variable var="i" value="{!i + 1}"/>
+                                <tr class="heading3">
+                                    <td style="padding-left: 10px;" colspan="3">
+                                      <apex:outputText value="{!UPPER( doc.Name )}"/>  
+                                    </td>
+                                </tr>
+                                <!-- LINE --><tr><td colspan="3" style="padding-bottom: 5px;"><div class="line1"/></td></tr><!-- /LINE -->
+                            </apex:repeat>
+                            <!-- LINE --><tr><td colspan="3" style="{! IF(i > 0, '', 'padding-top: 5px;padding-bottom: 15px;')}"><div class="{! IF(i > 0, '', 'line1')}"/></td></tr><!-- /LINE -->
+                        <!-- /MISS-->                        
+                        <!-- TEST RESULTS -->
+                            <tr>
+                                <td class="head2"  colspan="3">
+                                    <div class="heading2">ASSESSMENTS</div>
+                                </td>
+                            </tr>
+                            <tr class="heading3">
+                                <td class="assessment" colspan="3">
+                                  <apex:outputText value="{!mapOpp[a].AssessmentTest1Notes__c}"/>  
+                                </td>
+                            </tr>
+                            <!-- LINE --><tr><td colspan="3" style="padding-bottom: 5px;"><div class="line1"/></td></tr><!-- /LINE -->
+                            <tr class="heading3">
+                                <td class="assessment"  colspan="3">
+                                  <apex:outputText value="{!mapOpp[a].AssessmentTest2Notes__c}"/>  
+                                </td>
+                            </tr>
+                            <!-- LINE --><tr><td colspan="3" style="padding-bottom: 5px;"><div class="line1"/></td></tr><!-- /LINE -->
+                            <tr class="heading3">
+                                <td class="assessment" colspan="3">
+                                  <apex:outputText value="{!mapOpp[a].AssessmentTest3Notes__c}"/>  
+                                </td>
+                            </tr>
+                            <!-- LINE --><tr><td colspan="3" style="padding-bottom: 5px;"><div class="line1"/></td></tr><!-- /LINE -->
+                        <!-- /TEST RESULTs-->
+
+                        <!-- COMMENTS -->
+                            <tr>
+                                <td class="head2" colspan="3">
+                                    <div class="heading2">COMMENTS</div>
+                                </td>
+                            </tr>  
+                            <!-- LINE --><tr><td colspan="3" style="padding-top: 10px;padding-bottom: 15px;"><div class="line1"/></td></tr><!-- /LINE -->
+                            <!-- LINE --><tr><td colspan="3" style="padding-top: 10px;padding-bottom: 15px;"><div class="line1"/></td></tr><!-- /LINE -->
+                        <!-- /COMMENTS-->
+                    </table>
+                </div>
+            </apex:repeat>
+        </body>
+    </html>
+</apex:page>

@@ -1,0 +1,5 @@
+<apex:page >
+
+Current Session ID:   {!getSessionID()} 
+
+</apex:page>

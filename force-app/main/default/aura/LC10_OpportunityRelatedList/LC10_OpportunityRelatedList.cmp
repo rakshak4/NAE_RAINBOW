@@ -1,0 +1,67 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId" access="global" controller="LC10_OpportunityRelatedListController" >
+	<aura:attribute name="recordId" type="Id" />
+
+	<aura:attribute name="lstOpportunities" type="List"/>
+    <aura:attribute name="lstRecTypes" type="List"/>
+
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+
+	<article class="slds-card">
+        <div class="slds-card__header slds-grid">
+            <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                <div class="slds-media__figure">
+                    <span class="slds-icon_container">
+                        <lightning:icon iconName="standard:opportunity" size="small"/>
+                    </span>
+                </div>
+                <div class="slds-media__body">
+                    <h2>
+                        <a class="slds-card__header-link slds-truncate slds-text-heading_small" onclick="{!c.gotToRelatedOppList}">
+                           {!'Opportunities (' + if( (v.lstOpportunities.length > 3), '3+', v.lstOpportunities.length) + ')'}
+                        </a>
+                    </h2>
+                </div>
+            </header>
+            <div class="slds-float--right">
+			    <lightning:buttonMenu aura:id="menuNew" menuAlignment="right" iconSize="x-small" onselect="{! c.handleSelectNew }" alternativeText="Show menu">
+                    <aura:iteration items="{!v.lstRecTypes}" var="recType"  >
+                        <aura:if isTrue="{!and(recType != 'Master', recType != 'Reenrolment')}"  >
+                            <lightning:menuItem value="{!recType}" label="{!'New '+recType}" />
+                        </aura:if>
+                    </aura:iteration>
+			    </lightning:buttonMenu>
+			</div>
+        </div>
+
+        <div class="slds-card__body">            
+	        <p class="slds-p-horizontal_small">
+	            <aura:iteration items="{!v.lstOpportunities}" var="item" indexVar="index" start="0" end="3">
+	            	<lightning:tile label="{!item.Name}" href="{!'/one/one.app?#/sObject/'+ item.Id + '/view'}">
+                        <div class="slds-grid slds-grid_align-spread">
+                            <div class="slds-col">
+                                <p class="slds-truncate" title="Account Name">
+                                    {!$Label.c.AccountName}:
+                                    <a href="{!'/one/one.app?#/sObject/'+ item.AccountId + '/view'}">
+                                        {!item.Account.Name}
+                                    </a>
+                                </p>
+                                <p class="slds-truncate" title="Close Date">
+                                    {!$Label.c.ExpectedStartDate} :  <lightning:formattedDateTime timeZone="{! $Locale.timezone }" value="{! item.CloseDate}"  class="slds-truncate" year="numeric" month="numeric" day="numeric"/> <!-- CRA- 20190213 -->
+                                </p>
+                            </div>
+        					<div class="slds-col">                  
+                                <lightning:buttonMenu  menuAlignment="right" class="dropdown-poz" iconSize="x-small" aura:id="{! 'menu'+ item.Name  }" onselect="{! c.handleSelectEditDelete }" alternativeText="Show menu">
+                                    <lightning:menuItem value="{!join(',', item.Id, 'Edit')}" label="Edit" />
+                                    <lightning:menuItem value="{!join(',', item.Id, 'Delete')}" label="Delete" />
+                                </lightning:buttonMenu>
+                            </div>
+                        </div>
+				    </lightning:tile>
+	            </aura:iteration>
+	        </p>
+        </div>
+    	<footer class="slds-card__footer">
+		    <a class="slds-card__footer-action" onclick="{!c.gotToRelatedOppList}">View All</a>
+		</footer>
+    </article>
+</aura:component>

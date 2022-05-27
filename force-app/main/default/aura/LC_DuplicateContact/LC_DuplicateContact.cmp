@@ -1,0 +1,56 @@
+<aura:component implements="lightning:availableForFlowScreens" access="global">
+    <aura:attribute name="lstExistingContact" type="Contact[]"/>
+    <aura:attribute name="lstNewContact" type="Contact[]"/>
+    <aura:attribute name="lstModifiedContact" type="Contact[]"/>
+    <aura:attribute name="showCard" type="Boolean" default="false"/>
+    <aura:attribute name="lstVisualData" type="Object[]"/>
+    <aura:attribute name="lstFields" type="Contact[]"/>
+
+
+    <aura:handler name="init" value="{! this }" action="{! c.init }"/>
+
+    <aura:if isTrue="{!v.showCard}">
+        <div class="slds-m-vertical_xx-small">
+            <div class="slds-notify slds-notify_alert slds-alert_warning" role="alert">
+                <span class="slds-assistive-text">warning</span>
+                <div class="slds-m-right_x-small">
+                    <lightning:icon iconName="utility:warning" size="small" alternativeText="Contact"/>
+                </div>
+                <div class="notificationMessageDiv">
+                    <p>Please note that the following existing parent contact(s)</p>
+                    <p>information will be overwritten as follows from the block lead.</p>
+                </div>
+        	</div>
+        </div>        
+
+        <div class="slds-grid slds-wrap slds-grid--vertical-stretch">
+            <aura:iteration items="{! v.lstVisualData }" var="visualData">
+                <div class="slds-col slds-size_6-of-12 slds-grid--vertical-stretch">
+                    <div class="articleDiv slds-grid--vertical-stretch">
+                        <article class="slds-card">
+                            <div class="slds-card__header slds-grid">
+                              <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                                <div class="slds-media__figure slds-m-left_x-small">
+                                    <span class="slds-icon_container slds-icon-standard-contact" title="contact">
+                                    <lightning:icon  iconName="standard:contact" size="small" alternativeText="Contact"/>
+                                    </span>
+                                </div>
+                                <div class="slds-media__body">
+                                  <h2 class="slds-card__header-title">
+                                      <span>{! visualData.name}</span>
+                                  </h2>
+                                </div>
+                              </header>
+                            </div>
+                            <div class="slds-card__body slds-card__body_inner">
+                                <lightning:formattedRichText value="{! visualData.changeDescription}"/>
+                            </div>
+                          </article>
+                    </div>
+                    
+                </div>
+            </aura:iteration>
+        </div>
+    </aura:if> 
+
+</aura:component>

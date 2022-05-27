@@ -1,0 +1,119 @@
+<aura:component access="global" controller="LC03_360View" >
+
+    <aura:attribute name="recordId" type="String" access="global"/>
+    <aura:attribute name="opportunities" type="list"/>
+
+    <aura:attribute type="Boolean" name="sortAsc" default = "true"/>
+    <aura:attribute type="String" name="sortField" />
+    <aura:attribute type="String" name="icon" default = "utility:arrowup" />
+    <aura:attribute type="String" name="showArrow" default = "Name"/>
+
+    <lightning:card iconName="standard:opportunity" title="Opportunities" class="slds-scrollable" >
+        <lightning:spinner variant="brand" size="medium" class="slds-hide"/>
+        <aura:if isTrue="{! empty(v.opportunities)}"  >
+            <div class="slds-text-color_weak slds-align_absolute-center italics">
+                {!$Label.c.NoRecordsFound}               
+            </div>
+            <aura:set attribute="else">
+                <div class="slds-table">
+                    <div class="slds-grid slds-grid_vertical-align-center slds-p-bottom_xx-small slds-p-left_small">
+                        <div class="slds-text-link_reset slds-text-title slds-p-right_xx-small slds-size_1-of-6 title"  onclick="{!c.sortByName}">
+                            {!$Label.c.OpportunityName}
+                            <aura:if isTrue="{!v.showArrow == 'Name'}" >
+                                <lightning:icon iconName="{!v.icon}" size="small"  class="iconSize"/>
+                            </aura:if>
+                        </div>
+                       <!--   <div class="slds-text-title slds-size_2-of-12 slds-text-heading_small title">
+                            {!$Label.c.AccountName}
+                        </div> -->
+                         <div class="slds-text-link_reset slds-text-title slds-size_1-of-6 slds-text-heading_small title" onclick="{!c.sortByReferredBy}">
+                            {!$Label.c.ReferredBy}
+                            <aura:if isTrue="{!v.showArrow == 'ReferredBy' }" >
+                                <lightning:icon iconName="{!v.icon}" size="small"  class="iconSize"/>
+                            </aura:if>
+                        </div>
+                        <div class="slds-text-link_reset slds-text-title slds-size_1-of-6 slds-text-heading_small title" onclick="{!c.sortByExpectedStartDate}">
+                            {!$Label.c.ExpectedStartDate}
+                            <aura:if isTrue="{!v.showArrow == 'CloseDate' }" >
+                                <lightning:icon iconName="{!v.icon}" size="small"  class="iconSize"/>
+                            </aura:if>
+                        </div>
+                        <div class="slds-text-link_reset slds-text-title slds-size_1-of-6 slds-text-heading_small title" onclick="{!c.sortByStage}">
+                            {!$Label.c.Stage}
+                            <aura:if isTrue="{!v.showArrow == 'StageName' }" >
+                                <lightning:icon iconName="{!v.icon}" size="small"  class="iconSize"/>
+                            </aura:if>
+                        </div>
+                        <div class="slds-text-link_reset slds-text-title slds-size_1-of-6 slds-text-heading_small title" onclick="{!c.sortByDOB}">
+                            DOB
+                            <aura:if isTrue="{!v.showArrow == 'DOB' }" >
+                                <lightning:icon iconName="{!v.icon}" size="small"  class="iconSize"/>
+                            </aura:if>
+                        </div>
+                        <div class="slds-text-link_reset slds-text-title slds-size_1-of-6 slds-text-heading_small title" onclick="{!c.sortByYearGrade}">
+                            Year Grade
+                            <aura:if isTrue="{!v.showArrow == 'YearGrade' }" >
+                                <lightning:icon iconName="{!v.icon}" size="small"  class="iconSize"/>
+                            </aura:if>
+                        </div>
+                        <div class="slds-text-title slds-size_1-of-6 slds-text-heading_small title">
+                            
+                        </div>
+                    </div>
+                    <aura:iteration items="{!v.opportunities}" var="opp" indexVar="index">
+                        <div class="slds-grid slds-p-left_small table-border-top slds-text-body_small slds-p-bottom_small">
+                            <a onclick="{!c.view}" data-index="{!opp.Id}" class = "slds-size_1-of-6 slds-p-right_xx-small slds-text-body_small" title="{!opp.Account.Name}" >{!opp.Name} - {!opp.RecordType.Name}</a> 
+
+                           <!--  <a onclick="{!c.view}" data-index="{!opp.AccountId}" class = "slds-size_2-of-12 slds-p-right_xx-small slds-text-body_small" title="{!opp.Account.Name}" >{!opp.Account.Name}</a> -->
+
+                            <aura:if isTrue="{!opp.ReferredBy__c != null}"  >
+                                <a onclick="{!c.view}" data-index="{!opp.ReferredBy__c}" class = "slds-size_1-of-6 slds-p-right_xx-small slds-text-body_small" title="{!opp.ReferredBy__r.Name}" >{!opp.ReferredBy}</a>
+                                <aura:set attribute="else"  >
+                                    <p class="slds-size_2-of-12 slds-text-color_weak slds-text-body_small"></p> 
+                                </aura:set>
+                            </aura:if>
+
+                            <p class = "slds-size_1-of-6 slds-text-color_weak slds-text-body_small">
+                                <!-- <lightning:formattedDateTime value="{!opp.CloseDate}" /> -->
+                                <!--<ui:outputDate value="{!opp.CloseDate}"  format="MM/DD/YYYY" /> -->
+                                <lightning:formattedDateTime  value="{!opp.CloseDate}" timeZone="UTC" year="numeric" month="numeric" day="numeric" />
+                            </p>
+
+                            <p class = "slds-size_1-of-6 slds-text-color_weak slds-text-body_small">
+                                {!opp.StageName}
+                            </p> 
+                            
+                            <p class = "slds-size_1-of-6 slds-text-color_weak slds-text-body_small">
+                                <!-- {!opp.Child__r.Birthdate} -->
+                                <!-- {!opp.DOB} -->
+                                <!--<ui:outputDate value="{!opp.DOB}"  format="MM/DD/YYYY" />-->
+
+                                <aura:if isTrue="{!opp.DOB != null}">
+                                    <lightning:formattedDateTime value="{!opp.DOB}" timeZone="UTC" year="numeric" month="numeric" day="numeric"/>
+                                    <aura:set attribute="else">
+                                        <p ></p> 
+                                    </aura:set>
+                                </aura:if>
+                                
+                            </p> 
+                            
+                            <aura:if isTrue="{!opp.YearGrade__c != null}"  >
+                                <a onclick="{!c.view}" data-index="{!opp.YearGrade__c}" class = "slds-size_1-of-6 slds-p-right_xx-small slds-text-body_small" title="{!opp.YearGrade__r.Name}" >{!opp.YearGrade}
+                                </a>
+                                <aura:set attribute="else"  >
+                                    <p class="slds-size_1-of-6 slds-text-color_weak slds-text-body_small"></p> 
+                                </aura:set>
+                            </aura:if>
+                            
+                            <div class = "waitlisted slds-size_1-of-6 slds-align_absolute-center slds-text-color_weak slds-text-body_small">
+                                <aura:if isTrue="{!opp.Waitlisted__c}" >
+                                    <lightning:icon iconName="custom:custom95" size="small" alternativeText="Waitlisted" title="Waitlisted" variant="warning"/>
+                                </aura:if>
+                            </div>
+                        </div>
+                    </aura:iteration>
+                </div>
+            </aura:set>
+        </aura:if>
+    </lightning:card>
+</aura:component>

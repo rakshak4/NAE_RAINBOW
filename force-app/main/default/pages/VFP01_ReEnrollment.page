@@ -1,0 +1,258 @@
+<apex:page controller="VFC01_ReEnrollment" lightningStylesheets="true" sidebar="false" showHeader="false">
+    <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lang="en">
+        <head>
+            <meta charset="utf-8" />
+            <meta http-equiv="x-ua-compatible" content="ie=edge" />
+            <title>Re-enrollment survey</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <apex:slds />
+            <apex:remoteObjects jsNamespace="RemoteObjectModel">
+            <apex:remoteObjectModel name="Opportunity" fields="StageName"/>
+        </apex:remoteObjects>
+        </head>
+
+        <body>
+            <div class='slds-scope' id="surveyForm" >
+
+                <!-- PRIMARY WRAPPER-->
+                <div class='slds-wrap slds-m-top_xx-large'>
+                    <div class="slds-grid slds-m-bottom_xx-large">
+
+                        <div class='slds-col slds-size_1-of-4'>
+
+                        </div>
+
+                        <!-- MIDDLE CONTAINER START-->
+                        <div class="slds-col slds-size_2-of-4">
+
+                            <!--SURVEY BODY-->
+                            <div class='slds-text-body_regular'>
+                                Dear Parent, 
+                            </div>
+
+                            <div class='slds-text-body_regular'>
+                                We would like to invite you to re-enroll to the next year. Please provide us your answer.
+                            </div>
+                            <!--END SURVEY BODY-->
+
+                            <!--FORM START-->
+                            <div class="slds-box slds-box_x-small slds-text-align_left slds-m-around--x-small">
+                                <div class="slds-form slds-form_stacked">
+
+                                    <!--radio buttons-->
+                                    <fieldset class="slds-form-element">
+                                        <div class="slds-form-element__control">
+                                            <span class="slds-radio">
+                                                <input type="radio" id="opt-yes" name="options" value="yes" checked="true"/>
+                                                <label class="slds-radio__label" for="opt-yes">
+                                                    <span class="slds-radio_faux"></span>
+                                                    <span class="slds-form-element__label">Yes</span>
+                                                </label>
+                                            </span>
+                                            <span class="slds-radio">
+                                                <input type="radio" id="opt-prob-yes" name="options" value="prob-yes" />
+                                                <label class="slds-radio__label" for="opt-prob-yes">
+                                                    <span class="slds-radio_faux"></span>
+                                                    <span class="slds-form-element__label">Probably Yes</span>
+                                                </label>
+                                            </span>
+
+                                            <span class="slds-radio">
+                                                <input type="radio" id="opt-prob-no" name="options" value="prob-no" />
+                                                <label class="slds-radio__label" for="opt-prob-no">
+                                                    <span class="slds-radio_faux"></span>
+                                                    <span class="slds-form-element__label">Probably No</span>
+                                                </label>
+                                            </span>
+
+                                            <span class="slds-radio">
+                                                <input type="radio" id="opt-no" name="options" value="no" />
+                                                <label class="slds-radio__label" for="opt-no">
+                                                    <span class="slds-radio_faux"></span>
+                                                    <span class="slds-form-element__label">No</span>
+                                                </label>
+                                            </span>
+                                        </div>
+                                    </fieldset>
+
+                                    <!--END RADIO BUTTONS-->
+
+                                    <!--COMMENTS TEXTAREA-->
+                                    <div class="slds-form-element slds-m-bottom_small">
+                                        <label class="slds-form-element__label" for="ParentRemarks">Comments:</label>
+                                        <div class="slds-form-element__control">
+                                            <textarea id="ParentRemarks" class="slds-textarea"></textarea>
+                                        </div>
+                                    </div>
+                                    <!--END COMMENTS TEXTAREA-->
+
+
+                                    <!-- SUBMIT BUTTON-->
+                                    <button class='slds-button slds-button_brand slds-m-bottom_small' onclick="submitSurvey()">
+                                        Submit
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!--FORM END-->
+                        </div>
+                        <!--MIDDLE CONTAINER END-->
+
+                        <div class='slds-col slds-size_1-of-4'>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- END PRIMARY WRAPPER-->
+            </div>
+
+            <div class='slds-scope slds-hide' id="successPopup">
+
+                <!-- PRIMARY WRAPPER-->
+                <div class='slds-wrap slds-m-top_xx-large'>
+                    <div class="slds-grid slds-m-bottom_xx-large">
+
+                        <div class='slds-col slds-size_1-of-4'>
+
+                        </div>
+
+                        <!-- MIDDLE CONTAINER START-->
+                        <div class="slds-col slds-size_2-of-4">
+                            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                                <div class="slds-modal__container">
+                                    <header class="slds-modal__header">
+                                        <h2 class="slds-text-heading_large">THANK YOU!</h2>
+                                    </header>
+                                    <div class="slds-modal__content slds-p-around_medium slds-text-align_center" style="height: 150px;" >
+                                        Your response has been sent successfully.
+                                    </div>
+                                </div>
+                            </section>
+                            <div class="slds-backdrop slds-backdrop_open"></div>
+                        </div>
+
+                        <div class='slds-col slds-size_1-of-4'>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class='slds-scope slds-hide' id="errorPopup">
+
+                <!-- PRIMARY WRAPPER-->
+                <div class='slds-wrap slds-m-top_xx-large'>
+                    <div class="slds-grid slds-m-bottom_xx-large">
+
+                        <div class='slds-col slds-size_1-of-4'>
+
+                        </div>
+
+                        <!-- MIDDLE CONTAINER START-->
+                        <div class="slds-col slds-size_2-of-4">
+                            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                                <div class="slds-modal__container">
+                                    <header class="slds-modal__header">
+                                        <div class="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_error" role="alert">
+                                            <h2>Oh snap!</h2>
+                                        </div>
+                                    </header>
+                                    <div class="slds-modal__content slds-p-around_medium slds-text-align_center" style="height: 150px;" >
+                                        An error occured while saving your response.
+                                        <br/>
+                                        <p id="errorMessage"></p>
+
+                                    </div>
+                                    <footer class="slds-modal__footer">
+                                        <button class="slds-button slds-button_neutral" onclick="closeError()">Close</button>
+                                    </footer>
+                                </div>
+                            </section>
+                            <div class="slds-backdrop slds-backdrop_open" ></div>
+                        </div>
+
+                        <div class='slds-col slds-size_1-of-4'>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </body>
+
+        <script type='text/javascript'>
+
+            function submitSurvey() {
+                var OpportunityId = getUrlVars()["oppid"];
+                var ParentRemarks = document.getElementById('ParentRemarks').value;
+                var opportunityToUpdate = {};
+                opportunityToUpdate.id = OpportunityId;
+                opportunityToUpdate.ParentRemarks__c = ParentRemarks
+
+                var oppObject = new RemoteObjectModel.Opportunity();
+
+                var optionSelected = getRadioGroupValue(document.getElementsByName('options'));
+
+                console.log(optionSelected);
+                console.log(opportunityToUpdate);
+
+                if (optionSelected == 'yes') {
+                    opportunityToUpdate.StageName = 'Enrolled';
+                } else if (optionSelected == 'no') {
+                    opportunityToUpdate.StageName = 'Lost';
+                }
+
+                Visualforce.remoting.Manager.invokeAction(
+                    '{!$RemoteAction.VFC01_ReEnrollment.submitReEnrollment}',
+                    opportunityToUpdate,
+                    function(result, event) {
+                        if (event.status) {
+                            console.log(event.status);
+                            displayResponsePopup(true, null);
+                        } else if (event.type === 'exception') {
+                            console.log(event.message, event.where);
+                            displayResponsePopup(false, event.message + event.where );
+                        } else {
+                            console.log(event.message);
+                            displayResponsePopup(false, event.message);
+                        }
+                    }, {
+                        escape: true
+                    }
+                );
+
+                function getUrlVars() { //getting Opportunity ID for the record
+                    var vars = {};
+                    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m, key, value) {
+                        vars[key] = value;
+                    });
+                    return vars;
+                }
+
+                function getRadioGroupValue(attributeName) { //retrieve radio button checked function
+                    for (var i = 0; i < attributeName.length; i++) {
+                        if (attributeName[i].checked) {
+                            return attributeName[i].value;
+                        }
+                    }
+                }
+
+                function displayResponsePopup(isSuccess, message) {
+                    if (isSuccess) {
+                        document.getElementById("surveyForm").className = "slds-hide";
+                        document.getElementById("successPopup").className = "slds-show";
+                    } else {
+                        document.getElementById("errorMessage").innerHTML = message;
+                        document.getElementById("errorPopup").className = "slds-show";
+                    }
+                }
+            }
+
+            function closeError(){
+                document.getElementById("errorPopup").className = "slds-hide";
+            }
+
+        </script>
+    </html>
+</apex:page>
