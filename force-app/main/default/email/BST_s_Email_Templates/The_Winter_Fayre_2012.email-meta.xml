@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Letter about Winter Fayre 2012</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>The Winter Fayre 2012</name>
+    <style>freeForm</style>
+    <subject>The Winter Fayre on Saturday, December 1, 2012</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+
+The Winter Fayre at the British School of Tashkent will take place this Saturday December 1st, from 10.00 am until 1 pm. As usual this will be a charity fundraising event with all proceeds donated to charities working to support prematurely born babies in Uzbekistan.  The day will be a perfect opportunity for our parents and families mingle and chat, and to meet our staff in a more informal setting.  As with all BST events, please feel free to invite any friends who might enjoy the event.
+
+
+We look forward to a fun and successful day.
+
+
+Classrooms will be open for prospective parents to view.
+
+
+Kind regards,
+
+
+
+Regards,
+
+
+
+В субботу, 1 декабря с 10 утра до 13.00 дня на территории нашей школы состоится Зимняя ярмарка. Согласно традиции ярмарка будет благотворительной, все средства собранные во время проведения мероприятия будут переданы организациям поддерживающим недонношенных детей. Данное мероприятие - это прекрасная возможность пообщаться с родителями других учеников и преподавательским составом школы в неформальной обстановке. Мы будем рады увидеть Вас и ваших друзей!
+
+
+
+
+Мы с нетерпением ждем вас на нашем празднике!
+
+
+
+Классы будут открыты для заинтересованных в нашей школе родителей.
+
+
+
+С наилучшими пожеланиями,
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case of chickenpox in Year 2 (2018)</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Case of chickenpox in Year 2 (2018)</name>
+    <style>freeForm</style>
+    <subject>Case of chickenpox in Year 2 (2018)</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+
+
+Subject: Health and safety update
+
+
+
+Dear Parents,
+
+The health and safety of your children is our top priority. In addition to taking all necessary precautions, we aim to always keep our parents well informed of anything which comes to our attention which may affect your children.
+
+I am writing to inform you that there has been a confirmed case of chickenpox in a pupil in one of our Year 2 classes. Chickenpox is a contagious and mild virus, which is extremely common amongst young children. It causes a rash of red, itchy spots that turn into blisters and eventually fall off. Symptoms usually go away without treatment, but because the infection is very contagious, an infected child should stay home and rest until the symptoms are gone. If your child exhibits symptoms, please keep them away from school, let us know and seek appropriate medical attention.
+
+For further information about chickenpox please see the link below:
+
+http://www.nhs.uk/conditions/chickenpox/Pages/Introduction.aspx
+
+
+Warm regards,
+
+Adrian Macaulay
+
+Headteacher
+
+
+
+
+Тема: Здоровье и безопасность.
+
+Уважаемые родители!
+
+Поддержание здоровья и безопасности Ваших детей является нашей первоочередной задачей. В дополнение к принятию всех необходимых мер предосторожности, мы всегда стремимся держать наших родителей в курсе того, что может затронуть Ваших детей.
+
+Данным письмом сообщаю Вам о том, что у учащегося 2 класса был подтвержден случай ветрянки. Ветрянка является лёгким вирусным заболеванием, которому, в основном, подвержены маленькие дети. Эта болезнь вызывает красную сыпь, сопровождающуюся зудом, которая впоследствии превращается в волдыри. Со временем волдыри лопаются. Симптомы обычно исчезают без какого-то особого лечения. Но, учитывая то, что эта инфекция очень заразна, инфицированный ребенок должен оставаться дома до тех пор, пока не исчезнут все симптомы. При наличии вышеперечисленных симптомов, просим Вас не приводить ребенка в школу, уделить должное внимание лечению и поставить нас в курс дела.
+
+
+Для получения дополнительной информации о ветрянке, пожалуйста, пройдите по ссылке ниже:
+
+http://www.nhs.uk/conditions/chickenpox/Pages/Introduction.aspx
+
+
+С уважением,
+
+Адриан Маколей
+Академический директор школы.
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

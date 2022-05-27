@@ -1,0 +1,9 @@
+<apex:page standardController="Contact">
+ 
+<apex:repeat value="{!Contact.Attachments}" var="att">
+ 
+<apex:image width="110" height="120"  value="{!URLFOR($Action.Attachment.Download, att.Id)}" />
+ 
+</apex:repeat>
+
+</apex:page>

@@ -1,0 +1,6 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<div><br></div>Message from the Admissions Office:<div><br></div><div>Please ADD the following child to the class register:</div><div><br></div><div>Student's Name:&nbsp;{!Opportunity.Student_Name__c}&nbsp;</div><div>Student's Surname: {!Opportunity.Name}</div><div>Starting Date:&nbsp;{!Opportunity.CloseDate}</div><div>Class:{!Opportunity.Year_Group__c} &nbsp;{!Opportunity.Class__c}</div><div><br></div><div>Many thanks,</div><div><br></div><div>Admissions Office</div><div><br></div>]]></td>
+</tr>
+</table>

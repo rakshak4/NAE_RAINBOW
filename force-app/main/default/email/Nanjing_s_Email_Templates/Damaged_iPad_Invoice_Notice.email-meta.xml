@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used to notify parents that they will be invoiced for a damaged iPad.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Damaged iPad Invoice Notice</name>
+    <style>freeForm</style>
+    <subject>Damaged iPad Invoicing Notice</subject>
+    <textOnly>{!Account.School__c}
+Damaged iPad Invoicing Notice 
+ 
+ 
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I am writing to you today concerning  {!Opportunity.Student_Name__c}’s ipad.
+ 
+As you are aware there was an incident that resulted in severe damage to the iPad lent to you your child.
+ 
+After consulting with Apple Care they have quoted the repair price which you may view in the attached incident report.
+ 
+We will send you an invoice for the repair costs over the coming days, however, I wanted to send you a courtesy notice prior to sending the invoice itself.
+ 
+Should you have any questions, please do contact me at your leisure.
+ 
+Warm Regards,
+
+Joshua Maddox
+Administration Director
+The British School of Nanjing
+Tel: +86 (25) 5210 8987
+Fax: +86 (25) 5210 2385
+www.bsn.org.cn
+Part of The British Schools Foundation – World Class Education
+ 
+*Disclaimer:*
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

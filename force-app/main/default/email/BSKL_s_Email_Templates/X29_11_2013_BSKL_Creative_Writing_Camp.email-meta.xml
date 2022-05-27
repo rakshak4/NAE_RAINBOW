@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>29/11/2013 BSKL Creative Writing Camp</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>29/11/2013 BSKL Creative Writing Camp</name>
+    <style>freeForm</style>
+    <subject>BSKL Creative Writing Camp</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please find details to an exciting addition to our Christmas Holiday Camp.
+
+BSKL Creative Writing Camp
+
+16th to 20th December 2013 (5 days)
+The camp will be led by Lyn Fenby, Primary Librarian at BSKL, a journalist and writer with over 20 years of experience.
+Open to children from Year 3 to Year 9 who have a passion for creative writing. Participating students must have a good level of fluency in written and spoken English.
+Students will develop their creative writing skills through a mixture of short writing activities from a variety of prompts. Some of these activities would involve one minute of blast writing and other activities would allow for longer periods of uninterrupted writing. Students will also be encouraged to think imaginatively about characterisation and descriptive writing through some fun, verbal games.
+The price of the 5-day camp is RM300.
+Places are limited to 12 children and will be allocated after consultation with class teachers.
+Notebooks and a pen will be provided, but feel free to bring your pencil case.
+
+Groups and Times:
+
+Monday to Friday (16th to 20th December 2013)
+9am to 10am – Year 6, 7, 8 and 9 children
+10am to 11am – Year 3, 4 and 5 children
+
+Click here to register for the Creative Writing Camp
+If you have any questions or queries please contact Lyn Fenby at lyn.fenby@britishschool.edu.my
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

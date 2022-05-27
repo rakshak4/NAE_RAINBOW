@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>06/05/2013 - BSKL 2013 Swimming Gala Parent Information</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>06/05/2013 - BSKL 2013 Swimming Gala Parent Information</name>
+    <style>freeForm</style>
+    <subject>BSKL 2013 Swimming Gala Parent Information</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Dear Parents,
+
+The BSKL Swimming Galas 2013 will take place next Thursday 9th May for Year 1-4 students and Friday 10th for Year 5-8 students at The Club. Parents are most welcome to attend.
+
+All Year 1 to 8 students will be participating in swim events held on the above days. Please inform me and respective class teachers if your child will not be participating.
+You are welcome to come to support your children, the viewing area is the balcony area on the first floor (same level as squash and tennis courts by the club). It is essential that the poolside area is clear as there will be a lot of students and races to get through. We appreciate your co-operation on this matter.
+
+We will be dividing students into 2 groups/sessions which will participate on different days:
+
+Thursday 9th May
+Group 1 : Year 1-4, 8:00am-11:30am
+Parents and school vans to drop children off at the club in the morning at 7.45am NOT school.
+Students to leave The Club and go back to School via school buses at 11:30am at the latest.
+They will need to be in their swimming attire and bring their drinks/snacks which they would normally have at break time.
+Lunch will be back in School and normal lessons to resume after (ASAs on Thursday as normal)
+
+Friday 10th May
+Group 2 : Year 5-8, 8-11.30am
+Parents and school vans to drop children off at the club in the morning at 7.45am NOT school.
+
+Students to leave The Club and go back to School via school buses at 11:30am at the latest
+They will need to be in their swimming attire and bring their drinks/snacks which they would normally have at break time.
+
+BSKL Swimming Galas 2013 (same timings for both days)
+
+Time : 8:00am-11.30
+students to arrive at the Club at 8:00am and be back in school by 11.30am
+
+Venue : The Club @ Bukit Utama (Click http://www.theclub.com.my/contact_us/contact_us.html for address and map).
+
+Transport : Students to be dropped by parents or school vans at The Club as they would normally at the school by 7:45am on the respective days. Coaches back to BSKL between 11-11.20
+
+Food :   students can bring their own snacks and drinks but lunch will be provided as normal at school.
+
+Equipment to bring : Students to come dressed in school swim kit underneath (cap &amp; goggles included) with house t-shirt on top and PE shorts. Flip-flops to be worn and a towel at hand.
+Please bring school uniform to change into after. Please ensure all equipment  clothes are labeled so if anything is left behind we know who’s it is.
+Sunscreen lotion, a water bottle and a snack.
+
+Kind Regards,
+
+Harrie Thomson
+Head of Physical Education
+Director of Middle School After School Activities
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

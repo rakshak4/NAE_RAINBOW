@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Art Exhibition</name>
+    <style>freeForm</style>
+    <subject>Art Exhibition 2013</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+
+
+ISM Art Exhibition
+
+
+
+An exhibition of student Art will be displayed in the Lower Campus and Upper Campus main hall on Thursday, 20th June.
+
+
+We would like to take this opportunity to invite all members of the ISM community to this event celebrating some of our student’s high achievements in the arts. The exhibition will be open all day long. Therefore you will be able to visit it during drop off, throughout the day and when you pick up your children.
+
+
+The exhibition will provide a clear insight into the overall excellent standards and talents of our young artists.
+
+
+It is intended that that artwork from N – Year 10 shall be represented with a variety of different mediums, skills and techniques across the range of abilities.
+
+
+We look forward to welcoming you to this event.
+
+
+With Kind Regards,
+
+
+Sheetal Singh (Lower Campus Art Coordinator)
+
+Alexey Sinkevich (Upper Campus Art Coordinator)
+
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

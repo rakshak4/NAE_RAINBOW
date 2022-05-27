@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Term2 half-day bus timetable</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BSG</letterhead>
+    <name>Term2 half-day bus timetable</name>
+    <style>freeForm</style>
+    <subject>Term2 half-day bus schedule</subject>
+    <textOnly>Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+
+Allow us to remind you that Friday, 30th March is the last day of the school term. Please find the bus timetable for this day attached and note school will finish at 12 noon for all students.
+
+
+Should you have any questions or require further information please feel free to contact me.
+
+
+Have a lovely Easter break!
+
+
+Kind Regards
+
+
+
+
+Administration Team
+
+The British School of Guangzhou
+
+Tel: +86 (20) 8709 4788</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

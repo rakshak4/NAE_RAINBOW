@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>The British School of Guangzhou - New Parking Restrictions begin Friday, 22nd August.</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>The British School of Guangzhou-New Parking Restrictions begin Friday, 22nd Aug</name>
+    <style>freeForm</style>
+    <subject>The British School of Guangzhou - New Parking Restrictions begin Friday, 22nd August.</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+
+
+
+
+请点击此处阅读此邮件的中文版本
+
+
+
+Dear Parents,
+
+
+As the school continues to grow and you prepare for commencement of the school year, we would like to inform you of some needed car parking restrictions that will apply to the South Lake (Nanhu) Campus from beginning of this year.
+
+
+From Friday, 22nd August 2014, private cars will not be permitted to wait or park on the school’s private South Lake (Nanhu) car park. Cars may &apos;drop off&apos; students in the school&apos;s car park each morning but under no circumstances will private cars be permitted to park or wait for students in the afternoons or at any other times. If you wish to park a vehicle as you are visiting the school for any reason, please use the main Nanhu Amusement Park parking areas.
+
+
+Please also note that any visitor entering the school between 8am and 3:45pm (2:45pm during non-ASA days) must sign into the school at the security desks and prominently wear or display the provided identify badge at all times when on school grounds.
+
+
+We kindly ask and thank you for your cooperation.
+
+
+Kind regards,
+
+
+The British School of Guangzhou
+
+
+
+
+
+
+
+____________________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

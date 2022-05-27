@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Calendar Check Reminder Email for Accounts</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NAE_Branding_Letterhead_Generic</letterhead>
+    <name>Calendar Check Reminder (Account)</name>
+    <style>freeForm</style>
+    <subject>Reminder to Check Your Calendar</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Swimming Gala</name>
+    <style>freeForm</style>
+    <subject>Swimming Gala</subject>
+    <textOnly>Dear Parents,
+We would just like to say a big thank you to all of you who turned up to support your child during the lower campus swim gala today. It was fantastic to see so many people turn out and add to the atmosphere. It really makes a difference for the children who seemed to really enjoy the day. 
+The upper campus swim gala will take place this Thursday 3rd November, 2011 and we are hoping to have the same response from parents and children. 
+The swimming pool owners have reminded us that children must be wearing their swim cap during their swim. Please remind your child that they must have their swim cap with them for the gala on Thursday. 
+Thank you for your support,
+The PE Department</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

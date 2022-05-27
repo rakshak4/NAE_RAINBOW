@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>27/11/2013 Get ready for &quot;A BSKL Dickens Christmas&quot; Dec 9th 3:30pm-6:30pm</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>27/11/2013 Get ready for &quot;A BSKL Dickens Christmas&quot; Dec 9th 3:30pm-6:30pm</name>
+    <style>freeForm</style>
+    <subject>Get ready for &quot;A BSKL Dickens Christmas&quot; Dec 9th 3:30pm-6:30pm</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+It’s 4 weeks to Christmas and at BSKL we are taking a step back into the Victorian era with A BSKL Dickens Christmas on Monday December 9th from 3:30 to 6:30pm.
+
+We have 7 different BSKL musical groups performing, across all age groups, and Santa will be in attendance. There’ll be Arts &amp; Crafts and some Fun Games to keep all our youngsters entertained. The grand finale will be a Christmas carol session led by our school musicians. We even have a few surprises up our sleeves.
+
+For food &amp; beverage, you will enjoy a light supper with plenty of The Brunners’ famous Glogg or a nice cup of hot chocolate. Treat yourself from our ever-popular home bake stall.
+
+You can more than fill your stocking (and those of others) with a variety of attractive gifts from our many vendor stalls.
+
+To ensure the success of this event, please consider helping with:
+
+Bake Sale Donations : This is usually our biggest fund raiser. If you would like to donate your home baked sweet or savoury goods on 9th December please contact Traci Russell (kevtraci@gmail.com) or Zou Little (zoukahia@yahoo.fr) before 2nd December.
+
+Victorian Dress Up Day for the children at school on Dec 9th: Come as a chimney sweep/workhouse child (think Oliver!), milk maid, princess, Scrooge, …….
+
+Bring cash – All the activities (vendors, F&amp;B, games) will be done on a cash basis, so come prepared! Proceeds will go towards the EFC’s selected charities which all support children in need.
+
+Volunteers – Do let one of the EFC members (or your Class Rep) know if you’d like to help on site. Many hands make light work and the more volunteers we have, the more everyone can enjoy the day.
+
+Logistics
+
+Please note you will be responsible for the supervision of your child(ren).
+
+The event will take place from 3:30pm at the Secondary Campus. School buses and school pick up will run on normal schedule. If you would like your child(ren) to attend the BSKL Dickens Christmas, you or your designated adult must be around to supervise children under the age of 11.
+
+Kindly inform the bus monitor if your child is not using the school bus on that day.
+
+We look forward to sharing the Christmas Cheer with many of our school families.
+
+Kind Regards,
+EFC Events &amp; Fund Raising Committee
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

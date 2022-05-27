@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 500px; ">
+			<tbody>
+				<img border="0" id="m_3308685547825015245r1sp1" src="https://ci6.googleusercontent.com/proxy/67dXnVocysCsXlJug8sCwjBn53jHY6vok7ArlGUgs6iyEW02S5lmjGnO2wFvRa8wDolQRwuNpB8ZtRQ8DJ6xCSAcsylyglo6hKkrKdXXbJylHPQ1hCaOBcGGhBiWL5qWYSWwjpyjE4ENzbEgIN7XEqzPgw=s0-d-e1-ft#https://ap4.salesforce.com/servlet/servlet.ImageServer?id=0156F00000F05db&amp;oid=00D6F000001cXAR" class="CToWUd">
+				<tr>
+					<td>
+						
+						<p style="text-align: right; ">
+							<span style="color: #003255; font-family: 'Verdana'; font-size: large; background-color: rgb(255, 255, 255); text-align: right; ">{!Grant_Application__c.School__c}</span><br />
+							<i style="color: #003255; font-family: 'Verdana'; font-size: large; background-color: rgb(255, 255, 255); ">Financial Aid Approval</i></p>
+					
+		<p>
+			&nbsp;</p>
+		<p>
+			<span style="font-family:'Verdana';"><span style="font-size:12px;">Dear&nbsp;{!Grant_Application__c.Primary_Contact_Salutation__c} {!Grant_Application__c.Primary_Contact_Last_Name__c},</span></span></p>
+		<p>
+			<span style="font-family: 'Verdana'; font-size: 12px; ">{!Grant_Application__c.Paragraph_1__c}</p>
+		<p>
+			<span style="font-family: 'Verdana'; font-size: 12px; ">Details of this support can be found below:</span></p>
+		
+		<table align="center" border="1" cellpadding="1" cellspacing="1" style="width: 500px; ">
+			<tbody>
+				<tr>
+					<td bgcolor="#A0DAE5" cellpadding="0" style="text-align: center; ">
+						<span style="font-size:12px;"><span style="font-family: 'Verdana'; "><span style="color: #000000; ">Student name</span></span></span></td>
+					<td bgcolor="#A0DAE5" cellpadding="0" style="text-align: center; ">
+						<span style="font-size:12px;"><span style="font-family: 'Verdana'; "><span style="color: #000000; ">Financial Aid Details</span></span></span></td>
+				</tr>
+				<tr>
+					<td style="text-align: left; ">
+						<span style="font-size:12px;"><span style="font-family: 'Verdana'; ">{!Grant_Application__c.Child_1_Name__c}</span></span></td>
+					<td style="text-align: left; ">
+						<span style="font-size:12px;"><span style="font-family: 'Verdana'; ">{!Grant_Application__c.Child_1_Grant_Summary__c}</span></span></td>
+				</tr>
+				<tr>
+					<td>
+						<span style="font-family: 'Verdana'; font-size: 12px; text-align: left; ">{!Grant_Application__c.Child_2_Name__c}</span></td>
+					<td>
+						<span style="font-family: 'Verdana'; font-size: 12px; text-align: left; ">{!Grant_Application__c.Child_2_Grant_Summary__c}</span></td>
+				</tr>
+				<tr>
+					<td>
+						<span style="font-family: 'Verdana'; font-size: 12px; text-align: left; ">{!Grant_Application__c.Child_3_Name__c}</span></td>
+					<td>
+						<span style="font-family: 'Verdana'; font-size: 12px; text-align: left; ">{!Grant_Application__c.Child_3_Grant_Summary__c}</span></td>
+				</tr>
+				<tr>
+					<td>
+						<span style="font-family: 'Verdana'; font-size: 12px; text-align: left; ">{!Grant_Application__c.Child_4_Name__c}</span></td>
+					<td>
+						<span style="font-family: 'Verdana'; font-size: 12px; text-align: left; ">{!Grant_Application__c.Child_4_Grant_Summary__c}</span></td>
+				</tr>
+				<tr>
+					<td>
+						<span style="font-family: 'Verdana'; font-size: 12px; text-align: left; ">{!Grant_Application__c.Child_5_Name__c}</span></td>
+					<td>
+						<span style="font-family: 'Verdana'; font-size: 12px; text-align: left; ">{!Grant_Application__c.Child_5_Name__c}</span></td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			<span style="font-size: 12px; "><span style="font-family: 'Verdana'; ">Note that the percentages show the portion of fees the financial aid will cover. </span></span></p>
+		<p>
+			<span style="font-size: 12px; "><span style="font-family: 'Verdana'; ">It is important that you understand that this financial support is subject to the following conditions:</span></span></p>
+		<p>
+			<span style="font-size:12px;"><span style="font-family: 'Verdana'; ">{!Grant_Application__c.Conditions_of_Grant_Copy__c}</span></span></p>
+		
+		<span style="font-family: 'Verdana'; font-size: 12px; ">Our administration team is likely to be in touch with you to provide you a hard copy of this notification, and please let us know if you have any questions or require further clarification.</span>
+		<p>
+			&nbsp;</p>
+
+<span style="font-family: 'Verdana'; font-size: 12px; ">Administration Team</span><p>
+<span style="font-family: 'Verdana'; font-size: 12px; ">{!Grant_Application__c.School__c}</span><p>
+	</body>
+</html>

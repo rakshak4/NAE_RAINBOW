@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Parking for Lower School Christmas Performance</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Parking for Lower School Christmas Performance</name>
+    <style>freeForm</style>
+    <subject>Parking for Lower School Christmas Performance</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+
+
+
+
+
+Dear Pre-Nursery, Nursery &amp; Reception Parents,
+
+If you are planning on joining us for our Christmas productions this week, please note that due to limited parking spaces in the car park above school we would ask that you also use the car park in G block at Lakefront. Security staff will be on hand to guide you to the G Block car park once the car park above school is full.
+
+Please also note that cars are not permitted to stop on the road outside of school, please help us keep everyone safe by parking in a designated parking space in one of the Lakefront car parks.
+
+Reception Performance - Wednesday 11th December 10:30-11:30am
+
+Pre-Nursery &amp; Nursery performance - Thursday 12th December 10:30-11:30am
+
+We shall look forward to seeing you then!
+
+Best wishes
+
+Miss Kathy
+Head of Lower School
+The British School of Guangzhou
+World Class Education
+
+_____________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Coffee Morning - 12th September</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Coffee Morning - 12th September</name>
+    <style>freeForm</style>
+    <subject>Coffee Morning - 12th September 8.00am - 9.00am</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

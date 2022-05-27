@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>New After School Activity</name>
+    <style>freeForm</style>
+    <subject>New After School Activity</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear Parents,
+
+
+We are pleased to announce that Technokidz club will be starting after half term. This is a new and exciting opportunity for students in years 1-10. Our classes are designed so that students learn technological skills through interesting, engaging and dynamic projects.
+
+
+
+For more information and permission slip please click here.
+
+
+
+Best regards,
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

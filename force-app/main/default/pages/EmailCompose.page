@@ -1,0 +1,8 @@
+<apex:page >
+     
+          <apex:outputPanel id="MissingAttRpt" >
+<apex:iframe src="/email/author/emailauthor.jsp?retURL=%2F00QD000000kbhoA&p2_lkid=00QD000000kbhoA&lid=&wid=00QD000000kbhoA&template_id=00XD00000024QX6&isdtp=lt" scrolling="true"  height="1588px"  width="100%"/>   
+</apex:outputPanel>
+
+     
+</apex:page>

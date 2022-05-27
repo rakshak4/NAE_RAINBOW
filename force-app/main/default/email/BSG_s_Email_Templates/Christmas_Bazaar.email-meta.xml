@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Christmas Bazaar</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Christmas Bazaar</name>
+    <style>freeForm</style>
+    <subject>Christmas Bazaar</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+Dear Parents,&lt;?xml:namespace prefix = o /&gt;
+
+
+Our friends from GWIC (Guangzhou Women&apos;s International Club) will hold a &apos;Christmas Bazaar&apos; on Tuesday, 19th November 2013. The event will be held at Oakwood Gold Arch on Ersha Island, from 10am till 3pm. NO ENTRANCE FEE.
+
+
+They will offer a lovely day of shopping with friends old and new Jewellery, clothes, books, table linens, shoes, food, wine and much more will be available for you to peruse!
+
+
+All are welcome so please invite your friends if you wish.
+
+
+For details of this charity event, please visit http://gwic.org/.
+
+
+Best wishes,
+
+
+
+
+
+
+
+The British School of Guangzhou
+
+World Class Education
+
+_________________________________________________________
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Conference of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

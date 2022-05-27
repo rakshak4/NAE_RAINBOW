@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>27/11/2013 Year 9 Activities Week Letter</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>27/11/2013 Year 9 Activities Week Letter</name>
+    <style>freeForm</style>
+    <subject>Year 9 Activities Week Letter</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please click on the link below  for a letter regarding Year 9 activities week.
+
+Year 9 activities week letter.
+https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004SIZ/dNMeWzlZl4GF.xXQr5NFc8nGSnTLaKXU6287O6eiduE=
+
+Kind Regards,
+Kerry Fernandes
+Head of Mathematics
+Head of Year 9
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>BSKL Year Group Leader (Year 3)</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>BSKL Year Group Leader (Year 3)</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>BSKL_Coordinator_KS2</parentRole>
+</Role>

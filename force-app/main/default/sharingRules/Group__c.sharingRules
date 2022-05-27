@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>BCB_Share_Student_Group_with_Admin_Dept</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BCB Share Student Group with Admin Dept</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BCB_Head_of_Administration</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Headteacher_BCB</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BCB_Share_Student_Groups_with_Academic_Dept</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BCB Share Student Groups with Academic Dept</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Headteacher_BCB</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Headteacher_BCB</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BCB_Share_Student_Groups_with_Portal_Liaisons</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BCB Share Student Groups with Portal Liaisons</label>
+        <sharedTo>
+            <group>BCB_Portal_Liaisons</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>BCB_Academic_Department</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BSKL2_Share_Specialist_Student_Groups_with_Primary_Teachers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSKL2 Share Specialist Student Groups with Primary Teachers</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSKL_Deputy_Head_of_Primary</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>BSKL_Coordinator_PRI_Chinese</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BSKL_Grant_Read_Write_Sharing_for_Secondary_Teachers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSKL Grant Read/Write Sharing for Secondary Teachers</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSKL_Secondary_Department</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>BSKL_Secondary_Department</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BSKL_Share_Specialist_Student_Groups_with_Primary_Teachers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Required so that class teachers can edit whole school specialist subject reports (P.E., Music etc.)</description>
+        <label>BSKL Share Specialist Student Groups with Primary Teachers</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSKL_Deputy_Head_of_Primary</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>BSKL_Whole_School_Specialists</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BSKL_Share_Student_Group_with_Admin_Dept</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSKL Share Student Group with Admin Dept</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSKL_Head_of_Administration</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Headteacher_BSKL</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BSKL_Share_Student_Groups_with_Academic_Dept</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSKL Share Student Groups with Academic Dept</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Headteacher_BSKL</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Headteacher_BSKL</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BSKL_Share_Student_Groups_with_Portal_Liaisons</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSKL Share Student Groups with Portal Liaisons</label>
+        <sharedTo>
+            <group>BSKL_Portal_Liaisons</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>BSKL_Academic_Department</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BSNJ_Share_Student_Group_with_Admin_Dept</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSNJ Share Student Group with Admin Dept</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSNJ_Head_of_Administration</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Headteacher_BSNJ</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BSNJ_Share_Student_Groups_with_Academic_Dept</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSNJ Share Student Groups with Academic Dept</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Headteacher_BSNJ</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Headteacher_BSNJ</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BSNJ_Share_Student_Groups_with_Portal_Liaisons</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSNJ Share Student Groups with Portal Liaisons</label>
+        <sharedTo>
+            <group>BSNJ_Portal_Liaisons</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>BSNJ_Academic_Department</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BST_Share_Student_Group_with_Admin_Dept</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BST Share Student Group with Admin Dept</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BST_Head_of_Administration</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>BST_Headteacher</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BST_Share_Student_Groups_with_Academic_Dept</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BST Share Student Groups with Academic Dept</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BST_Headteacher</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>BST_Headteacher</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BST_Share_Student_Groups_with_Portal_Liaisons</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BST Share Student Groups with Portal Liaisons</label>
+        <sharedTo>
+            <group>BST_Portal_Liaisons</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>BST_Academic_Department</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BSY_Share_Student_Group_with_Admin_Dept</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSY Share Student Group with Admin Dept</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSY_Head_of_Administration</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>BSY_Headteacher</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BSY_Share_Student_Groups_with_Academic_Dept</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSY Share Student Groups with Academic Dept</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSY_Headteacher</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>BSY_Headteacher</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BSY_Share_Student_Groups_with_Portal_Liaisons</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSY Share Student Groups with Portal Liaisons</label>
+        <sharedTo>
+            <group>BSY_Portal_Liaisons</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>BSY_Academic_Department</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>ISM1_Share_Specialist_Subject_Groups_with_HOLC</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Required to allow the HOLC to check/review assessments of all specialist/subject teachers whilst not interfering with the role hierarchy for other objects e.g. appraisals</description>
+        <label>ISM1 Share Specialist/Subject Groups with HOLC</label>
+        <sharedTo>
+            <role>ISM_KRY_Head_of_Lower_Campus</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>ISM_KRY_Specialist_Subject_Teacher_Managed_by_DHOS</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>ISM2_Share_Specialist_Subject_Groups_with_HOLC</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Required to allow the HOLC to check/review assessments of all specialist/subject teachers whilst not interfering with the role hierarchy for other objects e.g. appraisals</description>
+        <label>ISM2 Share Specialist/Subject Groups with HOLC</label>
+        <sharedTo>
+            <role>ISM_KRY_Head_of_Lower_Campus</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>ISM_KRY_Specialist_Subject_Teacher_Managed_by_HOS</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>ISM_Share_HOS_Managed_Groups_with_DHOS</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Required to allow the DHOS check/review assessments of all secondary staff whilst not interfering with the role hierarchy for other objects e.g. appraisals</description>
+        <label>ISM Share HOS Managed Groups with DHOS</label>
+        <sharedTo>
+            <role>ISM_KRY_Deputy_Head_of_Secondary</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>ISM_KRY_Specialist_Subject_Teacher_Managed_by_HOS</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>ISM_Share_Student_Group_with_Admin_Dept</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>ISM Share Student Group with Admin Dept</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ISM_Head_of_Administration</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Headteacher_ISM</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>ISM_Share_Student_Groups_with_Academic_Dept</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>ISM Share Student Groups with Academic Dept</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Headteacher_ISM</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Headteacher_ISM</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>ISM_Share_Student_Groups_with_Portal_Liaisons</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>ISM Share Student Groups with Portal Liaisons</label>
+        <sharedTo>
+            <group>ISM_Portal_Liaisons</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Headteacher_ISM</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>NAISM_Share_Student_Groups_with_Academic_Dept</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>NAISM Share Student Groups with Academic Dept</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>NAISM_Headteacher</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>NAISM_Headteacher</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>NAISM_Share_Student_Groups_with_Portal_Liaisons</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>NAISM Share Student Groups with Portal Liaisons</label>
+        <sharedTo>
+            <group>NAISM_Portal_Liaisons</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>NAISM_Academic_Department</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Bus_Routes_with_NAISM_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Bus Routes with NAISM Admin</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>NAISM_Head_of_Administration</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>NAISM_Headteacher</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_NAE_Student_Groups_with_Group_Web_Devs</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share NAE Student Groups with Group Web Devs</label>
+        <sharedTo>
+            <group>Group_Web_Devs</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>NAE_Schools</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_NAE_Student_Groups_with_NAE_Group_Marketing</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Required for ability to create events against student groups</description>
+        <label>Share NAE Student Groups with NAE Group Marketing</label>
+        <sharedTo>
+            <group>NAE_Group_Marketing</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>NAE_Schools</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

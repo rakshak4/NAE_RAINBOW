@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Nursery Curriculum Letter Term 1, 2013</name>
+    <style>freeForm</style>
+    <subject>Nursery Curriculum Letter Term 1, 2013</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Nursery Parents,
+
+
+Welcome to Nursery at The International School of Moscow!
+
+
+The first week at school has begun incredibly well. It is wonderful to see most of the children coming in happily to school each day and the smiles on their faces getting bigger as they become more familiar with their classrooms.  It has been a pleasure to watch the children settle in well and get used to the classroom routines.
+
+
+Within our class the children have begun to understand what rules are and that we should follow them.  We encourage the children to share and be kind with each other, to listen to the teacher, one another and to be helpful.  This year the children will work hard to achieve house points to gain their first certificate.
+
+
+At this young age developing the children’s independence is essential. We encourage them to put on their outdoor jackets and shoes independently, bring in their school folder everyday and to put it in the box in their classroom. It would be great to work together by encouraging your child to put on their own shoes at home. To help your child achieve this please ensure that they wear black school shoes that are easy to fasten and unfasten.
+
+
+Throughout this term we will cover four topics; All About Me, Animals, Fairy Tales and Winter. Through these topics the children will develop a variety of different skills in all seven areas of learning.  There is nothing that makes a topic more realistic than real life experiences, if you have any specialisms relating to our topics, please contact us to arrange a time that you can visit our class to talk to the children.
+
+
+Each week the children will be introduced to a new sound.  We will make the letter in different ways, practice writing it and think of things that start with that letter. To support your child’s learning of the letter sounds a useful website is www.starfall.com.
+
+
+
+Please click here to download the Nursery Term 1 Curriculum overview.
+
+
+We would like to thank you, in advance, for your time and effort in supporting the children in all areas of their learning.  It has been lovely watching all the children enjoy the variety of activities offered in Nursery.  It has also been wonderful to see them begin to make their own choices about what they would like to learn about.
+
+
+Yours sincerely,
+
+
+The Nursery Teaching Team.
+
+
+Mrs. Sheeta Sighn
+
+Ms. Anna Ivanova
+
+Mr. Josh Bailey
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

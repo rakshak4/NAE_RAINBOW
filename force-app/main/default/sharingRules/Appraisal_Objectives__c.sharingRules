@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>ISM_Appraisal_Share_Read_Only</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>ISM Appraisal Share - Read Only</label>
+        <sharedTo>
+            <group>ISM_Appraisal_Share_Read_Only</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>ISM_Administration_Department</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>ISM_Share_Appraisals_with_Head_of_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>ISM Share Appraisals with Head of Admin</label>
+        <sharedTo>
+            <group>ISM_Appraisal_Share_Read_Write</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>ISM_Administration_Department</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>ISM_Share_Appraisals_with_new_Head_of_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>ISM Share Appraisals with new Head of Admin</label>
+        <sharedTo>
+            <group>ISM_Appraisal_Share_Read_Write</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>ISM_old_Head_of_Admin_Appraisal_Share</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

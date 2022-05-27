@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Adhoc email template</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Adhoc email</name>
+    <style>freeForm</style>
+    <subject>Cuota anual</subject>
+    <textOnly>British School of
+Navarra
+Part of The British Schools Foundation
+
+
+
+Pamplona, 19th of June 2018
+
+
+
+
+Dear families,
+
+
+
+As we are finishing this academic year, we would appreciate it in case you are thinking of paying a single annual fee for the next year, please let us know before Monday the 25th of June.
+
+
+
+
+
+Thank you very much
+
+Laura González
+
+---------------------------------------------------------------
+
+
+
+Estimadas familias,
+
+
+
+Como ya estamos finalizando este curso académico, les agradeceríamos que si están pensando en abonar una única cuota anual para el curso que viene, por favor nos lo hagan saber antes del lunes 25 de Junio.
+
+
+
+
+
+Muchas gracias,
+
+Laura González</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>CMCO Extension Letter - 14th January 2021</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NAE_Branding_Letterhead_BSKL</letterhead>
+    <name>! 14th January 2021 NS</name>
+    <style>freeForm</style>
+    <subject>CMCO Extension Letter - 14th January 2021</subject>
+    <textOnly>Dear Parents,
+
+
+I hope that our message finds you healthy and happy, and that you and your children are excited for Term 2 at the British International School of Kuala Lumpur.
+
+
+You’ve likely heard that the Malaysian government extended the Conditional Movement Control Order (CMCO) for Selangor, Kuala Lumpur, and other areas until 14 January, 2021. BSKL will begin Term 2 using our virtual school experience (VSE) on 4 January. We’ve received very positive feedback from parents and students about our VSE offering and our academic teams are committed to delivering high quality instruction and continuous improvements. Our VSE offering includes live lessons and timetables and for most students is similar to their regular in-school timetable.
+
+
+Even though we’ll begin school virtually, our academic and pastoral teams remain committed to ensure a smooth transition for your children. We understand the importance of student happiness in student success and we will be working to ensure your child is supported during their transition to BSKL.
+
+
+Additionally, we remain committed to safely re-opening the  campus when the CMCO ends. We will continue to keep you informed about timelines and SOP’s when information becomes available.
+
+
+We understand you may have questions about the start of term. Please do not hesitate to reach out to the admissions team. We look forward to you being a part of our community and answering any questions you may have.
+
+
+Kindest regards,
+
+
+The BSKL Admissions Team
+
+(Carl, April, Nadia, and KahWei)</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

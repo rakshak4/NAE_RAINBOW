@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>TechnoKidz</name>
+    <style>freeForm</style>
+    <subject>TechnoKidz</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+Please see information below about an exciting additional after school activity, which will be available for children in years 1-3.  TechnoKidz will run on Mondays from 3.20pm – 4.30pm in the Music Room on Lower Campus.  It will begin on Monday 27th January and run every Monday until the end of this term.  The cost is 500 rubles per child per session and it is important that children commit to the entire course to gain maximum benefits.  5000 rubles should be handed in to Reception in a clearly labeled envelope at the start of the course.  For any other enquiries, please contact Alla using the following email address: technokidz@hotmail.co.uk.
+
+Building &amp; Construction
+
+TechnoKidz classes provide a friendly atmosphere for children, where we learn, we build, we play using LEGO bricks. As children learn best through activities that engage their curiosity and creativity, our program is built on educational play approach, with exciting themes such as space, construction, amusement parks, etc.
+
+Our program provides a safe, relaxed learning environment where initiative is invited and self-expression is celebrated. Model building provides opportunities for problem-solving and helps children develop an appreciation for how things work. All this takes place while children are having fun and socializing in a non-competitive atmosphere.
+
+Kind regards,
+
+
+Asta Hodgson
+
+After School Activities Co-ordinator, Lower Campus
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,6 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[The request to approve financial aid application number {!Grant_Application__c.Name}&nbsp;from {!Grant_Application__c.Parent_Name__c} has been recalled.<div><br></div><div>You do not need to take any further action at this time.<br><div><br></div><div>Link to Financial Aid Application:&nbsp;{!Grant_Application__c.Link}</div><div><br></div></div>]]></td>
+</tr>
+</table>

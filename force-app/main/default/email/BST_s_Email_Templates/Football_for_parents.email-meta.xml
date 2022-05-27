@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to parents about football with BST staff</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Football for parents</name>
+    <style>freeForm</style>
+    <subject>Football for parents</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The BST staff enjoy playing football every Friday afternoon from 17.30 until 19.30. We feel it is a very healthy and positive way to end the working week and begin the weekend.
+
+We would like to offer parents the chance to join us in this weekly football session.
+It would be a regular sporting and social event with BST staff and BST parents playing side by side or perhaps BST staff would be playing against BST parents, with the parents teaching the staff a footballing lesson!
+
+If you are interested and up for the challenge, please reply via e-mail to Mr. Palcic
+
+eric.palcic@britishschool.uz
+
+You will then receive a confirmation e-mail with the venue and all the details.
+
+Looking forward to hearing from you.
+
+Regards,
+
+Eric Palcic
+
+Уважаемые родители,
+Сотрудники Британской школы города Ташкента с удовольствием играют в футбол каждую пятницу с 17.30 до 19.30 вечера. Мы считаем, что это очень веселое времяпрепровождение, которое помогает нам завершить рабочую неделю и плавно подойти к выходным.
+Мы предлагаем родителям присоединиться к нам и поучаствовать в этой “футбольной “традиции.
+Данное мероприятие сможет стать не только спортивным, но и общественным мероприятием, в котором сотрудники и родители школы будут играть бок о бок друг с другом, а возможно и друг против друга, или сами родители смогут преподать уроки футбольного мастерства нашим сотрудникам.
+Если Вы заинтересовались данным предложением, просим Вас написать ответ   на данную электронную почту Мистеру Палсику :
+eric.palcic@britishschool.uz
+Затем, Вы получите подтверждение по электронной почте с указанием места проведения игр и всю необходимую информацию.
+С нетерпением ожидаем Ваших ответов!
+
+С наилучшими пожеланиями,
+
+Эрик Палсик
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

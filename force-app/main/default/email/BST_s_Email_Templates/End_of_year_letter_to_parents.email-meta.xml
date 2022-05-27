@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Links for the last newsletter 2012-2013</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Links for the last newsletter</name>
+    <style>freeForm</style>
+    <subject>Links to newsletter</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please have a look at last newsletter of 2012-13 academic year following the link below:
+
+http://britishschool.uz/info/Quicklinks/Newsletters/en/
+
+Thank you for your continuous support .
+
+Regards,
+Дорогие родители,
+
+Пройдя по ссылке ниже вы можете найти последний выпуск школьной газеты в этом году.
+
+http://britishschool.uz/info/Quicklinks/Newsletters/ru/
+
+
+
+Спасибо за вашу постоянную  поддержку.
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

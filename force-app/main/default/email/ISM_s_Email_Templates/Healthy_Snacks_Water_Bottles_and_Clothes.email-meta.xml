@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Healthy Snacks, Water Bottles and Clothes</name>
+    <style>freeForm</style>
+    <subject>Healthy Snacks, Water Bottles and Clothes</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+With the arrival of cold weather, we would like your active support to help ensure the students remain healthy, focused and energised through the winter months. Please take a moment to read through the guidelines below…
+
+Healthy Snacks
+
+It is imperative that the children arrive at school each day with a healthy snack. Foods like fruit, wholegrain sandwiches, crisp vegetables and similar foods help ensure the children have plenty of energy to learn throughout the day and maintain a high resistance to winter bugs.
+
+We strongly discourage unhealthy goods like sugary biscuits and crisps, while sweets, chocolates and fizzy drinks are banned altogether.
+
+Water Bottles
+
+Please ensure that your child brings a labeled water bottle to school. This helps ensure that they remain hydrated at their tables, without the need to interrupt their learning.
+
+Appropriate Clothing – With Labels
+
+As the snow arrives, it’s natural for children (and adults) to want to build snow forts, run around and generally remain active. Appropriate clothing, such as gloves, snow pants and scarves, will help ensure they can do so comfortably.
+
+Please note however, that gloves can often become separated. Try to ensure that all clothing items are labeled with your child’s name and class, so we can reunite found items with their owners.
+
+Thank you for your continued support on these matters. Our aim is to ensure the children remain healthy, happy and ready to learn throughout the year!
+
+Regards,
+
+Justin Noack
+
+Upper Primary Phase Leader
+
+The International School of Moscow
+
+World Class Education
+
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

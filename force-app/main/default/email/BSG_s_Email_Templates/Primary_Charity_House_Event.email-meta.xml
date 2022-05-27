@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Primary Charity House Event</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Primary Charity House Event</name>
+    <style>freeForm</style>
+    <subject>Primary Charity House Event</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+Dear Parents,
+
+
+On the 6th December primary students will be taking part in a charity house event. The event will be to create Christmas boxes that we can donate to Special Education School of Huadu. The school is supported by the Sheraton in Huadu, due to having limited funding. The boxes will be decorated by the students and will hopefully contain items that are needed within the school.
+
+
+This is where we need your support. As it is Christmas it would be great if you could donate one or more of the following items:
+
+
+- schoolbag (plain)
+
+- clothes
+
+- stationery
+
+- bedclothes
+
+
+The items need to be new due to the school&apos;s health and safety policy, so even a small donation will help.
+
+
+We also need shoe boxes or similar sized boxes to decorate, so any of these that can be donated will be kindly appreciated. If you can send the items to upper school by the 6th December that would be great.
+
+
+Regards,
+
+
+Amanda Boby
+
+
+Community Action and Fundraising Coordinator
+
+
+British School of Guangzhou
+
+
+
+_________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>SAVE THE DATE: ISM Family Fun Day - Saturday 25th May 11am-3pm!</name>
+    <style>freeForm</style>
+    <subject>SAVE THE DATE: ISM Family Fun Day - Saturday 25th May 11am-3pm!</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+As you may know, there will be an ISM Family Fun Day held at Lower Campus on Saturday 25th May from 11am-3pm.
+
+As well as class stalls run by our children, there will be a stage show by the Open Art Musical Theatre Group, a performance from the ISM teachers&apos; band, a charity raffle and a charity silent auction of works of art, each created by an ISM class. There will also be complimentary light refreshments but for lunch please bring your own family picnic and picnic blanket.  All proceeds from the event will be for the Open Art Musical Theatre Group, a Russian charity that supports young people and adults with learning disabilities (www.metopenart.com).
+
+Thank you for the great raffle prizes you have already donated. We would like more children&apos;s prizes e.g. Lego sets, games or even something bigger. If you can support the raffle in this way then please contact Natalia Chopra (nchopra@me.com).
+
+In case you haven&apos;t been into school and seen the posters advertising the event, please click here for a copy for your information.
+
+We hope to see you and your families on Saturday 25th!
+
+Best wishes
+The Family Fun Day Team
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

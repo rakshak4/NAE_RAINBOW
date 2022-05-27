@@ -1,0 +1,10 @@
+<apex:page standardController="News_Events__c">
+ 
+<apex:repeat value="{!News_Events__c.Attachments}" var="att">
+ 
+<apex:image width="300" height="200"  value="{!URLFOR($Action.Attachment.Download, att.Id)}" />
+
+ 
+</apex:repeat>
+
+</apex:page>

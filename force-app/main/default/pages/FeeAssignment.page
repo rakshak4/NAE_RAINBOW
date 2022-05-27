@@ -1,0 +1,292 @@
+<apex:page standardController="Opportunity" extensions="FeeAssignmentController">
+
+<apex:includeScript value="{!URLFOR($Resource.jQuery)}"/>
+<apex:includeScript value="{!URLFOR($Resource.jQueryBlockUI, '/jquery.blockUI.js')}"/>
+
+<script type="text/javascript"> 
+    $(document).ready(function() { });
+     function blockDetail(i) { 
+         $(document.getElementById(i)).block({
+		   message: 'loading' + '<br/><img src="{!URLFOR($Resource.loadingBar)}">',
+		   css: {
+		       padding: '10px',
+		       border: '2px solid #fff',
+		       'border-radius': '5px'
+		   }  
+         }); 
+     }
+
+     function unblockDetail(i) { 
+         $(document.getElementById(i)).unblock(); 
+     }
+</script> 
+ 
+<apex:form >
+
+<apex:actionFunction name="redrawTuition" rerender="tuitionFee" oncomplete="unblockDetail('{!$Component.tuitionFee}')"/>
+<apex:actionFunction name="redrawOtherPanel" rerender="otherFees" oncomplete="unblockDetail('{!$Component.otherFees}')"/>
+<apex:actionFunction name="redrawCustomYearlyPanel" rerender="customYearlyFees" oncomplete="unblockDetail('{!$Component.customYearlyFees}')"/>
+<apex:actionFunction name="redrawFeeWizard" rerender="feeWizard" oncomplete="unblockDetail('{!$Component.feeWizard}')"/>
+
+	<apex:pageMessages />
+	<apex:pageBlock title="Fee Wizard" id="feeWizard">
+	
+		<apex:pageBlockButtons >
+			<apex:commandButton value="Quick Save"  action="{!saveDontRedirect}"/>
+			<apex:commandButton value="Save"  action="{!saveRedirect}"/>
+			<apex:commandButton value="Cancel" action="{!redirect}"/>
+		</apex:pageBlockButtons>
+	
+		<apex:pageBlockSection title="School" id="school" columns="1" rendered="{!priceBookUnset}">
+			<apex:pageBlockSectionItem >
+				<apex:outputLabel value="School"/> 
+				<apex:selectList value="{!priceBook}" multiselect="false" size="1" onChange="blockDetail('{!$Component.feeWizard}'), redrawFeeWizard()">
+					<apex:selectOptions value="{!priceBookOptions}"/>
+				</apex:selectList>
+			</apex:pageBlockSectionItem>
+			<apex:pageBlockSectionItem >
+				<apex:outputText value=""/>
+				<apex:outputText style="color:red" value="Warning : Saving the change to school will delete all Fees, current and non-current. Cancel will stop these changes" rendered="{!differingPriceBook}"/>
+			</apex:pageBlockSectionItem>
+		</apex:pageBlockSection>
+	
+		<apex:pageBlockSection title="Tuition Fee" columns="2" id="tuitionFee" rendered="{!oppHasPriceBook}">
+				
+			<apex:pageBlockSectionItem >
+				<apex:outputLabel value="Tuition Fee :"/> 
+				<apex:selectList value="{!tuitionFee.fee}" multiselect="false" size="1" disabled="{!differingPriceBook}">
+					<apex:selectOptions value="{!tuitionFee.feeOptions}"/>
+				</apex:selectList>
+			</apex:pageBlockSectionItem> 
+			
+			<apex:pageBlockSectionItem >
+				<apex:outputLabel value="Invoicing Term :"/>
+				<apex:selectList value="{!tuitionFee.term}" multiselect="false" size="1" onChange="blockDetail('{!$Component.tuitionFee}'), redrawTuition()">
+					<apex:selectOptions value="{!tuitionFee.termOptions}"/>
+				</apex:selectList>
+			</apex:pageBlockSectionItem>
+			
+			<apex:pageBlockSectionItem >
+				<apex:outputLabel value="Addressed to :"/>
+				<apex:selectList value="{!tuitionFee.payer}" multiselect="false" size="1">
+					<apex:selectOptions value="{!payerOptions}"/>
+				</apex:selectList>
+			</apex:pageBlockSectionItem>
+			
+			<apex:pageBlockSectionItem >
+				<apex:outputLabel value="Months In Year :"/>
+				<apex:selectList value="{!tuitionFee.months}" multiselect="false" size="1" onChange="blockDetail('{!$Component.tuitionFee}'), redrawTuition()">
+					<apex:selectOptions value="{!tuitionFee.monthsOptions}"/>
+				</apex:selectList>
+			</apex:pageBlockSectionItem>
+			 
+			<apex:pageBlockSectionItem > 
+				<apex:outputLabel value="Invoice Date"/> 
+				<apex:outputLabel value="{!tuitionFee.nextInvoice}"/>
+			</apex:pageBlockSectionItem>
+			
+			<apex:pageBlockSectionItem >
+				<apex:outputLabel value="Next Generated Invoice"/> 
+				<apex:selectList value="{!tuitionFee.nextGenInvoice}" multiselect="false" size="1" onChange="blockDetail('{!$Component.tuitionFee}'), redrawTuition()">
+					<apex:selectOptions value="{!tuitionFee.nextGenInvoiceOptions}"/>
+				</apex:selectList>
+			</apex:pageBlockSectionItem>
+			 
+			<apex:pageBlockSectionItem > 
+				<apex:outputLabel value="Discount %"/> 
+				<apex:inputText value="{!tuitionFee.Discount}"/>
+			</apex:pageBlockSectionItem>
+		</apex:pageBlockSection>
+	
+		<apex:pageBlockSection title="Other Fees" columns="1" id="otherFees" rendered="{!oppHasPriceBook}">
+		<apex:repeat value="{!otherFeesView}" var="fee">
+			<apex:pageBlockSection columns="2" id="eachFee">
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel value="Fee :"/> 
+					<apex:selectList value="{!fee.fee}" multiselect="false" size="1" onChange="blockDetail('{!$Component.otherFees}'), redrawOtherPanel()" disabled="{!differingPriceBook}">
+						<apex:selectOptions value="{!fee.feeOptions}"/>
+					</apex:selectList>
+				</apex:pageBlockSectionItem> 
+				
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel value="Invoicing Term :"/>
+					<apex:selectList value="{!fee.term}" multiselect="false" size="1" onChange="blockDetail('{!$Component.otherFees}'), redrawOtherPanel()">
+						<apex:selectOptions value="{!fee.termOptions}"/>
+					</apex:selectList>
+				</apex:pageBlockSectionItem>
+				
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel value="Addressed to :"/>
+					<apex:selectList value="{!fee.payer}" multiselect="false" size="1">
+						<apex:selectOptions value="{!payerOptions}"/>
+					</apex:selectList>
+				</apex:pageBlockSectionItem>
+				
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel value="Months In Year :"/>
+					<apex:selectList value="{!fee.months}" multiselect="false" size="1" onChange="blockDetail('{!$Component.otherFees}'), redrawOtherPanel()">
+						<apex:selectOptions value="{!fee.monthsOptions}"/>
+					</apex:selectList>
+				</apex:pageBlockSectionItem>
+				 
+				<apex:pageBlockSectionItem > 
+					<apex:outputLabel value="Invoice Date"/> 
+					<apex:outputLabel value="{!fee.nextInvoice}"/>
+				</apex:pageBlockSectionItem>
+				
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel value="Next Generated Invoice"/> 
+					<apex:selectList value="{!fee.nextGenInvoice}" multiselect="false" size="1" onChange="blockDetail('{!$Component.otherFees}'), redrawOtherPanel()">
+						<apex:selectOptions value="{!fee.nextGenInvoiceOptions}"/>
+					</apex:selectList>
+				</apex:pageBlockSectionItem>
+			 
+				<apex:pageBlockSectionItem > 
+					<apex:outputLabel value="Discount %"/> 
+					<apex:inputText value="{!fee.Discount}"/>
+				</apex:pageBlockSectionItem>
+				
+				<br/> 
+			</apex:pageBlockSection>
+		</apex:repeat>
+		
+		<apex:pageBlockSection columns="2" id="eachFee" rendered="{!oppHasPriceBook}">
+			<apex:pageBlockSectionItem >
+				<apex:outputLabel value="Fee :"/> 
+				<apex:selectList value="{!newOtherFee.fee}" multiselect="false" size="1" onChange="blockDetail('{!$Component.otherFees}'), redrawOtherPanel()" disabled="{!differingPriceBook}">
+					<apex:selectOptions value="{!newOtherFee.feeOptions}"/>
+				</apex:selectList>
+			</apex:pageBlockSectionItem> 
+			
+			<apex:pageBlockSectionItem >
+				<apex:outputLabel value="Invoicing Term :"/>
+				<apex:selectList value="{!newOtherFee.term}" multiselect="false" size="1" onChange="blockDetail('{!$Component.otherFees}'), redrawOtherPanel()">
+					<apex:selectOptions value="{!newOtherFee.termOptions}"/>
+				</apex:selectList>
+			</apex:pageBlockSectionItem>
+			
+			<apex:pageBlockSectionItem >
+				<apex:outputLabel value="Addressed to :"/>
+				<apex:selectList value="{!newOtherFee.payer}" multiselect="false" size="1">
+					<apex:selectOptions value="{!payerOptions}"/>
+				</apex:selectList>
+			</apex:pageBlockSectionItem>
+			
+			<apex:pageBlockSectionItem >
+				<apex:outputLabel value="Months In Year :"/>
+				<apex:selectList value="{!newOtherFee.months}" multiselect="false" size="1" onChange="blockDetail('{!$Component.otherFees}'), redrawOtherPanel()">
+					<apex:selectOptions value="{!newOtherFee.monthsOptions}"/>
+				</apex:selectList>
+			</apex:pageBlockSectionItem>
+			 
+			<apex:pageBlockSectionItem > 
+				<apex:outputLabel value="Invoice Date"/> 
+				<apex:outputLabel value="{!newOtherFee.nextInvoice}"/>
+			</apex:pageBlockSectionItem>
+			
+			<apex:pageBlockSectionItem >
+				<apex:outputLabel value="Next Generated Invoice"/> 
+				<apex:selectList value="{!newOtherFee.nextGenInvoice}" multiselect="false" size="1" onChange="blockDetail('{!$Component.otherFees}'), redrawOtherPanel()">
+					<apex:selectOptions value="{!newOtherFee.nextGenInvoiceOptions}"/>
+				</apex:selectList>
+			</apex:pageBlockSectionItem>
+			 
+			<apex:pageBlockSectionItem > 
+				<apex:outputLabel value="Discount %"/> 
+				<apex:inputText value="{!newOtherFee.Discount}"/>
+			</apex:pageBlockSectionItem>
+		</apex:pageBlockSection>
+		</apex:pageBlockSection>
+
+        <!-- Logans Bit -->
+        <apex:pageBlockSection title="Custom Yearly Fees" columns="1" id="customYearlyFees" rendered="{!oppHasPriceBook}">
+        <apex:repeat value="{!customYearlyFeesView}" var="fee">
+            <apex:pageBlockSection columns="2" id="eachFee">
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Fee :"/> 
+                    <apex:selectList value="{!fee.fee}" multiselect="false" size="1" onChange="blockDetail('{!$Component.customYearlyFees}'), redrawCustomYearlyPanel()" disabled="{!differingPriceBook}">
+                        <apex:selectOptions value="{!fee.feeOptions}"/>
+                    </apex:selectList>
+                </apex:pageBlockSectionItem>
+                
+                <apex:pageBlockSectionItem > 
+                    <apex:outputLabel value="Invoice Date"/> 
+                    <apex:inputField value="{!fee.dateSource.Invoice_Date__c}"/>
+                </apex:pageBlockSectionItem>
+
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Addressed to :"/>
+                    <apex:selectList value="{!fee.payer}" multiselect="false" size="1">
+                        <apex:selectOptions value="{!payerOptions}"/>
+                    </apex:selectList>
+                </apex:pageBlockSectionItem>
+
+                <apex:pageBlockSectionItem > 
+                    <apex:outputLabel value="Due Date"/> 
+                    <apex:inputField value="{!fee.dateSource.Due_Date__c}"/>
+                </apex:pageBlockSectionItem>
+                
+                <apex:pageBlockSectionItem > 
+                    <apex:outputLabel value="Discount %"/> 
+                    <apex:inputText value="{!fee.Discount}"/>
+                </apex:pageBlockSectionItem>
+                
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Next Generated Invoice"/> 
+                    <apex:inputField value="{!fee.dateSource.Next_Generated_Invoice__c}"/>
+                </apex:pageBlockSectionItem>
+
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Next Year Fee"/> 
+                    <apex:inputCheckbox value="{!fee.nextYearFee}"/>
+                </apex:pageBlockSectionItem>
+
+                <br/> 
+            </apex:pageBlockSection>
+        </apex:repeat>
+
+        <apex:pageBlockSection columns="2" id="eachFee" rendered="{!oppHasPriceBook}">
+            	<apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Fee :"/> 
+                    <apex:selectList value="{!newCustomYearlyFee.fee}" multiselect="false" size="1" onChange="blockDetail('{!$Component.customYearlyFees}'), redrawCustomYearlyPanel()" disabled="{!differingPriceBook}">
+                        <apex:selectOptions value="{!newCustomYearlyFee.feeOptions}"/>
+                    </apex:selectList>
+                </apex:pageBlockSectionItem>
+                
+                <apex:pageBlockSectionItem > 
+                    <apex:outputLabel value="Invoice Date"/> 
+                    <apex:inputField value="{!newCustomYearlyFee.dateSource.Invoice_Date__c}"/>
+                </apex:pageBlockSectionItem>
+
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Addressed to :"/>
+                    <apex:selectList value="{!newCustomYearlyFee.payer}" multiselect="false" size="1">
+                        <apex:selectOptions value="{!payerOptions}"/>
+                    </apex:selectList>
+                </apex:pageBlockSectionItem>
+
+                <apex:pageBlockSectionItem > 
+                    <apex:outputLabel value="Due Date"/> 
+                    <apex:inputField value="{!newCustomYearlyFee.dateSource.Due_Date__c}"/>
+                </apex:pageBlockSectionItem>
+                
+                <apex:pageBlockSectionItem > 
+                    <apex:outputLabel value="Discount %"/> 
+                    <apex:inputText value="{!newCustomYearlyFee.Discount}"/>
+                </apex:pageBlockSectionItem>
+                
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Next Generated Invoice"/> 
+                    <apex:inputField value="{!newCustomYearlyFee.dateSource.Next_Generated_Invoice__c}"/>
+                </apex:pageBlockSectionItem>
+
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Next Year Fee"/> 
+                    <apex:inputCheckbox value="{!newCustomYearlyFee.nextYearFee}"/>
+                </apex:pageBlockSectionItem>
+        </apex:pageBlockSection>
+        </apex:pageBlockSection>
+	</apex:pageBlock>
+</apex:form>
+
+</apex:page>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Ethnomir Update</name>
+    <style>freeForm</style>
+    <subject>Ethnomir Update</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear parents,
+
+Having arrived bright and early on Monday, the students have had an action-packed and entertaining trip. Highlights include a visit to a small zoo where students handled scorpions, meerkats, lizards and other exotic creatures. We toured around the world in 80 minutes learning about cultures and traditions from all the far corners and participating in the occasional workshop. Today we have archery, high ropes and a visit to a husky farm all to look forward too!
+
+Students are given access to their phones every evening but if you don&apos;t hear from them don&apos;t worry as we&apos;re keeping them very busy! We&apos;ll see you all at 4pm on Friday to hand over some very exhausted but happy children!
+
+Ms. Goodhew
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

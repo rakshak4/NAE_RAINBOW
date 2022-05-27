@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Eid al Adha 2016</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Eid al Adha 2016</name>
+    <style>freeForm</style>
+    <subject>Eid al Adha 2016</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+To celebrate the holy festival of Eid al Adha, the British School of Tashkent will be closed on Monday 12th September. The school will reopen on Tuesday 13th September.
+
+
+
+We hope that you have a relaxing and pleasant break.
+
+
+
+Kind regards,
+
+Administration Team
+
+The British School of Tashkent
+
+
+
+Уважаемые родители!
+
+
+
+В рамках празднования священного праздника Хаит, Британская школа города Ташкента будет закрыта в понедельник 12 сентября. Школа вернется к своему обычному графику со вторника 13 сентября.
+
+
+
+Желаем Вам приятного отдыха.
+
+
+
+
+
+С уважением,
+
+Администрация Британской школы
+
+города Ташкента
+
+
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

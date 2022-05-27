@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Weekly Update 8th November, 2012</name>
+    <style>freeForm</style>
+    <subject>Weekly News Update 8th November, 2012</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+Please make a note of these dates on your agenda.
+
+Last week of After School Activities
+
+
+
+Just to remind all families that next Tuesday (13th) and Wednesday (14th) will be the last week of ASAs for Term One. The wintry conditions and darker evenings will not support many of the activities that we have been offering beyond this date.
+
+
+
+As you will be aware, the following Tuesday (20th) and Wednesday (21st) will accommodate the first Parent/Teacher Consultations of the year for Primary and Secondary students. Please do ensure that you make appointments for those evenings.
+
+
+Best regards,
+
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

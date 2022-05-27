@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New School Year BST 2017-18</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>New School Year BST 2017-18</name>
+    <style>freeForm</style>
+    <subject>New School Year BST 2017-18</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+
+It’s not long now until our new 2017/18 academic year begins on Friday 25th August 2017. We are very much looking forward to welcoming your children to BST, whether they are new or returning students. Please find below important practical information in preparation for school start.
+
+Campus Location
+
+This academic year children from Pre-Nursery to Year 1 will be accommodated in the former Upper Campus, new name Sayram Campus.
+
+Year 2 to Year 10 will remain in the New Campus, new name Kalandar Campus.
+
+Individual Teacher Meeting, Friday 25th August 2017
+
+We will start the new academic year with an individual meeting between your family and the Class Teacher / Form Tutor. The individual meetings will take place on Friday 25th August. All students are expected to attend together with their parents. You will receive information about how to book a 20 minute appointment with your Class Teacher / Form Tutor before August 21st. Individual teacher meetings are compulsory for all families.
+
+The First Day of Curriculum lessons, Monday 28th August 2017
+
+On Monday 28th August, we kindly ask that Pre Nursery to Year 1 students arrive by 8.30am. Year 2 to Year 10 children should arrive by 8:15am.
+
+More information regarding the first day of school will be sent in an email the week beginning August 22nd.
+
+Attendance from the 25th August is compulsory. However, if your children will not attend the first day of school please send an email clarifying when we should expect them to info@britishschool.uz
+
+School timetable
+
+From August 2017 we will  be changing the structure of the school day for both campuses. We will be starting the school day earlier for Year 2 to Year 10 with registration starting at 8.15am and the first lesson starting at 8.30am.
+
+For Pre-Nursery to Year 1 the registration will start at 8:30 am with the first lesson starting at 8:45 am, as last year. Both campuses will finish as normal at 3.30pm
+
+This change will allow us to run the school After Schools Activities (ASA) programme during the school day, from 2:30pm till 3:30pm and allow children to finish at 3.30pm. The only activities that will take place after school will be individual Music lessons and ensemble practices and British Lions sports practices. We will also now be able to run ASAs for Reception children.
+
+
+Medical Requirements and Contact Details
+
+It is very important that you let us know of any medical requirements, including allergies, your child may have before the start of school. We will include this information in the child&apos;s student file and will notify all relevant staff.
+
+You may also need to update us with your new contact details should these have changed after your relocation or summer holiday.
+
+Please be aware that it is parents’ responsibility to provide us with correct and up-to-date information which is vital for general communication and emergency contact purposes. Please email admissions@britishschool.uz
+
+Parent Portal Support
+
+The Parent Portal is a vital tool for two-way communication between our teachers and parents. Please watch this video (for Russian version, please click here) for important information about how the Portal works.
+
+You should have received your login and password when you enrolled at school. If you have any problems or questions about the Parent Portal, please feel free to contact support@britishschool.uz at any time.
+
+Important Contact Information
+
+If you have any questions please direct them to the relevant department:
+
+Front desk Upper  campus -  Kamila Tukhtaeva +99871-268-5561
+kamila.tukhtaeva@britishschool.uz
+
+Front desk New campus - Oksana Zueva, +99871-262-6020/ oksana.zueva@britishschool.uz
+
+Security passes - Aziz Abdumukhtarov, +99871-268-5561/
+support@britishschool.uz
+
+Uniform shop - Mukaddam Mirzaeva, +99871-268-5561
+schoolnurse@britishschool.uz
+
+Invoicing - Rano Sadikova, +99871-268-5561
+rano.sadikova@britishschool.uz
+
+Parent Portal - Aziz Abdumukhtarov, +99871-268-5561
+marketing@britishschool.uz
+
+Best Regards,
+
+The BST Administration Team
+The British School of Tashkent
+
+
+Уважаемые родители!
+Уже совсем скоро начнётся наш новый 2017-18 академический учебный год (в пятницу 25-го августа). Мы будем  рады приветствовать в стенах нашей школы, как новых, так и вернувшихся с каникул учащихся. Ниже Вы найдете необходимую информацию в рамках подготовки к новому учебному году.
+Расположение кампусов
+Новый академический год учащиеся групп Pre-Nursery - Year 1  начнут в прежнем здании школы по адресу :улица Сайрам, 30а (Верхний кампус).
+
+Учащиеся 2-ых -10-ых классов  продолжат обучение в новом здании школы.
+Индивидуальные встречи с преподавателями, пятница 25-е августа
+Новый учебный год начнется 25 августа с индивидуальных встреч семей с классными руководителями групп/классов. Индивидуальные встречи будут проходить в пятницу 25-го августа. На данные встречи родители учащихся должны прийти вместе со своими детьми. До 21 августа будет выслано электронное письмо о том, как назначить 20-минутную встречу с Вашим классным руководителем. Посещения индивидуальных встреч с преподавателями являются обязательными для всех семей.
+Первый день школы, понедельник 28-е августа 2017
+Просим Вас привезти детей в соответствующий кампус в понедельник 28-го августа, в промежутке с 8:10 до 8:30 утра.
+
+·         Классы от Pre-Nursery до 1-ых классов – прежнее здание школы (Верхний кампус) к 8:30 утра
+
+·         2-ые - 10-ые классы – новое здание школы к 8:15 утра
+Более подробная информация о первом школьном дне будет отправлена по электронной почте в начале недели 22 августа.
+Посещение школы с 25-го августа обязательно для всех учащихся. Если Ваши дети не смогут присутствовать в школе в первый учебный день, пожалуйста, отправьте нам уведомление о дате их возвращения на данную электронную почту info@britishschool.uz .
+Школьное расписание
+С августа 2017 года мы планируем изменить план учебного дня в обоих зданиях школы. Для учащихся 2-ых – 10-ых классов учебный день начинается с регистрации в 8:15 утра и началом первого урока в 8:30 утра.
+Начало регистрации учащихся групп Pre-Nursery- Year 1 начинается в 8:30 утра,а уроки будут начинаться в 8:45 утра(как и в прошлом учебном году). Учебный день в обоих зданиях школы будет заканчиваться в 15:30.
+Данные изменения позволят нам проводить кружки в течение  школьного дня - с 14:30 до 15:30, а заканчивать учебный день в 15:30. Единственными дополнительными занятиями, которые будут проходить после уроков, являются индивидуальные музыкальные занятия и спортивные тренировки команды «Британских Львов». Мы также планируем начать проводить кружки для учащихся группы Reception.
+Медицинские требования и контактные данные
+Крайне важно, чтобы до начала учебного года Вы проинформировали нас о каких-либо медицинских противопоказаниях по состоянию здоровья ребёнка, в том числе-и аллергических реакциях. Нам необходимо включить данную информацию в персональный файл ребенка и уведомить об этом всех соответствующих сотрудников школы.
+Также, просим Вас уведомить нас, если Вы изменили Ваши контактные данные за время летних каникул (электронная почта, контактные телефоны и т.д.).
+Обратите внимание, что предоставление достоверной и актуальной информации, которая имеет жизненно важное значение для общей связи и аварийных ситуаций, является ответственностью родителей. Просим Вас сообщить об имеющихся изменениях на данный электронный адрес admissions@britishschool.uz
+Родительский Портал
+Родительский портал является важным инструментом двусторонней связи между учителями и родителями учащихся. Просим Вас посмотреть данное видео о работе портала  (для русской версии, пожалуйста, нажмите здесь ).
+Всем родителям зачисленных учащихся высылается логин и пароль от школьного портала. Если у Вас появятся вопросы об использовании родительского портала, пожалуйста, не стесняйтесь связаться со службой поддержки support@britishschool.uz .
+Необходимая контактная информация
+Если у Вас имеются вопросы, пожалуйста, направляйте их в соответствующий департамент:
+Детский сад / ресепшен (Верхний кампус) - Kamila Tukhtaeva +99871-268-5561 kamila.tukhtaeva@britishschool.uz
+Здание школы / ресепшен - Оксана Зуева, + 99871-262-6020 / oksana.zueva@britishschool.uz
+Изготовление школьных пропусков - Aziz Abdumukhtarov, +99871-268-5561/ support@britishschool.uz
+Магазин школьной формы - Mukaddam Mirzaeva, +99871-268-5561 / schoolnurse@britishschool.uz
+Выставление счетов - Rano Sadikova, + 99871-268-5561 /
+rano.sadikova@britishschool.uz
+Родительский портал - Aziz Abdumukhtarov, + 99871-268-5561 / marketing@britishschool.uz
+С наилучшими пожеланиями,
+Администрация Британской школы
+города Ташкента
+
+
+
+
+
+
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

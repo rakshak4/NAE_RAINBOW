@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>18/09/2013 Chicken Pox</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>18/09/2013 Chicken Pox</name>
+    <style>freeForm</style>
+    <subject>Chicken Pox</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Unfortunately there has been a case of chicken pox in Secondary school.
+
+Please follow the below link to a letter from our nursing team:
+
+Chicken Pox letter
+( https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004RqM/VXlab2cf9c7lZsiiN.z66gnzxLUmKb54QHvsTssQEf8= )
+
+Kind Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

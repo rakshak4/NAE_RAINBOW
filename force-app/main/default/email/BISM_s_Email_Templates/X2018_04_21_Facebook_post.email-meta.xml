@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>BSM Email Template October 2016 - NEW SCHOOL NAME</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>2018/04/21 Facebook post</name>
+    <style>freeForm</style>
+    <subject>Factually incorrect post on Facebook</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

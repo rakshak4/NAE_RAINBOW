@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Statitics Booster Sessions</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BSG</letterhead>
+    <name>Statitics Booster Sessions</name>
+    <style>freeForm</style>
+    <subject>Statitics Booster Sessions</subject>
+    <textOnly>Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+
+Please be informed that there are revision sessions taking place during the week of 4th June for year 11 students who are sitting GCSE Statistics. These will take place during year 11 Maths lessons on Monday, Tuesday and Friday.
+
+
+Please encourage your child to attend if they are sitting this exam which takes place on Monday 18th June.
+
+
+Kind regards
+
+
+
+Miss Kent
+
+
+
+
+
+
+
+Administration Team
+
+The British School of Guangzhou
+
++8620 87094788
+
+www.bsg.org.cn
+
+·</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

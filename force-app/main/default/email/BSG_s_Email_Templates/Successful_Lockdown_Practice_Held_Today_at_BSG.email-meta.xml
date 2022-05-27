@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Successful &apos;Lockdown&apos; Practice Held Today at BSG.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Successful &apos;Lockdown&apos; Practice Held Today at BSG.</name>
+    <style>freeForm</style>
+    <subject>Successful &apos;Lockdown&apos; Practice Held Today at BSG.</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+
+
+
+
+
+Dear Parents,
+
+
+An important aspect of the school&apos;s health and safety policies is to ensure there is a planned and practiced response to any risk, threat or hazard that might impact on the students or on the capacity of the building to operate normally. There are two aspects to this policy. One is an ‘evacuation’ or ‘fire drill’ response, that allows us to evacuate buildings in a safe, calm and rehearsed manner (rehearsed at least once a term). The other is to have a ‘lockdown’ response in place that allows us to safely and sensibly keep staff and children inside the building during a sudden storm or threat from outside the building.
+
+
+Today at 10:10am, we held our first lockdown practice on the Upper School&apos;s Nanhu Campus and I am pleased to say it went extremely well. Staff and children were briefed on appropriate actions before the practise and as the alarm sounded this morning, staff ensured correct procedures were followed and most importantly that the children stayed calm and were not distressed in any way.
+
+
+I am pleased to let you know we now have this procedure successfully in place and we will continue to ensure your child’s safety is kept as our number one priority.
+
+
+Best wishes,
+
+
+Mr Mark Thomas
+
+
+
+Principal
+
+
+
+
+
+The British School of Guangzhou
+
+
+
+
+
+World Class Education
+
+
+____________________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

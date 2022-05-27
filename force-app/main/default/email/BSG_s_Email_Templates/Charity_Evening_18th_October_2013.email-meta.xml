@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Charity Evening: 18th October 2013</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Charity Evening: 18th October 2013</name>
+    <style>freeForm</style>
+    <subject>Charity Evening: 18th October 2013</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+
+Dear Parents,&lt;?xml:namespace prefix = o /&gt;
+
+
+Our friends from the charity association COULEURS DE CHINE are organising a Charity Dinner Dance on the 18th October 2013 to help support underprivileged children from rural China attend school. This is a charity and cause the school supports each year through our parents organisation, the Events and Fundraising Committee (EFC), and we would like to pass on an invitation for the evening to you all.
+
+
+If you would like more information or to attend, please CLICK HERE to view details and contact information.
+
+
+Best wishes,
+
+
+
+The British School of Guangzhou
+
+World Class Education
+
+
+
+
+____________________________________________________
+
+
+University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

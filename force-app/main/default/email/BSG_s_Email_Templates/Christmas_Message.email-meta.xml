@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Christmas Message 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Christmas Message</name>
+    <style>freeForm</style>
+    <subject>Christmas Message</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+As the weather turns noticeably chillier we approach the end of the first term. It has been an impressively busy and productive term with the final month marked by outstanding choir performances, a nativity from the lower school children and an unforgettable pantomime from our talented teaching assistants.
+
+In a school like ours, with students from 49 different countries, Christmas will inevitably mean that many of you will be traveling long distances, either to be with extended family or simply to enjoy a festive holiday. Wherever you are traveling we would like to wish you an enjoyable Christmas and hope that students return to school, on Monday 7th January 2013, relaxed and full of enthusiasm for another busy term.
+
+The teachers, TA&apos;s and admin staff who have worked so hard to make this such an impressive first term will also be traveling far and wide to enjoy a Christmas holiday with families and friends. I would like to thank every one of them for their efforts this term, they are a wonderful team and I feel lucky to work with such dedicated people.
+
+This year each site have created a short film clip with  a simple Christmas message to share with all our parents around the world. I hope you enjoy the resulting film, it can be viewed by CLICK HERE.  I will certainly be sending this link to my family and friends and invite you to do the same.
+
+Merry Christmas to all,
+
+Mark Thomas
+Headmaster
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Language Options - EYFS &amp; Primary</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Language Options - EYFS &amp; Primary</name>
+    <style>freeForm</style>
+    <subject>Language Options (Early Years &amp; Primary)</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+For Early Years (Pre-Nursery - Reception) &amp; Primary (Year 1 - 6) Parents:
+
+Your child will participate in language lessons as part of the school day. Please select which language you would like your child to learn from the options: Mandarin or Spanish. Please click on the link below to submit your language option request.
+
+Language option for next academic year - Spanish or Mandarin (https://docs.google.com/forms/d/1AZo-TT2MbAs8SkHG8q5o6vnovOhWYkULNiDl9_3b4TI/viewform)
+
+
+Kind regards
+Admin Team
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

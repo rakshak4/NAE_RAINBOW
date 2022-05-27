@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Management changes 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BSG</letterhead>
+    <name>Management changes 2012</name>
+    <style>freeForm</style>
+    <subject>Management Changes 2012</subject>
+    <textOnly>Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+As usual, at this time of the year, a number of our teachers are preparing to move onto new positions. At the end of the term we will say goodbye to Dr Dan Moore, who is leaving BSG to join Dulwich College Seoul as their Head of Secondary. This is an exciting opportunity for Dr Moore to move to a reputable organisation and build on his experience at our school. This is Dan’s fourth year at BSG and his legacy to us is the wonderful Secondary school that we now have. I know you will join me in wishing him every success in the next stage of his career and in thanking him for his commitment to the development of the British School of Guangzhou.
+
+
+Mr Iain Ruck, our current Deputy Head of Secondary, will replace Dr. Moore as Head of Secondary. Mr Ruck is very excited to be given the opportunity to lead the Secondary team at this crucial stage and to oversee the introduction of our A-level programme.
+
+
+Within Primary we are saying goodbye to Michael Jordan and Gemma Silk our KS1 and KS2 leaders. Mike is moving to Tanglin, Singapore to take up a Year 2 teaching position. Tanglin school is recognised as one of the best International Schools in SE Asia and I am sure he will enjoy the professional challenges of Tanglin along with life style of Singapore.
+
+
+Miss Silk is moving to Alice Smith in Malaysia, where she will take up a Key Stage Leader’s role. Alice Smith is the most established international school in SE Asia and will offer Miss Silk a professional challenge and the diversity of expat life in Kuala Lumpur.
+
+
+These two Primary management roles will be combined next year to create a non-teaching Head of Primary position. I am pleased to announce that David Laird, who was our Key Stage 2 leader two years ago, has filled this role. David is currently working at an exclusive boarding school in Switzerland but is keen to return to Guangzhou and take up this new position.
+
+
+The fact that our management team have been successful in achieving positions at such reputable international schools really is very pleasing and shows just how much our reputation has grown over the last few years.
+
+
+I am sure you will join me in wishing them well and in welcoming Iain Ruck and David Laird to join Miss Kathy as our Heads of School next year.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

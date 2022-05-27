@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Rosinka - Girl&apos;s Trouser sale</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Rosinka - Girl&apos;s Trouser sale</name>
+    <style>freeForm</style>
+    <subject>Krylatskoe Uniform Shop Closed on Monday 14th September</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

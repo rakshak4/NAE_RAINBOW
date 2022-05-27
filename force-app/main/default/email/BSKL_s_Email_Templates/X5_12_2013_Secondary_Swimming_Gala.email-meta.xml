@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>5/12/2013 Secondary Swimming Gala</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>5/12/2013 Secondary Swimming Gala</name>
+    <style>freeForm</style>
+    <subject>Secondary Swimming Gala</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+On Thursday, 12th December, we will be holding the BSKL Secondary Swimming Gala for students from Year 7 to 9. In the lead up to the event, please take the time to read the following information:
+
+The Secondary Swimming Gala will take place at the BSKL swimming pool from 8.00am until 12.00pm. All students must be dropped off at school at 7.45am to ensure the prompt start of the event. They must wear their full BSKL swimming kit including swimming hat, goggles and towel underneath their PE kit and House shirt. If you need to purchase any kit, you can do so from the Uniform shop, during opening hours. Regrettably though, you will not be able to purchase a swimming cap as these have sold out, many apologies for this inconvenience.
+
+Please note that on arrival at school the boys must drop off their bags and other belongings at the Secondary gymnasium and the girls must drop off their bags and belongings in the Theatre. Students then must take their towel, House t-shirt, water and snacks to the Astroturf for registration and briefing. The Secondary Gym and Theatre will be locked during the event to ensure safe keeping of possessions. Students must wear their House t-shirt whenever they are not swimming for easy identification. It is advisable for students to wear flip flops during the event and bring trainers to change into afterwards.
+
+Students must be seated on the Astroturf in their class lines for registration to ensure the prompt start of the event at 8.00am. Students should not walk anywhere else unless they have asked their House supervisor.
+
+You are most welcome to come and watch the event. Please note that Parents are invited to follow the races from the balcony areas to ensure that the poolside is free for the smooth proceedings of the event.
+
+I hope the above information is clear, but please do not hesitate to contact a member of the PE Department should you have any questions.
+Looking forward to seeing many of you next week.
+
+
+Kind regards
+
+PE Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

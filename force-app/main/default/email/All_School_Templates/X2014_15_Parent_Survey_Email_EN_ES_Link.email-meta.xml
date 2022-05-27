@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>2014/15 Parent Survey Email (EN + ES Link)</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>2014/15 Parent Survey Email (EN + ES Link)</name>
+    <style>freeForm</style>
+    <subject>Parent Survey - 2014/15 Academic Year</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

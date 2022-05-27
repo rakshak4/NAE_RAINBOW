@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20141127 Letter from Headteacher</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20141127 Letter from Headteacher</name>
+    <style>freeForm</style>
+    <subject>Letter from Headteacher</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+27th November 2014
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}
+
+I have just attended the yearly BSF Board meeting where with the Board I discuss where BSKL is at the moment and how we can move it forward. During this discussion we take into account the parent questionnaire and verbal feedback received from students, teachers and parents at the end of last academic year.
+
+The questionnaire was split into 11 areas and it was good to see that over 90% that answered the questionnaire were extremely happy with the academic progress of their child, that their child looks forward to coming to school, that the school provides a welcoming and safe environment and provides parents with social opportunities. We will continually strive to achieve in these areas and have brought in a number of new strategies to facilitate this.
+
+To ensure academic progress is high our new primary and secondary management team are focusing on Quality Assurance Mechanisms such as lesson observations with the focus being on progress and challenge, book scrutinies, writing moderations, learning walks and continuous professional development in areas specific to the needs of the teacher. We have put a training programme together for teaching assistants to ensure they move learning forward for the children they work with.
+
+We are delighted with our newly formed Learning Support department led by Janelle Meyer whose experience means she can observe students and give a prognosis of their needs plus the educational plan needed to move these students forward. She has built up a bank of staff who are trained in different areas of learning support who she can recommend to parents suited to their child’s specific needs.
+
+80% or more of the parents that answered the questionnaire were happy with the quality and size of the campus, with the range of extra curricular activities and the school’s admin team.
+
+Concern was raised about the fact that the school is growing in numbers and would there be enough sports facilities in the future. When the new campus is finished in Sept 2016 that will include another sports hall larger than our secondary sports hall with a viewing gallery. We will also regain daily use of the playing field at KBU.
+
+Some parents voiced concern over the changing of the time of the school day.  Changing the timings of the school day has meant enrichment sessions (ASAs) have been split into age related groups. It has eased the safety aspect of large numbers of students moving around the school to their activities at the same time. It has given more children the opportunity to do popular choices such as baking/cooking and the number of sessions of an activity per term has increased so students show more progression. For those students involved if after school clubs we will be putting on a late bus of limited service after the Christmas Holidays
+
+From the questionnaire concerns were raised about communication and feedback, quality of school uniform, quality of lunch service and quality of the bus service. I would like to expand on each of these areas.
+
+As a school we have been very excited with the launch of the portal and many a parent has enjoyed reading and watching videos showing how their child is learning. A frequent comment though was that important dates or information was at times lost in the stream of blogs. We have now adapted the portal to include a calendar tab that solely has the important dates, events and notices on it for your individual children and is separate to the class blog. We have stopped the weekly digest emails so as a parent you choose when to log in to your calendar section or the class blog. Any questions on this please email Nigel Parker at 
+nigel.parker@britishschool.edu.my
+
+Last term we asked Gobind in Y10 to trial a secondary rucksack, using it as much as he could and give feedback. He was impressed both with the quality and size. These are now in the uniform shop and replace the more primary styled bags.
+
+We were pleased with the improvements made in the canteen at the primary campus and have worked with the secondary campus to ensure the same high quality. Secondary campus have introduced starters, salad bar, more choice of mains, fruit and occasional dessert. Our newly formed secondary school council will work with SHF to look at more improvements using feedback from the students.
+
+We are working with a 3rd bus contractor and re designing the routes to make them more efficient for everyone and this will be rolled out term 2.
+
+As the school has grown parents felt there was less opportunities for their children in sport and music events. We have increased staffing in these areas to facilitate this. We have welcomed 3 music interns into the music department who lead sections of PIPs and SIPs, orchestra ensembles and support in IGCSE sessions. They are very talented passionate musicians and are great role models for our students. Our PE department has grown with the addition of an extra PE teacher and 5 qualified sports coaches. This has enabled year groups to have sport at the same time, smaller groupings and intense training for older students. With an expanded department we are able to include more students in training sessions and team fixtures.
+
+There are many exciting things happening at BSKL as our student body grows both in size and age. We never stand still and are always looking to build upon what we have put in place to improve the educational experiences of our students.	
+
+We are very appreciative of all parents that presented feedback and we will use this information in our school improvement planning. I hope that this summary demonstrates our firm commitment to self reflect and pursue excellence relentlessly. 
+
+Thank you for your continued support.
+
+Janet Brock
+Headteacher
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

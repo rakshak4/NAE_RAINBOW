@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>ASA&apos;s</name>
+    <style>freeForm</style>
+    <subject>ASA&apos;s</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+
+We regret to inform you that ASA’s are cancelled this week.  There appears to have been internet connection problems, many emails from parents with ASA selections have not been received and as such students are missing from the list.
+
+
+ASA’s will now begin on Tuesday 2nd October and will end on 28th November.
+
+
+Furthermore buses will continue to leave school at 3pm this week.
+
+
+We apologise for any inconvenience.
+
+
+Kind Regards,
+
+
+
+
+Kind Regards,
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

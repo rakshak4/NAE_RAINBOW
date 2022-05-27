@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email sent confirm Design Job Completed and requesting rating</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NAE_Branding_Letterhead_Generic</letterhead>
+    <name>Design Job Completed</name>
+    <style>freeForm</style>
+    <subject>Design Job Completed - {!Design_Job__c.Name}</subject>
+    <textOnly>The British School
+Group
+System Message
+
+
+Dear {!Design_Job__c.Contact_Person__c},
+
+Ashley has marked as complete, a design job for {!Design_Job__c.Work_For__c}. The basic details are
+
+Subject: {!Design_Job__c.Copy_Subject__c}
+Date Completed: {!Design_Job__c.Date_Completed__c}
+
+IMPORTANT: Please proceed with rating the work performed, using the following link:
+
+{!Design_Job__c.Link}
+
+
+
+__________________________________________________________
+Beijing - Moscow- Kuala Lumpur -Sao Paulo - Manila - Guangzhou - Nanjing - Tashkent - Marbella - Pamplona</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

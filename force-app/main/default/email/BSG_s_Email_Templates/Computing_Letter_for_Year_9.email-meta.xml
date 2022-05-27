@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Computing Letter for Year 9</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Computing Letter for Year 9</name>
+    <style>freeForm</style>
+    <subject>Computing Letter for Year 9</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+&lt;?xml:namespace prefix = o /&gt;
+
+
+Dear Parent / Guardian,
+
+
+The National Curriculum in England has undergone some major changes in recent years with regard to the subject ICT (Information Communication Technology). The Department of Education has decided to start removing ICT as a discrete subject in schools and integrate it into other core subjects like Mathematics and English.
+
+
+As a result, they have urged schools nationally to replace ICT with Computer Science. We as a British school follow the British curriculum as closely as possible and have decided to replace the compulsory I.G.C.S.E. ICT with an optional I.G.C.S.E. Computer Science course starting in September 2014.
+
+
+Computer Science is the study of the foundational principles and practices of computation and computational thinking and their application in the design and development of computer systems.
+
+
+During the course we would like the students to develop the following skills:
+
+
+· develop computational thinking
+
+· develop an understanding of the main principles of solving problems by using computers
+
+· develop understanding that every computer system is made up of sub-systems, which in turn consist of further sub-systems
+
+· develop an understanding of the component parts of computer systems and how they interrelate, including software, data, hardware, communications and people
+
+· acquire the skills necessary to apply this understanding to develop computer-based solutions to problems using a high-level programming language.
+
+
+I am writing to you specifically to explain the impact this will have on your child. The current I.G.C.S.E. course that Year 9 started at the beginning of this year will not continue next year. However, if your child wishes to choose I.G.C.S.E. Computing Science as an option in Year 10, all topics covered so far this year will be part of that Computer Science course and so their efforts will not have been wasted.
+
+
+I hope this does not cause too much concern to you or your child, as this is a perfect opportunity for them to develop new and innovative skills. However if you have any questions to ask or require any information about the new course, please do not hesitate to contact me at debra.fish@bsg.org.cn.
+
+Further information on this and all of the other I.G.C.S.E courses will be available to you at the PTC and I.G.C.S.E. choices evening scheduled for 18th February (4-7pm).
+
+
+Yours sincerely,
+
+
+
+
+Ms. Debra Fish                                                   Mr. Iain Ruck
+
+Head of ICT                                                         Head of Secondary School
+
+
+
+
+_____________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

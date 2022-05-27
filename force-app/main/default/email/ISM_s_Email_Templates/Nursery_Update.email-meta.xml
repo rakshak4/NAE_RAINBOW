@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Nursery Update</name>
+    <style>freeForm</style>
+    <subject>Nursery Update</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+Unfortunately Mrs Jill Mian recently confirmed to us that her medical condition has not improved and that she is still unable to commit to a return to Moscow or work for the for-seeable future. This means that with regret and in consultation with her, that we have made the decision to close her contract. However, I am pleased to announce that Mrs Samarin will continue in her teaching role for the remainder of the year. This will avoid  further disruption to the class and ensure that the children will get the best possible experience in preparation for Reception.
+
+I am sure that you will join me in wishing Mrs Mian the very best in her recovery.
+
+Best regards,
+
+Paul Seedhouse
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

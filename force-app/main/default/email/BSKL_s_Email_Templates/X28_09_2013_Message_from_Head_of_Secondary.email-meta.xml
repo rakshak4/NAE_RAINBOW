@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>28/09/2013 Message from Head of Secondary</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>28/09/2013 Message from Head of Secondary</name>
+    <style>freeForm</style>
+    <subject>Message from Head of Secondary</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please follow the below link to a message from the Head of Secondary, Mr. Mackey.
+
+Message from Head of Secondary
+https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004Ruk/CIgFvGl54kBqvs8CBDcy7zykUfZXVpB754aRkwAUHwg= 
+
+Parent Forum
+https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004Rup/PmbBhuW7dIBPH2wkDyIkVRowr1VtiC0kR6KCQz8Pl6I=
+
+Parbind Headteacher
+https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004Ruu/jjoYVCXrehhotHJnPb3T.o9vA7oX7JjMPJRAS6SJWCY=
+
+Art Curriculum Evening
+https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004Ruz/E6P0uHH4_T6N4EQuNWjJ5GJIJGTJLdw6rUdJwhjZpM4=
+
+Bahasa Curriculum Evening
+https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004Rv0/xeZQmkLnwpr9gKV8EHiBOhY0hS2mtMaAJPtzsxWLWeE=
+
+BSKL Key Stage 3 Curriculum Information Evening
+https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004Rv4/d56KO0ByYUODqtzxNWG.Iz7Tei.TOwQSuad.xElBGBU=
+
+Chinese Curriculum Evening 
+https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004Rv9/tNIYlaFIwVirBqkVfDPffF.p4.IEkuSmW8BIU7iRrrQ=
+
+Drama Curriculum Evening
+https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004RvE/vYks6z_Z_p_ChGw5j3u7ZBhJ.KcPYDX5ta9oSVr33Uc=
+
+English Curriculum Evning
+https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004RvJ/1znk_IYrBBRSQGg8J6CVRNzXkWkrE63JoQwttI0SQwQ=
+
+English Programme of Study
+https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004RvO/txNj5W8OhVK0ic.Xe7vqY1meWEYMiqAQZWiBwn80sLI=
+
+Humanities Curriculum Evening
+https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004RvT/Y3L_mUM.pS0I2wdDjka64Gw2P21HewJOnF2Pe3jP4dc=
+
+ICT Curriculum Evening
+https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004RvY/EglyeGwyuFSu4qz2a.tPVha15mgt.cGHP88mhnetO_0=
+
+Maths Curriculum Evening
+https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004Rvd/A63lVYdSzW9wBJC4KOQdQFOs22KG5NdB8wrx5Qr.9iI=
+
+
+MFL Curriculum Evening
+https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004Rvi/YGoLkKB1gFTCACe3XrK_6CoOOTQCUbWrXXR641bXI48=
+
+Music Curriculum Evening
+https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004Rvn/TB9uqID6PP9EOGZAR9Hv1MIsWNZ5hYSD75FUgbfNjHU=
+
+Science Curriculum Evening
+https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004Rvs/dIS4MzMTSXqH5CFPItbmlC5pjrLfLJp1EMv.njDvarM=
+
+Wishing you all a great weekend.
+
+Kind Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

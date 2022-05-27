@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Term 2 new fees</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Fee adjustments</name>
+    <style>freeForm</style>
+    <subject>Fee adjustments</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+I write to you regarding an adjustment to our Tuition fees for Term 2, which reflect rising costs in global and local economy.
+
+
+BST remains significantly more affordable than other international schools in the city, while delivering on our promise of providing the very best education to our children. In order to sustain our high standards and long term financial stability, we need to adjust to changing economic conditions, to ensure we can continue to attract quality British teachers and import the very best academic materials.
+
+
+This academic year we not only have increased the number of expat teachers but also opened a new fully equipped science lab, greatly expanded libraries on both campuses buying over a thousand new books, purchased additional iPads for 1-2-1 programme and classroom use.  In addition, the school now has twelve highly qualified local teachers guiding our Saturday school students towards successful completion of the local curriculum at no additional cost to our families.
+
+
+Finally, the school continues to operate a limited financial aid programme to support families in severe financial distress.
+
+
+We trust you find these adjustment reasonable, and thank you for your continued support of our school.
+
+
+
+
+
+
+
+Пишу Вам, чтобы проинформировать об изменениях в стоимости обучения со второго триместра текущего учебного года. Указанные изменения вызваны ростом цен товаров и услуг как на мировом, так и на рынке Узбекистана.
+
+
+Несмотря на изменения, Британская Школа города Ташкента по-прежнему сохраняет уровень доступности по стоимости образовательных услуг среди Международных школ в городе, при этом сохраняется и высший уровень образования студентов Школы. Как участники рынка товаров и услуг, мы постоянно приспосабливаемся к изменяющимся экономическим условиям, чтобы обеспечивать привлечение квалифицированных британских преподавателей и импорт высококачественных академических материалов для поддержания наших высоких стандартов и сохранения стабильности.
+
+
+
+
+В текущем учебном году мы не только увеличили количество иностранных преподавателей, но и оборудовали новый кабинет современным научно-лабораторным оборудованием, а также-значительно расширили библиотеки обоих кампусов, купив более тысячи новых книг; приобрели дополнительные планшетные компьютеры для индивидуальной работы с учащимися дома и в классах. Кроме того, школа привлекла 12 высококвалифицированных преподавателей - граждан РУз, для работы в субботней школе. Они проводят обучение наших студентов по учебному плану, принятому на территории Республики Узбекистан. Привлечение этих преподавателей не вызывает дополнительных затрат для Вас.
+
+
+И наконец, школа продолжает работу ограниченной программы финансовой помощи для поддержки семей в тяжелой финансовой ситуации.
+
+
+
+Мы верим, что Вы сочтете изменения в сумме оплаты обоснованными и разумными и как обычно, хотим поблагодарить Вас за Вашу неизменную поддержку!
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

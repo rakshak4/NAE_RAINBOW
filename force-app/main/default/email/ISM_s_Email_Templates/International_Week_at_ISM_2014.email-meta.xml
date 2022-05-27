@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>International Week at ISM 2014</name>
+    <style>freeForm</style>
+    <subject>International Week at ISM 2014</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+It’s time to celebrate the rich cultural diversity of our school community. At ISM we are extremely proud of the international nature of our school. To celebrate this and to develop a wider understanding of the global community within which our students live and learn, we are planning an International week at school. This will run from Monday 17h February to Friday 21st February 2014. This year during International week each class will focus on one country that is competing in the Winter Olympics in Sochi. The countries in focus are:
+
+NA- Russia RA- U.S.A
+
+RB- South Korea RC- France
+
+1A- Iceland 1B- Sweden 1C- Czech Republic.
+
+2A- Japan 2B- Austria 2C- Switzerland
+
+3A- Canada 3B- Germany 3C- Norway
+
+If you are from and/or have lived in one of the above countries your support would me much appreciated. If you have any information, books, souvenirs, music, costumes, pamphlets, food and/or flags for any of the above mentioned countries would be much appreciated and welcomed by all. It will make the teaching and learning meaningful and fun!
+
+All parents are invited to school on Friday 21st February at 8.30am – 10.25 am. On this day you and your children are welcome to come to school dressed in your national costume/flag colours/ football t-shirts etc. Also, please bring a plate of a national dish to share with other children and parents in the class. This would give everyone a true taste of being part of an international community. You will be able to participate with your child in completing an activity set out by the teacher and then to sample some of the food. Even if you are unable to come to school the class will appreciate any food that you may be able to offer. Please note that we are a nut free school.
+
+School will finish as normal at 3.20pm.
+
+If you have any questions please feel free to contact me.
+
+We are very grateful for your continued support.
+
+Mr. Chris Charlton
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

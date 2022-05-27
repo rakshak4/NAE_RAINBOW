@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Year 9 Curriculum 2013-14</name>
+    <style>freeForm</style>
+    <subject>Year 9 Curriculum 2013-14</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents of Year 9 Students,
+
+Happy New Year.
+
+We are currently in the process of planning our curriculum for the 2013 – 2014 academic year.
+
+At the centre of this process will be the Year 10 Options Programme. This is the system where students in Year 9 choose a range of subjects that they would like to pursue in Key Stage 4 (Years 10 and 11). This programme will lead to students sitting the externally examined International General Certificates of Secondary Education (IGCSEs) at the end of Year 11. These examinations are highly regarded and universally recognised throughout the world as a passport to enter pre-university education.
+
+It is our intention that current Year 9 students will be able to study all the subjects that they wish to pursue in Years 10 and 11.
+
+In order to explain the options programme process to both you and the students, as well as distributing all necessary documentation, we will be holding an Options Programme Evening in March. I will be writing to you again soon to confirm the precise date, time and venue for this very important meeting.
+
+Yours Sincerely,
+
+Paul Keach.
+
+Head of Secondary School.
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

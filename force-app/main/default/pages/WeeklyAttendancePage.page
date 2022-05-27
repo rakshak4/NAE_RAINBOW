@@ -1,0 +1,227 @@
+<!--
+    Author: Kunal Sharma
+    Created Date: 06 Feb 2013
+    Description: VF page for bulk attendance process. 
+    Audit Date:
+    Audited By: 
+    
+    COMMENTS:
+    
+
+-->
+<apex:page standardController="Group__c" extensions="WeeklyAttendancePageController" sidebar="false" id="mainpage">
+   <!-- styles -->
+   <style>          
+        .table_default{
+            horizontal-align:center;vertical-align:middle;
+            text-align:center;border:solid 1px #000000;width:100%;
+            background-color:white;
+        }
+        .input_text{
+            font-size:1.5em;width:60px;text-align:center;
+        }
+        .header_default{
+            font-family:arial;font-size:1.2em;font-weight:bold;
+        }
+        .header_total{
+            background-color:#D7D7FF;padding-left:5px;
+        }
+        .header_holiday{
+            background-color:#131c2f;
+            color:white;
+        }
+        .header_working{
+            background-color:#EFEFEF;
+        }
+        .header_nonworking{
+            background-color:#6AC880;
+        }
+        .header_leave{
+            background-color:#FAA674;
+        }
+        .span{
+            font-family:arial;font-size:0.8em;
+        }
+        .style_default{
+            font-family:arial;font-size:1.2em;line-height: 10px;padding:3px;
+        }
+   </style>
+   <script>
+    String.prototype.trim = function () {
+            return this.replace(/^\s*/, "").replace(/\s*$/, "");
+        }
+        var current_aDoc ;
+        var current_did;
+        var win;
+         
+        var sfid_prefix_readOnly1 ='groupdetailtabbbed:attendanceinclude:mainpage:form:main_block:rowrepeat:';       
+        var sfid_prefix_readOnly2 =':colrepeat:';
+        var sfid_prefix_readOnly3 =':';
+        function openDescBox1(rowindex, columnIndex){
+           alert(rowindex);
+           alert(columnIndex);  
+        }
+        
+        function openDescBox(rindex,cindex,adoc,evnt,desc12){
+            if(true){
+                var d_id = sfid_prefix_readOnly1 + rindex + sfid_prefix_readOnly2 + cindex + sfid_prefix_readOnly3 + desc12;
+                
+                current_did = d_id;
+                var desc = document.getElementById(d_id).value;
+                current_aDoc = adoc;
+                var w   = screen.availWidth / 2 - 450; 
+                var h   = screen.availHeight / 2 - 320;
+                var editable = '0';
+                win = window.open('/apex/Attendance_Desc?desc='+desc+'&did='+d_id+'&edit='+editable, 'desc_popup', 'width=310,height=200,left='+w+',top='+h+',scrollbars=1 , resizable = no,location=no,fullscreen=no,menubar=no,titlebar=no,toolbar=no');
+                //alert('editable='+editable);
+                //alert('desc='+desc);
+            }
+             
+        }
+        
+        function disableDiv(){
+            //document.getElementById('disable_form').style.display="none";
+        }
+        function setAttendanceDescription(desc){
+            
+            if(desc != null){
+                if(desc.trim() != ''){
+                    //alert('1');
+                    document.getElementById(current_did).value = desc;
+                    //alert('2');
+                    
+                    current_aDoc.style.color  =  "#ff9a00";
+                    //alert('3');
+                }else{
+                    document.getElementById(current_did).value = '';
+                    current_aDoc.style.color  =  "#131c2f";
+                                        
+                } 
+            }
+            if(win.closed){
+                window.focus();
+            }
+            
+        }
+      
+  </script>
+  
+   <apex:form id="form">
+   <!-- <apex:pageBlock id="main_block" title="{!groupObj.Name} Attendance">  -->
+   <apex:pageBlock id="main_block">
+   		<apex:pageMessages id="message"/>
+  		<apex:actionStatus startText=" (saving attendance ...)" stopText="" id="saveStatus"/> 
+        <apex:pageBlockButtons >
+            <apex:commandButton value="Save Attendance" action="{!performSave}" reRender="main_block" status="saveStatus"/>
+            <apex:commandButton value="Refresh List" action="{!reset}"/> 
+            <!--  <apex:commandButton value="Back To Group" action="{!back}"/> --> 
+            <!-- <input type="button" class="btn" value="Attendance Analysis" onClick="window.open('/{!groupAttendanceReportId}?pv0={!groupObj.Name}&isdtp=nv','name','height=700,width=900');return false;"/> -->
+            
+        </apex:pageBlockButtons>
+        
+        <table class="table_default" id="main_table" cellpadding="2px" cellspacing="10px">
+            <tr>
+                <th class="header_holiday">
+                    <span class="header_default"><center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Student&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</center></span>
+                </th> 
+                <apex:repeat value="{!colHeaders}" var="header" id="col_repeat">
+                    <th class="{!IF(header.isToday,'header_holiday','header_working')}">
+                        <center> 
+                            <span class="header_default">{!header.day}</span><BR/><span style="font-size:1.0em" class="header_default">{!header.dateString}</span>
+                            <!--<BR/><BR/>
+                             
+                            <apex:outputPanel layout="block" rendered="{!header.isToday}">
+                                <apex:commandLink style="color:white;font-size:0.8em;" value="Add Session" action="{!populateSecRow}">
+                                    <apex:param name="rindex" value="{!header.index}"/>
+                                </apex:commandLink> <b>|</b>&nbsp; 
+                                <apex:commandLink style="color:white;font-size:0.8em;" value="Remove Session" action="{!unpopulateSecRow}">
+                                    <apex:param name="rindex" value="{!header.index}"/>
+                                </apex:commandLink>&nbsp;
+                                
+                            </apex:outputPanel> -->
+                            <BR/>
+                        </center>
+                    </th> 
+                </apex:repeat>
+                <apex:repeat id="rowrepeat" value="{!rowList}" var="row">
+                    <tr>                        
+                        <td class="header_holiday">
+                            <center><br/><span class="header_default" style="font-size:1.1em;color:white;">{!row.studentName}</span></center>
+                        </td>
+                        <apex:repeat id="colrepeat" value="{!row.attendanceList}" var="attendance">
+                            <td align="center"  class="{!IF(attendance.firstAttendance.isToday,'header_holiday','header_working')}">
+                                    <table>
+                                        <tr class="{!IF(attendance.firstAttendance.isToday,'header_holiday','header_working')}">
+                                            <td>
+                                                <apex:selectList value="{!attendance.firstAttendance.attendanceEvent.Subject}" multiselect="false" size="1">
+                                                    <apex:selectOptions value="{!attendanceTypes}"/>
+                                                </apex:selectList> 
+                                                <!-- <apex:inputCheckBox style="font-size:1.2em;" value="{!attendance.firstAttendance.isPresent}"/> <span style="font-size:1.2em;">(P)</span>  -->
+                                            </td>
+                                            <!-- <td> 
+                                                <apex:inputCheckBox value="{!attendance.firstAttendance.isLate}"/><span style="font-size:1.2em;">(L)</span>
+                                            </td>  -->
+                                            <td align="center">
+                                                <apex:inputHidden id="desc1" value="{!attendance.firstAttendance.attendanceEvent.Description}"/>
+                                                <!-- <img style="cursor:hand;cursor:pointer" src="{!IF(attendance.firstAttendance.attendanceEvent.Description == null,$Resource.RedDot,$Resource.GreenDot)}" onclick="javascript:openDescBox({!row.index},{!attendance.index},this,event,'desc1')"/> -->
+                                                <button style="background-color:white;color:{!IF(attendance.firstAttendance.attendanceEvent.Description == null,'#131c2f','#ff9a00')};"  onclick="javascript:openDescBox({!row.index},{!attendance.index},this,event,'desc1');return false;">comment</button>
+                                            </td>
+                                        </tr> 
+                                        <apex:outputPanel id="panel" layout="block" rendered="{!IF(attendance.secondAttendance == null, false, true)}">
+                                            <tr class="{!IF(attendance.secondAttendance.isToday,'header_holiday','header_working')}">
+                                                <td> 
+                                                    <!--  <apex:inputCheckBox style="font-size:1.2em;" value="{!attendance.secondAttendance.isPresent}"/> <span style="font-size:1.2em;">(P)</span>  -->
+                                                    <apex:selectList value="{!attendance.secondAttendance.attendanceEvent.Subject}" multiselect="false" size="1">
+                                                        <apex:selectOptions value="{!attendanceTypes}"/>
+                                                    </apex:selectList> 
+                                                </td>
+                                                <!-- <td> 
+                                                    <apex:inputCheckBox value="{!attendance.secondAttendance.isLate}"/><span style="font-size:1.2em;">(L)</span>
+                                                </td>  -->
+                                                <td align="center">
+                                                    <apex:inputHidden id="desc2" value="{!attendance.secondAttendance.attendanceEvent.Description}"/>
+                                                    <!--  <img style="cursor:hand;cursor:pointer" src="{!IF(attendance.secondAttendance.attendanceEvent.Description == null,$Resource.RedDot,$Resource.GreenDot)}" onclick="javascript:openDescBox({!row.index},{!attendance.index},this,event,'desc2')"/> -->
+                                                    <button style="background-color:white;color:{!IF(attendance.secondAttendance.attendanceEvent.Description == null,'#131c2f','#ff9a00')};"  onclick="javascript:openDescBox({!row.index},{!attendance.index},this,event,'desc2');return false;">comment</button> 
+                                                </td>
+                                            </tr>
+                                        </apex:outputPanel>
+                                    </table>
+                            </td>
+                        </apex:repeat>
+                    </tr>   
+                </apex:repeat>
+                    
+                
+            </tr>
+        </table>
+        <table class="table_default" id="navigation" cellpadding="2px" cellspacing="10px">
+            <tr>
+                <td align="right">
+                    <div class="paginator" style="text-align:right;">
+                       <span class="prevNextLinks">
+                                <span class="prevNext">
+                                    <apex:commandLink immediate="true" action="{!previousWeek}" rendered="{!hasPreviousWeek}">
+                                        <img src="/s.gif" class="prev"/>Previous Week
+                                    </apex:commandLink>
+                                </span>
+                                
+                                <span class="prevNext">
+                                    <apex:commandLink immediate="true" action="{!currentWeek}">
+                                        Current Week
+                                    </apex:commandLink>
+                                </span>
+                                
+                                <span class="prevNext">
+                                    <apex:commandLink immediate="true" action="{!nextWeek}">
+                                        Next Week<img src="/s.gif" class="next"/>
+                                    </apex:commandLink>
+                                </span>
+                        </span>
+                    </div>
+                    <apex:actionStatus id="loadingstatus" startText="  (Processing....)" />
+                </td>
+            </tr>
+        </table> 
+    </apex:pageBlock>
+    </apex:form>    
+</apex:page>

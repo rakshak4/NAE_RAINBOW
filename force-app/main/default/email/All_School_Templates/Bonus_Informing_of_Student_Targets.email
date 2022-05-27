@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+<p align="center" style=text-align: center;font-family:arial,helvetica,sans-serif;color:#182a4c;> <img width="120px" height="127px"  alt="Payslip" src="https://c.ap4.content.force.com/servlet/servlet.ImageServer?id=0156F00000F0E28&oid=00D6F000001cXAR" /></p>
+</br>
+</br>
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 700px; ">
+			<tbody>
+				<tr>
+					<td>
+						<p style="text-align: left; ">
+							<b><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:12px;">Staff Member:&nbsp;</span></span></b><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:12px;">{!Account.FirstName} &nbsp;{!Account.LastName}</span></span><br />
+							<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;"><strong>Position:</strong>&nbsp;{!Employment_Agreement__c.Position_in_Contract__c}</span></span><br />
+							<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;"><strong>Date:&nbsp;</strong>{!Employment_Agreement__c.Contract_Text_Today__c}</span></span></p>
+						<p style="text-align: justify; ">
+							<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">Dear&nbsp;{!Account.FirstName},</span></span></p>
+						<p style="text-align: justify; ">
+							<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">Find below the table that will determine your performance bonus for academic year  {!Employment_Agreement__c.Copy_Bonus_Academic_Year__c}. This bonus is payable on the {!Employment_Agreement__c.Copy_Bonus_Date_Payable__c} based on the students enrolled as of {!Employment_Agreement__c.Copy_Bonus_Criteria_Date__c}{!Employment_Agreement__c.Bonus_Letter_Text_Year_Groups__c}{!Employment_Agreement__c.Bonus_Letter_Text_Bursaries__c}{!Employment_Agreement__c.Copy_Bonus_Special_Criteria__c}</span></span></p>
+						<p style="text-align: justify; ">
+							<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">The table shows the percentage by which your agreed bonus amount of&nbsp;{!Employment_Agreement__c.Copy_Bonus_Seperator__c}&nbsp;{!Employment_Agreement__c.CurrencyIsoCode}&nbsp; {!Employment_Agreement__c.00ND0000004kAUS}&nbsp; will be multiplied, depending on the number of students enrolled.</span></span></p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+</br>
+		<table align="center" border="1" cellpadding="0" cellspacing="0" style="width: 250px; ">
+			<tbody>
+				<tr>
+					<td style="background-color:#A0DAE5; text-align: center; width:125px">
+						<span style="color:#000000;"><span style="font-size:10px;"><span style="font-family:arial,helvetica,sans-serif;"><font class="Apple-style-span"><b>Student Numbers</b></font></span></span></span></td>
+					<td style="background-color:#A0DAE5; text-align: center;width:125px ">
+						<span style="color:#000000;"><span style="font-size:10px;"><span style="font-family:arial,helvetica,sans-serif;"><font class="Apple-style-span"><b>% Multiplier</b></font></span></span></span></td>
+				</tr>
+				<tr>
+					<td style="text-align: center; ">
+						<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">{!Employment_Agreement__c.Copy_Bonus_Student_Numbers_Text__c}</span></span></td>
+					<td style="text-align: center; ">
+						<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">{!Employment_Agreement__c.Copy_Bonus_Text__c}</td>
+				</tr>
+			</tbody>
+		</table>
+		<br />
+		<br />
+		<table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 700px; ">
+			<tbody>
+				<tr>
+					<td>
+						<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">{!Employment_Agreement__c.Bonus_Letter_Text_addition_Objectives__c}</span></span></td>
+				</tr>
+			</tbody>
+		</table>
+	
+	</body>
+</html>

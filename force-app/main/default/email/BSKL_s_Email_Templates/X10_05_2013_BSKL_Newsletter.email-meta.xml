@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>10/05/2013 Recycling Week</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>10/05/2013 Recycling Week</name>
+    <style>freeForm</style>
+    <subject>Recycling Week</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+In conjunction with Recycling Week from 13 to 17 May, some activities to support the event will also be running during the week.
+
+From Monday to Friday, there will be a special promotion to encourage recycling of newspapers. For every 3 kg of old newspapers that you bring in, you will be able to get a free 3 month subscription to The Malay Mail. A table will be set up in the reception area for you to drop off your old newspapers which will be weighed and collected by a Malay Mail representative
+
+Also happening on Tuesday is a paper making demonstration by Mr Andrew Boothman, a parent in the school.  This will take place at the canteen area from 11am to 1pm.
+
+On Thursday and Friday a vendor called Earth Again will be selling some of their eco friendly products. You can buy these and more on Thursday and Friday from their table set up in the reception area.
+
+Kind regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

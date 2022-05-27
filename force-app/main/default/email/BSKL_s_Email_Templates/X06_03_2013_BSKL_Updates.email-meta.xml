@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>06/03/2013 BSKL - Updates</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>06/03/2013 BSKL - Updates</name>
+    <style>freeForm</style>
+    <subject>BSKL - Updates</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please follow the link below for a letter from our Headteacher, Mrs. Janet Brock regarding updates at BSKL.
+
+Headteacher Letter
+
+Wishing you all a great evening.
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

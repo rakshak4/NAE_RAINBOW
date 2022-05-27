@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>25/04/2013 Parent SATs Workshop</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>25/04/2013 Parent SATs Workshop</name>
+    <style>freeForm</style>
+    <subject>Parent SATs Workshop</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Thank you for attending the recent SAT&apos;s Workshop for Parents held at BSKL.
+
+Parents got the chance to look at samples of the new Spelling and Grammar papers and past Mathematics papers and had the opportunity to ask questions to Mr Lambros, Mr Hickman and myself about how the children&apos;s time is spent in class preparing for these papers. Parents were given tips and advice about revision and how to support their children at home in the run up to the tests. 
+
+It proved to be a hugely popular and informative session for parents.  Feedback so far has been very positive from many who attended and I have received a number of requests for further information from others.
+
+Please find on the following link ( https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004Qe1/QP3UKL04WW6ORn1doevbrlI8D9lIvh2jtsgslgOW17k= ) a copy of the latest sample papers and marking scheme for the new Spelling and Grammar papers and a copies of the Powerpoint presentation used and BSKL Tips sheet for you to read through. 
+
+Best regards
+ 
+David Kirkham
+Head of Middle School
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Welcoe email to PN1-Y1 parents from David</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Welcome Letter to PN1-Y1 Parents</name>
+    <style>freeForm</style>
+    <subject>Welcome letter to parents.</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Dear parents,
+
+
+
+(Please ignore previous email  about Welcome picnic, it  was sent to you by accident)
+
+
+
+It has been a very successful start to the new term and I have been delighted to welcome so many of you back for the beginning of what will be an exciting new year. I would also like to take this opportunity to welcome officially all our new families.
+
+
+Settling in at the beginning of the new year is always difficult for some children but the staff here are experienced enough to deal with any issues quickly and sensitively, so please do not be to alarmed if your child is taking a little longer to settle in.
+
+
+To assist in this process I have asked teachers to use the time between finishing at 3:15 pm and 3:30 pm to talk with the children as a class and put in place structured end of day routines for the children. This will ensure they will not lose out on important learning time. It can be unsettling for children at the end of the day if parents come into the classroom before the class have been dismissed properly and can lengthen the settling in process, causing further distress in some cases. Therefore I would ask for you to wait until your child has been safely handed over to you by the teacher or teaching assistant at the end of the day.
+
+
+
+Best regards,
+
+
+
+David Kirkham
+
+Headmaaster
+
+
+Уважаемые родители,
+
+
+
+(Приносим извинения за письмо о пикнике, высланное по ошибке)
+
+
+
+Мы замечательно начали триместр. Я поздравляю вас с началом учебного года, который обещает стать незабываемым. Мне так же хотелось бы воспользоваться этой возможностью, чтобы официально поприветствовать новых учеников нашей школы и их родителей.
+
+Начало учебного года для некоторых учеников часто кажется тяжелым, но в нашей школе достаточно квалифицированный штат, чтобы помочь ребенку справиться с подобными трудностями. Не переживайте, если некоторым детям на это понадобится немного больше времени.
+
+Чтобы этот процесс прошел с максимальным комфортом для наших учеников я попросил учителей в конце каждого дня уделять пятнадцать минут (с 15:15 до 15:30) на укрепление командного духа в классе, и такое общение в конце дня стало бы для них ежедневной привычкой. Данная мера поможет избежать траты времени на адаптацию во время учебного процесса, который так важен для детей. Появление родителей в классе до полного завершения учебного дня может свести на нет наши усилия, замедлить процесс адаптации, а в некоторых случаях даже привести к дальнейшему стрессу у ребенка. Вот почему я хотел бы попросить вас в конце школьного дня не заходить за детьми в класс, а дождаться, когда преподаватель или ассистент спустятся с вашими детьми вниз.
+
+
+
+С наилучшими пожеланиями,
+
+
+
+Дэвид Киркхам
+
+Академический директор
+
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

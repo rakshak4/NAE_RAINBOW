@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>NAIS Manila School Fair is here! Summer Splash 2019 | Sat, 25 May | 10AM to 7PM</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NAE_Branding_Letterhead_KSM_NAISM</letterhead>
+    <name>NAIS Manila School Fair is here! Summer Splash 2019 | Sat, 25 May | 10AM to 7PM</name>
+    <style>freeForm</style>
+    <subject>NAISM Mass Email Template</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,368 @@
+<apex:page controller="spImages.ImageCaptureAdminCtrl">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<apex:includeScript value="{!URLFOR($Resource.spImages__ImageCaptureResources, 'js/angular.min.js')}"/>
+<style type="text/css">
+	
+	.wrapper {
+		padding: 15px;
+		font-size: 14px;
+		line-height: 18px;
+		opacity: 0;
+		-webkit-transition: opacity 0.5s linear;
+		transition: opacity 0.5s linear;
+	}
+	
+	
+	
+	.wrapper.shown {  
+		opacity: 1;
+	}
+	
+	.wrapper [disabled] {
+		pointer-events: none;
+		opacity: 0.2;
+	}
+
+	.wrapper p,
+	.wrapper ul,
+	.wrapper ol,
+	.wrapper table {
+		font-size: 14px;
+		line-height: 18px;
+		margin: 0 0 15px;
+	}	
+	
+	.wrapper a {		
+		text-decoration: underline;
+		color: rgb(0, 133, 255);
+		cursor: pointer;
+	}
+	
+	.wrapper h1,
+	.wrapper h2 {
+		display: block;
+	}
+	
+	.wrapper h1 {
+		font-size: 24px;
+		line-height: 26px;
+		margin: 0 0 15px;
+	}
+	
+	.wrapper h2 {
+		font-size: 18px;
+		line-height: 22px;		
+		margin: 0 0 10px;
+	}
+	
+	.wrapper .text-small {
+		font-size: 10px;
+	}
+	
+	.wrapper .text-center {
+		text-align: center;
+	}
+	
+	.wrapper .text-super {
+		vertical-align: super;
+	}
+
+	.wrapper .container {
+		position: relative;
+		border: 1px solid #e5e5e5;
+		border-radius: 6px;
+		padding: 15px;
+		margin: 0 0 15px;
+	}
+	
+	.wrapper .header {
+		padding-left: 100px;
+	}
+	
+	.wrapper .logo {
+		position: absolute;
+		top: 15px;
+		left: 15px;
+	}
+		
+	.wrapper table {
+		border-collapse: collapse;
+		width: 100%;
+		margin: 0;
+	}
+	
+	.wrapper table th {
+		text-align: left;
+		font-weight: bold;
+		background: #FAE6F0;
+	}
+	
+	.wrapper table tr:hover {
+		background-color: rgb(242, 242, 255);
+	}
+	 
+	.wrapper table th, 
+	.wrapper table td {
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		border: 1px solid rgb(205, 212, 214);
+		padding: 6px 10px;
+	}
+	
+	.wrapper table tbody {
+		overflow-y: scroll;
+	}
+	
+	.wrapper .ctrl-label {
+		margin-right: 3px;
+		width: 77px;
+		color: rgb(59, 67, 73);
+		font-size: 14px;
+		font-weight: normal;
+	}
+	
+	.wrapper .input-filter:focus {
+		border-color: rgba(82, 168, 236, 0.8);
+		outline: 0;
+		outline: thin dotted 9;
+		-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+		-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+		box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+	}
+	
+	.wrapper .input-filter {
+		border: 1px solid #cccccc;
+		-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+		-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+		box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+		-webkit-transition: border linear .2s, box-shadow linear .2s;
+		transition: border linear .2s, box-shadow linear .2s;
+		-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+		border-radius: 20px;
+		height: 20px;
+		padding: 4px 10px;
+		color: #555555;
+		width: 210px;
+		
+	}
+	
+	.wrapper .ctrl-group {
+		margin-bottom: 15px;
+	}
+	
+	.wrapper .ctrl-group .ctrl-label {
+		padding-top: 5px;
+	}
+	
+	.wrapper .hide {
+		display: none;
+	}
+	
+	#message-div {
+		display: none;
+		padding: 15px;
+		margin-bottom: 15px;
+		border: 1px solid #e5e5e5;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+	}
+	
+	#message-div.error {
+		background-color: #f2dede;
+		border-color: #eed3d7;
+		color: #b94a48;
+	}
+	
+	#message-div.info {
+		background-color: #d9edf7;
+		border-color: #bce8f1;
+		color: rgb(6, 128, 189);
+	}
+	
+	.wrapper kbd {
+		padding: 0 3px;
+		border: 1px solid #FFB2B2;
+		background-color: #FFF0F0;
+		color: #E65C5C;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+	}
+	
+	.wrapper .working {
+		display: inline-block;				
+		margin-right: 5px;
+		color: gray;
+		font-weight: bold;
+		-webkit-animation: spin 0.5s infinite linear;
+		animation: spin 0.5s infinite linear;
+		color: #000;
+		font-size: 18px;
+	}
+	
+	.wrapper .working::before {
+		content: "&#x21bb;";
+	}
+	
+	@-webkit-keyframes spin {
+    	from { -webkit-transform: rotate(0deg); }
+   		to { -webkit-transform: rotate(360deg); }
+	}
+	
+	@keyframes spin {
+    	from { transform: rotate(0deg); }
+    	to { transform: rotate(360deg); }
+	}	
+	
+</style>
+
+<div ng-app="ImageCaptureAdmin" ng-controller="home.ctrl" class="wrapper"
+	ng-class="{'shown': done}">
+	<div class="container header">
+		<a class="logo text-center" target="_blank"
+			href="https://appexchange.salesforce.com/listingDetail?listingId=a0N30000009v5y3EAA">
+			<img src="{! URLFOR($Resource.ImageCaptureResources,'images/spImages-pro-logo.png') }"
+				/><br/>View more
+		</a>		
+			
+	    <h1>spImages<span class="text-small text-super">&reg;</span> Administration</h1>
+	    
+	    <p class="sub-title">
+		    In this page an administrator can enable the spImages features for specific 
+		    Salesforce objects. Enabling those features will create a section wherein 
+		    users will be able to manage all images attached to records. The section must 
+		    be added to the layout of each object.
+	    </p>
+
+		<p>
+			The instructions for enabling the features are as follows:
+		</p>
+		
+		<ol>
+			<li>Lookup for the object to enable spImages on.</li>
+			<li>Click on "Enable spImages".</li>
+			<li>
+				Make sure the two corresponding pages are successfully generated: 
+				<kbd>&lt;ObjectCaptureSectionPro&gt;</kbd> and <kbd>&lt;ObjectCaptureSectionOnePro&gt;</kbd>
+			</li>
+			<li>
+				Create an object-specific Custom Action and link it to the <kbd>&lt;ObjectCaptureSectionOnePro&gt;</kbd> page. 
+				Learn more <a target="_blank" href="https://help.salesforce.com/apex/HTViewHelpDoc?id=creating_object_specific_actions.htm&language=en_US">here. </a>
+			</li>
+			<li>Edit the layout(s) to drag-and-drop the <kbd>&lt;ObjectCaptureSectionPro&gt;</kbd>.</li>
+			<li>
+				Edit the layout(s) to drag -and-drop the Custom Action created in the <kbd>&lt;step 4&gt;</kbd> custom Action. 
+				Learn more <a target="_blank" href="https://help.salesforce.com/apex/HTViewHelpDoc?id=actionbar_overview.htm&language=en_US">here. </a>
+			</li>
+		</ol>
+	</div>
+
+	<div class="container">
+		<div class="ctrl-group">
+		   	<input ng-model="search" class="input-filter" type="text"
+		   		placeholder="Find Object.."></input>		   		
+		</div>
+		
+		<div id="message-div">
+		</div>
+		
+      	<table id="objs-table" class="table-objects">
+      		<thead>      		
+        	<tr>
+	            <th>Object Name</th>
+	            <th>API Name</th>
+	            <th>Page Name</th>
+	            <th>Object Type</th>
+			</tr>
+      		</thead>
+      		<tbody>
+			<tr ng-repeat="obj in objects | filter:search ">
+	            <td>{{obj.Label}}</td>
+	            <td>{{obj.Api}}</td>
+	            <td>
+	            	<span class="working" ng-if="obj.isBusy"></span>
+	            
+                    <span class="" ng-if="obj.DinamicPage" 
+                    	ng-bind="obj.DinamicPage"></span>
+                    	
+					<a class="create-link" 
+						href="javascript:void(0)"
+						ng-disabled="obj.isBusy" 
+						ng-if="obj.DinamicPage == ''" 
+						ng-attr-title="Create {{obj.FutureDinamicPage}}"  
+						ng-click="generatePage(obj);">
+						Enable spImages
+					</a>
+	            </td>
+	            <td>{{obj.Type}}</td>
+			</tr>
+			</tbody>
+		</table>
+	</div>	
+</div>
+<script type="text/javascript">		 
+	angular.module('ImageCaptureAdmin', []);			
+	
+	var home = {			
+		scope:	null,
+		ctrl: function($scope) {
+			$scope.objects = JSON.parse("{! JSENCODE(JSON_Admin) }");
+			home.scope = $scope;		
+
+			$scope.$watch('search', function (n, o) {
+				if (n != o) 
+					$('#message-div').slideUp();
+			}, true);		
+			
+			$scope.generatePage = function(obj) {							
+				$('#message-div').slideUp();
+				obj.isBusy = true;
+				Visualforce.remoting.Manager.invokeAction(
+	               "{!$RemoteAction.ImageCaptureAdminCtrl.generatePage}", 
+	               obj.Api,
+	               obj.FutureDinamicPage,
+	               function(result, event) {		                   	
+	                   	if (!result || result.Status != 'OK')
+	                   		util.showMessage('error', 
+	                   			'<h2>Error</h2>' + 
+	                   			((result || {}).Message || event.message), false);
+						else {
+							util.showMessage('info', 
+								'<h2>Success</h2>' + 
+								'<kbd>&lt;' + obj.FutureDinamicPage + 
+								'&gt;</kbd> and <kbd>&lt;' + 
+								obj.FutureDinamicPage + 
+								'One&gt;</kbd> were successfully generated and they are ready to use.', 
+								true);
+							obj.DinamicPage = obj.FutureDinamicPage;
+	                   	}		                   	
+	                   	
+	                   	obj.isBusy = false;
+						$scope.$apply();
+	               }, 
+	               {escape: false}
+	            );
+			}
+			
+			$scope.done = true;
+		}	
+	};			
+	
+	var util = {			
+		showMessage: function(type, msg, autoHide) {													
+			var div = $('#message-div');
+			div.html(msg).removeAttr('class').addClass(type).slideDown();
+																
+			if (autoHide)
+				setTimeout(function() {
+				     div.slideUp();
+				}, 10000);
+					
+		}			
+	}			
+	
+</script>
+</apex:page>

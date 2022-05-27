@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>08/05/2013 Year 6 activities week</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>08/05/2013 Year 6 activities week</name>
+    <style>freeForm</style>
+    <subject>Year 6 activities week</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+For children not going on the Cambodia Trip
+
+Mr Lambros and Mr Hickman are currently planning an action-packed activities week in mid June for those Year 6 children not going to Cambodia and staying in school. A brief outline of the week’s events is attached for your information.
+
+It would be enormously helpful to know if you intend on sending your child into school that week to enable us to determine numbers so we can plan in detail for the various activities. Throughout the week there will be on-going project work for the children based on a trip to Frim, as well as work with the Zo Learning Centre (Kepong) for refugee children from Myanmar. An outline of the week&apos;s events is below.
+
+Please could you therefore reply to this email, indicating in the table below with a (YES or NO) the days your child will be in school that week.
+
+Monday 17th
+
+Tuesday 18th
+
+Wednesday 19th
+
+Thursday 20th
+
+Friday 21st
+
+Introduction to French
+
+Project work (Frim)
+
+Football tournament
+
+Zo Learning Centre - Kepong
+
+Working with refugee children in their classroom &amp; re-decorating their dormitory.
+
+Project work.
+
+Trip to Frim – Nature walk, canopy Walk, picnic at waterfall.
+
+Visit of Myanmar refugees from Zo Learning Centre to BSKL – musical and sporting activities.
+
+Project work.
+
+Swim at The Club
+
+Project work and presentations for best project.
+
+Film.
+
+Yes/No
+
+Yes/No
+
+Yes/No
+
+Yes/No
+
+Yes/No
+
+Name of child:
+
+Child&apos;s name here..
+
+Class:
+
+6A / 6B
+
+
+Further details of the week will be forwarded to you in due course.
+
+Please reply to: tom.hickman@britishschool.edu.my by this Friday, 10th May.
+
+With kind regards
+Tom Hickman
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

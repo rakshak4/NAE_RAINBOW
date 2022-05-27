@@ -1,0 +1,57 @@
+<messaging:emailTemplate subject="{!RelatedTo.Related_School__r.School_Full_Name__c} - Thank you for your enquiry / Спасибо за вашу заявку" recipientType="Lead" relatedToType="Lead">
+<messaging:HtmlEmailBody >
+
+ 
+
+ 
+
+*** This is an automatically generated email ***<br/><br/>
+
+ 
+
+Thank you for your enquiry about joining our school. We’ll be in touch {!RelatedTo.Related_School__r.Response_Period__c} to answer your questions and tell you more about our school. If you have requested a visit, we will try our best to accommodate your preferred date and time. Our admissions team will be in touch to confirm the details.<br/><br/>
+
+We’re looking forward to speaking to you soon and getting to know your family!<br/><br/>
+
+In the meantime, find out <a href="{!RelatedTo.Related_School__r.What_s_Happening_Link__c}">what’s happening</a> on campus.<br/><br/>
+
+ 
+
+
+Warmest regards,
+
+<br/><br/>
+
+{!RelatedTo.Related_School__r.School_Full_Name__c} Admissions team
+
+<br/><br/>
+
+Click <a href="{!RelatedTo.Related_School__r.Contact_Details_Link__c}">here</a> for contact details<br/><br/><br/>
+
+
+
+*** Это автоматически сгенерированое электронное письмо ***<br/><br/>
+
+ 
+
+Благодарим Вас за проявленный интерес к нашей школе. Мы свяжемся с Вами в течение очень скоро, чтобы ответить на Ваши вопросы и рассказать больше о нашей школе. Если Вы дали запрос на посещение нашей школы, мы сделаем всё возможное, чтобы оно состоялось в выбранное Вами время. Наша приёмная комиссия свяжется с Вами для обсуждения деталей.<br/><br/>
+
+Мы с нетерпением ждём возможности пообщаться с Вами и познакомиться с вашей семьёй!<br/><br/>
+
+Тем временем, вы можете <a href="http://www.nordangliaeducation.com/ru/our-schools/uzbekistan/tashkent/british/news-and-insights">узнать, что происходит в школе</a>.<br/><br/>
+
+ 
+
+С наилучшими пожеланиями,
+
+<br/><br/>
+
+Приёмная комиссия Британской школы города Ташкента.
+
+<br/><br/>
+
+Пройдите по ссылке <a href="http://www.nordangliaeducation.com/ru/our-schools/uzbekistan/tashkent/british/contact-us/contact-information">здесь</a>, чтобы получить контактную информацию.
+
+</messaging:HtmlEmailBody>
+
+</messaging:emailTemplate>

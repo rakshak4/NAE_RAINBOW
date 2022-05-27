@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>12/12/12 Middle School ASA update</name>
+    <style>freeForm</style>
+    <subject>Middle School ASA update</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please follow the below link for the middle school ASA information booklet:
+
+Middle School ASA Booklet
+
+There have been some additional clubs added from the music department. Also note that if your child enrols in any ASA’s on Monday, Wednesday and Friday you will need to arrange transport for your children to be picked up as school buses will not be available. Transport will also need to be arranged for swimming after school which takes place at the club. Just a reminder that on the ASA form you can only submit one ASA selection at a time.
+
+The online registration form will be sent to you on Friday 14th December and the deadline for submissions will be 21st December.
+
+Kind regards,
+
+Harrie Thomson
+Head of Physical Education
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

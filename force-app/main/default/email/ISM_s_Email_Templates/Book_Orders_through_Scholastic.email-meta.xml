@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Book Orders through Scholastic</name>
+    <style>freeForm</style>
+    <subject>Book Orders through Scholastic</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+
+Please be aware that this coming Friday, 17th May is the deadline for ordering schoolbooks through Scholastic. This offers a much simpler method of payment and delivery than with our previous supplier, Baker Books.
+
+
+To order books please follow this link, http://eu.clubs-school.scholastic.co.uk/international-schl-of-moscow and pay online. These books will then be delivered to the school and we will forward them to you – with no postage costs for you!
+
+
+Please remember not to bring any cash or order forms to the school. All orders must be done online.
+
+
+Thank you for any orders already placed. Remember that all orders help generate free books for the school.
+
+
+Kind Regards,
+
+
+Sam Davis
+
+Upper Campus Librarian
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

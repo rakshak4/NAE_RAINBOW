@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Guangzhou Youth Basketball League</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Guangzhou Youth Basketball League</name>
+    <style>freeForm</style>
+    <subject>Guangzhou Youth Basketball League</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+&lt;?xml:namespace prefix = o /&gt;Dear Parents,
+
+
+Our friends from the volunteer run and popular Guangzhou Youth Basketball League (GYBL) would like you to be aware that registration for this year&apos;s competition will be held next Saturday, 30th November at Utahloy International School from 9am to 12noon.
+
+
+If you would like to register, please CLICK HERE for further details and HERE for a registration form.
+
+
+Best wishes,
+
+
+Administration Team
+
+
+The British School of Guangzhou
+
+
+
+World Class Education
+
+_____________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

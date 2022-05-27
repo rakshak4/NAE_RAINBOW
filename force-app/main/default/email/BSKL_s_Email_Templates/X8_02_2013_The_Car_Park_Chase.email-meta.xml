@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>8/02/2013 The Car Park Chase</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>8/02/2013 The Car Park Chase</name>
+    <style>freeForm</style>
+    <subject>The Car Park Chase</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+BSKL Fun Run 2013, &apos;The Car Park Chase&apos;.
+
+Entry forms are available at the school reception and must be returned, with the entry fee, to the box, also in reception, by Friday 15 February.
+
+It&apos;s time to have some fun with your fitness and raise some money for charity.  The craze of vertical running has come to BSKL, from B3 all the way up the car ramps to the main door AND, back down again!  How fast can you do it?
+
+We don&apos;t just need runners though, we also need volunteers to help on race day, please read on.
+
+Put the date in your diary:
+
+Sunday March 10
+10am start, (registration from 9am - 9.30am)
+
+There are two categories of racing, Individual and Team, and you can enter both.
+
+The Individual Race is open to all pupils from Year 1 to Year 8, to BSKL parents and teachers.
+The Team Race is open to all pupils from Year 1 to Year 8, to BSKL parents and teachers.
+
+
+INDIVIDUAL RACE:  Runners will race from B3 up the car ramps to the roundabout at the main door and run back down again.  Runners will be racing in groups of 8-10 runners to ease congestion.
+
+TEAM RACE:  Teams should consist of 3 runners, each runner will run up one level of the car park, tag their team member and when the time comes, run back down again.
+
+The three runners should come from the same band of Year Groups, see below:
+
+Band A: Years 1 and 2
+Band B: Years 3 and 4
+Band C: Years 5 and 6
+Band D: Years 7 and 8
+Band E: Parents and Teachers
+
+
+ENTRANCE FEE: Individual Race: 20 MR per adult, 10 MR per child.
+Team Race: 50 MR per Band E Team, 30 MR for all other teams.
+
+Proceeds from the race will go to the BSKL EFC Charities.
+
+There will be prizes for the first three runners in each Year Group Band and in the individual race.
+
+All runners who finish will receive a medal and goodie bag!
+
+To have a successful race day we need volunteers.  We need mums and dads and teachers willing to be Timekeepers and also, to help marshal the race, and point runners in the right direction, to ensure it is a success.  Volunteers will receive a special t-shirt as we all know, you can&apos;t run a race with runners alone!
+
+Registration Form
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

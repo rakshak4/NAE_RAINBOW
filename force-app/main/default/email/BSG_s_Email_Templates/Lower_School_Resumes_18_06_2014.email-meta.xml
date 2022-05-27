@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Lower School Resumes 18/06/2014</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Lower School Resumes 18/06/2014</name>
+    <style>freeForm</style>
+    <subject>Lower School Resumes 19/06/2014</subject>
+    <textOnly>The British School
+of Guangzhou
+
+Dear Lower School Parents,
+
+
+
+
+
+
+
+
+I am pleased to inform you that the air conditioning and electricity supply have now been fully reinstated on the Lower School campus. School and the school bus service will resume as normal tomorrow (Thursday 19th June).
+I would like to take this opportunity to thank you for your understanding on this matter and the supportive emails we have received. This was obviously an unforeseen incident and I would like to personally apologise for any inconvenience caused. Teachers have been in school today preparing extra work over the next two days to cover any lessons lost through today’s closure. Please be prepared for extremely tired children returning home on Friday!
+Thank you again for your understanding and continued support.
+Kind regards,
+Miss Kathy
+Head of Lower School
+The British School of Guangzhou
+
+
+
+
+
+World Class Education
+
+
+____________________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

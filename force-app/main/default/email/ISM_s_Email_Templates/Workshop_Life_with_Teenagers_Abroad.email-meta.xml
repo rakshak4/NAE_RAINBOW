@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Workshop - Life with Teenagers Abroad</name>
+    <style>freeForm</style>
+    <subject>Workshop, Friday 22nd November - Life with Teenagers Abroad</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear Parents,
+On Friday 22nd November, there will be a special seminar for ISM Parents run by Claire Geddes (9.45 - 11.30)
+
+The topic is &apos; Life with Teenagers Abroad&apos;.
+
+The teenage years can be difficult - both for the child and the parents and the expat teenager has even more challenges to face.
+This workshop will look at the following topics:
+
+Challenges facing teenagers abroad
+Managing independence in a different country
+Friendships and family relationships
+School, exams and the future
+Links with the past
+
+The Seminar is especially interesting for parents of children in Year 7 and above.
+
+The Seminar officially starts at 9.45 am on Friday 22nd November although there will be coffee available for attendees in the Upper Campus Canteen after drop off.
+Please click here to download the flyer
+
+It would be helpful if you could book your place in advance - by emailing Claire (familygeddes@hotmail.com)Any questions then please email Claire.
+
+The Seminar is sponsored by ISM and US Dental Care so there is no charge for parents.
+
+Admissions Team.
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

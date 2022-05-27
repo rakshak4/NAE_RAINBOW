@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to FS parents about settling in period</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Settling in letter</name>
+    <style>freeForm</style>
+    <subject>Settling in and parents</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+As part of the settling in period for children on our lower campus, we offer an option of up to ten days to allow parents to stay for a short time in school so they feel confident that their child is happy at the beginning of their education.
+
+
+Some children do not need this length of time , indeed many children settle in straight away. If this is the case we would kindly ask parents to leave the premises by 9:15am at the latest to allow us to begin lessons.
+
+
+Whilst it is great to see so many parents around school in the morning, it is more important for your child to quickly adapt to a period of time spent in school without you and begin to recognise the teachers and assistants as adults that they can trust to look after them.
+
+
+Our staff are very well trained in the settling in period at the beginning of the school day and whilst there may be some tears at first, you can be assured that the children calm down and settle very quickly after you have left. If they do not, then we will be calling you to ask you to come back to school I can assure you.
+
+
+If we feel you child is not settling in as well as others,  we will use the remainder of the settling in period to gradually reduce the contact with parents/carers. Some parents may be asked to stay but not to be involved directly in giving their child drinks or taking them to the bathroom, this is something that they have to learn to ask our teachers to do. You will be asked to remain in school but away from the classroom. This will be at the teacher&apos;s discretion.
+
+
+As a parent myself I can appreciate your concerns but I can assure you that this happens every year in every school for children so young. If you are a concerned parent you only need to look at the number of parents who drop their children off in the morning and leave straight away - they have all been through the settling in process, it works.
+
+
+Yours sincerely,
+
+
+
+David Kirkham
+
+Headmaster
+
+
+
+Уважаемые родители,
+
+В рамках адаптации детей детсадовского возраста, мы предлагаем следующий вариант- на протяжении 10-дней родители смогут находиться в школе в течении некоторого времени, дабы быть уверенными в том, что их ребенок чувствует себя комфортно в начале обучения.
+
+
+Некоторые дети не нуждаются в данной опции, в то время как остальным детям это необходимо. Поэтому, мы убедительно просим Вас покидать помещение в 9:15 утра, чтобы позволить учителям начать вести уроки.
+
+
+Очень здорово видеть такое количество родителей рано утром в школе, но для Вашего ребенка важно, как можно быстрее адаптироваться, суметь проводить время в школе в отсутствии родителей и начать распознавать учителей и помощников, как взрослых, а также научиться   доверять им.
+
+
+Наши сотрудники очень хорошо обучены и готовы к началу нового учебного года, а также готовы к тому, что некоторые дети могут плакать, но вы можете быть уверены в том, что дети успокоятся сразу после Вашего ухода. Если дети не успокоятся, мы обязательно свяжемся с Вами и попросим Вас вернуться в школу.
+
+
+Если мы чувствуем, что ребенок не может адаптироваться так же быстро, как другие дети-мы будем постепенно снижать время контакта с родителями/опекунами. Некоторых родителей могут попросить остаться, но не участвовать непосредственно в предоставлении их детям напитков или сопровождению похода в ванную комнату, так как дети должны спрашивать разрешения на это у наших преподавателей. Вам будет предложено остаться в школе, но не в самой аудитории. Это будет оставлено на усмотрение учителя.
+
+
+Как родитель, я понимаю Ваши переживания, но я могу заверить вас, что это происходит каждый год, в каждой школе среди таких маленьких детей. Если Вы до сих пор переживаете за своего ребенка, просто посмотрите на тех родителей, которые оставляют своих детей и уходят – все они прошли процесс адаптации. Это действительно работает!
+
+
+С уважением,
+
+
+Дэвид Киркхам
+
+Директор
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>The British school of Navarra</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>A/D with invoice</name>
+    <style>freeForm</style>
+    <subject>Enrolment / Matrícula</subject>
+    <textOnly>British School of
+Navarra
+Part of The British Schools Foundation
+
+
+
+
+
+Estimado/a {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Muchas gracias por su visita a nuestro colegio. Fue un placer conocerles.
+
+Estaríamos encantados de volver a verles con              al comienzo del próximo curso en septiembre 2018.  Tal y como comentamos en la entrevista actualmente las plazas están asignadas de forma provisional.
+
+Para poder concretar la reserva de plaza es necesario abonar la matrícula para el curso del 2018-19.  El abono se debe abonar en un plazo de 15 días desde la fecha de este comunicado.
+
+Es también imprescindible que entreguen en el colegio los siguientes documentos:
+
+- Pasaporte o DNI de ambos padres.
+
+- Pasaporte o DNI del niño/s.
+
+- Historial del colegio actual si procede.
+
+- Documento de Condiciones y Declaraciones firmado    (vean archivo adjunto)
+
+
+El importe es de 950 Euros por matrícula y se puede abonar por transferencia a la cuenta: 3008 0145 29 2150686927 a favor de The British School of Navarra S.L. o bien con tarjeta o efectivo en el colegio.
+
+Si el abono es por transferencia es necesario comunicar el nombre del hijo/s en el concepto del pago y enviarnos una copia de la confirmación a admissions@bsn.org.es.
+
+Adjunto a este e-mail encontrarán la factura.
+
+Si tienen cualquier duda o requieren más información por favor no duden en contactar con nosotros.
+
+
+Reciban un cordial saludo,
+
+Laura González
+
+--------------------------------------------------------------------------------------
+
+Dear family,
+
+Thank you very much for your visit to our school. It was a pleasure to meet you.
+
+We would be happy to see you again at the beginning of the next course in September 2018. As we mentioned in the interview, the places are provisionally assigned.
+
+To be able to specify the reservation of place is necessary to pay the enrolment for the academic year of 2018-19. The payment must be submitted within 15 days from the date of this letter.
+
+It is also necessary that they bring the following documents to school:
+
+- Passport or DNI of both parents.
+- Passport or DNI of the child / s.
+- History of the current school if applicable.
+- Signed Conditions and Declarations document (see attached file)
+
+The amount is 950 Euros per child and can be paid by transfer to the account: 3008 0145 29 2150686927 in favor of The British School of Navarra S.L. or with a card or cash at school.
+
+If the payment is by transfer it is necessary to communicate the name of the child (s) in the payment concept and send a copy of the confirmation to admissions@bsn.org.es.
+
+Attached to this e-mail will find the invoice.
+
+
+If you have any questions or require more information please do not hesitate to contact us.
+
+Warm greetings,
+Laura González
+
+Administration Team
+The British School of Navarra
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

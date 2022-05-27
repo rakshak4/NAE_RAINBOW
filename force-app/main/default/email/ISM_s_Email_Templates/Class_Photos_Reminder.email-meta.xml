@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Class Photos Reminder</name>
+    <style>freeForm</style>
+    <subject>Class Photos Reminder</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+As a reminder we are sending you the schedule for the photographer for the rest of the days so there will be no confusion. Unfortunately the whole lower school photo has been postponed to Monday June 10th as there were a lot of children who forgot their full school uniform today.
+
+If your child has a PE/sports day on the day of the photographs, please make sure that children are wearing their summer uniform (including blazers for Y1-Y10) on the following dates:
+
+Thursday June 6th – Whole Upper School photo, Y4-10 class photos, Y1-Y10 class councils photos, Whole School House captains photo.
+
+Friday June 7th – Sibling photos
+
+Monday June 10th – Whole Lower School photo
+
+Kind regards,
+
+Sonya Matveeva
+
+Academic Secretary
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

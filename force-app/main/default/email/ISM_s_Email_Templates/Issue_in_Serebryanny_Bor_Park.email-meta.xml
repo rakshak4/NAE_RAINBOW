@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Issue in Serebryanny Bor Park</name>
+    <style>freeForm</style>
+    <subject>Issue in Serebryanny Bor Park</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+We have been informed of an issue in Serebryanny Bor park. Apparently, poison has been spread around the park grounds. One of our pupils lost their dog due to this unfortunate situation and we are very saddened by this news. We advise you to use caution over the next few weeks if you reside in the area.
+
+Administration Team
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

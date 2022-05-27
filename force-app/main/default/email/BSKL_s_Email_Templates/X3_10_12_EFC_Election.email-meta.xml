@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>3/10/12 EFC Election</name>
+    <style>freeForm</style>
+    <subject>EFC Election</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+
+
+
+The Events and Fundraising Committee (EFC) are holding their annual elections Wednesday 10th October in the BSKL Cafeteria at 2pm. The EFC would like to invite all interested BSKL parents to attend and take part in the elections. We are looking for new faces to take on some important roles within the EFC; for example the Events Coordinator and the Class Rep Coordinator. Please come along and take part, even if you aren&apos;t interested in a committee role - we are always looking for fresh ideas!
+
+
+We look forward to seeing you there!
+
+
+Kind Regards
+The Events and Fundraising Committee
+
+
+Kind Regards,
+
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

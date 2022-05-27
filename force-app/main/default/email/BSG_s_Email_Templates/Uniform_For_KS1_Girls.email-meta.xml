@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Secondary Residential Trip</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Secondary Residential Trip to Yunnan</name>
+    <style>freeForm</style>
+    <subject>Secondary Residential Trip</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I am writing to announce that all of the trips have now arrived safely. Parents will be able to follow the progress of the students on the BSG VLE site. Please note the address.
+
+To access this information go to the following website:
+
+https://www.itslearning.com/?CustomerId=1896&amp;Username=&amp;RedirectLogin=bsgvle.itslearning.com
+
+Please use the following username and password to log in:
+
+User - parent.residential
+
+Password – Bsgresidential
+
+The Secondary residential trips are then included on the drop down list.
+
+Kind Regards,
+
+Iain Ruck
+
+Head of Secondary
+
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

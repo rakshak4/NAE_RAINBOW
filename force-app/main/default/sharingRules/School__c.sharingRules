@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Share_kualalumpur1_with_BSKL</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share kualalumpur1 with BSKL</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Headteacher_BSKL</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>equals</operation>
+            <value>kualalumpur1</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_manila1_with_NAISM</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share manila1 with NAISM</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>NAISM_Headteacher</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>equals</operation>
+            <value>manila1</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_moscow1_with_ISM</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share moscow1 with ISM</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Headteacher_ISM</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>equals</operation>
+            <value>moscow1</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_nanjing1_with_BSNJ</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share nanjing1 with BSNJ</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Headteacher_BSNJ</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>equals</operation>
+            <value>nanjing1</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_saopaulo1_with_BCB</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share saopaulo1 with BCB</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Headteacher_BCB</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>equals</operation>
+            <value>saopaulo1</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_tashkent1_with_BST</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share tashkent1 with BST</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BST_Headteacher</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>equals</operation>
+            <value>tashkent1</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_yangon1_with_BSY</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share yangon1 with BSY</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSY_Headteacher</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>equals</operation>
+            <value>yangon1</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

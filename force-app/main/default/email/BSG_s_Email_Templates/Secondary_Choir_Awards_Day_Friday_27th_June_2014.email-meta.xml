@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Awards Day Reminder To Secondary Choir</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Awards Day Reminder To Secondary Choir</name>
+    <style>freeForm</style>
+    <subject>Awards Day Reminder To Secondary Choir</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+
+
+
+
+
+
+Dear Parents,
+
+
+Just a gentle reminder to please return the reply slips for Thursday&apos;s choir rehearsal at the Sofitel. (Please CLICK HERE for the choir letter).
+
+
+Students will leave school by coach for the rehearsal, but will need to be collected from CITIC PLAZA at 6pm on Thursday.
+
+
+May I take this opportunity to thank you all for your support with the choir over the last two years. Without your willingness to deliver and collect students from various rehearsals, and attendance at events, we would not have been able to achieve as much as we have. It has been a real pleasure to work along side both yourselves and the students themselves.
+
+
+Thank you,
+
+
+Miss Rowan
+
+
+
+
+Head of Secondary Music and Performing Arts
+
+
+
+The British School of Guangzhou
+
+World Class Education
+
+
+
+
+
+
+
+
+
+
+
+____________________________________________________________________
+
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

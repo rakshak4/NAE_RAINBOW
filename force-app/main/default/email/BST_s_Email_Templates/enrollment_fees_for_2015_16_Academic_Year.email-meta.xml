@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>enrollment fees should be paid by June 30.2015</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>enrollment fees for 2015-16 Academic Year</name>
+    <style>freeForm</style>
+    <subject>Enrollment fees for the next Academic Year 2015-2016</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}
+
+Please be informed that enrollment fees should be paid by June 30,2015.
+
+Уважаемые родители!
+
+Предоплата (enrollment fees) за места учащихся на следующий 2015-2016 академический год должна быть оплачена до 30 июня 2015 года.
+
+
+
+
+Regards,
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

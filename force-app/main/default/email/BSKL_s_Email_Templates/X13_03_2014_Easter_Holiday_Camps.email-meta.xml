@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>13/03/2014 Easter Holiday Camps</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>13/03/2014 Easter Holiday Camps</name>
+    <style>freeForm</style>
+    <subject>Easter Holiday Camps</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please click on the link below for information and a sign-up form for Easter Holiday Camps, Term 2, 2013-14:
+
+Easter Holiday Camps Information &amp; Sign-Up Form (https://school.my.salesforce.com/sfc/p/D0000000DDpn/a/D00000004T2F/Rrl__fKbhCliLAwFcNXXv2LA7.4K4IOJJ8OZcLpTeH4=)
+
+
+Kind regards
+
+Admin Team
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

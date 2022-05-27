@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>16/05/2013 Foundation Lunch Menu</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>16/05/2013 Foundation Lunch Menu</name>
+    <style>freeForm</style>
+    <subject>Foundation Lunch Menu</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We are continually trying to improve our school lunches to provide a healthier and appetizing meal for our children.
+
+In accordance with the above, we have made a few changes to the lunch menu as a trial run for two weeks starting from the 27th May 2013 – 7th June 2013.  We are introducing a choice of sandwiches on whole meal bread that children can have with salad and sauce on the side.
+
+We would appreciate if you could select the lunch menu for your child and hand them to the reception or email them to azizan.sallehhuddin@britishschool.edu.my no later by Wednesday 22nd May 2013.
+
+We apologise for the inconvenience caused.
+
+Thank you for your support and cooperation.
+
+Warm Regards,
+
+Janet Brock
+Headteacher
+Janet.brock@britishschool.edu.my
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

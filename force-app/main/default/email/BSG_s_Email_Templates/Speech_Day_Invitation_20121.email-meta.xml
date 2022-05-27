@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Speech Day Invitation</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Speech Day Invitation 2012</name>
+    <style>freeForm</style>
+    <subject>Speech Day Invitation 2012</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}
+
+
+I am pleased to inform you that the British School of Guangzhou will be holding their Annual Speech Day at the Sofitel Hotel Guangzhou, Friday 6th July. This is the final day of the term and we hope that it will provide a memorable end to an exciting year. During the morning children from Year 2 upwards will receive awards and we would like to invite all parents to join us in celebrating achievements from the school year 2011 to 2012.
+
+
+The event will begin at 9:30 with tea and coffee available in the foyer outside the function room. Presentations will start at 10am and the programme will include instrumental performances and songs from the choir. The event will conclude with the presentation of the House Trophy and is anticipated to finish at around 11:30am.
+
+
+As this is a formal occasion, children should wear full school uniform, including blazers and long trousers for the boys.
+
+
+There will be no bus service for students on this day therefore we request that parents and children travel together, to and from the event. Please note those students who are receiving an award will sit with the academic staff at the front of the ballroom.
+
+
+I sincerely hope that all of our families will be able to attend on this special day.
+
+
+Regards,
+
+
+Mark Thomas
+
+Headmaster
+
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

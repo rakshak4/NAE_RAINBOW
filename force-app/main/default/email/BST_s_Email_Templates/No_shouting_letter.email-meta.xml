@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to parents about no shouting policy in school</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>No shouting letter</name>
+    <style>freeForm</style>
+    <subject>Polite notice to parents</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+As part of the broader education of the children In the British education system we follow strict guidelines regarding behaviour. We develop with the children understanding of tolerance, compassion and the value of others as human beings. We educate children through our PSHE lessons and every day routines to behave rationally and calmly towards others if they feel aggrieved. It takes an awful lot of patience and tolerance from the teachers at the school to model this and provide role models for children to look up to.
+
+
+We have a &apos;no shouting policy&apos; for teachers towards children, again to model that disputes can be dealt with in a more suitable and respectful manner. A teacher&apos;s first role is always to protect the children in their care and as professionals we take great pride in developing excellent citizens who feel safe and happy in school.
+
+
+Therefore I find it increasingly difficult to understand why a small minority of parents feel it is okay to come into school, and indeed classes on some occasions, and shout at members of my staff. This is totally unacceptable.
+
+
+We have an open door policy at the school allowing parents greater access to their child&apos;s teacher and teaching assistant than most schools. This allows you to speak with a staff member if you feel aggrieved or have something you need to find out. Teachers and indeed administration staff are more than happy to speak with you or make an appointment at a convenient time but I would not expect a teacher or admin staff member to listen to whatever you need to talk about if you are shouting at them. We are the adults here.
+
+
+If this behaviour towards my staff continues then I would have no hesitation in calling in those parents who feel it is okay to shout at members of my staff and discuss their child&apos;s place in the school.
+
+
+Please remember it is not acceptable to shout at any members of staff at the school
+
+
+Best regards,
+
+
+David Kirkham
+
+Headmaster
+
+
+
+Уважаемые родители,
+
+
+В рамках более широкого обучения детей по британской системе образования, мы руководствуемся строгими принципами, касающихся поведения. Мы учим детей толерантности, состраданию и человечности. Мы обучаем этому детей на   уроках PSHE (социальное, психологическое и эмоциональное развитие) и каждый день учим их вести себя рационально и спокойно по отношению к другим, даже если они чувствуют себя ущемленными. Весь этот процесс требует огромного терпения и спокойного отношения от учителей для моделирования и создания образцов для подражания, на которые дети могли бы равняться.
+
+
+Мы не придерживаемся политики «повышения голоса» учителей по отношению к детям, так все вопросы могут быть решены в мягкой и уважительной манере. Первостепенная роль учителей как профессионалов отведена для защиты детей и мы, гордимся тем, что воспитываем хороших граждан, которые чувствуют свою безопасность и счастливы, находясь в стенах нашей школы.
+
+
+Именно по этой причине я затрудняюсь ответить, почему некоторые из родителей считают нормальным действием - прийти в школу или даже зайти в классные комнаты и накричать на членов нашего персонала. Это совершенно недопустимо.
+
+
+Наша политика «открытых дверей» в школе позволяет родителям иметь более широкий доступ к работе учителя и ассистента своего ребенка, чем предлагает большинство других школ. Эта система позволяет Вам разговаривать с нашими сотрудниками, если вы чувствуете себя “ущемленным” или хотите, что-либо прояснить. Учителя и административный персонал всегда рады выслушать и поговорить с Вами или записать Вас на прием в удобное для Вас время. Но я не приемлю того, чтобы учитель или администратор слушал Вас, если Вы позволяете себе повышать голос в процессе разговора. Все мы - взрослые люди и должны это понимать.
+
+
+Сообщаю Вам, что если подобное отношение к нашему персоналу будет продолжаться и впредь, я буду вынужден связаться с родителями тех детей, которые позволяют себе подобное поведение и рассмотреть вопрос наличия места для обучения Вашего ребенка в нашей школе.
+
+Убедительно прошу Вас помнить о том, что неприемлемо повышать голос на сотрудников персонала нашей школы.
+
+
+
+С уважением,
+
+
+Дэвид Киркхам
+
+Академический директор
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

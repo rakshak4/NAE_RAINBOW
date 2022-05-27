@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Year 5A teacher - Alice Nixon</name>
+    <style>freeForm</style>
+    <subject>Miss. Nixon&apos;s recovery</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+
+As you may have heard, Miss Nixon has been in hospital over the course of the last week.
+
+
+I am delighted to say that Mrs Nixon is now out of hospital and is recuperating at her home in Moscow.
+
+
+Mrs Nixon will be back in school on Monday 14th October. In the meantime, Mrs Nixon’s lessons to be covered by other members of the Upper Primary teaching team.
+
+
+Best Wishes,
+
+
+Paul Keach&lt;br&gt;
+
+
+Head of Secondary School and Upper Campus
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

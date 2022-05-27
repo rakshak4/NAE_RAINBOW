@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>School Closed 20130922</name>
+    <style>freeForm</style>
+    <subject>School Closed Tomorrow, Monday 23rd September 2013.</subject>
+    <textOnly>The British School of Guangzhou
+
+Dear Parents,
+
+The Education Bureau of Guangdong has just informed us that due to the typhoon warning, all international schools in the region will join local schools and close tomorrow, 23rd September. This will include The British School of Guangzhou.
+
+Unless you receive notification via email from the school within the next 24 hours, we will be open as usual on Tuesday, 24th September.
+
+Our apologies for any inconvenience caused by this closure.
+
+Regards,
+
+Mr. Mark Thomas
+Headmaster
+The British School of Guangzhou
+
+
+_____________________________________________________
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

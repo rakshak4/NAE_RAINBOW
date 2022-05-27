@@ -1,0 +1,74 @@
+<apex:page controller="AssessmentApproval_Controller" sidebar="false">
+  <apex:form id="mainForm">
+    <apex:actionFunction name="fetchFolders" action="{!fetchFolders}" rerender="selectFolder,assessments,messages" status="myStatus"/>
+    <apex:actionFunction name="selectAll" action="{!selectAllAssessments}" rerender="assessments,messages" status="myStatus"/>
+    <apex:actionFunction name="fetchAssessments" action="{!fetchAssessments}" rerender="assessments,messages" status="myStatus"/>
+    <apex:pageMessages id="messages"/>
+    <apex:pageBlock title="Assessments Approval" mode="edit">
+        <apex:pageBlockButtons location="top">
+            
+            <apex:commandButton value="Save Assessments" action="{!saveAssessments}"/>
+            <apex:actionstatus id="myStatus" startText="(processing...)" stopText=""/>
+        </apex:pageBlockButtons> 
+        
+        <apex:pageBlockSection title="Filter Assessments" columns="3">
+            <apex:pageBlockSectionItem >
+                <apex:outputLabel value="Group" for="selectgroup"/>
+                <apex:selectList id="selectgroup" value="{!selectedGroup}" multiselect="false" size="1" onChange="fetchFolders();">
+                    <apex:selectOptions value="{!groupList}"/>
+                </apex:selectList>
+            </apex:pageBlockSectionItem>
+                
+            <apex:pageBlockSectionItem >
+                <apex:outputLabel value="Folder" for="selectFolder"/>
+                <apex:selectList id="selectFolder" value="{!selectedFolder}" multiselect="false" size="1" onChange="fetchAssessments();">
+                    <apex:selectOptions value="{!assessmentFolderList}"/>
+                </apex:selectList>
+            </apex:pageBlockSectionItem>
+            
+        </apex:pageBlockSection>
+        <apex:pageBlockSection title="Assessments" columns="1" id="assessments"> 
+            <apex:pageBlockTable value="{!assessments}" var="assessment">
+                <apex:column >
+                    <apex:facet name="header">
+                        <apex:outputPanel layout="block">
+                         Approve All <apex:inputCheckBox value="{!selectAll}" onChange="selectAll();"/>
+                        </apex:outputPanel>
+                    </apex:facet>
+                    <apex:inputField value="{!assessment.Is_Approved__c}"/>  
+                </apex:column>
+                <apex:column >
+                    <apex:facet name="header">{!$ObjectType.Assesment__c.Fields.Student__c.Label}</apex:facet>
+                    <apex:outputField value="{!assessment.Student__c}"/>  
+                </apex:column>
+                <apex:column >
+                    <apex:facet name="header">Logged BY</apex:facet>
+                    <apex:outputText value="{!assessment.CreatedBy}"/>  
+                </apex:column>
+                <apex:column >
+                    <apex:facet name="header">{!$ObjectType.Assesment__c.Fields.Grade__c.Label}</apex:facet>
+                    <apex:outputField value="{!assessment.Grade__c}"/>  
+                </apex:column>
+                <apex:column >
+                    <apex:facet name="header">{!$ObjectType.Assesment__c.Fields.Achievement__c.Label}</apex:facet>
+                    <apex:outputField value="{!assessment.Achievement__c}"/>  
+                </apex:column>
+                <apex:column >
+                    <apex:facet name="header">{!$ObjectType.Assesment__c.Fields.Effort__c.Label}</apex:facet>
+                    <apex:outputField value="{!assessment.Effort__c}"/>  
+                </apex:column>
+                <apex:column >
+                    <apex:facet name="header">{!$ObjectType.Assesment__c.Fields.Comment__c.Label}</apex:facet>
+                    <apex:inputTextarea disabled="true" value="{!assessment.Comment__c}" cols="50" rows="5"/> 
+                </apex:column>
+                <apex:column >
+                    <apex:facet name="header">{!$ObjectType.Assesment__c.Fields.Comments_for_Teacher__c.Label}</apex:facet>
+                    <apex:inputTextarea value="{!assessment.Comments_for_Teacher__c}" cols="50" rows="5"/>  
+                </apex:column>
+                
+            </apex:pageBlockTable>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+    
+  </apex:form>
+</apex:page>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email sent to the Group Designer notifying of a new job filed</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NAE_Branding_Letterhead_Generic</letterhead>
+    <name>Design Job Created</name>
+    <style>freeForm</style>
+    <subject>Design Job - {!Design_Job__c.Name}</subject>
+    <textOnly>The British Schools
+Foundation
+System Message
+
+
+Dear Ashley,
+
+A new design task has been requested by {!Design_Job__c.Contact_Person__c} from {!Design_Job__c.Work_For__c}.
+
+The job has the following basic details:
+
+Date Requested: {!Design_Job__c.Data_Requested__c}
+Due Date: {!Design_Job__c.Due_Date__c}
+
+Comments: {!Design_Job__c.Comments__c}
+
+You can review the record in the following link:
+
+{!Design_Job__c.Link}
+
+
+
+__________________________________________________________
+Beijing - Moscow- Kuala Lumpur -Sao Paulo - Manila - Guangzhou - Nanjing - Tashkent - Marbella - Pamplona</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

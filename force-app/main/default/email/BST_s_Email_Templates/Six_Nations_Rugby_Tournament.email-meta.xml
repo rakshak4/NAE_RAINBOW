@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to parents about Rugby matches</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Six Nations Rugby Tournament</name>
+    <style>freeForm</style>
+    <subject>Six Nations Rugby Tournament</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+The British School of Tashkent openly invites you to join us in watching selected matches of this years 6 Nations Rugby Tournament. The games start this weekend and will run for 7 weeks. We will be hosting the following matches:
+
+2-Feb 18:30 Wales v Ireland
+2-Feb 21:00 England v Scotland
+
+
+23-Feb 19:30 Italy v Wales
+23-Feb 22:00 England v France
+
+
+16-Mar 19:30 Italy v Ireland
+16-Mar 22:00 Wales v England
+
+
+
+
+
+
+We would love to have you and are sure it will be an excellent social and sporting event. All adults welcome so do bring your friends. Food and drinks will be on sale. See poster and location map attached for more details. Please feel free to contact us for further details either by phone: +998 71 262 60 20 or via email marketingmanager@britishschool.uz
+
+The event is for adults only.
+
+
+Уважаемые родители ,
+
+Британская школа в Ташкенте рада пригласить Вас на просмотр нескольких матчей Кубка шести наций. Матчи стартуют в эти выходные и продлятся 7 недель. Двери нашей школы будут открыты для Вас по следующим датам:
+
+
+Суббота, 2 февраля 18.30 Уэльс - Ирландия
+
+Суббота, 2 февраля  21.00 Англия - Шотландия
+
+Суббота, 23 февраля 19.30 Италия - Уэльс
+
+Суббота, 23 февраля 22.00 Англия - Франция
+
+Суббота, 16 марта 19.30 Италия - Ирландия
+
+Суббота, 16 марта 22.00 Уэльс - Англия
+
+Мы будем рады увидеть вас на этом социальном и спортивном мероприятии. Вы можете пригласить и своих друзей. В продаже будут еда и напитки. В приложении вы можете найти карту расположения и расписание матчей. С дальнейшими вопросами вы можете связаться с нами по телефону: +998 71 262 60 20 или по электронному адресу: marketingmanager@britishschool.uz
+
+Мероприятие только для взрослых.
+
+Regards,
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

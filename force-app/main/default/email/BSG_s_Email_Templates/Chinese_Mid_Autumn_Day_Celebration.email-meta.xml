@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Ms Humphreys class</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Ms Humphreys class</name>
+    <style>freeForm</style>
+    <subject>Ms Humphreys class</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I am writing to inform you that Ms Humphreys has had to leave the school due to personal reasons and unfortunately she will be unable to return in the near future.
+
+Her class has temporarily been spilt between Mr. Moore and Mr Barton’s classes.
+
+In the longer term, we are in the process of employing a UK trained teacher to provide supply cover up until the Christmas period. This will allow us time to recruit a permanent teacher from the UK.
+
+I appreciate that this not an ideal situation, but please be assured that we will do everything possible to ensure that the quality of teaching and learning for your child is unaffected.
+
+If you have any questions with regard to the points I have raised in this letter, do not hesitate to contact me on david.laird@bsg.org.cn
+
+Thank you for your understanding.
+
+Regards,
+
+
+David Laird
+Head of Primary
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

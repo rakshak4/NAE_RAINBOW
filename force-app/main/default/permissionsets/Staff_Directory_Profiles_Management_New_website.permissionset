@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permission set is used to give permissions to edit Staff Directory Profiles to users that can&apos;t have access to User object based on profile settings (such as admissions, finance, receptionist)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Staff Directory Profiles Management (New website)</label>
+    <license>Salesforce</license>
+</PermissionSet>

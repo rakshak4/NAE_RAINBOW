@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 500px; ">
+			<tbody>
+				<img border="0" id="m_3308685547825015245r1sp1" src="https://ci6.googleusercontent.com/proxy/67dXnVocysCsXlJug8sCwjBn53jHY6vok7ArlGUgs6iyEW02S5lmjGnO2wFvRa8wDolQRwuNpB8ZtRQ8DJ6xCSAcsylyglo6hKkrKdXXbJylHPQ1hCaOBcGGhBiWL5qWYSWwjpyjE4ENzbEgIN7XEqzPgw=s0-d-e1-ft#https://ap4.salesforce.com/servlet/servlet.ImageServer?id=0156F00000F05db&amp;oid=00D6F000001cXAR" class="CToWUd">
+				<tr>
+					<td>
+						<p>
+							&nbsp;</p>
+						<p style="text-align: justify; ">
+							&nbsp;</p>
+						<p style="text-align: justify; ">
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; ">Dear {!Account.Salutation} {!Account.LastName},</span></span></p>
+						<div>&nbsp;</div>
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; ">Thank you for the submission of an application to the British School of Nanjing through our online portal. BSN welcomes both applications to jobs posted and C.V.s from those who wish to work at our school. C.V.s that meet requirements will be kept on file and should suitable positions arise candidates will be contacted; however, should a job be posted at a later date, we still encourage you to apply separately.</span></span></p>
+						<p>
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; ">Please note, successful candidates will be invited to interview and references will always be checked before any positions are offered.</span></span></p>
+						<div>
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; ">Yours,</span></span>&nbsp;</div>
+<div>&nbsp;</div>
+						<div style="font-family: 'Verdana'; font-size: 12pt; ">
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; "><b>Administration Team</b></span></span><br />
+							<b style="font-family: 'Verdana'; font-size: 12px; ">{!Lead.School__c}</b><br />
+							&nbsp;</div>
+			<br />
+</tr>
+				<tr bgcolor="a0dae5">
+					<td>
+						&nbsp;</td>
+				</tr>
+				<tr bgcolor="003255">
+					<td>
+						&nbsp;</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			&nbsp;</p>
+	</body>
+</html>

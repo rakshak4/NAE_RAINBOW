@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20150615 EYFS Transition Morning.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20150615 EYFS Transition Morning.</name>
+    <style>freeForm</style>
+    <subject>EYFS Transition Morning.</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I would like to take this opportunity to welcome you to ‘Early Years Foundation Stage’ at BSKL.
+
+
+
+Both you and your child are invited to attend an informal and hopefully relaxed morning on Monday 22nd June between 8.30 - 10.00am. This will be  an opportunity for you to meet your child&apos;s new teacher and teaching assistant - however, please note that some of our new teaching assistants are not due to arrive in Malaysia until August. Your child is invited to spend some time in their new classroom and to meet with some of their ‘soon to be’ new friends.
+
+
+
+The session is intended to be informal - parents are welcome to meet the teachers and to visit the classrooms also. If your child is willing to be separated from you for a short while, it would be beneficial for them to stay with their new teachers and to explore a range of activities in the classroom.
+
+
+
+Our Primary School canteen will be open for you to purchase various refreshments during this time. If however, your child is not comfortable being away from you, then you are welcome to join them in a brief exploration of their new classroom, meet the teachers and leave when you feel ready.
+
+
+
+Our BSKL Uniform shop (Secondary Campus - 2nd floor) will be open for the morning and we strongly recommend that you take this opportunity to purchase your child&apos;s new school uniform. Admin staff will be available to advise you on the Early Years uniform and sizes available.
+
+
+
+To help you prepare your child to start school for the first time or if they are transferring to our school, we have put together some guidance notes and general information. Please click here to view &apos;Preparing for the First Day&apos;.
+
+
+
+To assist us in planning this event you are asked to complete an RSVP so we have an idea of numbers. If you are unable to attend, we will be holding another &apos;Meet the Teacher&apos; afternoon on Thursday 27th August when all of our teachers and teaching assistants for the next academic year will be in school.
+
+
+
+We look forward to meeting you and assisting in any way we can to ensure your child&apos;s smooth and stress free transition to BSKL.
+
+
+
+Warm Regards,
+
+Sarah Townend
+
+Head of Early Years Foundation Stage
+
+Reception ST Teacher
+
+
+
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

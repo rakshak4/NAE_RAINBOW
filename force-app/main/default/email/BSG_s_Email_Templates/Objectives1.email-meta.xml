@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Objectives</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Objectives</name>
+    <style>freeForm</style>
+    <subject>Objectives</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+This term our teachers have been reviewing the objectives that guide our school development plans. The process of setting these objectives has involved students, parent volunteers and teachers so I would like to thank everyone who has been involved. To view the objectives yourself please follow the link from the school principles on our website.
+
+Teachers are using these objectives to guide our latest 2013-15 development plans. If you would like further information on the development plans or objectives please feel free to contact the heads of school directly.
+
+Regards,
+
+Mark Thomas
+Headmaster
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

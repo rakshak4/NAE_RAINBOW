@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>SALUTATION</field>
+    </columns>
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>Contact.xsms__Mobile_Phone_Country_Code__c</field>
+    </columns>
+    <columns>
+        <field>PHONE3</field>
+    </columns>
+    <currency>EUR</currency>
+    <description>Shows parents with valid SMS numbers who are in school or have a child starting in the next 30 days</description>
+    <filter>
+        <booleanFilter>(((1 OR (2 AND 3)) OR (4 OR (5 AND 6))) AND 7 AND 8)</booleanFilter>
+        <criteriaItems>
+            <column>Account.Family_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>In School</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Family_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Future Enrolment</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Starting_Date_30__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>TRUE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Family_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>In School</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Family_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Future Enrolment</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Starting_Date_30__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>TRUE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.xsms__Mobile_Phone_Country_Code__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>PHONE3</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CONTACT_RECORDTYPE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Parents In School+30 with SMS Numbers</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContactList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,324 @@
+<apex:page standardController="User" showHeader="false" sidebar="false" showChat="false" extensions="UserStaffDirectory_Controller">
+<style>
+a.tooltip {outline:none; }
+a.tooltip strong {line-height:30px;}
+a.tooltip:hover {text-decoration:none;} 
+a.tooltip span {
+    z-index:10;display:none; padding:5px 5px;
+    margin-top:-5px; margin-left:5px;
+    width:200px; line-height:16px;
+}
+a.tooltip:hover span{
+    display:inline; position:absolute; color:#111;text-align:left;
+    border:1px solid #DCA; background:#fffAF0;}
+.callout {z-index:20;position:absolute;top:5px;border:0;left:-5px;}
+    
+/*CSS3 extras*/
+a.tooltip span
+{
+    border-radius:4px;
+    box-shadow: 5px 5px 8px #CCC;
+}
+</style>
+  <apex:form id="mainform"> 
+      <apex:includeScript value="{!$Resource.jQuery}"/>
+      <apex:includeScript value="{!URLFOR($Resource.jQueryBlockUI, 'jquery.blockUI.js')}"/>
+      <script>
+             function uiActionBlock(){
+                 $.blockUI({ message: '<h1>Please wait...</h1>' });
+                 return true;
+             }
+             function publisToSite(){
+                if("{!$User.User_Cron_Link__c}" == ""){ 
+                    alert("Group users cannot use this button. Please use the links in the sidebar to refresh the relevant site(s) instead."); 
+                }else{ 
+                    window.open("{!$User.User_Cron_Link__c}", "_blank", "toolbar=no, scrollbars=no, resizable=no, top=300, left=500, width=400, height=300"); 
+                }
+                return false;
+            }
+     </script> 
+      <apex:pagemessages /> 
+      <apex:pageBlock id="mainBlock1" title="Staff Directory Info" mode="edit" rendered="{!showDefaultView}">
+          
+          <apex:pageBlockButtons id="buttons">
+               <apex:commandButton action="{!saveUser}" value="Save" onclick="return uiActionBlock();" />
+               <apex:commandButton action="{!cancel}" value="Cancel" immediate="true"/>
+          </apex:pageBlockButtons>
+          <apex:pageBlockSection >
+              
+              <apex:outputField value="{!contextUser.S_Dir_Name__c}"/>
+              <apex:pageBlockSectionItem >
+                <apex:outputLabel value="{!$ObjectType.User.Fields.S_Dir_Positioning__c.Label}"/>
+                <apex:outputPanel layout="block">
+                    <table><tr><td>
+                        <apex:inputField value="{!contextUser.S_Dir_Positioning__c}" style="width:40px;"/>
+                    </td><td style="vertical-align: top;">
+                        <apex:outputText style="font-family: Arial,Helvetica,sans-serif;text-align: right;font-size: 91%;font-weight: bold;color: #4a4a56;" value="{!$ObjectType.User.Fields.Override_Manually__c.Label}"/>
+                        <apex:inputField value="{!contextUser.Override_Manually__c}"/>
+                    </td></tr></table>  
+                </apex:outputPanel>
+              </apex:pageBlockSectionItem>
+              
+              
+              <apex:inputField value="{!contextUser.S_Dir_Title_New__c}" style="width:200px;"/>
+              <apex:inputField value="{!contextUser.S_Dir_Status__c}" style="width:200px;"/>
+              
+              <apex:inputField value="{!contextUser.S_Dir_Department__c}"/>
+              <apex:inputField value="{!contextUser.S_Dir_Profile_Approved_by_Admin__c}"/>
+              
+              <!--  <apex:inputField value="{!contextUser.S_Dir_Origin__c}" style="width:200px;"/> --> &nbsp;
+              <apex:pageBlockSectionItem >
+                <apex:outputPanel layout="block" styleclass="helpButton">
+                    <table><tr><td>
+                    <apex:outputLabel value="{!$ObjectType.User.Fields.Publish_on_School_Site__c.Label}"/>
+                    </td><td>
+                    <a href="#" id="outputPublish" class="tooltip">
+                        <apex:image value="{!$Resource.QuestionMarkIcon}"/>
+                        <span>
+                            <apex:outputText value="{!$ObjectType.User.Fields.Publish_on_School_Site__c.InlineHelpText}" escape="false"/>
+                        </span>
+                    </a></td></tr>
+                    </table>
+                </apex:outputPanel>
+                <apex:outputField value="{!contextUser.Publish_on_School_Site__c}"/>
+              </apex:pageBlockSectionItem>
+              
+              
+              <!-- <apex:inputField value="{!contextUser.S_Dir_Years_of_Experience__c}" style="width:50px;"/> -->
+              
+          </apex:pageBlockSection>
+              
+          <apex:pageBlockSection columns="1">   
+              <apex:inputField value="{!contextUser.S_Dir_Degree__c}" style="height:120px;width:562px;"/> 
+              <!--  <apex:inputField value="{!contextUser.S_Dir_Other_Qualifications__c}" style="height:80px;width:200px;"/> -->
+           </apex:pageBlockSection> 
+         
+         <apex:pageBlockSection columns="1">
+              <apex:inputField value="{!contextUser.S_Dir_Personal_Interests__c}" style="height:120px;width:562px;"/>
+          </apex:pageBlockSection>
+          
+          <apex:pageBlockSection columns="1">
+              <apex:outputField value="{!contextUser.Link_to_Related_Contact__c}"/>
+          </apex:pageBlockSection>
+          <apex:pageBlockSection title="Update User Photo" columns="1">
+            <apex:inputFile value="{!photo.body}" filename="{!photo.name}" contentType="{!photo.ContentType}"/>  
+            <p>You can upload a JPG, GIF, or PNG file. Maximum file size is 8 MB.</p>
+          </apex:pageBlockSection>  
+      </apex:pageBlock> 
+      <apex:pageBlock id="mainBlock" title="Staff Directory Info" mode="edit" rendered="{!showOverriddenView}">
+          
+          <apex:pageBlockButtons id="buttons">
+               <apex:commandButton action="{!saveUser}" value="Save" onclick="return uiActionBlock();" /> 
+               <apex:commandButton action="{!cancel}" value="Cancel" immediate="true"/>
+          </apex:pageBlockButtons>
+          <apex:pageBlockSection >
+              <apex:outputField value="{!contextUser.S_Dir_Name__c}"/>
+              
+              <apex:pageBlockSectionItem >
+                <apex:outputLabel value="{!$ObjectType.User.Fields.S_Dir_Positioning__c.Label}"/>
+                <apex:outputPanel layout="block">
+                    <table><tr><td>
+                        <apex:inputText label="Positioning" value="{!userField.positioning.value}" rendered="{!userField.positioning.editAccess}" style="width:40px;"/>
+                        <apex:outputField value="{!contextUser.S_Dir_Positioning__c}" rendered="{!!userField.positioning.editAccess}"/>
+                    </td><td style="vertical-align: top;">
+                        <apex:outputText style="font-family: Arial,Helvetica,sans-serif;text-align: right;font-size: 91%;font-weight: bold;color: #4a4a56;" value="{!$ObjectType.User.Fields.Override_Manually__c.Label}"/>
+                        <apex:inputCheckBox label="Override Manually" value="{!userField.override_manually.value}" rendered="{!userField.override_manually.editAccess}"/>
+                        <apex:outputField value="{!contextUser.Override_Manually__c}" rendered="{!!userField.override_manually.editAccess}"/>
+                    </td></tr></table>  
+                </apex:outputPanel>
+              </apex:pageBlockSectionItem>
+              
+              <apex:pageBlockSectionItem >
+                <apex:outputLabel value="{!$ObjectType.User.Fields.S_Dir_Title_New__c.Label}"/>
+                <apex:outputPanel layout="block">
+                    <apex:inputText label="Title" value="{!userField.title.value}" rendered="{!userField.title.editAccess}" style="width:200px;"/>
+                    <apex:outputField value="{!contextUser.S_Dir_Title_New__c}" rendered="{!!userField.title.editAccess}"/>     
+                </apex:outputPanel>
+              </apex:pageBlockSectionItem>
+              
+              <apex:pageBlockSectionItem >
+                <apex:outputLabel value="{!$ObjectType.User.Fields.S_Dir_Status__c.Label}"/>
+                <apex:outputPanel layout="block">
+                    <apex:inputText label="Status" value="{!userField.status.value}" rendered="{!userField.status.editAccess}" style="width:200px;"/>
+                    <apex:outputField value="{!contextUser.S_Dir_Status__c}" rendered="{!!userField.status.editAccess}"/>       
+                </apex:outputPanel>
+              </apex:pageBlockSectionItem>
+              
+              <apex:pageBlockSectionItem >
+                <apex:outputLabel value="{!$ObjectType.User.Fields.S_Dir_Department__c.Label}"/>
+                <apex:outputPanel layout="block">
+                    <apex:selectList multiselect="false" size="1" label="School Department" value="{!userField.school_department.value}" rendered="{!userField.school_department.editAccess}">
+                        <apex:selectOptions value="{!departmentOptions}"/>
+                    </apex:selectList>
+                    
+                    <apex:outputField value="{!contextUser.S_Dir_Department__c}" rendered="{!!userField.school_department.editAccess}"/>        
+                </apex:outputPanel>
+              </apex:pageBlockSectionItem>
+              
+              <apex:pageBlockSectionItem >
+                <apex:outputLabel value="{!$ObjectType.User.Fields.S_Dir_Profile_Approved_by_Admin__c.Label}"/>
+                <apex:outputPanel layout="block">
+                    <apex:inputCheckbox label="Profile Approved By Admin" value="{!userField.profile_approved.value}" rendered="{!userField.profile_approved.editAccess}" />
+                    <apex:outputField value="{!contextUser.S_Dir_Profile_Approved_by_Admin__c}" rendered="{!!userField.profile_approved.editAccess}"/>      
+                </apex:outputPanel>
+              </apex:pageBlockSectionItem>
+              <!-- 
+              <apex:pageBlockSectionItem >
+                <apex:outputLabel value="{!$ObjectType.User.Fields.S_Dir_Origin__c.Label}"/>
+                <apex:outputPanel layout="block">
+                    <apex:inputText label="Origin" value="{!userField.origin.value}" rendered="{!userField.origin.editAccess}" style="width:200px;"/>
+                    <apex:outputField value="{!contextUser.S_Dir_Origin__c}" rendered="{!!userField.origin.editAccess}"/>       
+                </apex:outputPanel>
+              </apex:pageBlockSectionItem>
+               -->
+               &nbsp;
+              <apex:pageBlockSectionItem >
+                <apex:outputPanel layout="block" styleclass="helpButton">
+                    <table><tr><td>
+                    <apex:outputLabel value="{!$ObjectType.User.Fields.Publish_on_School_Site__c.Label}"/>
+                    </td><td>
+                    <a href="#" id="outputPublish" class="tooltip">
+                        <apex:image value="{!$Resource.QuestionMarkIcon}"/>
+                        <span>
+                            <apex:outputText value="{!$ObjectType.User.Fields.Publish_on_School_Site__c.InlineHelpText}" escape="false"/>
+                        </span>
+                    </a></td></tr>
+                    </table>
+                </apex:outputPanel>
+                <apex:outputField value="{!contextUser.Publish_on_School_Site__c}"/>
+              </apex:pageBlockSectionItem>
+              
+              <!-- <apex:pageBlockSectionItem >
+                <apex:outputLabel value="{!$ObjectType.User.Fields.S_Dir_Years_of_Experience__c.Label}"/>
+                <apex:outputPanel layout="block">
+                    <apex:inputText label="Years of Experience" value="{!userField.expirience.value}" rendered="{!userField.expirience.editAccess}" style="width:50px;"/>
+                    <apex:outputField value="{!contextUser.S_Dir_Years_of_Experience__c}" rendered="{!!userField.expirience.editAccess}"/>      
+                </apex:outputPanel>
+              </apex:pageBlockSectionItem> -->
+              &nbsp;
+          </apex:pageBlockSection>
+              
+          <apex:pageBlockSection >
+              
+              <apex:pageBlockSectionItem >
+                <apex:outputLabel value="{!$ObjectType.User.Fields.S_Dir_Degree__c.Label}"/>
+                <apex:outputPanel layout="block">
+                    <apex:inputTextArea label="Qualifications" value="{!userField.degree.value}" rendered="{!userField.degree.editAccess}" style="height:80px;width:200px;"/>
+                    <apex:outputField value="{!contextUser.S_Dir_Degree__c}" rendered="{!!userField.degree.editAccess}"/>       
+                </apex:outputPanel>
+              </apex:pageBlockSectionItem>   
+              
+              <!-- <apex:pageBlockSectionItem >
+                <apex:outputLabel value="{!$ObjectType.User.Fields.S_Dir_Other_Qualifications__c.Label}"/>
+                <apex:outputPanel layout="block">
+                    <apex:inputTextArea label="Other Qualifications" value="{!userField.other_qualifications.value}" rendered="{!userField.other_qualifications.editAccess}" style="height:80px;width:200px;"/>
+                    <apex:outputField value="{!contextUser.S_Dir_Other_Qualifications__c}" rendered="{!!userField.other_qualifications.editAccess}"/>       
+                </apex:outputPanel>
+              </apex:pageBlockSectionItem> -->
+              
+           </apex:pageBlockSection> 
+         
+         <apex:pageBlockSection columns="1">
+              <apex:pageBlockSectionItem >
+                <apex:outputLabel value="{!$ObjectType.User.Fields.S_Dir_Personal_Interests__c.Label}"/>
+                <apex:outputPanel layout="block">
+                    <apex:inputTextArea label="Personal Interests" value="{!userField.personal_Interest.value}" rendered="{!userField.personal_Interest.editAccess}" style="height:120px;width:562px;"/>
+                    <apex:outputField value="{!contextUser.S_Dir_Personal_Interests__c}" rendered="{!!userField.personal_Interest.editAccess}"/>        
+                </apex:outputPanel>
+              </apex:pageBlockSectionItem>
+          </apex:pageBlockSection>
+          
+          <apex:pageBlockSection columns="1">
+              <apex:outputField value="{!contextUser.Link_to_Related_Contact__c}"/>
+          </apex:pageBlockSection>
+          <apex:pageBlockSection title="Update User Photo" columns="1" rendered="{!IF(userAccount != null,true,false)}">
+            <apex:inputFile value="{!photo.body}" filename="{!photo.name}" contentType="{!photo.ContentType}" />  
+            <p>You can upload a JPG, GIF, or PNG file. Maximum file size is 8 MB.</p>
+            <p>NB. The updated image may take 15-20 minutes to display on the user profile. Please be patient and check back later.</p>
+          </apex:pageBlockSection>  
+          <apex:pageBlockSection title="Update User Photo" columns="1" rendered="{!IF(userAccount != null,false,true)}">
+            <p>You cannot change the photograph of this user until their record is connected to a staff member record. Please contact Group Admin to resolve this error.</p>
+          </apex:pageBlockSection>
+      </apex:pageBlock>
+      <apex:pageBlock title="Staff Directory Info" mode="edit" rendered="{!AND(!isEditMode,contextUser != null)}">
+          <apex:pageBlockButtons >
+              <apex:commandButton action="{!showEditMode}" value="Edit" rendered="{!canEdit}"/>
+              <apex:commandButton value="Push Changes to Site"  onclick="return publisToSite();" rendered="{!canEdit}"/>
+          </apex:pageBlockButtons>
+          <apex:pageBlockSection >
+               
+              <apex:outputField value="{!contextUser.S_Dir_Name__c}"/>
+              <apex:pageBlockSectionItem dataStyle="vertical-align:top;">
+                <apex:outputLabel value="{!$ObjectType.User.Fields.S_Dir_Positioning__c.Label}"/>
+                <apex:outputPanel layout="block" style="vertical-align: top;">
+                    <table border="0"><tr><td>
+                        <apex:outputField value="{!contextUser.S_Dir_Positioning__c}" style="width:40px;"/>
+                    </td><td valign="top">
+                        <apex:outputText style="font-family: Arial,Helvetica,sans-serif;text-align: right;font-size: 91%;font-weight: bold;color: #4a4a56;" value="{!$ObjectType.User.Fields.Override_Manually__c.Label}"/>
+                        <apex:outputField value="{!contextUser.Override_Manually__c}" />
+                        <!-- 
+                        <apex:image value="/img/checkbox_unchecked.gif" alt="Not Checked" width="21" height="16" styleclass="checkImg" title="Not Checked" rendered="{!!contextUser.Override_Manually__c}"/>
+                        <apex:image value="/img/checkbox_checked.gif" alt="Checked" width="21" height="16" styleclass="checkImg" title="Checked" rendered="{!contextUser.Override_Manually__c}" />
+                         -->
+                    </td></tr></table>  
+                </apex:outputPanel>
+              </apex:pageBlockSectionItem>
+              
+              <apex:outputField value="{!contextUser.S_Dir_Title_New__c}"/>
+              <apex:outputField value="{!contextUser.S_Dir_Status__c}"/>
+              
+              <apex:outputField value="{!contextUser.S_Dir_Department__c}"/>
+              <apex:outputField value="{!contextUser.S_Dir_Profile_Approved_by_Admin__c}"/>
+              
+              <!-- <apex:outputField value="{!contextUser.S_Dir_Origin__c}"/> -->&nbsp;
+              <apex:pageBlockSectionItem >
+                <apex:outputPanel layout="block" styleclass="helpButton">
+                    <table><tr><td>
+                    <apex:outputLabel value="{!$ObjectType.User.Fields.Publish_on_School_Site__c.Label}"/>
+                    </td><td>
+                    <a href="#" id="outputPublish" class="tooltip">
+                        <apex:image value="{!$Resource.QuestionMarkIcon}"/>
+                        <span>
+                            <apex:outputText value="{!$ObjectType.User.Fields.Publish_on_School_Site__c.InlineHelpText}" escape="false"/>
+                        </span>
+                    </a></td></tr>
+                    </table>
+                </apex:outputPanel>
+                <apex:outputField value="{!contextUser.Publish_on_School_Site__c}"/>
+              </apex:pageBlockSectionItem>
+              
+              
+              <!-- <apex:outputField value="{!contextUser.S_Dir_Years_of_Experience__c}"/>
+              &nbsp; -->
+          </apex:pageBlockSection>
+              
+          <apex:pageBlockSection columns="1">   
+              <apex:outputField value="{!contextUser.S_Dir_Degree__c}" style="height:120px;"/> 
+              
+           </apex:pageBlockSection> 
+         
+         <apex:pageBlockSection columns="1">
+              <apex:outputField value="{!contextUser.S_Dir_Personal_Interests__c}" style="height:120px;"/>
+          </apex:pageBlockSection>
+          
+          <apex:pageBlockSection columns="1">
+              <apex:outputField value="{!contextUser.Link_to_Related_Contact__c}"/>
+          </apex:pageBlockSection>
+      </apex:pageBlock>
+      <apex:pageBlock title="Staff Directory Info" mode="edit" rendered="{!contextUser == null}">
+          Unable to locate User data.
+      </apex:pageBlock>
+      <apex:outputPanel rendered="{!showDefaultView}">
+          <script>
+            var reload = "{!reload}";
+            //alert(reload);
+            if(reload == "1"){
+            //if(true){
+                //alert("reloading");
+                //parent.location.reload();
+                window.parent.location.href = "/_ui/core/userprofile/UserProfilePage?u={!contextUser.Id}&tab=Staff_Directory";
+            }
+          </script>
+      </apex:outputPanel>  
+  </apex:form>
+</apex:page>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Saturday School starting from November 8th</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Email to parents about Saturday School</name>
+    <style>freeForm</style>
+    <subject>Saturday School for Uzbek passport holders only.</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Dear parents,
+
+
+
+One of the major developments for the school this summer has been to be granted a full license for our primary and secondary school based on our co-curriculum initiative.  This license allows us to teach the best of English Curriculum and best of the local Uzbek curriculum.
+
+
+
+According the license that is given by State Testing Center under the Cabinet of Ministers of the Republic of Uzbekistan and Ministry of Public Education of the Republic of Uzbekistan, we have permission to give special certificate (аттестат) at the end of a pupil’s study in Year 11 (according Uzbek National Curriculum Grade 9) to the children who has Uzbekistan citizenship.
+
+
+
+To fulfill license obligations for local subjects such as Uzbek language, Uzbek history, Etiquette, Geography, Feeling of Homeland, Rules of Road Safety and Biology we will open our upper campus for Saturday school for all of our children, who are Uzbek citizens, from Year 3 up to Year 7 on Saturday November 8th 2014. Saturday school is compulsory to attend if you wish your child to receive certificate of Uzbek National Curriculum.
+
+
+
+We have almost completed the recruitment process of high calibre locally qualified teachers who have a minimum of 3-5 years’ experience in the local school teaching system. Their position will involve teaching children with enthusiasm and conducting classes with high standards for behaviour and achievement already set in our school. All our new teachers for this aspect of school have been teaching professionally and have an excellent subject knowledge of Uzbekistan National Curriculum standards.
+
+
+
+From November 8, Saturday school will run for the remainder of the school academic year. Year 3 – Year 6 children will be required from 9:00am until 1:00pm. Year 7 children will be required from 9:00am until 1:45pm (Please see draft timetable attached). In addition to their local studies, local students will also be taking part in local competitions from various subjects such as Maths and English. We are quite sure that our children will achieve high results in the near future.
+
+
+Please note that this additional schooling does not incur any additional payments form parents.
+
+
+
+You will be receiving more information shortly regarding Saturday school. Any further questions regarding curriculum content please contact our Methodology department who will be happy to assist you.
+
+
+
+
+Уважаемые родители,
+
+Одним из главных событий этого лета стало предоставление нашей школе лицензии на общее среднее образование. Эта лицензия позволяет нам обучать детей по английской и узбекской Государственным образовательным стандартам одновременно и по завершении обучения 9 классов в соответствии с узбекской национальной учебной программой (Y11 по английской национальной учебной программе) выдавать выпускникам документ об образовании государственного образца (аттестат), имеющим гражданство Узбекистана.
+
+
+
+Наличие лицензии предполагает изучение некоторых предметов, не входящих в английскую программу образования. Для проведения таких уроков как Узбекский язык, история и география Узбекистана, этика, Правила дорожного движения, Чувство Родины и Идея национальной независимости мы открываем специальные дополнительные занятия по субботам в здании нашей школы для учащихся с 1 по 5 класс (с Y3 по Y7).
+
+
+
+С 8 ноября 2014 года посещение этих уроков обязательно для получения документа об образовании государственного образца (аттестат) по узбекской национальной учебной программе.
+
+
+
+Мы почти завершили формирование штата педагогов, состоящего из опытных и квалифицированных учителей, которые проработали в системе местного образования как минимум пять лет. Их целью является проведение занятий согласно самым высоким стандартам, отвечающим требованиям нашей школы. Все наши новые преподаватели отлично знают стандарты национальных учебных программ, имеют профессиональных подход и полны энтузиазма.
+
+
+
+С 8 ноября школа будет работать по субботам до конца текущего учебного академического года. У детей с 1 по 4 класс (с Y3 по Y6) занятия будут проводиться с 9:00 до 13:00 и у детей 5 класса (Y7) занятия будут проводиться с 9:00 до 13:45 (расписание прилагается в прикрепленным файле).
+
+
+
+А также, мы планируем участие учеников нашей школы в местных соревнованиях и олимпиадах, в том числе по математике и английскому языку. Мы уверены, что наши дети достигнут в скором времени отличных успехов и высоких результатов.
+
+
+
+Следует отметить, что за обучение по субботам не нужно производить никаких дополнительных платежей.
+
+
+
+В ближайшее время Вы получите более подробную информацию относительно занятий в школе по субботам. Если у Вас появились вопросы относительно содержания учебных программ, пожалуйста, свяжитесь с отделом Методики преподавания.
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>02/05/2013 BSKL Notice</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>02/05/2013 BSKL Notice</name>
+    <style>freeForm</style>
+    <subject>BSKL Notice</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We are all aware that there is a General Election on Sunday 5th May. It has been suggested that there may be a public holiday on Monday 6th May.
+
+I would just like to inform all of you that BSKL will be open as normal, but if any parent chooses to keep their child(ren) off if a public holiday is declared then that is your decision.
+
+Warm regards
+
+Janet Brock
+Headteacher
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

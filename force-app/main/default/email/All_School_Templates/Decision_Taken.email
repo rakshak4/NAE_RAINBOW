@@ -1,0 +1,80 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 500px; ">
+			<tbody>
+				<img border="0" id="m_3308685547825015245r1sp1" src="https://ci6.googleusercontent.com/proxy/67dXnVocysCsXlJug8sCwjBn53jHY6vok7ArlGUgs6iyEW02S5lmjGnO2wFvRa8wDolQRwuNpB8ZtRQ8DJ6xCSAcsylyglo6hKkrKdXXbJylHPQ1hCaOBcGGhBiWL5qWYSWwjpyjE4ENzbEgIN7XEqzPgw=s0-d-e1-ft#https://ap4.salesforce.com/servlet/servlet.ImageServer?id=0156F00000F05db&amp;oid=00D6F000001cXAR" class="CToWUd">
+				<tr>
+					<td>
+						<p>
+							&nbsp;</p>
+						<p style="text-align: justify; ">
+							&nbsp;</p>
+</table>
+<table  align="center">
+			<tbody>
+				<tr style="width: 800px;">
+					<td style="width: 300px;text-align: right;background-color: #003255; ">
+						<span style="color:#ffffff;"><span style="font-size:16px;"><strong><span style="font-family: 'Verdana'; ">Title:</span></strong></span></span></td>
+					<td style="width: 500px;text-align: left;background-color:#ededed ">
+						<span style="color:#182a4c;"><strong><span style="font-size:16px;"><span style="font-family: 'Verdana';">&nbsp;</span></span></strong></span><span style="color:#182a4c;"><strong><span style="font-size:16px;"><span style="font-family: 'Verdana';">{!Document__c.Name}</span></span></strong></span></td>
+				</tr>
+				<tr>
+					<td style="text-align: right;background-color: #003255; ">
+						<strong><span style="color:#ffffff;"><span style="font-size:16px;"><span style="font-family: 'Verdana';">Date:</span></span></span></strong></td>
+					<td style="text-align: left;background-color:#ededed ">
+						<span style="color:#182a4c;"><strong><span style="font-size:16px;"><span style=" 'Verdana';">&nbsp;{!Document__c.Date__c}</span></span></strong></span></td>
+				</tr>
+				<tr>
+					<td style="text-align: right;background-color: #003255; ">
+						<strong><span style="color:#ffffff;"><span style="font-size:16px;"><span style=" 'Verdana';">Location</span></span></span></strong></td>
+					<td style="text-align: left;background-color:#ededed ">
+						<span style="color:#182a4c;"><strong><span style="font-size:16px;"><span style=" 'Verdana';">&nbsp;{!Document__c.Location__c}</span></span></strong></span></td>
+				</tr>
+				<tr>
+					<td style="text-align: right;background-color: #003255; ">
+						<strong><span style="color:#ffffff;"><span style="font-size:16px;"><span style=" 'Verdana';">Person(s) Making Decision</span></span></span></strong></td>
+					<td style="text-align: left;background-color:#ededed ">
+						<span style="color:#182a4c;"><strong><span style="font-size:16px;"><span style=" 'Verdana';">&nbsp;{!Document__c.Attendees__c}</span></span></strong></span></td>
+				</tr>
+				
+			</tbody>
+		</table>
+		<div style="text-align: right;">
+			<div style="text-align: center;">
+				<div style="text-align: left;">
+					&nbsp;</div>
+			</div>
+		</div>
+		<div style="text-align: right;">
+			&nbsp;</div>
+		<div style="text-align: left; ">
+			<br />
+			
+		</div>
+	
+			<div style="text-align: left; ">
+				<div style="text-align: left; ">
+					<table align="center" cellpadding="15" cellspacing="0" style=" width: 800px; text-align: justify; border: 1px solid #000 ">
+						<tbody>
+							<tr>
+								<td style="background-color: #003255;width: 25%;height: 20px;border: 1px solid #000">
+									<span><span style="color:#ffffff;"><strong><span style="font-family: 'Verdana';">Issue</span></strong></span></span></td>
+								<td style="background-color: #003255;width: 75%;height: 20px;border: 1px solid #000">
+									<font class="Apple-style-span" color="#ffffff" face=" 'Verdana'"><b>Action/Decision</b></font></td>
+							</tr>
+							<tr>
+								<td style="height: 140px;border: 1px solid #000" valign="TOP">
+									<span style="font-size:12px;"><font class="Apple-style-span" face=" 'Verdana'"><strong>{!Document__c.Issue_Being_Addressed__c}</strong></font></span></td>
+								<td style="height: 140px;border: 1px solid #000" valign="TOP">
+									<span style="font-size:12px;"><font class="Apple-style-span" face=" 'Verdana'">{!Document__c.Action_Decision_1__c}</font></span></td>
+							</tr>
+				
+			</tbody>
+		</table>
+		<p>
+			&nbsp;</p>
+	</body>
+</html>

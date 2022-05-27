@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>End of Autumn Term Chinese Exam</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>End of Autumn Term Chinese Exam</name>
+    <style>freeForm</style>
+    <subject>End of Autumn Term Chinese Exam</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+&lt;?xml:namespace prefix = o /&gt;
+
+20th November 2013
+
+
+Dear Year 1 to Year 9 CAL and CFL parents,
+
+
+The Chinese Department is going to arrange an End of Term Chinese Exam for all CAL and CFL students from Year 1 to Year 9.
+
+
+Chinese teachers will start preparing the students by reviewing all they have learnt in their Chinese lessons this year. It would be appreciated if you could encourage your child to review what they have studied at home.
+
+
+The dates for the exams are as follows:
+
+
+Y1---Wednesday, 4th December, 9:00-9:40
+
+Y2+3---Tuesday, 3rd December, 13:00-14:00
+
+
+Y4+5---Thursday, 5th December, 10:00-11:00
+
+Y6---Wednesday, 4th December, 13:00-14:00
+
+Y7---Friday, 6th December, 8:30-9:45
+
+
+Y8+9---Wednesday, 4th December, 11:25-12:40
+
+
+If you have any questions please do not hesitate to contact your child’s Chinese teacher.
+
+
+Regards,
+
+
+Alison Liu
+
+
+Head of Chinese Department
+
+
+
+
+The British School of Guangzhou
+
+World Class Education
+
+
+_____________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

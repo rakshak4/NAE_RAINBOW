@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>&quot;Karate Academy&quot;, hosted at The British School of Guangzhou, starts this weekend.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>&quot;Karate Academy&quot;, hosted at The British School of Guangzhou, starts this weekend</name>
+    <style>freeForm</style>
+    <subject>&quot;Karate Academy&quot;, hosted at The British School of Guangzhou, starts this weekend.</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+
+
+Thursday 24th April 2014
+
+
+
+Dear Parents,
+
+
+Our friends from the Guangzhou Tiger Temple Academy (GTTA) will be running weekend Karate classes at the school for the remainder of this term.
+
+
+- Dates: 26th April to 22nd June
+
+- Times: Saturdays, 12 to 4pm and Sundays, 9am to 4pm
+
+
+For details of the programme, age group divisions and registration details please CLICK HERE or contact Sensei Enrique Novoa through &lt;karateguangzhou@gmail.com&gt;
+
+
+Best wishes,
+
+
+The British School of Guangzhou
+
+
+World Class Education
+
+
+
+____________________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

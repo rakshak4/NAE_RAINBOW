@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Eid Celebration 2012</name>
+    <style>freeForm</style>
+    <subject>Eid Celebration 2012</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+
+On Friday 28th September BSKL will be holding Eid Celebrations.
+
+
+There will be a school assembly in the morning whereby all families are invited.  Starting at 8.30am it promises to be a wonderful event!
+
+
+Click Here For Raya Photo
+
+
+As part of this celebration the Events and Fund Raising Committee (EFC) are giving all BSKL students the opportunity to take part by dressing in traditional Eid costumes. For this special event the EFC will be collecting RM5 from each student for dressing up, which will be donated to The Positive Shelter - a charity that is for HIV+ Muslim children. On the day the RM5 will be collected from the classroom teacher. We hope that all of the BSKL students will get into the spirit of the celebration and dress up and take part in what promises to be a fabulous day filled with fun activities!
+
+
+The BSKL Muslim mothers are running a cake stall filled with delicious traditional goodies so be sure to bring along some money to help support them and our chosen charity. If you are having trouble locating costumes they can be found in most large supermarkets like Giant, Jusco, Tesco, Parkson and Kamdar. Also the BSKL Muslim mothers would be more than happy to help loaning outfits so please feel free to ask!
+
+
+Click Here For Raya Photo 2
+
+
+
+Hope to see you all there!
+
+
+Regards
+
+The Events and Fund Raising Committee (EFC)
+
+
+Kind Regards,
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

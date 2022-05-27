@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Eid Celebration 2012</name>
+    <style>freeForm</style>
+    <subject>ASA 2012-2013 FAQ</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+
+Thank you very much to those of you who have emailed your response already it is much appreciated. Also your feedback has been valuable, without this it can be difficult to improve our ASA programme. Please ensure your completed forms are sent via email by tomorrow to asa@britishschool.edu.my. There have been a few questions raised since the ASA letters and information book went out which I will attempt to clarify now.
+
+What time to ASA&apos;s on Friday start?
+
+ASA&apos;s will start when school finishes at 2pm. The swimming team will get the bus from school at 1.45pm and pick from parents will be from the club at 3.15pm.
+
+Is there a cost for Dance ASA for year 5-8?
+
+There is a cost just like dance for the younger age group which is rm200 for the term. It is led by an external provider.
+
+Is there gymnastics available for Middle School students?
+
+This term there isn&apos;t, if there is enough interest we may be able to accommodate one in the future.
+
+Can we hand in a printed version of the ASA form to reception?
+
+It is very important that any completed forms are sent to asa@britishschool.edu.my so the first come first served basis is clear. Please don&apos;t hand it in to reception. When you send it please attached the completed word document to the email so it is more clear. Alternatively it may look like the example below:
+
+Name: Dennis Bergkamp
+Class: 8a
+
+Tuesday ASA:
+1. Boys Football
+2. School newspaper
+3. Dance
+4. Pilates
+etc
+
+Thursday ASA:
+1. Origami
+2.Wall Climbing
+3. Choir
+4. Basketball
+
+Other ASA&apos;s
+
+Friday: Tennis
+
+This would also be acceptable.
+
+
+Harrie Thomson
+Head of PE
+The British International School
+Tel: +6 (03) 7727 7775
+Fax: +6 (03) 7722 1296
+www.britishschool.edu.my
+Part of The British Schools Group – World Class Education
+
+*Disclaimer:*
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited.
+
+
+Kind Regards,
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Curriculum Letter Term 2 Nursery</name>
+    <style>freeForm</style>
+    <subject>Curriculum Letter Term 2 Nursery</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+
+Welcome back to Nursery for Term Two! We hope that all of our Nursery families had a fantastic holiday. We would like to also welcome our new Nursery parents.
+
+
+Over the course of this term we will cover four topics; ‘ Food’, ‘ Dinosaurs’, ‘People who help us’ and ‘Aliens’. Please click here to download the Nursery Term 2 curriculum overview.
+
+
+Spring Term Dates (12 weeks/ 60 days)
+
+
+
+Monday 13th January – First day back
+
+Tuesday 28th and Wednesday 29th January – ASAs begin
+
+Monday 17th February – Friday 21st February – International week
+
+Friday 21st February – Mid Year Reports
+
+Monday 24th - Friday 28th February – Half term (return Monday 3rd March)
+
+Tuesday 4th and Wednesday 5th March – Parent-teacher Consultations 4-6pm
+
+Wednesday 5th March - World Maths Day
+
+Tuesday 18th and Wednesday 19th March – Last days of ASAs
+
+Friday 11th April – Last day of term – Noon finish
+
+
+
+We would like to thank you for your time and effort in supporting the children in all areas of their learning. We look forward to working with you and your children this term.
+
+
+Yours Sincerely,
+
+The Nursery Teaching Team
+
+The International School of Moscow
+
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

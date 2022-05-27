@@ -1,0 +1,791 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:TrackMoves/>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>JA</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="276">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;}
+</style>
+<![endif]-->
+
+
+
+<!--StartFragment-->
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Arial">Dear
+Parents,<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Arial"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Arial">In the
+run down to Easter, we have some informative reading for you below......<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Arial"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Arial">1.&nbsp;</span><b><u><span style="font-size:14.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Final
+Week of Term reminders:-</span></u></b><span style="font-size:16.0pt;
+font-family:Arial"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:14.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:18.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">Next week is the final week of term and so school
+will close at noon on Friday March 30th. All bus routes will operate at that
+time. For those picking up children please make a note of the early finish.</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:18.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:18.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">We will be celebrating Art Week on both sites so
+we hope the children will come home enthused about the work that they are doing
+in school.</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:
+Calibri"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:18.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">Finally, our secondary department will be
+following up the reports from tomorrow with consultation evenings on Tuesday
+and Wednesday.&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:18.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:18.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">2. Lost and Found:-</span><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:18.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">We would like to remind you that any unclaimed
+items are&nbsp;<u>donated to local charity</u>&nbsp;at the end of each term<u>,</u>&nbsp;therefore
+we are kindly asking you to check the lost and found boxes before&nbsp;<b><u>30th&nbsp;March.</u><o:p></o:p></b></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><b><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">&nbsp;</span></b><span style="font-size:16.0pt;
+mso-ascii-font-family:Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><b><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">Upper School</span></b><span style="font-size:
+16.0pt;mso-ascii-font-family:Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">&nbsp;</span><span style="font-size:16.0pt;
+mso-ascii-font-family:Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">Uniform</span><span style="font-size:16.0pt;
+mso-ascii-font-family:Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:1.0in;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">1.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Tracksuit
+pants, sizes 6, 8</span><span style="font-size:16.0pt;mso-ascii-font-family:
+Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:1.0in;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">2.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Six
+tracksuits, sizes 8, 10, 12</span><span style="font-size:16.0pt;mso-ascii-font-family:
+Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:1.0in;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">3.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">White
+shirts, sizes 10 and 12</span><span style="font-size:16.0pt;mso-ascii-font-family:
+Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">&nbsp;</span><span style="font-size:16.0pt;
+mso-ascii-font-family:Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">Non-uniform</span><span style="font-size:16.0pt;
+mso-ascii-font-family:Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">Clothes</span><span style="font-size:16.0pt;
+mso-ascii-font-family:Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:1.0in;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">1.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Black
+jumper</span><span style="font-size:16.0pt;mso-ascii-font-family:Cambria;
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:1.0in;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">2.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Blue
+fleece jacket</span><span style="font-size:16.0pt;mso-ascii-font-family:Cambria;
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:1.0in;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">3.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Three
+pairs of tracksuit pants</span><span style="font-size:16.0pt;mso-ascii-font-family:
+Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:1.0in;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">4.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Grey
+jacket</span><span style="font-size:16.0pt;mso-ascii-font-family:Cambria;
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:1.0in;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">5.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Four
+shorts</span><span style="font-size:16.0pt;mso-ascii-font-family:Cambria;
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:1.0in;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">6.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Two
+blue shirts</span><span style="font-size:16.0pt;mso-ascii-font-family:Cambria;
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:1.0in;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">7.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Trousers</span><span style="font-size:16.0pt;mso-ascii-font-family:Cambria;mso-hansi-font-family:
+Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:1.0in;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">8.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Eight
+T-shirts</span><span style="font-size:16.0pt;mso-ascii-font-family:Cambria;
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:1.0in;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">9.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">White
+vest</span><span style="font-size:16.0pt;mso-ascii-font-family:Cambria;
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:1.0in;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">10.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Four
+dark blue socks</span><span style="font-size:16.0pt;mso-ascii-font-family:Cambria;
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">&nbsp;</span><span style="font-size:16.0pt;
+mso-ascii-font-family:Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">Gloves</span><span style="font-size:16.0pt;
+mso-ascii-font-family:Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:1.0in;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">1.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Nine
+black gloves</span><span style="font-size:16.0pt;mso-ascii-font-family:Cambria;
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:1.0in;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">2.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Two
+grey gloves</span><span style="font-size:16.0pt;mso-ascii-font-family:Cambria;
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">&nbsp;</span><span style="font-size:16.0pt;
+mso-ascii-font-family:Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">Hats</span><span style="font-size:16.0pt;
+mso-ascii-font-family:Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:1.0in;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">1.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Three
+grey hats</span><span style="font-size:16.0pt;mso-ascii-font-family:Cambria;
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:1.0in;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">2.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Five
+black hats</span><span style="font-size:16.0pt;mso-ascii-font-family:Cambria;
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:1.0in;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">3.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Striped
+hat</span><span style="font-size:16.0pt;mso-ascii-font-family:Cambria;
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">&nbsp;</span><span style="font-size:16.0pt;
+mso-ascii-font-family:Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">Other accessories</span><span style="font-size:
+16.0pt;mso-ascii-font-family:Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:1.0in;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">1.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Four
+scarves</span><span style="font-size:16.0pt;mso-ascii-font-family:Cambria;
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:1.0in;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">2.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Four
+dark blue socks</span><span style="font-size:16.0pt;mso-ascii-font-family:Cambria;
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">&nbsp;</span><span style="font-size:16.0pt;
+mso-ascii-font-family:Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">&nbsp;</span><span style="font-size:16.0pt;
+mso-ascii-font-family:Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><b><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">Lower School</span></b><span style="font-size:
+16.0pt;mso-ascii-font-family:Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">&nbsp;</span><span style="font-size:16.0pt;
+mso-ascii-font-family:Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">Non-uniform</span><span style="font-size:16.0pt;
+mso-ascii-font-family:Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">Clothes</span><span style="font-size:16.0pt;
+mso-ascii-font-family:Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:48.0pt;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">1.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Two
+sports suits</span><span style="font-size:16.0pt;mso-ascii-font-family:Cambria;
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:48.0pt;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">2.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Two
+pairs of sports pants</span><span style="font-size:16.0pt;mso-ascii-font-family:
+Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:48.0pt;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">3.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Two
+pairs of grey pants</span><span style="font-size:16.0pt;mso-ascii-font-family:
+Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:48.0pt;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">4.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Grey
+jumper</span><span style="font-size:16.0pt;mso-ascii-font-family:Cambria;
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:48.0pt;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">5.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Sleeveless
+jumper</span><span style="font-size:16.0pt;mso-ascii-font-family:Cambria;
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:48.0pt;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">6.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Three
+pairs of tights</span><span style="font-size:16.0pt;mso-ascii-font-family:Cambria;
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">&nbsp;</span><span style="font-size:16.0pt;
+mso-ascii-font-family:Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">Shoes</span><span style="font-size:16.0pt;
+mso-ascii-font-family:Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria">&nbsp;<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:48.0pt;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">1.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Three
+sneakers</span><span style="font-size:16.0pt;mso-ascii-font-family:Cambria;
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:48.0pt;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">2.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Four
+black shoes</span><span style="font-size:16.0pt;mso-ascii-font-family:Cambria;
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">&nbsp;</span><span style="font-size:16.0pt;
+mso-ascii-font-family:Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">Gloves</span><span style="font-size:16.0pt;
+mso-ascii-font-family:Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:48.0pt;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">1.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Four
+unpaired gloves</span><span style="font-size:16.0pt;mso-ascii-font-family:Cambria;
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:48.0pt;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">2.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Two
+pairs of gloves</span><span style="font-size:16.0pt;mso-ascii-font-family:Cambria;
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">&nbsp;</span><span style="font-size:16.0pt;
+mso-ascii-font-family:Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">Hats</span><span style="font-size:16.0pt;
+mso-ascii-font-family:Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:48.0pt;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">1.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Four
+hats</span><span style="font-size:16.0pt;mso-ascii-font-family:Cambria;
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">&nbsp;</span><span style="font-size:16.0pt;
+mso-ascii-font-family:Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">Other accessories</span><span style="font-size:
+16.0pt;mso-ascii-font-family:Cambria;mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:48.0pt;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">1.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Seven
+scarves</span><span style="font-size:16.0pt;mso-ascii-font-family:Cambria;
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:48.0pt;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">2.</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">Four
+socks</span><span style="font-size:9.0pt;font-family:Calibri;mso-bidi-font-family:
+Calibri">&nbsp;</span><span style="font-size:16.0pt;mso-ascii-font-family:Cambria;
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:48.0pt;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Calibri;mso-bidi-font-family:Calibri">3. &nbsp; School bag</span><span style="font-size:16.0pt;mso-ascii-font-family:Cambria;mso-hansi-font-family:
+Cambria;mso-bidi-font-family:Cambria"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:48.0pt;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Arial"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:48.0pt;text-indent:-24.0pt;mso-pagination:
+none;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+16.0pt;font-family:Arial"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">3. Withdrawal Forms:-<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri">I have mass e-mailed all families regarding the
+"Withdrawal forms" for the end of Summer Term, 2012. The deadline for
+receipt of these&nbsp;by 9<sup>th</sup> April, 2012.<o:p></o:p></span></p><p class="MsoNormal"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri"><br></span></p><p class="MsoNormal"><span style="font-size:16.0pt;font-family:Calibri;
+mso-bidi-font-family:Calibri"><span class="Apple-style-span" style="font-family: Calibri, sans-serif; font-size: 14px; "><span class="Apple-style-span" style="font-size: large; "><font color="#001163"><font face="Calibri,Verdana,Helvetica,Arial"><span style="font-size: 11pt; "><b>Dino Vikas<br></b>Head of Admissions&nbsp;<br>The International School of Moscow<br>Tel: &nbsp;+7 (499) 922 44 00<br>Fax: +7 (499) 922 44 00 Ext.4&nbsp;<br><b>www.internationalschool.ru<br></b><i>Part of The British Schools Group<br></i><b><br></b>*Disclaimer:*<br>This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited</span></font></font></span><span class="Apple-style-span" style="font-size: large; "><font face="Calibri,Verdana,Helvetica,Arial"><span style="font-size: 11pt; ">.</span></font></span></span></span></p>
+
+<!--EndFragment-->]]></td>
+</tr>
+</table>

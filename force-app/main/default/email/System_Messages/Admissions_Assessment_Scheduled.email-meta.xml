@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NAE_Branding_Letterhead_Generic</letterhead>
+    <name>Admissions Assessment Scheduled</name>
+    <style>freeForm</style>
+    <subject>Assessment Scheduled - {!Admissions_Questionnaire__c.Event_Subject_Line__c}</subject>
+    <textOnly>{!User.School__c}
+
+
+Dear {!Admissions_Questionnaire__c.Staff_Doing_Assessment__c},
+
+
+We have scheduled the following Admissions Assessment:
+
+Student Name: {!Admissions_Questionnaire__c.Event_Subject_Line__c}
+
+Date: {!Admissions_Questionnaire__c.Date_of_Assessment__c}
+
+Time: {!Admissions_Questionnaire__c.Time__c}
+
+Below is the link to the Assessment Record:
+
+{!Assesment__c.Link}
+
+
+If you have any questions please contact {!Admissions_Questionnaire__c.CreatedBy}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

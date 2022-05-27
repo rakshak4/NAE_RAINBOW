@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NetworkBranding xmlns="http://soap.sforce.com/2006/04/metadata">
+    <loginFooterText>Nord Anglia Parent Portal</loginFooterText>
+    <loginLogo>Communities_Shared_Document_Folder1/Nord_Anglia_Parent_portal_Logo_Horizontal_Black_png.png</loginLogo>
+    <loginLogoName>Nord Anglia Parent portal_Logo_Horizontal_Black.png</loginLogoName>
+    <loginPrimaryColor>#003255</loginPrimaryColor>
+    <loginQuaternaryColor>#FFFFFF</loginQuaternaryColor>
+    <network>Parent Portal</network>
+    <pageFooter>Parent_Portal/NAE_PP_Footer_4.html</pageFooter>
+    <pageHeader>Parent_Portal/NAE_PP_Header_Small_White_Logo_255x80.html</pageHeader>
+    <primaryColor>#003255</primaryColor>
+    <primaryComplementColor>#FFFFFF</primaryComplementColor>
+    <quaternaryColor>#E3E1DC</quaternaryColor>
+    <quaternaryComplementColor>#222222</quaternaryComplementColor>
+    <secondaryColor>#FFFFFF</secondaryColor>
+    <tertiaryColor>#E3E1DC</tertiaryColor>
+    <tertiaryComplementColor>#222222</tertiaryComplementColor>
+    <zeronaryColor>#FFFFFF</zeronaryColor>
+    <zeronaryComplementColor>#222222</zeronaryComplementColor>
+</NetworkBranding>

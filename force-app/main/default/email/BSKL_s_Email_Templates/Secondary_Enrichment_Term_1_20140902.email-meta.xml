@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Secondary Enrichment Term 1 - 20140902</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Secondary Enrichment Term 1 - 20140902</name>
+    <style>freeForm</style>
+    <subject>New Secondary Enrichment Activity Programme</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+New Secondary Enrichment Activity Programme
+
+As you may be aware, Secondary will be operating a new Enrichment Activity programme, replacing After School Activities. These will take place on Wednesday during lesson 4 and after school on certain days. This year we are starting the programme earlier than usual and sign-up will take place on Wednesday 3rd September during lesson 4. Students will do this using an online form.
+
+In preparation for this I would be grateful if you could either follow this link (https://docs.google.com/a/britishschool.edu.my/spreadsheet/ccc?key=0Ak8ycHpl3iI9dGhaQnNNX0dYcDAtXzRLZmo0N1lyb0E&amp;usp=drive_web#gid=0) or visit the school website under School Life - Clubs (http://www.britishschool.edu.my/en/school-life/clubs.aspx), for a list of what activities are on offer this term and discuss the options with your child.
+
+The majority of activities are free but there area few which have a cost attached. Students can sign up for these using the online form but full payment must be made to the Finance department at BSKL (Primary Campus) before we can guarantee their place in that activity. This must be done before Tuesday September 9th.
+
+Thank you very much for your support in this. If you have any questions, please feel free to contact me on simon.major@britishschool.edu.my
+
+
+Kind regards,
+
+Simon Major
+Science Teacher, Secondary Enrichment Coordinator &amp; EVC
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

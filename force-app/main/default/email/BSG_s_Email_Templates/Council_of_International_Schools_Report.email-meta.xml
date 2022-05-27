@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Council of International Schools Report</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Council of International Schools Report</name>
+    <style>freeForm</style>
+    <subject>Council of International Schools Report</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+
+&lt;?xml:namespace prefix = o /&gt;
+
+
+
+Council of International Schools Report
+
+
+Dear Parents,
+
+
+Following a school visit on Friday, 11th October 2013, The British School of Guangzhou was granted membership of CIS. The Council of International Schools is committed to helping member schools to provide students with a high quality education that develops the knowledge, skills and abilities to pursue their lives as global citizens.
+
+
+I am very pleased to note some of the strengths CIS identified from their visit and feel that it is important to share these with our parent community.
+
+
+Strengths noted included the:
+
+
+· Quality of the relationships throughout the school
+
+· Support given to students through a personal understanding of their needs
+
+· Atmosphere of support as well as challenge
+
+· Positive ethos shown by staff across both campuses
+
+· Quality of the learning environments created across the two campuses that benefit the students in the enquiry-based learning
+
+· Strong and clear leadership, which has helped the British School create such a strong reputation within Guangzhou
+
+· Impressive investment in and use of technology for learning
+
+· Quality of enrichment activities on offer to the school, through the House system, the After School Activities (ASA) programme and the leadership and service opportunities offered to the students
+
+· Development of intercultural understanding and the commitment to internationalism
+
+· Clean, safe and secure learning environments on both campuses
+
+· Quality of the administrative team and their commitment to the schools development
+
+
+There is no doubt that The British School of Guangzhou has come a long way in a short time. As members of CIS we are committed to a process of continuous school improvement. I am indebted to the staff and parents whose efforts and support have helped us get this far and look forward to the next stage of our development.
+
+
+Areas noted for further development:
+
+
+As well as celebrating successes an important part of a school improvement process is to note areas for improvement. The CIS visit highlighted a number of areas for development including:
+
+
+· Reviewing our strategic plan to take into account our membership of the Nord Anglia Education group
+
+· Creating a likely timeline for any move to a single campus
+
+· Introducing a more effective school information system
+
+· Review the impact of additional technology on children’s learning
+
+
+
+
+
+_____________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

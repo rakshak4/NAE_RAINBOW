@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Culture club</name>
+    <style>freeForm</style>
+    <subject>Culture shock workshop</subject>
+    <textOnly>Dear Parents
+
+We are pleased to inform you of our ISM-exclusive &apos;Culture Shock Workshops&apos; which are being run for the first time this year. We hope that you will find these to be exciting - giving you the opportunity to settle and acclimatise into the city together with those whom are also experiencing the same adventure. You will find more information in this regard on the poster attached - one which you have no doubt seen around the school campuses.
+
+These workshops will be run by Claire Geddes who is an experienced Expatriate Coach who has experienced life as an expat in other countries and has been in Moscow for a number of years now. 
+
+The first session will be held on Thursday 15th of September between the hours of 9:00 and 11:00 am. This is a fantastic opportunity for you to make the most of your time here and also to expand your social circle. It is a first come first served arrangement so please do voice your interest as soon as possible. (Should we see a high volume of interest then we will of course look to run further workshops in due course.)
+
+In order to register your interest, you will need to reply to this email together with your name, the name of your child/children, the country from which you have relocated, your nationality/language of your home and your contact information. This will be provided to Claire so as she can understand a little bit about you before the workshops begin and we will need to receive this information by no later than 5pm Wednesday 13th September. More information will be provided to you once the class has been filled.
+
+**Please note that this is not exclusive to new families and all are welcome to register.**
+
+We hope that you had a pleasant weekend.
+
+Best
+The Admissions Team
+
+Admissions Team
+The International School of Moscow
+Tel:  +7 (916) 922 04 54
+Fax: +7 (499) 922 44 00 Ext.4 
+www.internationalschool.ru
+Part of The British Schools Group
+World Class Education
+
+*Disclaimer:*
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

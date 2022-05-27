@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>End of Year Appraisal Review Reminder</name>
+    <style>freeForm</style>
+    <subject>End of Year Appraisal Review Reminder</subject>
+    <textOnly>This is a system generated message to remind you of an upcoming review of objectives set out in your last appraisal. Please contact your appraiser to set a date for the review to take place. Details below:
+Staff Member: {!Appraisal_Objectives__c.Staff_Member__c}Appraiser&apos;s Name: {!Appraisal_Objectives__c.00ND0000004KHWD}Expected Mid- Year Review Date: {!Appraisal_Objectives__c.Expected_Md_Year_Reveiew_Date__c}
+Objectives to review:
+{!Appraisal_Objectives__c.Objective_1__c}
+{!Appraisal_Objectives__c.00ND0000004KHWW}
+{!Appraisal_Objectives__c.00ND0000004KHWb}
+{!Appraisal_Objectives__c.00ND0000004KHWg}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

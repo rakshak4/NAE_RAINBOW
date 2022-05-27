@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Letter to Next years Yr 12 and 13 students</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Letter to Next years Yr 12 and 13 students</name>
+    <style>freeForm</style>
+    <subject>Letter to Next years Yr 12 and 13 students</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+
+
+Dear Parents,
+
+
+
+I am writing to share with you the schedule for 6th Form students at the start of the next academic year. In  order to prepare 6th Form students for their studies next year and to introduce students to the demands of study in years 12 and 13, all 6th Form students are required to attend school on the following dates:
+
+
+
+Wednesday 20th August – Friday 22nd August – all 6th Form students are required to attend school from 8:30-15:00. Students are permitted to wear casual dress during these days, as younger students will not be in  lessons. Please note that buses will not run to and from school during this period.
+
+
+
+Monday 25th August – First day of term for all students (buses will run as normal on these days). Students should attend school following the 6th Form dress code.
+
+
+
+Please note that there will be a general orientation day for all new students on Friday, August 22nd. This will provide parents with an opportunity to meet the tutors and as well listen to a presentation on life in Key Stage 4 and the expectations that we have of our students.
+
+
+
+Timetable for the day:
+
+10:00am-2:00pm  Informally meet tutors and subject teachers.
+
+10:45am-11:30am ‘An introduction to life in the Secondary School’ (New Students only)
+
+11:45am-12:15pm  ‘Meet the Tutor’ (New Students)
+
+12:30pm-1:15pm ‘Our vision at KS4 &amp; 5’ (All parents and students in Years 10-13)
+
+
+Finally, I would like to take this opportunity to pass on some important information regarding English language qualifications. We have learnt this week that the TOEFL assessments have been suspended in the UK with immediate effect, which in effect means that this qualification will no longer be recognised by UK universities. Therefore, any student who is considering applying to any UK university should therefore NOT undertake any TOEFL assessment and instead we would recommend the International English Language  Testing System (IELTS). This change will only affect students who are choosing to apply to UK universities.
+
+
+Should you have any questions prior to the start of the new academic year, please do not hesitate to send me an email to Mark.howe@bsg.org.cn. I look forward to meeting you all on Friday 22nd August.
+
+
+
+Yours sincerely,
+
+
+
+Mark Howe
+
+
+
+
+The British School of Guangzhou
+
+World Class Education
+
+
+
+
+
+
+
+
+
+
+
+____________________________________________________________
+
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

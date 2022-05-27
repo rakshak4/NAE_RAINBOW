@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>ASA&apos;s Spring Term 2013</name>
+    <style>freeForm</style>
+    <subject>After School Activities Spring Term 2013</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear parents,
+
+Please find below all information regarding after school activities. These will start from next week and will run for a period of 6 weeks, concluding on Wednesday 13th March.
+
+Tuesday LC Clubs (click here)
+Wednesday LC Clubs (click here)
+UC Club descriptions (click here)
+Additional Clubs letter (click here)
+
+There is an excellent selection considering the time of year which brings about a high demand for our limited number of facilities.
+
+Please take a note of the following points:
+
+-Swimming club for years 4-10 - This will finish at 5pm and children can only select this club if they can make the necessary travel arrangements which would involve getting collected from the swimming facility at 5pm.
+
+-Ski Club, Snowboarding club, Cross country skiing - Children can only select these clubs if they have access to their own equipment and are at a competent level. The money for taking part in the ski club must be handed straight to Mr. Carr in the PE office. All equipment can be stored in the school for the duration of clubs.
+
+-Off Site Clubs - If you select a club for your child that is highlighted as an off site club, you are giving them permission to take part in the activity which takes place at a different venue from the school.
+
+-Additional Clubs - Please read the clubs letter which contains information about additional clubs.  If you are interested in these clubs then please complete the letter and return it to the LC reception desks.
+
+-Money for fee paying clubs - All money for clubs must go straight to the accounting department.
+
+
+If you have any questions regarding the next round of ASA&apos;s then please get in touch with a member of the PE department.
+
+Kindest regards,
+
+The PE Department
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NAE_Branding_Letterhead_Generic</letterhead>
+    <name>Appraisal &amp; Objectives Review Reminder</name>
+    <style>freeForm</style>
+    <subject>Appraisal Review Reminder</subject>
+    <textOnly>This is a system generated message to remind you of an upcoming review of objectives set out in a recent appraisal. 
+
+Details below:
+
+Staff Member: {!Appraisal_Objectives__c.Staff_Member__c}
+
+Line Manager: {!Appraisal_Objectives__c.Line_Manager__c}
+
+Scheduled Mid- Year Review Date: {!Appraisal_Objectives__c.Expected_Md_Year_Reveiew_Date__c}
+
+Scheduled End- Year Review Date: {!Appraisal_Objectives__c.Expected_End_of_Year_Review_Date__c}
+
+Objectives to review:
+
+{!Appraisal_Objectives__c.Objective_1__c}
+
+{!Appraisal_Objectives__c.Objective_2__c}
+
+{!Appraisal_Objectives__c.Objective_3__c}
+
+{!Appraisal_Objectives__c.Objective_4__c}
+
+{!Appraisal_Objectives__c.Objective_5__c}
+
+{!Appraisal_Objectives__c.Objective_6__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

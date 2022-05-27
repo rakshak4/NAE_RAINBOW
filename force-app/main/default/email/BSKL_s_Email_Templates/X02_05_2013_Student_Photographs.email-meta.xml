@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>02/05/2013 Student Photographs</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>02/05/2013 Student Photographs</name>
+    <style>freeForm</style>
+    <subject>Student Photographs</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Today your children have been passed a letter to go home in their school bag advising of the details of the annual student/sibling photographs that take place at BSKL.
+
+In the letter it mentions that if anyone would like sibling photographs then they need to pass the form attached with the letter back to reception by Friday 3rd May.  We realise that this is short notice so we have extended this deadline to be Monday 6th May.
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

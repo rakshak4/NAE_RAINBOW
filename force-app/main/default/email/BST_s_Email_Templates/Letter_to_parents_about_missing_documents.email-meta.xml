@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to whole BST parents about missing documents</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Letter to parents about missing documents</name>
+    <style>freeForm</style>
+    <subject>Missing documents of students</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+As part of the upgrading of our school administration department and inline with the requirements of the Uzbekistan Ministry of Education, please could parents provide a scanned copy of their passports, your children&apos;s passports and 4 colour passport photographs of your child(children) attending the school. If you wish we can scan the documents here at school for you and return it to you within a couple of minutes. If you have not yet supplied your medical book or declaration regarding vaccinations could you please do at the earliest opportunity.
+
+
+Any other documentation we now require which is missing from your file we will contact you directly.
+
+Many thanks for your assistance in this matter.
+
+Best regards,
+
+David Kirkham
+
+
+Уважаемые родители,
+
+
+В связи с обновлением базы данных нашей школы, и в соответствии с требованиями Министерства Образования Республики Узбекистан, администрация просит родителей предоставить сканированные копии ваших паспортов, паспортов детей, которые посещают школу, а также 4 цветные фотографии паспортного размера. Если Вам угодно, мы можем отсканировать документы в здании школы и возвратить Вам в течение нескольких минут.
+
+
+Если Вы не предоставили Вашей медицинской книжки или декларации касательно вакцинаций, не могли бы Вы сделать это в ближайшее время.
+
+
+В случае, если нам будет необходима какая-либо другая документация, которая отсутствует в Вашем профайле, мы свяжемся с Вами напрямую.
+
+
+Примного благодарны за Ваше участие в данном вопросе.
+
+
+С уважением,
+
+
+Давид Киркхам
+
+
+
+
+
+
+
+Regards,
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

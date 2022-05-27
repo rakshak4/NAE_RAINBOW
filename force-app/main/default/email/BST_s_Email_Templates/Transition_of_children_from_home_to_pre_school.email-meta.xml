@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to FS parents about transition of children from home to school</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Transition of children from home to pre-school</name>
+    <style>freeForm</style>
+    <subject>Transition of children from home to pre-school</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+
+Preparing a child for school starts early.
+
+
+
+Transition to pre school is always accompanied by certain psychological difficulties for the child. After all, with the start of the school they get out of the familiar routine for them being in a new environment – new children, unfamiliar adults, new furnishings etc.
+
+
+Conditions of childcare are quite new too:
+
+
+
+1.  An extensive period of cooperative adaptation of children in a class might have a negative effect on an individual Central Nervous System of a new child and lead to them feeling fatigued and annoyed.
+
+
+
+2. Pedagogical standards in school are inevitable, which may constrain the individuality of the child. A new social environment requires certain relevant types of behaviours that a child has not developed yet. They must adjust or, as we say, adapt to different conditions and develop new forms of behaviours. It is not an easy task for a child - it brings the state of fear, and psychological tension that if given negative conditions can lead to the so-called emotional stress. This in turn causes a change in the other systems of the body as a result the child gets physically weaker, their immune barriers decrease and they might get ill.
+
+
+Analysis of children’s behaviour in the first few days in pre school shows that this process of transition from home to school is not always easy and quick for all children. For many of them adaptation process is accompanied by a number, albeit temporary, but serious violations in behaviour and general health condition. Such violations include:
+
+
+
+• Lack of appetite (not eating or malnutrition)
+
+• Sleep disturbances (children cannot go to sleep, sleep is short, intermittent)
+
+• Changes in the emotional state (children cry a lot, get annoyed easily).
+
+Sometimes more serious dysfunctions are present, such as:
+
+• Fever
+
+• Changes in digestive system
+
+• Disturbances of certain acquired skills (the child ceases to ask for a potty, his speech slows down, etc.)
+
+
+
+Duration of adaptation to the new social conditions, as well as the behaviour of the children in the first few days in child care depend a lot on individual characteristics. To make sure that these difficulties encountered by a child do not exceed their capacity, it is necessary to know how to develop adaptation skills.
+
+
+Adaptation depends on several factors:
+
+1. Health conditions and child&apos;s developmental level
+
+2. Age of a child
+
+3. Biological and social factors
+
+4. Level of adaptation skills
+
+
+
+What actions should be implemented to prevent difficult transition?
+
+Consistent approach to this matter will facilitate the transition – preparation of a child for school at home in advance and ensuring the proper organisation of environment at school for new children to prevent psychological stress.
+
+
+
+The main work of preparing the child for transition to school is done at home and parents play the the main role in this. Parents need to create an environment that would be as close to school environment as possible. First of all this applies to day routine relevant to the age of a child. Hence, at home a child should sleep at relevant bedtimes and naptimes. The same applies to meal times. There are certain time slots for playground time in school and a parent should aim to take a walk with a child at the same hours. It is important to dress the child in accordance with the temperature both indoors and outdoors.
+
+
+
+Much attention should be paid to fostering life-skills with dressing and undressing, teaching a child to drink from a cup and eating with a spoon, using a potty at that age is recommended. A child should be able to play with toys on their own. It is very important to develop a friendly attitude towards peers and adults.
+
+
+
+Please note that during transition period, the child becomes moody, irritable, seeks adult’s attention, and may disturb sleep and appetite and this is normal and natural. Parents should be patient and provide safe, stable, relaxed, supportive environment for a child.  At home, family should try to compensate for a possible lack of sleep and malnutrition in the preschool child, with the difficulties caused by the transition.
+
+
+
+For example;
+
+A quiet and relaxed environment at home aids successful transition, thus:
+
+1. Do not turn on the TV, radio, tape recorder at high volume;
+
+2. Spend more time outside in the open air;
+
+3. Occupy a child with calm, quiet games, read a book, look through pictures
+
+4. Do not go spend too much time visiting other families during transition process as this puts an extra weight on emotional state of a child
+
+In the morning, bringing your child into school, please inform the staff on changes in the child’s behaviour or conditions (improvement, decline) observed at home.
+
+
+
+Implementation of these recommendations, supports your teacher, and the guidelines of the school listed in Settling In Policy will help the child to cope with the difficulties of transition.
+
+Signs of successful transition are physical wellbeing, good appetite, adequate sleep pattern, positive attitude towards peers and teachers.
+
+
+
+Regards,
+
+
+Child Development Department
+
+
+
+
+
+Уважаемые родители,
+
+К поступлению в школу ребенка готовят с первого года жизни.
+
+Дело в том, что поступление в детское учреждение всегда сопровождается определенными психологическими трудностями для ребенка. Ведь с приходом в школу он попадает из знакомой и обычной для него семейной среды в новую - детский коллектив, незнакомые взрослые, новая обстановка и предметы в ней.
+
+
+
+Условия детских учреждений специфичны:
+
+Во - первых, длительное совместное привыкание довольно значительного числа сверстников оказывает определенное воздействие на нервную систему новичка и приводит к более быстрому чем в семейных условиях, утомлению детей.
+
+
+
+Во - вторых, в школе неизбежны некоторые педагогические стандарты в подходах к детям, что несколько сковывает индивидуальность ребенка. Новые социальные условия требуют соответствующих им форм поведения, которых у ребенка пока еще нет. Он должен приспособиться или, как говорят, адаптироваться, к иным условиям, выработать новые для себя формы поведения. Задача не из легких для малыша-у него наступает состояние страха, возникает психическая напряженность, что при недостаточно благоприятных условиях, неправильных воздействиях на ребенка и приводит к так называемому эмоциональному стрессу. А это в свою очередь вызывает изменение в работе других систем организма, в результате ребенок слабеет, снижается сопротивляемость его по отношению к микробной и вирусной флоре, он заболевает.
+
+
+
+Анализ поведения детей в первые дни пребывания в детском учреждении показывает, что этот процесс приспособления, т.е. адаптация к новым социальным условиям не всегда и не у всех детей проходит легко и быстро. У многих детей процесс адаптации сопровождается рядом, хотя и временных, но серьёзных нарушений поведения и общего состояния. К таким нарушениям относят:
+
+Нарушение аппетита (отказ от еды или недоедание)
+Нарушение сна (дети не могут заснуть, сон кратковременный, прерывистый)
+Меняется эмоциональное состояние (дети много плачут, легко раздражаются).
+
+Иногда можно отметить и более глубокие расстройства:
+
+повышение температуры тела
+изменения характера стула
+нарушение некоторых приобретённых навыков (ребёнок перестаёт проситься на горшок, его речь затормаживается и др.)
+
+Длительность привыкания к новым социальным условиям, а также характер поведения детей в первые дни пребывания в детском учреждении зависят от индивидуальных особенностей. Для того,чтобы возникшие перед ребенком трудности не превышали его возможности, надо знать, как формируются у него способности к адаптации, в какой степени это является врожденным, а что приобретается.
+
+Адаптация зависит от нескольких факторов. Имеют значения:
+
+Состояние здоровья и уровень развития ребенка
+Возраст ребенка
+Биологические и социальные факторы
+Уровень тренированности адаптационных возможностей
+
+Какие мероприятия следует осуществить, чтобы не допустить тяжелой адаптации?
+
+Облегчить состояние адаптации возможно при комплексном подходе к этому вопросу: заранее готовить ребенка к поступлению в школу дома и обеспечить соответствующую организацию жизни вновь поступающих детей непосредственно в детском учреждении.
+
+
+
+В школе также обеспечивается система организации жизни детей, направленная на предотвращение у вновь поступающих психологического стресса.
+
+
+
+Основная работа по подготовке ребенка в школу проводится дома, и главная роль в этом принадлежит родителям. Надо создать такие условия, которые по возможности были бы приближены к условиям школы. Прежде всего, строго должен соблюдаться режим соответственно возрасту. Значит, и дома ребенок должен спать днем в те часы, которые по режиму предусмотрены для дневного сна. Соответственно соблюдаются часы кормления и бодрствования. В школе в определенные часы предусмотрена прогулка детей и родитель должны приучать ребенка гулять в то же время, в те же часы укладывать малыша на ночной сон.Очень важно правильно одевать ребенка в соответствии с температурой, как в помещении, так и на улице.
+
+
+
+Большое внимание следует уделять также формированию навыков самостоятельности при одевании и раздевании, приучать ребенка пить из чашки и есть из ложки, пользоваться горшком в те возрастные сроки, которые рекомендуют специалисты. Он должен уметь самостоятельно играть с игрушками. Очень существенно воспитывать доброжелательное отношение к сверстникам и взрослым.
+
+И вот наступило время вести малыша в школу.
+
+Следует помнить, что в период адаптации ребенок становится капризным, раздражительным, требовательным к вниманию взрослого, у него может ухудшиться сон и аппетит. Надо набраться терпения для спокойного, ласкового и бережного обращения с ребенком. В домашних условиях следует компенсировать возможное недосыпание и недоедание ребенка в дошкольном учреждении, вызванное трудностями периода адаптации.
+
+Для скорейшей нормализации состояния ребенка очень важна спокойная обстановка дома, поэтому:
+
+Не следует включать телевизор, радио, магнитофон на большую громкость;
+Чаще находиться с ребенком на свежем воздухе;
+Заниматься с ним спокойными играми, разглядыванием картинок;
+Не следует ходить с ним в гости во время привыкания к условиям детского сада, так как это создает дополнительную нагрузку на нервную систему малыша.
+
+Утром, приводя ребенка в школу, необходимо информировать персонал группы об изменениях в его поведении и состоянии (улучшение, ухудшение), замеченных во время пребывания дома.
+
+Выполнение советов учителя и рекомендации школы перечисленные в Settling In Policy также помогут ребенку быстрее справиться с трудностями периода адаптации. Признаками завершения адаптации является хорошее самочувствие малыша, хороший аппетит, крепкий сон, доброжелательное отношение к сверстникам, учителям.
+
+
+С уважением,
+
+Отдел развития ребенка
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>&quot;Cambridge English&quot;Courses for Young Learners 24/06/2014</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>&quot;Cambridge English&quot;Courses for Young Learners 24/06/2014</name>
+    <style>freeForm</style>
+    <subject>LS Orientation-Meeting the Teacher Letter 23/06/2014</subject>
+    <textOnly>The British School
+of Guangzhou
+
+Dear Parents,
+Please be aware that the first day of the new academic year on Friday 22nd August will be an &apos;Orientation Day&apos; &amp; ‘Meet the Teacher’ Event.
+New Families Only:
+We would like to formally invite new BSG students and parents to join us from 10:00am-12:00pm. You will be able to join your child in their new class and spend some time getting to know the teacher.
+Existing BSG Families:
+Existing parents are then invited to join us from 12:00pm for light refreshments in the Reception area. This will be an opportunity to meet and welcome the new families to BSG.
+At 1:00pm there will be a short presentation in the Hall in which Lower School specific information will be given. At 1:30pm parents will be invited to their child’s class where you will meet their new teacher and teaching assistants who will provide you with information specific to your child’s class to help make your child’s transition as smooth as possible.
+There will be no lessons for children on this day, however, children are welcome to come along to the ‘Orientation’ morning (new children only) and Meet the Teacher event. There will be supervision provided in the new activity room for those children who would like to play with their friends whilst parents are meeting the teachers.
+All students will come to school as normal, with a full bus service being provided, from Monday 25th August.
+We look forward to seeing you and hope you have a relaxing summer holiday.
+Kind regards,
+Miss Kathy
+Head of Lower School
+The British School of Guangzhou
+
+
+
+
+
+World Class Education
+
+
+____________________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

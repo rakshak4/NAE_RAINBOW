@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20150320 Change of dates for Sports Day Primary</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20150320 Change of dates for Sports Day Primary</name>
+    <style>freeForm</style>
+    <subject>Updated Sports Day Information</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+20th March 2015
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}
+
+As you know, we will shortly enjoy use of a superb new sports facility on land across the road from the school. We were hoping to hold our Years 4 - 6 Sports Day on the new field on Monday 30th March. Heavy rain a few weeks ago has delayed progress and we cannot be certain that the field will be ready in time. We have, therefore, taken the decision to postpone this and have scheduled in new dates for the following year groups:
+
+Years 3 &amp; 4: Monday 15 June 2015
+Years 5 &amp; 6: Monday 18 May 2015
+
+This will also allow for a greater number of pupils to be involved competitively.
+
+Early Years and Key Stage 1 (years 1 and 2) Sports Days remain the same and will take place at the school. The dates for these are:
+
+Years 1 &amp; 2: Wednesday 6 May 2015
+Early Years: Wednesday 1st July 2015
+
+We very much hope you will be able to join us.
+
+
+Kind Regards,
+
+Debra Birchall
+Head of Primary
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

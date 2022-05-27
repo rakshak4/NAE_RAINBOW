@@ -1,0 +1,129 @@
+<apex:page controller="searchPageController" showHeader="false"
+  id="wholePage" cache="false">
+
+  <!-- Java script to make 'Return' act as search button /-->
+  <script>
+      function noenter(ev) 
+      {     
+         if (window.event && window.event.keyCode == 13 || ev.which == 13)
+         {
+            var ele=document.getElementById('{!$Component.searchButton}');
+            ele.click();
+            return false;
+         }
+         else
+         {
+            return true;
+         }
+      }
+      
+    
+   </script>
+   <script language="JavaScript">
+<!--
+function resize_iframe()
+{
+
+    var height=window.innerWidth;//Firefox
+    if (document.body.clientHeight)
+    {
+        height=document.body.clientHeight;//IE
+    }
+    //resize the iframe according to the size of the
+    //window (all these should be on the same line)
+    document.getElementById("glu").style.height=parseInt(height-
+    document.getElementById("glu").offsetTop-8)+"px";
+}
+
+// this will resize the iframe every
+// time you change the size of the window.
+window.onresize=resize_iframe; 
+
+//Instead of using this you can use: 
+//  <BODY onresize="resize_iframe()">
+
+
+//-->
+</script>
+   
+
+  <apex:stylesheet value="{!URLFOR($Resource.searchPage)}" />
+  <apex:outputPanel styleClass="wholePage" layout="block">
+    <!--BEGIN HEADER -->
+    <apex:sectionHeader >
+      
+    </apex:sectionHeader>
+    <!-- END HEADER -->
+    <!-- BEGIN SEARCH AREA -->
+   <apex:outputPanel styleClass="searchArea" layout="block">
+      <apex:form id="searchForm">
+     
+        <apex:pageblock >
+                    <apex:pageBlockButtons >
+              <apex:outputText value="Search by Department: " />
+            <apex:selectList value="{!searchPhrase }" size="1">
+            <apex:selectoption itemLabel="All" itemValue="All" ></apex:selectoption>
+            <apex:selectoption itemLabel="Academic" itemValue="Academic" ></apex:selectoption>
+            <apex:selectoption itemLabel="Administration" itemValue="Administration"></apex:selectoption>
+     </apex:selectList>
+
+            <apex:commandButton id="searchButton" value="Search"
+              action="{!micropageSearch}" accesskey="return"
+              onkeypress="return noenter(event);" />
+             
+          </apex:pageBlockButtons>
+          <apex:panelGrid columns="4" id="searchGrid">
+          
+          
+          
+
+            
+            
+                </apex:panelGrid>
+                
+        </apex:pageblock>
+      
+      </apex:form>
+    </apex:outputPanel>
+    
+    
+    
+    
+
+    <!-- END SEARCH AREA -->
+    <!-- BEGIN CONTACT LIST -->
+    <apex:repeat value="{!smallMsClassList}" var="mc" id="contacts">
+      <apex:outputPanel styleClass="info" layout="block">
+        <apex:pageblock >
+          <apex:pageBlockSection columns="1" id="contactPBS">
+            <apex:outputPanel styleClass="imageSetup" layout="block">
+              <apex:outputLink value="{!pathVar}/micropage?id={!mc.id}" id="imgLink">
+                <apex:image id="Img" value="{!mc.photoLink}" />
+              </apex:outputLink>
+            </apex:outputPanel>
+            <apex:outputLink value="{!pathVar}/micropage?id={!mc.id}" id="nameLink">
+            
+            <apex:outputText styleClass="bioHead" value="{!mc.StaffName}"
+              style="headerPB"  />
+            
+             
+             </apex:outputLink>
+            <apex:outputText value="Position: {!mc.Position}" />
+            <apex:outputText value="Country of Origin: {!mc.Nationality}" />
+            <apex:outputText value="" />
+            <apex:outputText value="" />
+            <apex:outputText style="font-weight:800;font-style:italic" value="Click on Name for details" />
+          
+            
+            
+            
+            
+          </apex:pageBlockSection>
+        </apex:pageblock>
+      </apex:outputPanel>
+    </apex:repeat>
+    <!-- END CONTACT LIST -->
+    <!--BEGIN FOOTER -->
+    
+  </apex:outputPanel>
+</apex:page>

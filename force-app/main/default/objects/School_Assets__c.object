@@ -1,0 +1,1963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Accessories__c</fullName>
+        <externalId>false</externalId>
+        <label>Accessories</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bag</fullName>
+                    <default>false</default>
+                    <label>Bag</label>
+                </value>
+                <value>
+                    <fullName>Box</fullName>
+                    <default>false</default>
+                    <label>Box</label>
+                </value>
+                <value>
+                    <fullName>Cover</fullName>
+                    <default>false</default>
+                    <label>Cover</label>
+                </value>
+                <value>
+                    <fullName>Data Cable</fullName>
+                    <default>false</default>
+                    <label>Data Cable</label>
+                </value>
+                <value>
+                    <fullName>Installation CD</fullName>
+                    <default>false</default>
+                    <label>Installation CD</label>
+                </value>
+                <value>
+                    <fullName>Manual</fullName>
+                    <default>false</default>
+                    <label>Manual</label>
+                </value>
+                <value>
+                    <fullName>Memory Card</fullName>
+                    <default>false</default>
+                    <label>Memory Card</label>
+                </value>
+                <value>
+                    <fullName>Power Cable</fullName>
+                    <default>false</default>
+                    <label>Power Cable</label>
+                </value>
+                <value>
+                    <fullName>Protective Cover</fullName>
+                    <default>false</default>
+                    <label>Protective Cover</label>
+                </value>
+                <value>
+                    <fullName>Stand</fullName>
+                    <default>false</default>
+                    <label>Stand</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Alternative_Tag__c</fullName>
+        <externalId>false</externalId>
+        <label>Alternative Tag #</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Asset_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Status_Update_Not_Returned__c &lt;&gt; 0, &quot;Not Returned&quot;,
+
+IF(Status_Update_Stolen__c &lt;&gt; 0, &quot;Stolen&quot;,
+
+IF(Status_Update_Sold__c &lt;&gt; 0, &quot;Sold&quot;,
+
+IF(Status_Update_Lost__c &lt;&gt; 0, &quot;Lost&quot;,
+
+IF(Status_Update_In_Use__c &lt;&gt; 0, &quot;In Use&quot;,
+
+IF( Disposed_Of__c = TRUE, &quot;Disposed Of&quot;,
+
+IF(AND(Count_Active_Asset_Custodies__c = 0, Status_Update_Stolen__c = 0,  Status_Update_Sold__c = 0,  Status_Update_Not_Returned__c = 0,  Status_Update_Lost__c = 0), &quot;In Stock&quot;, &quot;&quot;)))))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Asset Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Computer_Model__c</fullName>
+        <externalId>false</externalId>
+        <label>Computer Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Type__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Chromebook</fullName>
+                    <default>false</default>
+                    <label>Chromebook</label>
+                </value>
+                <value>
+                    <fullName>Windows</fullName>
+                    <default>false</default>
+                    <label>Windows</label>
+                </value>
+                <value>
+                    <fullName>Apple</fullName>
+                    <default>false</default>
+                    <label>Apple</label>
+                </value>
+                <value>
+                    <fullName>Linux</fullName>
+                    <default>false</default>
+                    <label>Linux</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Computer</controllingFieldValue>
+                <valueName>Chromebook</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Computer</controllingFieldValue>
+                <valueName>Windows</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Computer</controllingFieldValue>
+                <valueName>Apple</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Computer</controllingFieldValue>
+                <valueName>Linux</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Count_Active_Asset_Custodies__c</fullName>
+        <externalId>false</externalId>
+        <label>Count Active Asset Custodies</label>
+        <summaryFilterItems>
+            <field>Asset_Custody__c.Status__c</field>
+            <operation>equals</operation>
+            <value>On Loan, Not returned</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Asset_Custody__c.School_Asset__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Count_Asset_Custodies__c</fullName>
+        <externalId>false</externalId>
+        <label>Count Asset Custodies</label>
+        <summaryForeignKey>Asset_Custody__c.School_Asset__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Current_Value__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(AND(TEXT(Status__c) &lt;&gt; &quot;In Use&quot;, TEXT(Status__c) &lt;&gt; &quot;In Stock&quot;, TEXT(Status__c) &lt;&gt; &quot;Not returned&quot;), Expected_Life_Years__c = 0),0, IF((Purchase_Price__c -((TODAY()- Purchase_Date__c )/( Expected_Life_Years__c *365)) * Purchase_Price__c )&lt;0,0,IF((Purchase_Price__c -((TODAY()- Purchase_Date__c )/( Expected_Life_Years__c *365)) * Purchase_Price__c )&gt;Purchase_Price__c,Purchase_Price__c,(Purchase_Price__c -((TODAY()- Purchase_Date__c )/( Expected_Life_Years__c *365)) * Purchase_Price__c ))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>If current value = 0 and you think it should be otherwise, please check that the 4 fields above contain a value</inlineHelpText>
+        <label>Current Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Damage_or_Imperfection__c</fullName>
+        <defaultValue>&quot;None&quot;</defaultValue>
+        <externalId>false</externalId>
+        <label>Damages or Imperfections</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Disposed_Of__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Disposed Of</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Expected_Life_Years__c</fullName>
+        <externalId>false</externalId>
+        <label>Expected Life (Years)</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>External_ID_18_Char__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>The ID of the record in the alternate SFDC org, where applicable.</description>
+        <externalId>true</externalId>
+        <label>External ID (18 Char)</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>FAR_Current_Value__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+   OR(
+      FAR_Lifetime_Number__c  = 0,
+      (Purchase_Price__c -((TODAY()- Purchase_Date__c )/( FAR_Lifetime_Number__c *365)) * Purchase_Price__c)&lt;0),
+      0,
+        (Purchase_Price__c -((TODAY()- Purchase_Date__c )/( FAR_Lifetime_Number__c *365)) * Purchase_Price__c)
+  )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Based on the Purchase Price and FAR Expected Lifetime. Current Value calculates depreciation in a straight line.</inlineHelpText>
+        <label>FAR Current Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>FAR_Expected_Lifetime__c</fullName>
+        <description>Used for calculations of the current asset value for FAR reports for Finance department</description>
+        <externalId>false</externalId>
+        <label>FAR Expected Lifetime</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>3 Years</fullName>
+                    <default>false</default>
+                    <label>3 Years</label>
+                </value>
+                <value>
+                    <fullName>5 Years</fullName>
+                    <default>false</default>
+                    <label>5 Years</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FAR_Lifetime_Number__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE ( TEXT(FAR_Expected_Lifetime__c),
+&quot;5 Years&quot;, 5,
+&quot;3 Years&quot;, 3,
+0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>FAR Lifetime Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lifetime_Text_Agreement__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (
+    TEXT(Type_Drill_Down__c) = &quot;Tablet&quot;,
+    &quot;3 years&quot;,
+    &quot;4 years&quot;
+   )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Lifetime Text (Agreement)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Location__c</fullName>
+        <externalId>false</externalId>
+        <label>Location</label>
+        <length>40</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Model__c</fullName>
+        <externalId>false</externalId>
+        <label>Model</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>New_Used__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+  ( Status_Update_In_Use__c +  Status_Update_Lost__c +  Status_Update_Not_Returned__c +  Status_Update_Sold__c +  Status_Update_Stolen__c ) &gt; 0, 
+  &quot;Used&quot;, 
+  &quot;New&quot;
+  )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>New / Used</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Purchase_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Purchase Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Purchase_Invoice__c</fullName>
+        <externalId>false</externalId>
+        <label>Purchase Invoice #</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Purchase_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Purchase Price</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>School__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Owner:User.School__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>School</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Screen_Model__c</fullName>
+        <externalId>false</externalId>
+        <label>Screen Model</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Screen_Size__c</fullName>
+        <externalId>false</externalId>
+        <label>Screen Size</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Type_Drill_Down__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>11&quot;</fullName>
+                    <default>false</default>
+                    <label>11&quot;</label>
+                </value>
+                <value>
+                    <fullName>13&quot;</fullName>
+                    <default>false</default>
+                    <label>13&quot;</label>
+                </value>
+                <value>
+                    <fullName>15&quot;</fullName>
+                    <default>false</default>
+                    <label>15&quot;</label>
+                </value>
+                <value>
+                    <fullName>17&quot;</fullName>
+                    <default>false</default>
+                    <label>17&quot;</label>
+                </value>
+                <value>
+                    <fullName>19&quot;</fullName>
+                    <default>false</default>
+                    <label>19&quot;</label>
+                </value>
+                <value>
+                    <fullName>21&quot;</fullName>
+                    <default>false</default>
+                    <label>21&quot;</label>
+                </value>
+                <value>
+                    <fullName>24&quot;</fullName>
+                    <default>false</default>
+                    <label>24&quot;</label>
+                </value>
+                <value>
+                    <fullName>27&quot;</fullName>
+                    <default>false</default>
+                    <label>27&quot;</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Server</controllingFieldValue>
+                <controllingFieldValue>Laptop</controllingFieldValue>
+                <controllingFieldValue>Desktop</controllingFieldValue>
+                <valueName>11&quot;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Server</controllingFieldValue>
+                <controllingFieldValue>Laptop</controllingFieldValue>
+                <controllingFieldValue>Desktop</controllingFieldValue>
+                <valueName>13&quot;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Server</controllingFieldValue>
+                <controllingFieldValue>Laptop</controllingFieldValue>
+                <controllingFieldValue>Desktop</controllingFieldValue>
+                <valueName>15&quot;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Server</controllingFieldValue>
+                <controllingFieldValue>Laptop</controllingFieldValue>
+                <controllingFieldValue>Desktop</controllingFieldValue>
+                <valueName>17&quot;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Server</controllingFieldValue>
+                <controllingFieldValue>Laptop</controllingFieldValue>
+                <controllingFieldValue>Desktop</controllingFieldValue>
+                <valueName>19&quot;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Server</controllingFieldValue>
+                <controllingFieldValue>Laptop</controllingFieldValue>
+                <controllingFieldValue>Desktop</controllingFieldValue>
+                <valueName>21&quot;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Server</controllingFieldValue>
+                <controllingFieldValue>Laptop</controllingFieldValue>
+                <controllingFieldValue>Desktop</controllingFieldValue>
+                <valueName>24&quot;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Server</controllingFieldValue>
+                <controllingFieldValue>Laptop</controllingFieldValue>
+                <controllingFieldValue>Desktop</controllingFieldValue>
+                <valueName>27&quot;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Server</controllingFieldValue>
+                <controllingFieldValue>Laptop</controllingFieldValue>
+                <controllingFieldValue>Desktop</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Screen_Warranty_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Screen Warranty End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Screen__c</fullName>
+        <externalId>false</externalId>
+        <label>Screen</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Type_Drill_Down__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>true</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Server</controllingFieldValue>
+                <controllingFieldValue>Laptop</controllingFieldValue>
+                <controllingFieldValue>Desktop</controllingFieldValue>
+                <valueName>Yes</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Server</controllingFieldValue>
+                <controllingFieldValue>Desktop</controllingFieldValue>
+                <valueName>No</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Serial__c</fullName>
+        <externalId>false</externalId>
+        <label>Serial #</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Software_Licenses__c</fullName>
+        <externalId>false</externalId>
+        <label>Software Licenses</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <controllingField>Type__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Operating System</fullName>
+                    <default>false</default>
+                    <label>Operating System</label>
+                </value>
+                <value>
+                    <fullName>Microsoft Office</fullName>
+                    <default>false</default>
+                    <label>Microsoft Office</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Computer</controllingFieldValue>
+                <valueName>Operating System</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Computer</controllingFieldValue>
+                <valueName>Microsoft Office</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Computer</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Status_Update_In_Use__c</fullName>
+        <externalId>false</externalId>
+        <label>Status Update In Use</label>
+        <summaryFilterItems>
+            <field>Asset_Custody__c.Status__c</field>
+            <operation>equals</operation>
+            <value>On Loan, Used in Trolley</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Asset_Custody__c.School_Asset__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Status_Update_Lost__c</fullName>
+        <externalId>false</externalId>
+        <label>Status Update Lost</label>
+        <summaryFilterItems>
+            <field>Asset_Custody__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Lost</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Asset_Custody__c.School_Asset__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Status_Update_Not_Returned__c</fullName>
+        <externalId>false</externalId>
+        <label>Status Update Not Returned</label>
+        <summaryFilterItems>
+            <field>Asset_Custody__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Not returned</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Asset_Custody__c.School_Asset__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Status_Update_Sold__c</fullName>
+        <externalId>false</externalId>
+        <label>Status Update Sold</label>
+        <summaryFilterItems>
+            <field>Asset_Custody__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Sold</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Asset_Custody__c.School_Asset__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Status_Update_Stolen__c</fullName>
+        <externalId>false</externalId>
+        <label>Status Update Stolen</label>
+        <summaryFilterItems>
+            <field>Asset_Custody__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Stolen</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Asset_Custody__c.School_Asset__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>In Use</fullName>
+                    <default>false</default>
+                    <label>In Use</label>
+                </value>
+                <value>
+                    <fullName>In Stock</fullName>
+                    <default>true</default>
+                    <label>In Stock</label>
+                </value>
+                <value>
+                    <fullName>Disposed Of</fullName>
+                    <default>false</default>
+                    <label>Disposed Of</label>
+                </value>
+                <value>
+                    <fullName>Lost</fullName>
+                    <default>false</default>
+                    <label>Lost</label>
+                </value>
+                <value>
+                    <fullName>Stolen</fullName>
+                    <default>false</default>
+                    <label>Stolen</label>
+                </value>
+                <value>
+                    <fullName>Sold</fullName>
+                    <default>false</default>
+                    <label>Sold</label>
+                </value>
+                <value>
+                    <fullName>Not returned</fullName>
+                    <default>false</default>
+                    <label>Not returned</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Supplier__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Supplier</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.Supplier__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>School Assets (Supplier)</relationshipLabel>
+        <relationshipName>School_Assets1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Text_Accesories__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISNULL( Accessories__c ),&quot;&quot;,&quot;Accessories:&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Text Accesories</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type_Drill_Down__c</fullName>
+        <externalId>false</externalId>
+        <label>Type Drill-Down</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Type__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Boat</fullName>
+                    <default>false</default>
+                    <label>Boat</label>
+                </value>
+                <value>
+                    <fullName>Book</fullName>
+                    <default>false</default>
+                    <label>Book</label>
+                </value>
+                <value>
+                    <fullName>Bookshelf</fullName>
+                    <default>false</default>
+                    <label>Bookshelf</label>
+                </value>
+                <value>
+                    <fullName>Camera</fullName>
+                    <default>false</default>
+                    <label>Camera</label>
+                </value>
+                <value>
+                    <fullName>Coffee Machine</fullName>
+                    <default>false</default>
+                    <label>Coffee Machine</label>
+                </value>
+                <value>
+                    <fullName>Desktop</fullName>
+                    <default>false</default>
+                    <label>Desktop</label>
+                </value>
+                <value>
+                    <fullName>Dining Furniture</fullName>
+                    <default>false</default>
+                    <label>Dining Furniture</label>
+                </value>
+                <value>
+                    <fullName>E-Reader</fullName>
+                    <default>false</default>
+                    <label>E-Reader</label>
+                </value>
+                <value>
+                    <fullName>Fax Machine</fullName>
+                    <default>false</default>
+                    <label>Fax Machine</label>
+                </value>
+                <value>
+                    <fullName>Golf Clubs</fullName>
+                    <default>false</default>
+                    <label>Golf Clubs</label>
+                </value>
+                <value>
+                    <fullName>Hard-Drive</fullName>
+                    <default>false</default>
+                    <label>Hard-Drive</label>
+                </value>
+                <value>
+                    <fullName>IWB</fullName>
+                    <default>false</default>
+                    <label>IWB</label>
+                </value>
+                <value>
+                    <fullName>Lamp</fullName>
+                    <default>false</default>
+                    <label>Lamp</label>
+                </value>
+                <value>
+                    <fullName>Laptop</fullName>
+                    <default>false</default>
+                    <label>Laptop</label>
+                </value>
+                <value>
+                    <fullName>Mac OS</fullName>
+                    <default>false</default>
+                    <label>Mac OS</label>
+                </value>
+                <value>
+                    <fullName>Microsoft Office</fullName>
+                    <default>false</default>
+                    <label>Microsoft Office</label>
+                </value>
+                <value>
+                    <fullName>Microsoft Windows OS</fullName>
+                    <default>false</default>
+                    <label>Microsoft Windows OS</label>
+                </value>
+                <value>
+                    <fullName>Mobile Phone</fullName>
+                    <default>false</default>
+                    <label>Mobile Phone</label>
+                </value>
+                <value>
+                    <fullName>Office Tool</fullName>
+                    <default>false</default>
+                    <label>Office Tool</label>
+                </value>
+                <value>
+                    <fullName>Other Academic Material</fullName>
+                    <default>false</default>
+                    <label>Other Academic Material</label>
+                </value>
+                <value>
+                    <fullName>Other Asset</fullName>
+                    <default>false</default>
+                    <label>Other Asset</label>
+                </value>
+                <value>
+                    <fullName>PE Equipment</fullName>
+                    <default>false</default>
+                    <label>PE Equipment</label>
+                </value>
+                <value>
+                    <fullName>Pen-Drive</fullName>
+                    <default>false</default>
+                    <label>Pen-Drive</label>
+                </value>
+                <value>
+                    <fullName>Printer</fullName>
+                    <default>false</default>
+                    <label>Printer</label>
+                </value>
+                <value>
+                    <fullName>Projector</fullName>
+                    <default>false</default>
+                    <label>Projector</label>
+                </value>
+                <value>
+                    <fullName>Scanner</fullName>
+                    <default>false</default>
+                    <label>Scanner</label>
+                </value>
+                <value>
+                    <fullName>School Car</fullName>
+                    <default>false</default>
+                    <label>School Car</label>
+                </value>
+                <value>
+                    <fullName>School Van</fullName>
+                    <default>false</default>
+                    <label>School Van</label>
+                </value>
+                <value>
+                    <fullName>Screen</fullName>
+                    <default>false</default>
+                    <label>Screen</label>
+                </value>
+                <value>
+                    <fullName>Server</fullName>
+                    <default>false</default>
+                    <label>Server</label>
+                </value>
+                <value>
+                    <fullName>Small Table</fullName>
+                    <default>false</default>
+                    <label>Small Table</label>
+                </value>
+                <value>
+                    <fullName>Soft Furniture</fullName>
+                    <default>false</default>
+                    <label>Soft Furniture</label>
+                </value>
+                <value>
+                    <fullName>Speakers</fullName>
+                    <default>false</default>
+                    <label>Speakers</label>
+                </value>
+                <value>
+                    <fullName>Student Chair</fullName>
+                    <default>false</default>
+                    <label>Student Chair</label>
+                </value>
+                <value>
+                    <fullName>Student Desk</fullName>
+                    <default>false</default>
+                    <label>Student Desk</label>
+                </value>
+                <value>
+                    <fullName>Tablet</fullName>
+                    <default>false</default>
+                    <label>Tablet</label>
+                </value>
+                <value>
+                    <fullName>Teacher/Admin Chair</fullName>
+                    <default>false</default>
+                    <label>Teacher/Admin Chair</label>
+                </value>
+                <value>
+                    <fullName>Teacher/Admin Desk</fullName>
+                    <default>false</default>
+                    <label>Teacher/Admin Desk</label>
+                </value>
+                <value>
+                    <fullName>Teaching Software</fullName>
+                    <default>false</default>
+                    <label>Teaching Software</label>
+                </value>
+                <value>
+                    <fullName>Toy</fullName>
+                    <default>false</default>
+                    <label>Toy</label>
+                </value>
+                <value>
+                    <fullName>TV</fullName>
+                    <default>false</default>
+                    <label>TV</label>
+                </value>
+                <value>
+                    <fullName>Other Electronics</fullName>
+                    <default>false</default>
+                    <label>Other Electronics</label>
+                </value>
+                <value>
+                    <fullName>Other Furniture</fullName>
+                    <default>false</default>
+                    <label>Other Furniture</label>
+                </value>
+                <value>
+                    <fullName>Other Software</fullName>
+                    <default>false</default>
+                    <label>Other Software</label>
+                </value>
+                <value>
+                    <fullName>Other Vehicle</fullName>
+                    <default>false</default>
+                    <label>Other Vehicle</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Computer</controllingFieldValue>
+                <valueName>Desktop</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Computer</controllingFieldValue>
+                <valueName>Laptop</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Computer</controllingFieldValue>
+                <valueName>Server</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>Camera</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>Coffee Machine</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>E-Reader</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>Fax Machine</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>Hard-Drive</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>IWB</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>Mobile Phone</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>Pen-Drive</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>Printer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>Projector</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>Scanner</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>Screen</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>Speakers</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>Tablet</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>TV</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>Other Electronics</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Furniture</controllingFieldValue>
+                <valueName>Bookshelf</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Furniture</controllingFieldValue>
+                <valueName>Dining Furniture</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Furniture</controllingFieldValue>
+                <valueName>Lamp</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Furniture</controllingFieldValue>
+                <valueName>PE Equipment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Furniture</controllingFieldValue>
+                <valueName>Small Table</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Furniture</controllingFieldValue>
+                <valueName>Soft Furniture</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Furniture</controllingFieldValue>
+                <valueName>Student Chair</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Furniture</controllingFieldValue>
+                <valueName>Student Desk</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Furniture</controllingFieldValue>
+                <valueName>Teacher/Admin Desk</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Furniture</controllingFieldValue>
+                <valueName>Other Furniture</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Academic Resource</controllingFieldValue>
+                <valueName>Book</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Academic Resource</controllingFieldValue>
+                <valueName>Office Tool</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Academic Resource</controllingFieldValue>
+                <valueName>Other Academic Material</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Academic Resource</controllingFieldValue>
+                <valueName>Toy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Vehicle</controllingFieldValue>
+                <valueName>School Car</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Vehicle</controllingFieldValue>
+                <valueName>School Van</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Vehicle</controllingFieldValue>
+                <valueName>Other Vehicle</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Software/License</controllingFieldValue>
+                <valueName>Microsoft Office</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Software/License</controllingFieldValue>
+                <valueName>Microsoft Windows OS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Software/License</controllingFieldValue>
+                <valueName>Other Software</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Boat</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Golf Clubs</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Other Asset</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Computer</fullName>
+                    <default>false</default>
+                    <label>Computer</label>
+                </value>
+                <value>
+                    <fullName>Electronics</fullName>
+                    <default>false</default>
+                    <label>Electronics</label>
+                </value>
+                <value>
+                    <fullName>Furniture</fullName>
+                    <default>false</default>
+                    <label>Furniture</label>
+                </value>
+                <value>
+                    <fullName>Academic Resource</fullName>
+                    <default>false</default>
+                    <label>Academic Resource</label>
+                </value>
+                <value>
+                    <fullName>Vehicle</fullName>
+                    <default>false</default>
+                    <label>Vehicle</label>
+                </value>
+                <value>
+                    <fullName>Software/License</fullName>
+                    <default>false</default>
+                    <label>Software/License</label>
+                </value>
+                <value>
+                    <fullName>PE Equipment</fullName>
+                    <default>false</default>
+                    <label>PE Equipment</label>
+                </value>
+                <value>
+                    <fullName>Music Instruments</fullName>
+                    <default>false</default>
+                    <label>Music Instruments</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Warranty_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Warranty End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <label>School Asset</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Type__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <columns>Type_Drill_Down__c</columns>
+        <columns>Purchase_Date__c</columns>
+        <columns>Purchase_Price__c</columns>
+        <columns>Expected_Life_Years__c</columns>
+        <columns>Current_Value__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Laptops</fullName>
+        <columns>NAME</columns>
+        <columns>Type__c</columns>
+        <columns>Type_Drill_Down__c</columns>
+        <columns>Model__c</columns>
+        <columns>Serial__c</columns>
+        <columns>Purchase_Date__c</columns>
+        <columns>Current_Value__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Type_Drill_Down__c</field>
+            <operation>equals</operation>
+            <value>Laptop</value>
+        </filters>
+        <label>Laptops</label>
+    </listViews>
+    <listViews>
+        <fullName>Mobile_Phones</fullName>
+        <columns>NAME</columns>
+        <columns>Type__c</columns>
+        <columns>Type_Drill_Down__c</columns>
+        <columns>Model__c</columns>
+        <columns>Serial__c</columns>
+        <columns>Purchase_Date__c</columns>
+        <columns>Current_Value__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Type_Drill_Down__c</field>
+            <operation>equals</operation>
+            <value>Mobile Phone</value>
+        </filters>
+        <label>Mobile Phones</label>
+    </listViews>
+    <listViews>
+        <fullName>Tablets</fullName>
+        <columns>NAME</columns>
+        <columns>Type__c</columns>
+        <columns>Type_Drill_Down__c</columns>
+        <columns>Model__c</columns>
+        <columns>Serial__c</columns>
+        <columns>Purchase_Date__c</columns>
+        <columns>Current_Value__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Type_Drill_Down__c</field>
+            <operation>equals</operation>
+            <value>Tablet</value>
+        </filters>
+        <label>Tablets</label>
+    </listViews>
+    <nameField>
+        <displayFormat>A-{0000}</displayFormat>
+        <label>ID #</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>School Assets</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>School_Assets</fullName>
+        <active>true</active>
+        <label>School Assets</label>
+        <picklistValues>
+            <picklist>Accessories__c</picklist>
+            <values>
+                <fullName>Bag</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Box</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cover</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Cable</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Installation CD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Memory Card</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Power Cable</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Protective Cover</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stand</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Computer_Model__c</picklist>
+            <values>
+                <fullName>Apple</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chromebook</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Linux</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FAR_Expected_Lifetime__c</picklist>
+            <values>
+                <fullName>3 Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5 Years</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Screen_Size__c</picklist>
+            <values>
+                <fullName>11%22</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>13%22</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>15%22</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>17%22</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>19%22</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>21%22</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>24%22</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>27%22</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Screen__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Software_Licenses__c</picklist>
+            <values>
+                <fullName>Microsoft Office</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operating System</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Disposed Of</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Stock</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Use</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Lost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not returned</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stolen</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type_Drill_Down__c</picklist>
+            <values>
+                <fullName>Boat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Book</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bookshelf</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Camera</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coffee Machine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Desktop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dining Furniture</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E-Reader</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fax Machine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Golf Clubs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hard-Drive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IWB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lamp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Laptop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mac OS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Microsoft Office</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Microsoft Windows OS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mobile Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Office Tool</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other Academic Material</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other Asset</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other Electronics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other Furniture</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other Software</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other Vehicle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PE Equipment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pen-Drive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Printer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Projector</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scanner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>School Car</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>School Van</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Screen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Server</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Small Table</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Soft Furniture</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Speakers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Student Chair</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Student Desk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tablet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Teacher%2FAdmin Chair</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Teacher%2FAdmin Desk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Teaching Software</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Toy</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Academic Resource</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electronics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Furniture</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Music Instruments</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PE Equipment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Software%2FLicense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Type_Drill_Down__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Model__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Alternative_Tag__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Type_Drill_Down__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Model__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Location__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Serial__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Alternative_Tag__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Type__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Type_Drill_Down__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Model__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Location__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>Model__c</searchFilterFields>
+        <searchFilterFields>Type_Drill_Down__c</searchFilterFields>
+        <searchFilterFields>Alternative_Tag__c</searchFilterFields>
+        <searchResultsAdditionalFields>Alternative_Tag__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Type_Drill_Down__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Model__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Location__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Serial__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>Purchase_Price_and_Expected_Life</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(Purchase_Price__c &lt;&gt; 0,  Expected_Life_Years__c = 0)</errorConditionFormula>
+        <errorMessage>You have entered a purchase price so you need to add an expected life</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Verife_Type_Drill_Down</fullName>
+        <active>true</active>
+        <description>Verifies that a Type Drill Down is selected</description>
+        <errorConditionFormula>AND(
+    TEXT(Type__c)&lt;&gt;&quot;PE Equipment&quot;,
+    TEXT(Type__c)&lt;&gt;&quot;Music Instruments&quot;,
+    TEXT( Type_Drill_Down__c )=&quot;&quot;
+    )</errorConditionFormula>
+        <errorDisplayField>Type_Drill_Down__c</errorDisplayField>
+        <errorMessage>You must select an Asset Type Drill Down</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Verify_Computer_Type</fullName>
+        <active>true</active>
+        <description>Ensures a Computer Type is selected</description>
+        <errorConditionFormula>AND(TEXT( Type__c )=&quot;Computer&quot;,TEXT( Computer_Model__c )=&quot;&quot;)</errorConditionFormula>
+        <errorDisplayField>Computer_Model__c</errorDisplayField>
+        <errorMessage>You must select a Computer Type</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Verify_Type</fullName>
+        <active>true</active>
+        <description>Verifies that an Asset Type is included</description>
+        <errorConditionFormula>TEXT(Type__c)=&quot;&quot;</errorConditionFormula>
+        <errorDisplayField>Type__c</errorDisplayField>
+        <errorMessage>You Must Select an Asset Type</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Multiple_Files</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Multiple Files</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/</url>
+    </webLinks>
+</CustomObject>

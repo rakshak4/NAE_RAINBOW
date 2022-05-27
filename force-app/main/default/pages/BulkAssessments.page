@@ -1,0 +1,96 @@
+<apex:page showHeader="false" sidebar="false" standardController="Group__c" extensions="BulkAssessments_Controller">
+   <apex:includeScript value="{!$Resource.jQuery}"/>
+   <apex:includeScript value="{!URLFOR($Resource.jQueryBlockUI, 'jquery.blockUI.js')}"/>
+   <apex:form id="mainform">
+        <script>
+            function close_window() {
+                //alert('1');
+                window.opener.location.href = "/apex/Tabbed_Group_Detail?id={!groupId}&stab=assessment";
+                self.close();
+               // alert('2');
+                return false;
+             
+            }
+            function saveAssesmments(btn){
+                /*if(btn.value == 'Save'){
+                    //alert('allow save 1');
+                    btn.value = 'Saving Assessments...';
+                    //alert('allow save 2');
+                }else if(btn.value == 'Saving Assessments...'){
+                    //alert('dont allow save 1');
+                    return false;
+                }*/
+                $.blockUI({ message: '<h1>Just a moment...</h1>' });
+                return true;
+            }
+        </script>
+        <apex:pageBlock title="{!grp.Name} ({!folder.Title__c})">
+            <apex:pageMessages />
+            <apex:pageBlockButtons location="bottom">
+                <!-- <apex:actionStatus id="saveStatus">
+                    <apex:facet name="stop">
+                        <apex:commandButton value="Save" action="{!saveAssessments}" reRender="mainform" status="saveStatus"/>
+                    </apex:facet>
+                    <apex:facet name="start">
+                        <apex:commandButton value="Saving Assessments..." disabled="true"/>
+                    </apex:facet>
+                </apex:actionStatus> -->
+                
+                <apex:commandButton id="savebutton" onclick="saveAssesmments(this);" value="Save" action="{!saveAssessments}"/>
+                <apex:commandButton value="Close Window" onClick="return close_window();" immediate="true"/> 
+            </apex:pageBlockButtons>
+        
+        <apex:pageBlockSection columns="1" title="Manage Assessments">
+        <apex:pageBlockTable value="{!assessments}" var="assessment" >
+            <apex:column >
+                <apex:facet name="header">{!$ObjectType.Assesment__c.Fields.Student__c.Label}</apex:facet>
+                <apex:outputPanel layout="block">
+                    <apex:outputPanel rendered="{!IF(assessment.assessment.Id != null, true, false)}">
+                        <apex:image id="theImage" value="{!$Resource.check_image}"/>
+                    </apex:outputPanel>
+                    <b>{!assessment.studentRegistration.Student__r.Student_Name__c}</b>
+                    <apex:outputPanel rendered="{!IF(assessment.studentRegistration.Student__r.Stage__c == 'Left', true, false)}">
+                        [LEFT SCHOOL]
+                    </apex:outputPanel>
+                </apex:outputPanel>    
+            </apex:column>
+            
+            <apex:column >
+                <apex:facet name="header">{!$ObjectType.Assesment__c.Fields.Achievement__c.Label}</apex:facet>
+                <apex:inputField value="{!assessment.assessment.Achievement__c}"/>  
+            </apex:column>
+            
+            <apex:column >
+                <apex:facet name="header">{!$ObjectType.Assesment__c.Fields.Effort__c.Label}</apex:facet>
+                <apex:inputField value="{!assessment.assessment.Effort__c}"/>  
+            </apex:column>
+            
+            <apex:column >
+                <apex:facet name="header">{!$ObjectType.Assesment__c.Fields.Grade__c.Label}</apex:facet>
+                <apex:inputField value="{!assessment.assessment.Grade__c}" style="width:30px;"/>  
+            </apex:column>
+            
+            <apex:column rendered="{!IF(!ISBLANK(folder.Include_Target_Predicted_Grade__c),true,false)}">
+                <apex:facet name="header">{!folder.Include_Target_Predicted_Grade__c}</apex:facet>
+                <apex:inputField value="{!assessment.assessment.Target_Predicted_Grade__c}" style="width:30px;"/>  
+            </apex:column>
+            
+            <apex:column >
+                <apex:facet name="header">{!$ObjectType.Assesment__c.Fields.Comment__c.Label}</apex:facet>
+                <apex:inputTextarea value="{!assessment.assessment.Comment__c}" cols="90" rows="7"/>   
+            </apex:column>
+            
+            <apex:column >
+                <apex:facet name="header">{!$ObjectType.Assesment__c.Fields.Auto_Approve__c.Label}</apex:facet>
+                <apex:outputfield value="{!assessment.assessment.Auto_Approve__c}"/>   
+            </apex:column>
+            <!--<apex:column >
+                <apex:facet name="header">{!$ObjectType.Assesment__c.Fields.Comments_for_Teacher__c.Label}</apex:facet>
+                <apex:outputfield value="{!assessment.assessment.Comments_for_Teacher__c}"/>   
+            </apex:column>-->
+        </apex:pageBlockTable>
+        </apex:pageBlockSection>
+        <apex:pageMessages />
+        </apex:pageBlock> 
+   </apex:form>
+</apex:page>

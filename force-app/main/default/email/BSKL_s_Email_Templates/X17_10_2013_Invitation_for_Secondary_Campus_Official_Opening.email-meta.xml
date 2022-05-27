@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>17/10/2013 Invitation for Secondary Campus Official Opening</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>17/10/2013 Invitation for Secondary Campus Official Opening</name>
+    <style>freeForm</style>
+    <subject>Invitation for Secondary Campus Official Opening</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+Invitation for Secondary Campus Official Opening
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+It is our great pleasure to invite you all to the official opening of our secondary campus on Friday,8th November 2013 from 10am onwards in our 600 seater theatre. Please take note expected time to finish is at 11am.
+
+I am sure many of you have now had the opportunity to visit our secondary campus and see the amazing facilities. For those of you with children in Year 4-9 who attend our secondary campus we would be delighted if you could help us celebrate such a wonderful campus.
+
+The Deputy British High Commissioner, Mr Ray Kyles will be opening the ceremony and dignitaries representing the wonderful multi-cultural community of the school, which we are all proud of, will also be in attendance.
+
+Please see attached invitation for details. Kindly RSVP before or by 12noon, 24th October 2013.
+
+Official Opening Invitation Card
+https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004S4K/1Iy6T_lDtmzSNh2aI2aD0YprMeye4xeVhd0puTRaMAI=
+
+Warm Regards,
+Janet Brock
+Headteacher
+The British International School of Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Thank you for attending our &apos;Next New Chapter&apos; event yesterday</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Thank you for attending our &apos;Next New Chapter&apos; event yesterday</name>
+    <style>freeForm</style>
+    <subject>Thank you for attending our &apos;Next New Chapter&apos; event yesterday</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

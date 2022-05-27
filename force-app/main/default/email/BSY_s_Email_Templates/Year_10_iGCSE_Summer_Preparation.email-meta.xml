@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Year 10 (iGCSE) - Summer Preparation</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Year 10 (iGCSE) - Summer Preparation</name>
+    <style>freeForm</style>
+    <subject>Year 10 (iGCSE) - Summer Preparation</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

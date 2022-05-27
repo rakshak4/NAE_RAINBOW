@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Symptoms and Prevention</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Symptoms and Prevention</name>
+    <style>freeForm</style>
+    <subject>Symptoms and Prevention</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+
+
+
+
+
+
+
+
+
+Influenza
+
+
+
+
+
+
+Dear parents,
+
+
+We have noted an increase in the number of cases of flu over the last few weeks.  Flu is especially common in winter, and is much more serious than a common cold. To minimise the spread of the flu virus it is important that children displaying any of the symptoms are kept at home until they are no longer infectious. For children, the contagious period for the flu can last up to two weeks after they start feeling sick. During this period, contact with other children should be avoided and the child should stay away from school until he/she has fully recovered.
+
+The following advice can help you and your family to manage Flu at home.
+
+
+1. If children have flu-like symptoms, they should rest at home, keep warm and drink plenty of water to avoid dehydration.
+
+
+
+2. Maintain high standards of personal and environmental hygiene to minimise the spread of Flu. Parents should ensure that children adopt the following good practices:
+
+
+·
+
+Wash hands regularly with soap and water;
+Regularly clean surfaces such as keyboard, telephone and door handles to get rid of germs;
+Cover mouth and nose, with tissues, when coughing or sneezing;
+Put used tissues in a bin as soon as possible;
+Do not share eating utensils if you have the flu;
+Do not share any food or drinks if you have the flu.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Your support in helping us to minimise the spread of any flu virus is greatly appreciated. Wish you all a lovely Chinese New Year holidays!
+
+
+
+
+Regards,
+
+
+Upper School Nurse Lynn Li
+
+
+The British School of Guangzhou
+
+
+
+
+
+World Class Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

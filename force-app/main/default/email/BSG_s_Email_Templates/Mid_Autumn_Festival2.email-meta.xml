@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Mid-Autumn Festival 2014</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Mid-Autumn Festival 2014</name>
+    <style>freeForm</style>
+    <subject>Mid-Autumn Festival 2014</subject>
+    <textOnly>The British School
+of Guangzhou
+
+请点击此处阅读此邮件的中文版本
+
+
+
+Friday, 29th August
+
+Dear Parents,
+
+
+Friday 5th September 2014 will be the last day before our Mid-Autumn festival break.  The Chinese Department kindly ask all school students to come to school dressed in either their traditional Chinese costumes, or red, yellow or gold clothing to help create a fun festival atmosphere. We will be having a Mid-Autumn Festival themed lunch including some Chinese dishes and Chinese desert on Friday.
+
+
+Please note school will be closed on Monday 8th September.
+
+
+Regards,
+
+
+Dan Wang
+
+Head of Chinese Department
+
+
+The British School of Guangzhou
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+____________________________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

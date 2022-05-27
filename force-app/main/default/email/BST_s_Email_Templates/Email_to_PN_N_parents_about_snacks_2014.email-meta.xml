@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to PN-N parents about snack fees 2014</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Email to PN-N parents  about snacks 2014</name>
+    <style>freeForm</style>
+    <subject>Snacks for Pre Nursery and Nursery students.</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I hope you are enjoying the holiday.
+
+
+I just wanted to clarify for you personally that we will not be charging Pre Nursery or Nursery classes for snacks. Everything will continue as normal. There seems to be one or two stories put out by unreliable sources stating the opposite.
+
+
+I hope this makes it clear for you.
+
+
+Many thanks
+
+David Kirkham
+
+
+
+Уважаемые родители,
+
+
+
+Надеюсь Вы хорошо проводите каникулы.
+
+
+
+Убедительно напоминаем Вам, что закуски для учеников групп Pre Nursery и Nursery предоставляются бесплатно, как и раньше. В связи с неправильно распространённой информацией, родители были введены в заблуждение о том, что закуски для вышеперечисленных групп платные, что является неверным.
+
+
+Надеюсь, теперь ситуация прояснится.
+
+
+С уважением,
+
+Дэвид Киркхам
+
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

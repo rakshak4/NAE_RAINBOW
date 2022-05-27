@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>22/05/2013 BSKL Ski Trip to Verbier, Switzerland</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>22/05/2013 BSKL Ski Trip to Verbier, Switzerland</name>
+    <style>freeForm</style>
+    <subject>BSKL Ski Trip to Verbier, Switzerland</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+BSKL would like to run a ski trip next year in Verbier, Switzerland. The programme is attached here (https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004Qsd/678ZlPiGYJa63UZ2gEGW255MYGBtjRnprNgw5Gt1XeE=) and the approximate cost will be RM11,000 which can be paid in instalments before the trip. Please see the attached information regarding the programme. Students in Year 4 to Year 9 in Term 2 (Jan-Apr) 2014 will be eligible for the trip. The dates will be 26th January to 2nd Febuary 2014. The cost will include the following:
+
+Full international insurance
+Flights
+Accommodation
+All meals
+All ski clothes and equipment hire if needed
+Transfer Geneva – Resort – Geneva
+Accommodation in 4 bedded rooms with ensuite bath room  7 days
+Full-board 7 days with 4 meals per day (breakfast, lunch, afternoon tea, dinner)
+6 days ski pass
+6 days ski lessons in the mornings and accompanied ski lessons in the afternoons
+Rental of ski equipment (ski, poles, ski shoes) 6 days
+Après-ski activities from 16.30 – 18.30
+Evening activities from 20.00 – 22.00
+Daily cleaning of the rooms
+Taxes and services, bedlinen and towels
+Free use of our games room
+Free entrance to Sports Centre (swimming-pool, ice skating)
+Program ends with ski competition, BBQ on the slopes and prize giving
+Taxes and services
+
+It will be a trip of a lifetime for your children and a chance to learn how to ski, meet new students from other schools and have a lot of fun. It was in my top 3 trips when went to school. It may seem like a long way to travel for a Ski Trip but the provider has a fantastic reputation, safety standards and excellent customer service. Please complete the electronic form below if you are interested on your participating in the trip child. There is a section for you to state any concerns or provide feedback if you wish to do so regarding the trip. The deadline to complete the show of interest form is June 7th 2013. There are unfortunately limited places for this trip, those who complete the below form first will reserve their places first. If there are not enough students who want to go on the trip then it will not go ahead. We look forward to you support and feedback.
+
+Click here for BSKL Ski Trip interest form (https://docs.google.com/forms/d/1UdetqWyDl3yymOYf7f73JnysusECjqLM4eyBthThgBM/viewform?pli=1)
+
+Kind regards,
+
+Harrie Thomson
+Head of Physical Education
+Director of Middle School After School Activities
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

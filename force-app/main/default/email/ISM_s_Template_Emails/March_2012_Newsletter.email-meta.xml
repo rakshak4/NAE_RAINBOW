@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>March 2012 Newsletter</name>
+    <style>freeForm</style>
+    <subject>March 2012 Newsletter</subject>
+    <textOnly>Dear Parents,
+
+Please find below the link to our last Newsletter of the Spring term, March 2012.
+
+Catch up with all the educational and fun things that your children have been doing!
+
+http://www.internationalschool.ru/info/Quicklinks/Newsletters/en/
+
+
+Happy Easter break,
+
+Admissions Department</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

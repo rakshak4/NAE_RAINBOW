@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Russian Classes for Parents</name>
+    <style>freeForm</style>
+    <subject>Russian Lessons for Parents</subject>
+    <textOnly>Dear Parents,
+Mrs Lilia Andreeva, a parent in the school is offering our school community a great opportunity to learn Russian.
+Her advertisement is outlined below......
+Russian Conversational classes for school parents during after school club activities. &lt;br&gt;Tuesday- Beginners 3:30- 4:30 Upper Campus&lt;br&gt;Wednesday- Intermediate 3:30 - 4:30 Upper campus&lt;br&gt;
+This is a great opportunity for all to break down the barrier and talk in Russian! &lt;br&gt;
+If you would like to take advantage of such a great opportunity, please contact Lilia directly onlilia-andreeva@yandex.ru
+These lessons will commence on the 20th September, 2011.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

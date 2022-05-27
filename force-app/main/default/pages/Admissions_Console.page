@@ -1,0 +1,41 @@
+<apex:page standardController="Lead" sidebar="false">
+
+<script type="text/javascript" src="resource/popup"></script>
+<style type="text/css">
+<!--
+#blanket {
+   background-color:#111;
+   opacity: 0.65;
+   position:absolute;
+   z-index: 9001; /*ooveeerrrr nine thoussaaaannnd*/
+   top:0px;
+   left:0px;
+   width:100%;
+}
+#popUpDiv {
+    position:absolute;
+    background-color:#eeeeee;
+    width:300px;
+    height:300px;
+    z-index: 9002; /*ooveeerrrr nine thoussaaaannnd*/
+--> 
+</style>
+
+<body>
+    <div id="blanket" style="display:none;"></div>
+    <div id="popUpDiv" style="display:none;"></div>
+
+
+<apex:enhancedList height="500" listId="00BD0000007zPbv" customizable="true" rowsPerPage="10"/>
+
+
+<apex:iframe scrolling="true" height="1200" id="detailrecord" frameborder="true" src="/apex/EnquiryPage">
+
+   
+</apex:iframe>
+
+</body>
+
+ 
+        
+</apex:page>

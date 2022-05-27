@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Traffic</name>
+    <style>formalLetter</style>
+    <subject>Traffic</subject>
+    <textOnly>The International School of Moscow
+Dear Parents,
+Following several requests from the parents we are sending out the traffic procedures for the morning drop off and afternoon pick up. Please note that the traffic schemes are available in both English and Russian. 
+It has been noticed by the security team and some parents that many drivers tend to not follow the procedure and therefore worsen the traffic situation. We are kindly asking you to print the Russian version of the traffic scheme and give it to your driver to ensure that he is familiar with the procedure and can follow it. 
+Thank you and kind regards,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

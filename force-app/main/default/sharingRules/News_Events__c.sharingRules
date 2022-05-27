@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>BCB_Share_Events_With_Whole_School</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BCB Share Events With Whole School</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Headteacher_BCB</roleAndSubordinatesInternal>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Event Translation,Notice,Holiday,Holiday Translation,Event,Notice Translation,Term,Term Translation</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Share_with_Admin_Dept_of__c</field>
+            <operation>equals</operation>
+            <value>The British College of Brazil</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The British College of Brazil</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BCB_Share_News_Events_with_Content_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BCB Share News &amp; Events with Content Managers</label>
+        <sharedTo>
+            <group>BCB_News_Events_Managers</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Share_with_Admin_Dept_of__c</field>
+            <operation>equals</operation>
+            <value>The British College of Brazil</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The British College of Brazil</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BCB_Share_Notices_Events_With_Portal_Liaisons</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BCB Share Notices &amp; Events With Portal Liaisons</label>
+        <sharedTo>
+            <group>BCB_Portal_Liaisons</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Notice,Event</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Share_with_Admin_Dept_of__c</field>
+            <operation>equals</operation>
+            <value>The British College of Brazil</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The British College of Brazil</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSKL_Share_Events_With_Whole_School</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSKL Share Events With Whole School</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Headteacher_BSKL</roleAndSubordinatesInternal>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Event Translation,Notice,Holiday,Holiday Translation,Event,Notice Translation,Term,Term Translation</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Share_with_Admin_Dept_of__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Kuala Lumpur</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Kuala Lumpur</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSKL_Share_News_Events_with_Content_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSKL Share News &amp; Events with Content Managers</label>
+        <sharedTo>
+            <group>BSKL_News_Events_Managers</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Share_with_Admin_Dept_of__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Kuala Lumpur</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Kuala Lumpur</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSKL_Share_Notices_Events_With_Portal_Liaisons</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSKL Share Notices &amp; Events With Portal Liaisons</label>
+        <sharedTo>
+            <group>BSKL_Portal_Liaisons</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Notice,Event</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Share_with_Admin_Dept_of__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Kuala Lumpur</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Kuala Lumpur</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSNJ_Share_Events_With_Whole_School</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSNJ Share Events With Whole School</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Headteacher_BSNJ</roleAndSubordinatesInternal>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Event Translation,Notice,Holiday,Holiday Translation,Event,Notice Translation,Term,Term Translation</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Share_with_Admin_Dept_of__c</field>
+            <operation>equals</operation>
+            <value>The British School of Nanjing</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The British School of Nanjing</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSNJ_Share_News_Events_with_Content_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSNJ Share News &amp; Events with Content Managers</label>
+        <sharedTo>
+            <group>BSNJ_News_Events_Managers</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Share_with_Admin_Dept_of__c</field>
+            <operation>equals</operation>
+            <value>The British School of Nanjing</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The British School of Nanjing</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSNJ_Share_Notices_Events_With_Portal_Liaisons</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSNJ Share Notices &amp; Events With Portal Liaisons</label>
+        <sharedTo>
+            <group>BSNJ_Portal_Liaisons</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Notice,Event</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Share_with_Admin_Dept_of__c</field>
+            <operation>equals</operation>
+            <value>The British School of Nanjing</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The British School of Nanjing</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BST_Share_Events_With_Whole_School</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BST Share Events With Whole School</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BST_Headteacher</roleAndSubordinatesInternal>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Event Translation,Notice,Holiday,Holiday Translation,Event,Notice Translation,Term,Term Translation</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Share_with_Admin_Dept_of__c</field>
+            <operation>equals</operation>
+            <value>The British School of Tashkent</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The British School of Tashkent</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BST_Share_News_Events_with_Content_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BST Share News &amp; Events with Content Managers</label>
+        <sharedTo>
+            <group>BST_News_Events_Managers</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Share_with_Admin_Dept_of__c</field>
+            <operation>equals</operation>
+            <value>The British School of Tashkent</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The British School of Tashkent</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BST_Share_Notices_Events_With_Portal_Liaisons</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BST Share Notices &amp; Events With Portal Liaisons</label>
+        <sharedTo>
+            <group>BST_Portal_Liaisons</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Notice,Event</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Share_with_Admin_Dept_of__c</field>
+            <operation>equals</operation>
+            <value>The British School of Tashkent</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The British School of Tashkent</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSY_Share_Events_With_Whole_School</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSY Share Events With Whole School</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSY_Headteacher</roleAndSubordinatesInternal>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Event Translation,Notice,Holiday,Holiday Translation,Event,Notice Translation,Term,Term Translation</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Share_with_Admin_Dept_of__c</field>
+            <operation>equals</operation>
+            <value>The British School Yangon</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The British School Yangon</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSY_Share_News_Events_with_Content_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSY Share News &amp; Events with Content Managers</label>
+        <sharedTo>
+            <group>BSY_News_Events_Managers</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Share_with_Admin_Dept_of__c</field>
+            <operation>equals</operation>
+            <value>The British School Yangon</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The British School Yangon</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSY_Share_Notices_Events_With_Portal_Liaisons</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSY Share Notices &amp; Events With Portal Liaisons</label>
+        <sharedTo>
+            <group>BSY_Portal_Liaisons</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Notice,Event</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Share_with_Admin_Dept_of__c</field>
+            <operation>equals</operation>
+            <value>The British School Yangon</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The British School Yangon</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>ISM_Share_Events_With_Whole_School</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>ISM Share Events With Whole School</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Headteacher_ISM</roleAndSubordinatesInternal>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Event Translation,Notice,Holiday,Holiday Translation,Event,Notice Translation,Term,Term Translation</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Share_with_Admin_Dept_of__c</field>
+            <operation>equals</operation>
+            <value>The International School of Moscow</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The International School of Moscow</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>ISM_Share_News_Events_with_Content_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>ISM Share News &amp; Events with Content Managers</label>
+        <sharedTo>
+            <group>ISM_News_Events_Managers</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Share_with_Admin_Dept_of__c</field>
+            <operation>equals</operation>
+            <value>The International School of Moscow</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The International School of Moscow</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>ISM_Share_Notices_Events_With_Portal_Liaisons</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>ISM Share Notices &amp; Events With Portal Liaisons</label>
+        <sharedTo>
+            <group>ISM_Portal_Liaisons</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Notice,Event</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Share_with_Admin_Dept_of__c</field>
+            <operation>equals</operation>
+            <value>The International School of Moscow</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The International School of Moscow</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>NAISM_Share_Events_With_Whole_School</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>NAISM Share Events With Whole School</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>NAISM_Headteacher</roleAndSubordinatesInternal>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Event Translation,Notice,Holiday,Holiday Translation,Event,Notice Translation,Term,Term Translation</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Share_with_Admin_Dept_of__c</field>
+            <operation>equals</operation>
+            <value>Nord Anglia International School Manila</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>Nord Anglia International School Manila</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>NAISM_Share_News_Events_with_Content_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>NAISM Share News &amp; Events with Content Managers</label>
+        <sharedTo>
+            <group>NAISM_News_Events_Managers</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Share_with_Admin_Dept_of__c</field>
+            <operation>equals</operation>
+            <value>Nord Anglia International School Manila</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>Nord Anglia International School Manila</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>NAISM_Share_Notices_Events_With_Portal_Liaisons</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>NAISM Share Notices &amp; Events With Portal Liaisons</label>
+        <sharedTo>
+            <group>NAISM_Portal_Liaisons</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Notice,Event</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Share_with_Admin_Dept_of__c</field>
+            <operation>equals</operation>
+            <value>Nord Anglia International School Manila</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>Nord Anglia International School Manila</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_NAE_News_Events_with_NAE_Marketing_Team</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share NAE News &amp; Events with NAE Marketing Team</label>
+        <sharedTo>
+            <group>NAE_Group_Marketing</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>Nord Anglia International School Manila,The British College of Brazil,The British International School of Kuala Lumpur,NAE,The British School Yangon,The British School of Nanjing,The British School of Tashkent,The International School of Moscow</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>BSKL_Head_of_Secondary_Share_Events_with_PA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSKL Head of Secondary Share Events with PA</label>
+        <sharedTo>
+            <group>BSKL_Head_of_Secondary_PA</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>BSKL_Head_of_Secondary</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

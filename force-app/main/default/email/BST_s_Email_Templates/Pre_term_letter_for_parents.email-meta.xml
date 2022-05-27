@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Pre-term letter for parents</name>
+    <style>freeForm</style>
+    <subject>Pre-term letter for parents</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please find attached essential information about routines for the new school year at the British School of Tashkent, commencing Monday 3rd September 2012. 
+ 
+We look forward to welcoming you and your children on that date.
+ 
+Kind regards,
+ 
+Уважаемые родители,
+ 
+Посмотрите, пожалуйста, в приложении важную информацию о распорядке дня на новый учебный год в Битанской школе.
+
+C нетерпением ждем встречи с Вами в понедельник, 3 сентября.
+ 
+С наилучшими пожеланиями,  
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

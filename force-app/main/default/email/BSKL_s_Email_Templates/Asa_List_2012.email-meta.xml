@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Asa List 2012</name>
+    <style>freeForm</style>
+    <subject>ASA registers</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I hope this email finds you all well.
+We would like to thank you all, for your patience and cooperation with the ASA emails. We have now completed the ASA registers from all the emails and applications we have received. The registers are attached to this email for your attention.
+Please check them to see which ASA&apos;s your children have been placed in. We have tried to place all the pupils in their first choice clubs and emails have been reviewed in the order they have been received. We hope the pupils are looking forward to getting started next week.
+Click Here to download ASA Register
+The After-School Activities will begin on Tuesday, 2nd October from 3.00pm to 4.00pm every Tuesday and Thursday and will now finish on 28th November 2012.
+*Please note: For ASA’s at The Club buses from school are available. They will depart BSKL at 3.10pm. ASA’s that are at the club include Tennis and Swimming. Parents must arrange for the pick-up of their children from The Club after the ASA’s are finished at 4.00pm.
+** Please note:  For ASA’s at KBU College buses to KBU and back to the BSKL are available.  They will depart school at 3.10pm and will return to school by 4.10pm.  The students would then either take the school bus service home or be collected by parents/guardians.  ASA’s at KBU are on Tuesday’s and Thursdays only.
+If you have queries please contact us at asa@britishschool.edu.my as soon as possible.
+
+
+Kind Regards,
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

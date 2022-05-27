@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>26/04/2013 Recycling Week 2</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>26/04/2013 Recycling Week 2</name>
+    <style>freeForm</style>
+    <subject>Recycling Week</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+An exciting opportunity to help save the environment! Recycling week will be held at the school from May 13-17 where there will be many exciting activities lined up for the students.
+ 
+Recycling week will start off with a special Assembly on Monday at 8.15am which will focus on recycling. All parents are invited to this assembly
+ 
+There will also be a competition between the houses to collect the most recyclables within that week. We will begin collection of the following materials on the days stated below. Kindly help your child to bring in the right materials on the respective days. Please note that clothes and shoes will be donated to various charities and as such, need to be in fairly good condition. Also for cartons and bottles or any food containers kindly ensure that they are clean and dry before sending them in. There will be four bins set up in the school for each house (Normans, Romans, Saxons and Vikings) and at the end of the day, the total amount collected by each house will be tallied up for each item and one house will be declared the winner for each category.
+ 
+Please help your child to bring in the following:
+ 
+Monday - clothes and shoes
+ 
+Tuesday - Paper
+ 
+Wednesday - Plastics
+ 
+Thursday - Cartons and tins
+ 
+In conjunction with Recycling week a Ring Pull project which will run throughout the month of May to highlight the usefulness of recycling in helping the less fortunate. One of our students at BSKL, Kaellen in year 4, has come up with a proposal to help the prostheses foundation   http://www.prosthesesfoundation.or.th/en/  by collecting ring tabs from aluminium cans. The money used from selling these ring tabs will be used to make artificial limbs. Kaellan&apos;s Ring Pull project will run from the 2nd till 31st May, so you can start collecting from now and the collection bottles for the tabs will be placed in every classroom. Recycle for charity.
+ 
+The teachers will also be conducting various other activities in class during the week,to highlight the importance of recycling and what simple things they can do to make a difference.
+ 
+Recycling at school is an easy step you can take to help the environment. Everyone can contribute to make recycling a success at BSKL.
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

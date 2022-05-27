@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>10/03/2014 Year 9 Parents&apos; Consultation</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>10/03/2014 Year 9 Parents&apos; Consultation</name>
+    <style>freeForm</style>
+    <subject>Year 9 Parents&apos; Consultation</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Year 9 Parents&apos; Consultation takes place between 5pm and 7pm on Tuesday 18th March, and we are trialling a new appointment booking system using Google Docs. You will notice that some staff have appointments available from 4.30pm, and some are blocked out until 5.00pm. I would like to give those staff that want to the opportunity to meet from 4.30pm, but many will be involved in ASAs until 4.15pm and will need a break.
+
+Please bear the following in mind when booking an appointment:
+1. Click on the link below.
+2. Use tabs at bottom to locate subjects and your child&apos;s teacher.
+3. Type your child&apos;s name into an available slot.
+4. Please do not delete anyone else&apos;s appointments.
+5. Once you have typed your child&apos;s name in, the appointment will be saved automatically - you do not have to save anywhere else.
+6. Please make a note of your appointments and bring it with you.
+
+https://docs.google.com/a/britishschool.edu.my/spreadsheet/ccc?key=0Ah45ozzFTKz-dE5vLUQ1LTU1R1lYNkFyMUFySl9mcmc&amp;usp=sharing#gid=20
+
+Yours sincerely
+
+Derek Mackey
+Head of Secondary
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

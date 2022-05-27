@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Baker Books International School Book Club UC</name>
+    <style>freeForm</style>
+    <subject>Baker Books International School Book Club UC</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents
+
+
+We are delighted to be sending home the new summer Baker Books catalogue with a wide range of carefully selected children’s books for you and your family to choose from. Baker Books offers a great opportunity to order English-language books and have them delivered to the school where your child(ren) can collect them. Many of these books are newly published and are offered at below the recommended retail price (RRP).
+
+
+A major benefit of ordering through Baker Books is that the school receives a minimum of 20% of the value of orders in free books. So just by purchasing your books from the catalogue you are also helping your child’s class or school library.
+
+
+
+How to buy the books:
+
+Order &amp; Pay online
+
+We’ve set up a school Parent Pay order that you can visit to place your order.  You can pay securely online by credit or debit card and the books will arrive in school for me to distribute.
+
+
+1. Visit: http://parentpay.bakerbooks.co.uk/clubs/INTRUS4
+
+2. Select the books that you’d like to order and add them to your basket
+
+3. At Checkout your order will be charged to your card in the currency shown, the books will be added to the school Parent Pay order and you will receive an email confirming the order and payment.
+
+
+Please do not send any cash to school
+The closing date for ordering books from the Baker Books catalogues is: THURSDAY 29th MAY
+
+We hope that you enjoy browsing through the catalogue – it’s a great way to encourage your child to broaden their reading experience and to own some really wonderful books.
+
+
+Yours Sincerely,
+
+
+Mr Davis &amp;
+
+Ms Nikitina
+
+UC &amp; LC Librarians, The International School of Moscow
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

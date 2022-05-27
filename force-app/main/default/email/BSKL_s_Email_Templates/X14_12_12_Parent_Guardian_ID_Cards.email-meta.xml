@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>14/12/12 Parent/Guardian ID Cards</name>
+    <style>freeForm</style>
+    <subject>Parent/Guardian ID Cards</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Parent ID Cards
+
+The school has decided to introduce picture ID cards for our families.
+
+Each family will be given 2 picture ID cards and it will be compulsory that they are worn at all times when at school.   These cards will also be used for those that collect students from the school bus service.
+
+Furthermore, we will also provide you with the lanyards to wear them.
+
+With this in mind the school will require a passport sized photograph for the 2 family members/guardians who will require these cards.   The picture on the card must match that of the person wearing it – parent, driver, nanny (whoever is in school frequently).
+
+Please can you therefore provide the school with the relevant passport sized photograph no later than Friday 18th January 2013.  Once we have the photographs we will make the cards and then pass you them accordingly.  We hope to have this finalised by the end of January.
+
+The decision to introduce these cards is to strengthen security in the school and we hope you support this.
+
+Should you have any questions please do not hesitate to contact the school.
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

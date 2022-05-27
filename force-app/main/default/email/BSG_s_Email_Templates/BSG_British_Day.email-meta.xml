@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Secondary Singup on 1st June</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Secondary Singup on 1st June</name>
+    <style>freeForm</style>
+    <subject>Secondary Singup on 1st  June</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+A gentle reminder that the Secondary SingUp! will be taking place at BSG this Saturday (1st June). All secondary choir members need to arrive at school for 12.45pm with their full school uniform and a packed dinner.
+
+All are welcome to come to the concert in the evening, with refreshments being served from 6.30pm onwards.  The BSG Senior choir will be performing alongside students from Clifford and Utahloy Schools in this exciting evening of music.
+
+Thank you once again for your continued support.
+
+Kind regards,
+
+Naomi Rowan
+Head of Secondary  Music and Performing Arts
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

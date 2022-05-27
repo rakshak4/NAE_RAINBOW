@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20141117 KONSERT AMAL DIRAJA – FORGET ME NOT</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20141117 KONSERT AMAL DIRAJA – FORGET ME NOT</name>
+    <style>freeForm</style>
+    <subject>KONSERT AMAL DIRAJA – FORGET ME NOT</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+17th November 2014
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}
+
+The Alzheimer’s Disease Foundation (ADFM) is a a non profit organisation which is hosting a fund raising Royal Charity Concert, which will feature the world renowned “Shanghai Symphony Orchestra”. The orchestra has travelled extensively throughout the world and has established working relations with world famous musicians.
+
+The ADFM is providing a wonderful opportunity for our students to attend an open rehearsal giving them a unique insight into how the conductor, guest artists and musicians work together.
+
+The orchestra will be conducted by Mr Eugene Pook who we are very fortunate to have as a clarinet teacher here at BSKL. The soloists will be the Malaysian singer based in New York, Najwa Mahiaddin and Huang Bin the violinist from China. In this exciting outreach project the conductor will interact with the students, introduce the instruments of the orchestra and talk about the music being performed.
+
+The event will be held on Thursday, December 4th at 1.00pm at the Plenary Hall, Kuala Lumpur Convention Centre. The school would like to take all of our instrumentalists to this prestigious event so therefore all the students from years two to ten are invited to attend. The school will provide transport and the students will be back in time to catch school buses home.
+
+This is a very high profile event and the students need to wear blazers. Should you not wish your child to participate in this amazing opportunity please could you let their class teacher or form tutor know via E mail by Friday, November 21st.
+
+
+Kind regards,
+
+Janet Brock
+Headteacher
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

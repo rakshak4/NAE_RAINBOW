@@ -1,0 +1,115 @@
+<apex:page standardStylesheets="false" controller="PortalAttendancePage_Controller" id="page" action="{!filterAttendances}" sidebar="false">
+  
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <apex:stylesheet value="/apex/PortalAssessmentPageCSS"/>
+  </head>
+  <apex:form id="mainForm">
+  <apex:actionFunction name="handleStudentChange" action="{!filterAttendances}"/>
+  <apex:actionFunction name="handleYearChange" action="{!filterAttendances}"/>
+  <apex:actionFunction name="handleReportTypeChange" action="{!filterAttendances}"/>
+  
+  <body>
+        <table>
+        <tr>
+        <td valign="top">
+        <aside id="sidebar">
+            <div class="sidebar-top">
+                <h1>Attendance Dashboard</h1><br/>
+                <h3>Configure the<br/>Report below</h3>
+            </div>
+            
+            <div class="section first">
+                <div class="section-heading"><apex:actionStatus startText="(updating report)" stopText="Student" id="studentStatus"/></div>
+                <div class="section-select">
+                    <apex:selectList id="studentselection" value="{!selectedStudentId}" multiselect="false" size="1" onChange="handleStudentChange();">
+                        <apex:selectOptions value="{!studentList}"/>
+                    </apex:selectList>
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-heading"><apex:actionStatus startText="(updating report)" stopText="Academic Year" id="yearStatus"/></div>
+                <div class="section-select">
+                    <apex:selectList id="ayear" value="{!selectedAcademicYear}" multiselect="false" size="1" onChange="handleYearChange();">
+                        <apex:selectOptions value="{!academicYearOptions}"/>
+                    </apex:selectList>
+                </div>
+        </div>
+            
+            <div class="section">
+                <div class="section-heading">Report types</div>         
+                <table class="chk-container">
+                    <apex:repeat value="{!attendanceTypeOptions}" var="attendanceType">
+                        <tr>
+                            <td class="{!IF(attendanceType.index == 1, 'first', '')}">
+                                <div class="chk-side chk{!attendanceType.rt}"></div>
+                                <apex:inputCheckBox id="chk1" value="{!attendanceType.selected}" styleClass="chekbox" onChange="handleReportTypeChange();"/>
+                                <span class="chk-display"><span class="fill"></span></span>
+                                <apex:outputLabel for="chk1" styleClass="chk-label">{!attendanceType.reportType}</apex:outputLabel>
+                            </td>
+                        </tr>
+                    </apex:repeat>
+                </table>
+            </div>
+            
+            <!--<div class="section">
+                <div class="section-heading">Submit to view your selected report</div>
+                <apex:commandButton value="Submit" styleClass="button btn-section" action="{!filterAttendances}"/>
+                <apex:commandButton value="Reset" styleClass="button btn-section" action="{!reset}"/>
+            </div>-->
+        </aside>
+        </td>
+        <td valign="top">
+        
+        <div id="main">
+            
+            <article class="term-section first">
+                
+                <header class="t-sec-header"><apex:outputPanel layout="block" id="reportBlock">Academic Year {!selectedAcademicYear}</apex:outputPanel></header>
+                <apex:outputPanel layout="block" id="detailpanel">
+                <apex:outputPanel layout="block" rendered="{!hasItems}"> 
+                <ul class="conduct-summary" style="width:100%">
+                    <apex:outputPanel layout="block" rendered="{!IF(totalAbsent > 0 , true, false)}"><li class="cs-fourth attendance"><span class="cs-value">{!totalAbsent}</span><span class="cs-value-title">{!IF(portalUser.LocaleSidKey == "en_US","Authorized Absences","Authorised Absences")}</span></li></apex:outputPanel>
+                    <apex:outputPanel layout="block" rendered="{!IF(totalUnauthorizedAbsence > 0 , true, false)}"><li class="cs-fourth attendance"><span class="cs-value">{!totalUnauthorizedAbsence}</span><span class="cs-value-title">{!IF(portalUser.LocaleSidKey == "en_US","Unauthorized Absences","Unauthorised Absences")}</span></li></apex:outputPanel>
+                    <apex:outputPanel layout="block" rendered="{!IF(totalLate > 0 , true, false)}"><li class="cs-third attendance"><span class="cs-value">{!totalLate}</span><span class="cs-value-title">Lates</span></li></apex:outputPanel>
+                    <apex:outputPanel layout="block" rendered="{!IF(totalPartial > 0 , true, false)}"><li class="cs-first attendance"><span class="cs-value">{!totalPartial}</span><span class="cs-value-title">Partials</span></li></apex:outputPanel>
+                    <apex:outputPanel layout="block" rendered="{!IF(totalExternalActivity > 0 , true, false)}"><li class="cs-second attendance"><span class="cs-value">{!totalExternalActivity}</span><span class="cs-value-title">External Activities</span></li></apex:outputPanel>
+                </ul>
+                </apex:outputPanel>
+                <div style="clear: both;"></div>
+                <apex:repeat value="{!attendanceWrapperList}" var="aw">
+                    <div class="t-sec-item">
+                        <div class="item-name i-name-{!aw.rt}"><span>{!aw.displayName}</span></div>
+                        <div class="item-description"><span><apex:outputText value="{!aw.dateString}"/></span></div>
+                        <div class="item-grades">
+                            <ul>
+                                <li class="first">{!aw.comments}</li>
+                            </ul>
+                        </div>
+                        <div class="item-body-empty">
+                            
+                        </div>
+                    </div>
+                </apex:repeat>
+                </apex:outputPanel>
+            </article>
+            <apex:outputPanel layout="block" rendered="{!!hasItems}">
+                <br/><br/><br/><br/><br/><br/><br/><br/>
+                <div class="no-results-behavior">
+                    Sorry, there are no records to display. Please adjust filter criteria in the sidebar.
+                    <span class="user-icon"></span>
+                    <span class="down-aero"></span>
+                </div>
+            </apex:outputPanel> 
+        </div>
+        
+        </td>
+        </tr>
+        </table>
+  </body>
+  
+  </apex:form>
+    
+</apex:page>

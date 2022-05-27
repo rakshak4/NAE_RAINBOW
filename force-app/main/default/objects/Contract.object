@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Activate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Activate</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Activate</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Terminate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Terminate</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Terminate</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Academic_Year__c</fullName>
+        <defaultValue>&quot;YYYY/YY&quot;</defaultValue>
+        <externalId>false</externalId>
+        <label>Academic Year</label>
+        <length>10</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountId</fullName>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ActivatedById</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ActivatedDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Added_Responsability__c</fullName>
+        <externalId>false</externalId>
+        <label>Added Responsability</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Appraisal_Number__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Appraisal Number</label>
+        <referenceTo>Appraisal_Objectives__c</referenceTo>
+        <relationshipLabel>Contracts</relationshipLabel>
+        <relationshipName>Contracts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Approved__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(TEXT(ActivatedDate)=&quot;&quot;, &quot;Not Approved&quot;,&quot;Approved&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Approved?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Benefits__c</fullName>
+        <externalId>false</externalId>
+        <label>Benefits</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Retention Bonus</fullName>
+                    <default>false</default>
+                    <label>Retention Bonus</label>
+                </value>
+                <value>
+                    <fullName>Relocation Allowance</fullName>
+                    <default>false</default>
+                    <label>Relocation Allowance</label>
+                </value>
+                <value>
+                    <fullName>Housing Allowance</fullName>
+                    <default>false</default>
+                    <label>Housing Allowance</label>
+                </value>
+                <value>
+                    <fullName>Travel Allowance</fullName>
+                    <default>false</default>
+                    <label>Travel Allowance</label>
+                </value>
+                <value>
+                    <fullName>Health Insurance</fullName>
+                    <default>false</default>
+                    <label>Health Insurance</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>BillingAddress</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Bonus_Criteria__c</fullName>
+        <externalId>false</externalId>
+        <label>Bonus Criteria</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Only Student Numbers</fullName>
+                    <default>true</default>
+                    <label>Only Student Numbers</label>
+                </value>
+                <value>
+                    <fullName>Student Numbers and Objectives</fullName>
+                    <default>false</default>
+                    <label>Student Numbers and Objectives</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Bursaries__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Num. Bursaries</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Children_Health_Insurance__c</fullName>
+        <externalId>false</externalId>
+        <label>Children Health Insurance</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Health_Insurance__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>5</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>checked</controllingFieldValue>
+                <valueName>1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>checked</controllingFieldValue>
+                <valueName>2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>checked</controllingFieldValue>
+                <valueName>3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>checked</controllingFieldValue>
+                <valueName>4</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>checked</controllingFieldValue>
+                <valueName>5</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Effort</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CompanySignedDate</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CompanySignedId</fullName>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ContractTerm</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Contract_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Contract End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Contract_Full_Text_Benefits__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Contract_Text_Housing__c &lt;&gt; &quot;&quot;,Contract_Text_Housing__c &amp; BR(),&quot;&quot;)&amp;IF( Contract_Text_Travel__c  &lt;&gt; &quot;&quot;,Contract_Text_Travel__c &amp; BR(),&quot;&quot;)&amp; IF(  Contract_Text_Visa_Cost__c &lt;&gt; &quot;&quot;,Contract_Text_Visa_Cost__c  &amp; BR(),&quot;&quot;)&amp; IF(  Other_Benefit__c &lt;&gt; &quot;&quot;,&quot;- &quot;&amp;Other_Benefit__c &amp; BR(),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contract Full Text Benefits</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contract_Text_Bonus__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Perfomance_Bonus__c&gt;0, &quot;- Bonus of up to &quot; &amp;  Copy_Bonus_Seperator__c  &amp; &quot; &quot; &amp; TEXT( CurrencyIsoCode ) &amp; &quot; at the discretion of the Board/Headteacher based on agreed objectives&quot;&amp;BR(),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contract Text Bonus</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contract_Text_Bursaries__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF ( TEXT(Num_Bursaries__c )=&quot;&quot;,&quot;&quot;,IF ( TEXT(Num_Bursaries__c )= &quot;0&quot;,&quot;&quot;,IF ( TEXT(Num_Bursaries__c )= &quot;1&quot;,&quot;- A Bursary for 1 child at the school of employment covering Enrolment and Tuition Fees&quot;&amp;BR(),  &quot;- A Bursary for &quot; &amp; TEXT( Num_Bursaries__c)&amp; &quot; children at the school of employment covering Enrolment and Tuition Fees&quot;&amp;BR())))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contract Text Bursaries</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contract_Text_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(DAY( Contract_End_Date__c )) + &quot;/&quot; + 
+TEXT(MONTH( Contract_End_Date__c )) + &quot;/&quot; + 
+RIGHT(TEXT(YEAR(Contract_End_Date__c)),4)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contract Text End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contract_Text_Health__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Health_Insurance__c =FALSE,&quot;&quot;, IF(AND( TEXT(Partner_Health_Insurance__c)=&quot;YES&quot;, TEXT(Children_Health_Insurance__c )=&quot;&quot;),  &quot;- International Health Insurance for Employee and designated parter&quot;&amp;BR(),IF(AND( TEXT(Partner_Health_Insurance__c)=&quot;NO&quot;, TEXT(Children_Health_Insurance__c )=&quot;&quot;),  &quot;- International Health Insurance &quot;&amp;BR(),IF(AND( TEXT(Partner_Health_Insurance__c)=&quot;&quot;, TEXT(Children_Health_Insurance__c )=&quot;&quot;),  &quot;- International Health Insurance&quot;&amp;BR(), IF(AND( TEXT(Partner_Health_Insurance__c)=&quot;&quot;, TEXT(Children_Health_Insurance__c )=&quot;1&quot;),  &quot;- International Health Insurance  for Employee and 1 child&quot;&amp;BR(),IF(AND( TEXT(Partner_Health_Insurance__c)=&quot;&quot;, TEXT(Children_Health_Insurance__c )&lt;&gt;&quot;&quot;,TEXT(Children_Health_Insurance__c )&lt;&gt;&quot;1&quot;),  &quot;- International Health Insurance  for Employee and &quot; &amp; TEXT(Children_Health_Insurance__c)&amp;&quot; Children&quot;&amp;BR(),IF(AND( TEXT(Partner_Health_Insurance__c)=&quot;YES&quot;, TEXT(Children_Health_Insurance__c )&lt;&gt;&quot;&quot;,TEXT(Children_Health_Insurance__c )&lt;&gt;&quot;1&quot;),  &quot;- International Health Insurance for Employee, designated partner and &quot; &amp; TEXT(Children_Health_Insurance__c)&amp;&quot; Children&quot;&amp;BR(),&quot;- International Health Insurance for Employee, designated parter and &quot;&amp;TEXT(Children_Health_Insurance__c)&amp;&quot; children&quot;&amp;BR())))))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contract Text Health</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contract_Text_Housing__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Housing__c=TRUE, &quot;- Housing in accordance to School Policy&quot;,&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contract Text Housing</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contract_Text_Relocation__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Relocation_Allowance__c =TRUE, &quot;- Relocation Allowance in accordance to School Policy&quot;,&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contract Text Relocation</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contract_Text_Retention_Bonus__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Retention_Bonus_Amount__c &gt;0, &quot;- A Retention Bonus of up to&quot; &amp; &quot; &quot; &amp;  Copy_Retention_Bonus_Seperator__c  &amp;&quot; &quot; &amp; TEXT( CurrencyIsoCode ) &amp; &quot; &quot;  &amp; &quot;in accordance with School Policy&quot;&amp;BR(),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contract Text Retention Bonus</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contract_Text_Salary__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Salary__c &gt;0, &quot;- Salary of &quot; &amp;  Copy_Salary_Seperator__c  &amp; &quot; &quot; &amp; TEXT( CurrencyIsoCode ) &amp; &quot; &quot; &amp; TEXT(  Type__c ) &amp; &quot; per year&quot;&amp; BR(),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contract Text Salary</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contract_Text_Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(DAY(StartDate)) + &quot;/&quot; + 
+TEXT(MONTH( StartDate )) + &quot;/&quot; + 
+RIGHT(TEXT(YEAR(StartDate)),4)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contract Text Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contract_Text_Travel__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Travel_Allowance__c =TRUE,&quot;- Travel Allowance in accordance with School Policy&quot;,&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contract Text Travel Allowance</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contract_Text_Visa_Cost__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Visa_Costs__c =TRUE, &quot;- Visa expenses excluding cost of travel to Embassies/Consulates&quot;,&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contract Text Visa Cost</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Copy_Bonus_Seperator__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Salary__c&lt; 1000, TEXT( Perfomance_Bonus__c ), 
+IF(Salary__c &lt; 1000000, TEXT(FLOOR(Perfomance_Bonus__c /1000)) &amp; &apos;,&apos; &amp; RIGHT(TEXT(Perfomance_Bonus__c ), 3), 
+IF(Perfomance_Bonus__c &lt; 1000000000, TEXT(FLOOR(Perfomance_Bonus__c /1000000)) &amp; &apos;,&apos; &amp; TEXT(FLOOR(MOD(Perfomance_Bonus__c ,1000000)/1000)) &amp; &apos;,&apos; &amp; RIGHT(TEXT(Perfomance_Bonus__c ), 3), &quot;Error:Number Greater Than 999,999,999&quot;) 
+) 
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Copy Bonus Seperator</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Copy_Retention_Bonus_Seperator__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Salary__c&lt; 1000, TEXT(  Retention_Bonus_Amount__c  ), 
+IF(Salary__c &lt; 1000000, TEXT(FLOOR(Retention_Bonus_Amount__c  /1000)) &amp; &apos;,&apos; &amp; RIGHT(TEXT(Retention_Bonus_Amount__c ), 3), 
+IF(Retention_Bonus_Amount__c &lt; 1000000000, TEXT(FLOOR(Retention_Bonus_Amount__c /1000000)) &amp; &apos;,&apos; &amp; TEXT(FLOOR(MOD(Retention_Bonus_Amount__c  ,1000000)/1000)) &amp; &apos;,&apos; &amp; RIGHT(TEXT(Retention_Bonus_Amount__c ), 3), &quot;Error:Number Greater Than 999,999,999&quot;) 
+) 
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Copy Retention Bonus Seperator</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Copy_Salary_Seperator__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Salary__c&lt; 1000, TEXT(Salary__c),
+  IF(Salary__c &lt; 1000000, TEXT(FLOOR(Salary__c/1000)) &amp; &apos;,&apos; &amp; RIGHT(TEXT(Salary__c), 3),
+    IF(Salary__c &lt; 1000000000, TEXT(FLOOR(Salary__c/1000000)) &amp; &apos;,&apos; &amp; TEXT(FLOOR(MOD(Salary__c,1000000)/1000)) &amp; &apos;,&apos; &amp; RIGHT(TEXT(Salary__c), 3), &quot;Error:Number Greater Than 999,999,999&quot;)
+  )
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Copy Salary Seperator</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Copy_Staff_Member_Capitalised__c</fullName>
+        <externalId>false</externalId>
+        <formula>UPPER(  Account.FirstName )&amp;&quot; &quot;&amp;UPPER( Account.LastName )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Copy Staff Member Capitalised</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Copy_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Status)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Copy Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cost_of_Health_Insurance__c</fullName>
+        <externalId>false</externalId>
+        <label>Cost of Health Insurance</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Cost_of_Housing__c</fullName>
+        <externalId>false</externalId>
+        <label>Cost of Housing</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Cost_of_Other_Benefits__c</fullName>
+        <externalId>false</externalId>
+        <label>Cost of Other Benefits</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Cost_of_Points__c</fullName>
+        <externalId>false</externalId>
+        <label>Cost of Points</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CustomerSignedDate</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CustomerSignedId</fullName>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CustomerSignedTitle</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Day_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Holidays Day Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Working Days</fullName>
+                    <default>true</default>
+                    <label>Working Days</label>
+                </value>
+                <value>
+                    <fullName>Calendar Days</fullName>
+                    <default>false</default>
+                    <label>Calendar Days</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Draft__c</fullName>
+        <externalId>false</externalId>
+        <formula>If( OR(TEXT(Status) =&quot;draft&quot;,TEXT(Status) =&quot;Awaiting Approval&quot;) ,&quot;DRAFT VERSION&quot;&amp;BR(),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Draft?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EndDate</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Health_Insurance__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Health Insurance</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Holidays_Non_Academic_Staff_Only__c</fullName>
+        <externalId>false</externalId>
+        <label>Holidays (Admin/Support  Staff)</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Housing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Housing</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Main_Approver__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account.Main_Approver__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Main Approver</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Maternity_Leave_Calendar_Days__c</fullName>
+        <externalId>false</externalId>
+        <label>Maternity Leave (Calendar Days)</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Num_Bursaries__c</fullName>
+        <externalId>false</externalId>
+        <label>Bursaries</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>true</default>
+                    <label>0</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>5</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Objectives_Target_Achieved__c</fullName>
+        <externalId>false</externalId>
+        <formula>Objectives_in_Appraisal__r.Objectives_Achieved__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Objectives Target Achieved</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Objectives_in_Appraisal__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Objectives in Appraisal</label>
+        <referenceTo>Appraisal_Objectives__c</referenceTo>
+        <relationshipLabel>Contracts</relationshipLabel>
+        <relationshipName>Contracts1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Other_Benefit__c</fullName>
+        <externalId>false</externalId>
+        <label>Other Benefit</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>OwnerExpirationNotice</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Partner_Health_Insurance__c</fullName>
+        <externalId>false</externalId>
+        <label>Partner Health Insurance</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Health_Insurance__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>checked</controllingFieldValue>
+                <valueName>Yes</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Perfomance_Bonus__c</fullName>
+        <externalId>false</externalId>
+        <label>Perfomance Bonus</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Position_in_Contract__c</fullName>
+        <externalId>false</externalId>
+        <label>Position in Contract</label>
+        <length>40</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pricebook2Id</fullName>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Relocation_Allowance__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Relocation Allowance</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Relocation_Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>Relocation Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Responsibility_Points__c</fullName>
+        <externalId>false</externalId>
+        <label>Responsibility Points</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>5</label>
+                </value>
+                <value>
+                    <fullName>6</fullName>
+                    <default>false</default>
+                    <label>6</label>
+                </value>
+                <value>
+                    <fullName>7</fullName>
+                    <default>false</default>
+                    <label>7</label>
+                </value>
+                <value>
+                    <fullName>8</fullName>
+                    <default>false</default>
+                    <label>8</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Resulting_Performance_Bonus__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(TEXT( Bonus_Criteria__c )=&quot;Only Student Numbers&quot;,Perfomance_Bonus__c * Student_Target_Achieved__c ,IF(TEXT( Bonus_Criteria__c )=&quot;Student Numbers and Objectives&quot;,Perfomance_Bonus__c * Student_Target_Achieved__c * Objectives_Target_Achieved__c,0))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Resulting Performance Bonus</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Retention_Bonus_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Retention Bonus</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Salary__c</fullName>
+        <externalId>false</externalId>
+        <label>Salary</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>ShippingAddress</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Sick_Days__c</fullName>
+        <externalId>false</externalId>
+        <label>Sick Days</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SpecialTerms</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>StartDate</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Student_Table__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Target Students This Year</label>
+        <referenceTo>Bonus_Table__c</referenceTo>
+        <relationshipLabel>Contracts</relationshipLabel>
+        <relationshipName>Contracts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Student_Target_Achieved__c</fullName>
+        <externalId>false</externalId>
+        <formula>Student_Table__r.Resulting_Multiplier__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Student Target Achieved</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Target_Students_Previous_Year__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Target Students Previous Year</label>
+        <referenceTo>Bonus_Table__c</referenceTo>
+        <relationshipLabel>Contracts (Target Students Previous Year)</relationshipLabel>
+        <relationshipName>Contracts1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Taxes_Paid_by_School__c</fullName>
+        <externalId>false</externalId>
+        <label>Taxes Paid by School</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Term__c</fullName>
+        <externalId>false</externalId>
+        <label>Term</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Less than 1 Year</fullName>
+                    <default>false</default>
+                    <label>Less than 1 Year</label>
+                </value>
+                <value>
+                    <fullName>1 Year</fullName>
+                    <default>false</default>
+                    <label>1 Year</label>
+                </value>
+                <value>
+                    <fullName>2 Years</fullName>
+                    <default>false</default>
+                    <label>2 Years</label>
+                </value>
+                <value>
+                    <fullName>3 Years</fullName>
+                    <default>false</default>
+                    <label>3 Years</label>
+                </value>
+                <value>
+                    <fullName>Indefinite</fullName>
+                    <default>false</default>
+                    <label>Indefinite</label>
+                </value>
+                <value>
+                    <fullName>Revolving</fullName>
+                    <default>false</default>
+                    <label>Revolving</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Today__c</fullName>
+        <externalId>false</externalId>
+        <formula>Today()</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Today</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Total_Cost__c</fullName>
+        <externalId>false</externalId>
+        <formula>Cost_of_Health_Insurance__c + Cost_of_Housing__c +  Cost_of_Other_Benefits__c + Visa_Costs_Amount__c + Relocation_Cost__c + Salary__c + Retention_Bonus_Amount__c + Travel_Allowance_Cost__c + Taxes_Paid_by_School__c +  Cost_of_Points__c + Perfomance_Bonus__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Package Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Travel_Allowance_Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>Travel Allowance Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Travel_Allowance__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Travel Allowance</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Gross</fullName>
+                    <default>true</default>
+                    <label>Gross</label>
+                </value>
+                <value>
+                    <fullName>Net</fullName>
+                    <default>false</default>
+                    <label>Net</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Visa_Costs_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Visa Costs</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Visa_Costs__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Visa Costs</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <listViews>
+        <fullName>AllActivatedContracts</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CONTRACT.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>A</value>
+        </filters>
+        <label>All Activated Contracts</label>
+    </listViews>
+    <listViews>
+        <fullName>AllContracts</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Contracts</label>
+    </listViews>
+    <listViews>
+        <fullName>AllDraftContracts</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CONTRACT.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>D</value>
+        </filters>
+        <label>All Draft Contracts</label>
+    </listViews>
+    <listViews>
+        <fullName>AllInApprovalContracts</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CONTRACT.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>P</value>
+        </filters>
+        <label>All In Approval Contracts</label>
+    </listViews>
+    <listViews>
+        <fullName>MyActivatedContracts</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>CONTRACT.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>A</value>
+        </filters>
+        <label>My Activated Contracts</label>
+    </listViews>
+    <listViews>
+        <fullName>MyDraftContracts</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>CONTRACT.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>D</value>
+        </filters>
+        <label>My Draft Contracts</label>
+    </listViews>
+    <listViews>
+        <fullName>MyInApprovalContracts</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>CONTRACT.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>P</value>
+        </filters>
+        <label>My In Approval Contracts</label>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>CONTRACT.CONTRACT_NUMBER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTRACT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SALES.ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTRACT.STATUS</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTRACT.CONTRACT_NUMBER</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTRACT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CORE.USERS.ALIAS</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTRACT.CONTRACT_NUMBER</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTRACT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CORE.USERS.ALIAS</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>CONTRACT.CONTRACT_NUMBER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTRACT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SALES.ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTRACT.STATUS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTRACT.START_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTRACT.END_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTRACT_TERM</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>Format_Academic_Year</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF(LEN( Academic_Year__c ) = 7, FALSE, TRUE)</errorConditionFormula>
+        <errorMessage>Format for Academic Year should be YYYY/YY. For example 2012/13</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Contract_Signed</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Contract Signed</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/ctrc/contractactivation.jsp?id={!IF(Contract.Copy_Status__c=&quot;Approved- Not Signed&quot;, Contract.Id,&apos;Error&apos;)}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Generate_Document</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Generate Document</masterLabel>
+        <openType>noSidebar</openType>
+        <protected>false</protected>
+        <url>/apex/SDOC__SDCreate1?id={!Contract.Id}&amp;Object=Contract</url>
+    </webLinks>
+    <webLinks>
+        <fullName>SDOC__S_Docs</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>S-Docs</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>/apex/SDOC__SDCreate1?id={!Contract.Id}&amp;Object=Contract</url>
+    </webLinks>
+</CustomObject>

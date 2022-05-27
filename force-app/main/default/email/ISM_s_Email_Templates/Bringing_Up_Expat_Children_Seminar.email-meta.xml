@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Bringing Up Expat Children Seminar</name>
+    <style>freeForm</style>
+    <subject>Bringing Up Expat Children Seminar</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Foundation
+
+
+
+
+Dear Parents,
+
+Just a reminder of the Workshop taking place this Thursday 24th January 8.30 am - 10.30 am at the Upper Campus Library about bringing up children abroad.
+
+
+Have you ever worried about how our children are affected by the change of different cities and schools through out their short life? Are we giving them a special gift or a burden?
+
+
+What is Expat Child Syndrome (ECS)?
+
+
+What are TCK’s?
+
+
+Are you planning to move again in the next couple of years?
+
+
+If you are interested in finding out the answers, please come to the seminar on Thursday.
+
+
+The session is run by experienced Coach, Claire Geddes, who has dragged her 3 children around 5 countries over the last 12 years! As well as sharing her experiences, official research, facts and figures, Claire is also interested in hearing your views, experience and opinions.
+
+
+As places will be limited please email in advance to book your seat! Please click here for flyer.
+
+
+Email Claire Geddes directly with your name and ages of your children:
+
+familygeddes@hotmail.com
+
+
+If you are interested if attending but unable to come to this date, please email Claire.
+
+
+
+Best regards,
+
+
+
+
+The International School of Moscow
+
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

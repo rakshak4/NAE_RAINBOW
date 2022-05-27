@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>ISM</letterhead>
+    <name>Uniforms update</name>
+    <style>freeForm</style>
+    <subject>Uniform shop information</subject>
+    <textOnly>Dear Parents,
+
+We hope that you are enjoying time with your families wherever you are in the world. Just a reminder that the first day of school is on Monday 27th August. Please do not worry if you are new to the school or indeed moving from the lower to the upper campus, procedures for the first morning will be sent out next Thursday (23rd August) and also posted on our website.
+
+The Uniform shop will be open from Monday till Friday, August 20th to 24th, 9 am till 4 pm. There was a delay with the delivery of the uniforms and some of the items will not be available until Thursday, August 22nd. Please find the list of the items that will not be available until Thursday below:
+
+new backpacks for Pre-Nursery, Nursery and Reception
+new PE kits for Y7-Y10
+summer cardigans for girls in Y1-Y2
+Grey shorts for boys in Foundation Stage, sizes 6 and 8
+Limited supply of sleeveless jumpers, size 4
+Limited supply of blue summer shirts for boys and girls (most sizes)
+Limited supply of white summer shirts for boys (some sizes)
+Limited supply of socks
+Limited supply of House t-shirts (some sizes)
+
+We apologize for the inconvenience and will make those items available as soon as they are delivered to the school.
+
+In the meantime enjoy those last few days of the summer break and we are looking forward to seeing you on August 27!
+
+Kind regards,
+ISM team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

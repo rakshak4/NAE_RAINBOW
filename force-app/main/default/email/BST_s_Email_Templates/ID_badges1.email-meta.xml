@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>ID badges</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>ID badges</name>
+    <style>freeForm</style>
+    <subject>ID badges</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+Campus security is of primary concern to the British School of Tashkent and we are currently reviewing our security procedures.
+
+Could I kindly remind all BST parents and guardians that ID badges should be worn at all times to enter the Sayram and Kalandar campuses.
+
+If you do not have a Parent ID badge can you please pass your passport copy and 2 passport size photographs to the school Reception offices.
+
+
+No parents and/or authorised pick-up persons will be allowed to enter the campus without their ID badge starting from Monday, September 18.
+
+If visitors wish to enter the campus without an ID badge, they must show and leave Photo ID and receive a visitor&apos;s badge. Any person on site who does not have an ID badge or visitor badge will be challenged.
+
+Thank you for your assistance in this matter.
+
+Kind regards
+BST Administration
+
+Уважаемые родители!
+
+Доводим до Вашего сведения, что обеспечение безопасности учащихся Британской школы города Ташкенте является нашей первоочерёдной задачей. Именно поэтому, мы пересматриваем процедуру её обеспечения на данный  момент.
+
+Любезно напоминаем всем родителям и опекунам учащихся о том, что необходимо иметь при себе школьный пропуск каждый раз, когда Вы заходите в здание школы или детского сада.
+
+Просим Вас передать на стойку ресепшена Вашу копию паспорта и 2 Ваших фото (3х4 см), если у Вас всё ещё нет школьного пропуска.
+
+Также, информируем Вас о том, что родители/опекуны не будут допускаться на территорию нашего учебного заведения со следующего понедельника 18 сентября, если у них не будет при себе школьного пропуска.
+
+Посетителям, не имеющим школьный пропуск, следует предоставить охранникам документ с фотографией, удостоверяющий личность посетителя. Лишь после выполнения данной процедуры, сотрудники охраны вручат Вам пропуск “посетителя “школы.
+
+Сотрудники охраны будут допрашивать каждого посетителя, который попытается пройти на территорию учебного заведения без пропуска.
+
+Благодарим за понимание.
+
+С уважением,
+Администрация Британской школы города Ташкента
+
+
+
+
+
+
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

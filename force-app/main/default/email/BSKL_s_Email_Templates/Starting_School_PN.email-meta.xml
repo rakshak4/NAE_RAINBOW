@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Starting School PN</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Starting School PN</name>
+    <style>freeForm</style>
+    <subject>Pre-Nursery &amp; Nursery Starting School</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please click on the link below for a useful document about starting school. For the first week of term, pre-nursery children will be starting on half day sessions only, to help with the settling in process. That means the day will finish at 11:30. Obviously every child is different, and depending on their needs we will look at each child individually to determine when they are ready to manage a full day of school, and all that it entails.
+
+I hope you all have a wonderful summer, and I look forward to seeing you all in September. Please note that there is a meet the teacher day prior to that on August 28th.
+
+Preparing to Start School (https://drive.google.com/file/d/0B57vMviVDx-xYU1HUlU4QnFFa0E/edit?usp=sharing)
+
+
+Kind regards
+Natasha Daynes
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

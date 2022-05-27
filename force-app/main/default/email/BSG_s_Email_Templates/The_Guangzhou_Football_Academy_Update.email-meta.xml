@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>The Guangzhou Football Academy - Update</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>The Guangzhou Football Academy - Update</name>
+    <style>freeForm</style>
+    <subject>The Guangzhou Football Academy - Update</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+
+
+
+
+
+
+
+
+Dear Parents,
+
+
+Some of the information from our friends at The Guangzhou Football Academy has been updated. Please CLICK HERE for the updated version.
+
+
+For more information, please contact them directly via email enquiry@hkf-academy.com or phone +86 159 2076 1172 or visit their website www.hongkongfootballacademy.com
+
+
+
+
+Thanks and best wishes,
+
+
+
+
+The British School of Guangzhou
+
+
+
+
+
+
+
+
+
+____________________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

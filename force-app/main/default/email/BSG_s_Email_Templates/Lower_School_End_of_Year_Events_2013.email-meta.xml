@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Lower School End of Year Events 2013</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Lower School End of Year Events 2013</name>
+    <style>freeForm</style>
+    <subject>Lower School End of Year Events 2013</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+With only a short time remaining of the school year we would like to inform you of the events that will be happening at the Lower School over the next few weeks.
+
+Graduation Day:
+Our biggest events will be our ‘Graduation Ceremonies’, which will be held on Thursday 27th June. This year we have split our Graduation ceremonies due to such large numbers.
+
+Reception Graduation Ceremony will take place at 9:30am in the Lower School Hall, followed by classroom parties between 10:30-11:30am. Reception parents only are invited to come for the 9:30am ceremony, parents are then welcome to stay to enjoy the classroom parties afterwards.
+
+Pre &amp; Nursery Graduation Ceremony will take place at 10:45am in the Lower School Hall, followed by classroom parties between 11:15-11:45am. Pre &amp; Nursery parents only are invited to come for the 10:45am ceremony, parents are then welcome to stay to enjoy the classroom parties afterwards.
+
+Year 1 &amp; 2 Graduation Ceremony will take place in the Upper School gymnasium between 1:00-2:30pm. Please inform your child’s class teacher and the bus coordinator if you will be taking your child home with you directly after this ceremony.
+
+Throughout the Graduation Day there will be a celebration of song and music with a short movie showing what the children have done during their year. We hope you are all able to make your respective ceremony. Further information will be sent home nearer the time.
+
+British Day:
+In addition, we also hope to see all of you at the British Day being held on Saturday 15th June at the upper school site between 11:00am-6:00pm. Remember to make a hat with your child to bring to this event to parade on stage during our Mad Hatter’s Parade. A fun packed event is sure to be had by all!
+
+Transition Morning:
+On Friday 21st June the Lower School children will be given the opportunity to spend the morning in their new year group. Where possible we will try to place classes with their new teacher, but as some of our teachers are not joining us until August this may not be possible for all classes. A very exciting morning for the children when they find out who will be in their new class, what class they will be in and who their new teacher will be.
+
+I would like to take this opportunity to point out that the teachers have the sole responsibility of dividing their class and placing those children together that they feel work well together. We do not accept any special requests from parents in the placing of their children for the next academic year. I have every confidence that the teacher knows the children best and will use their professional judgment when placing children.
+
+Other Information:
+Throughout the year all the children have done a great amount of work some of which will be sent home for them to share with you. We will send your child’s work home on Wednesday 26th June. We hope you enjoy sharing and celebrating your child’s achievements from this year.
+
+Final term reports will be sent home on Friday 14th June. There are no parent consultations in term 3.
+
+We would like to remind you that the last day of school for all Lower School children is Thursday 27th June with school finishing at the normal time of 12:00pm for Pre-Nursery children and 3:00pm for Nursery and Reception children. However, if you are attending our Graduation Ceremony and would like to take your child home with you afterwards you are welcome to do so.
+
+I would like to say on behalf of all the Lower School Team that we have had a thoroughly enjoyable year and we look forward to seeing you all on 19th August for our Orientation/Meet the Teacher Day, with Tuesday 20th August being the first full day of the next academic year! For those of you that are not returning after the summer holidays we wish you all the best for the future.
+
+Warm Regards,
+
+Miss Kathy and the Lower School Team
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

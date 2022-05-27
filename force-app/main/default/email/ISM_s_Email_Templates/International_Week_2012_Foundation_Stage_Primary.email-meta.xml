@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>International Week 2012 (Foundation Stage &amp; Primary)</name>
+    <style>freeForm</style>
+    <subject>International Week 2012 (Foundation Stage &amp; Primary)</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear Parents,
+
+
+
+It’s time to celebrate the rich cultural diversity of our school community. At ISM we are extremely proud of the international nature of our school. To celebrate this and to develop a wider understanding of the global community within which our students live and learn, we are planning an International week at school.
+
+This will run from Monday 29th October to Friday 2nd November 2012.
+
+
+For Years Nursery to Year 5
+
+
+
+This year during the International week each class will focus on a country and learn in depth about these following countries:
+
+
+NA-Netherlands NB- India
+
+RA- Russia RB- Philippines RC- Egypt
+
+1A- Canada 1B- Turkey 1C- Ireland
+
+2A- Kuwait 2B- Peru 2C- China
+
+3A- Madagascar 3B- Kenya
+
+4A- USA 4B- South Africa 4C- Thailand
+
+5A- Japan 5B- Iceland
+
+
+If you are from and/or have lived in one of the above countries your support would me much appreciated. If you have any information, books, souvenirs, music, costumes, pamphlets, food and/or flags for any of the above- mentioned countries they would be welcomed by all. It will make the teaching and learning meaningful and fun! Please contact the tutor of the class directly if you can help in any way.
+
+
+
+All FS and Primary parents are invited to school on Friday 2nd November at 8.30am – 10.25 am. On this day you and your children are welcome to come to school dressed in your national costume/flag colours/ football t-shirts etc. Also, please bring a plate of a national dish to share with other children and parents in the class. This would give everyone a true taste of being part of an international community. The activity will be based in the relevant tutor room. You will be able to participate with your child in completing an activity set out by the teacher and then to sample some of the food. Even if you are unable to come to school the students will still appreciate any tasty contributions! Please do note that we are a nut free school.
+
+
+School will finish as normal at 3.20pm. If you have any questions please feel free to contact your tutor or phase leader. We are very grateful for your continued support.
+
+
+
+Best regards,
+
+
+The Foundation and Primary School Team
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Speech Day - Rosinka Year One to Six Parents</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>2016-17 Speech Day - Rosinka</name>
+    <style>freeForm</style>
+    <subject>ISM Rosinka Speech Day and Annual Awards Ceremony</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

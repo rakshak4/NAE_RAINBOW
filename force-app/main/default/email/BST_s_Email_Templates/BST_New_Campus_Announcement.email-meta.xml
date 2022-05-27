@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>BST New Campus Announcement</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>BST New Campus Announcement</name>
+    <style>freeForm</style>
+    <subject>BST New Campus Announcement</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+I am delighted to announce the news about the opening of the new BST campus.
+
+We will move into the new building in August 2017. The new facilities will include:
+
+spacious classrooms
+specialist art and music areas
+2 science labs
+library and ICT area
+swimming pool and a paddling pool
+3 sports halls
+theatre
+canteen
+spacious outdoor play areas
+outdoor football pitch
+
+
+There will be a parent presentation on Wednesday, 5th April at 9 am in place of the normal workshop (Upper Campus theatre).
+
+I look forward to seeing you next Wednesday.
+Kind regards,
+Adrian Macaulay,
+
+~
+
+Уважаемые родители!
+Спешу поделиться с Вами радостными новостями о новом здании Британской школы города Ташкента.
+
+Мы переедем в новый кампус в августе 2017 года. Новое здание будет включать в себя следующее:
+
+Просторные классные аудитории
+Музыкальный и искусствоведческий отделы
+2 научные лаборатории
+Библиотека и IT-зона
+Взрослый и детский бассейны
+3 спортивных зала
+Театр
+Столовая
+Просторная игровая площадка
+Футбольное поле
+
+Приглашаем Вас посетить презентацию ,посвященную открытию нового здания, которая состоится в среду, 5 апреля в 9:00 в здании школьного театра.
+
+Буду с нетерпением ждать встречи с Вами в следующую среду!
+
+С уважением,
+Эдриан Маколей
+Академический Директор
+
+Warm Regards,
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

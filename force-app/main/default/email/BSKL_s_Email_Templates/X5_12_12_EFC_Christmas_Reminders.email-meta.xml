@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>5/12/12 EFC Christmas Reminders!!</name>
+    <style>freeForm</style>
+    <subject>EFC Christmas Reminders!!</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+It is a busy time of year and just to help you keep track of the upcoming events please see below!
+
+&apos;School For All&apos;
+
+I am sure you have all noticed the bags are being returned for &apos;School For All&apos; and being placed around the school Christmas Tree. They have all been decorated very lovingly, which is so wonderful to see! The final date for the return of the bags is the 5th December. This is so we have time to deliver them to the different orphanages and refugee centers in time for Christmas.
+
+Christmas Cards
+
+There has been a post box placed near the Christmas Tree in Reception for the BSKL students to write Christmas Cards to the refugee children or to write a Christmas card to each other. For cards for delivery within BSKL, please write the name of who is to receive the card followed by the class number. (Eg. Bill Williamson, 6A)
+
+Christmas Tree Silent Auction
+
+All of the trees have been moved around the school and some are looking quite wonderful already. But there is still time to make your Nationality&apos;s tree a show-piece and show each other how we each celebrate Christmas in our various countries. These trees are to be auctioned off, with the funds going to EFC supported charities. The clipboards to make your bid are next to each tree and we will be receiving bids up until the 10th December - so get decorating and help us help those in need and share that Christmas joy!
+
+Christmas Bazaar and Carols Evening
+
+On Monday 10th December BSKL will be holding their annual Christmas Bazaar and Carols Evening. Starting at 4.30 - 8pm, it promises to be a lovely family event designed to get you all in the mood for Christmas! With the chance to purchase delicious home-baked Christmas cakes and goodies, have a photo with Santa, fun games and crafts for the kids and the opportunity to buy some lovely gifts for Christmas - there will be something for everyone! We hope you will come and join us there! All profits raised will be going to the EFC&apos;s select charities.
+
+Book Donation
+
+Some of the BSKL mothers are organising a separate book collection for the charity that they visit weekly and would like to ask the BSKL parents to please donate any books or magazines to help them in this project. If you have any books or magazines you would like to donate please leave them in the box near the Reception desk.
+
+We understand that it can get a bit hectic at this time of year, but we hope you will join us in supporting these events and help make those less fortunate have a wonderful Christmas and the chance at a brighter future! As always the EFC are grateful for the outstanding support we receive from the BSKL parents.
+
+See you all at the Christmas Bazaar and Carols evening!
+
+Kind Regards
+The Events and Fundraising Committee
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+_______________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

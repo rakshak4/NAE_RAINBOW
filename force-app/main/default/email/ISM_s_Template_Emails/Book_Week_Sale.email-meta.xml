@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Book Week Sale</name>
+    <style>freeForm</style>
+    <subject>Book Week Sale</subject>
+    <textOnly>Normal
+ 0
+ 
+ 
+ 
+ 
+ false
+ false
+ false
+ 
+ EN-US
+ JA
+ X-NONE
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+ /* Style Definitions */
+table.MsoNormalTable
+	{mso-style-name:&quot;Table Normal&quot;;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:&quot;&quot;;
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;}
+
+
+
+
+
+
+
+                                                                                    Monday
+10th October 2011
+
+ 
+
+Dear Parents,
+
+ 
+
+We are very lucky to have an author from the UK visiting ISM
+this week. Rob Parkinson has brought along a book he has written, ‘My Dad’s Not
+A Dog’ which the pupils can purchase on Wednesday 12th only. The
+book costs 375 rubles and is initially aimed at pupils in Year 3-Year 7
+although many older and younger children have purchased the book. There is a
+limited amount of books available and so they will be sold on a first come,
+first served basis. Those who wish to buy a book on the lower campus can do so
+by visiting Mr Frater (Year 1) and those on the upper campus can come to Miss
+Ruffin (Year 4). Rob will be available to sign copies of the book at lunchtime
+on Wednesday and after school for a short amount of time.
+
+ 
+
+Best regards,
+
+Miss Ruffin and Mr Frater</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

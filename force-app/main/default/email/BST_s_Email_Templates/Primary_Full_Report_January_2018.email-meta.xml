@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Primary Full Report - January 2018</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Primary Full Report - January 2018</name>
+    <style>freeForm</style>
+    <subject>Primary Full Report - January 2018</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+Your child’s report will be available for you to view on the Parent Portal today at 4pm. Achievement grades have been given for Reading, Writing and Maths:
+
+
+
+Achievement
+
+★★★★ Working at greater depth within the expected standard
+
+★★★ Working consistently at the expected standard
+
+★★ Working towards the expected standard
+
+★ Working significantly below the expected standard
+
+
+
+Attitude to learning grades have been given for all subjects:
+
+
+
+Attitude to learning
+
+★★★★ Consistently gives his/her best and has high expectations of him/herself
+
+★★★ Tries hard in lessons and often aims for his/her best
+
+★★ Tries hard at times but does not make a consistent effort
+
+★ Often lacks effort
+
+
+
+If there is anything in the report that you want to discuss, please contact your child’s class teacher who will happily arrange a meeting with you.
+
+
+
+Best wishes,
+
+
+
+Matt Walker
+
+Head of Primary
+
+~
+
+Уважаемые родители,
+
+
+
+Отчёт об успеваемости Вашего ребёнка будет доступен на Родительском портале (Parent Portal) сегодня в 16:00.
+
+
+
+Оценки даны по таким предметам, как: чтение, письмо и математика.
+
+
+
+Оценка
+
+★★★★ Стабильно показывает себя с лучшей стороны и ставит для себя высокие цели
+
+★★★ Усердно трудится на уроках и часто стремится к лучшему показателю
+
+★★ Временами трудится усердно, но не делает последовательных усилий
+
+★ Часто не прилагает достаточно усилий
+
+
+
+Отношение к учащимся оценивалось по всем предметам.
+
+
+
+Достижения/Результаты обучения
+
+★★★★ Постоянно работает на высоком уровне
+
+★★★ Работает  уверенно на среднем уровне
+
+★★ Работает удовлетворительно  на среднем уровне
+
+★ Работает ниже среднего уровня
+
+
+
+Если в отчёте есть вопросы, которые вы хотите обсудить, обратитесь к классному руководителю Вашего ребёнка, который с радостью организует встречу с нами.
+
+
+
+С наилучшими пожеланиями,
+
+Завуч начальной школы Мэтт Уокер
+
+
+
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

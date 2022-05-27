@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Baikal Update</name>
+    <style>freeForm</style>
+    <subject>Baikal Update</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Year 9 Parents,
+
+We&apos;ve received news from Mr. Tome. The group have arrived safely and all is well. There are phones available for the children, so they will have the chance to contact you directly every morning, should they wish to do so.
+
+We will, of course, keep you posted should anything change.
+
+Kind regards,
+
+Admissions Department
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

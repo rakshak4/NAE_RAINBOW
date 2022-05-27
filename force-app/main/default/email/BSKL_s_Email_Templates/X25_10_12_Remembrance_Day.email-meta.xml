@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>25/10/12 Remembrance Day</name>
+    <style>freeForm</style>
+    <subject>Remembrance Day</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+A gentle reminder that this year’s assembly to commemorate Remembrance Day will be held on Monday 5th November, the first day back to school after half term. We would like to clarify to all parents that the Remembrance Day Service is however being held for pupils and staff only.  All pupils from Year 1 to Year 8 must be wearing the school blazer for this occasion.
+
+Poppies are now being offered at the school reception.   A minimum donation of RM 5 for each poppy is politely requested. Please do feel free to give your children a donation to bring into school as poppies will be on offer to them. It would be fantastic if the whole school was wearing a poppy for the Remembrance Day Service.
+
+All money raised will go to The Royal British Legion. Please do have a look at their website http://www.britishlegion.org.uk/ for further information.
+
+We wish you all a lovely half term break.
+
+Kind Regards,
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

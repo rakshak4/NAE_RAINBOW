@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>18/02/2013 French cookery class</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>18/02/2013 French cookery class</name>
+    <style>freeForm</style>
+    <subject>French Cookery Class</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The French cookery class is this Saturday, 23rd February. The school has arranged for transportation. The bus will leave BSKL at 8.30 am and will return to school at 1.30 pm.
+
+To ensure we are on time, would you please send your children to the school between 8 and 8.15 am at the very latest. The meeting point is at reception area.
+
+Please provide a bottle of water for your child. We are really looking forward to it and hope your child will enjoy the day !
+
+Yours faithfully
+Blandine Pouchard and Tom Hickman
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>11/06/2013 Year 6 Bake Sale</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>11/06/2013 Year 6 Bake Sale</name>
+    <style>freeForm</style>
+    <subject>Year 6 Bake Sale</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+There will be a bake sale at school, during lunchtime on Friday 14th June.  For those of you who don&apos;t know the students are raising money to buy paint  and maintenance products for Zo Learning Centre where they will be learning, teaching and working with refugee children.
+
+Sales will be of cup cakes, cookies, decorated biscuits, candy bags, chocolate marshmallows, popcorn bags and other products.
+
+The students will be responsible for producing the goods at home, naming their shop, set out their sales stall, price items, arrange cash float and publicity for the event by way of posters around the school.
+
+If you could send your children in with small amount of money to support the sale it would be much appreciated. All the cash raised will go to the Zo Learning Centre.
+
+Kind regards
+
+Richard Lambros
+6B Teacher
+
+Where – on the balcony under the marquee
+
+When – Friday 14th June 2013 – 11:30am-1:00pm
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

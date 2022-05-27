@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Year4 Change</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Year4 Change</name>
+    <style>freeForm</style>
+    <subject>Year4 Change</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Mrs Judith Sanderson, who has been teaching in Year 4 over the course of the last two months, will be staying with us until the end of the academic year. This is great news as Judith has had a real impact on the class and the students are thoroughly enjoying their lessons. It also minimises further disruption to the year group.
+
+In addition to this news, I am also pleased to tell you that Mr Alasdair Carr has been appointed Year 4 Leader. Alasdair has been with us for some time now and his hard work and dedication make him the perfect person for this role. Please join me in congratulating him on his appointment.
+
+As stated previously, class sizes are now at full capacity. Therefore we have made the decision to move to three-form entry in Year 4. This is a necessary step to ensure that we maintain the highest quality educational provision. As a result, Miss Michelle McCarthy will also be joining us from the UK to take up the new Year 4 teaching post. Miss McCarthy comes with over six years primary teaching experience and will arrive after the Christmas holidays.
+
+Although we will keep class changes to a minimum, we will be asking all students to consider three friends that they would like to be with if they were to move class. If moved, students would be with at least one of their selected friends. I understand that, in the short term, students and parents may feel anxious about the outcome. Please be assured that this will have long term benefit to all concerned. If you would like to discuss the matter further, please do not hesitate to contact me at david.laird@bsg.org.cn or phone me to make an appointment. My door is always open and I would encourage you come and see me.
+
+Kind Regards,
+
+David Laird
+Head of Primary
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

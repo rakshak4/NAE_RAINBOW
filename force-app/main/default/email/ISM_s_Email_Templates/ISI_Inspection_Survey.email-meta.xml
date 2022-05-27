@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>ISI Inspection Survey</name>
+    <style>freeForm</style>
+    <subject>ISI Inspection Survey</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+As you are aware, we are receiving a visit from the ISI inspection team, which will be led by Mr. R. Lewis, in the very near future. The Inspection team are very keen to have your feedback to support their inspection but at this point have only received a small sample of completed surveys. With this in mind, it would be extremely helpful if you could find time to complete the survey online.
+
+The questionnaire is available for you to complete online at http://surveys.isi.net. The unique code for your school’s inspection is UVAX-SGZC-VKOV and you will need to enter this and your email address to be sent a link to the questionnaire.  The online questionnaire must be completed by Wednesday September 18th Noon Moscow Time.
+
+Please support ISM by completing the survey if possible.
+
+Best regards,
+
+Paul Seedhouse
+
+Headteacher
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

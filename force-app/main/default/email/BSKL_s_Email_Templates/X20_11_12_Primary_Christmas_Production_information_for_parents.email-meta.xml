@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20/11/12 Primary Christmas Production - information for parents</name>
+    <style>freeForm</style>
+    <subject>Primary Christmas Production - information for parents</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Just to clarify a few points regarding the Primary Christmas Production.
+
+Performance Nights
+
+All children are required to perform on BOTH nights which are Wednesday 12th &amp; Thursday 13th December.
+
+The performance will start at 6pm promptly. Doors will open at 5.40pm. Children are asked go home after school and then to come back in for 5.15pm in order to get ready.
+
+Parents are asked to watch ONE of the two nights since the hall&apos;s capacity is insufficient to accommodate all parents of every child in Years 1-5. We regret any inconvenience this may cause. This is as follows:
+
+Year 1 &amp; 2 parents: Wednesday 12th December 2012
+Year 3, 4 &amp; 5 parents: Thursday 13th December 2012
+
+If your child is in the main cast, they will appear EITHER in Cast 1 (Wednesday 12th) OR Cast 2 (Thursday 13th) in their main role and then together with their class for the second night (eg the Cast 1 Father Christmas will be Father Christmas on Wednesday 12th and as an Elf with 3A on Thursday 13th).
+
+Scripts have been given to all the children who have main parts. Kindly ensure they are learning these lines at home. All children need to learn all the songs.
+
+Finally tickets will be on sale next week. You will be emailed as soon as they are available to purchase.
+
+Thanking you for your continued support!
+
+
+Kind regards,
+Charlotte Leng
+Primary Music Teacher
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

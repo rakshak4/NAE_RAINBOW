@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>School Photos</name>
+    <style>freeForm</style>
+    <subject>School Photos</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+A professional photographer will be at The International School of Moscow during the following days: May 27-28, June 3-7 2013. He will be taking your child’s individual photo as well as sibling photos, class photos and the whole school photo.
+
+Photographer’s schedule:
+
+Individual photos + class photos:
+
+Monday, 27th May: EYFS, 1A, 1B, 2C
+
+Tuesday, 28th May: 1C, 2A, 2B, 3A, 3B
+
+Individual photos:
+
+Monday, 3d June: Y4, 7B, Y8, Y9, Y10
+
+Tuesday, 4th June: Y5-10 Tottenham camp participants, Y5, Y6, 7A Class photos
+
+Wednesday, 5th June, Thursday, 6th June:
+
+Class photos Year 4 – 9
+
+Whole Upper School photo
+
+Whole Lower School photo
+
+Whole school Council photo Y1-Y10
+
+House Captains photo
+
+Friday, 7th June
+
+Sibling photos
+
+The photographs will be processed and you will have the opportunity to select and purchase them before the end of the term.
+
+Please make sure on the days of your child(rens) individual photos, class photos and sibling photos he/she needs to come to school wearing his/her Full Summer Uniform including blazers. Also please pay attention to the footwear, as it is a very important part of the uniform.
+
+If your child has PE on the day of the photographs, please make sure he/she brings his/her full summer uniform.
+
+It is important that your child is present on the day when the photographs of his/her year group are taken, as there won&apos;t be an opportunity to schedule another session.
+
+Info about the photographer:
+
+Vladimir Baych, a member of Union of Photographers of Russia, has been successfully working in the genre of child photography for more than 15 years. He is famous for making covers for children’s magazines, studio portraits and reportages. Recently he has been working with advertising agencies and private schools.
+
+For more information, please visit his website: www.baych.ru
+
+
+Kind regards,
+
+
+
+Paul Seedhouse
+
+Headmaster
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

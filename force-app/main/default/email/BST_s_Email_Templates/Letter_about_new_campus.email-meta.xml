@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Letter to parents about new campus</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Letter about new campus</name>
+    <style>freeForm</style>
+    <subject>Upper School Campus</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The British School of Tashkent is delighted to announce the opening of a new Upper School Campus, initially for Years 2-6 (ages 6-11) in September 2013. We are also now able to confirm the opening of Years 7 and 8 (for ages 12-13) in 2014-16.
+
+
+Other developments planned for the coming academic year include a drive to integrate Information Technology into the heart of our teaching and learning for our older students.  At the beginning of the Summer Term 2013-14 (April 2014) every pupil in Years 5 and 6 will be provided with an iPad to use as an integral part of their daily learning across the curriculum
+
+
+Details and images can be found attached.
+
+
+Дорогие родители,
+
+
+
+Мы рады объявить о том, что в Британской школе открывается новое здание для учеников 2-6 классов (6-11 лет) в сентябре 2013 года (наши младшие школьники останутся в старом здании).
+
+В настоящее время мы также утвердились в своём намерении открыть 7 и 8 классы (12-14 лет) в сентябре 2014 и 2015 годов соответственно.
+
+Другим важным событием, запланированным на предстоящий учебный год, является включение предмета IT (информационных технологий) в центр преподавания и обучения учеников Британской школы в Ташкенте. В начале летнего триместра 2013-14 (апрель 2014 года) каждый ученик 5 и 6 классов будет обеспечен Ipadом, который станет неотъемлемой частью их повседневного обучения.
+
+Подробности и фотографии могут быть найдены в приложении.
+
+С уважением,
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

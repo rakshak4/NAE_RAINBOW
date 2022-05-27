@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Training and Senior Orchestras - 20140902</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Training and Senior Orchestras - 20140902</name>
+    <style>freeForm</style>
+    <subject>Training and Senior Orchestras</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Training and Senior Orchestras
+
+Our Training and Senior Orchestras will be meeting every Monday from 3.30-4.30pm from Monday 15th September onwards. For existing members and those children new to the school who play an orchestral instrument, more information on both of these ensembles can be found in the following PDF documents:
+
+Training Orchestra Information (https://drive.google.com/file/d/0B57vMviVDx-xZVhyZTN0OUtmU1EydzdYSlRCbUt0RlFaQ1pN/edit?usp=sharing)
+
+Senior Orchestra Information (https://drive.google.com/file/d/0B57vMviVDx-xa2t6TnJyVkpqZkJXREhJVy11cVBGY2RuNDJR/edit?usp=sharing)
+
+If your child wishes to sign up, please complete the form at the following link:
+
+Training and Senior Orchestra Sign-Up Form (https://docs.google.com/forms/d/1pjBNqNNjhEGxZ2fg_e5PXXs6RgcteOExPofRgASJ7d0/viewform)
+
+Also on offer every Tuesday from 3.30-4.30pm there will be two more exciting ensemble groups: the Saxophone Ensemble (Year 5-10) and also a Folk Band (Year 7-10). These groups are by invitation only.
+
+Please note, if your child goes home by bus on either of these days, they would need to make alternative transport arrangements since the bus will not leave at this later time.
+
+We very much look forward to another exciting year ahead of music making!
+
+Best wishes from the Music Team​
+
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

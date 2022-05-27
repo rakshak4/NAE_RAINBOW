@@ -1,0 +1,169 @@
+<apex:page standardController="Account" extensions="SingleInvoiceController">
+
+<apex:includeScript value="{!URLFOR($Resource.jQuery)}"/>
+<apex:includeScript value="{!URLFOR($Resource.jQueryBlockUI, '/jquery.blockUI.js')}"/>
+
+<script type="text/javascript"> 
+    $(document).ready(function() { });
+     function blockDetail(i) { 
+         $(document.getElementById(i)).block({
+		   message: 'loading' + '<br/><img src="{!URLFOR($Resource.loadingBar)}">',
+		   css: {
+		       padding: '10px',
+		       border: '2px solid #fff',
+		       'border-radius': '5px'
+		   }  
+         }); 
+     }
+
+     function unblockDetail(i) { 
+         $(document.getElementById(i)).unblock(); 
+     }
+</script> 
+
+<apex:form >
+
+<apex:actionFunction name="redrawTuition" rerender="tuitionFee" oncomplete="unblockDetail('{!$Component.tuitionFee}')"/>
+<apex:actionFunction name="redrawOtherPanel" rerender="SingleInvoiceFees" oncomplete="unblockDetail('{!$Component.SingleInvoiceFees}')"/>
+<apex:actionFunction name="redrawFeeWizard" rerender="feeWizard" oncomplete="unblockDetail('{!$Component.feeWizard}')"/>
+
+	<apex:pageMessages />
+	<apex:pageBlock title="Fee Wizard" id="feeWizard">
+	
+		<apex:pageBlockButtons >
+			<apex:commandButton value="Create Invoice"  action="{!createInvoice}" disabled="{!IF( hasError, 'disabled', '')}"/>
+			<apex:commandButton value="Cancel" action="{!redirect}"/>
+		</apex:pageBlockButtons>
+	
+		<apex:pageBlockSection title="School" id="school" columns="1">
+		
+			<apex:pageBlockSectionItem >
+				<apex:outputLabel value="School"/> 
+				<apex:outputField value="{!invoice.School__c}"/> 
+			</apex:pageBlockSectionItem>
+			<apex:pageBlockSectionItem >
+				<apex:outputLabel value="Invoice Date:"/> 
+				<apex:inputField value="{!invoice.Invoice_Date__c}"/> 
+			</apex:pageBlockSectionItem>
+			<apex:pageBlockSectionItem >
+				<apex:outputLabel value="Due Date:"/> 
+				<apex:inputField value="{!invoice.Generated_Date__c}"/> 
+			</apex:pageBlockSectionItem>
+			
+		</apex:pageBlockSection>
+		
+		<apex:pageBlockSection title="Other Fees" columns="1" id="SingleInvoiceFees">
+		<apex:repeat value="{!SingleInvoiceFeesView}" var="fee">
+			<apex:pageBlockSection columns="2" id="eachFee">
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel value="Fee :"/> 
+					<apex:selectList value="{!fee.fee}" multiselect="false" size="1" onChange="blockDetail('{!$Component.SingleInvoiceFees}'), redrawOtherPanel()" >
+						<apex:selectOptions value="{!fee.feeOptions}"/>
+					</apex:selectList>
+				</apex:pageBlockSectionItem> 
+				
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel value="Invoicing Term :"/>
+					<apex:selectList value="{!fee.term}" multiselect="false" size="1" onChange="blockDetail('{!$Component.SingleInvoiceFees}'), redrawOtherPanel()">
+						<apex:selectOptions value="{!fee.termOptions}"/>
+					</apex:selectList>
+				</apex:pageBlockSectionItem>
+			 
+				<apex:pageBlockSectionItem > 
+					<apex:outputLabel value="Discount %"/> 
+					<apex:inputText value="{!fee.Discount}"/>
+				</apex:pageBlockSectionItem>
+				
+				<br/> 
+			</apex:pageBlockSection>
+				
+			<apex:pageBlockSection columns="1" id="eachStudent">
+				<apex:repeat value="{!fee.students}" var="student">
+						
+						<apex:pageBlockSectionItem > 
+							<apex:inputCheckbox value="{!student.isSelected}"/> 
+							<apex:outputText value="{!student.opp.Name} ({!student.opp.StageName})"/>
+						</apex:pageBlockSectionItem>
+						
+				</apex:repeat>
+			</apex:pageBlockSection>
+				
+		</apex:repeat>
+		
+		<apex:pageBlockSection columns="2" id="eachFee" >
+			<apex:pageBlockSectionItem >
+				<apex:outputLabel value="Fee :"/> 
+				<apex:selectList value="{!newFee.fee}" multiselect="false" size="1" onChange="blockDetail('{!$Component.SingleInvoiceFees}'), redrawOtherPanel()" >
+					<apex:selectOptions value="{!newFee.feeOptions}"/>
+				</apex:selectList>
+			</apex:pageBlockSectionItem> 
+			
+			<apex:pageBlockSectionItem >
+				<apex:outputLabel value="Invoicing Term :"/>
+				<apex:selectList value="{!newFee.term}" multiselect="false" size="1" onChange="blockDetail('{!$Component.SingleInvoiceFees}'), redrawOtherPanel()">
+					<apex:selectOptions value="{!newFee.termOptions}"/>
+				</apex:selectList>
+			</apex:pageBlockSectionItem>
+			 
+			<apex:pageBlockSectionItem > 
+				<apex:outputLabel value="Discount %"/> 
+				<apex:inputText value="{!newFee.Discount}"/>
+			</apex:pageBlockSectionItem>
+		</apex:pageBlockSection>
+				
+		<apex:pageBlockSection columns="1" id="eachStudent">
+			<apex:repeat value="{!newFee.students}" var="student">
+					
+					<apex:pageBlockSectionItem > 
+						<apex:inputCheckbox value="{!student.isSelected}"/> 
+						<apex:outputText value="{!student.opp.Name} ({!student.opp.StageName})"/>
+					</apex:pageBlockSectionItem>
+					
+			</apex:repeat>
+		</apex:pageBlockSection>
+		
+		<apex:pageBlockSection title="Tuition Fee(s)" columns="1" id="tuitionFee" >
+			
+			<apex:repeat value="{!tuitionFees}" var="tuitionFee">
+			
+				<apex:pageBlockSection columns="2" id="eachTuitionFee">
+					<apex:pageBlockSectionItem >
+						<apex:outputLabel value="Tuition Fee :"/> 
+						<apex:selectList value="{!tuitionFee.fee}" multiselect="false" size="1">
+							<apex:selectOptions value="{!tuitionFee.feeOptions}"/>
+						</apex:selectList>
+					</apex:pageBlockSectionItem> 
+					
+					<apex:pageBlockSectionItem >
+						<apex:outputLabel value="Invoicing Term :"/>
+						<apex:selectList value="{!tuitionFee.term}" multiselect="false" size="1" onChange="blockDetail('{!$Component.tuitionFee}'), redrawTuition()">
+							<apex:selectOptions value="{!tuitionFee.termOptions}"/>
+						</apex:selectList>
+					</apex:pageBlockSectionItem>
+					 
+					<apex:pageBlockSectionItem > 
+						<apex:outputLabel value="Discount %"/> 
+						<apex:inputText value="{!tuitionFee.Discount}"/>
+					</apex:pageBlockSectionItem>
+				</apex:pageBlockSection>
+				
+				<apex:pageBlockSection columns="1" id="eachStudent">
+					<apex:repeat value="{!tuitionFee.students}" var="student">
+							
+							<apex:pageBlockSectionItem > 
+								<apex:inputCheckbox value="{!student.isSelected}"/> 
+								<apex:outputText value="{!student.opp.Name} ({!student.opp.StageName})"/>
+							</apex:pageBlockSectionItem>
+							
+					</apex:repeat>
+				</apex:pageBlockSection>
+				
+			</apex:repeat>
+			
+		</apex:pageBlockSection>
+			
+		</apex:pageBlockSection>
+	</apex:pageBlock>
+</apex:form>
+
+</apex:page>

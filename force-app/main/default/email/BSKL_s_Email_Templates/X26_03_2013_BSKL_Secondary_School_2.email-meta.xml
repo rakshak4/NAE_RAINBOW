@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>26/03/2013 - BSKL - Secondary School</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>26/03/2013 - BSKL - Secondary School (2)</name>
+    <style>freeForm</style>
+    <subject>BSKL - Secondary School</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+As I write the snow is falling outside my office in Henley-on-Thames, and it is difficult to believe that only four days ago I was in the heat of Kuala Lumpur. Thank you all for your warm welcome and your (often searching!) questions. I hope that some of your uncertainties have been addressed. Over the coming days I will be putting the finishing touches to the curriculum plan so that you will soon have a full picture of the programme of study for next year’s Key Stage 3.
+
+During my brief visit I met a team of teachers who are as ambitious as I am for the secondary school. They are determined to move the school forward in a professional manner, and clearly want to provide the very best education they can for your children. The pupils I met were delightful. It is easy, when walking around a campus, to quickly gain a sense of how much children enjoy their school: their impatience to move to the new secondary building notwithstanding, the pupils I met were engaged and eager to learn. If the teaching is good, and the pupils are motivated, everything else will follow. One of the things we spoke at length about was how to identify and fulfil pupil potential: during the first week of September your sons and daughters will sit a MidYIS (Middle Years Information System) test which will provide us with information on pupils’ strengths and weaknesses. The test (which lasts about one hour) is designed to test ability and aptitude for learning, rather than achievement, and so there is no preparation that can be undertaken in advance. We will use the results to inform teaching and learning, as a baseline from which to measure progress, and eventually to help set IGCSE target grades. The test is administered by the Centre for Evaluation and Monitoring (CEM) at Durham University, one of the leading educational research institutions in the world (www.cem.org/midyis/introduction).
+
+I must admit to now feeling slightly impatient - my family and I are thoroughly looking forward to arriving in August. I will be returning for one week at the end of June and there will be further opportunity for us to meet then.
+
+I very much look forward to working with you.
+
+Yours sincerely
+
+Derek Mackey
+Head of Secondary
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

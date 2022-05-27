@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Urgent Email to Year 10 Parents - 20141107</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Urgent Email to Year 10 Parents - 20141107</name>
+    <style>freeForm</style>
+    <subject>Urgent Email to Year 10 Parents</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+7th November 2014
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The appointments for the IGCSE Science teachers are full and I understand that a number of parents are trying to make appointments beyond the given times. Biology, Chemistry and Physics together comprise the full Science Double and Triple Awards IGCSEs. Science is a valuable core subject and it is important that you are able to meet with the Science teachers.
+
+In order that every parent has the opportunity to discuss their son/daughter&apos;s progress in Science IGCSE, we will restructure the appointment schedule. This means that every parent will be given an appointment to meet with one of the Science teachers who will consult with you about academic progress across all three elements (Biology, Chemistry and Physics) of the IGCSE. Science teachers will meet beforehand to coordinate progress comments so that all teachers will be able to feed back on individual sciences.
+
+The Science Department will consult with students today to create a new appointment schedule. We will aim to keep as close as possible to the original requested times so as to minimise inconvenience. The new appointment schedule will be reissued as soon as possible. If there is a particular issue with an individual science subject, we will address this using available time during the evening or as soon as possible afterwards.
+
+We appreciate that this could affect on other subject times. However, other subjects are not over-subscribed and have flexibility within their appointment times.
+
+I thank you for your understanding for making the changes, but it now means that every parent has the opportunity to meet a Science teacher to discuss progress in IGCSE Science.
+
+If you have any queries, please contact me or Miss Burton-Morgan.
+jason.reeves@britishschool.edu.my
+jasmin.burtonmorgan@britishschool.edu.my
+
+
+Yours faithfully,
+
+Jason Reeves
+Head of Pupil Development and Geography Teacher
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

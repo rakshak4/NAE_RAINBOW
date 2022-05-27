@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Uniform Shop Krylatskoe Closed Tomorrow</name>
+    <style>freeForm</style>
+    <subject>Uniform Shop Krylatskoe Closed Tomorrow</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Velotrack Update</name>
+    <style>freeForm</style>
+    <subject>Velotrack Update</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear Parents,
+
+Unfortunately, and with no prior notice, there is some remedial work at the neighbouring Velotrack to our Upper Campus. This will cause the water supply in the surrounding area to be cut off during the weekend and will mean that we have no water into our Upper Campus site until the work is completed.
+
+At this stage, we are not sure if the water supply will be back on by Monday. Obviously with no water supply available, the school site would be unable to operate within health and safety guidelines.
+
+We will inform you by email (not portal message) on Sunday evening by 6pm (earlier if possible) to confirm if the maintenance work has been completed and if the Upper Campus will be open or not on Monday, 9th June.
+
+Please also note that the sports activities, Hockey and Football, that take place during the weekend at the upper campus sports facilities are cancelled this week.
+
+With this in mind, please check your email messages on Sunday evening so that you are aware of the situation for Monday. Apologies for the inconvenience which of course beyond our control.
+
+Please also note that our Lower Campus will operate as usual, as the water supply there is not connected.
+
+Have a great weekend.
+
+Paul Seedhouse
+Head Teacher
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

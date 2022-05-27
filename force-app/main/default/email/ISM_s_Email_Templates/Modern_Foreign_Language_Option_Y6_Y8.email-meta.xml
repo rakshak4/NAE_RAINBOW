@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Modern Foreign Language Option Y6 - Y8</name>
+    <style>freeForm</style>
+    <subject>Modern Foreign Language Option Y6 - Y8</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+
+Dear Parent
+
+
+I am writing to inform you of some exciting changes to modern language teaching at ISM.
+
+
+In addition to the Russian lessons your child will continue to receive he/she will also study Spanish or French as a second modern language. For this there will be an element of choice in the language studied.
+
+
+Any child who is a native or fluent speaker of French will automatically be enrolled into Spanish lessons and native or fluent speakers of Spanish will be allocated French as their second modern language.
+
+
+I would, therefore, be most grateful if you could inform me via the email address given at the bottom of this letter about which language you would like your child to learn.
+
+
+The first Spanish and French lesson will commence in teaching week 1 so it is very important that we have as accurate as possible a breakdown of groups for each language by Monday 26th August.
+
+
+The language you choose for your child will be the language they continue to learn throughout their time at ISM. Furthermore, once your child has been allocated that language of choice there will be no opportunity for a switch over to the other language.
+
+
+I would like to take this opportunity to thank you for your support and wish your child well in their studies for the next academic year.
+
+
+Please do not hesitate to contact me should you have any questions.
+
+
+Yours sincerely
+
+
+Ian Storey
+
+Head of Modern Languages
+
+
+ian.storey@internationalschool.ru
+
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

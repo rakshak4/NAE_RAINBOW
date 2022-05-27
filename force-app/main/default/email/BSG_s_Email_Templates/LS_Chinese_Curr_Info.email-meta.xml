@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>LS Chinese Curriculum Letter</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>LS Chinese Curr Info</name>
+    <style>freeForm</style>
+    <subject>Lower School Chinese Curriculum Information.</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+The following information is for parents of children attending our Chinese programme.
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+As children who attend BSG are living in China, we feel it is very important that they learn about the customs and language of their host country. All children attending the Lower School take part in the Chinese language programme, which is taught by native speaking Chinese teachers. We have two Chinese programmes, one is for native speakers (CFL programme) and one for those children who are learning Chinese as an additional language (CAL programme). All children are assessed to ensure they are placed on the appropriate Chinese language programme.
+
+Our Chinese curriculum will enable the children to develop their Chinese levels in their own time and at their own pace. In Chinese lessons we aim to provide an active and relaxed atmosphere which will allow the children to have fun whilst also learning Chinese.
+
+To find an outline of the curriculum themes or text books for academic year 2012-2013, please click here. These will be reviewed and may be modified every academic year.
+
+All children attending the Chinese programme will be continually assessed throughout the year and teaching will be adapted to cater for every child’s needs.
+
+In addition to the Chinese curriculum we also have many Chinese celebrations during the year in which the children learn about Chinese festivals and customs and have many opportunities to share in the fun of learning to speak Chinese!
+
+If you have any questions about the Lower School Chinese Programme please do not hesitate to contact me at the following email address lynn@bsg.org.cn.
+
+We thank you in advance for your support of the Lower School Chinese Programme.
+
+Regards,
+
+Lynn Lin
+
+Lower School Chinese Curriculum &amp; Events Coordinator
+
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

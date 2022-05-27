@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Personal Fitness Training</name>
+    <style>freeForm</style>
+    <subject>Personal Fitness Training</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+
+
+I am Ben Free a specialist personal trainer from the UK and my partner is working at The British International School.
+I am pleased to offer a Personal Fitness Training service at Bukit Utama 1 or at your own Condominium. (If you prefer I will shortly be able to train you using my own equipment in the comfort of your own home or outdoors).
+RM100 per hour session with discounts for block bookings. (Group sessions available on request).
+I have many years of experience with weight loss and sports specific training with great results achieved by my clients.
+To find out more information or to book a taster session please contact Ben on 01129144176
+Hours of work:
+Monday to Friday 7am-7pm
+Saturday 9am-12pm
+Many Thanks
+Ben Free
+
+
+
+Kind Regards,
+
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

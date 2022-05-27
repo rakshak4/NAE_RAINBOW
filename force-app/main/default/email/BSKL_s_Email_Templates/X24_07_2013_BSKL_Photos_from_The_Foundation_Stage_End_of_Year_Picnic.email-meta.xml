@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>24/07/2013 BSKL Photos from The Foundation Stage End of Year Picnic</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>24/07/2013 BSKL Photos from The Foundation Stage End of Year Picnic</name>
+    <style>freeForm</style>
+    <subject>BSKL Photos from The Foundation Stage End of Year Picnic</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We are happy to say that photos from the recent Foundation Stage Picnic are now available via the following link:
+
+Foundation Stage Picnic
+(https://www.dropbox.com/sh/li9bagf638kxwh1/PNTCECEs29)
+
+Thank you and we wish you all a great Summer holiday!
+
+Warm Regards,
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

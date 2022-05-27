@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>28/05/2013 KS1 Sports Day</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>28/05/2013 KS1 Sports Day</name>
+    <style>freeForm</style>
+    <subject>KS1 Sports Day</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Firstly we are very sorry for the delay with the information and appreciate your patience. KS1 sports will be on KBU field on Thursday 30th May. It will start at 9am and will finish at 11am.
+
+Students will need to come to school as normal, dressed in their house t shirts, PE shorts, hats and trainers. It is essential that they bring a water bottle to the event.
+
+All students will participate in a circuit of events and points earned will be added to house totals. All students will receive a medal depending on where their house finish&apos;s when points have been calculated. For example if Saxons are the overall winners then all members will receive a gold medal.
+
+We will be back in time for lunch and there will be scheduled drinks stations between events. KBU will be fogged prior to the event.
+
+We hope you will be able to join us to cheer and support everyone involved.
+
+Kind regards,
+Mr Thomson
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

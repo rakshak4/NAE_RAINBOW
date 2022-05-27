@@ -1,0 +1,95 @@
+<apex:page standardController="Contact" extensions="ContactPhotoUpdateController">
+  <apex:includeScript value="{!$Resource.jQuery}"/>
+   <apex:includeScript value="{!URLFOR($Resource.jQueryBlockUI, 'jquery.blockUI.js')}"/>
+   
+  <!-- <div class="bPageTitle"><div class="ptBody"><div class="content">
+        <div id="contactHeaderRow">                           
+          <div class="textBlock">
+            <h2 style="font-size: 18px;font-weight: normal;margin-bottom: 4px;vertical-align: text-top;">
+              <apex:outputLink value="/{!con.Id}">{!con.Name}</apex:outputLink>
+            </h2>
+          </div>
+        </div>
+    </div></div></div> -->
+     <table>
+    <tr>
+        <td>
+            <apex:image value="{!Contact.Contact_Photo_URL__c}" height="180px" width="120px"/><br/>
+            
+        </td>
+        <td>
+            <table>
+                <tr> 
+                    <td>
+                        <b><font size="2.5">Student Academic File </font></b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b><font size="4">{!Contact.Student_Full_Name__c}</font></b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b><font size="2.3">Admissions Stage:&nbsp;{!Contact.Opportunity_Stage__c}</font></b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b><font size="2.3">Starting Date:&nbsp;<apex:outputField value="{!Contact.Starting_Date_from_student__c}"/></font></b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b><font size="2.3">Tutor Group:&nbsp;<apex:outputField value="{!Contact.Tutor_Group__c}"/></font></b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b><font size="2.3">Class/Form Tutor:&nbsp;{!Contact.Class_Form_Tutor__c}</font></b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b><font size="2.3">Date of Birth:&nbsp;<apex:outputField value="{!Contact.Date_of_Birth__c}"/></font></b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b><font size="2.3">Nationality:&nbsp;{!Contact.Nationality__c}</font></b>
+                    </td>
+                </tr>
+            </table>
+        </td>   
+    </tr>
+   </table> 
+  <apex:form id="mainform">  
+        <script>
+            function saveAttachment(btn){
+                
+                $.blockUI({ message: '<h1>Uploading. Please wait..</h1>' });
+                return true;
+            }
+        </script>
+        <apex:pageMessages />
+        <apex:pageBlock id="mainBlock" mode="edit">
+            <apex:pageBlockButtons >  
+                <apex:commandButton value="Delete Current Photo" action="{!deletePhoto}" immediate="true" rendered="{!IF(Contact.Photo_Attachment_Id__c == null, false, true)}"/>
+                <apex:commandButton value="Upload & Save" action="{!saveAttachment}" onclick="saveAttachment(this);"/>
+                <apex:commandButton value="Cancel" action="{!cancel}" immediate="true"/>
+            </apex:pageBlockButtons>
+            
+            <apex:pageBlockSection title="Upload Student Image" columns="1" id="uploadimagessection">
+                <p>
+                    Note: Ideal image size is 120w x 180h pixels. If image cannot be this exact size it should be of the ratio 2:3 (w:h). Maximum file size is 1MB and must be a JPEG, GIF or PNG file.
+                </p>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Browse Image"/> 
+                    <apex:inputFile id="fileBody" value="{!fileBody}" fileName="{!fileName}" contentType="{!contentType}" fileSize="{!fileSize}"/>
+                </apex:pageBlockSectionItem>
+                
+            </apex:pageBlockSection>
+            
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

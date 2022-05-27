@@ -1,0 +1,145 @@
+<apex:page standardController="Group__c" extensions="NewsEventList_Controller" showChat="false" showHeader="false" sidebar="false">
+  <script>
+    
+    function confirmDeletion(){
+        
+        var flag =  false;
+        
+        flag = confirm("Are you sure you want to delete this record ?");
+        
+        return flag;            
+    }
+    
+    function publisToSite(){
+                if("{!$User.User_Cron_Link__c}" == ""){ 
+                    alert("Group users cannot use this button. Please use the links in the sidebar to refresh the relevant site(s) instead."); 
+                }else{ 
+                    window.open("{!$User.User_Cron_Link__c}", "_blank", "toolbar=no, scrollbars=no, resizable=no, top=300, left=500, width=400, height=300"); 
+                }
+                return false;
+            }
+    
+    </script>
+  <apex:form >
+  <apex:pageMessages />
+  <apex:actionFunction name="handleTermChange" action="{!fetchEvents}"/>
+    <apex:pageBlock title="Calendar" mode="detail">
+        <apex:pageBlockButtons location="top">
+            <apex:commandButton value="New Notice" action="{!newNotice}"/>
+            <apex:commandButton value="New School Event" action="{!newSchoolEvent}"/>
+            <apex:commandButton value="New Term Date" action="{!newTermDate}"/>
+            <apex:commandButton value="New Holiday Date" action="{!newHolidayDate}"/>
+            <apex:commandButton value="Push Changes to Site"  onclick="return publisToSite();" />
+        </apex:pageBlockButtons>
+        <!--  section to display exiting folders --> 
+        <apex:outputPanel style="width:55%" layout="block">
+            <apex:pageBlockSection title="Filter Options" columns="3">
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Term"/>
+                    <apex:selectList value="{!selectedTermFilter}" multiselect="false" size="1" onChange="handleTermChange();">
+                        <apex:selectOptions value="{!termOptions}"/>
+                    </apex:selectList>
+                    <!-- 
+                    <apex:outputPanel layout="block">
+                        <table><tr>
+                            <td><apex:selectList value="{!selectedTermFilter}" multiselect="false" size="1" onChange="handleTermChange();">
+                                <apex:selectOptions value="{!termOptions}"/>
+                            </apex:selectList></td>
+                            <td><apex:selectCheckboxes value="{!selectedFilters}" onChange="handleTermChange();">
+                                <apex:selectOptions value="{!filterOptions}"/>
+                            </apex:selectCheckboxes></td>
+                        </tr></table>
+                    </apex:outputPanel>  -->
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Status"/>
+                    <apex:selectList value="{!selectedStatus}" multiselect="false" size="1" onChange="handleTermChange();">
+                        <apex:selectOptions value="{!statusOptions}"/>
+                    </apex:selectList>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Owner"/>
+                    <apex:selectList value="{!selectedOwner}" multiselect="false" size="1" onChange="handleTermChange();">
+                        <apex:selectOptions value="{!ownerOptions}"/>
+                    </apex:selectList>
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+        </apex:outputPanel>    
+        <apex:pageBlockSection columns="1">
+            <apex:pageBlockTable value="{!records}" var="ne">
+                     <apex:column >
+                        <apex:facet name="header">Action</apex:facet>
+                        <apex:outputLink value="/{!ne.Id}/e?retURL={!pageURL}&saveURL={!pageURL}&cancelURL={!pageURL}"><font color="#015ba7">Edit</font></apex:outputLink>
+                        &nbsp;<b>|</b> &nbsp; 
+                        <apex:commandLink onClick="return confirmDeletion();"  value="Del" action="{!deleteRecord}" style="color:#015ba7;">  
+                            <apex:param name="rid" value="{!ne.Id}"/>   
+                        </apex:commandLink>
+                    </apex:column>
+                    <apex:column style="width:100px;">
+                        <apex:facet name="header">{!$ObjectType.News_Events__c.Fields.Name.Label}</apex:facet>
+                        <apex:outputLink value="/{!ne.Id}">{!ne.Name}</apex:outputLink>
+                    </apex:column>
+                    <apex:column >
+                        <apex:facet name="header">{!$ObjectType.News_Events__c.Fields.Subtitle__c.Label}</apex:facet>
+                        <apex:outputField value="{!ne.Subtitle__c}"/>
+                    </apex:column>
+                    <apex:column >
+                        <apex:facet name="header">Record Type</apex:facet>
+                        <apex:outputField value="{!ne.RecordType.Name}"/>
+                    </apex:column>
+                    <apex:column >
+                        <apex:facet name="header">{!$ObjectType.News_Events__c.Fields.Event_Start_Date__c.Label}</apex:facet>
+                        <apex:outputField value="{!ne.Event_Start_Date__c}"/>
+                    </apex:column>
+                    <apex:column >
+                        <apex:facet name="header">{!$ObjectType.News_Events__c.Fields.Event_End_Date__c.Label}</apex:facet>
+                        <apex:outputField value="{!ne.Event_End_Date__c}"/>
+                    </apex:column>
+                    <apex:column >
+                        <apex:facet name="header">{!$ObjectType.News_Events__c.Fields.Publish_in_Portal_School_Hub__c.Label}</apex:facet>
+                        <apex:outputField value="{!ne.Publish_in_Portal_School_Hub__c}"/>
+                    </apex:column>
+                    <apex:column >
+                        <apex:facet name="header">{!$ObjectType.News_Events__c.Fields.Publish_on_School_Site__c.Label}</apex:facet>
+                        <apex:outputField value="{!ne.Publish_on_School_Site__c}"/>
+                    </apex:column>
+                    <apex:column >
+                        <apex:facet name="header">{!$ObjectType.News_Events__c.Fields.Publish_on_Group_Site__c.Label}</apex:facet>
+                        <apex:outputField value="{!ne.Publish_on_Group_Site__c}"/>
+                    </apex:column>
+                    <apex:column >
+                        <apex:facet name="header">Created By</apex:facet>
+                        <apex:outputField value="{!ne.CreatedById}"/>
+                    </apex:column>
+            </apex:pageBlockTable>
+            <apex:outputPanel layout="block">
+                    <br/>
+                    <div class="paginator">
+                        <span class="prevNextLinks">
+                            
+                            <span class="prevNext">
+                                <apex:commandLink action="{!first}">
+                                <img src="/s.gif" class="firstoff" alt="First Page"/>
+                                </apex:commandLink>
+                            </span>
+                            
+                            <span class="prevNext"><apex:commandLink action="{!previous}" rendered="{!hasPrevious}"><img src="/s.gif" class="prevoff" alt="Previous"/>Previous</apex:commandLink></span>
+                            
+                            <span class="prevNext"><apex:commandLink action="{!next}" rendered="{!hasNext}">Next<img src="/s.gif" class="nextoff" alt="Next"/></apex:commandLink></span>
+                            
+                            <span class="prevNext"><apex:commandLink action="{!last}"><img src="/s.gif" class="lastoff" alt="Last Page"/></apex:commandLink></span>
+                            
+                            
+                        </span>
+                        
+                        <span class="right">
+                        Page
+                        <apex:inputText value="{!pageNum}" styleclass="pageInput" maxlength="4"/>
+                        of {!totalPages}<apex:commandButton value="Go" action="{!setPageNumber}"/>
+                        </span>
+                </div>
+         </apex:outputPanel>     
+        </apex:pageBlockSection>   
+    </apex:pageBlock>
+  </apex:form>
+</apex:page>

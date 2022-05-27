@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Buses 18th Sep&apos;12</name>
+    <style>freeForm</style>
+    <subject>School Open As Normal Tuesday, 18th September.</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+Dear Parents,
+
+As many of you will have heard there have been a number of demonstrations in Guangzhou recently as a result of political tensions between China and Japan. Further demonstrations are planned for tomorrow and are likely to be bigger given the historically significant date.
+
+As a precaution we have checked with the police who have informed us there are no planned road closures at times when our buses are in operation. Therefore we have decided that the situation does not warrant closing and the school will open tomorrow as normal. Please note that we have taken steps to ensure that security staff, bus monitors, teachers and bus drivers are all made aware of potential difficulties.
+
+Should you feel it necessary to keep your own child at home tomorrow we will obviously respect your decision but as far as we are concerned we will be operating as normal.
+
+Regards,
+
+
+
+Mark Thomas
+
+Headmaster
+
+The British School of Guangzhou
+
+World Class Education
+
+
+_________________________________________________________
+Member of The British Schools Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

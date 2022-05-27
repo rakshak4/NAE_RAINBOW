@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>27/02/2013 BSKL Lunch Menu - Term 3</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>27/02/2013 BSKL Lunch Menu - Term 3</name>
+    <style>freeForm</style>
+    <subject>BSKL Lunch Menu - Term 3</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Below is the link to the lunch menu for term 3.
+
+BSKL Term 3 Lunch Menu
+
+Please would you kindly make your selections and return the completed menu to Azizan at azizan.sallehhuddin@britishschool.edu.my no later than Wednesday 20th March.   You can also hand it in at the school reception.
+
+Your cooperation is very much appreciated.
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Early Withdrawal Notice 2012</name>
+    <style>freeForm</style>
+    <subject>Early Withdrawal Notice 2012</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+Dear Parents,
+
+
+In case you are planning to withdraw your child(ren) at the end of the Autumn term (21st December, 2012), please be informed of the deadline for submission of the withdrawal notice, in order to receive reimbursement of the Development Contribution fee or an Early notice payback.
+
+
+Please click here to download the withdrawal form that needs to be submitted either by email (signed and scanned) or by post/personal delivery by no later than 19th October, 2012. Any form received after this date will unfortunately be outside of the reimbursement time frame.
+
+
+In order for the submission to be completed, you must receive a receipt of the form from either myself, the Headmaster or from the Head of Administration, Anastasia Ramazanova.
+
+
+(Please be aware that on previous occasions forms have gone missing and then later found in school bags!)
+
+
+Please contact me should you have any questions in this regard.
+
+
+Best Regards,
+
+
+Dino Vikas
+
+Head of Admissions
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

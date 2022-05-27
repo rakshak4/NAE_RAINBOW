@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>26/06/2013 BSKL Summer School 2013</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>26/06/2013 BSKL Summer School 2013</name>
+    <style>freeForm</style>
+    <subject>BSKL Summer School 2013</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+BSKL will be opening its doors this Summer for our Summer School 2013!
+
+From Monday 22nd July – Wednesday 7th August there will be a number of diverse and exciting courses available for BSKL students.  From Robotics to Fencing there really is something for everyone.
+
+The courses will take place within BSKL from 9am – 12noon each day, please note that some courses may not run for the entire three hours each day.
+
+During the Summer School BSKL will not be providing lunches or transportation and please note the Summer School will not run on Public Holidays.
+
+Some of the available courses will run for the entire three weeks whilst a number will run for either one or two weeks, you are welcome to sign your child up for a one week course or a number of different courses (as long as they are not at the same time) depending on your summer plans.
+
+We will shortly be uploading a brochure onto our website that will detail each of the courses available, their running dates and times and the cost per child to participate in the course.  In the meantime please click on the below link to find initial information about the variety of courses being provided:
+
+BSKL Summer School 2013 ( https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004RGQ/ssIwpRqwypveAb7HQ.sSsKUKHINg1hztOO3R76BHqE8= )
+
+If you would like any further assistance regarding the Summer School please do not hesitate to get in touch with a member of our administration team.
+
+Thank you and warm regards,
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

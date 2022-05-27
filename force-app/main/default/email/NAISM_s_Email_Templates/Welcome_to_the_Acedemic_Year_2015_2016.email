@@ -1,0 +1,472 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<div style="font-size: 12pt; color: rgb(0, 0, 0); text-align: right; font-family: arial;"><span class="Apple-style-span" style="font-family: 'Times New Roman', Times, serif; "><font class="Apple-style-span" color="#000066" size="6">{!Contact.SchoolText__c}</font></span></div><div style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); text-align: right;"><font class="Apple-style-span" face="'Times New Roman', Times, serif" color="#ff6600" size="4"><i>Charter<font size="4">ed By </font>The British Schools <font size="4">Founda<font size="4">t<font size="4">ion</font></font></font><br></i></font></div><div style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); text-align: right;"><font class="Apple-style-span" face="Arial, sans-serif" color="#c0c0c0" size="6"><b><i><br></i></b></font></div><div style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); text-align: right;"><font class="Apple-style-span" face="'Times New Roman', Times, serif" color="#ff6600" size="1"><i><br></i></font></div><div style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial; text-align: left;"><font class="Apple-style-span" face="Arial, sans-serif"><span class="Apple-style-span" style="-webkit-border-horizontal-spacing: 5px; -webkit-border-vertical-spacing: 5px; "><font class="Apple-style-span" face="Arial, sans-serif"><br></font></span></font></div><div style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial; text-align: left;"><font class="Apple-style-span" face="Arial, sans-serif"><span class="Apple-style-span" style="-webkit-border-horizontal-spacing: 5px; -webkit-border-vertical-spacing: 5px; "><font class="Apple-style-span" face="Arial, sans-serif">Dear&nbsp;{!Contact.Salutation} {!Contact.LastName},</font></span></font></div><div style="font-size: 12pt; font-family: arial; text-align: right; color: rgb(0, 0, 0);"><font class="Apple-style-span" face="Arial, sans-serif"><span class="Apple-style-span" style="-webkit-border-horizontal-spacing: 5px; -webkit-border-vertical-spacing: 5px;"></span></font></div><span lang="en-GB"><div style="margin: 0px;"><font face="Calibri,sans-serif" size="2" style="font-size: 12pt;"><span style="font-size:11pt;"><font color="#002060" size="3"><span style="font-size:12pt;"><br></span></font></span></font>
+
+
+
+
+
+
+<!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:TrackMoves/>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>JA</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="276">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-ansi-language:EN-US;}
+</style>
+<![endif]-->
+
+
+
+<!--StartFragment-->
+
+<p style="font-size: 12pt; margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial;color:#222222">The start of
+our exciting new school year is rapidly approaching. As I am writing this all
+of new teachers have arrived safely and are enjoying their first weeks in
+Manila. While KSM staff is kept busy with induction and training sessions, we
+encourage you to log into the Portal where new teachers’ profiles have been
+posted.<o:p></o:p></span></p>
+
+<p style="font-size: 12pt; margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial;color:#222222">&nbsp;</span></p>
+
+<p style="font-size: 12pt; margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial;color:#222222">We look
+forward to greeting all pupils very soon, and understand that particularly for
+our new families there may be a slight degree of nervousness as the first day
+of school approaches. Please be reassured that we will make every effort to
+ensure that they are welcomed and feel at home as soon as possible.<br></span></p><p style="font-size: 12pt; margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial;color:#222222"><br></span></p>
+
+<p style="font-size: 12pt; margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><b><u><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial;color:#222222">The
+Big Day!&nbsp;</span></u></b><span lang="EN-US" style="font-family:Arial;
+mso-bidi-font-family:Arial;color:#222222"><o:p></o:p></span></p>
+
+<p style="font-size: 12pt; margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial;color:#222222">&nbsp;</span></p>
+
+<p style="font-size: 12pt; margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial;color:#222222">On Tuesday 1<sup>st</sup>
+September, we ask that children in Pato and Kwago (Nursery and Reception) go
+straight to their classes in the school hall. Staff will be available from
+7:45am. Children in Year 1 to Year 9 are to line up on the basketball court at
+7:55am with their respective class/form teachers and teaching assistants. <o:p></o:p></span></p>
+
+<p style="font-size: 12pt; margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial;color:#222222">&nbsp;</span></p>
+
+<p style="font-size: 12pt; margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial;color:#222222">To allow
+this process to operate smoothly and for staff to get their children to their
+new classes quickly, we ask that parents/carers vacate the basketball area when
+the whistle is blown to signal the children to line up. <o:p></o:p></span></p>
+
+<p style="font-size: 12pt; margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial;color:#222222">&nbsp;</span></p>
+
+<p style="font-size: 12pt; margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial;color:#222222">If you
+believe that your children will arrive at school&nbsp;<b>after</b>&nbsp;the 1<sup>st</sup>
+September, please let us know as soon as possible so that we can inform tutors
+and make arrangements accordingly.&nbsp;<br>
+&nbsp;<o:p></o:p></span></p>
+
+<p style="font-size: 12pt; margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><b><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial;color:#222222">School
+Uniforms</span></b><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:
+Arial;color:#222222"><o:p></o:p></span></p>
+
+<p style="font-size: 12pt; margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial;color:#222222">&nbsp;</span></p>
+
+<p style="font-size: 12pt; margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial;color:#222222">The uniform
+shop will be open during the summer, from the 24<sup>th</sup> August – 28<sup>th</sup>
+August.17th 8am - 4pm. It is important that all pupils wear full school uniform
+from the first morning. Please refer to our website for uniform requirements
+(www.kings.org.ph).</span><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:
+Arial;color:red"> </span><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:
+Arial;color:#222222"><o:p></o:p></span></p>
+
+<p style="font-size: 12pt; margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial;color:#222222">&nbsp;</span></p>
+
+<p style="font-size: 12pt; margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><b><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial;color:#222222">Updating
+Medical Requirements and Contact Details</span></b><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial;color:#222222"><o:p></o:p></span></p>
+
+<p style="font-size: 12pt; margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial;color:#222222">&nbsp;</span></p>
+
+<p style="font-size: 12pt; margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial;color:#222222">It is important
+to also please let us know and update any&nbsp;<b>medical requirements</b>,
+including allergies, before your child begins the new term. You may also need
+to update us with your new contact details should these have changed during the
+summer holiday. A reminder that it is the parents responsibility to notify us
+of correct and up to date contact details.&nbsp;<o:p></o:p></span></p>
+
+<p style="font-size: 12pt; margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial;color:#222222">&nbsp;</span></p>
+
+<p style="font-size: 12pt; margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial;color:#222222">Please
+contact our nurse, Faye Pacson at faye.pacson</span><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial">@king.ph.org<span style="color:red"> </span><span style="color:#222222">in order to update
+medical or contact information.<br>
+<!--[if !supportLineBreakNewLine]--><br>
+<!--[endif]--><o:p></o:p></span></span></p>
+
+<p style="font-size: 12pt; margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><b><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial;color:#222222">Security
+Passes</span></b><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:
+Arial;color:#222222"><o:p></o:p></span></p>
+
+<p style="font-size: 12pt; margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial;color:#222222">&nbsp;</span></p>
+
+<p style="font-size: 12pt; margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial;color:#222222">It is an
+important part of our Health and Safety procedures that within the first
+week&nbsp;of school the responsible parent and carer report to our front desk
+in order to have their photo taken. A security card will then be provided which
+will allow the parent or carer to collect the child from school and/or access
+school grounds.<o:p></o:p></span></p>
+
+<p style="font-size: 12pt; margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial;color:#222222">&nbsp;</span></p>
+
+<p style="font-size: 12pt; margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><b><span lang="EN-US" style="font-family:Arial;
+mso-bidi-font-family:Arial;color:#222222">School Calendar <o:p></o:p></span></b></p>
+
+<p style="font-size: 12pt; margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial;color:#222222">&nbsp;</span></p>
+
+<p style="margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><span lang="EN-US" style="font-family: Arial; color: rgb(34, 34, 34);"><span style="font-size: 12pt;">Our school
+calendar has been adapted in light of the parental survey feedback. The first
+term carries only minor alterations, a public holiday o</span>n the 18<sup>th</sup>
+and 19<sup>th</sup> November and our Christmas production date on Saturday 5<sup>th</sup>
+December, but our Easter holiday has been shortened and our summer holiday date
+has been brought forward. This is to ensure our holiday provision matches with
+other international schools in Manila in the academic year 2016-2017. The new
+calendar is available on the portal.<o:p></o:p></span></p>
+
+<p style="margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial;color:#222222">&nbsp;</span></p>
+
+<p style="margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial;color:#222222">If you have
+further questions after having reviewed the attached documents, please feel
+free to contact our Front Desk (faye.pacson</span><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial">@king.ph.org)<span style="color:#222222">.&nbsp;Otherwise, we look forward to welcoming the children
+back to school in a few days.<o:p></o:p></span></span></p>
+
+<p style="margin: 0in 0in 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><span lang="EN-US" style="font-family:Arial;mso-bidi-font-family:Arial;color:#222222">&nbsp;</span></p>
+
+<p class="MsoNormal"><span lang="EN-US" style="font-family: Arial; color: rgb(34, 34, 34);">Steven Small<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-US" style="font-family: Arial; color: rgb(34, 34, 34);">Headmaster<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-US" style="font-family: Arial; color: rgb(34, 34, 34);">King’s School, Manila</span><span lang="EN-US" style="font-family: Arial;"><o:p></o:p></span></p>
+
+<p class="MsoNormal"><b><i><span lang="EN-US" style="font-family: Arial; color: rgb(255, 102, 0);">World Class
+Educ<span style="font-size: 12pt;">ation</span></span></i></b><span lang="EN-US" style="font-size: 12pt; font-family: Arial;"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt;"><span lang="EN-US">&nbsp;</span></p>
+
+<!--EndFragment--><br></div></span><div style="font-size: 12pt; font-family: arial; text-align: left;"><br></div><div style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial; text-align: left;"><font class="Apple-style-span" face="Arial, sans-serif"><br></font></div><div style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial; text-align: left;"><font class="Apple-style-span" face="Arial, sans-serif">__________________________________________________________</font></div><div style="font-size: 12pt; color: rgb(0, 0, 0); text-align: center;"><font class="Apple-style-span" face="Arial, sans-serif" size="1">{!User.School_List_Email_Footer__c}</font><span style="font-family: Arial, sans-serif; font-size: x-small;"></span></div>]]></td>
+</tr>
+</table>

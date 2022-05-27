@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>18/10/12 International Day</name>
+    <style>freeForm</style>
+    <subject>International Day</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I trust this email finds you well.
+
+
+Attached is the menu for International Day on Wednesday, 24th October 2012. We will be serving lunch based on this menu in place of the lunch chosen on the usual menu.
+
+
+You can select both a main course and a desert if you wish – though a desert is not compulsory.
+
+
+Please kindly email by return to me no later than Monday, 22nd October 2012 so that we will be able to prepare beforehand for the International Day.
+
+
+
+Click here to download menu
+
+
+Please contact me if you have any questions and have a nice day.
+
+
+Thank you.
+
+
+
+Kind Regards,
+
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

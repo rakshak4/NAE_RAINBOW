@@ -1,0 +1,66 @@
+<apex:page standardController="Group__c" extensions="DailyAttendancePageController" sidebar="false" id="mainpage" showheader="false">
+    <script>
+        function disableSaveButton(){
+            document.getElementById('groupdetailtabbbed:attendanceinclude:mainpage:form:mainBlock:buttons:savebutton').setAttribute('disabled', 'disabled');
+        }
+    </script>
+    <apex:pageMessages id="messages"/>
+    <apex:form id="form">
+        <apex:actionFunction name="fetchRecords" action="{!fetchAttandences}" reRender="records,,messages,messages1" status="fetchStatus"/>
+        <apex:pageBlock title="Attendance Register" id="mainBlock">
+            <apex:pageBlockButtons id="buttons" location="bottom">
+                <!--<apex:commandButton id="savebutton" value="Save Attendances" action="{!saveAttandences}" reRender="mainBlock,,messages,messages1" status="savingStatus" onClick="disableSaveButton();"/>
+                <apex:actionStatus startText=" (saving records ...)" stopText="" id="savingStatus"/>-->
+                <apex:actionStatus id="savingStatus">
+                     <apex:facet name="stop">     
+                           <apex:commandButton id="savebutton" action="{!saveAttandences}" status="savingStatus" value="Save Attendances" disabled="false" reRender="mainBlock,,messages,messages1"/>     
+                     </apex:facet>     
+                     <apex:facet name="start">
+                        <apex:commandButton status="savingStatus" value="Saving Attendances..." disabled="true"/>                   
+                     </apex:facet>
+                </apex:actionStatus>
+            </apex:pageBlockButtons>
+            
+            <apex:pageBlockSection columns="2">
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Attendance Date"/>
+                    <apex:outputPanel layout="block">
+                        <table>
+                            <tr>
+                                <td>
+                                    <apex:inputField value="{!dateTask.ActivityDate}" required="true" onChange="fetchRecords();"/>
+                                </td>
+                                <!-- <td>
+                                    <apex:commandButton value="Retreieve Records" action="{!fetchAttandences}" reRender="records" status="fetchStatus"/>
+                                </td> -->
+                                <td>
+                                    <apex:actionStatus startText=" (fetching records ...)" stopText="" id="fetchStatus"/>
+                                </td>
+                            </tr>
+                        </table> 
+                    </apex:outputPanel>
+                </apex:pageBlockSectionItem>
+                &nbsp;
+                <apex:pageBlockSectionItem >
+                    <apex:pageBlockTable value="{!dataList}" var="data" id="records">
+                        <apex:column >
+                            <apex:facet name="header">Student</apex:facet>           
+                            <b><apex:outputText value="{!data.studentName}"/></b>
+                        </apex:column>
+                        <apex:column >
+                            <apex:facet name="header">Attendance</apex:facet>           
+                            <apex:selectList value="{!data.attendanceEvent.Subject}" multiselect="false" size="1">
+                                <apex:selectOptions value="{!attendanceTypes}"/>
+                            </apex:selectList>
+                        </apex:column> 
+                        <apex:column >
+                            <apex:facet name="header">Comments</apex:facet>           
+                            <apex:inputField value="{!data.attendanceEvent.Description}"/>
+                        </apex:column> 
+                    </apex:pageBlockTable>
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+    <apex:pageMessages id="messages1"/>
+</apex:page>

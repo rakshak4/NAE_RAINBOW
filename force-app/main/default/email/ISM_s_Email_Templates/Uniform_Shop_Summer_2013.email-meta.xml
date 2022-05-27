@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>School bus service</name>
+    <style>freeForm</style>
+    <subject>School bus service</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+We hope you are all enjoying the summer.
+
+In preparation for the start of the new school year we are now working on the School bus schedule. In case you have already registered for the bus service please click here to download the list of the confirmed bus students and check whether your children are on this list.
+
+In case you have not registered yet but would like to use the bus service please contact our School bus coordinator at bus@internationalschool.ru at your earliest convenience and we will process your request.
+
+Thank you and kind regards,
+
+Administration Team
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

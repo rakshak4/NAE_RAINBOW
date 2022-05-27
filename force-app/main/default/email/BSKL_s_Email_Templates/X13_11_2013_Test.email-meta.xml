@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>13/11/2013 Test</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>13/11/2013 Test</name>
+    <style>freeForm</style>
+    <subject>Philippine Disaster</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+NON-UNIFORM DAY
+
+As many of you are aware, the Philippines has suffered yet another tragedy.
+
+As part of a school effort to raise funds to help alleviate their suffering, this Friday will be a non-uniform day for children and staff. We politely ask that your child brings in a voluntary donation of at least RM5.
+
+Any money raised will be sent immediately to our sister school in Manila that has become a relief centre. This means the money will go straight to the people in need. The sooner we can do this the better.
+
+COLLECTION
+
+BSKL is collecting urgently needed items (see below) to be sent to the Philippines via the Embassy. As the next shipment deadline is this Friday, 15 November it is very short notice. If you have anything from the poster above you would like to donate, please could your child bring it to school tomorrow (Thursday 14th Nov) morning. If you have any large cardboard boxes too at this stage, we are in great need of those, although we do have a number that need filling.
+During ASAs tomorrow the items will be boxed for delivery/collection. The logistics are very sketchy at the moment.  Any help to box the items tomorrow between 3pm and 4 pm is appreciated.
+If you would like to help but find the deadline is too short please don&apos;t worry. We are hopeful that there will be another shipment leaving and that we can collect further resources next week.
+
+Kind Regards,
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

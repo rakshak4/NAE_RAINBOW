@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>4/12/12 Residential Trip to Taiwan</name>
+    <style>freeForm</style>
+    <subject>Residential Trip to Taiwan</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The BSKL Chinese department is planning on taking a residential trip to Taiwan from the 15th June to the 14th July 2012.
+
+Students will attend daily Mandarin courses at the National Taiwan Normal University.  After the course, students will have the opportunities to visit some wonderful places in Taiwan.
+
+The trip is open to 20 students only from Middle school.
+
+If you would like to get further information regarding the trip, please attend a talk being held by the Chinese department on Friday 7th December 2012 at 2pm in the ICT room.
+
+Kind Regards,
+The Chinese Department
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+_______________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

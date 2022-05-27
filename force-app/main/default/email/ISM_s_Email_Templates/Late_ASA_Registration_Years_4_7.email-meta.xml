@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in August 2014</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Late ASA Registration Years 4-7 Rosinka</name>
+    <style>freeForm</style>
+    <subject>Late ASA Registration Years 4-7 Rosinka</subject>
+    <textOnly>The International School
+of Moscow
+Chartered By The British Schools Foundation
+
+
+
+Dear Parents,
+
+After a fun and exciting start to the ASA&apos;s this week we would like to alert you to a number of remaining places for your children:
+
+TUESDAY BUDDING JOURNALISTS YEARS 4-7  = 7 places
+
+TUESDAY ASTRONOMY YEARS 4-7 = 12 places
+
+TUESDAY CHESS YEARS 4-7  = 10 places
+
+TUESDAY HOMEWORK YEARS 4-7 = 10 places
+
+TUESDAY IRISH DANCING YEARS 4-7 = 6 places
+
+WEDNESDAY BOWLING YEARS 4-7 = 8 places
+
+WEDNESDAY CHOIR YEARS 4-7  = 8 places
+
+WEDNESDAY FELT CHRISTMAS TREE DECORATION YEARS 4-7 = 10 places
+
+WEDNESDAY FOLK DANCE YEARS 4-7 = 10 places
+
+WEDNESDAY FUN WITH ENGLISH YEARS 4-7 = 10 places
+
+WEDNESDAY NATURE/OUTDOOR YEARS 4-7 = 10 places
+
+
+
+If you would like to sign up for one of these ASA&apos;s please email Adam McAndrews directly at adam.mcandrews@internationalschool.ru and he will add your child/ren to the list on a strictly first come first served basis. Please note that only emails received up until 5pm Monday 29th September, will receive a place; subject to that ASA’s availability. You will receive a confirmation email, confirming your child&apos;s place, by 6:30pm.
+
+Best wishes,
+
+Mr McAndrews
+ASA co-ordinator
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

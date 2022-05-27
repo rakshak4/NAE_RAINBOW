@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Weekly bulletin</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BSG</letterhead>
+    <name>Weekly bulletin</name>
+    <style>freeForm</style>
+    <subject>Secondary Orientation</subject>
+    <textOnly>Monday, 19th August - Orientation / Meet the Teacher Day&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; /&gt;
+
+
+Dear Parents,
+
+
+Please be aware that the first day of the new academic year on Monday, 19th August 2013 will be an &apos;Orientation Day&apos; &amp; ‘Meet the Teacher’ Event.
+
+
+New Families Only:
+
+We would like to formally invite new BSG students and parents to join us from 10:00am-12:30pm. Parents and students will be able to meet their form tutor, co-tutor and the teaching staff on this day. There will also be a tour of the school and to learn about the school procedures.
+
+
+Year 7 and Sixth Form
+
+It is expected that all Year 7 students and all Year 12 and 13 students will be in school. The Year 7’s will be given a short induction into life in the secondary school. The Year 12’s will make final decisions on their subject choices and will be introduced to the expectations of the Sixth form. The Year 13’s will confirm their A2 choices and assist guiding groups around the school.
+
+
+Existing BSG Families:
+
+Existing parents are invited to join us from 12:00 midday. This will provide parents with an opportunity to meet the your child’s teachers on an informal basis. All secondary staff will be based in their teaching room from 11:00 – 12:30pm on this day.
+
+
+Please note that light refreshment will be available throughout the day. Students will NOT be expected to be in school uniform on this day.
+
+
+All students will come to school as normal, with a full bus service being provided, from Tuesday the 20th August.
+
+
+We look forward to seeing you and hope you have a relaxing summer holiday.
+
+
+Kind regards,
+
+
+
+Mr. Iain Ruck
+
+Head of Secondary
+
+
+
+
+Itinerary:
+
+
+10:00– 10:10am:
+
+Welcome speech by Mr. Ruck in the Hall for all students and parents except
+
+Year 13 students and parents with Mr. Burlingham.
+
+
+10:15 – 10:45am:
+
+
+Yr. 12/ 13 induction: Mr. Burlingham and Ms. Hearn
+
+
+New student/ Year 7 induction: Mr. Ruck, Mr. Howe and Mr. Ellis
+
+
+10:45 – 11:15am:
+
+New students to meet form tutors and co-tutors. Students and parents to be given tour of the school. Year 13 students to provide tours
+
+
+11:15 – 12:30pm – Meet the teacher:
+
+All subject staff will be in their rooms and students and parents will have the opportunity to meet them.
+
+
+
+The event will finish at approximately 2pm.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

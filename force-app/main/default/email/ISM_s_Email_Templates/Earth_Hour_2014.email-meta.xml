@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Earth Hour 2014</name>
+    <style>freeForm</style>
+    <subject>Earth Hour 2014</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+
+
+On Monday 31st March, all students at ISM will take part in celebrating Earth Hour. During Earth Hour events are held in thousands of cities worldwide (29th March at 8.30 – 9.30pm local time) to raise awareness and demonstrate support for environmental protection. Please click here to download more information.
+
+Michelle Hamilton
+
+Secondary Phase Leader
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

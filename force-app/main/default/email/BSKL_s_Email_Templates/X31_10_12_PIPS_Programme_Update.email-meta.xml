@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>31/10/12 PIPS Programme Update</name>
+    <style>freeForm</style>
+    <subject>PIPS Programme Update</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+PIPS PROGRAMME
+
+Busy, busy, busy were the words used to describe the start of term for the Primary Instrumental Programme and this has continued at break neck speed up until half term.
+
+The PIPs tutors have resized instruments to accommodate the enormous pace of growth the students have experienced during the holidays -  What do they eat! Those who were using quarter size instruments in most cases have graduated to half size and after a year of hard work are now exploring a new repertoire of more complex music. The new students in Year 2 are now confidently setting up their instruments, looking like real musicians and tackling music involving open strings, rhythmic patterns and the language of notation. The year 4 students have stepped up to woodwind and brass instruments and can be heard throughout the school disturbing the peace with some wonderful sounds and year 6 students are continuing to develop their skills within their ensembles and adding to their musical repertoire.
+
+The uptake for orchestra this term was overwhelming and we contemplated building an extension on the music room. Many of the students who had been playing as part of the PIPs programme signed up to be a part of the orchestra so an extra, new training orchestra was established to cope with the number of instrumentalists wanting to be involved.
+
+Since being part of this programme the students have gained an amazing wealth of knowledge in their chosen field, which was clearly evident when Jonathan Beecher and Sarah Porter visited the school to perform a cello and piano recital. Part of the recital was a section on questions to the students about the history, tonality and craftsmanship about stringed instruments. Our students leapt into gear with all the correct answers which were quite clearly, unexpected by our overwhelmed visiting performers.
+
+All in all it has been it’s been a great start to the year!
+
+Kim Kelly
+Director of Music
+
+Kind Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

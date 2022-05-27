@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>E-Safety</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>E-Safety</name>
+    <style>freeForm</style>
+    <subject>E-Safety</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+We are writing to update you about an E-Safety issue that has been brought to our attention. There is rising concern for a &quot;Blue Whale Game&quot; that is targeting young and vulnerable people through a Russian based social media platform “V kontakte” and more common social media platforms such a Facebook and Instagram (these sites are already blocked on the Student SSID in BST) and other applications such as Skype.
+
+As a School, E- safety is extremely important to us. We currently provide up to date information to all  students via PSHE lessons, assemblies and consistently work with our highly effective student councils. Our Firewall Policy searches out  keywords associated with any &quot;game&quot; that we feel targets vulnerable young adults and our IT Team keep us informed of anything that is flagged up.
+
+Please be aware that a first sign of this occurring with any student will be the marking of &quot;F58&quot; on their person or on their bags or clothes. If you notice this at home we advise you to contact your child’s tutor.
+
+This &quot;Blue Whale Game&quot; also goes by a few more names:
+
+SINIY KIT - A Blue Whale
+TIKHIY DOM - A Quiet House
+MORE KITOV - A Sea of Whales
+
+For further information on how to support your children with their e-safety and online use, please click on the link to ‘supporting young people online’. The next Parent workshop will be on Internet Safety.
+
+
+Please feel free to contact the school if you require any support or guidance.
+
+Yours faithfully,
+
+Adrian Macaulay
+Headteacher
+
+
+Уважаемые родители!
+
+В данном письме хотим поделиться с Вами информацией, которая привлекла наше внимание, а именно - “Безопасность использования интернет ресурсов”. Игра, под названием «Синий Кит», заинтересовывает юных и впечатлительных людей, используя российский социальный ресурс ВКонтакте, а также такие интернет платформы, как Фейсбук и Инстаграм (доступ к этим страницам в нашей школе заблокирован), в том числе через такое приложение как Скайп.
+
+Для нас, как учебного заведения, безопасность использования интернет ресурсов, является одной из первоочередных задач. На данный момент мы проводим соответствующие информационные беседы со всеми учащимися на уроках «Окружающий нас мир», на линейках, а также работаем с нашими школьными сообществами.
+
+Школьная система безопасности выявляет в поисковых запросах любые ключевые слова, ассоциирующиеся с игрой “Синий кит”, так как мы считаем такие вещи совершенно недопустимыми и опасными для наших учащихся, а наш отдел информационных технологий сообщит нам о любом подозрительном поисковом запросе.
+
+Пожалуйста, будьте бдительны, как правило первый признак того, что ребенок может участвовать в игре, - появление надписи “F58” на теле, одежде или сумке ребенка. Если Вы заметите это дома, пожалуйста, сообщите Вашему классному преподавателю.
+
+Игра “Синий Кит” имеет несколько других названий:
+
+Синий кит - SINIY KIT - A Blue Whale
+Тихий дом - TIKHIY DOM - A Quiet House
+Море китов - MORE KITOV - A Sea of Whales
+
+Просим Вас пройти по следующей ссылке для получения информации о способах и безопасности использования интернет ресурсов - ‘supporting young people online’.
+
+Наша следующая информационная презентация  будет посвящена  “Безопасному использованию интернет ресурсов”, на которой мы проинформируем Вас о необходимых мерах и действиях безопасности.
+
+Просим Вас связаться со школой, если у Вас появятся дополнительные вопросы.
+
+С уважением,
+
+Адриан Маколей
+Академический Директор
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

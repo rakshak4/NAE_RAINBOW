@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Outstanding fees company payments</name>
+    <style>freeForm</style>
+    <subject>Outstanding fees</subject>
+    <textOnly>Dear Mr and Mrs {!Contact.LastName},
+
+I hope you are well.
+
+I am writing to let you know that according to our records we have yet to receive Autumn fee payment from your company (due date August 1). We would be grateful if you could liaise with your HR department in this regards. Any feedback would be welcome. 
+
+If you have any questions in regards to the outstanding payment or would like to receive a copy of the invoice please do not hesitate to contact me at isminvoicing@britishschools.co.uk
+
+If payment has already been arranged please accept my apologies for receiving this email. If you could direct your finance manager to me in order to track the payment I would appreciate that.
+
+Thank you in advance.
+
+Kind regards,
+
+Marina Urmanova
+Invoicing Manager
+The International School of Moscow
+Tel:  +7 (499) 922 44 00
+Tel:  +7 (965) 159 49 77
+www.internationalschool.ru
+Part of The British Schools Group
+
+*Disclaimer:*
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

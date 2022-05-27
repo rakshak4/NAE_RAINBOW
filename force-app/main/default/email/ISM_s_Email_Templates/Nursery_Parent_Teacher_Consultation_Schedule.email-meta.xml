@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Nursery Parent &amp; Teacher Consultation Schedule</name>
+    <style>freeForm</style>
+    <subject>Nursery Parent &amp; Teacher Consultation Schedule</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear parents,
+
+Please click here to download the schedule for your Parent and Teacher consultations. Should you happen to have any questions, please do not hesitate to contact me.
+
+Kind regards,
+
+Magomet Gamurziev
+Lower Campus Front Desk Secretary
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

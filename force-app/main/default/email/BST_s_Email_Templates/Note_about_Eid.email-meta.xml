@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to parents about Eid Holiday</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Note about Eid</name>
+    <style>freeForm</style>
+    <subject>Eid Holiday</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Dear parents,
+
+We would like to inform you that school will be closed on Tuesday, 15th October due to celebration of Eid in Uzbekistan.
+
+School will be closed for half term break from Friday, October 18th till Monday, October, 28th.
+
+We hope you will enjoy your holidays!
+
+Thank you!
+
+Дорогие родители,
+
+Данным письмом мы бы хотели проинформировать вас о том, что в связи с празднованием Курбан Хаит школа будет закрыта во вторник, 15 октября.
+
+Школьные каникулы начнутся в пятницу, 18 октября и продлятся до понедельника, 28 октября.
+
+Мы надеемся вы замечательно проведете каникулы.
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

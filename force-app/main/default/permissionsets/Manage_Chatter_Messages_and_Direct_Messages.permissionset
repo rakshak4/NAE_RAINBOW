@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Required for backup of the same using OwnBackup</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Manage Chatter Messages and Direct Messages</label>
+    <license>Salesforce</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageChatterMessages</name>
+    </userPermissions>
+</PermissionSet>

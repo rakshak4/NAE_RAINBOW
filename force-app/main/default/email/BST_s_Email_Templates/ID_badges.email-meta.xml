@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>ID badges 2016</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>ID badges</name>
+    <style>freeForm</style>
+    <subject>ID badges</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+Could I kindly remind all BST parents and guardians that ID badges should be worn at all times to enter the Lower and Upper campuses.
+
+
+If you do not have a Parent ID badge can you please pass your passport copy and a passport size photograph to the school Reception office.
+
+
+
+
+
+Kind regards
+BST Administration
+
+
+
+
+
+
+Любезно напоминаем Вам о том, что все родители и опекуны учащихся Британской школы города Ташкента обязаны носить школьные именные бейджи, находясь на территории нашего учебного заведения (будь то здание школы или детского сада).
+
+
+Просим Вас передать на ресепшен школы/детского сада копию Вашего паспорта и 4 фото (3х4 см), если у Вас до сих пор нет школьного именного бейджа.
+
+
+
+
+
+
+С уважением,
+
+Администрация школы
+
+
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

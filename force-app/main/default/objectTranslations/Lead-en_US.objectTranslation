@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Enquiry</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Enquiries</value>
+    </caseValues>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Primary Email</value>
+        </caseValues>
+        <name>email_lead</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Enquiry Status</value>
+        </caseValues>
+        <name>lead_status</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>SMS Number</value>
+        </caseValues>
+        <name>mobile_lead</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Mobile/Main Phone</value>
+        </caseValues>
+        <name>phone_lead</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>BSG Latest Newsletter</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>2013 Summer Camps hosted at BSG</name>
+    <style>freeForm</style>
+    <subject>BSG Latest Newsletter -Final Issue 2012／13</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The final newsletter of the 2012/13 academic year has arrived! In this 72-page issue, we see how the school has flourished through the final term with so many activities and events.
+
+The Guangzhou Football Academy continues to thrive and we have some sideline shots of our own to share. In Lower School, the Early Years get to grips with iPads and Nursery get mucky with mini-beasts, goop and slime!
+
+On the Nanhu campus, Year 2 time travel to the land of dinosaurs while Year 4 have yet another pilot scheme - they interview a real life pilot! In Secondary, we celebrate the COBIS Science Film Awards winners, get eco friendly and rock it up for Battle of the Bands.
+
+As well as all this, we have coverage of all the recent events: Maths Festival, Primary Sports Day and Sing Up!
+
+I hope you have enjoyed all the newsletters this year and please read more details for final version by the link http://www.bsg.org.cn/en/school-life/newsletters.aspx.  We will see you in September for the first 2013/14 issue!
+
+Kind regards,
+
+Stuart Geraghty
+Publication Editor
+The British School of Guangzhou
+World Class Education
+
+·
+
+
+_________________________________________________________
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

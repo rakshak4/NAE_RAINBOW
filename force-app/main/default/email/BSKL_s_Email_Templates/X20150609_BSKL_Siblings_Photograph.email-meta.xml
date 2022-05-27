@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20150609 BSKL - Siblings Photograph</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20150609 BSKL - Siblings Photograph</name>
+    <style>freeForm</style>
+    <subject>BSKL - Siblings Photograph</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We will be conducting sibling photographs on 15th June. Parents who wish to purchase the sibling photograph should simply fill in the form below for booking:
+
+
+
+Siblings photograph form / Absent students / Retake form
+
+
+
+Prices:
+
+RM80 (includes 1x8R, 2x5R, 4x4R and 8x wallet size)
+
+
+
+Deadline for orders/payment:
+
+26th June
+
+
+
+We will get the order envelope and photo sample distributed by Friday 22nd June to pupils. Parents need to return the order envelope with payment at Primary Reception before 26th June.
+
+
+
+Please note that orders will not be completed if the payment/envelope is not received before 26th June.
+
+
+
+Please remind your children to bring their full school attire/blazers on 15th June for the photoshoot. Children in Years 3 and 4 will have their pictures taken in the afternoon, after Sports Day.
+
+
+
+For students who were absent for the previous individual photograph session, these pictures can also be taken on the same day. Kindly fill in the same form
+
+
+
+Thank you.
+
+
+Kind regards,
+Admin Team
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

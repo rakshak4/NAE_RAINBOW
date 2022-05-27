@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>14/11/12 Cancellation of ASA/Swimming Practices - Parent/Teacher consultations</name>
+    <style>freeForm</style>
+    <subject>Cancellation of ASA/Swimming Practices - Parent/Teacher consultations</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Due to Parent/Teacher consultations all ASA’s and swimming practices at The Club are cancelled during this week.
+
+They will all be postponed to the following week (w/c 3rd December).  This will be the last week of ASA’s for this term.   We are very sorry for any inconvenience this may cause.
+
+Furthermore for those families that use the school bus service please take note:
+
+• The bus service will resume it’s leaving time of 3pm from school on   the Parent/Teacher consultation evenings.  Should students that regularly take the school bus not be using the service please inform the school bus co-ordinator Lidia accordingly.
+• For the postponed ASA’s w/c 3rd December on the ASA days the school bus will leave at 4pm instead of 3pm on Tuesday and Thursday to accommodate the changes.
+
+As well kindly be aware of the following:
+
+• All details pertaining to the swimming practices at The Club remain the same.
+• For any paid ASA’s there will be a refund of 1 week due to only 7 weeks of paid ASA’s this term instead of 8.
+
+Kind Regards,
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

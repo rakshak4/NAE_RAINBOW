@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Winter Trousers for Girls</name>
+    <style>freeForm</style>
+    <subject>Winter Trousers for Girls</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+Following our recent email about winter trousers for girls in Y7-Y10, we would like to inform you that we have organised for a tailor to be in school on  Wednesday, at 10-00. We will see the students whose parents expressed interest in purchasing the trousers to take the measurements and then place the order based on the quantities that we have received from you earlier this month.
+
+The trousers will be ready for purchasing the last week of January  and will cost 1500 rubles per pair.
+
+Those of you that have already contacted Zarina, your earlier indication of interest does not oblige you to make the purchase, however if your intentions have changed and you are no longer interested in buying the trousers please do let Zarina know and she will take your children off the list for measurements.
+
+If you have not contacted Zarina as per our earlier email but are interested in ordering winter trousers for girls, we are kindly asking you to do that before the measurements take place.
+
+Thank you for your cooperation,
+
+
+
+Admissions Team
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Staff Directory</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Staff Social Security Fund</name>
+    <style>freeForm</style>
+    <subject>Explanation on Social Security Fund</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.FirstName},
+
+I hope the first week of school has gone well, and you are enjoying the start of what we feel is going to be an exciting academic year. In case we haven&apos;t yet met, I am John Ordovas, Board Member of The British Schools Group and in charge of oversight over BSG.
+
+As you are well aware, from this August the school will start to accumulate a Social Security Fund for each member of our expat staff.
+
+Given its importance, and in order to avoid any misunderstandings in the future, we felt it was appropriate you were contacted directly by a Board Member of the Group, to essentially explain again how this fund is going to be implemented.
+
+Nothing of what I explain below changes the conditions that have been agreed and explained to you. Also, this fund might not apply to you, so if you are unclear, please feel free to contact our Finance team.
+
+The establishment of this fund, is the result of the Chinese Government passing a law requiring all expat employees to contribute to the Social Security system, BUT not implementing the law. As you can imagine, this creates a lot of uncertainty, including the very real possibility that the authorities might implement the law in a few months and require that the contributions are back-dated.
+
+For this reason, we felt it was prudent to establish a fund and be ready for when the government gets round to implementing the law.
+
+So starting this August, we will be deducting 1334 RMB GROSS from your salary, which will added to this fund. This money is yours and will be refunded 6 months after you cease employment at the school and assuming the government does not back date the social security requirement. It is also important to clarify further, that the deductions we are making are GROSS and obviously any refunds you receive will also be Gross and thus subject to income tax, at the same rate as you current salary.
+
+Again, none of the above changes anything of your contract or the conditions that have already been explained to you; all I wanted to do is explain all this once again.
+
+You are also welcome to contact the finance team at any time, to get an update on the situation with the Social Security law or the amounts that you are accruing on the fund.
+
+
+Thank you for your cooperation and understanding.
+
+
+John Ordovas
+Board Member
+The British Schools Group
+World Class Education
+
+_________________________________________________________</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

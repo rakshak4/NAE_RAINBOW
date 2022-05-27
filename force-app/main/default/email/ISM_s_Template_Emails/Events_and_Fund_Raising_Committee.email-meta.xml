@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Events and Fund Raising Committee</name>
+    <style>freeForm</style>
+    <subject>Events and Fund Raising Committee</subject>
+    <textOnly>Dear Parents,
+Events and Fundraising Committee (EFC)  2011-12
+Following on from the information regarding the Meet the Teacher evenings yesterday, please see the attached. As you will be aware, I am hoping to form an energetic, talented and proactive committee of parents to steer the community and charity events we hold at school.
+Examples from last year include the Welcome Picnic and the Family Fun Day. I think you would agree that these were superb events that could only be realised through the work of our EFC last year.
+If you recognise the importance of these events and feel that you have the time and energy to play a leading role in their organisation, I would love to hear from you.
+Attached is a concise overview of the main roles in the committee alongside a nomination form. Please read them. If you would like to nominate yourself, please complete the form and hand it to your tutor on the Meet the Teacher Evening. If you prefer it may also be completed and presented to our admissions team who will gladly pass it on. Closing date for receipt is Friday September 9th. Thank You!
+Health UpdateI also wanted to take this opportunity to update information in this regard. There have been no other cases of Hep A on either campus. The confirmed case is indeed an adult member of staff and was isolated immediately. However, we are completing a deep clean of every classroom on both sites, cleaning toilets hourly and ensuring all children and staff maintain the highest standards of hygiene to ensure there are no further issues. Our nursing staff remain vigilant in this as always. 
+NewsletterI should also confirm that our Newsletters will be published monthly this year. This will enable the staff a more manageable timeframe to prepare articles and maintain the quality of content. Our first Newsletter will be published on Friday 16th September.
+Best regards and see you soon,
+Paul
+
+Paul Seedhouse
+Headteacher
+The International School of Moscow
+Tel:  +7 (499) 922 44 00
+Fax: +7 (499) 922 44 00 Ext.4
+www.internationalschool.ru
+Part of The British Schools Group
+
+*Disclaimer:*
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Created in order to give access to Appraisal for a maternity cover of the Head in BISM</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Manage Appraisal &amp; Objectives</label>
+</PermissionSet>

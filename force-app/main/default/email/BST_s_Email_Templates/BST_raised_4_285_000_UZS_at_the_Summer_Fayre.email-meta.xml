@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>To parents</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>BST raised 4 285 000 UZS at the Summer Fayre!</name>
+    <style>freeForm</style>
+    <subject>BST raised 4 285 000 UZS at the Summer Fayre!</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+As many of you are aware, on June 9th, 2012 the British School of Tashkent held our Diamond Jubilee Summer Fayre. We would like to express our appreciation to everyone who supported the event by visiting the school, making a donation to our chosen charity or by staffing the stalls. It was a hugely successful day, enjoyed by children, parents and other visitors!
+
+We are delighted to inform you that, with your help, we raised a total of 4,285,000 UZS for charity. The fayre was in aid of &quot;Healthprom&quot;, a charity that supports vulnerable women and children in Uzbekistan and elsewhere. Healthprom&apos;s projects have contributed to significant improvements in healthcare and to a dramatic drop in the infant mortality rate in Uzbekistan since the country achieved independence.
+
+A special &apos;thank you&apos; to Wing Commander Gary Edwards from the British Embassy, who was kind enough to bring the London Scottish Regiment&apos;s bagpipe performers, lending an authentically British (and Scottish) flavour to the event.  We also owe out gratitude to Kirsteen Hall from the Embassy, who provided an array of wonderful resources including portraits of Her Majesty Queen Elizabeth II throughout different phases of her life, from childhood until the present day.
+
+Thank you once again to everyone for their generosity towards this very good cause!
+
+Warmest regards,
+
+
+The BST teaching and administrative teams
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

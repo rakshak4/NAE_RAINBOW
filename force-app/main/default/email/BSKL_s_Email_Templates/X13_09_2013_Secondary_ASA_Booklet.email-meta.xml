@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>13/09/2013 Secondary ASA Booklet</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>13/09/2013 Secondary ASA Booklet</name>
+    <style>freeForm</style>
+    <subject>Secondary ASA Booklet</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Our secondary students will be making the choices for their After School Activities during Tuesday morning registration. Please find attached the ASA Information Guide which outlines the fantastic range of activities on offer this term. I would be very grateful if you could take some time to read through the activities with your children in order for them to make an informed choice on Tuesday. We would encourage all of our students to take up more than one ASA.
+
+Should you have an queries then please contact me on simon.major@britishschool.edu.my
+
+Secondary ASA Booklet
+( https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004RoO/o.Iu8o.C4kWgVhYJiXyCzSiXH93LHi1Sgh.25K_a0Hk= )
+
+Have a fantastic long weekend.
+
+Kind regards,
+
+Simon Major
+Science Teacher &amp; Secondary ASA Coordinator
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

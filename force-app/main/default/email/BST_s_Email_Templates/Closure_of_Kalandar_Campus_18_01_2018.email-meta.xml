@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Closure of Kalandar Campus, 18/01/2018</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Closure of Kalandar Campus, 18/01/2018</name>
+    <style>freeForm</style>
+    <subject>Closure of Kalandar Campus, 18/01/2018</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear parents,
+
+Unfortunately due to a loss of power and heating, Kalandar campus (Y2-Y10) will be closed tomorrow, Thursday, 18th January. Kalandar Campus will re-open on Friday, 19th January. Sayram Campus (PN-Y1) will be open as normal.
+
+Thank you,
+
+Administration
+
+~
+
+Уважаемые родители!
+
+К сожалению, завтра 18 января здание Каландар (Y2-Y10) будет закрыто в связи с ремонтными работами на линии электропередач на районе. В здании школы (Каландар) не будет электричества и соответственно-отопления.
+
+Здание Каландар начнёт работать в обычном режиме послезавтра, в пятницу 19 января.
+
+Здание детского сада (Сайрам, PN-Y1) будет работать в обычном режиме и завтра ,и послезавтра.
+
+С уважением,
+Администрация
+
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

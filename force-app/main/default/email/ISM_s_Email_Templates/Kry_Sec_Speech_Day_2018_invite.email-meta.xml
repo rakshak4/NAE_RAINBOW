@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Kry Sec Speech Day 2018 invite</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Kry Sec Speech Day 2018 invite</name>
+    <style>freeForm</style>
+    <subject>Secondary School (Year 7 to Year 13) Speech Day and Awards Ceremony Monday 25th June (19.00 – 21.00)</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>02/12/2013 Application Deadline for Instrumental Lessons Next Term</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>02/12/2013 Application Deadline for Instrumental Lessons Next Term</name>
+    <style>freeForm</style>
+    <subject>Application Deadline for Instrumental Lessons Next Term</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The end of the term is fast approaching. For parents who wish for their children to continue instrumental lessons next term, please renew their status by completing the online application procedure by Friday 20th December. Applications after this date will not be processed. The link to download the Parents&apos; General Information, Policy and Agreement document can be found below.
+
+Link to application document: Parents&apos; General Information, Policy and Agreement (http://www.britishschool.edu.my/media/315667/parents_instrumental_lessons_agreement.pdf)
+
+For new parents who wish for their children to start individual instrumental lessons, please download the same document above and complete the online application process.
+
+All applications should be emailed to instrumental.music@britishschool.edu.my and not submitted to primary or secondary campus receptions.
+
+It&apos;s been a fabulous term for instrumental music with many assembly and reception foyer performances. Our programme continues to grow and we hope we will see you all again next year.
+
+Happy Christmas.
+
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

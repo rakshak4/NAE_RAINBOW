@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>ISM</letterhead>
+    <name>School Photos Info Update</name>
+    <style>freeForm</style>
+    <subject>School Photo Info Update</subject>
+    <textOnly>Dear parents,
+
+Please be informed that in order to purchase a class or school photograph, you can put down Year ___  class photo or Upper or Lower campus photo on your order form, as all photos have been labeled accordingly.
+
+Class photos are displayed in the classrooms and whole campus photos can be found at Reception desks.
+
+If you have already turned in your order form, but would like to add a class/school photo order, you can leave an envelope with the payment (class photo 20x30 cm– 350 rub, school photo 30x45 cm – 450 rub) with a note (stating your Family name and the details of the order) at front desk on both sites.
+
+Please also keep in mind that in order to receive the photographs before the end of term all orders need to be placed before Thursday, June 21st.
+
+Have a great day!
+
+Kind regards,
+
+Olga Tenisheva
+
+Academic Secretary</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

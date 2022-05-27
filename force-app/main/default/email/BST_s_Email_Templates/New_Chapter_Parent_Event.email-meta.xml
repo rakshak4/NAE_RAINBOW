@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>&quot;New Chapter&quot; Parent Event</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>&quot;New Chapter&quot; Parent Event</name>
+    <style>freeForm</style>
+    <subject>&quot;New Chapter&quot; Parent Event</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+
+As you will be aware, The British School of Tashkent (BST) is going through some exciting changes and developments at the moment. We have recently joined the Nord Anglia Education family of schools, we will soon be having a new school logo, and we will be opening a new Secondary campus in 2018/19.
+
+To mark this special occasion for our school, I am delighted to invite you to our “New Chapter” parent event. This is a great opportunity for you to find out more about the new campus and our new logo.
+
+Details for the event are as follows:
+
+Date: 15th May
+Time: 3.45pm - 4.45pm
+Location: Kalandar Campus Theatre
+
+Refreshments will be provided.
+
+You can find out more about our exciting new chapter by visiting our website.
+
+We hope to see many of you there,
+
+Kind regards,
+Adrian Macaulay
+
+Уважаемые родители!
+
+Насколько Вам известно, Британская школа города Ташкента (BST) претерпевает ряд изменений на данный момент. Недавно мы присоединились к группе школ под руководством Nord Anglia Education, в скором времени у нас появится новый логотип школы, а на следующий учебный год (2018-2019) мы планируем открыть новый кампус для учащихся средней школы.
+
+Чтобы осветить это событие, я рад пригласить вас на родительское собрание под названием «Новая глава». Это отличная возможность получить подробную информацию о новом кампусе и ознакомиться с нашим новым логотипом.
+
+Подробная информация о мероприятии:
+
+Дата проведения собрания: 15 мая
+Время: 15.45 - 16.45
+Место проведения собрания: Здание тетра Каландар
+
+Вы можете получить дополнительную информацию, посетив наш веб-сайт.
+
+С уважением,
+Адриан Маколей
+
+
+
+
+
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

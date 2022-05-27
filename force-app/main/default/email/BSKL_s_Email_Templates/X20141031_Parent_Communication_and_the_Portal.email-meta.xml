@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20141031 - Parent Communication and the Portal</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20141031 - Parent Communication and the Portal</name>
+    <style>freeForm</style>
+    <subject>Parent Portal Liaison Officer</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+Friday 31st October 2014
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Feedback from parents about communication and the portal, clearly indicates that although many parents enjoy the blog with written updates and video footage, important dates and notices can be overlooked. In order to improve this communication we are putting changes in place.
+
+We are streamlining the way in which we keep you informed about school events and other important dates. To save you the trouble of having to consolidate information from various emails to form your own calendar, we are going to stop sending emails and give you your own personalised calendar instead, which will be separate to the blogs.
+
+To view your calendar simply log into the Parent Portal and click on the ‘Calendar’ tab. All of the dates for the next couple of weeks are already available in your calendar. By next Friday we will ensure every confirmed date has been entered at least through to the end of Term 1. Key dates from Terms 2 and 3 will also be entered.
+
+We request that you check your calendar at least once per week to plan for the days ahead. Please understand that we will no longer be posting fixtures/events on the music and sports hub that is accessible via the school website. Again, this is to ensure you have everything you need in one place, and only those dates relevant to your family.
+
+You will understand there will be occasions when we add or amend events (e.g. fixture cancellation) to the calendar at relatively short notice (less than 2 weeks); in this case, we will send you an email about the same to ensure you don’t miss anything. We will send you an email reminder on a Sunday afternoon just in case you forget to check your calendar in any given week. We will begin sending these on Sunday 9th November.
+
+We have also put in place a Parent Portal Liaison Officer; Nigel Parker, who will support you with any questions or difficulties you may have. You can either contact Nigel by email (nigel.parker@britishschool.edu.my) or drop in to our ‘help centre’ in the EAL room in the secondary library during the following times.
+
+Monday 7.30-8.15am,
+Thursday 7.30-8.15am or
+Thursday 2.30-3.30pm
+
+
+Warm regards
+
+Janet Brock
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

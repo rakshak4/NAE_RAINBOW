@@ -1,0 +1,101 @@
+<apex:page standardStylesheets="false" controller="PortalContactPage_Controller"  sidebar="false">
+  <!-- 
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <apex:stylesheet value="/apex/PortalAssessmentPageCSS"/>
+  </head>
+  <apex:form > 
+  <body><table>
+        <tr>
+        <td valign="top">
+        <aside id="sidebar">
+            <div class="sidebar-top">
+                <h1>Contact<br/>Update Details</h1><br/>
+                <h3>Edit user contact details</h3>
+            </div>
+            
+            <div class="section first">
+                <div class="section-heading">Save your settings changes</div>
+                <apex:commandButton value="Save Changes" styleClass="button btn-section" action="{!saveAccount}"/>
+            </div>
+        </aside> 
+        </td><td valign="top">
+        <div id="main">
+            <apex:pageMessages />
+            <article class="term-section first">
+                <header class="t-sec-header"><span class="year">1</span> | <span class="season">Primary contact</span></header>
+                <div class="pc-desc"><span>Primary Contact</span>&nbsp;&nbsp; The selected parent will manage the account in The Hub, receive notifications and other features.</div>
+                <div class="section">
+                    <div class="section-select">
+                        <apex:inputField value="{!parentAccount.Primary_Contact__c}" required="true"/>
+                    </div>
+                </div>
+            </article>
+            
+            <article class="term-section">
+                <header class="t-sec-header"><span class="year">2</span> | <span class="season">First Parent</span></header>
+                <div class="pc-cont first">
+                    <div class="pc-top-h">Name</div>
+                    <div class="pc-name">{!parentAccount.First_Parent_Full_Name__c}</div>
+                </div>
+                <table>
+                    <tr>
+                        <td>
+                            <label class="pc-label">Main E-mail</label><br/>
+                            <apex:inputField value="{!parentAccount.PersonEmail}" styleClass="pc-input first"/>
+                        </td>
+                        <td>
+                            <label class="pc-label">Main Phone</label><br/>
+                            <apex:inputField value="{!parentAccount.Phone}" styleClass="pc-input"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label class="pc-label">Alternate E-mail</label><br/>
+                            <apex:inputField value="{!parentAccount.Contact_Alternate_Email__pc}" styleClass="pc-input first"/>
+                        </td>
+                        <td>
+                            <label class="pc-label">Alternate Phone</label><br/>
+                            <apex:inputField value="{!parentAccount.Contact_Alternate_Phone__pc}" styleClass="pc-input"/>
+                        </td>
+                    </tr>
+                </table>
+            </article>
+            
+            <article class="term-section">
+                <header class="t-sec-header"><span class="year">3</span> | <span class="season">Second Parent</span></header>
+                <div class="pc-cont first">
+                    <div class="pc-top-h">Name</div>
+                    <div class="pc-name">{!parentAccount.Second_Parent_Full_Name__c}</div>
+                </div>
+                <table>
+                    <tr>
+                        <td>
+                            <label class="pc-label">Main E-mail</label><br/>
+                            <apex:inputField value="{!parentAccount.Account_Main_Email_Formula__c}" styleClass="pc-input first"/>
+                        </td>
+                        <td>
+                            <label class="pc-label">Main Phone</label><br/>
+                            <apex:inputField value="{!parentAccount.Account_Mobile_Main_Phone_Formula__c}" styleClass="pc-input"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label class="pc-label">Alternate E-mail</label><br/>
+                            <apex:inputField value="{!parentAccount.Account_Alternate_Email_Formula__c}" styleClass="pc-input first"/>
+                        </td>
+                        <td>
+                            <label class="pc-label">Alternate Phone</label><br/>
+                            <apex:inputField value="{!parentAccount.Account_Alternate_Phone_Formula__c}" styleClass="pc-input"/>
+                        </td>
+                    </tr>
+                </table>
+            </article>
+        </div>
+        </td>
+        </tr>
+        </table>
+  </body>
+  </apex:form>  -->
+</apex:page>

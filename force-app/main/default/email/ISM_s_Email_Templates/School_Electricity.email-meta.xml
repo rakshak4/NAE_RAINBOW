@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>School Electricity</name>
+    <style>freeForm</style>
+    <subject>School Electricity</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear Parents
+
+Unfortunately, and with no prior notice, there has been an electricity cut in the Krylatskoe area where the school is located. This has resulted in the power to both the upper and lower campus being switched off.
+
+All children have had their lunch and will continue lessons as usual until the end of the school day.
+
+At this stage, we are not sure if the electricity supply will be back on by tomorrow. Obviously with no electricity supply available, the school site would be unable to operate within health and safety guidelines .
+
+We will inform you by email (not portal message) this evening between 7pm and 8pm (earlier if possible) to confirm if the repair work has been completed and if the school will be open or not tomorrow.
+
+With this in mind, please check your email messages this evening so that you are aware of the situation for tomorrow. Apologies for the inconvenience which of course beyond our control.
+
+Should you have any urgent queries related to this current issue, please contact the school on +7 916 995 51 10 (Lower Campus) or  +7 916 922 04 54 (Upper Campus).
+
+Kind regards,
+
+Admissions Office
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Secondary Transition Day E-mail</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Secondary Transition Day</name>
+    <style>freeForm</style>
+    <subject>Secondary Transition Day</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>21/05/2013 BSKL Jungle Jamboree - Bake Sale</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>21/05/2013 BSKL Jungle Jamboree - Bake Sale</name>
+    <style>freeForm</style>
+    <subject>BSKL Jungle Jamboree - Bake Sale</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Calling all Bakers!
+Donations needed for homemade baked goods for the Jungle Jamboree held at BSKL on 8 June (10:00 -3:00pm)
+
+The Events Fundraising Committee (EFC) is at it again. This year’s summer fair event is the Jungle Jamboree. It promises fun for all and shouldn’t be missed! Its success however, wouldn’t be possible without the generous donations by BSKL parents.  If you would like to whip up something roaringly delicious and/or volunteer an hour of your time at the bake stall please contact Tracy Lew (tracylew@hotmail.com) or look for the sign up list posted on the BSKL notice board.
+
+What’s needed?
+Cakes (carrot, mud,etc)        Muffins (variety)
+Brownies                                 Marshmallow pops
+Mini fruit tarts                          Cupcakes (jungle theme)
+Biscuits (variety)
+
+Please ensure that no foods contain nuts or nut products.
+Donations are to be brought to BSKL (reception) on 7 June.
+
+Proceeds to Charity:
+
+Positive Shelter Home, Cheras
+Persatuan Kebajikan Kanak-Kanak (PKKK), Kajang
+
+Hope to see you at the Jungle Jamboree!
+
+Kind Regards
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

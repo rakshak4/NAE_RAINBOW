@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20150425 Curriculum Letter Term 3 Pre Nursery</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20150425 Curriculum Letter Term 3 Pre Nursery</name>
+    <style>freeForm</style>
+    <subject>Curriculum Letter Term 3 Pre Nursery</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+25 April 2015
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}
+
+Pre Nursery Curriculum – Term 3
+
+
+
+Welcome back! I hope you all had a relaxing and happy break. I’m looking forward to hearing all the holiday news, and embarking on our final term in Pre Nursery.
+
+
+
+Highlights of last term
+
+
+
+Last term went in a flash, with all the busy activities we were engaged in.  The children got to express their amazing creativity in our ‘Let’s be Creative’ topic; making up stories, our own instruments and much more.  We enjoyed watching the production of ‘The Snail and the Whale’ and cheered for our favourites in the BSKL Idol. Earlier in the term we were treated to an amazing Chinese New Year assembly, and all the children looked fantastic in their traditional Chinese clothes.  We also welcomed four new children to our Robin class; what a happy and confident group of children we have.
+
+
+
+What happens when?
+
+
+
+Our swimming day is Wednesday. On that day, please send the following named items in a bag: swimming costume, goggles, towel, swimming hat and pool shoes. Children are to wear PE kit on swimming days to make changing easier for them.  PE is on Tuesday. On that day, your child should come to school dressed in their PE kit and their trainers.
+
+It’s really important that you name all items of clothing, shoes, water bottles, hats and bags. Everything looks the same so it can be very confusing for the teachers as well as the children!  Please remember that sun hats should be in school at all times and your child should bring a fresh bottle of water with them every day.
+
+
+
+The Pre Nursery class will continue to share what we have been doing via the class blog on the Parent Portal . Any changes to normal school routine or important dates or events will be shared with you via the school calendar and we encourage parents to access the Parent Portal regularly.
+
+
+
+This term our topics are…
+
+
+
+This final term we have a range of topics to share with the children. The first half of the term is going to be designated to ‘Animals’, focusing each week on a different group of animals, such as minibeasts, jungle animals, farm animals, pets and even dinosaurs. Through this topic, children will be introduced to new vocabulary and knowledge and some great role play opportunities. We will be enjoying some online research, looking at how information can be found via computers and looking at a wide range of fact and fiction books. During our section on farm animals, we will be even attempting to make our own butter and bread.
+
+
+
+After half term we will be focusing on ‘Under the Sea’ and ‘The Seaside” We will be looking at transportation on and under water, as well as the creatures that live there. Whilst exploring the seaside/beach we will look at shells and sand, taking the opportunity for lots of creative artwork and mathematical concepts such as sorting and making patterns. As the term rounds to a close there will be lots of support and activities to aid in a smooth transition into Nursery.
+
+
+
+Each week, I will review the children’s learning and plan in greater detail for the following week. Our topics will expand according to the children’s interests. Tasks will be fun and practical, using both the inside and outside learning environments. The teachers and other adults supporting your child will make sure that the activities are suited to your child’s unique needs.
+
+
+
+Phonics
+
+
+
+Your child will continue to take part in a daily phonics lesson, focusing primarily on the ‘Letters and Sounds’ Phase 1 activities. We will be exploring rhyme, alliteration and developing vocabulary to talk about sounds. We will also be developing our listening and understanding skills.
+
+
+
+What about Mathematics?
+
+
+
+The children will be developing their confidence with number, shape, space and size through practical activities, number rhymes, songs and stories. There will be lots of practical, fun activities to support their understanding of number. We will be introducing written numbers to 10, and understanding the value of numbers. We will also be focusing on the introduction of symmetry.
+
+
+
+Modern Foreign Languages (MFL)
+
+
+
+We also enjoy our fantastic language lessons every week.  The Children have either Spanish or Chinese four times a week learning new words to support our class topics and developing language skills through a huge range of fun games, songs and activities.
+
+
+
+Music and PE
+
+
+
+Music lessons take place twice a week, the children will be learning new songs and have the opportunity to play lots of different instruments and as well as music and movement. This term we will be putting a lot of focus on learning all the songs for the EYFS production too.  Swimming is on Wednesdays where the children use the pool to develop water confidence and swimming skills. Finally, PE is held on Tuesdays where they learn a wide range of sports skills including balancing, catching, climbing and much more.
+
+
+
+Can parents help?
+
+
+
+We always welcome donations of junk boxes, bottle tops, cardboard tubes, corks and other things that we can use in our model making areas.
+
+
+
+Dates for the Diary
+
+
+
+Thursday 11th June Primary Open Day
+
+Wednesday 17th June  EYFS Splash Day
+
+Wednesday 24th  June EYFS Sports Day
+
+Wednesday 1st July EYFS Production
+
+
+
+Home-time
+
+
+
+For safeguarding purposes, can we ask that adults wear their identification tags at all times within school and if your child is due to be collected by someone else, please do inform us in advance.
+
+
+
+Illness
+
+
+
+Please remember that if your child has had sickness or diarrheoa, then they are not to attend school for 48 after the last bout. If your child has a temperature, they should also stay at home until the temperature has gone and your child is feeling better.   If your child becomes ill or unwell at school, the school nurse will contact you and request that you come and collect them.
+
+
+
+Stay in touch!
+
+
+
+Your views are important to us and we are keen to work in partnership with all parents. Please do contact us if you have a question or any feedback.
+
+
+We look forward to working with you throughout the term.
+
+
+
+Kind regards,
+
+
+
+The Pre Nursery Team
+
+Mrs Daynes &amp; Ms Elena
+
+
+
+Nursery/ Pre-Nursery Year Group Leader
+
+natasha.daynes@britishschool.edu.my
+
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

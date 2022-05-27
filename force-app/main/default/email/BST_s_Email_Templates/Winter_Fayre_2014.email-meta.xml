@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to parents about Winter Fayre 2014</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Winter Fayre 2014</name>
+    <style>freeForm</style>
+    <subject>Winter Fayre 2014</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Dear Parents and visitors of our wonderful school,
+
+
+We are holding a charity fare from 10:00 to 13:00 on December 13th to help a seriously ill child and/or the orphanage children.
+
+
+Here is the program of the fair:
+
+- An exhibition of the schoolchildren’s works of art; each class will present their work,
+
+- Small children&apos;s concert
+
+- Buffet
+
+- Dance program
+
+
+The purpose of the event: funds from this event will be used to provide child support suffering from serious diseases and orphanage.
+
+
+
+
+Для русского текста пройдите по ссылке:
+
+https://drive.google.com/file/d/0B1vh1ZLyEr76NVdBR1lJb0M2Nmc/view
+
+Dear parents, we thank you for your continued help in the organization of all events in our school and enthusiasm to take part in the life of our school.
+
+
+In this regard, would like to recommend you some options to participate in this fair:
+
+
+1. You can purchase one place (1 table), and use the stall to sell confectionery or other products. The money for the sale of products will be yours. Cost of 1 table - 300 000 sum. Terms of participation: the payment is made in the accounting department of the school in cash (no later than 8 December 2014), the table should be decorated in the style of your products or places that you are promoting.
+
+After payment, you will receive a receipt for permission to the company to participate in the fair, through which you will be allowed to enter the school on the day of the fair.
+
+
+2. You can invite your friends to participate in the charity fair by buying a place for the sale and advertising of their products.
+
+
+3. You can sponsor and invite a company that will decorate the school for the fair (balls, flowers and so on).
+
+
+All tables will be sold before December 8, 2014. Participants may bring and decorate their tables December 13, 2014 from 8:00 to 9:30 and export the remaining product from 13:00 to 14:00. Import and export of products according to receipt of approval of the Company to participate in the fair. The list of participants will be approved by the Director and a copy will be given to the security guard of the school.
+
+
+If you do wish to participate then please contact as soon as possible places are limited!
+
+
+The contact persons are:
+
+Mrs. Elena Khodjayeva – (90) 9850660
+
+Ms. Elena Savtsova - 2685562
+
+
+
+
+
+
+Для русского текста пройдите по ссылке:
+
+https://drive.google.com/file/d/0B1vh1ZLyEr76cUc2NmNIZFlSZzQ/view
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

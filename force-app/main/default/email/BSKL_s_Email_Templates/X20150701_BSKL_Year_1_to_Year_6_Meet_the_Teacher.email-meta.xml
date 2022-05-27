@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20150702 BSKL Year 1 to Year 6 - Move up morning</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20150702 BSKL Year 1 to Year 6 - Move up morning</name>
+    <style>freeForm</style>
+    <subject>BSKL Year 1 to Year 6 - Move up morning</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

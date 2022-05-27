@@ -1,0 +1,1602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Assumptions__c</fullName>
+        <externalId>false</externalId>
+        <label>Assumptions</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Average_Renumeration__c</fullName>
+        <externalId>false</externalId>
+        <label>Average Renumeration</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Cost_of_1_Point__c</fullName>
+        <externalId>false</externalId>
+        <label>Cost of 1 Point</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Number_of_Staff__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Staff</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Points__c</fullName>
+        <externalId>false</externalId>
+        <label># Points</label>
+        <precision>11</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Position__c</fullName>
+        <externalId>false</externalId>
+        <label>Position</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>School_Department__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Headteacher</fullName>
+                    <default>false</default>
+                    <label>Headteacher</label>
+                </value>
+                <value>
+                    <fullName>Deputy Headteacher</fullName>
+                    <default>false</default>
+                    <label>Deputy Headteacher</label>
+                </value>
+                <value>
+                    <fullName>Head of Primary</fullName>
+                    <default>false</default>
+                    <label>Head of Primary</label>
+                </value>
+                <value>
+                    <fullName>Deputy Head of Primary</fullName>
+                    <default>false</default>
+                    <label>Deputy Head of Primary</label>
+                </value>
+                <value>
+                    <fullName>Head of Secondary</fullName>
+                    <default>false</default>
+                    <label>Head of Secondary</label>
+                </value>
+                <value>
+                    <fullName>Deputy Head of Secondary</fullName>
+                    <default>false</default>
+                    <label>Deputy Head of Secondary</label>
+                </value>
+                <value>
+                    <fullName>Head of Department</fullName>
+                    <default>false</default>
+                    <label>Head of Department</label>
+                </value>
+                <value>
+                    <fullName>UK Qualified Teacher Full Package</fullName>
+                    <default>false</default>
+                    <label>UK Qualified Teacher Full Package</label>
+                </value>
+                <value>
+                    <fullName>UK Qualified Teacher Partial Package</fullName>
+                    <default>false</default>
+                    <label>UK Qualified Teacher Partial Package</label>
+                </value>
+                <value>
+                    <fullName>Non-UK Qualified Expat Teacher Full Package</fullName>
+                    <default>false</default>
+                    <label>Non-UK Qualified Expat Teacher Full Package</label>
+                </value>
+                <value>
+                    <fullName>Non-UK Qualified Expat Teacher Partial Package</fullName>
+                    <default>false</default>
+                    <label>Non-UK Qualified Expat Teacher Partial Package</label>
+                </value>
+                <value>
+                    <fullName>EAL Teacher</fullName>
+                    <default>false</default>
+                    <label>EAL Teacher</label>
+                </value>
+                <value>
+                    <fullName>Local Teacher</fullName>
+                    <default>false</default>
+                    <label>Local Teacher</label>
+                </value>
+                <value>
+                    <fullName>Expat Teacher Assistant</fullName>
+                    <default>false</default>
+                    <label>Expat Teacher Assistant</label>
+                </value>
+                <value>
+                    <fullName>Local Teacher Assistant</fullName>
+                    <default>false</default>
+                    <label>Local Teacher Assistant</label>
+                </value>
+                <value>
+                    <fullName>Librarian</fullName>
+                    <default>false</default>
+                    <label>Librarian</label>
+                </value>
+                <value>
+                    <fullName>Science Technician</fullName>
+                    <default>false</default>
+                    <label>Science Technician</label>
+                </value>
+                <value>
+                    <fullName>Resource Officer</fullName>
+                    <default>false</default>
+                    <label>Resource Officer</label>
+                </value>
+                <value>
+                    <fullName>Outsourced Teacher</fullName>
+                    <default>false</default>
+                    <label>Outsourced Teacher</label>
+                </value>
+                <value>
+                    <fullName>Resident Director</fullName>
+                    <default>false</default>
+                    <label>Resident Director</label>
+                </value>
+                <value>
+                    <fullName>Head of Administration</fullName>
+                    <default>false</default>
+                    <label>Head of Administration</label>
+                </value>
+                <value>
+                    <fullName>Head of Finance</fullName>
+                    <default>false</default>
+                    <label>Head of Finance</label>
+                </value>
+                <value>
+                    <fullName>Head of Admissions</fullName>
+                    <default>false</default>
+                    <label>Head of Admissions</label>
+                </value>
+                <value>
+                    <fullName>Administration Manager</fullName>
+                    <default>false</default>
+                    <label>Administration Manager</label>
+                </value>
+                <value>
+                    <fullName>PA to Headteacher</fullName>
+                    <default>false</default>
+                    <label>PA to Headteacher</label>
+                </value>
+                <value>
+                    <fullName>Finance Officer</fullName>
+                    <default>false</default>
+                    <label>Finance Officer</label>
+                </value>
+                <value>
+                    <fullName>Procurement Officer</fullName>
+                    <default>false</default>
+                    <label>Procurement Officer</label>
+                </value>
+                <value>
+                    <fullName>Marketing Manager</fullName>
+                    <default>false</default>
+                    <label>Marketing Manager</label>
+                </value>
+                <value>
+                    <fullName>Admissions Officer</fullName>
+                    <default>false</default>
+                    <label>Admissions Officer</label>
+                </value>
+                <value>
+                    <fullName>HR Officer</fullName>
+                    <default>false</default>
+                    <label>HR Officer</label>
+                </value>
+                <value>
+                    <fullName>Head of IT</fullName>
+                    <default>false</default>
+                    <label>Head of IT</label>
+                </value>
+                <value>
+                    <fullName>School Services Officer</fullName>
+                    <default>false</default>
+                    <label>School Services Officer</label>
+                </value>
+                <value>
+                    <fullName>Bus Coordinator</fullName>
+                    <default>false</default>
+                    <label>Bus Coordinator</label>
+                </value>
+                <value>
+                    <fullName>Facilities Manager</fullName>
+                    <default>false</default>
+                    <label>Facilities Manager</label>
+                </value>
+                <value>
+                    <fullName>Front Desk Officer</fullName>
+                    <default>false</default>
+                    <label>Front Desk Officer</label>
+                </value>
+                <value>
+                    <fullName>IT Officer</fullName>
+                    <default>false</default>
+                    <label>IT Officer</label>
+                </value>
+                <value>
+                    <fullName>Administration Officer</fullName>
+                    <default>false</default>
+                    <label>Administration Officer</label>
+                </value>
+                <value>
+                    <fullName>Internship</fullName>
+                    <default>false</default>
+                    <label>Internship</label>
+                </value>
+                <value>
+                    <fullName>Head of Security</fullName>
+                    <default>false</default>
+                    <label>Head of Security</label>
+                </value>
+                <value>
+                    <fullName>Security Guard</fullName>
+                    <default>false</default>
+                    <label>Security Guard</label>
+                </value>
+                <value>
+                    <fullName>Driver</fullName>
+                    <default>false</default>
+                    <label>Driver</label>
+                </value>
+                <value>
+                    <fullName>Head of Cleaners</fullName>
+                    <default>false</default>
+                    <label>Head of Cleaners</label>
+                </value>
+                <value>
+                    <fullName>Cleaner/Bus Monitor</fullName>
+                    <default>false</default>
+                    <label>Cleaner/Bus Monitor</label>
+                </value>
+                <value>
+                    <fullName>Maintenance Officer</fullName>
+                    <default>false</default>
+                    <label>Maintenance Officer</label>
+                </value>
+                <value>
+                    <fullName>Nurse</fullName>
+                    <default>false</default>
+                    <label>Nurse</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Undetermined</fullName>
+                    <default>false</default>
+                    <label>Undetermined</label>
+                </value>
+                <value>
+                    <fullName>Responsibility Points</fullName>
+                    <default>false</default>
+                    <label>Responsibility Points</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Academic</controllingFieldValue>
+                <valueName>Headteacher</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Academic</controllingFieldValue>
+                <valueName>Deputy Headteacher</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Academic</controllingFieldValue>
+                <valueName>Head of Primary</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Academic</controllingFieldValue>
+                <valueName>Deputy Head of Primary</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Academic</controllingFieldValue>
+                <valueName>Head of Secondary</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Academic</controllingFieldValue>
+                <valueName>Deputy Head of Secondary</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Academic</controllingFieldValue>
+                <valueName>Head of Department</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Academic</controllingFieldValue>
+                <valueName>UK Qualified Teacher Full Package</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Academic</controllingFieldValue>
+                <valueName>UK Qualified Teacher Partial Package</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Academic</controllingFieldValue>
+                <valueName>Non-UK Qualified Expat Teacher Full Package</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Academic</controllingFieldValue>
+                <valueName>Non-UK Qualified Expat Teacher Partial Package</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Academic</controllingFieldValue>
+                <valueName>EAL Teacher</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Academic</controllingFieldValue>
+                <valueName>Local Teacher</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Academic</controllingFieldValue>
+                <valueName>Expat Teacher Assistant</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Academic</controllingFieldValue>
+                <valueName>Local Teacher Assistant</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Academic</controllingFieldValue>
+                <valueName>Librarian</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Academic</controllingFieldValue>
+                <valueName>Science Technician</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Academic</controllingFieldValue>
+                <valueName>Resource Officer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Academic</controllingFieldValue>
+                <valueName>Outsourced Teacher</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Academic</controllingFieldValue>
+                <controllingFieldValue>Administration</controllingFieldValue>
+                <controllingFieldValue>Support Staff</controllingFieldValue>
+                <valueName>Undetermined</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Administration</controllingFieldValue>
+                <valueName>Resident Director</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Administration</controllingFieldValue>
+                <valueName>Head of Administration</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Administration</controllingFieldValue>
+                <valueName>Head of Finance</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Administration</controllingFieldValue>
+                <valueName>Head of Admissions</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Administration</controllingFieldValue>
+                <valueName>Administration Manager</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Administration</controllingFieldValue>
+                <valueName>PA to Headteacher</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Administration</controllingFieldValue>
+                <valueName>Finance Officer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Administration</controllingFieldValue>
+                <valueName>Procurement Officer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Administration</controllingFieldValue>
+                <valueName>Marketing Manager</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Administration</controllingFieldValue>
+                <valueName>Admissions Officer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Administration</controllingFieldValue>
+                <valueName>HR Officer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Administration</controllingFieldValue>
+                <valueName>Head of IT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Administration</controllingFieldValue>
+                <valueName>School Services Officer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Administration</controllingFieldValue>
+                <valueName>Bus Coordinator</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Administration</controllingFieldValue>
+                <valueName>Facilities Manager</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Administration</controllingFieldValue>
+                <valueName>Front Desk Officer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Administration</controllingFieldValue>
+                <valueName>IT Officer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Administration</controllingFieldValue>
+                <valueName>Administration Officer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Administration</controllingFieldValue>
+                <valueName>Internship</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Support Staff</controllingFieldValue>
+                <valueName>Head of Security</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Support Staff</controllingFieldValue>
+                <valueName>Security Guard</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Support Staff</controllingFieldValue>
+                <valueName>Driver</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Support Staff</controllingFieldValue>
+                <valueName>Head of Cleaners</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Support Staff</controllingFieldValue>
+                <valueName>Cleaner/Bus Monitor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Support Staff</controllingFieldValue>
+                <valueName>Maintenance Officer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Support Staff</controllingFieldValue>
+                <valueName>Nurse</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Support Staff</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Primary_Year_Group__c</fullName>
+        <externalId>false</externalId>
+        <label>Primary Year Group</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>PN1</fullName>
+                    <default>false</default>
+                    <label>PN1</label>
+                </value>
+                <value>
+                    <fullName>PN</fullName>
+                    <default>false</default>
+                    <label>PN</label>
+                </value>
+                <value>
+                    <fullName>N</fullName>
+                    <default>false</default>
+                    <label>N</label>
+                </value>
+                <value>
+                    <fullName>R</fullName>
+                    <default>false</default>
+                    <label>R</label>
+                </value>
+                <value>
+                    <fullName>Y1</fullName>
+                    <default>false</default>
+                    <label>Y1</label>
+                </value>
+                <value>
+                    <fullName>Y2</fullName>
+                    <default>false</default>
+                    <label>Y2</label>
+                </value>
+                <value>
+                    <fullName>Y3</fullName>
+                    <default>false</default>
+                    <label>Y3</label>
+                </value>
+                <value>
+                    <fullName>Y4</fullName>
+                    <default>false</default>
+                    <label>Y4</label>
+                </value>
+                <value>
+                    <fullName>Y5</fullName>
+                    <default>false</default>
+                    <label>Y5</label>
+                </value>
+                <value>
+                    <fullName>Y6</fullName>
+                    <default>false</default>
+                    <label>Y6</label>
+                </value>
+                <value>
+                    <fullName>All Year Groups</fullName>
+                    <default>false</default>
+                    <label>All Year Groups</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>School_Budget__c</fullName>
+        <externalId>false</externalId>
+        <label>School Budget</label>
+        <referenceTo>School_Budget__c</referenceTo>
+        <relationshipLabel>Budget - Salaries</relationshipLabel>
+        <relationshipName>Budget_Salaries</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>School_Department__c</fullName>
+        <externalId>false</externalId>
+        <label>School Department</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Academic</fullName>
+                    <default>false</default>
+                    <label>Academic</label>
+                </value>
+                <value>
+                    <fullName>Administration</fullName>
+                    <default>false</default>
+                    <label>Administration</label>
+                </value>
+                <value>
+                    <fullName>Support Staff</fullName>
+                    <default>false</default>
+                    <label>Support Staff</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>School_Section__c</fullName>
+        <externalId>false</externalId>
+        <label>School Section</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Primary</fullName>
+                    <default>false</default>
+                    <label>Primary</label>
+                </value>
+                <value>
+                    <fullName>Secondary</fullName>
+                    <default>false</default>
+                    <label>Secondary</label>
+                </value>
+                <value>
+                    <fullName>Whole School</fullName>
+                    <default>false</default>
+                    <label>Whole School</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Specialist_Subjects__c</fullName>
+        <externalId>false</externalId>
+        <label>Specialist Subjects</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Non-Teaching</fullName>
+                    <default>false</default>
+                    <label>Non-Teaching</label>
+                </value>
+                <value>
+                    <fullName>English</fullName>
+                    <default>false</default>
+                    <label>English</label>
+                </value>
+                <value>
+                    <fullName>Maths</fullName>
+                    <default>false</default>
+                    <label>Maths</label>
+                </value>
+                <value>
+                    <fullName>Music</fullName>
+                    <default>false</default>
+                    <label>Music</label>
+                </value>
+                <value>
+                    <fullName>Drama</fullName>
+                    <default>false</default>
+                    <label>Drama</label>
+                </value>
+                <value>
+                    <fullName>Art</fullName>
+                    <default>false</default>
+                    <label>Art</label>
+                </value>
+                <value>
+                    <fullName>PE</fullName>
+                    <default>false</default>
+                    <label>PE</label>
+                </value>
+                <value>
+                    <fullName>Specialist Sport</fullName>
+                    <default>false</default>
+                    <label>Specialist Sport</label>
+                </value>
+                <value>
+                    <fullName>ICT</fullName>
+                    <default>false</default>
+                    <label>ICT</label>
+                </value>
+                <value>
+                    <fullName>Humanities</fullName>
+                    <default>false</default>
+                    <label>Humanities</label>
+                </value>
+                <value>
+                    <fullName>Geography</fullName>
+                    <default>false</default>
+                    <label>Geography</label>
+                </value>
+                <value>
+                    <fullName>History</fullName>
+                    <default>false</default>
+                    <label>History</label>
+                </value>
+                <value>
+                    <fullName>General Science</fullName>
+                    <default>false</default>
+                    <label>General Science</label>
+                </value>
+                <value>
+                    <fullName>Biology</fullName>
+                    <default>false</default>
+                    <label>Biology</label>
+                </value>
+                <value>
+                    <fullName>Chemistry</fullName>
+                    <default>false</default>
+                    <label>Chemistry</label>
+                </value>
+                <value>
+                    <fullName>Physics</fullName>
+                    <default>false</default>
+                    <label>Physics</label>
+                </value>
+                <value>
+                    <fullName>Business Studies</fullName>
+                    <default>false</default>
+                    <label>Business Studies</label>
+                </value>
+                <value>
+                    <fullName>EAL</fullName>
+                    <default>false</default>
+                    <label>EAL</label>
+                </value>
+                <value>
+                    <fullName>Chinese</fullName>
+                    <default>false</default>
+                    <label>Chinese</label>
+                </value>
+                <value>
+                    <fullName>Russian</fullName>
+                    <default>false</default>
+                    <label>Russian</label>
+                </value>
+                <value>
+                    <fullName>Spanish</fullName>
+                    <default>false</default>
+                    <label>Spanish</label>
+                </value>
+                <value>
+                    <fullName>Portuguese</fullName>
+                    <default>false</default>
+                    <label>Portuguese</label>
+                </value>
+                <value>
+                    <fullName>French</fullName>
+                    <default>false</default>
+                    <label>French</label>
+                </value>
+                <value>
+                    <fullName>German</fullName>
+                    <default>false</default>
+                    <label>German</label>
+                </value>
+                <value>
+                    <fullName>Foreign Language</fullName>
+                    <default>false</default>
+                    <label>Foreign Language</label>
+                </value>
+                <value>
+                    <fullName>SEN Support</fullName>
+                    <default>false</default>
+                    <label>SEN Support</label>
+                </value>
+                <value>
+                    <fullName>Library</fullName>
+                    <default>false</default>
+                    <label>Library</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Staff_Names_Optional__c</fullName>
+        <externalId>false</externalId>
+        <label>Staff Names (Optional)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(School_Budget__r.Status__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Cost_for_School__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Average_Renumeration__c * Number_of_Staff__c)+ (Points__c * Cost_of_1_Point__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Cost for School</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <label>Budget - Salaries</label>
+    <nameField>
+        <displayFormat>S-{0000}</displayFormat>
+        <label>Budget - Salaries Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Budget - Salaries</pluralLabel>
+    <recordTypes>
+        <fullName>Responsibility_Points</fullName>
+        <active>true</active>
+        <label>Responsibility Points</label>
+        <picklistValues>
+            <picklist>Position__c</picklist>
+            <values>
+                <fullName>Responsibility Points</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Year_Group__c</picklist>
+            <values>
+                <fullName>All Year Groups</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PN1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>R</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Y1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Y2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Y3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Y4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Y5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Y6</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>School_Department__c</picklist>
+            <values>
+                <fullName>Academic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Administration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Support Staff</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>School_Section__c</picklist>
+            <values>
+                <fullName>Primary</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Secondary</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Whole School</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Specialist_Subjects__c</picklist>
+            <values>
+                <fullName>Art</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Biology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Studies</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chemistry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chinese</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Drama</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>English</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Foreign Language</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>French</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>General Science</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Geography</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>German</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>History</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Humanities</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ICT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Library</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maths</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Music</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-Teaching</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Physics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Portuguese</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Russian</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SEN Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spanish</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Specialist Sport</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Staff</fullName>
+        <active>true</active>
+        <label>Staff</label>
+        <picklistValues>
+            <picklist>Position__c</picklist>
+            <values>
+                <fullName>Administration Manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Administration Officer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Admissions Officer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bus Coordinator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cleaner%2FBus Monitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deputy Head of Primary</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deputy Head of Secondary</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deputy Headteacher</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Driver</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EAL Teacher</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expat Teacher Assistant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Facilities Manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Finance Officer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Front Desk Officer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HR Officer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Head of Administration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Head of Admissions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Head of Cleaners</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Head of Department</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Head of Finance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Head of IT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Head of Primary</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Head of Secondary</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Head of Security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Headteacher</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT Officer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Librarian</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Local Teacher</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Local Teacher Assistant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maintenance Officer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing Manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-UK Qualified Expat Teacher Full Package</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-UK Qualified Expat Teacher Partial Package</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nurse</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outsourced Teacher</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PA to Headteacher</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Procurement Officer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Resident Director</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Resource Officer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>School Services Officer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Science Technician</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Security Guard</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UK Qualified Teacher Full Package</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UK Qualified Teacher Partial Package</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undetermined</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Year_Group__c</picklist>
+            <values>
+                <fullName>All Year Groups</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PN1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>R</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Y1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Y2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Y3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Y4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Y5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Y6</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>School_Department__c</picklist>
+            <values>
+                <fullName>Academic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Administration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Support Staff</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>School_Section__c</picklist>
+            <values>
+                <fullName>Primary</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Secondary</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Whole School</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Specialist_Subjects__c</picklist>
+            <values>
+                <fullName>Art</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Biology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Studies</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chemistry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chinese</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Drama</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>English</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Foreign Language</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>French</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>General Science</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Geography</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>German</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>History</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Humanities</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ICT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Library</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maths</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Music</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-Teaching</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Physics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Portuguese</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Russian</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SEN Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spanish</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Specialist Sport</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Checks_that_Primary_Year_is_chosen</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( RecordTypeId &lt;&gt; &quot;012D0000000kKt8&quot;,TEXT(School_Section__c)=&quot;Primary&quot;, TEXT( Primary_Year_Group__c )=&quot;&quot;)</errorConditionFormula>
+        <errorDisplayField>Primary_Year_Group__c</errorDisplayField>
+        <errorMessage>You must choose a Primary Year Group, if the School section is Primary</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Checks_that_School_Section_is_chosen</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(TEXT(School_Department__c)=&quot;Academic&quot;, TEXT(School_Section__c)=&quot;&quot;)</errorConditionFormula>
+        <errorDisplayField>School_Section__c</errorDisplayField>
+        <errorMessage>You must choose a School Section, if the Department is Academic</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Choose_Specialist_Subject_if_Secondary</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( RecordTypeId &lt;&gt; &quot;012D0000000kKt8&quot;,OR(TEXT( School_Section__c )=&quot;Secondary&quot;,TEXT( School_Section__c )=&quot;Whole School&quot;,TEXT( Primary_Year_Group__c )=&quot;All Year Groups&quot;),ISNULL(Specialist_Subjects__c))</errorConditionFormula>
+        <errorDisplayField>Specialist_Subjects__c</errorDisplayField>
+        <errorMessage>You must choose a Specialist subject if the School Section is Whole School,Secondary or Primary &quot;All Year Groups&quot;</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Locked</fullName>
+        <active>true</active>
+        <errorConditionFormula>TEXT(School_Budget__r.Locked__c) =&quot;Yes&quot;</errorConditionFormula>
+        <errorMessage>This School Budget is Locked. Please contact the Group Administrator for Details</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

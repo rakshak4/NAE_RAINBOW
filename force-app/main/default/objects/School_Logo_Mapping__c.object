@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>setting to store mapping of school name and school logo image URL</description>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>All_Parent_Community_Group_Id__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Id of community chatter group for all parents in school.</inlineHelpText>
+        <label>All Parent Community Group Id</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>All_Staff_Community_Group_Id__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Id of the community group created for staff members in a school.</inlineHelpText>
+        <label>All Staff Community Group Id</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>All_Student_Group_Id__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>student group id created for school. All students will be registered under this student group.</inlineHelpText>
+        <label>All Student Group Id</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Auto_Portal_User_Creation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Auto Portal User Creation</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Automated_Calendar_Emails_On__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Automated Calendar Emails On</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Community_Id__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Id of the school&apos;s parent community Id.</inlineHelpText>
+        <label>Community Id</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_US_Year_Group__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>check if US Year Groups are applicable to this school</description>
+        <externalId>false</externalId>
+        <inlineHelpText>check if US Year Groups are applicable to this school</inlineHelpText>
+        <label>Is US Year Group</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Logo_URL__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>static resource URL for logo image</inlineHelpText>
+        <label>Logo URL</label>
+        <length>200</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>School_Full_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>School Full Name</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>School_Logo_URL__c</fullName>
+        <externalId>false</externalId>
+        <label>School Logo URL</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Send_Sunday_Calendar_Reminder_Email__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>When checked, all users that meet the relevant criteria for the same school will receive an email reminding them to log in and check the portal calendar</description>
+        <externalId>false</externalId>
+        <label>Send Sunday Calendar Reminder Email</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Topic_Id__c</fullName>
+        <description>Id for the important topic tag for this school.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Id for the important topic tag for this school.</inlineHelpText>
+        <label>Topic Id</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Topic_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Topic Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>School Mapping</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>School_Full_Name__c</columns>
+        <columns>Logo_URL__c</columns>
+        <columns>All_Student_Group_Id__c</columns>
+        <columns>Topic_Id__c</columns>
+        <columns>Topic_Name__c</columns>
+        <columns>Auto_Portal_User_Creation__c</columns>
+        <columns>Automated_Calendar_Emails_On__c</columns>
+        <columns>Send_Sunday_Calendar_Reminder_Email__c</columns>
+        <columns>Community_Id__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <visibility>Public</visibility>
+</CustomObject>

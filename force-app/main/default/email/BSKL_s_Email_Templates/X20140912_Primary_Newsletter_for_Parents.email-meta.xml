@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20140912 - Primary Newsletter for Parents</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20140912 - Primary Newsletter for Parents</name>
+    <style>freeForm</style>
+    <subject>Newsletter from the Head of Primary</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+After our first full week in school, it is great to see how quickly the children have settled, made new friends and are enjoying the wide range of learning experiences. We now have five classes in each group from year 1 to year 6 and seven in the Early Years Foundation Stage. Although our numbers have grown, we are keen to ensure the school still has a real ‘family’, welcoming atmosphere.
+
+Partnership with parents is of prime importance and, in addition to the curriculum letters from year teams, we will be hosting a number of Parent Information sessions over the next two weeks.
+
+Our first one is a ‘Welcome Morning’ for parents with children in our Early Years Foundation Stage (nursery and reception classes) on Friday 19th September. This will take place straight after drop off in the Primary Music room at 8am and will be an opportunity for you to hear more about the Early Years Foundation Stage (EYFS) day-today routines, curriculum and learning environment. After the presentation, parents will be invited to join the children and teaching staff for ‘Pancakes in the Playground’.
+
+The following week we have two Parent Information Evenings for children in Key Stage 1 and Key Stage 2. These provide an ideal opportunity to meet myself and the Primary Leadership Team, Year Group Leaders and your child’s class teacher who will be able to explain in more detail the day-to-day routines of school, as well as more in-depth curriculum information. Please make a note in your diary for:
+
+Monday 22nd September 2014, 6 – 7pm – Key Stage 2 (Years 3, 4, 5 and 6)
+Tuesday 23rd September 2014, 6 – 7pm – Key Stage 1 (Years 1 and 2)
+
+The children are already following our new ‘Golden Rules’:
+• Do be gentle
+• Do be kind
+• Do work hard
+• Do look after property
+• Do listen to people
+• Do be honest
+These provide an excellent code of behaviour throughout the primary school and we would encourage parents to support this at home.
+
+Mrs. Mackey, our new Deputy Head of Primary, is keen to promote more opportunities for pupil voice and is setting up a new Primary Student Council for children in years 3, 4, 5 and 6, which will be in place by the end of September.
+
+We have an enthusiastic team of teachers this year and many creative learning experiences are available for viewing on the Class Portals. Do take a look!
+I will also be posting this message in Parent Portal; this week will be the last week time I send an email. If you are having difficulty logging into the portal, please contact ICT support at: support@britishschool.edu.my
+
+Enjoy the weekend!
+
+Kind regards,
+
+Debra Birchall
+Head of Primary
+
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

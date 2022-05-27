@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Note to all school parents about cancellation of Saturday School  on 22.11.2014</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Saturday School is cancelled due to UN day</name>
+    <style>freeForm</style>
+    <subject>Saturday School is cancelled due to UN Day</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We want to inform that Saturday school started functioning and going on very smoothly. Children started to learn every time new things during the lessons. This Saturday November 22, we are going to cancel the Saturday lessons due to UN day, which is one of the greatest cultural event at our school. We want you to bare in mind that lessons will continue functioning from the next week.
+
+
+Уважаемые родители,
+
+
+Убедительно напоминаем Вам о том, что субботняя школа начала свою работу и отлаженно функционирует. На каждом уроке наши учащиеся изучают что-то новое. Однако, в эту субботу-22 ноября-уроки субботней школы будут отменены по случаю празднования   дня ООН, который является одним из самых крупных культурных мероприятий в нашем учебном заведении. На следующей неделе, занятия в субботней школе будут продолжены в обычным режиме.
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

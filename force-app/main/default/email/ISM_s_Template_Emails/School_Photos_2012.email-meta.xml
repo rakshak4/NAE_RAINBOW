@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>School Photos 2012</name>
+    <style>freeForm</style>
+    <subject>School Photo&apos;s 2012</subject>
+    <textOnly>Dear Parents,
+
+
+
+A professional photographer will be at the International School of Moscow on the following days: May 28-31, June 4-7 2012. He will be taking your child’s individual photo as well as brother and sister photographs, class photographs and the whole school photograph.
+
+
+
+Photographer’s schedule:
+
+
+Lower School and Year 4
+
+
+Individual photos:
+
+
+Monday, 28th May: NA, NR, 2C, 4R, 4H
+
+Tuesday, 29th May: Year 3C, 3D, 3S, 2D, RS
+
+Wednesday, 30th May: PN, Year 1F, 1A, 1M, RD
+
+
+Class photos:
+
+
+Thursday, 31st May: PN-Y3
+
+Whole Lower School photo
+
+
+Brother and Sister photos:
+
+
+Monday, 4th June
+
+
+Upper School, Years 5 – 9
+
+
+Brother and Sister photos:
+
+
+Monday, 4th June
+
+
+Individual photos:
+
+
+Tuesday, 5th June: Year 5, Year 6
+
+Wednesday, 6th June: Year 7, 8, 9
+
+
+Class photos:
+
+
+Thursday, 7th June: Year 4 – 9
+
+Whole Upper School photo
+
+
+The photographs will be processed and you will have the opportunity to select and purchase photographs before the end of the term.
+
+
+Please make sure on the days of your child&apos;s individual photos, class photos and sibling photos he/she needs to come to school wearing his/her Full Summer Uniform including blazers (Y1-Y8 children). If your child has a PE day on the day of the photographs, please make sure he/she brings his/her full summer uniform.
+
+
+It is important that your child is present on the day when the photographs of his year group are taken, as there may not be an opportunity to schedule another session.
+
+
+Info about the photographer:
+
+
+Vladimir Baych, a member of Union of Photographers of Russia, has been successfully working in the genre of child photography for more than 15 years. He is famous for making covers for child magazines, studio portraits and reportages. He has been working with advertising agencies and private schools. For more information, please visit his website: www.baych.ru
+
+
+Kind regards,
+
+
+
+
+Paul Seedhouse
+
+Headmaster</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

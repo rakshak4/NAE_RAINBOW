@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in August 2014</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Rosinka After School Activities 2014</name>
+    <style>freeForm</style>
+    <subject>Rosinka After School Activities 2014</subject>
+    <textOnly>The International School
+of Moscow
+Chartered By The British Schools Foundation
+
+
+
+Wednesday 17th September 2014
+
+Rosinka Online ASA Selection Process
+
+Dear Parents,
+
+The Term One Rosinka Campus After School Activity (ASA) programme will commence on Tuesday 23rd September and end on Wednesday 19th November.
+
+The ASA lists will be published and available to view by 5.30pm on Thursday 18th September. Students cannot select ASA’s until the system goes live at 5.30pm on Friday 19th September.
+
+Please be aware that, although tickets sales are marked as ‘free’, some ASA’s do require payment.
+
+It is not possible to view full ASA descriptions on iPads and some other mobile devices. Therefore, please use another device if you wish to view full descriptions of these.
+
+The link to the ASA website is:
+
+http://www.eventbrite.com/org/2966850589
+
+If the Administration team does not have your up to date email address, please get in touch with them prior to 19th September. Alternatively, you can visit the school website to click on the link and select your ASA.
+
+To make this process even smoother, please be aware of the following points:
+
+Please select one ASA on Tuesday or Wednesday or both if you wish. Please be advised that if your child’s name is inputted twice on one day, then their names will be removed by the system for all ASA selections.
+
+Please complete your son/daughter’s full name when registering for an ASA. Please add your email address to allow a confirmation ticket to be sent. You do not have to print this but please keep it for your reference.
+
+When the system asks you “did you mean”, and provides you with another email address, please click NO.
+
+Please make sure that any money for ASA’s is taken directly to the Accounts Office in a clearly labeled envelope, unless otherwise stated in the description.
+
+If tickets are not available for an ASA or it states “sold out’, this means that there are no spaces left. You should choose another ASA at this point.
+
+
+Kind Regards,
+
+Mr. A McAndrews
+Rosinka ASA Coordinator
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

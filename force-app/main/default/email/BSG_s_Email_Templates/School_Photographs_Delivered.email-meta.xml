@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Photographs Delivered.</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>School Photographs Delivered.</name>
+    <style>freeForm</style>
+    <subject>School Photographs Delivered.</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+Dear Parents,
+
+
+Please note that if you ordered/purchased school photographs at the end of term 1, these now should have been delivered to you by your child.
+
+
+If you ordered/purchased school photographs but have not received them as yet, please contact the school receptionists for assistance.
+
+
+Kind regards,
+
+
+Administration Team
+
+The British School of Guangzhou
+
+World Class Education
+
+
+____________________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

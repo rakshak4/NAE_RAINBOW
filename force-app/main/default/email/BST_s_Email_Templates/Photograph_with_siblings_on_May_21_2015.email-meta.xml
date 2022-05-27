@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>photos with sibling in Upper Campus</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Photograph with siblings on May 21.2015</name>
+    <style>freeForm</style>
+    <subject>Photograph with siblings on May 21.2015 in the Upper Campus</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

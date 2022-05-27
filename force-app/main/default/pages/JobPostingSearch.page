@@ -1,0 +1,87 @@
+<apex:page controller="JobPostingSearchController" showHeader="false"
+  id="wholePage" cache="false">
+
+  <!-- Java script to make 'Return' act as search button /-->
+  <script>
+      function noenter(ev) 
+      {     
+         if (window.event && window.event.keyCode == 13 || ev.which == 13)
+         {
+            var ele=document.getElementById('{!$Component.searchButton}');
+            ele.click();
+            return false;
+         }
+         else
+         {
+            return true;
+         }
+      }
+   </script>
+
+  <apex:stylesheet value="{!URLFOR($Resource.JobPosting)}" />
+  <apex:outputPanel styleClass="wholePage" layout="block">
+    
+   
+    <!-- BEGIN CONTACT LIST -->
+    <apex:repeat value="{!smallMsClassList}" var="mc" id="contacts">
+      <apex:outputPanel styleClass="info" layout="block" style="overflow: auto; ">
+        <apex:pageblock >
+          <apex:pageBlockSection columns="1" id="contactPBS">
+           
+            
+             
+              <apex:outputLink value="http://tfaforms.com/315784?tfa_User={!mc.OwnerId}&amp;tfa_UserEmail={!mc.ContactEmail}&amp;tfa_School={!mc.School}&amp;tfa_SubjectofEnquiry={!mc.Title}" id="imgLink">
+                <apex:image id="Img" value="{!$Resource.JobPostingImage}" />
+              </apex:outputLink>
+               <apex:outputPanel styleClass="imageSetup" layout="block">
+            <apex:outputText style="font-family:Century Gothic,arial,sans-serif;font-style:italic;font-weight: bold;font-size:20px;color:#132949" value="{!mc.Title}" />
+            <BR/>
+             <apex:outputText style="font-family:Century Gothic,arial,sans-serif;font-weight: bold;font-size:10px;color:#ffb85b" value="{!mc.School}" />
+            </apex:outputPanel>
+           
+
+            
+            
+            
+                         
+            
+         
+            
+          </apex:pageBlockSection>
+                     <apex:pageBlockSection columns="1"  >
+          
+          <apex:outputText style="font-family:arial,sans-serif;font-size:12px;text-align: justify;" value="{!mc.Description}" escape="true"/>
+           
+           </apex:pageBlockSection>
+           <apex:pageBlockSection columns="2"  >
+          
+          
+            <apex:outputText style="font-family:arial,sans-serif;font-size:12px;text-align: justify;" value="" />
+              <apex:outputText style="font-family:arial,sans-serif;font-size:12px;text-align: justify;" value="" />
+           <apex:outputLink styleClass="Buttons" style="color:white;"  value="mailto:{!mc.ContactEmail}">{!if(mc.ContactPerson = "LEFT BLANK","",mc.ContactPerson)}</apex:outputLink>
+          <apex:outputLink target="_blank" styleClass="Buttons2" style="color:white;" value="{!mc.Link}">{!if(mc.Document="LEFT BLANK","",mc.Document)}</apex:outputLink>
+          
+          <apex:outputLink style="font-style:italic;text-decoration: none;font-family:arial,sans-serif;font-size:9px;font-weight: bold;color:black" value="mailto:{!mc.ContactEmail}">{!if(mc.ContactPerson = "LEFT BLANK","","Click to Email")}</apex:outputLink>
+           <apex:outputLink target="_blank" style="margin-right : 130px;font-style:italic;text-decoration: none;font-family:arial,sans-serif;font-size:9px;font-weight: bold;color:black" value="{!mc.Document}">{!if(mc.Document = "LEFT BLANK","","")}</apex:outputLink>
+         
+         
+        
+          
+          
+         
+          
+          
+           
+         
+          
+           
+           </apex:pageBlockSection>
+           
+        </apex:pageblock>
+      </apex:outputPanel>
+    </apex:repeat>
+    <!-- END CONTACT LIST -->
+    <!--BEGIN FOOTER -->
+    
+  </apex:outputPanel>
+</apex:page>

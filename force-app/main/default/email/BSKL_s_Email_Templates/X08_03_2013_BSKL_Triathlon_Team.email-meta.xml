@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>08/03/2013 BSKL Triathlon Team</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>08/03/2013 BSKL Triathlon Team</name>
+    <style>freeForm</style>
+    <subject>BSKL Triathlon Team</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+BSKL Triathlon Team
+
+A fantastic opportunity has arisen for BSKL to enter a team of pupils into the Alice Smith School Triathlon on Saturday 13th April.  Below are the details of age groups and distances for the swim, cycle and run.  If you child is interested in entering please register them using the hyperlink below.
+
+On the 13th April Mrs Lambros and Mrs Townend will be at The Alice Smith School to meet with children from BSKL and support and encourage any children who have entered.  Children will need to make their own way to and from the event but we invite all BSKL children to meet with us at the event to create a sense of team spirit and excitement.  We would also encourage all children from BSKL to compete in their BSKL sports kit.
+
+We hope to see a good turn out from BSKL to build on our outstanding performance in Penang and our very successful sports teams.
+
+Event - KLASS Triathlon
+Date - Saturday 13th April 2013
+Venue - Alice Smith School Equine Park Campus
+
+Categories
+Under 6 –  25m Swim,  300m Run (No bike)
+Under 8 –  50m Swim, 1K Bike, 500m Run (Biking will be done on road - within the EP compound)
+Under 10 – 100m Swim, 2K Bike, 1K Run (Biking will be done on road - within the EP compound)
+Under 12 – 150m Swim, 4K Bike, 1.5K Run (Biking will be done on road - within and outside the EP compound)
+Under 15 – 200m Swim, 6K Bike, 2K Run (Biking will be done on road - within and outside the EP compound)
+Under 19 – 400m Swim, 6K Bike, 3K Run (Biking will be done on road - within and outside the EP compound)
+
+All ages will be taken as of January 1st 2013
+
+(Whatever age your child was on January 1st 2013 is the age that will eligible for. For example, if your child is aged 6 on January 1st 2013, they are therefore in the U8 as they are under 8. If they are 8 on January 1st 2013 then they are therefore in the U10 category as they are under 10 NOT under 8)
+
+Registration will be from 7am to 8am on the Transpo (outdoor basketball court) at Equine Park
+
+Timings for the Day
+
+8am – Race 1 – U19 (Mixed event)
+8.30am – Race 2 – U6 Boys
+8.40am – Race 3 – U6 Girls
+8.50am – Race 4 – U8 Boys
+9.00am – Race 5 – U8 Girls
+9.15am – Race 6 – U10 Boys
+9.30am – Race 7 – U10 Girls
+9.45am – Race 8 – U12 Boys
+10.00am – Race 9 – U12 Girls
+10.20am – Race 10 – U15 (Mixed Event)
+
+Entrance Fee – RM30 per person (includes t-shirt, towel, water and medal) - PLEASE PAY ON THE DAY
+
+Link address:
+Entry Form for KLASS Triathlon
+
+Warm regards,
+Nicola Lambros
+Year 5A Teacher
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

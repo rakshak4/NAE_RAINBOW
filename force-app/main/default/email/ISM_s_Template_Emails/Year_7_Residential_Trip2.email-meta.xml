@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Year 7 Residential Trip</name>
+    <style>freeForm</style>
+    <subject>Year 7 Residential Trip</subject>
+    <textOnly>Dear Parents
+
+Please find attached, details of the Year 7 residential trip to the Ardeche Valley in France. The pack includes details about where we will be going, what the children will do there and the payment schedule for the trip. If you have any questions at all, please feel free to email me at michelle.heckford@internationalschool.ru.
+
+***Unfortunately, the Powerpoint presentation has been unable to be attached to this
+e-mail, but will be forwarded soon.
+
+Best regards
+
+Mrs Hamilton
+
+Michelle Heckford
+Math Teacher
+The International School of Moscow
+Tel:  +7 (499) 922 44 00
+Fax: +7 (499) 922 44 00 Ext.4
+www.internationalschool.ru
+Part of The British Schools Group
+
+*Disclaimer:*
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Thursday 4th July - Important information</name>
+    <style>freeForm</style>
+    <subject>Thursday 4th July - Important information</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear Parents,
+
+Sorry for the overload of school emails, but please ignore the previous one.
+
+Please note that the whole Lower campus and Upper campus will close at noon on Thursday 4th July.
+
+This is to allow travel and preparation time for those attending the Upper Campus Speech Day in the evening.
+
+Please note therefore that school bus routes will leave from school at noon on this day. Please make sure you make pick up arrangements for those students that do not use the bus service for this time.
+
+Have a lovely weekend!
+
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

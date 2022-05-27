@@ -1,0 +1,58 @@
+<apex:component >
+    <apex:attribute name="record" description="assessment record." type="Assesment__c" required="true"/>
+    <apex:attribute name="reportType" description="assessment report type." type="String" required="true"/>
+    <apex:attribute name="groupName" description="name of tutor group." type="String" required="true"/>
+    <apex:attribute name="subjectName" description="name of subject." type="String"/>
+    <apex:attribute name="effort" description="assessment effort" type="String"/>
+    <apex:attribute name="effortLabel" description="assessment effort label" type="String"/>
+    <apex:attribute name="isEffortNumeric" description="is effort numeric" type="boolean"/>
+    <apex:attribute name="achievement" description="assessment achievement." type="String"/>
+    <apex:attribute name="grade" description="assessment grade" type="String"/>
+    <apex:attribute name="description" description="assessment description" type="String"/>
+    <apex:attribute name="pic" description="pic URL" type="String"/>
+    <apex:attribute name="tutorName" description="tutor name" type="String"/>
+    <apex:attribute name="tutorRole" description="tutor Role" type="String"/>
+    <apex:attribute name="tutorEmail" description="tutor Email" type="String"/>
+    <apex:attribute name="rt" description="report type number" type="Integer"/>
+    
+    <div class="t-sec-item">
+        <div class="print-item-name i-name-{!rt}">              
+          <span>{!reportType}</span>
+        </div>
+        <div class="item-description"><span>{!groupName}</span></div>
+        <div class="print-item-grades item-grades">
+            <apex:outputPanel styleClass="grade-item {!IF(isEffortNumeric, 'letter-cont', '')}" layout="block" rendered="{!IF(effort != null, true, false)}">
+                <div class="label">{!effortLabel}</div>
+                <div class='eval'>{!effort}</div>
+            </apex:outputPanel>
+            <apex:outputPanel styleClass="grade-item" layout="block" rendered="{!IF(achievement != null, true, false)}">
+                <div class="label">Achievement</div>
+                <div class='eval'>{!achievement}</div>
+            </apex:outputPanel>
+            <apex:outputPanel styleClass="grade-item letter-cont" layout="block" rendered="{!IF(record.Assessment_Folder__r.Include_Target_Predicted_Grade__c != null, true, false)}">
+                <div class="label">{!record.Assessment_Folder__r.Include_Target_Predicted_Grade__c}</div>
+                <div class='eval'>{!record.Target_Predicted_Grade__c}</div>
+            </apex:outputPanel>
+            <apex:outputPanel styleClass="grade-item letter-cont" layout="block" rendered="{!IF(grade != null, true, false)}">
+                <div class="label">Grade</div>
+                <div class='eval'>{!grade}</div>
+            </apex:outputPanel>
+        </div>
+        <apex:outputPanel layout="block" rendered="{!IF(description == null, false, true)}">
+            <div class="item-body">
+                <img src="{!pic}" />{!description} 
+                <div style="clear: both;"></div>
+                <ul class="item-contact">
+                    <li class="i-cont-name">{!tutorName}</li>
+                    <li class="i-cont-title">{!tutorRole}</li>
+                    <li class="i-cont-email"><a href="mailto:{!tutorEmail}">{!tutorEmail}</a></li>
+                </ul>
+                <div style="clear: both;"></div>
+            </div>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!IF(description == null, true, false)}">
+            <div class="item-body-empty"></div>
+        </apex:outputPanel>
+    </div>
+
+</apex:component>

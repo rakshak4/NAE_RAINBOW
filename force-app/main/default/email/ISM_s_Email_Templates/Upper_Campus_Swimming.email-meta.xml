@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Upper Campus Swimming</name>
+    <style>freeForm</style>
+    <subject>Upper Campus Swimming</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+
+To ease the demands of facilities for upper campus students, swimming will take place in PE lessons for the whole of the second term.  This will give the students ten weeks of swimming lessons, culminating in an upper school swimming gala towards the end of March. Each class will swim for one lesson a week, and the other will be a normal PE class at school.  The following timetable highlights when each class will be swimming.
+
+
+Day
+
+Times
+
+Monday
+
+6A/6B/6C
+
+8.40 – 10.00
+
+7B
+
+10.20 – 11.40
+
+
+5A
+
+1.40 – 3.00
+
+Tuesday
+
+
+8B
+
+10.20 – 11.40
+
+9
+
+12.40 – 2.00
+
+5B
+
+1.40 – 3.00
+
+Wednesday
+
+
+
+
+7A
+
+2.00 – 3.20
+
+Thursday
+
+4A/4B
+
+8.40 – 10.00
+
+
+
+
+Friday
+
+4C
+
+8.40 – 10.00
+
+
+8A
+
+12.40 – 2.00
+
+
+
+
+The timetable above allows upper primary children to have adequate time for a meaningful swimming lesson. Please be assured that the swimming pool is heated, and that plenty of time will be allocated for children to dry their hair properly before returning to school.
+
+
+Swimming will start the first week back after the Christmas holiday, this being the week beginning 14th January.  It would be beneficial for students to bring in some spare swimming kit during the final week, to keep in their lockers just in case they forget.  The equipment needed will be a swimming cap, trunks/bathing suit, goggles, towel and a plastic bag to place wet items.
+
+
+
+Please click here to complete the permission slip for your child/ren to be off site during these lessons.
+
+
+Please let us know if you have any issues or concerns.
+
+
+Merry Christmas and a Happy New Year,
+
+
+The ISM PE Department
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

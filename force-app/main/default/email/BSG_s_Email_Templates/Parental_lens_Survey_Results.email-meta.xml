@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>&quot;Parental lens&quot; Survey Results</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>&quot;Parental lens&quot; Survey Results</name>
+    <style>freeForm</style>
+    <subject>&quot;Parental lens&quot; Survey Results</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+Dear Parents,
+I would like to thank everyone who has taken the time to give their feedback to the recent ‘Parental Lens’ survey. The replies are currently being analysed by Nord Anglia Education and I will be attending a meeting in May with the regional team to consider any suggestions as to how we can improve the education and services we provide.
+Over the last 6 years the staff and students of the British School of Guangzhou have benefited from an impressive level of parental support. In the future we would like to have even more opportunities for parental involvement in school life and are currently looking to set up phase specific parental groups as the first step towards achieving this.
+Miss Kathy (Head of Lower School) and I recently met with parents on the lower school site to discuss an Early Years parents group. David Laird (Head of Primary) and I are about to have a similar meeting for Primary parents and a Secondary meeting will take place later in the term.
+I would encourage as many parents as possible to find the time to join these parent meetings. Our students benefit from your support and I am personally very grateful to the parents who have invested so much time and effort in helping us to become the school of choice for parents in Guangzhou.
+Regards,
+Mark Thomas
+Principal
+
+
+
+
+
+
+
+
+World Class Education
+
+
+____________________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

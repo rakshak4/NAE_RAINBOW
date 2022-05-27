@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notice of intention 2013-14</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Notice of intention 2013-14</name>
+    <style>freeForm</style>
+    <subject>Notice of intention 2013-14</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We are currently busy planning facility improvements, classroom resources and finalising recruitment for next acedemic year, 2013/14. As we do each year at this time, we would like to ask you to help us by providing as much notice as possible of your intention to leave or remain at BSG next year.
+
+We would also like to remind families who do plan to leave us that the return of any refundable student placement deposits held by the school or payment of ‘Early Notice Payback’, if this is aplicable to your family, is conditional on the school receiving a minimum of three months written notice of withdrawal prior to the last day of school attendance.
+
+If your intention is to leave at the end of this academic year, notification should be received by our Admissions team before Thursday, March 28th 2013 to be eligible for any deposit refund or early notice payment. If you require more information on refundable student deposits or ‘Early Notice Payback’, please contact Irene@bsg.org.cn or admissions@bsg.org.cn.
+
+With this in mind, we would very much appreciate your support by returning the slip below in an envelope marked to the attention of Admissions or by email to admissions@bsg.org.cn, no later than Thursday, 28th March 2013. A ‘Leavers Form’ will then be sent to any families who do not require a place with us next year and the best possible planning can be put into place for those students returning to school in August 2013.
+
+Thank you in advance for your cooperation as we prepare thouroughly for next acedemic year.
+
+---------------------------------------------------------------------------------------------------
+
+Please tick the appropriate statement and return this slip to your child’s teacher before Friday, March 28th 2013.
+
+Name of student:…………………………Class:…….............................
+
+- I can confirm that we will need a place for my child(ren) for Term 1, August 2013 ☐
+
+- I can confirm that we will not need a place for Term 1, August  2013 and will complete a leavers form ☐
+
+Parent Signature:…………………………   Date:………………………...
+
+Kind regards,
+
+Hilda Janisch
+Head of Admissions
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

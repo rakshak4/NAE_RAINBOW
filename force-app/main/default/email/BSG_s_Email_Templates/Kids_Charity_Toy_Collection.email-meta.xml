@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Kids Charity Toy Collection</name>
+    <style>freeForm</style>
+    <subject>Toy &amp; Book Charity Sale.</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+OLD TOYS AND BOOKS WANTED!
+
+Whyville Education is celebrating their 3rd Anniversary. To celebrate they have teamed up with GWIC chairity coordinators and BSG to hold a charity sale.
+
+Please click here for details
+
+We will be accepting donations at the school this week only and will pass all donations to GWIC and Whyville representatives Friday, 21st September.
+
+The proceeds from the sale (plus any unsold items) will be donated to Guangzhou&apos;s Children Migrant Center, an organisation that GWIC is supporting to help migrant children.
+
+The charity sale is this weekend with BSG students visiting the Migrant Children Center on Sunday 23rd September to make donations.
+
+Thank you in advance for support.
+
+Best wishes,
+
+Amanda Boby
+Charity Coordinator
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

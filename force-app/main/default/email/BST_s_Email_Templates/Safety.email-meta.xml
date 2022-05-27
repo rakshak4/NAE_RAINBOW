@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>no jewellery at school.Long hairs should be tied back,stud earrings</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Safety</name>
+    <style>freeForm</style>
+    <subject>Safety</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+At BST we are trying to provide the safest environment possible for your child.Staff actively supervise students while they are in the playground, however we need your help in the supervision of what the students are wearing to school.
+
+
+Footwear is one important aspect of this. Student need to wear black leather shoes as part of their uniform and are able to change into outdoor shoes for playtime if they choose. We ask that the students bring outdoor shoes where the toes are enclosed to prevent accidents. During PE, appropriate footwear, usually trainers, should be worn.
+
+
+We ask those with longer hair to wear it tied back, again for health and safety reasons, and may request students to tie their hair back.
+
+
+For safety reasons jewellery is also not permitted to be worn at school. The exception to this is wearing stud earrings for those with pierced ears. Other jewellery, either metal or plastic, is not permitted, and again can be a potential hazard. Watches are allowed.
+
+
+In the coming weeks we will be asking those with longer hair to tie their hair back, and those with jewellery other than stud earrings to remove them.
+
+
+It will help us greatly if you can encourage your child to come to school with the correct uniform each day and comply with our requests for jewellery, hair and footwear.
+
+
+Thank you in advance for your on going support!
+
+
+
+Liz Taylor
+
+Head of Primary
+
+
+
+Уважаемые родители!
+
+
+
+В Британской школе города Ташкента мы стараемся обеспечить самые безопасные условия для Вашего ребенка. Наш персонал внимательно следит за учащимися во время их нахождения на школьном дворе и в свою очередь мы просим Вас следить за тем, в каком виде ребёнок ходит в школу.
+
+Обувь является одним из важных аспектов ношения школьной формы. Учащиеся обязаны носить черную кожаную обувь и менять её при необходимости на уличную обувь во время перемены (по личному желанию). Мы просим, ​​чтобы студенты приносили с собой закрытую уличную обувь (пальцы ног должны быть полностью закрыты). Благодаря такой обуви пальцы ног будут защищены от несчастных случаев. Во время занятий физкультурой, необходимо носить сменную спортивную обувь, а именно-кроссовки.
+
+Учащиеся с длинными волосами обязаны убирать их назад, опять же, из соображений норм здравоохранения и безопасности. В свою очередь, мы также можем попросить студентов убрать волосы назад.
+
+По соображениям безопасности также не разрешается носить украшения в школе. Исключением является ношение серёжек в виде гвоздиков, для тех, у кого проколоты уши. Другие ювелирные изделия из металла или пластика, не допускаются к ношению, так как снова попадают в группу потенциальной опасности. Ношение часов допускается.
+
+В ближайшие недели мы будем просить учащихся с длинными волосами закалывать свои волосы назад и снимать с себя все ювелирные изделия, кроме серёжек-гвоздиков.
+
+Будем благодарны Вам, если Вы будете контролировать, чтобы Ваш ребёнок ходил в школу в полном комплекте школьной формы каждый день и соблюдал наши правила касательно закалывания волос и ношения ювелирных изделий и обуви.
+
+Благодарим Вас за Вашу постоянную поддержку!
+
+
+Лиз Тейлор
+
+Завуч начальной школы
+
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

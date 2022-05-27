@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NAE_Branding_Letterhead_Generic</letterhead>
+    <name>Email Admissions Assessment Approval Request</name>
+    <style>freeForm</style>
+    <subject>Admissions Assessment Approval Request -  {!Admissions_Questionnaire__c.Event_Subject_Line__c}</subject>
+    <textOnly>The following Admissions Assessment has been completed and is submitted for your Approval or Rejection:
+
+Students:  {!Admissions_Questionnaire__c.Event_Subject_Line__c}
+
+Starting Date: {!Admissions_Questionnaire__c.Student_Name__r.Starting_Date__c }
+
+Assessor: {!Admissions_Questionnaire__c.Staff_Doing_Assessment__c}
+
+Conclusion: {!Admissions_Questionnaire__c.Conclusion__c}
+
+Click here for Assessment Record</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

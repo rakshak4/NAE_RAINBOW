@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>27/03/2013 - Instrumental Lessons - Term 3</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>27/03/2013 - Instrumental Lessons - Term 3</name>
+    <style>freeForm</style>
+    <subject>Instrumental Lessons - Term 3</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+If you wish your child to participate with instrumental private lessons, or should you wish to terminate your childs lessons, please advise Mr Douglas by Friday 5th April. For those children currently timetabled; please also confirm your status by Friday 5th April.
+
+Please address all emails to alexander.douglas@britishschool.edu.my
+
+Instrumental lessons on offer are as follows:
+
+Violin
+Piano
+Saxophone
+Flute
+
+Lessons are charged at RM65 per 40minute lesson and are invoiced at the beginning of each term. All instrumental lessons are rotated around the school academic timetable. Children from YR6 - YR8 may miss one science, math and english lesson in one term. All other academic subjects are to be rotated around. Instrumental lessons do not occur during swimming or after the school day ends, 3pm.
+
+Many thanks
+
+Alex Douglas
+Head of Instrumental Music
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Academy Swimming Club</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Academy Swimming Club</name>
+    <style>freeForm</style>
+    <subject>Academy Swimming Club</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+
+
+
+
+
+Dear Parents,
+
+
+Weekend swimming classes begin this Saturday, 31st August 2013 with the launch of an 8 week Academy programme hosted at the school. The programme this year comes under the direction of Mr. Edward Fordham from the Hong Kong Football Academy, with Mr. Vincent Liu leading the way as Head Swimming Coach.
+
+
+Mr. Vincent Liu:
+
+Mr. Liu currently works as a PE Specialist at The British School of Guangzhou. He is a qualified level 4 Swimming Instructor and Life Guard with over 7 years experience. Together with his team of qualified instructors, he is excited and looking forward to starting this year&apos;s programme that will offer classes to both beginners and more experienced swimmers.
+
+
+Registration is now open to all children from the international community between the ages of 5 and 16. For further information and registration forms, please CLICK HERE.
+
+
+Best wishes,
+
+
+The Administration Team
+
+The British School of Guangzhou
+
+World Class Education
+
+
+
+
+
+
+
+_____________________________________________________
+
+
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

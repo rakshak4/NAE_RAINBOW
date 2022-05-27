@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>15/11/2013 Message Head of Secondary</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>15/11/2013 Message Head of Secondary</name>
+    <style>freeForm</style>
+    <subject>Message from Head of Secondary</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+Message from the Head of Secondary
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Events in the Philippines have made this a sobering week, but it has been pleasing to see how well the BSKL community has responded to the needs that Typhoon Haiyan has thrown up. Thank you all for your contributions at short notice, which have now been collected by the Philippine Embassy.  There may well be another shipment departing next week, so please check the parent portal regularly for news of any collections taking place. Today’s non-uniform day raised over RM3000 for the relief fund and any proceeds from the KS3 Halloween Ball will also be donated. The first Year 8 cake sale raised over RM2000: this money was is intended to support the Year 8 end of Year social event, and the pupils have decided to donate a substantial portion to the Philippines. All money collected will be sent to our sister school in Manila, so we know the funds will be used wisely.
+
+Year 8 will continue to hold cake sales over the next few weeks (see schedule below). I would like to stress that for organisational purposes these weekly events are being organised by Year 8 Tutor Groups ,but this is not a House event/competition and everyone is encouraged to help and donate: the main thing is to raise money.
+
+Congratulations to our swim teams who returned from the KLISS competition last week in with a trophy for overall second place. There were notable performances from Lewis Munro and Russell Liew.
+
+Notices
+
+Year 8 are organising a series of cake sales on Thursday lunchtimes:
+
+DW next Thursday lunchtime around the pool.  Followed by 8MB and then 8RB on consecutive Thursdays
+Anyone else who wants to help their House win can contribute cakes or cookies.
+Parents need to bake or donate cakes (minimum 12 pieces).
+Bring them to Humanities 2 each Thursday morning.
+
+The tickets for the Key Stage 3 Halloween Ball on Friday 22nd November are still on sale. It is important for safety reasons that we know in advance who is coming – they will not be available on the night, so please purchase early next week (RM10). There will be a BBQ on the night where pupils can purchase food and drink.
+A number of pupils have recently been quite careless with their laptops: we have had three instances this week of ‘lost’ laptops, that have triggered searches across the school. In all cases the device was not where the pupil claimed to have left it, and where they claimed to have left it was somewhere it should not have been! In Monday’s assembly I will reinforce the message of the importance of looking after these computers carefully, and of course anything you can do at home would be appreciated.
+We have clearly defined lunchtimes in school with ‘last orders’ being taken at 12.45pm, although Year 9 are able to go into lunch from 12.35pm – there is rarely a queue at this time. Lessons begin again at 1.00pm, and I will be telling pupils to ensure they leave the dining hall by 12.55pm.
+I hope to see many of you at the Head of Secondary Forum next Wednesday. Please note that the first 45 minutes will be for those Year 9 parents who could not attend the GCSE Options presentation, and I will then take broader questions from 8.15am.
+If your child is going to be late for school (registration is taken at 7.55am) then please remind them to sign in at Reception – otherwise they will remain marked as absent for the day.
+
+Upcoming Dates
+
+Thursday 21th November: Year 8 Cake sale.
+Wednesday 20th November, 7.30am – 9.00am: Head of Secondary Forum, Theatre (GCSE Options 7.30am – 8.15am).
+Friday 22nd November, 6.00pm – 8.00pm: Halloween Ball
+
+And finally……
+
+Have a very enjoyable weekend.
+
+Kind Regards,
+Derek Mackey
+Head of Secondary
+The British International School of Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

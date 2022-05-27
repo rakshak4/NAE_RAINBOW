@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Assessment Approvals</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NAE_Branding_Letterhead_Parent_Portal</letterhead>
+    <name>Assessment Approval</name>
+    <style>freeForm</style>
+    <subject>Assessments Submitted for your Approval -{!Assesment__c.Title__c}</subject>
+    <textOnly>{!Assesment__c.School__c}
+Assessment Approval
+
+Hi,
+
+I have submitted an assessment folder named {!Assesment__c.Title__c} ({!Assesment__c.Group__c}) for your review and approval.
+
+Please click here to review the submitted assessments.
+
+Regards
+
+{!Assesment__c.OwnerFullName}
+{!Assesment__c.School__c}
+World Class Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>leaving students for Academic Year 2015-2016</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>leaving students 2015-16</name>
+    <style>freeForm</style>
+    <subject>Students,who are leaving school ( till September 02.2015)</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+As the end of the school term quickly approaches some of you will be leaving the school for pastures new. If you are not already aware, if you are leaving school for good, you will need to collect all documents from school which need to be signed by myself.
+
+
+I can only sign documentation up until 12:00pm on Friday 29th June. Could you please inform our Admin team if you are leaving the school and require such a documents.
+
+
+The next available date for me to sign references is September 2nd and this may be too late for you to successfully secure a place in another school.
+
+
+Many thanks,
+
+David Kirkham
+
+
+
+Уважаемые родители!
+
+
+Конец учебного года почти наступил и некоторые из Вас возможно покинут нашу школу. Даже если Вы всё ещё не знаете, уйдёт  Ваш ребёнок из нашей школы или нет, Вам следует забрать документы, которые должны быть подписаны директором.
+
+
+Крайний срок подписи документов-12:00 дня, в пятницу, 29 июня. Просим Вас поставить в известность сотрудников Администрации, если Ваш ребенок покидает наше учебное заведение и ему требуются документы из школы.
+
+
+Следующая дата, когда я смогу подписывать справки из школы-2 сентября, что может оказаться слишком поздно для Вас, если Вы планируете переводить ребёнка в другую школу.
+
+
+С уважением,
+
+
+Дэвид Киркхам
+
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

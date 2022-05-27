@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Used to give access to Web Dev user to manage Connected Apps</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Manage Connected Apps</label>
+</PermissionSet>

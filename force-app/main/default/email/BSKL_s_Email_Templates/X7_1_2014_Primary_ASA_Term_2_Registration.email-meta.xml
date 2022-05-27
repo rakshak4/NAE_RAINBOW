@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>7/1/2014 Primary ASA</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>7/1/2014 Primary ASA</name>
+    <style>freeForm</style>
+    <subject>Primary ASA</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+For After School Activities (ASA) this term, we are using an online sign up system whereby you will sign up for your child’s choice of ASA.
+
+The online sign up system will be available from
+6pm Thursday 9th January
+
+Please only sign up for 1 ASA on a Tuesday and 1 ASA on a Thursday making sure the ASA is specifically for your aged child. If your child is training for a school sports team or in the Rainbows or Brownies then they don’t need to sign up for another ASA on that day.
+
+If the ASA is already filled up, you will be informed immediately and will then have the option to sign up for a second choice.
+
+Once a student is signed up to an ASA, I expect them to commit to that ASA all term and there will be no option to change to another ASA.
+
+Early Years children who get the bus and need to wait for their sibling can join our creche. There are a limited number of paid ASAs available for Reception age.
+
+For detailed descriptions of the ASAs, please click on the link below to go to the information booklet:
+
+Primary ASA Guide (https://school.my.salesforce.com/sfc/p/D0000000DDpn/a/D00000004SWY/e2oe59ZzRKvnsLSztk6EWHfvn_YHG0ouyX_8pOXVZYM=)
+
+To sign up for an ASA, please follow the below link:
+
+Primary ASA Online Registration Form (https://docs.google.com/forms/d/1KatcKY_MalHVw29IDRG81IG2Nm_65ckEyolHIH2-2w4/viewform)
+
+(Registration will only be opened at 6PM, Thursday, 9th January.)
+
+If you have any difficulties signing up please send an email to
+asa.registration@britishschool.edu.my
+
+
+Warm regards
+
+Janet Brock
+Headteacher
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

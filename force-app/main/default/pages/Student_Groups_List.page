@@ -1,0 +1,9 @@
+<apex:page showHeader="true" tabstyle="Group__c"> 
+<apex:outputPanel >
+<table><tr><td></td><td></td></tr>
+<tr><td style="font-family: arial,helvetica; font-size:22px;font-weight: 120;"><img src="https://c.ap4.content.force.com/servlet/servlet.ImageServer?id=0156F00000EyWvC&oid=00D6F000001cXAR&lastMod=1533465003000"/>   Student Groups</td></tr></table>
+</apex:outputPanel>
+<br></br>
+
+    <apex:ListViews type="Group__c" /> 
+</apex:page>

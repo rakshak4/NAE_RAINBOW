@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>HK City Talk</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>HK City Talk</name>
+    <style>freeForm</style>
+    <subject>HK City Talk</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We have arranged for a representative from Hong Kong City University to visit the school and deliver a speech on their institution on Wednesday 10thOctober from 2.30-4pm. All of our Year 12 students will be attending and we would like to open the invitation to parents. Over the next few years there will be a number of university speakers visiting us here at school, so please do not worry if you can not attend this time. If you are interested in attending, please e-mail me at Nicholas.mckie@bsg.org.cn.
+I have also attached a brochure outlining the upcoming sailing trip in Hong Kong. Students will be receiving medical forms to fill in and return by the end of this week.
+For more information on future university speakers and upcoming events in the sixth form, please refer to the school website, www.bsg.org.cn, under ‘school news’.
+
+
+Please click here to see more related information.
+
+
+Regards,
+
+Nicholas Mckie
+Assistant Head of Secondary
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

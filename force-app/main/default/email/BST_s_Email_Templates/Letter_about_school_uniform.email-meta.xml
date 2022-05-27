@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Letter about school uniform</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Letter about school uniform</name>
+    <style>freeForm</style>
+    <subject>General Uniform Letter for Summer Term</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+Please ensure that your child is dressed ONLY in school uniform items, including:
+
+
+- blue, black or white shoes for Pre-Nursery and Nursery and black leather indoor shoes for all older classes including Reception.
+
+- dark coloured sports shoes for PE days that match the PE kit.
+
+- blue, black or white socks and tights.
+
+
+
+Teachers have been asked to enforce uniform guidelines strictly during the summer term.
+
+
+We now have full stocks of our Summer Uniform in school so there is no reason for any child to be without the items that they need; this will continue to be worn until the October half-term 2013.
+
+
+The uniform is an important element of the school. We believe it has numerous benefits; helping students to focus on their work and their activities while at school, encouraging positive social interaction amongst pupils and even making life a little easier for parents. We also believe the uniform can help to create a sense of community. When worn properly it generates a shared identity among pupils and can help instil a sense of pride in the school.  Parents play a critical role in realising all these benefits by making sure that their children wear their uniform smartly and correctly to school every day.
+
+
+
+Full details of the school uniform requirements can be found at the link:
+
+
+http://www.britishschool.uz/info/Quicklinks/Uniforms/en/
+
+
+Please support us in keeping the children smartly dressed, something we feel is vital in fostering a pride in their achievements and a readiness to learn.
+
+
+
+Kind regards,
+
+
+Пожалуйста, проследите за тем, чтобы ваш ребенок посещал школу ТОЛЬКО в школьной форме, включая:
+
+
+- синюю, черную или белую сменную обувь для учеников классов Pre-Nursery и Nursery,  и черную кожаную сменную обувь для учеников всех остальных старших классов, включая класс Reception.
+
+- спортивную обувь темных цветов, совпадающих по цвету со спортивной формой школы.
+
+- Синие, черные или белые носки и колготки.
+
+
+
+Учителя будут строго следить за тем, как соблюдаются правила ношения школьной формы во время летнего триместра.
+
+
+Сейчас на школьном складе имеются все необходимые предметы школьной летней формы и нет никаких причин, для того чтобы дети носили предметы одежды не относящейся к школьной форме. Летнюю форму нужно будет носить до середины осеннего триместра 2013-14 академического года.
+
+
+Школьная форма является важным элементом школьной жизни. Мы убеждены, что ношение школьной формы имеет множество позитивных аспектов, она помогает детям сконцентрироваться на учебе, мотивирует положительное социальное общение между учениками, а также значительно облегчает жизнь родителей.
+
+Мы также верим в то, что школьная форма помогает создавать чувство принадлежности к одному сообществу. Когда форма носится подобающим образом, она порождает схожесть среди учеников и помогает укрепить чувство гордости за школу. Родители играют критическую роль в реализации вышеуказанных позитивных аспектов следя за тем, чтобы дети носили школьную форму каждый день.
+
+
+Полный список требований к школьной форме, вы можете найти здесь:
+
+
+http://www.britishschool.uz/info/Quicklinks/Uniforms/ru/
+
+
+Пожалуйста, поддержите нас в том, чтобы дети были одеты подобающим образом. Это жизненно важно в укреплении в детях гордости за свои достижения и готовности к обучению.
+
+
+
+С наилучшими пожеланиями,
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>ISM</letterhead>
+    <name>Scarlet Fever</name>
+    <style>freeForm</style>
+    <subject>Weekly News Update 6th June, 2012</subject>
+    <textOnly>Wednesday 6th June, 2012
+
+Dear Parents,
+
+We just wanted to inform you that Scarlet fever (скарлатина) may be present amongst the children in the school. We have one confirmed case on upper campus and it is possible that they may have (without knowing) been carrying the virus in school towards the end of last week
+
+Scarlet fever is an infection caused by streptococcal bacteria, very similar to strep throat. In the distant past, scarlet fever was considered quite a dangerous illness; but now it is easily treated with antibiotics when recognised early. If you suspect your child may have any symptoms, please take them to a doctor immediately and tell them that the school has told you that scarlet fever may be circulating in our area.
+
+What to look for
+
+High fever (&gt;38C)
+Sore throat
+Nausea and vomiting
+Headache and / or stomach pain
+A red rash on the palms of the hands, or that starts at the neck and chest, and then spreads to the rest of the body. This can extend to the tongue.
+
+What to do
+
+
+Consult your Doctor immediately
+Please follow medical advice, and do not send your child back to school until completely recovered.
+
+
+
+Please do keep us informed of any further confirmed cases and we will remain vigilant at school.
+
+
+Yours sincerely
+
+
+
+The ISM School Nursing Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

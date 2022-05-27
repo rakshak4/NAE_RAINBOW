@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Mad Hatter&apos;s Parade</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Mad Hatter&apos;s Parade</name>
+    <style>freeForm</style>
+    <subject>Mad Hatter&apos;s Parade</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+British Day – Mad Hatter’s Parade
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+On Saturday 15th June BSG will be hosting a British Day at the Upper School campus.
+
+In the past this event has been a huge success and as a result we are expecting around 2,000 people to attend this year&apos;s event. Visitors will consist of international and local families, business people, students and anyone interested in getting a taste of British culture in Guangzhou. Please CLICK HERE to give you a taste of what the event is all about.
+
+To make the event a truly British experience there will be UK-themed entertainment (music, traditional performances) and activities (football tournament, children&apos;s games and indoor play areas) food and drink (fish &amp; chips, currys, cakes, Pimms) as well as decorations all tailored to be suitably and undeniably British.
+
+To ensure our students are fully immersed in this day we would like to invite all Lower School students (Pre-Nursery to Year 1) to make a hat for our Mad Hatter’s Parade. The children are to make or create a hat (no theme, just let your imagination run wild!) which should be brought along to the event and at some point during the proceedings the Lower School students will be called onto the stage to parade their wonderful creations. There will be prizes for the 1st, 2nd and 3rd best hats on the day.
+
+The judging panel will consist of a member of the British Chambers, a representative from the EFC and our very own Mr. Thomas.
+
+The wonderful prizes have been kindly donated by the school’s EFC!
+
+I hope you are all able to join us for this fun day of Britishness and I shall look forward to seeing the children’s hats paraded on stage in front of what promises to be a huge audience.
+
+If you would like any further information about British Day please do not hesitate to contact me.
+
+Kind regards,
+
+Miss Kathy
+Head of Lower School
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

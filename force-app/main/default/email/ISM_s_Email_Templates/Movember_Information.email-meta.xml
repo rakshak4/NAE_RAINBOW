@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Movember Information</name>
+    <style>freeForm</style>
+    <subject>Movember</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+
+If you have been around the school in the last couple of weeks you may have noticed some of the male teachers sporting some new facial hair. This is not a new fashion trend but an attempt to raise some money to help fight against male specific cancers. Every November, men around the world take part in Movember where they grow (or attempt to grow) a moustache for the entire month to help raise awareness and money.
+
+
+There are a number of teachers taking part across both campuses. Some are growing a moustache and some are allowing their existing facial hair to grow into different styles.
+
+
+You can donate online using the link http://mobro.co/ismmoscow but we are also planning an extra couple of things too. On Friday 30th of November there will be moustache cookies available for the children to buy at break times on a first come first served basis. They will also be able to wear their own moustache for the day by paying to have one painted on during registration time or they can pay to have the pleasure of wearing their own fake moustache all day. Finally, the teachers are being very brave and are willing to allow a student to have the pleasure of “cleaning them up” and shaving off their moustache at lunchtime or Golden TIme. The lucky shaver will be randomly picked from the people who have paid to place their name in the hat of the teacher they wish to shave. As an added bonus, if the lower campus raise over 10,000 rubles by buying cookies, moustaches and donations to shave the teachers, Mr. Rogers has agreed to shave off his entire beard!
+
+
+Kind Regards,
+
+
+The Mo Bros!
+
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

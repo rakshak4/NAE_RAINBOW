@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Note to parents about not bringing phone and other electronic devices to school</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Note to parents about not bringing phone and other electronic devices to school</name>
+    <style>freeForm</style>
+    <subject>Valuables in School</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We would like to remind you that children should not bring items such as phones, electronic games, expensive toys or money into school. If such items need to be in school for a specific reason, they should be handed to teachers or staff at the front desk and only used under supervision. They will be returned to parents or drivers at the end of the day. Unfortunately, we had an incident this week when a phone went missing. While we will of course do what we can to investigate such problems, the school cannot take responsibility for any child’s personal belongings unless they are handed over to a staff member’s care.
+
+Many thanks for your cooperation in this matter.
+Дети не должны приносить дорогие игрушки, деньги, электронные игры и мобильные телефоны в школу. Если эти предметы будут нужны по какой-то особой причине, то они должны быть переданы на хранение учителю или администратору в фойэ, могут быть использованы только под присмотром, и будут возвращены в конце учебного дня родителям или личному шофёру владельца. К сожалению, на этой неделе произошёл инцидент в связи с пропажей мобильного телефона. Несмотря на то, что мы сделаем всё возможное, чтобы расследовать этот случай, школа не несёт ответственности за личные вещи детей, если они не были переданы на хранение одному из сотрудников.
+
+Благодарим Вас за содействие и поддержку.
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

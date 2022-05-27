@@ -1,0 +1,45 @@
+Dear {!Receiving_User.Salutation} {!Receiving_User.FirstName} {!Receiving_User.LastName}, 
+
+
+We would like to welcome you as a member of the "School Hub", our state-of-the-art online parent portal for {!Receiving_User.School__c}.
+
+Through this portal you will be able to monitor your child(ren)'s academic progress, receive pastoral feedback and participate in our online community.
+
+We have created a 2 minute video presentation of the portal, to introduce you to its basic functionalities:
+
+{!Receiving_User.School_Hub_Video__c}
+
+
+Below are your Login Instructions
+____________________________________________________
+
+Click on the link below: 
+
+{!Community_Url}
+
+Your username is: {!Receiving_User.Username}
+
+For future logins, simply proceed to the school website and access the "Login" tab located on the bottom right corner of the page.
+____________________________________________________
+
+
+Basic Instructions:
+
+1- Once you click on the link shown in the login instructions, you will be asked to create a password.
+
+2- Once you have created the password, you will login to the portal.
+
+3- To review your child(ren)'s Academic Reports, click on the "Progress" tab.
+
+Please note that currently we are only able to provide ONE user per family. (of course the login details can be shared). 
+
+A reminder that you can login in to the portal by accessing the school website, and selecting the "Login" option located on the bottom right of the home page.
+
+
+Should you have any problems accessing the portal, would like us to change the designated user or require further assistance, please do not hesitate to contact our support team using the following email address: support@britishschools.co.uk
+
+
+We hope you enjoy using the portal!
+
+
+Warm Regards,

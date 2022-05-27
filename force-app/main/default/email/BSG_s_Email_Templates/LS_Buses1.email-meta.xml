@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>LS Buses from Mon. Sep. 10th</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>LS Buses</name>
+    <style>freeForm</style>
+    <subject>LS Buses</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Due to unforeseen circumstances Lakefront Management are unable to allow large buses to enter the Lakefront compound by the usual entrance.
+
+Therefore, from Monday 10th September, the larger buses, will enter Lakefront by a new access road leading to the back of the Lakefront compound. Once there they will be transferred to a smaller shuttle bus and taken directly to the usual drop off point by the school gates. We will endeavour to ensure that any disruption to your child&apos;s journey is minimal and that at this point we are not expecting any changes to bus pick-up or drop-off times.
+
+For those children who come to school on one of our small buses, the service will run as normal.
+
+If you have any questions regarding this change please do not hesitate to contact me at katherine.weir@bsg.org.cn
+
+Thank you for your continued support.
+
+Kind regards,
+
+Miss Kathy
+
+Head of Lower School
+The British School of Guangzhou
+Tel: +86 (20) 3725 9376
+www.bsg.org.cn
+World Class Education
+
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Health &amp; Safety - Sept 2017</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Health &amp; Safety - Sept 2017</name>
+    <style>freeForm</style>
+    <subject>Health and Safety Update - Sept 2017</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

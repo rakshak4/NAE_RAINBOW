@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Snacks 2014</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Email to parents about snacks</name>
+    <style>freeForm</style>
+    <subject>Snacks</subject>
+    <textOnly>he British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Since the start of the year, we as a school have been looking at areas where we feel improvements could be made.
+
+
+One area I have taken a particular interest in is the health of the children whilst they are in our care during the day. At school we have many children who suffer with allergies and have to careful to make sure that our caterers provide healthy meal options for the children to eat during the day. We have a &apos;no nut&apos; policy because of the high number of our students who can have a serious allergic reaction if they eat or are exposed to products containing nuts.
+
+
+Whilst we can control what food stuffs we prepare it is extremely difficult, in fact almost impossible, for us to monitor what is being brought into school via your children&apos;s snack boxes. In hot weather some of the food parents are preparing for children can spoil quite easily and are not fit to eat, more concerning however is many parents are sending children to school with candy, chocolate, nuts or other highly sugared foods which is innocently being shared with classmates. Whilst some parents are taking the sensible route and are providing a healthy option for snack, children tend to want the more attractive option of the unhealthy snacks and I am concerned that it could potentially lead to some children being given food which could lead to them having an allergic reaction. Even simple things like sending in a cake for your child&apos;s birthday to share with their classmates can cause major problems if the cake contains nuts. Therefore if a cake is found to contain nuts, we will return the cake to you intact at the end of the school day.
+
+
+To help minimize this risks i am proposing the option that i feel will help keep our children safe and healthy.
+
+
+1: Healthy snack provided by school, everyday (Obligatory) - 6000 Soum per day
+
+We have been working with new caterers to provide healthy options for snack times. This would be obligatory, with all children taking snack at the school. This would allow us a greater control over what children are eating during their time with us and reduce almost completely the risk of children eating food which could cause an allergic reaction. It would allow you to also see that your child will get a variety of dishes that will provide a healthy and balanced diet. Please see attached menu with this email.
+
+
+We will trial this option for a two week period from the beginning of next term (beginning Monday 21st April ) completely free of charge to parents, for all children in the the school. During this period children should not bring snack to school as they will not be allowed to eat it. After the trial period, if the general consensus amongst parents is a positive one then we will continue to supply snacks in school for all children. Parents will then be issued an invoice to cover the costs of snack for the rest of the term.
+
+
+Next academic year 2014- 2015 all snacks and meals will be included in you school educational services fees.
+
+
+Best regards
+
+
+David Kirkham
+
+Headmaster
+
+
+Уважаемые родители,
+
+С начала года, мы, как школа уделили внимание тем областям, в которых, как мы чувствуем, можно добиться улучшений.
+
+
+Одна из областей, к которой я проявил особый интерес -здоровье детей, в то время как они находятся под нашей опекой в течение дня. В нашей школе учатся много детей, которые страдают от аллергических реакций, и мы должны быть осторожными, дабы убедиться, что наша столовая предоставляет здоровую пищу в течение дня нашим ученикам. В нашей школе действует “антиореховая” политика, так как у многих наших учеников проявляется аллергическая реакция, если они съедят   или используют орехосодержащие продукты.
+
+
+Пока мы можем контролировать ту пищу, которую мы готовим. Но нам чрезвычайно трудно, а подчас практически невозможно, контролировать то, какую еду приносят с собой дети из дома для полдника. В жаркую погоду некоторые пищевые продукты, которые передаются родителями,могут достаточно быстро испортиться и стать не пригодными для употребления, и в то же время многие родители передают детям в школу конфеты, шоколад, орехи или другие высоко сахаросодержащие продукты, которыми дети случайно могут поделиться со своими одноклассниками. Некоторые родители передают детям здоровую пищу для полдников, но дети, как правило, хотят более привлекательный вариант из нездоровых закусок, и я обеспокоен тем, что это может привести к проявлению аллергических реакций у некоторых детей. Даже такая безобидная вещь, как отправка торта на день рождения Вашего ребенка, может вызвать серьезные проблемы, если торт содержит орехи и будет распределён между одноклассниками. Поэтому, если окажется, что торт содержит орехи, мы вернем Вам его в конце учебного дня нетронутым.
+
+
+Дабы уменьшить этот риск я предлагаю вариант, который, как мне кажется, поможет сохранить здоровье и безопасность наших детей.
+
+1: Здоровые закуски предоставляются школой каждый день (обязательно) - 6000 сум за день
+
+Мы работаем с новыми представителями общественного питания для предоставления здоровой пищи для закусок. Это является обязательным для всех детей, приносящих закуски в школу. Это позволит нам лучше контролировать то, что едят дети во время учебного дня и почти полностью снизить риск проявления аллергической реакции у детей на еду, которая может ее спровоцировать. Вы так же сможете увидеть, что Ваш ребенок получает разнообразную еду, которая обеспечивает здоровое и сбалансированное питание. Пожалуйста, см. прилагаемое меню в этом электронном письме.
+
+
+В течение 2-ух недель мы будем экспериментально использовать эту опцию с начала следующего триместра (начиная с понедельника, 21 апреля) совершенно бесплатно для родителей и всех детей в школе. В этот период дети не должны приносить закуски в школу, поскольку им не будет разрешено их есть. Если большинство родителей положительно отреагирует на данную опцию по истечении испытательного срока, мы продолжим предоставлять школьные закуски для наших учеников. Затем родителям выдадут счета на оплату, покрывающие стоимость закусок до конца триместра.
+
+
+В следующем академическом 2014-2015 году стоимость всех закусок и блюд будет включена в оплату школьного обучения.
+
+
+С уважением,
+
+Дэвид Киркхам
+
+Директор школы
+
+
+
+Regards,
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

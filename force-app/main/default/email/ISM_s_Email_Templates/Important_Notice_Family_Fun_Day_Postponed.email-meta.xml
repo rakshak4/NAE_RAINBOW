@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Important Notice - Family Fun Day Postponed</name>
+    <style>freeForm</style>
+    <subject>Important Notice - Family Fun Day Postponed</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear Parents,
+
+Following on from todays meeting with the class representatives regarding the Family Fun Day, it has been decided that we should postpone the event for one week. Unfortunately the weather forecast is extremely poor for the remainder of this week and Saturday 25th May. It is extremely likely that the fields would be  very wet and that we would end up cancelling at very late notice. We felt that an early decision needed to be made in order for the event to be a success.  The Family Fun Day will now take place from 11am – 3pm on Saturday June 1st.
+
+We understand that due to this change a few of you may not be able to attend, but we thought that too much effort from students, staff and parents has been done to cancel the event completely and would be a huge disappointment for the community, the charities that we are raising funds for and our annual visitors from the orphanage.
+
+With this in mind, there are a few points raised during the meeting regarding the following:
+
+Raffle
+
+Raffle tickets are on sale as of now from the UC reception area at break times and after school, during the day from the front desks of lower and upper campus and will be on sale on the day as well. If you purchase raffle tickets but you will not be able to attend the Family Fun Day, please do not throw the tickets away. Prizes that are called out and are not claimed will be kept at school, so please bring your tickets to school during the following week to see if you are one of the  lucky winners.
+
+Hot weather
+
+If, fingers crossed,  its a sunny day on June 1st please make sure you and your family bring sun hats and sun cream, as the Lower Campus field might not have enough shade for everyone.
+
+Security
+
+All of you who have a school security badge should wear them on the day. If other members of your family will be attending the Family Fun Day but do not have a security badge, could I please ask you to email the guest names  to info@internationalschool (adult family members only) by Thursday, May 30th. Security will prepare guest tags and will give them out at the gate.
+
+Ice cream
+
+We have had some wonderful donations from the ISM community for this day including ice cream&apos;s. Please be aware that some ice creams WILL CONTAIN NUTS. If your child has a nut allergy please make sure they are aware of this and keep an eye on them when choosing.
+
+Sorry for any inconveniences that this may cause. We will send updates during the next week if anything else arises.
+
+If you have any questions in the meantime, please feel free to contact the admissions office admissions@internationalschool.ru or front desks ekaterina.foster@internationalschool.ru of upper campus and info@internationalschool.ru for lower campus.
+
+
+Best regards,
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

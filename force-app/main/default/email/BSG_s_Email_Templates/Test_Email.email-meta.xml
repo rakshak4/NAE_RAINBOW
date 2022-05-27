@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Update 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BSG</letterhead>
+    <name>School Update 2012</name>
+    <style>freeForm</style>
+    <subject>Whole School Update 2012</subject>
+    <textOnly>Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+As the school continues to develop, we would like to keep you updated on progress within the school by highlighting some of the main changes that are taking place this year as we move ever closer to the end of the current school year and the beginning of the next.
+
+Please find attached a school update for 2012. A copy can also be viewed through our website at http://www.bsg.org.cn/news/2012/schupdate2012/en/
+
+Best wishes,
+
+Administration Team
+(+86 020) 8709 4788
+www.bsg.org.cn</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

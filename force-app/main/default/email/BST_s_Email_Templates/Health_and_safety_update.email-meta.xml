@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Health and safety update</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Health and safety update</name>
+    <style>freeForm</style>
+    <subject>Health and safety update</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+The health and safety of your children is our top priority. In addition to taking all necessary precautions, we aim to always keep our parents well informed of anything which comes to our attention which may affect your children.
+
+
+I am writing to inform you that there has been a confirmed case of scarlet fever in a pupil in one of our Reception classes. Scarlet fever is a contagious, bacterial illness that mainly affects children. It is spread by airborne droplets, through contact or from sharing towels/bed linens, etc. Symptoms initially include: a sore throat, headache, high temperature, flushed cheeks and a swollen tongue. A day or two later, the characteristic pinkish rash of scarlet fever appears which may be itchy and feel like sandpaper to touch. Please seek immediate medical advice and advise the school promptly if your child is unwell with any of the above symptoms.
+
+
+At school, we are taking all precautions necessary including:
+
+
+
+· Implementing good hygiene measures
+
+· Daily cleaning and disinfection of surfaces, door handles, stair railings, toys, bathroom accessories and food utensils
+
+· Early Years’ toys thoroughly disinfected every Friday
+
+· Unwell children will see nurse and if necessary parents will be contacted
+
+· The children have been taught how to wash their hands by teachers and also how to cover their mouths and noses when coughing or sneezing
+
+
+
+If you believe your child has scarlet fever, please seek medical treatment, follow safety procedures at home and keep them away from school until they have recovered from the illness.
+
+
+For further information about scarlet fever, please see the link below:
+
+
+http://www.nhs.uk/conditions/scarlet-fever/pages/introduction.aspx
+
+
+Yours faithfully
+
+BST Administration
+
+
+
+
+
+Уважаемые родители!
+
+
+Поддержание здоровья и безопасности Ваших детей является нашей первоочередной задачей. В дополнение к принятию всех необходимых мер предосторожности, мы всегда стремимся держать наших родителей в курсе того, что может затронуть Ваших детей.
+
+
+Данным письмом сообщаю Вам о том, что у учащегося класса Reception был подтвержден случай скарлатины. Скарлатина является заразной, бактериальной болезнью, которая поражает, главным образом, детей. Она распространяется воздушно-капельным, контактным путем или через совместное использование полотенца/постельного белья и т.д. Первичные симптомы включают в себя: боль в горле, головную боль, высокую температуру, болезненный румянец на щеках и опухший язык. Спустя день или два появляется характерная розоватая сыпь, которая может вызывать зуд и быть на ощупь, как наждачная бумага. Пожалуйста, немедленно обратитесь к врачу и незамедлительно сообщите школе, если у Вашего ребенка проявились какие-либо из вышеперечисленных симптомов.
+
+
+В нашем учебном заведении мы принимаем все необходимые меры предосторожности, такие как:
+
+
+• Соблюдение строгих правил гигиены;
+
+
+• Ежедневная уборка и дезинфекция поверхностей, дверных ручек, лестничных перил, игрушек, туалетных принадлежностей и посуды для еды;
+
+
+• Каждую пятницу проводится дезинфекция игрушек учащихся младших классов;
+
+
+• Не здоровые дети обследуются школьной медсестрой и при необходимости медперсонал связывается с родителями;
+
+
+• Учителя научили детей тому, как правильно мыть руки, а также-прикрывать рот и нос при кашле или чихании.
+
+
+Если Вы считаете, что Ваш ребенок заболел скарлатиной, пожалуйста, обратитесь к врачу, пройдите курс лечения дома и не приводите ребенка в школу до тех пор, пока ребенок полностью не оправится после болезни.
+
+
+Для получения дополнительной информации о скарлатине, пожалуйста, пройдите по ссылке ниже:
+
+
+http://www.nhs.uk/conditions/scarlet-fever/pages/introduction.aspx
+
+
+С уважением,
+
+
+Администрация Британской школы города Ташкента
+
+
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>19/10/12 International Day</name>
+    <style>freeForm</style>
+    <subject>International Day</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+International Day 2012
+
+Our International Day for this year will be held on Wednesday 24th October.  A wonderful day of activities has been planned which will commence with an assembly at 8.15 a.m. to which you are all invited. The contents of the assembly is as follows:
+
+Mr. Honey-Jones – Introduction
+
+Korean Performance
+
+Capoeira Display
+
+Rupert Fenby – Playing the Chanter
+
+Strip the Willow – Scottish Dance
+
+Brazilian Dance
+
+Whole School Song – We Are the World
+
+Following the assembly, the children will visit classrooms which will become different countries for the day. Activities associated with these countries will be undertaken in each room. The list of countries are:
+
+PN
+
+Russia
+
+NA
+
+Malaysia
+
+NB
+
+Japan
+
+RA
+
+Korea
+
+RB
+
+Australia
+
+RC
+
+Qatar
+
+1A
+
+China
+
+1B
+
+USA
+
+1C
+
+Ireland
+
+2A
+
+South Africa
+
+2B
+
+Nepal
+
+2C
+
+Spain
+
+3A
+
+Belgium
+
+3B
+
+Wales
+
+3C
+
+New Zealand
+
+4A
+
+Mexico
+
+4B
+
+Egypt
+
+4C
+
+Fiji
+
+5A
+
+England
+
+5B
+
+United Arab Emirates
+
+6A
+
+India
+
+6B
+
+Brazil
+
+7A
+
+Thailand
+
+7B
+
+France
+
+8A
+
+Italy
+
+8B
+
+Scotland
+
+We are producing a BSKL passport for the day and children will have their passport stamped when visiting each country.
+
+Lunch for the day has been organised to include food from UK, Thailand, Italy, India, Malaysia, France, and Japan. So there will also be an international flavour to our lunches.
+
+
+Finally, all children are most welcome to come into school in national costume and if they do not have a national costume they may adopt a country to wear the costume of that country.
+
+
+It promises to be a fantastic occasion!
+
+
+We look forward to seeing you all there.
+
+Kind Regards,
+
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

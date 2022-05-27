@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Speech Day - 22nd June 2018</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Speech Day - 22nd June 2018</name>
+    <style>freeForm</style>
+    <subject>Speech Day - Friday 22nd June</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Note to PN-N parents about new beds. 2014</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Beds information for parents</name>
+    <style>freeForm</style>
+    <subject>Beds information for parents</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+We have decided to replace all the napping matresses with new beds that have arrived from the UK. This is a really exciting prospect as these beds are light, stackable and easy-to-clean - made from polypropylene with a tubular steel frame. They will be very comfortable for the children to sleep on. They are also fire retardant and washable for easy cleaning. We feel that it is really important for younger children to have comfortable beds that can be easily cleaned. Children are now invited to bring their own blanket school; bringing it in with them in the morning and taking it home in the afternoon. We apologise for the short notice regarding this, however we feel that children will feel safer and more at home with their surroundings whilst at school if they use their own blankets.
+
+Many thanks,
+
+Sitora Khatamova
+Head of Nursery
+
+
+Уважаемые родители,
+
+
+Ставим Вас в известность о том, что мы  решили заменить  все детские  матрасы  на новые кровати, которые прибыли к  нам из Великобритании. Это-очень удобное нововведение ,т.к кровати легкие,мобильные,  легки в обращении и изготовлены  из полипропилена с трубчатым стальным каркасом. На таких кроватях детям будет очень удобно спать. Кровати изготовлены из огнеупорного материала ,а мы легко сможем поддерживать их чистоту. Мы считаем, что дети должны спать на удобных кроватях,за которыми нам, в свою очередь, легко ухаживать. Просим Вас передавать детям  в сад свои одеяла, которые они будут  приносить  с собой  по утрам  и забирать после обеда. Приносим свои  извинения за столь краткое объявление, однако мы считаем, что дети будут чувствовать себя более защищенно и  комфортно, если будут использовать свои  собственные одеяла.
+
+
+
+
+
+С благодарностью,
+
+
+
+Ситора Хатамова
+
+
+
+
+
+
+
+Regards,
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

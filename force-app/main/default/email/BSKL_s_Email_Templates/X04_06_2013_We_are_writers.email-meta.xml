@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>04/06/2013 &apos; We are writers&apos;</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>04/06/2013 &apos; We are writers&apos;</name>
+    <style>freeForm</style>
+    <subject>&apos; We are writers&apos;</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The Primary and Middle school editions of &apos;We are writers&apos; have now arrived. Could those parents that have made an order kindly collect their books from the school reception area?
+
+Other parents that have not yet ordered; the books are now available at RM35 each.
+
+Happy reading!
+
+Thank you,
+
+Alan Savage
+Head of Year 8
+Middle school literacy coordinator
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

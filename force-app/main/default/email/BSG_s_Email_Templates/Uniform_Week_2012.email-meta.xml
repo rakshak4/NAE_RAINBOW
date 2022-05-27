@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Uniform Week 2012</name>
+    <style>freeForm</style>
+    <subject>The British School of Guangzhou</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please be aware the school uniform shop will be open to all parents from 13th to 17th August from 9am to 4pm each day. The uniform shop will be located in the Nanhu Campus gym during this week.
+
+We strongly recommend parents use this &apos;Uniform Week&apos; to purchase all new uniform items.
+
+If you need further information about uniform, please contact grace.kwan@bsg.org.cn or penny@bsg.org directly.
+
+Kind regards,
+
+Administration Team
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

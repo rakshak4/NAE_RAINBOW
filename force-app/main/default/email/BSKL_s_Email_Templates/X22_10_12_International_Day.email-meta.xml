@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>22/10/12 International Day</name>
+    <style>freeForm</style>
+    <subject>International Day Menu - Wednesday, 24th October 2012</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+This is a gentle reminder to submit the International Day menu by today please. This will allow us time to prepare and sort out everything by tomorrow to be ready for Wednesday, 24th October 2012.
+
+If you have already submitted the menu, please ignore this email.
+
+https://eu1.salesforce.com/sfc/p/D0000000DDpnjJeSPkQgxfiGFNgxOi1Xky7nu_s=
+
+Thank you.
+
+Kind Regards,
+
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

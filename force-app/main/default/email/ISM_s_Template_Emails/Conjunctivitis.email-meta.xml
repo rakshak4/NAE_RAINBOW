@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Conjunctivitis.</name>
+    <style>freeForm</style>
+    <subject>Conjunctivitis.</subject>
+    <textOnly>Tuesday 4th
+October 2011
+
+Conjunctivitis.
+
+ 
+
+Dear Parents,
+
+ 
+
+I am writing to inform you that we have had some cases of
+conjunctivitis in the Foundation Stage. If you notice any of the following
+symptoms:
+
+ 
+
+
+ Redness of the eye
+ Itchy, sore, burning and
+ sometimes painful
+ The eye may discharge white/yellow
+ pus.
+
+
+ 
+
+Please keep your child at home and follow required
+treatment. Bathing of the eye with cooled boiled water is recommended and you
+can seek medical advice. After 48 hours of treatment your child can come back to
+school. 
+
+ 
+
+Thank you for your understanding and support with this
+matter. 
+
+ 
+
+Yours sincerely,
+
+ 
+
+Miss Austin.
+
+ 
+
+Foundation Stage
+Leader.
+
+ 
+
+ </textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

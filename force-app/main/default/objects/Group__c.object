@@ -1,0 +1,2844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <content>Student_Groups_List</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>Tabbed_Group_Detail</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Academic_Year__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+   TEXT(Group_Type__c)=&quot;School Group&quot;, 
+   Current_Academic_Year__c, 
+   IF(
+      AND(
+          MONTH(DATEVALUE(CreatedDate))&lt;=12, 
+          MONTH(DATEVALUE(CreatedDate))&gt;=8
+          ), 
+      TEXT(YEAR(DATEVALUE(CreatedDate)))&amp;&quot;/&quot;&amp; TEXT(CreatedDate_plus_1__c ),  
+      TEXT(CreatedDate_minus_1__c)&amp;&quot;/&quot;&amp;TEXT(YEAR(DATEVALUE(CreatedDate)))
+      )
+   )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Academic Year</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Active_Registrations__c</fullName>
+        <externalId>false</externalId>
+        <label>Active Registrations</label>
+        <summaryFilterItems>
+            <field>Registration__c.Active__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Registration__c.Group__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Approver__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Approver</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <filterItems>
+                <field>User.Profile.Name</field>
+                <operation>equals</operation>
+                <value>Teacher</value>
+            </filterItems>
+            <filterItems>
+                <field>User.Profile.Name</field>
+                <operation>equals</operation>
+                <value>Headteacher / of Admin / of Finance</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Student_Groups</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Assessments__c</fullName>
+        <externalId>false</externalId>
+        <label># Assessments</label>
+        <summaryForeignKey>Assesment__c.Group__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Auto_Add_Parents_To_Group__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>to automatically add parents to chatter group.</inlineHelpText>
+        <label>Auto Add Parents To Group</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Campus__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(TEXT(Owner:User.Campus__c) = &quot;Cross-Campus&quot;, &quot;Unknown&quot;,
+
+IF(TEXT(Owner:User.Campus__c) &lt;&gt; &quot;&quot;, TEXT(Owner:User.Campus__c),
+
+&quot;N/A&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Campus</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Chatter_Group_Id__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>System Field : Corresponding Chatter Group Id for this Student Group.</inlineHelpText>
+        <label>Chatter Group Id</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Class_Identifier__c</fullName>
+        <description>Used to define the name of a student group (standard naming convention)</description>
+        <externalId>false</externalId>
+        <label>Class Identifier</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Class_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( TEXT(Combined_Year_Group__c)=&quot;&quot;, TEXT(Year_Group__c) &amp; TEXT(Class__c) ,TEXT(Year_Group__c)&amp;&quot;/&quot;&amp; Combined_Year_Group_Abb__c  &amp; TEXT(Class__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Class Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Class__c</fullName>
+        <externalId>false</externalId>
+        <label>Class</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>A</fullName>
+                    <default>false</default>
+                    <label>A</label>
+                </value>
+                <value>
+                    <fullName>B</fullName>
+                    <default>false</default>
+                    <label>B</label>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C</label>
+                </value>
+                <value>
+                    <fullName>D</fullName>
+                    <default>false</default>
+                    <label>D</label>
+                </value>
+                <value>
+                    <fullName>E</fullName>
+                    <default>false</default>
+                    <label>E</label>
+                </value>
+                <value>
+                    <fullName>F</fullName>
+                    <default>false</default>
+                    <label>F</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Combined_Year_Group_Abb__c</fullName>
+        <description>The shortened abbreviation of the &apos;Year Group (Highest)&apos; field (e.g. NO letter G or Y before the number). Used in the official group name in registers etc. for tutor groups with a value in the &apos;Year Group (Highest)&apos; field.</description>
+        <externalId>false</externalId>
+        <formula>CASE(TEXT(Combined_Year_Group__c), 
+&quot;Pre-Nursery&quot;,&quot;PN&quot;, 
+&quot;Nursery&quot;,&quot;N&quot;, 
+&quot;Reception&quot;,&quot;R&quot;, 
+&quot;Pre-Kindergarten&quot;,&quot;PK&quot;, 
+&quot;Kindergarten&quot;,&quot;K&quot;, 
+&quot;Year 10&quot;,&quot;10&quot;, 
+&quot;Year 11&quot;,&quot;11&quot;, 
+&quot;Year 12&quot;,&quot;12&quot;, 
+&quot;Year 13&quot;,&quot;13&quot;, 
+&quot;Grade 10&quot;,&quot;10&quot;, 
+&quot;Grade 11&quot;,&quot;11&quot;, 
+&quot;Grade 12&quot;,&quot;12&quot;, 
+RIGHT(TEXT(Combined_Year_Group__c), 1))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Combined Year Group (Abb.)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Combined_Year_Group_Full_Abb__c</fullName>
+        <description>The full abbreviation of the &apos;Year Group (Highest)&apos; field (e.g. letter G or Y AND number). Currently only used to check data via connector/reports and has no application in logic.</description>
+        <externalId>false</externalId>
+        <formula>CASE(TEXT(Combined_Year_Group__c),
+&quot;Pre-Nursery&quot;,&quot;PN&quot;,
+&quot;Nursery&quot;,&quot;N&quot;,
+&quot;Reception&quot;,&quot;R&quot;,
+&quot;Pre-Kindergarten&quot;,&quot;PK&quot;,
+&quot;Kindergarten&quot;,&quot;K&quot;,
+&quot;Year 10&quot;,&quot;Y10&quot;,
+&quot;Year 11&quot;,&quot;Y11&quot;,
+&quot;Year 12&quot;,&quot;Y12&quot;,
+&quot;Year 13&quot;,&quot;Y13&quot;,
+&quot;Grade 10&quot;,&quot;G10&quot;,
+&quot;Grade 11&quot;,&quot;G11&quot;,
+&quot;Grade 12&quot;,&quot;G12&quot;,
+LEFT(TEXT(Combined_Year_Group__c), 1)&amp;RIGHT(TEXT(Combined_Year_Group__c), 1))</formula>
+        <label>Combined Year Group (Full Abb.)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Combined_Year_Group__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The highest Year Group / Grade of any student within the group. Only required if there are students from multiple Year Groups / Grades in the group and must be higher than the &apos;Year Group (Lowest)&apos; field.</inlineHelpText>
+        <label>Year Group (Highest - if different)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Year_Group_Control__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pre-Nursery</fullName>
+                    <default>false</default>
+                    <label>Pre-Nursery</label>
+                </value>
+                <value>
+                    <fullName>Nursery</fullName>
+                    <default>false</default>
+                    <label>Nursery</label>
+                </value>
+                <value>
+                    <fullName>Reception</fullName>
+                    <default>false</default>
+                    <label>Reception</label>
+                </value>
+                <value>
+                    <fullName>Year 1</fullName>
+                    <default>false</default>
+                    <label>Year 1</label>
+                </value>
+                <value>
+                    <fullName>Year 2</fullName>
+                    <default>false</default>
+                    <label>Year 2</label>
+                </value>
+                <value>
+                    <fullName>Year 3</fullName>
+                    <default>false</default>
+                    <label>Year 3</label>
+                </value>
+                <value>
+                    <fullName>Year 4</fullName>
+                    <default>false</default>
+                    <label>Year 4</label>
+                </value>
+                <value>
+                    <fullName>Year 5</fullName>
+                    <default>false</default>
+                    <label>Year 5</label>
+                </value>
+                <value>
+                    <fullName>Year 6</fullName>
+                    <default>false</default>
+                    <label>Year 6</label>
+                </value>
+                <value>
+                    <fullName>Year 7</fullName>
+                    <default>false</default>
+                    <label>Year 7</label>
+                </value>
+                <value>
+                    <fullName>Year 8</fullName>
+                    <default>false</default>
+                    <label>Year 8</label>
+                </value>
+                <value>
+                    <fullName>Year 9</fullName>
+                    <default>false</default>
+                    <label>Year 9</label>
+                </value>
+                <value>
+                    <fullName>Year 10</fullName>
+                    <default>false</default>
+                    <label>Year 10</label>
+                </value>
+                <value>
+                    <fullName>Year 11</fullName>
+                    <default>false</default>
+                    <label>Year 11</label>
+                </value>
+                <value>
+                    <fullName>Year 12</fullName>
+                    <default>false</default>
+                    <label>Year 12</label>
+                </value>
+                <value>
+                    <fullName>Year 13</fullName>
+                    <default>false</default>
+                    <label>Year 13</label>
+                </value>
+                <value>
+                    <fullName>Pre-Kindergarten</fullName>
+                    <default>false</default>
+                    <label>Pre-Kindergarten</label>
+                </value>
+                <value>
+                    <fullName>Kindergarten</fullName>
+                    <default>false</default>
+                    <label>Kindergarten</label>
+                </value>
+                <value>
+                    <fullName>Grade 1</fullName>
+                    <default>false</default>
+                    <label>Grade 1</label>
+                </value>
+                <value>
+                    <fullName>Grade 2</fullName>
+                    <default>false</default>
+                    <label>Grade 2</label>
+                </value>
+                <value>
+                    <fullName>Grade 3</fullName>
+                    <default>false</default>
+                    <label>Grade 3</label>
+                </value>
+                <value>
+                    <fullName>Grade 4</fullName>
+                    <default>false</default>
+                    <label>Grade 4</label>
+                </value>
+                <value>
+                    <fullName>Grade 5</fullName>
+                    <default>false</default>
+                    <label>Grade 5</label>
+                </value>
+                <value>
+                    <fullName>Grade 6</fullName>
+                    <default>false</default>
+                    <label>Grade 6</label>
+                </value>
+                <value>
+                    <fullName>Grade 7</fullName>
+                    <default>false</default>
+                    <label>Grade 7</label>
+                </value>
+                <value>
+                    <fullName>Grade 8</fullName>
+                    <default>false</default>
+                    <label>Grade 8</label>
+                </value>
+                <value>
+                    <fullName>Grade 9</fullName>
+                    <default>false</default>
+                    <label>Grade 9</label>
+                </value>
+                <value>
+                    <fullName>Grade 10</fullName>
+                    <default>false</default>
+                    <label>Grade 10</label>
+                </value>
+                <value>
+                    <fullName>Grade 11</fullName>
+                    <default>false</default>
+                    <label>Grade 11</label>
+                </value>
+                <value>
+                    <fullName>Grade 12</fullName>
+                    <default>false</default>
+                    <label>Grade 12</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Pre-Nursery</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Nursery</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <valueName>Reception</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <valueName>Year 1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <valueName>Year 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <valueName>Year 3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <valueName>Year 4</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <valueName>Year 5</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <valueName>Year 6</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <valueName>Year 7</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <valueName>Year 8</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <valueName>Year 9</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <valueName>Year 10</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <valueName>Year 11</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <valueName>Year 12</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <valueName>Year 13</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Pre-Kindergarten</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Kindergarten</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Grade 1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Grade 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Grade 3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Grade 4</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Grade 5</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Grade 6</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Grade 7</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Grade 8</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Grade 9</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Grade 10</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Grade 11</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Grade 12</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CopyName__c</fullName>
+        <externalId>false</externalId>
+        <label>CopyName</label>
+        <length>22</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Copy_Group_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Group_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Copy Group Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Core_Subject__c</fullName>
+        <description>Identifies when a subject is considered a core subject for the purpose of filtering the relevant reports</description>
+        <externalId>false</externalId>
+        <formula>OR(TEXT(Subject_Name__c) = &quot;English&quot;, TEXT(Subject_Name__c) = &quot;Literacy&quot;, TEXT(Subject_Name__c) = &quot;Mathematics&quot;, TEXT(Subject_Name__c) = &quot;Reading&quot;, TEXT(Subject_Name__c) = &quot;Science&quot;, TEXT(Subject_Name__c) = &quot;Writing&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Core Subject</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CreatedDate_minus_1__c</fullName>
+        <externalId>false</externalId>
+        <formula>YEAR(DATEVALUE(CreatedDate ))-1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CreatedDate-1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CreatedDate_plus_1__c</fullName>
+        <externalId>false</externalId>
+        <formula>YEAR(DATEVALUE(CreatedDate ))+1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CreatedDate+1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Current_Academic_Year__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+   MONTH(TODAY()) &gt;= 8,
+   TEXT(YEAR(TODAY()))&amp;&quot;/&quot;&amp;TEXT( Current_Year_Plus_1__c),
+   TEXT(Current_Year_Minus_1__c)&amp;&quot;/&quot;&amp;TEXT(YEAR(TODAY()))
+   )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Current Academic Year</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Current_Year_Minus_1__c</fullName>
+        <externalId>false</externalId>
+        <formula>YEAR(TODAY())-1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Current Year Minus 1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Current_Year_Plus_1__c</fullName>
+        <externalId>false</externalId>
+        <formula>YEAR(TODAY())+1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Current Year Plus 1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Deletion_Prevention__c</fullName>
+        <externalId>false</externalId>
+        <formula>AND(
+    School__c = &quot;The British International School of Kuala Lumpur&quot;,
+    TEXT(Group_Type__c) = &quot;Tutor Group&quot;
+    )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Deletion Prevention</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <description>Used to define the name of a student group (standard naming convention)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Usually not required. Add any text here that you want to append to the standard group name.</inlineHelpText>
+        <label>Group Name Extension</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>External_ID_18_Char__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>The ID of the record in the alternate SFDC org, where applicable.</description>
+        <externalId>true</externalId>
+        <label>External ID (18 Char)</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>First_Day_of_Group_s_Academic_Year__c</fullName>
+        <description>Required so that &apos;THIS FISCAL YEAR&apos; can be used in manual register creation reports to ensure they only show student groups from the correct academic year</description>
+        <externalId>false</externalId>
+        <formula>DATE(VALUE(LEFT(Academic_Year__c, 4)), 08, 01)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>First Day of Group&apos;s Academic Year</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Folder_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Folder Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>true</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Subject</fullName>
+                    <default>false</default>
+                    <label>Subject</label>
+                </value>
+                <value>
+                    <fullName>Module</fullName>
+                    <default>false</default>
+                    <label>Module</label>
+                </value>
+                <value>
+                    <fullName>Topic</fullName>
+                    <default>false</default>
+                    <label>Topic</label>
+                </value>
+                <value>
+                    <fullName>Sub-Group</fullName>
+                    <default>false</default>
+                    <label>Sub-Group</label>
+                </value>
+                <value>
+                    <fullName>General Docs</fullName>
+                    <default>false</default>
+                    <label>General Docs</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Group_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Group ID</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Group_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( TEXT(Group_Type__c) =&quot;Tutor Group&quot;,
+
+(IF( TEXT(Combined_Year_Group__c) =&quot;&quot;,
+
+ TEXT(Year_Group__c)&amp;&quot; &quot;&amp;  Owner:User.Alias,
+ TEXT(Year_Group__c) &amp;&quot;-&quot;&amp; Combined_Year_Group_Abb__c&amp;&quot; &quot;&amp; Owner:User.Alias  )),IF(TEXT(Group_Type__c) == &apos;School Group&apos;,&apos;&apos;, TEXT(Subject_Name__c)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Group Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Group_Owner__c</fullName>
+        <externalId>false</externalId>
+        <formula>Owner:User.FirstName &amp;&quot; &quot;&amp; Owner:User.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Group Owner</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Group_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Group Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Year_Group_Control__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Tutor Group</fullName>
+                    <default>false</default>
+                    <label>Tutor Group</label>
+                </value>
+                <value>
+                    <fullName>Subject</fullName>
+                    <default>false</default>
+                    <label>Subject</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>School Group</fullName>
+                    <default>false</default>
+                    <label>School Group</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Tutor Group</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non-Tutor Group</controllingFieldValue>
+                <valueName>Subject</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non-Tutor Group</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non-Tutor Group</controllingFieldValue>
+                <valueName>School Group</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Has_Related_Blog__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+   NOT(ISBLANK(Chatter_Group_Id__c)),
+   &quot;Yes - &quot;&amp; HYPERLINK(&quot;https://naeportal.force.com/parents/_ui/core/chatter/groups/GroupProfilePage?g=&quot;&amp;Chatter_Group_Id__c, &quot;Click to View&quot;, &quot;_blank&quot;),
+   &quot;No&quot;
+   )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>You must have already clicked switched in and out of the parent portal in this login session in order for the link to the related blog to work</inlineHelpText>
+        <label>Has Related Blog?</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IsApprover__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF($User.Username= Approver__r.Username,&quot;Yes&quot;,&quot;No&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>IsApprover</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IsOwner__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF($User.Username= Owner:User.Username,&quot;Yes&quot;,&quot;No&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>IsOwner</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Folder_Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Folder Active</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Secondary_School_Group__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Used to identify a &apos;School Group&apos; for the secondary department. Registrations belonging to this group DO NOT need to be deactivated at the end of the academic year and the group can be used each year, similar to the &apos;Whole School&apos; group.</description>
+        <externalId>false</externalId>
+        <label>Is Secondary School Group</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_This_Academic_Year_Group__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Current_Academic_Year__c = Academic_Year__c, TRUE, FALSE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is This Academic Year Group</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Valid__c</fullName>
+        <description>Check if Group is valid on basis of academic year</description>
+        <externalId>false</externalId>
+        <formula>Academic_Year__c == Current_Academic_Year__c</formula>
+        <inlineHelpText>Check if Group is valid on basis of academic year</inlineHelpText>
+        <label>Is Valid</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Whole_School_Group__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Indicates that the group is the &apos;Whole School&apos; school group for the relevant school</description>
+        <externalId>false</externalId>
+        <label>Is Whole School Group</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Mass_Update__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Mass Update</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Owner_Email__c</fullName>
+        <externalId>false</externalId>
+        <formula>Owner:User.Email</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Owner Email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>School_Section__c</fullName>
+        <description>Used to define the name of a student group (standard naming convention)</description>
+        <externalId>false</externalId>
+        <label>School Section</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Whole School</fullName>
+                    <default>false</default>
+                    <label>Whole School</label>
+                </value>
+                <value>
+                    <fullName>Primary School</fullName>
+                    <default>false</default>
+                    <label>Primary School</label>
+                </value>
+                <value>
+                    <fullName>Secondary School</fullName>
+                    <default>false</default>
+                    <label>Secondary School</label>
+                </value>
+                <value>
+                    <fullName>Pre-School</fullName>
+                    <default>false</default>
+                    <label>Pre-School</label>
+                </value>
+                <value>
+                    <fullName>Elementary School</fullName>
+                    <default>false</default>
+                    <label>Elementary School</label>
+                </value>
+                <value>
+                    <fullName>Middle School</fullName>
+                    <default>false</default>
+                    <label>Middle School</label>
+                </value>
+                <value>
+                    <fullName>High School</fullName>
+                    <default>false</default>
+                    <label>High School</label>
+                </value>
+                <value>
+                    <fullName>Lower Primary</fullName>
+                    <default>false</default>
+                    <label>Lower Primary</label>
+                </value>
+                <value>
+                    <fullName>Upper Primary</fullName>
+                    <default>false</default>
+                    <label>Upper Primary</label>
+                </value>
+                <value>
+                    <fullName>EYFS</fullName>
+                    <default>false</default>
+                    <label>EYFS</label>
+                </value>
+                <value>
+                    <fullName>Key Stage 1</fullName>
+                    <default>false</default>
+                    <label>Key Stage 1</label>
+                </value>
+                <value>
+                    <fullName>Key Stage 2</fullName>
+                    <default>false</default>
+                    <label>Key Stage 2</label>
+                </value>
+                <value>
+                    <fullName>Key Stage 3</fullName>
+                    <default>false</default>
+                    <label>Key Stage 3</label>
+                </value>
+                <value>
+                    <fullName>Key Stage 4</fullName>
+                    <default>false</default>
+                    <label>Key Stage 4</label>
+                </value>
+                <value>
+                    <fullName>Key Stage 5</fullName>
+                    <default>false</default>
+                    <label>Key Stage 5</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>School__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Owner:User.School__c)</formula>
+        <label>School</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Set__c</fullName>
+        <description>Used to define the name of a student group (standard naming convention)</description>
+        <externalId>false</externalId>
+        <label>Set</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>5</label>
+                </value>
+                <value>
+                    <fullName>6</fullName>
+                    <default>false</default>
+                    <label>6</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Start_Date_Last_Week__c</fullName>
+        <description>Calculates the date of the first day (Monday) of the previous week</description>
+        <externalId>false</externalId>
+        <formula>CASE(MOD(TODAY() - DATE(2014, 9, 1), 7), 
+0, TODAY()-7, 
+1, TODAY()-8, 
+2, TODAY()-9, 
+3, TODAY()-10, 
+4, TODAY()-11, 
+5, TODAY()-12, 
+TODAY()-13)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Start Date Last Week</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Start_Date_Next_Academic_Year__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(Month(Today()) &gt;= 8, DATE( YEAR( DATEVALUE( NOW() ) )+1 , 8 , 1 ), 
+DATE( YEAR( DATEVALUE( NOW() ) ), 8 , 1 ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Start Date Next Academic Year</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Start_Date_This_Academic_Year__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(Month(Today()) &gt;= 8, DATE( YEAR( DATEVALUE( NOW() ) ) , 8 , 1 ), 
+                        DATE( YEAR( DATEVALUE( NOW() ) )-1 , 8 , 1 ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Start Date This Academic Year</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Subject_Name_Internal__c</fullName>
+        <externalId>false</externalId>
+        <label>Subject Name (Internal)</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Subject_Name_Short__c</fullName>
+        <description>A shortened version of the subject name for use in timetabling names and some reports</description>
+        <externalId>false</externalId>
+        <formula>LOWER(CASE(TEXT(Subject_Name__c), &quot;Computing&quot;, &quot;com&quot;, &quot;Computer Science&quot;, &quot;csc&quot;, &quot;Mathematics - Statistics&quot;, &quot;mst&quot;, LEFT(TEXT(Subject_Name__c), 3)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Subject Name (Short)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Subject_Name__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>as visible in portal</inlineHelpText>
+        <label>Subject Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Group_Type__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Art &amp; Design</fullName>
+                    <default>false</default>
+                    <label>Art &amp; Design</label>
+                </value>
+                <value>
+                    <fullName>Bahasa</fullName>
+                    <default>false</default>
+                    <label>Bahasa</label>
+                </value>
+                <value>
+                    <fullName>Biology</fullName>
+                    <default>false</default>
+                    <label>Biology</label>
+                </value>
+                <value>
+                    <fullName>Business Studies</fullName>
+                    <default>false</default>
+                    <label>Business Studies</label>
+                </value>
+                <value>
+                    <fullName>Chemistry</fullName>
+                    <default>false</default>
+                    <label>Chemistry</label>
+                </value>
+                <value>
+                    <fullName>Chinese</fullName>
+                    <default>false</default>
+                    <label>Chinese</label>
+                </value>
+                <value>
+                    <fullName>Computing</fullName>
+                    <default>false</default>
+                    <label>Computing</label>
+                </value>
+                <value>
+                    <fullName>Computer Science</fullName>
+                    <default>false</default>
+                    <label>Computer Science</label>
+                </value>
+                <value>
+                    <fullName>Dance</fullName>
+                    <default>false</default>
+                    <label>Dance</label>
+                </value>
+                <value>
+                    <fullName>Drama</fullName>
+                    <default>false</default>
+                    <label>Drama</label>
+                </value>
+                <value>
+                    <fullName>Dutch</fullName>
+                    <default>false</default>
+                    <label>Dutch</label>
+                </value>
+                <value>
+                    <fullName>EAL</fullName>
+                    <default>false</default>
+                    <label>EAL</label>
+                </value>
+                <value>
+                    <fullName>Economics</fullName>
+                    <default>false</default>
+                    <label>Economics</label>
+                </value>
+                <value>
+                    <fullName>English</fullName>
+                    <default>false</default>
+                    <label>English</label>
+                </value>
+                <value>
+                    <fullName>Extended Project</fullName>
+                    <default>false</default>
+                    <label>Extended Project</label>
+                </value>
+                <value>
+                    <fullName>French</fullName>
+                    <default>false</default>
+                    <label>French</label>
+                </value>
+                <value>
+                    <fullName>Geography</fullName>
+                    <default>false</default>
+                    <label>Geography</label>
+                </value>
+                <value>
+                    <fullName>German</fullName>
+                    <default>false</default>
+                    <label>German</label>
+                </value>
+                <value>
+                    <fullName>Graphic Design</fullName>
+                    <default>false</default>
+                    <label>Graphic Design</label>
+                </value>
+                <value>
+                    <fullName>History</fullName>
+                    <default>false</default>
+                    <label>History</label>
+                </value>
+                <value>
+                    <fullName>Humanities</fullName>
+                    <default>false</default>
+                    <label>Humanities</label>
+                </value>
+                <value>
+                    <fullName>ICT</fullName>
+                    <default>false</default>
+                    <label>ICT</label>
+                </value>
+                <value>
+                    <fullName>Integrated Curriculum</fullName>
+                    <default>false</default>
+                    <label>Integrated Curriculum</label>
+                </value>
+                <value>
+                    <fullName>Learning Support</fullName>
+                    <default>false</default>
+                    <label>Learning Support</label>
+                </value>
+                <value>
+                    <fullName>Literacy</fullName>
+                    <default>false</default>
+                    <label>Literacy</label>
+                </value>
+                <value>
+                    <fullName>Mathematics</fullName>
+                    <default>false</default>
+                    <label>Mathematics</label>
+                </value>
+                <value>
+                    <fullName>Mathematics - Statistics</fullName>
+                    <default>false</default>
+                    <label>Mathematics - Statistics</label>
+                </value>
+                <value>
+                    <fullName>Media Studies</fullName>
+                    <default>false</default>
+                    <label>Media Studies</label>
+                </value>
+                <value>
+                    <fullName>Music</fullName>
+                    <default>false</default>
+                    <label>Music</label>
+                </value>
+                <value>
+                    <fullName>Myanmar</fullName>
+                    <default>false</default>
+                    <label>Myanmar</label>
+                </value>
+                <value>
+                    <fullName>Numeracy</fullName>
+                    <default>false</default>
+                    <label>Numeracy</label>
+                </value>
+                <value>
+                    <fullName>PE</fullName>
+                    <default>false</default>
+                    <label>PE</label>
+                </value>
+                <value>
+                    <fullName>Physics</fullName>
+                    <default>false</default>
+                    <label>Physics</label>
+                </value>
+                <value>
+                    <fullName>Portuguese</fullName>
+                    <default>false</default>
+                    <label>Portuguese</label>
+                </value>
+                <value>
+                    <fullName>PSHE</fullName>
+                    <default>false</default>
+                    <label>PSHE</label>
+                </value>
+                <value>
+                    <fullName>Psychology</fullName>
+                    <default>false</default>
+                    <label>Psychology</label>
+                </value>
+                <value>
+                    <fullName>Reading</fullName>
+                    <default>false</default>
+                    <label>Reading</label>
+                </value>
+                <value>
+                    <fullName>Religious Education</fullName>
+                    <default>false</default>
+                    <label>Religious Education</label>
+                </value>
+                <value>
+                    <fullName>Russian</fullName>
+                    <default>false</default>
+                    <label>Russian</label>
+                </value>
+                <value>
+                    <fullName>Science</fullName>
+                    <default>false</default>
+                    <label>Science</label>
+                </value>
+                <value>
+                    <fullName>Sociology</fullName>
+                    <default>false</default>
+                    <label>Sociology</label>
+                </value>
+                <value>
+                    <fullName>Spanish</fullName>
+                    <default>false</default>
+                    <label>Spanish</label>
+                </value>
+                <value>
+                    <fullName>Uzbek</fullName>
+                    <default>false</default>
+                    <label>Uzbek</label>
+                </value>
+                <value>
+                    <fullName>Writing</fullName>
+                    <default>false</default>
+                    <label>Writing</label>
+                </value>
+                <value>
+                    <fullName>-------- EARLY YEARS ONLY --------</fullName>
+                    <default>false</default>
+                    <label>-------- EARLY YEARS ONLY --------</label>
+                </value>
+                <value>
+                    <fullName>Personal, Social and Emotional Development</fullName>
+                    <default>false</default>
+                    <label>Personal, Social and Emotional Development</label>
+                </value>
+                <value>
+                    <fullName>Communication and Language</fullName>
+                    <default>false</default>
+                    <label>Communication and Language</label>
+                </value>
+                <value>
+                    <fullName>Physical Development</fullName>
+                    <default>false</default>
+                    <label>Physical Development</label>
+                </value>
+                <value>
+                    <fullName>Understanding the World</fullName>
+                    <default>false</default>
+                    <label>Understanding the World</label>
+                </value>
+                <value>
+                    <fullName>Expressive Arts &amp; Design</fullName>
+                    <default>false</default>
+                    <label>Expressive Arts &amp; Design</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Art &amp; Design</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Bahasa</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Biology</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Business Studies</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Chemistry</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Chinese</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Computing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Computer Science</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Dance</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Drama</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Dutch</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>EAL</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Economics</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>English</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Extended Project</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>French</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Geography</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>German</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Graphic Design</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>History</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Humanities</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>ICT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Integrated Curriculum</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Learning Support</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Literacy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Mathematics</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Mathematics - Statistics</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Media Studies</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Music</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Myanmar</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Numeracy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>PE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Physics</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Portuguese</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>PSHE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Reading</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Religious Education</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Russian</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Science</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Sociology</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Spanish</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Uzbek</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Writing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>-------- EARLY YEARS ONLY --------</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Personal, Social and Emotional Development</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Communication and Language</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Physical Development</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Understanding the World</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Subject</controllingFieldValue>
+                <valueName>Expressive Arts &amp; Design</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Teacher_Initials__c</fullName>
+        <externalId>false</externalId>
+        <formula>Owner:User.Alias</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Teacher Initials</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Test_Search__c</fullName>
+        <externalId>true</externalId>
+        <label>Test Search</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>This_Academic_Year__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Academic_Year__c = Current_Academic_Year__c,&quot;Yes&quot;,&quot;No&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>This Academic Year?</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Year_Group_Control__c</fullName>
+        <description>Set by means of a workflow rule to control the year group options available based on the school being a US school such as NYIS and also the group type i.e. a tutor group</description>
+        <externalId>false</externalId>
+        <label>Year Group Control</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Tutor Group UK</fullName>
+                    <default>false</default>
+                    <label>Tutor Group UK</label>
+                </value>
+                <value>
+                    <fullName>Tutor Group US</fullName>
+                    <default>false</default>
+                    <label>Tutor Group US</label>
+                </value>
+                <value>
+                    <fullName>Non-Tutor Group</fullName>
+                    <default>false</default>
+                    <label>Non-Tutor Group</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Year_Group_Full_Abb__c</fullName>
+        <description>The full abbreviation of the &apos;Year Group (Lowest)&apos; field (e.g. letter G or Y AND number). Currently only used to check data via connector/reports and has no application in logic.</description>
+        <externalId>false</externalId>
+        <formula>CASE(TEXT(Year_Group__c), 
+&quot;Pre-Nursery&quot;,&quot;PN&quot;, 
+&quot;Nursery&quot;,&quot;N&quot;, 
+&quot;Reception&quot;,&quot;R&quot;, 
+&quot;Pre-Kindergarten&quot;,&quot;PK&quot;, 
+&quot;Kindergarten&quot;,&quot;K&quot;, 
+&quot;Year 10&quot;,&quot;Y10&quot;,
+&quot;Year 11&quot;,&quot;Y11&quot;,
+&quot;Year 12&quot;,&quot;Y12&quot;,
+&quot;Year 13&quot;,&quot;Y13&quot;,
+&quot;Grade 10&quot;,&quot;G10&quot;,
+&quot;Grade 11&quot;,&quot;G11&quot;,
+&quot;Grade 12&quot;,&quot;G12&quot;, 
+LEFT(TEXT(Year_Group__c), 1)&amp;RIGHT(TEXT(Year_Group__c), 1))</formula>
+        <label>Year Group (Full Abb.)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Year_Group_Highest_Position_Score__c</fullName>
+        <description>Used in a validation rule to ensure that the &apos;Year Group (Highest - if any)&apos; field is not the same as or less than the &apos;Year Group (Lowest)&apos; field.</description>
+        <externalId>false</externalId>
+        <formula>IF(
+   ISPICKVAL(Combined_Year_Group__c, &quot;Pre-Nursery&quot;), 
+   0.2,
+   IF(
+      ISPICKVAL(Combined_Year_Group__c, &quot;Nursery&quot;), 
+      0.4,
+      IF(
+         OR(
+            ISPICKVAL(Combined_Year_Group__c, &quot;Reception&quot;), 
+            ISPICKVAL(Combined_Year_Group__c, &quot;Pre-Kindergarten&quot;)
+            ),
+         0.6,
+         IF(
+            ISPICKVAL(Combined_Year_Group__c, &quot;Kindergarten&quot;), 
+            0.8,
+            IF(
+               OR(
+                  ISPICKVAL(Combined_Year_Group__c, &quot;Year 10&quot;), 
+                  ISPICKVAL(Combined_Year_Group__c, &quot;Grade 10&quot;)
+                  ),
+               10.0,
+               IF(
+                  OR(
+                     ISPICKVAL(Combined_Year_Group__c, &quot;Year 11&quot;), 
+                     ISPICKVAL(Combined_Year_Group__c, &quot;Grade 11&quot;)
+                     ),
+                  11.0,
+                  IF(
+                     OR(
+                        ISPICKVAL(Combined_Year_Group__c, &quot;Year 12&quot;), 
+                        ISPICKVAL(Combined_Year_Group__c, &quot;Grade 12&quot;)
+                        ),
+                     12.0,
+                     IF(
+                        ISPICKVAL(Combined_Year_Group__c, &quot;Year 13&quot;), 
+                        13.0,
+                        VALUE(RIGHT(TEXT(Combined_Year_Group__c), 1))
+                        )
+                     )
+                  )
+               )
+            )
+         )
+      )
+   )</formula>
+        <label>Year Group (Highest) Position Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Year_Group_Lowest_Position_Score__c</fullName>
+        <description>Used in a validation rule to ensure that the &apos;Year Group (Highest - if any)&apos; field is not the same as or equal to the &apos;Year Group (Lowest)&apos; field.</description>
+        <externalId>false</externalId>
+        <formula>IF(
+   ISPICKVAL(Year_Group__c, &quot;Pre-Nursery&quot;), 
+   0.2,
+   IF(
+      ISPICKVAL(Year_Group__c, &quot;Nursery&quot;), 
+      0.4,
+      IF(
+         OR(
+            ISPICKVAL(Year_Group__c, &quot;Reception&quot;), 
+            ISPICKVAL(Year_Group__c, &quot;Pre-Kindergarten&quot;)
+            ),
+         0.6,
+         IF(
+            ISPICKVAL(Year_Group__c, &quot;Kindergarten&quot;), 
+            0.8,
+            IF(
+               OR(
+                  ISPICKVAL(Year_Group__c, &quot;Year 10&quot;), 
+                  ISPICKVAL(Year_Group__c, &quot;Grade 10&quot;)
+                  ),
+               10.0,
+               IF(
+                  OR(
+                     ISPICKVAL(Year_Group__c, &quot;Year 11&quot;), 
+                     ISPICKVAL(Year_Group__c, &quot;Grade 11&quot;)
+                     ),
+                  11.0,
+                  IF(
+                     OR(
+                        ISPICKVAL(Year_Group__c, &quot;Year 12&quot;), 
+                        ISPICKVAL(Year_Group__c, &quot;Grade 12&quot;)
+                        ),
+                     12.0,
+                     IF(
+                        ISPICKVAL(Year_Group__c, &quot;Year 13&quot;), 
+                        13.0,
+                        VALUE(RIGHT(TEXT(Year_Group__c), 1))
+                        )
+                     )
+                  )
+               )
+            )
+         )
+      )
+   )</formula>
+        <label>Year Group (Lowest) Position Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Year_Group__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The lowest Year Group / Grade of any student within the group.</inlineHelpText>
+        <label>Year Group (Lowest)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Year_Group_Control__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pre-Nursery</fullName>
+                    <default>false</default>
+                    <label>Pre-Nursery</label>
+                </value>
+                <value>
+                    <fullName>Nursery</fullName>
+                    <default>false</default>
+                    <label>Nursery</label>
+                </value>
+                <value>
+                    <fullName>Reception</fullName>
+                    <default>false</default>
+                    <label>Reception</label>
+                </value>
+                <value>
+                    <fullName>Year 1</fullName>
+                    <default>false</default>
+                    <label>Year 1</label>
+                </value>
+                <value>
+                    <fullName>Year 2</fullName>
+                    <default>false</default>
+                    <label>Year 2</label>
+                </value>
+                <value>
+                    <fullName>Year 3</fullName>
+                    <default>false</default>
+                    <label>Year 3</label>
+                </value>
+                <value>
+                    <fullName>Year 4</fullName>
+                    <default>false</default>
+                    <label>Year 4</label>
+                </value>
+                <value>
+                    <fullName>Year 5</fullName>
+                    <default>false</default>
+                    <label>Year 5</label>
+                </value>
+                <value>
+                    <fullName>Year 6</fullName>
+                    <default>false</default>
+                    <label>Year 6</label>
+                </value>
+                <value>
+                    <fullName>Year 7</fullName>
+                    <default>false</default>
+                    <label>Year 7</label>
+                </value>
+                <value>
+                    <fullName>Year 8</fullName>
+                    <default>false</default>
+                    <label>Year 8</label>
+                </value>
+                <value>
+                    <fullName>Year 9</fullName>
+                    <default>false</default>
+                    <label>Year 9</label>
+                </value>
+                <value>
+                    <fullName>Year 10</fullName>
+                    <default>false</default>
+                    <label>Year 10</label>
+                </value>
+                <value>
+                    <fullName>Year 11</fullName>
+                    <default>false</default>
+                    <label>Year 11</label>
+                </value>
+                <value>
+                    <fullName>Year 12</fullName>
+                    <default>false</default>
+                    <label>Year 12</label>
+                </value>
+                <value>
+                    <fullName>Year 13</fullName>
+                    <default>false</default>
+                    <label>Year 13</label>
+                </value>
+                <value>
+                    <fullName>Pre-Kindergarten</fullName>
+                    <default>false</default>
+                    <label>Pre-Kindergarten</label>
+                </value>
+                <value>
+                    <fullName>Kindergarten</fullName>
+                    <default>false</default>
+                    <label>Kindergarten</label>
+                </value>
+                <value>
+                    <fullName>Grade 1</fullName>
+                    <default>false</default>
+                    <label>Grade 1</label>
+                </value>
+                <value>
+                    <fullName>Grade 2</fullName>
+                    <default>false</default>
+                    <label>Grade 2</label>
+                </value>
+                <value>
+                    <fullName>Grade 3</fullName>
+                    <default>false</default>
+                    <label>Grade 3</label>
+                </value>
+                <value>
+                    <fullName>Grade 4</fullName>
+                    <default>false</default>
+                    <label>Grade 4</label>
+                </value>
+                <value>
+                    <fullName>Grade 5</fullName>
+                    <default>false</default>
+                    <label>Grade 5</label>
+                </value>
+                <value>
+                    <fullName>Grade 6</fullName>
+                    <default>false</default>
+                    <label>Grade 6</label>
+                </value>
+                <value>
+                    <fullName>Grade 7</fullName>
+                    <default>false</default>
+                    <label>Grade 7</label>
+                </value>
+                <value>
+                    <fullName>Grade 8</fullName>
+                    <default>false</default>
+                    <label>Grade 8</label>
+                </value>
+                <value>
+                    <fullName>Grade 9</fullName>
+                    <default>false</default>
+                    <label>Grade 9</label>
+                </value>
+                <value>
+                    <fullName>Grade 10</fullName>
+                    <default>false</default>
+                    <label>Grade 10</label>
+                </value>
+                <value>
+                    <fullName>Grade 11</fullName>
+                    <default>false</default>
+                    <label>Grade 11</label>
+                </value>
+                <value>
+                    <fullName>Grade 12</fullName>
+                    <default>false</default>
+                    <label>Grade 12</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Pre-Nursery</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Nursery</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <valueName>Reception</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <valueName>Year 1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <valueName>Year 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <valueName>Year 3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <valueName>Year 4</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <valueName>Year 5</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <valueName>Year 6</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <valueName>Year 7</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <valueName>Year 8</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <valueName>Year 9</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <valueName>Year 10</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <valueName>Year 11</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <valueName>Year 12</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group UK</controllingFieldValue>
+                <valueName>Year 13</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Pre-Kindergarten</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Kindergarten</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Grade 1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Grade 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Grade 3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Grade 4</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Grade 5</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Grade 6</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Grade 7</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Grade 8</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Grade 9</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Grade 10</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Grade 11</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tutor Group US</controllingFieldValue>
+                <valueName>Grade 12</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <label>Student Group</label>
+    <listViews>
+        <fullName>All_Groups_Previous_Years</fullName>
+        <columns>NAME</columns>
+        <columns>Group_Type__c</columns>
+        <columns>Group_Owner__c</columns>
+        <columns>School__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Is_This_Academic_Year_Group__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>2C. All Groups Previous Years</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Tutor_Groups_Previous_Years</fullName>
+        <columns>NAME</columns>
+        <columns>Group_Name__c</columns>
+        <columns>Year_Group__c</columns>
+        <columns>Group_Owner__c</columns>
+        <columns>Group_Type__c</columns>
+        <columns>School__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Is_This_Academic_Year_Group__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>Group_Type__c</field>
+            <operation>equals</operation>
+            <value>Tutor Group</value>
+        </filters>
+        <label>2B. All Tutor Groups Previous Years</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Tutor_Groups_This_Year</fullName>
+        <columns>NAME</columns>
+        <columns>Group_Name__c</columns>
+        <columns>Year_Group__c</columns>
+        <columns>Has_Related_Blog__c</columns>
+        <columns>Group_Owner__c</columns>
+        <columns>Campus__c</columns>
+        <columns>School__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Is_This_Academic_Year_Group__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>Group_Type__c</field>
+            <operation>equals</operation>
+            <value>Tutor Group</value>
+        </filters>
+        <label>1B. All Tutor Groups This Year</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>BISM_Student_Grops</fullName>
+        <columns>NAME</columns>
+        <columns>Group_Type__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Approver__c</columns>
+        <columns>School__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Marbella</value>
+        </filters>
+        <label>BISM Student Grops</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BSF_Group_Directors_Admin</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>BSB_Student_Grops</fullName>
+        <columns>NAME</columns>
+        <columns>Group_Type__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Approver__c</columns>
+        <columns>School__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Brasilia</value>
+        </filters>
+        <label>BSB Student Grops</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BSF_Group_Directors_Admin</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>BSKL_Chatter_Group_IDs</fullName>
+        <columns>NAME</columns>
+        <columns>Year_Group__c</columns>
+        <columns>Group_Name__c</columns>
+        <columns>Group_Type__c</columns>
+        <columns>Chatter_Group_Id__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Approver__c</columns>
+        <columns>School__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Kuala Lumpur</value>
+        </filters>
+        <filters>
+            <field>Chatter_Group_Id__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <label>BSKL Chatter Group IDs</label>
+        <sharedTo>
+            <role>BSNJ_Head_of_Administration</role>
+            <role>Headteacher_BSNJ</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>BSNJ_Student_Groups</fullName>
+        <columns>NAME</columns>
+        <columns>Group_Name__c</columns>
+        <columns>Group_Type__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Approver__c</columns>
+        <columns>School__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Nanjing</value>
+        </filters>
+        <label>BSNJ Student Groups</label>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>BSN_Student_Groups</fullName>
+        <columns>NAME</columns>
+        <columns>Group_Type__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Approver__c</columns>
+        <columns>School__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Navarra</value>
+        </filters>
+        <label>BSN Student Groups</label>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>ISM_Groups</fullName>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Campus__c</columns>
+        <columns>Year_Group__c</columns>
+        <columns>Group_Name__c</columns>
+        <columns>Group_Type__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Approver__c</columns>
+        <columns>School__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The International School of Moscow</value>
+        </filters>
+        <filters>
+            <field>Academic_Year__c</field>
+            <operation>equals</operation>
+            <value>2014/2015</value>
+        </filters>
+        <label>ISM Groups</label>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>KSM_Student_Groups</fullName>
+        <columns>NAME</columns>
+        <columns>Group_Type__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Approver__c</columns>
+        <columns>School__c</columns>
+        <columns>Chatter_Group_Id__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The King&apos;s School Manila</value>
+        </filters>
+        <label>KSM Student Groups</label>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>Krylatskoe_Tutor_Groups_This_Year</fullName>
+        <columns>NAME</columns>
+        <columns>Group_Name__c</columns>
+        <columns>Year_Group__c</columns>
+        <columns>Has_Related_Blog__c</columns>
+        <columns>Group_Owner__c</columns>
+        <columns>Campus__c</columns>
+        <columns>School__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Is_This_Academic_Year_Group__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>Group_Type__c</field>
+            <operation>equals</operation>
+            <value>Tutor Group</value>
+        </filters>
+        <filters>
+            <field>Campus__c</field>
+            <operation>equals</operation>
+            <value>Krylatskoe</value>
+        </filters>
+        <label>1E. Krylatskoe Tutor Groups This Year</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Headteacher_ISM</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>My_Groups_Previous_Years</fullName>
+        <columns>NAME</columns>
+        <columns>Group_Type__c</columns>
+        <columns>Academic_Year__c</columns>
+        <columns>Group_Owner__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>Is_This_Academic_Year_Group__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>2A. My Groups Previous Years</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>My_Groups_This_Year</fullName>
+        <columns>NAME</columns>
+        <columns>Group_Name__c</columns>
+        <columns>Group_Type__c</columns>
+        <columns>Subject_Name__c</columns>
+        <columns>Has_Related_Blog__c</columns>
+        <columns>Group_Owner__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>Is_This_Academic_Year_Group__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>1A. My Groups This Year</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Rosinka_Tutor_Groups_This_Year</fullName>
+        <columns>NAME</columns>
+        <columns>Group_Name__c</columns>
+        <columns>Year_Group__c</columns>
+        <columns>Has_Related_Blog__c</columns>
+        <columns>Group_Owner__c</columns>
+        <columns>Campus__c</columns>
+        <columns>School__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Is_This_Academic_Year_Group__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>Group_Type__c</field>
+            <operation>equals</operation>
+            <value>Tutor Group</value>
+        </filters>
+        <filters>
+            <field>Campus__c</field>
+            <operation>equals</operation>
+            <value>Rosinka</value>
+        </filters>
+        <label>1F. Rosinka Tutor Groups This Year</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Headteacher_ISM</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Whole_School_Groups1</fullName>
+        <columns>NAME</columns>
+        <columns>Group_Type__c</columns>
+        <columns>Has_Related_Blog__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <columns>School__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Is_Whole_School_Group__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Whole School Groups</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BSF_Group_Marketing</group>
+            <group>NAE_Group_Marketing</group>
+            <group>System_Administrators</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X1C_All_Groups_Current_Year</fullName>
+        <columns>NAME</columns>
+        <columns>Group_Type__c</columns>
+        <columns>Has_Related_Blog__c</columns>
+        <columns>Group_Owner__c</columns>
+        <columns>School__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Is_This_Academic_Year_Group__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>Is_Whole_School_Group__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>1C. All Groups Current Year</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>X1D_School_Groups_This_Year</fullName>
+        <columns>NAME</columns>
+        <columns>Group_Name__c</columns>
+        <columns>Year_Group__c</columns>
+        <columns>Group_Type__c</columns>
+        <columns>Has_Related_Blog__c</columns>
+        <columns>Group_Owner__c</columns>
+        <columns>Campus__c</columns>
+        <columns>School__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Is_This_Academic_Year_Group__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>Group_Type__c</field>
+            <operation>equals</operation>
+            <value>School Group</value>
+        </filters>
+        <label>1D. School Groups This Year</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Student Groups</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>OWNER.LAST_NAME</customTabListAdditionalFields>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <listViewButtons>New_Tutor_Group</listViewButtons>
+        <listViewButtons>New_Subject_Other_School_Group</listViewButtons>
+        <lookupDialogsAdditionalFields>School__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>Copy_Group_Name__c</searchFilterFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchResultsAdditionalFields>Group_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Teacher_Initials__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>School__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Approver__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>Disallow_Subject_List_Section_Header</fullName>
+        <active>true</active>
+        <errorConditionFormula>TEXT(Subject_Name__c) = &quot;-------- EARLY YEARS ONLY --------&quot;</errorConditionFormula>
+        <errorMessage>The Subject Name is Invalid</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Disallow_Year_Group_Control_Change</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(
+   ISBLANK(TEXT(Year_Group_Control__c)),
+   ISCHANGED(Year_Group_Control__c), 
+   AND(
+       TEXT(Year_Group_Control__c) = &quot;Tutor Group UK&quot;,  
+       $User.Is_US_School_User__c = TRUE
+       ), 
+   AND(
+       TEXT(Year_Group_Control__c) = &quot;Tutor Group US&quot;,
+       $User.Is_US_School_User__c = FALSE,
+       $Profile.Name != &quot;System Administrator&quot;
+       ),
+   AND(
+       LEFT(TEXT(Year_Group_Control__c), 11) = &quot;Tutor Group&quot;,  
+       TEXT(Group_Type__c) != &quot;Tutor Group&quot;
+       )
+   )</errorConditionFormula>
+        <errorMessage>You cannot change the value in the &apos;Year Group Control&apos; field. Please revert the original value or press cancel to continue.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Ensure_Subject_Group_has_Subject</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(TEXT(Group_Type__c) = &quot;Subject&quot;, TEXT(Subject_Name__c) = &quot;&quot;)</errorConditionFormula>
+        <errorMessage>You must select a subject for a group of type subject group</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Ensure_Tutor_Group_Has_Year_Group</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(TEXT(Group_Type__c) = &quot;Tutor Group&quot;, TEXT(Year_Group__c) = &quot;&quot;, TEXT(Year_Group_Control__c)&lt;&gt;&quot;Non-Tutor Group&quot;)</errorConditionFormula>
+        <errorMessage>You must select a &apos;Year Group&apos; when the &apos;Group Type&apos; is &apos;Tutor Group&apos;</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Group_Type_Change_Validation</fullName>
+        <active>true</active>
+        <description>validates that no group can be update from and to group type &apos;Tutor Group&apos;</description>
+        <errorConditionFormula>IF(
+AND( ISCHANGED(Group_Type__c),  OR(ISPICKVAL(PRIORVALUE
+(Group_Type__c), 
+&apos;Tutor Group&apos;), TEXT(Group_Type__c) == &apos;Tutor Group&apos;)  ),true,false
+)</errorConditionFormula>
+        <errorMessage>Group cannot be updated from or to group type &apos;Tutor Group&apos;. Please consider creating a new group and deleting this one or contact your system administrator for further assistance.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Prevent_Whole_School_Group_Edit</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(Is_Whole_School_Group__c = TRUE, $Profile.Name &lt;&gt; &quot;System Administrator&quot;, !ISCHANGED( Assessments__c ), !ISCHANGED( Active_Registrations__c ), !ISCHANGED( Chatter_Group_Id__c ))</errorConditionFormula>
+        <errorMessage>Only the system administrator can edit this student group. Please contact them if you require any changes to be made.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Validate_Year_Group_Lowest_vs_Highest</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+    Year_Group_Lowest_Position_Score__c &gt;=  Year_Group_Highest_Position_Score__c,
+    NOT(ISBLANK(Year_Group_Lowest_Position_Score__c)),
+    NOT(ISBLANK(Year_Group_Highest_Position_Score__c))
+    )</errorConditionFormula>
+        <errorMessage>The &apos;Year Group (Highest - if any)&apos; cannot be lower or the same as &apos;Year Group (Lowest)&apos;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Validation_Ownership_Change</fullName>
+        <active>true</active>
+        <description>validate only group owner can change record ownership</description>
+        <errorConditionFormula>IF(
+   OR(	
+      AND(
+          PRIORVALUE(OwnerId) != OwnerId , 
+          PRIORVALUE(OwnerId) != $User.Id, 
+          $Profile.Name != &apos;System Administrator&apos;, 
+          $Profile.Name != &apos;School IT&apos;, 
+          $Profile.Name != &apos;Headteacher / of Admin / of Finance&apos;,
+          $Profile.Name != &apos;Portal Liaison (Super User)&apos;,
+          !ISBLANK(PRIORVALUE(OwnerId))
+          ),
+      AND(
+          TEXT(Owner:User.School__c) != TEXT($User.School__c),
+          $Profile.Name != &apos;System Administrator&apos;
+          )
+      ),
+   TRUE, FALSE
+   )</errorConditionFormula>
+        <errorMessage>You don&apos;t have appropriate access to change group ownership or you&apos;re trying to change ownership to a teacher in another school.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Bulk_SMS_Contact_Group</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Bulk SMS Contact Group</masterLabel>
+        <openType>noSidebar</openType>
+        <protected>false</protected>
+        <url>/00O6F00000CLl6N?pv1={!Group__c.Id}&amp;isdtp=nv</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Class_List</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Class List</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/00O6F00000CLl6P?pv1={!Group__c.Id}&amp;isdtp=nv</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Create_Related_Parent_Blog</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Create Related Parent Blog</masterLabel>
+        <openType>sidebar</openType>
+        <page>PortalStudentGroupChatter</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>Group_Trip_Excursion_Info</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Group Trip/Excursion Info</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/00O6F00000CLl7O?pv1={!Group__c.Id}&amp;isdtp=nv</url>
+    </webLinks>
+    <webLinks>
+        <fullName>New_Subject_Other_School_Group</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New Subject/Other/School Group</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/a20/e?00N6F00000M2zNK=Non-Tutor Group&amp;nooverride=1&amp;retURL=apex/Student_Groups_List?save_new=1&amp;sfdc.override=1&amp;ent=01I6F000002qI4M</url>
+    </webLinks>
+    <webLinks>
+        <fullName>New_Tutor_Group</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New Tutor Group</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/a20/e?00N6F00000M2zNK={!$User.Year_Group_Control_Tutor_Group_Default__c}&amp;00N6F00000M2zMw=Tutor Group&amp;nooverride=1&amp;retURL=apex/Student_Groups_List?save_new=1&amp;sfdc.override=1&amp;ent=01I6F000002qI4M</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Send_Email_to_Parents</fullName>
+        <availability>online</availability>
+        <description>redirects to email page with all active students parent&apos;s email populated.</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Send Email to Parents</masterLabel>
+        <openType>sidebar</openType>
+        <page>SendEmailToGroupParents</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>Send_Email_to_Students</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Send Email to Students</masterLabel>
+        <openType>sidebar</openType>
+        <page>SendEmailToGroupStudents</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>Share_with_Users</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Share with Users</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/p/share/CustomObjectSharingEdit?parentId={!Group__c.Id}&amp;retURL=%2Fp%2Fshare%2FCustomObjectSharingDetail%3FparentId%3D{!Group__c.Id}&amp;sharing_search=U</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Take_Attendance</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Take Attendance</masterLabel>
+        <openType>noSidebar</openType>
+        <page>WeeklyAttendancePage</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>View_Attendance_Report</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>View Attendance Report</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/00O6F00000CLl66?pv2={!Group__c.Name}&amp;isdtp=nv</url>
+    </webLinks>
+    <webLinks>
+        <fullName>View_Sharing_List</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>View Sharing List</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/p/share/SharingBlowoutPage/d?parentId={!Group__c.Id}</url>
+    </webLinks>
+</CustomObject>

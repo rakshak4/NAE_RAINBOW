@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20140912 - Secondary Newsletter for Parents</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20140912 - Secondary Newsletter for Parents</name>
+    <style>freeForm</style>
+    <subject>Newsletter from the Head of Secondary</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}
+
+It is always something of a relief when the first weekly cycle of term has passed: the school is fuller, of course, but routines have been quickly established, new pupils have managed to navigate corridors and classrooms, and high quality learning is happening. We are always conscious that many of our new children have travelled some way and from quite different environments to come to BSKL, and although our school is a friendly and inclusive one, it can still be a difficult change for pupils. New friends are made, but of course good friends are left behind. Do keep in touch with your child’s tutor and we will do everything we can to support their transition.
+
+Next Thursday (18th September, 5.30pm – 7.30pm) is our Key stage 3 Curriculum Evening. This event is intended primarily for new parents but all parents with pupils in Years 7 – 9 are welcome (the format will be very similar to last year). I will address parents at 5.30pm in the theatre and there will then be an opportunity for you to attend a carousel of sessions and hear from subject staff. Please note that this is not the right forum to discuss individual pupils – there will be opportunity for that at the parents’ consultation. I look forward to seeing many of you there.
+
+We have a fabulous team of teachers this year, and new staff have made their mark very quickly indeed: I have seen chocolate being burnt (what a waste), racing on the roof space (not in a PE lesson!), Economics students have been getting to grips with a demanding syllabus, the theatre has been brought to life during the day by Ms Wainwright, the bawdy innuendo of Shakespeare is being examined (and, yes, giggled at…..), and pupils in Years 7 – 9 have embarked as pioneers on the new Graphic Design course. Teachers and students have rejoiced over the new SMART paint which has been installed into select classrooms over the summer. This amazing paint transforms an everyday wall into a magical giant whiteboard. The new technology has revolutionised lessons for both teachers and students - with the added space students can write alongside the teacher to share model answers or questions, giving them increased confidence with their ability and presentation skills. It has been an excellent start in the classroom.
+
+I hope you are able to read this message in Parent Portal; this week will be the last time I send it by email. If you are having difficulty logging into the portal please contact ICT support at: support@britishschool.edu.my. One final notice: Mrs Parker will be holding a meeting for parents that are interested in their children attending the Europe trip in Activities Week. The meeting will begin at 5.00pm on Thursday 9th October (venue to be advised).
+
+Have a very good weekend.
+
+
+Kind regards
+
+Derek Mackey
+Head of Secondary
+
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

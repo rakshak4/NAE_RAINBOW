@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20140905 - Primary Enrichment</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20140905 - Primary Enrichment</name>
+    <style>freeForm</style>
+    <subject>New Primary Enrichment Activity Programme</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+As you may be aware, Primary will be operating a new Enrichment Activity programme, replacing After School Activities. Days and times for enrichment activities are as follows:
+
+Years 1 &amp; 2: Wednesdays 2.30 - 3.30pm
+Years 3 &amp; 4: Tuesdays 2.30 - 3.30pm
+Years 5 &amp; 6: Thursdays 2.30 - 3.30pm
+
+Sign ups will be done online starting at 12pm on Tuesday, 9th September. Another email will be sent to you by Monday with links to the online sign up forms.
+
+In preparation for this I would be grateful if you could click on the relevant link/s below for a list of what activities are on offer this term and discuss the options with your child:
+
+Year 1 &amp; 2 Enrichment List (https://drive.google.com/file/d/0B57vMviVDx-xb2lVYW9XSDEzTWM/edit?usp=sharing)
+
+Year 3 &amp; 4 Enrichment List (https://drive.google.com/file/d/0B57vMviVDx-xWTB2OGV6Y1VTSlU/edit?usp=sharing)
+
+Year 5 &amp; 6 Enrichment List (https://drive.google.com/file/d/0B57vMviVDx-xR2hsOTZzRFN6dDA/edit?usp=sharing)
+
+The majority of activities are free but there area few which have a cost attached. Students can sign up for these using the online form but full payment must be made to the Finance department at BSKL (Primary Campus) before we can guarantee their place in that activity. This must be done before Wednesday September 17th - the first day of enrichment activities.
+
+Thank you very much for your support in this. If you have any questions, please feel free to contact me on punitha.ganesan@britishschool.edu.my
+
+
+Kind regards,
+
+Punitha Ganesan
+Primary Enrichment Coordinator
+
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

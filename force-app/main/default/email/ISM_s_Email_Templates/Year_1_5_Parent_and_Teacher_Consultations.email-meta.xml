@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Year 1-5 Parent and Teacher Consultations</name>
+    <style>freeForm</style>
+    <subject>Year 1-5 Parent and Teacher Consultations</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+7th November 2012
+
+
+
+Dear Parents,
+
+
+Parent and Teacher Consultations (PTC) will be held on Tuesday 20th &amp; Wednesday 21st of November from 4:00pm until 6:00pm.  This will be an opportunity to discuss your child’s Initial Progress Report.
+
+
+Please note that it is school policy that children do not attend the actual consultation. However, if you are unable to find appropriate supervision then your child may accompany you and he/she will be cared for in the library during your consultation time. Please collect and supervise your child from 3:30pm until the time of your appointment as teachers will be preparing for consultations.
+
+
+Your consultation will be with the class teacher in the usual classroom. Please indicate your preferred day and time on the slip (click here to download slip) and return to school. Your appointment will then be confirmed in writing. Due to the report being mainly Pastoral this time, please be aware that specialist teachers will not be available to meet with you, however should you wish to speak to one of the specialist teachers at an another time, feel free to contact them directly.
+
+
+Yours sincerely,
+
+Mr. Paul Seedhouse
+
+Headmaster
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

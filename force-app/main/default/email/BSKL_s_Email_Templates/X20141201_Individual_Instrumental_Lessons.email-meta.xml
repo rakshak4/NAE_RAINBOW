@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20141201 Individual Instrumental Lessons</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20141201 Individual Instrumental Lessons</name>
+    <style>freeForm</style>
+    <subject>Individual Instrumental Lessons - registration open now</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+1st December 2014
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}
+
+At BSKL, we offer a diverse programme of individual instrumental lessons to children from Year 2 upwards. Instrumental lessons currently on offer are:
+Piano – starting from YR2
+Violin – starting from YR2
+Flute – starting from YR5
+Clarinet – starting from YR5
+Saxophone – starting from YR5
+Brass (Trumpet, Tenor Horn, Baritone, Euphonium or Trombone) – starting YR5
+Guitar (NEW) - starting from YR3
+
+Individual lessons are rotated around the school timetable and offered once a week, at a cost of RM75 per lesson. There are normally ten confirmed lessons during term time, each lasting 45 minutes. Lessons begin in the second week of each term and follow through, in most cases, to the penultimate week. 
+
+For first-time applications or to re-register your child for their lessons, please follow the steps below.
+
+Step 1: Please follow the link to read more about the programme
+http://music.britishschool.edu.my/individual/
+
+Step 2: Submit the online application form which can be found here.
+https://docs.google.com/a/britishschool.edu.my/forms/d/16T523jSU9tp3hu0SHDe97a6vnSSjP7PimoNWUI5Jlm4/viewform
+
+NB: Please ensure that you have read and agree to the terms and conditions attached at the end of the form before submitting the form. 
+
+Once your application has been received, confirmation of your request is immediately effective. You will receive a link to your child’s timetable by the end of the first week of term 2. 
+
+The closing date for applications is Friday 12th December.
+
+Many thanks
+
+The Music Department
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

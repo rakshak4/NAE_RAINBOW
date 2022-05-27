@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Croup</name>
+    <style>freeForm</style>
+    <subject>Croup</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+
+Unfortunately it is that time of year again when bugs appear- probably not helped at the moment by the slightly higher temperatures.
+
+
+We have been informed that a student on our lower campus is off school with a case of Croup. While they are not in school as this can be contagious we wanted to inform you at the earliest opportunity.
+
+
+Please see the information about Croup below. Our staff will ensure that hands are washed regularly and surfaces kept clean at all times. Our nursing team will of course monitor for any further cases.
+
+
+
+Croup: Information for Parents
+
+
+Croup is a childhood condition that affects the windpipe (trachea), the airways to the lungs (the bronchi) and the voice box (larynx).
+
+
+A child with croup has a distinctive barking cough and will make a harsh sound when they breathe in.
+
+
+
+A blocked airway can also cause a hoarse voice and breathing difficulties.
+
+
+Croup can usually be diagnosed by a doctor and treated at home. However, if your child’s symptoms are severe and they are finding it difficult to breathe do take them to a hospital without delay.
+
+
+Why does croup happen?
+
+Commonly, croup is caused by a viral infection.
+
+There are two types of croup:
+
+
+
+• viral croup (laryngotracheitis), which develops over several days and is caused by an infection
+
+• spasmodic croup, which involves repeated, short-lasting episodes of croup that can be caused by an allergic reaction
+
+
+
+The same treatments are recommended for both viral croup and spasmodic croup.
+
+
+Who is affected?
+
+Croup usually affects young children aged between six months and three years, with most cases occurring in two-year-olds. However, croup can sometimes develop in older children up to 15 years of age.
+
+
+
+Up to 5% of young children will suffer from croup every year. The condition is more common during the autumn and winter months and it tends to affects boys more than girls.
+
+
+
+It is occasionally possible for a child to experience croup more than once during childhood.
+
+
+Treating croup
+
+Most cases of croup are mild and get better on their own, without the need for treatment. Sitting your child upright and comforting them if they are distressed is important, because crying may make symptoms worse. Your child should also drink plenty of fluids to prevent dehydration.
+
+
+More severe cases of croup may need to be treated with steroids to reduce the swelling in the throat.
+
+
+
+If your child has breathing problems, hospital treatment, such as adrenaline and an oxygen mask may be required.
+
+
+Complications
+
+Around 60% of croup cases clear up within 48 hours. However, in some cases symptoms can last for up to two weeks.
+
+There are a number of conditions that can follow croup, such as pneumonia and middle ear infections.
+
+Preventing croup
+
+Good hygiene is the main defence against croup, such as regularly washing hands and cleaning surfaces.
+
+
+
+Croup occurs in a similar way to the common cold, so it is difficult to prevent.
+
+
+Paul Seedhouse
+
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

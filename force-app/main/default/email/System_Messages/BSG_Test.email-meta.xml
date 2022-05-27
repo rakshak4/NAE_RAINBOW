@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BSG</letterhead>
+    <name>BSG Test</name>
+    <style>freeForm</style>
+    <subject>Test Email from John</subject>
+    <textOnly>Dear {!Contact.Salutation} {!Contact.LastName},
+
+Paul, this is John. I am writing this email from Salesforce, to show you a template of an email I would like to introduce. A few things:
+
+1- Notice the images on top and the bottom of this email (if you don&apos;t see the images is because you don&apos;t have the option activated in your software. Some parents might not have it activated but most will)
+
+2- I am keen to change, cause as a parent, I am seeing the format of emails sent by the school, and although ok, they are are not great. We could obviously do better.
+
+3- Notice that you will see the email addressed to &quot;Mr. Corr&quot;. This is actually done automatically. I can show how.
+
+4- On the Mass email function, I have introduced a filter, &quot;Parents from A to N&quot; and from &quot;O to Z&quot;. This is parents starting from those letters, and its a better way of dividing people up, cause it avoids parents receiving 2 or more emails, in cases when they have children in different year groups.
+
+What do you think? If you like it, lets sit down tomorrow and I can show you how everything is done. Pretty much like before, but just need to select a different Email template,
+Cheers</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>International Day 2018</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>International Day 2018</name>
+    <style>freeForm</style>
+    <subject>International Day 2018</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+On Friday 6th April, we will celebrate International Day. Children can come into school wearing their national costume or wear an outfit that represents their country of origin. During assembly time, each class will have the chance to parade their costumes in front of the school.
+Friday 6th April is the last day of term and school will finish at 12pm.
+
+Kind regards,
+Administration.
+
+~
+Уважаемые родители!
+
+6 апреля в пятницу  в школе состоится Международный день. Дети могут прийти в школу в своем национальном костюме или в костюме другой страны. Во время ассамблеи учащиеся смогут продемонстрировать свои костюмы перед другими учениками школы.
+
+Любезно напоминаем о том,что 6 апреля последний день второго( весеннего) триместра и учебный день закончится в 12 часов.
+
+
+С уважением,
+Администрация.
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

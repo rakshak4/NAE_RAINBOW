@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Tanzania update</name>
+    <style>freeForm</style>
+    <subject>Tanzania Update</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Year 10 &amp; 11 Parents,
+
+For those of you whose child(ren) left on the residential trip yesterday, just a quick note to say that all is well and everyone has arrived safely in Tanzania.
+
+There is no phone reception at the moment, they will have to wait 72 hours until they can connect with a local SIM.
+
+More news to come soon.
+
+Have a great weekend.
+
+Best regards,
+
+Admissions Department
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

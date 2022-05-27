@@ -1,0 +1,4433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteBannerPhotoAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteBannerPhotoAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteBannerPhotoAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EditUserAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EditUserAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EditUserAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>FreezeUserAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>FreezeUserAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>FreezeUserAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LinkToSetupUserDetailAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LinkToSetupUserDetailAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LinkToSetupUserDetailAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ManagePermSetsAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ManagePermSetsAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ManagePermSetsAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>PasswordUnlockAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>PasswordUnlockAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>PasswordUnlockAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ResetPasswordAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ResetPasswordAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ResetPasswordAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>UpdateBannerPhotoAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>UpdateBannerPhotoAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>UpdateBannerPhotoAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>UserActivationAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>UserActivationAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>UserActivationAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>true</enableFeeds>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Add_Pastoral_Permission_Set__c</fullName>
+        <externalId>false</externalId>
+        <formula>AND( 
+    Profile.Id = &quot;00e6F0000020GEY&quot;, 
+    Is_US_School_User__c = FALSE 
+    )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Add Pastoral Permission Set</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Admissions_Booklet__c</fullName>
+        <externalId>false</externalId>
+        <label>Admissions Booklet</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Authorised_Approver__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Check this box to allow a user to be selected in the &apos;Default Days off Approver&apos; field on the account object, staff member record type</description>
+        <externalId>false</externalId>
+        <label>Authorised Approver</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Campus__c</fullName>
+        <externalId>false</externalId>
+        <label>Campus</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Chácara Flora</fullName>
+                    <default>false</default>
+                    <label>Chácara Flora</label>
+                </value>
+                <value>
+                    <fullName>Cidade Jardim</fullName>
+                    <default>false</default>
+                    <label>Cidade Jardim</label>
+                </value>
+                <value>
+                    <fullName>Krylatskoe</fullName>
+                    <default>false</default>
+                    <label>Krylatskoe</label>
+                </value>
+                <value>
+                    <fullName>Rosinka</fullName>
+                    <default>false</default>
+                    <label>Rosinka</label>
+                </value>
+                <value>
+                    <fullName>Lower Campus</fullName>
+                    <default>false</default>
+                    <label>Lower Campus</label>
+                </value>
+                <value>
+                    <fullName>Upper Campus</fullName>
+                    <default>false</default>
+                    <label>Upper Campus</label>
+                </value>
+                <value>
+                    <fullName>Cross-Campus</fullName>
+                    <default>false</default>
+                    <label>Cross-Campus</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Can_Edit_Fees__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Typically only to be used for group level employees such as the group Head of Finance and System Administrators</inlineHelpText>
+        <label>Can Edit Fees?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Can_Edit_Web_Meta_Titles_Descriptions__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Used in a validation rule on the Web Content object for English records. Identifies users who have permission to edit the English meta tag titles and descriptions.</description>
+        <externalId>false</externalId>
+        <label>Can Edit Web Meta Titles &amp; Descriptions</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Can_Man_Control_Parent_Group_Membership__c</fullName>
+        <externalId>false</externalId>
+        <formula>Profile.Name == &quot;System Administrator&quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Can Man. Control Parent Group Membership</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Contact_Us__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact Us</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Declaration_Form_Link__c</fullName>
+        <externalId>false</externalId>
+        <label>Declaration Form Link</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Default_Digest_Frequency__c</fullName>
+        <description>As it is currently (25/11/14) impossible to set the default digest frequency for COMMUNITY users (i.e. anyone who&apos;s the member of a parent portal blog) to anything other than &apos;W&apos;, this field is used to define the frequency directly on the collaboration group member records when they are created via the trigger from student group or by manual addition of members. I have a feeling this will be rectified in the Spring &apos;15 Release.</description>
+        <externalId>false</externalId>
+        <formula>IF (Profile.Name = &quot;Parent Portal User - High Volume&quot;, &quot;N&quot;, &quot;W&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Default Community Digest Frequency</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Deletion_Prevention__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Manage_Chatter_Free_Users__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Deletion Prevention</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Email_Copy__c</fullName>
+        <externalId>false</externalId>
+        <formula>Email</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Email Copy</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Email_Domain_Extension__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Example &quot;@britishschool.edu.my&quot;</inlineHelpText>
+        <label>Email Domain Extension</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Email_Header__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( 
+   OR( 
+      TEXT(School__c) = &quot;The British International School of Marbella&quot;, 
+      TEXT(School__c) = &quot;The British School of Navarra&quot;, 
+      TEXT(School__c) = &quot;The British School of Brasilia&quot;, 
+      TEXT(School__c) = &quot;The British Schools Foundation&quot; 
+      ),
+   &quot;Chartered by The British Schools Foundation&quot;,
+   &quot;&quot;
+   )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Email Header</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>End_Date_Next_Fiscal_Year__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( 
+   MONTH(TODAY()) &gt;= 8, 
+   DATE(YEAR(TODAY())+2,07,31), 
+   DATE(YEAR(TODAY())+1,07,31) 
+   )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>End Date Next Fiscal Year</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>End_Date_This_Fiscal_Year__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( 
+   MONTH(TODAY()) &gt;= 8, 
+   DATE(YEAR(TODAY())+1,07,31), 
+   DATE(YEAR(TODAY()),07,31) 
+   )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>End Date This Fiscal Year</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>External_ID_18_Char__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>The ID of the record in the alternate SFDC org, where applicable.</description>
+        <externalId>true</externalId>
+        <label>External ID (18 Char)</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Family_File_Id__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Contact.RecordType.DeveloperName == &quot;Additional_Parent&quot;, CASESAFEID(Contact.Main_Parent_File__c) , CASESAFEID(Contact.AccountId))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Family File Id</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FreeSSO__Google_ID__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <deprecated>false</deprecated>
+        <externalId>true</externalId>
+        <inlineHelpText>Is the uniqueID of a G+ user issued by Google. This ID is surfaced if you open a G+ user&apos;s profile page and take a look at the URL: https://plus.google.com/u/0/&lt;Google ID&gt;</inlineHelpText>
+        <label>Google ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Full_School_Address_for_Docs__c</fullName>
+        <description>Used in merge templates which need to contain the address of the school</description>
+        <externalId>false</externalId>
+        <label>Full School Address for Docs</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Full_School_Name_for_Docs__c</fullName>
+        <externalId>false</externalId>
+        <label>Full School Name for Docs</label>
+        <length>200</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Google_Drive_Photo_Link__c</fullName>
+        <description>16/12/2016: Currently just a test to see if it&apos;s feasible to use Google Drive file URLs as the source of staff directory images rather than attachments</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Testing only. Please ignore.</inlineHelpText>
+        <label>Google Drive Photo Link</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Has_Profile_Photo__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Populated by means of a trigger, indicates whether or not the user has added a profile photo. NB. Is only accurate for records that have been edited since the photo was uploaded.</description>
+        <externalId>false</externalId>
+        <label>Has Profile Photo</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IT_Notifications_Email_User__c</fullName>
+        <externalId>false</externalId>
+        <formula>Contact.IT_Notifications_Email__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>IT Notifications Email (User)</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Chatter_Free_User__c</fullName>
+        <externalId>false</externalId>
+        <formula>Profile.Name == &quot;Chatter Free User&quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is Chatter Free User</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Portal_User__c</fullName>
+        <description>Identifies whether or not a user is a Portal/Community user (replaces &apos;IsPortalEnabled&apos; field that is no longer supported in new SFDC versions).</description>
+        <externalId>false</externalId>
+        <formula>NOT(ISBLANK(ContactId))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is Portal User</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_US_Locale__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Checked when the locale is set to &apos;English - United States&apos;. Used to display dates in the parent portal in the correct format for US users.</description>
+        <externalId>false</externalId>
+        <label>Is US Locale</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_US_School_User__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(School__c) = &quot;The New York International School&quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is US School User</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Link_to_Related_Contact__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;https://ap4.salesforce.com/&quot;&amp;Related_Contact_ID__c, &quot;Click Here&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Link to Related Staff Member Record</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Manage_Chatter_Free_Users__c</fullName>
+        <externalId>false</externalId>
+        <label>Manage Chatter Free Users</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>As Admin</fullName>
+                    <default>false</default>
+                    <label>As Admin</label>
+                </value>
+                <value>
+                    <fullName>As Academic</fullName>
+                    <default>false</default>
+                    <label>As Academic</label>
+                </value>
+                <value>
+                    <fullName>As Web Dev</fullName>
+                    <default>false</default>
+                    <label>As Web Dev</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ManagerId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Hierarchy</type>
+    </fields>
+    <fields>
+        <fullName>Mass_Update__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Mass Update</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Matches_Current_User_School__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(TEXT($User.School__c) = TEXT(School__c), TRUE, FALSE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Matches Current User School</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Newsletter__c</fullName>
+        <externalId>false</externalId>
+        <label>Newsletter</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Online_Application__c</fullName>
+        <externalId>false</externalId>
+        <label>Online Application</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Override_Manually__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Used to prevent the relevant workflow rules from automatically generating a &apos;Positioning&apos; value for the staff directory record</description>
+        <externalId>false</externalId>
+        <label>Override Manually</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Parent_Has_Logged_In__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Only relevant to parent users</inlineHelpText>
+        <label>Parent Has Logged In</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Parent_Record_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+   ISBLANK(Contact.RecordType.DeveloperName),
+   &quot;Account&quot;,
+   IF(
+      Contact.RecordType.DeveloperName = &quot;Additional_Parent&quot;,
+      &quot;Contact&quot;,
+      &quot;&quot;
+      )
+   )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Parent Record Type</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Photo_Attachment_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Photo Attachment Id</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Populate_Portal_User_Email__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>to be checked by time based workflow</inlineHelpText>
+        <label>Populate Portal User Email</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Portal_Account_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Portal Account Id</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Portal_Contact_Email__c</fullName>
+        <externalId>false</externalId>
+        <formula>Contact.Email</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Portal Contact Email</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Portal_Contact_Sync_Failed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Portal Contact Sync Failed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Portal_Support_Email_Address__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(School__c, 
+&quot;The British School of Guangzhou&quot;, &quot;support@bsg.org.cn&quot;, 
+&quot;The British International School of Kuala Lumpur&quot;, &quot;support@britishschool.edu.my&quot;, 
+&quot;The British School of Nanjing&quot;, &quot;support@bsn.org.cn&quot;, 
+&quot;The British School Yangon&quot;, &quot;support@britishschoolyangon.org&quot;, 
+&quot;Nord Anglia International School Manila&quot;, &quot;support@kings.org.ph&quot;,  
+&quot;The British International School of Marbella&quot;, &quot;support@bsm.org.es&quot;, 
+&quot;The British School of Navarra&quot;, &quot;support@bsn.org.es&quot;, 
+&quot;The British College of Brazil&quot;, &quot;support@britishcollegebrazil.org&quot;, 
+&quot;The British School of Tashkent&quot;, &quot;support@britishschool.uz&quot;, 
+&quot;The International School of Moscow&quot;, &quot;support@internationalschool.ru&quot;, 
+&quot;Ukraine International School&quot;, &quot;support@ukraineinternationalschool.com&quot;, 
+&quot;The New York International School&quot;, &quot;support@nyis.org&quot;,
+&quot;The British School of Brasilia&quot;, &quot;support@britishschoolbrasilia.org&quot;, 
+&quot;support@britishschools.co.uk&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Portal Support Email Address</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Primary_Invoice_Currency_Formula__c</fullName>
+        <description>Replaces the previous picklist field of the same name that was created before &apos;School__c&apos; was an available/controlling field on the user object.</description>
+        <externalId>false</externalId>
+        <formula>CASE(
+     School__c, 
+     &quot;The British School of Nanjing&quot;, &quot;CNY&quot;,
+     &quot;The British International School of Marbella&quot;, &quot;EUR&quot;,
+     &quot;The British School of Navarra&quot;, &quot;EUR&quot;,
+     &quot;The British College of Brazil&quot;, &quot;BRL&quot;,
+     &quot;The British School of Brasilia&quot;, &quot;BRL&quot;,
+     &quot;The British International School of Kuala Lumpur&quot;, &quot;MYR&quot;,
+     &quot;The British School of Tashkent&quot;, &quot;UZS&quot;,
+     &quot;The International School of Moscow&quot;, &quot;EUR&quot;,
+     &quot;Nord Anglia International School Manila&quot;, &quot;PHP&quot;,
+     &quot;USD&quot;
+     )
+
+/* Example Formula for School Name Change */ 
+
+/*CASE(
+     School__c, 
+     &quot;The British School of Nanjing&quot;, &quot;CNY&quot;,
+     &quot;The British School of Marbella&quot;, &quot;EUR&quot;,
+     &quot;The British International School of Marbella&quot;, &quot;EUR&quot;,
+     &quot;The British School of Navarra&quot;, &quot;EUR&quot;,
+     &quot;The British College of Brazil&quot;, &quot;BRL&quot;,
+     &quot;The British School of Brasilia&quot;, &quot;BRL&quot;,
+     &quot;The British International School of Kuala Lumpur&quot;, &quot;MYR&quot;,
+     &quot;The British School of Tashkent&quot;, &quot;UZS&quot;,
+     &quot;The International School of Moscow&quot;, &quot;EUR&quot;,
+     &quot;Nord Anglia International School Manila&quot;, &quot;PHP&quot;,
+     &quot;USD&quot;
+     )*/</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>The primary/preferred currency which the school uses in invoices to parents/companies.</inlineHelpText>
+        <label>Primary Invoice Currency</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Primary_Invoice_Currency__c</fullName>
+        <description>29/10/2015: Pending deletion - please use &quot;Primary_Invoice_Currency_Formula__c&quot; instead</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The primary/preferred currency which the school uses in invoices to parents/companies.</inlineHelpText>
+        <label>Primary Invoice Currency</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>AUD</fullName>
+                    <default>false</default>
+                    <label>AUD</label>
+                </value>
+                <value>
+                    <fullName>BRL</fullName>
+                    <default>false</default>
+                    <label>BRL</label>
+                </value>
+                <value>
+                    <fullName>CNY</fullName>
+                    <default>false</default>
+                    <label>CNY</label>
+                </value>
+                <value>
+                    <fullName>EUR</fullName>
+                    <default>false</default>
+                    <label>EUR</label>
+                </value>
+                <value>
+                    <fullName>GBP</fullName>
+                    <default>false</default>
+                    <label>GBP</label>
+                </value>
+                <value>
+                    <fullName>MMK</fullName>
+                    <default>false</default>
+                    <label>MMK</label>
+                </value>
+                <value>
+                    <fullName>MYR</fullName>
+                    <default>false</default>
+                    <label>MYR</label>
+                </value>
+                <value>
+                    <fullName>PHP</fullName>
+                    <default>false</default>
+                    <label>PHP</label>
+                </value>
+                <value>
+                    <fullName>RUB</fullName>
+                    <default>false</default>
+                    <label>RUB</label>
+                </value>
+                <value>
+                    <fullName>UAH</fullName>
+                    <default>false</default>
+                    <label>UAH</label>
+                </value>
+                <value>
+                    <fullName>USD</fullName>
+                    <default>false</default>
+                    <label>USD</label>
+                </value>
+                <value>
+                    <fullName>UZS</fullName>
+                    <default>false</default>
+                    <label>UZS</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Primary_Parent__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF((Contact.Account.Year1__c + Contact.Account.Year2__c +Contact.Account.Year3__c+Contact.Account.Year4__c+Contact.Account.Year5__c+Contact.Account.Year6__c+ Contact.Account.Reception1__c + Contact.Account.Nursery1__c +Contact.Account.PreNursery__c)&gt;0,&quot;Yes&quot;,&quot;No&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Primary Parent</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Publish_on_School_Site__c</fullName>
+        <externalId>false</externalId>
+        <formula>AND(
+    S_Dir_Profile_Approved_by_Admin__c = TRUE, 
+    Profile.Name != &quot;Parent Portal User - High Volume&quot;, 
+    Profile.Name != &quot;Overage High Volume Customer Portal User&quot;, 
+    Profile.Name != &quot;Customer Community Plus User&quot;, 
+    S_Dir_Status__c = &quot;Employed&quot;, 
+    NOT(ISBLANK(S_Dir_Positioning__c)), 
+    S_Dir_Positioning__c != 0, 
+    S_Dir_Positioning__c != 9999, 
+    S_Dir_Personal_Interests_Not_Blank__c = &quot;True&quot;
+    )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>A Visible profile must meet the following criteria: 
+1) Be approved by Admin
+2) Be that of an employed Staff Member and properly linked
+3) &apos;Positioning&apos; must not be blank, 0 or 9999
+4) &apos;Personal Interests&apos; must not be blank</inlineHelpText>
+        <label>Profile Visible on Website</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Related_Account_ID__c</fullName>
+        <description>A temporary field used for testing</description>
+        <externalId>false</externalId>
+        <formula>IF(Contact.RecordTypeId = &quot;0126F000001hVzi&quot;, Contact.Main_Parent_File__r.Id, 
+
+IF(Contact.RecordTypeId = null, Contact.AccountId,
+
+&quot;Invalid&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Related Account ID</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Related_Contact_Account_ID_18_Char__c</fullName>
+        <description>As of 05/09/2015 only used via connector etc. for data management</description>
+        <externalId>false</externalId>
+        <formula>IF(Contact.RecordTypeId = &quot;0126F000001hVzi&quot;, CASESAFEID(Contact.Id), 
+
+IF(Contact.RecordTypeId = null, CASESAFEID(Contact.AccountId), 
+
+&quot;Invalid&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Related Contact/Account ID (18 Char)</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Related_Contact_ID__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <description>Used to capture the ID of the relevant contact when a new staff member user is created so that the contact and the user can be connected</description>
+        <externalId>false</externalId>
+        <label>Related Contact ID (Staff Member)</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>S_Dir_Degree__c</fullName>
+        <externalId>false</externalId>
+        <label>Qualifications</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>S_Dir_Department__c</fullName>
+        <externalId>false</externalId>
+        <label>School Department</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Academic</fullName>
+                    <default>false</default>
+                    <label>Academic</label>
+                </value>
+                <value>
+                    <fullName>Administration</fullName>
+                    <default>false</default>
+                    <label>Administration</label>
+                </value>
+                <value>
+                    <fullName>Support Staff</fullName>
+                    <default>false</default>
+                    <label>Support Staff</label>
+                </value>
+                <value>
+                    <fullName>Undetermined</fullName>
+                    <default>false</default>
+                    <label>Undetermined</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>S_Dir_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(S_Dir_Salutation__c) &amp; &quot; &quot; &amp;  FirstName &amp; &quot; &quot; &amp;  LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Name</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_Dir_Origin__c</fullName>
+        <description>Populated via an a-sync job based on updates made to the relevant staff member record</description>
+        <externalId>false</externalId>
+        <label>Origin</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_Dir_Personal_Interests_Not_Blank__c</fullName>
+        <description>Populated via a workflow rule, is &apos;True&apos; when the &apos;Personal Interests&apos; field is not blank (for use in the &apos;Show on Website&apos; formula field)</description>
+        <externalId>false</externalId>
+        <label>Personal Interests Not Blank</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_Dir_Personal_Interests__c</fullName>
+        <externalId>false</externalId>
+        <label>Staff Bio</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>S_Dir_Positioning__c</fullName>
+        <description>Defines the positioning on the website: lowest number from left to right, top to bottom</description>
+        <externalId>false</externalId>
+        <label>Positioning</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_Dir_Primary_Year_Group__c</fullName>
+        <externalId>false</externalId>
+        <label>Primary Year Group</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_Dir_Profile_Approved_by_Admin__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Indicates whether or not a profile is approved and published on the school website (new site only)</description>
+        <externalId>false</externalId>
+        <label>Profile Approved by Admin</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>S_Dir_Salutation__c</fullName>
+        <externalId>false</externalId>
+        <label>Salutation</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Mr.</fullName>
+                    <default>false</default>
+                    <label>Mr.</label>
+                </value>
+                <value>
+                    <fullName>Ms.</fullName>
+                    <default>false</default>
+                    <label>Ms.</label>
+                </value>
+                <value>
+                    <fullName>Mrs.</fullName>
+                    <default>false</default>
+                    <label>Mrs.</label>
+                </value>
+                <value>
+                    <fullName>Dr.</fullName>
+                    <default>false</default>
+                    <label>Dr.</label>
+                </value>
+                <value>
+                    <fullName>Prof.</fullName>
+                    <default>false</default>
+                    <label>Prof.</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>S_Dir_Specialist_Subjects__c</fullName>
+        <externalId>false</externalId>
+        <label>Specialist Subjects</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_Dir_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_Dir_Title_New__c</fullName>
+        <externalId>false</externalId>
+        <label>Title</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_Dir_Web_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Id)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Web ID</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_Dir_Years_of_Experience__c</fullName>
+        <externalId>false</externalId>
+        <label>Years of Experience</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>School_Abbreviation__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(
+     TEXT(School__c), 
+     &quot;The British International School of Kuala Lumpur&quot;, &quot;BSKL&quot;, 
+     &quot;The International School of Moscow&quot;, &quot;ISM&quot;, 
+     &quot;The British School of Nanjing&quot;, &quot;BSNJ&quot;, 
+     &quot;The British School of Navarra&quot;, &quot;BSN&quot;,  
+     &quot;The British International School of Marbella&quot;, &quot;BISM&quot;, 
+     &quot;The British School of Tashkent&quot;, &quot;BST&quot;, 
+     &quot;The British College of Brazil&quot;, &quot;BCB&quot;, 
+     &quot;The British School of Brasilia&quot;, &quot;BSB&quot;, 
+     &quot;The British School Yangon&quot;, &quot;BSY&quot;, 
+     &quot;The British School of Guangzhou&quot;, &quot;BSG&quot;, 
+     &quot;Ukraine International School&quot;, &quot;UIS&quot;, 
+     &quot;King&apos;s College Beijing&quot;, &quot;KCB&quot;, 
+     &quot;The New York International School&quot;, &quot;NYIS&quot;,
+     &quot;Nord Anglia International School Manila&quot;, &quot;NAISM&quot;,
+     &quot;BSF&quot;
+     )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>School Abbreviation</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>School_Hub_Video__c</fullName>
+        <externalId>false</externalId>
+        <label>School Hub Video</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>School_List_Email_Footer__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+   OR(
+      TEXT(School__c) = &quot;The British International School of Marbella&quot;,
+      TEXT(School__c) = &quot;The British School of Navarra&quot;,
+      TEXT(School__c) = &quot;The British School of Brasilia&quot;,
+      TEXT(School__c) = &quot;The British Schools Foundation&quot;
+      ),
+   &quot;Brasília - Kuala Lumpur - Manila - Marbella - Moscow - Nanjing - Navarra - São Paulo - Tashkent - Yangon&quot;,
+   &quot;&quot;
+   )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>School List Email Footer</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>School_Override_Field__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Shows the staff directory record on the selected sites AS WELL AS the site of the school that the user belongs to, assuming all other publishing criteria are met.</inlineHelpText>
+        <label>School Override Field (Additional)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Brasilia</fullName>
+                    <default>false</default>
+                    <label>Brasilia</label>
+                </value>
+                <value>
+                    <fullName>Kuala Lumpur</fullName>
+                    <default>false</default>
+                    <label>Kuala Lumpur</label>
+                </value>
+                <value>
+                    <fullName>Manila</fullName>
+                    <default>false</default>
+                    <label>Manila</label>
+                </value>
+                <value>
+                    <fullName>Marbella</fullName>
+                    <default>false</default>
+                    <label>Marbella</label>
+                </value>
+                <value>
+                    <fullName>Moscow</fullName>
+                    <default>false</default>
+                    <label>Moscow</label>
+                </value>
+                <value>
+                    <fullName>Nanjing</fullName>
+                    <default>false</default>
+                    <label>Nanjing</label>
+                </value>
+                <value>
+                    <fullName>Navarra</fullName>
+                    <default>false</default>
+                    <label>Navarra</label>
+                </value>
+                <value>
+                    <fullName>New York</fullName>
+                    <default>false</default>
+                    <label>New York</label>
+                </value>
+                <value>
+                    <fullName>São Paulo</fullName>
+                    <default>false</default>
+                    <label>São Paulo</label>
+                </value>
+                <value>
+                    <fullName>Tashkent</fullName>
+                    <default>false</default>
+                    <label>Tashkent</label>
+                </value>
+                <value>
+                    <fullName>Yangon</fullName>
+                    <default>false</default>
+                    <label>Yangon</label>
+                </value>
+                <value>
+                    <fullName>Group Site</fullName>
+                    <default>false</default>
+                    <label>Group Site</label>
+                </value>
+                <value>
+                    <fullName>Sandbox 1</fullName>
+                    <default>false</default>
+                    <label>Sandbox 1</label>
+                </value>
+                <value>
+                    <fullName>Sandbox 2</fullName>
+                    <default>false</default>
+                    <label>Sandbox 2</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>School_Website__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(TEXT(School__c), 
+&quot;The British International School of Kuala Lumpur&quot;, &quot;https://britishschool.edu.my/&quot;, 
+&quot;The International School of Moscow&quot;, &quot;https://internationalschool.ru/&quot;, 
+&quot;The British School of Nanjing&quot;, &quot;https://bsn.org.cn/&quot;, 
+&quot;The British School of Navarra&quot;, &quot;https://bsn.org.es/&quot;,  
+&quot;The British International School of Marbella&quot;, &quot;https://bsm.org.es/&quot;, 
+&quot;The British School of Tashkent&quot;, &quot;https://britishschool.uz/&quot;, 
+&quot;The British College of Brazil&quot;, &quot;https://britishcollegebrazil.org/&quot;, 
+&quot;The British School Yangon&quot;, &quot;https://britishschoolyangon.org/&quot;, 
+&quot;The New York International School&quot;, &quot;https://nyis.org/&quot;,
+&quot;The British School of Brasilia&quot;, &quot;https://britishschoolbrasilia.org/&quot;,
+&quot;Nord Anglia International School Manila&quot;, &quot;https://kings.org.ph/&quot;,
+&quot;https://britishschools.co.uk&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>School Website</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>School__c</fullName>
+        <externalId>false</externalId>
+        <label>School</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>The British Schools Foundation</fullName>
+                    <default>false</default>
+                    <label>The British Schools Foundation</label>
+                </value>
+                <value>
+                    <fullName>The British School of Guangzhou</fullName>
+                    <default>false</default>
+                    <label>The British School of Guangzhou</label>
+                </value>
+                <value>
+                    <fullName>The British School of Nanjing</fullName>
+                    <default>false</default>
+                    <label>The British School of Nanjing</label>
+                </value>
+                <value>
+                    <fullName>The British International School of Marbella</fullName>
+                    <default>false</default>
+                    <label>The British International School of Marbella</label>
+                </value>
+                <value>
+                    <fullName>The British School of Navarra</fullName>
+                    <default>false</default>
+                    <label>The British School of Navarra</label>
+                </value>
+                <value>
+                    <fullName>The British School of Tashkent</fullName>
+                    <default>false</default>
+                    <label>The British School of Tashkent</label>
+                </value>
+                <value>
+                    <fullName>The British College of Brazil</fullName>
+                    <default>false</default>
+                    <label>The British College of Brazil</label>
+                </value>
+                <value>
+                    <fullName>The British International School of Kuala Lumpur</fullName>
+                    <default>false</default>
+                    <label>The British International School of Kuala Lumpur</label>
+                </value>
+                <value>
+                    <fullName>The International School of Moscow</fullName>
+                    <default>false</default>
+                    <label>The International School of Moscow</label>
+                </value>
+                <value>
+                    <fullName>Nord Anglia International School Manila</fullName>
+                    <default>false</default>
+                    <label>Nord Anglia International School Manila</label>
+                </value>
+                <value>
+                    <fullName>King&apos;s College Beijing</fullName>
+                    <default>false</default>
+                    <label>King&apos;s College Beijing</label>
+                </value>
+                <value>
+                    <fullName>The British School Yangon</fullName>
+                    <default>false</default>
+                    <label>The British School Yangon</label>
+                </value>
+                <value>
+                    <fullName>Ukraine International School</fullName>
+                    <default>false</default>
+                    <label>Ukraine International School</label>
+                </value>
+                <value>
+                    <fullName>The New York International School</fullName>
+                    <default>false</default>
+                    <label>The New York International School</label>
+                </value>
+                <value>
+                    <fullName>The British School of Brasilia</fullName>
+                    <default>false</default>
+                    <label>The British School of Brasilia</label>
+                </value>
+                <value>
+                    <fullName>NAE</fullName>
+                    <default>false</default>
+                    <label>NAE</label>
+                </value>
+                <value>
+                    <fullName>The British International School Yangon</fullName>
+                    <default>false</default>
+                    <label>The British International School Yangon</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Schools_List_Copy__c</fullName>
+        <description>This field copies the value on the School__c field. We use this field for mapping with the school sites.</description>
+        <externalId>false</externalId>
+        <formula>TEXT(School__c) &amp; &quot;;&quot;&amp;
+IF ( INCLUDES ( School_Override_Field__c , &quot;Nanjing&quot; ), &quot;nanjing1;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Marbella&quot; ), &quot;marbella1;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Navarra&quot; ), &quot;navarra1;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Tashkent&quot; ), &quot;tashkent1;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;São Paulo&quot; ), &quot;saopaulo1;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Kuala Lumpur&quot; ), &quot;kualalumpur1;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Moscow&quot; ), &quot;moscow1;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Manila&quot; ), &quot;manila1;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Yangon&quot; ), &quot;yangon1;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;New York&quot; ), &quot;newyork1;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Brasilia&quot; ), &quot;brasilia1;&quot;,null ) &amp;
+IF ( INCLUDES ( School_Override_Field__c , &quot;Group Site&quot; ), &quot;The British Schools Foundation;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Sandbox 1&quot; ), &quot;Sandbox 1;&quot;,null ) &amp; 
+IF ( INCLUDES ( School_Override_Field__c , &quot;Sandbox 2&quot; ), &quot;Sandbox 2;&quot;,null )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>School Sites</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Staff_Directory_Info_Add_nal_Notes_Text__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Staff_Directory_Info_Additional_Notes__c = &quot;&quot;, &quot;and did not request their name, job title or origin/nationality to be updated.&quot;, &quot;and provided the following additional notes: &quot;&amp;BR()&amp;Staff_Directory_Info_Additional_Notes__c&amp;BR()&amp;&quot;Please take the appropriate remedial action before continuing.&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Staff Directory Info Add&apos;nal Notes Text</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Staff_Directory_Info_Additional_Notes__c</fullName>
+        <description>Captures any additional notes that are entered by the user on the staff directory information form</description>
+        <externalId>false</externalId>
+        <label>Staff Directory Info Additional Notes</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Staff_Directory_Info_Received__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Staff Directory Info Received</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Staff_Directory_Notification_Email__c</fullName>
+        <defaultValue>&quot;directory-notifications@britishschools.co.uk&quot;</defaultValue>
+        <externalId>false</externalId>
+        <label>Staff Directory Notification Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Start_Date_Next_Fiscal_Year__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( 
+   MONTH(TODAY()) &gt;= 8, 
+   DATE(YEAR(TODAY())+1,08,01), 
+   DATE(YEAR(TODAY()),08,01) 
+   )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Start Date Next Fiscal Year</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Start_Date_This_Fiscal_Year__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( 
+   MONTH(TODAY()) &gt;= 8, 
+   DATE(YEAR(TODAY()),08,01), 
+   DATE(YEAR(TODAY())-1,08,01) 
+   )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Start Date This Fiscal Year</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Synced_Apex__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>system field.</inlineHelpText>
+        <label>Synced via Apex</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Title_Copy__c</fullName>
+        <externalId>false</externalId>
+        <formula>Title</formula>
+        <label>Title Copy</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Trigger_Chatter_Free_User_Created_Email__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>When checked, triggers the relevant email alert to inform system admin that updates to the record need to be made, such as linking it to the relevant staff member record</description>
+        <externalId>false</externalId>
+        <label>Trigger Chatter Free User Created Email</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>UserPhotoLoader__User_Photo_Blob__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>User Photo Blob</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>UserPhotoLoader__User_Photo_Content_Type__c</fullName>
+        <defaultValue>&apos;image/jpg&apos;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>User Photo Content Type</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>UserPhotoLoader__User_Photo_Name__c</fullName>
+        <defaultValue>&apos;userPhoto.jpg&apos;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>User Photo Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>UserPhotoLoader__User_Photo_URL__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>User Photo URL</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>User_Cron_Link__c</fullName>
+        <externalId>false</externalId>
+        <formula>/*CASE(
+     TEXT(School__c), 
+     &quot;The British School of Nanjing&quot;, &quot;https://bsn.org.cn/bsf/import/mo8n9VTRV65BB&quot;,
+     &quot;The British International School of Marbella&quot;, &quot;https://bsm.org.es/bsf/import/mo8n9VTRV65BB&quot;,
+     &quot;The British School of Navarra&quot;, &quot;https://bsn.org.es/bsf/import/mo8n9VTRV65BB&quot;,
+     &quot;The British School of Tashkent&quot;, &quot;https://britishschool.uz/bsf/import/mo8n9VTRV65BB&quot;,
+     &quot;The British College of Brazil&quot;, &quot;https://britishcollegebrazil.org/bsf/import/mo8n9VTRV65BB&quot;,
+     &quot;The British School of Brasilia&quot;, &quot;https://britishschoolbrasilia.org/bsf/import/mo8n9VTRV65BB&quot;,
+     &quot;The British International School of Kuala Lumpur&quot;, &quot;https://britishschool.edu.my/bsf/import/mo8n9VTRV65BB&quot;,
+     &quot;The International School of Moscow&quot;, &quot;https://internationalschool.ru/bsf/import/mo8n9VTRV65BB&quot;,
+     &quot;Nord Anglia International School Manila&quot;, &quot;https://kings.org.ph/bsf/import/mo8n9VTRV65BB&quot;,
+     &quot;The British School Yangon&quot;, &quot;https://britishschoolyangon.org/bsf/import/mo8n9VTRV65BB&quot;,
+     &quot;The New York International School&quot;, &quot;https://nyis.org/bsf/import/mo8n9VTRV65BB&quot;,
+     &quot;&quot;
+     )*/
+
+&quot;&quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>User Cron Link</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>User_Has_Error__c</fullName>
+        <description>A temporary field to identify inconsistencies with user information</description>
+        <externalId>false</externalId>
+        <formula>OR(
+   AND(
+       Related_Account_ID__c != Portal_Account_Id__c, 
+       Contact.RecordTypeId = &quot;0126F000001hVzi&quot;
+       ), 
+   AND(
+       Contact.RecordTypeId = &quot;0126F000001hVzi&quot;, 
+       Portal_Account_Id__c = null
+       ), 
+   Related_Account_ID__c = &quot;Invalid&quot;
+   )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>User Has Error</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Year_Group_Control_Tutor_Group_Default__c</fullName>
+        <description>Used to define the &apos;Year Group Control&apos; value when a user creates a new tutor group</description>
+        <externalId>false</externalId>
+        <formula>IF(Is_US_School_User__c = TRUE, &quot;Tutor Group US&quot;, &quot;Tutor Group UK&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Year Group Control Tutor Group Default</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>backu__c</fullName>
+        <externalId>false</externalId>
+        <formula>Parent_Has_Logged_In__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>backu</label>
+        <type>Checkbox</type>
+    </fields>
+    <listViews>
+        <fullName>ActiveUsers</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.EMAIL</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Active Users</label>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>Admissions_Officer_Profile</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Admissions Officer</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Admissions Officer Profile</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>System_Administrators</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>AllUsers</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.EMAIL</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>DEFAULT_CURRENCY</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>CORE.PROFILE.USERTYPE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Users</label>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>BSG_Users</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <columns>CREATED_BY_NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Guangzhou</value>
+        </filters>
+        <label>BSG Users</label>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>Chatter_Free_Failed_Link_Users</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <columns>School__c</columns>
+        <columns>Related_Contact_ID__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Chatter Free User</value>
+        </filters>
+        <filters>
+            <field>Trigger_Chatter_Free_User_Created_Email__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>Related_Contact_ID__c</field>
+            <operation>equals</operation>
+        </filters>
+        <label>Chatter Free Failed Link Users</label>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>Chatter_Free_Users_TAs</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Chatter Free User</value>
+        </filters>
+        <label>Chatter Free Users (TAs)</label>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>Deletable</fullName>
+        <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>Email_Domain_Extension__c</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>School Management</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>School Administration (Extended Access)</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>School Administration</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>School Directors</value>
+        </filters>
+        <label>Deletable</label>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>External_Translators</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>External Translator</value>
+        </filters>
+        <label>External Translators</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>System_Administrators</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Headteachers</fullName>
+        <booleanFilter>(1 OR 2 OR 3) AND (4 OR 5)</booleanFilter>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.TITLE</field>
+            <operation>equals</operation>
+            <value>Headteacher</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.TITLE</field>
+            <operation>equals</operation>
+            <value>Headmaster</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.TITLE</field>
+            <operation>equals</operation>
+            <value>Principal</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>Headteachers</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>System_Administrators</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>InactiveUsers</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.EMAIL</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>Inactive Users</label>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>KCB_Users</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>King&apos;s College Beijing</value>
+        </filters>
+        <label>KCB Users</label>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>MAE_Users</fullName>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.EMAIL</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>NAE</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>MAE Users</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>System_Administrators</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Non_English_Users</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>LANGUAGE</columns>
+        <columns>School__c</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LANGUAGE</field>
+            <operation>notEqual</operation>
+            <value>1,2</value>
+        </filters>
+        <label>Non-English Users</label>
+        <language>en_GB</language>
+        <sharedTo>
+            <group>System_Administrators</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Not_in_Use_Parents</fullName>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.EMAIL</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.USERNAME</field>
+            <operation>contains</operation>
+            <value>@notinuse.com</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.EMAIL</field>
+            <operation>contains</operation>
+            <value>@notinuse.com</value>
+        </filters>
+        <label>Not-in-Use Parents</label>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>P2_Inactive_Parent_Portal_Users</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.PROFILE.USERTYPE</field>
+            <operation>equals</operation>
+            <value>b</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>P2. Inactive Parent Portal Users</label>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>P3_All_Parent_Portal_Users</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.EMAIL</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.PROFILE.USERTYPE</field>
+            <operation>equals</operation>
+            <value>b</value>
+        </filters>
+        <label>P3. All Parent Portal Users</label>
+        <language>en_US</language>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>Parents_No_Company</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.COMPANY_NAME</field>
+            <operation>notEqual</operation>
+            <value>Parent</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Parent Portal User - High Volume</value>
+        </filters>
+        <label>Parents No Company</label>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>Portal_Liaisons_Super_Users</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>School__c</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Portal Liaison (Super User)</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Portal Liaisons (Super Users)</label>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>Receptionist_Profile</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Receptionist</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Receptionist Profile</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>System_Administrators</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Regional_CRM_Managers</fullName>
+        <booleanFilter>1 AND (2 OR 3) AND 4</booleanFilter>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.EMAIL</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>NAE</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Regional CRM Manager</value>
+        </filters>
+        <label>Regional CRM Managers</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>System_Administrators</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>SEA_Admissions_Officers</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Admissions Officer</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>MANAGER</field>
+            <operation>notEqual</operation>
+        </filters>
+        <label>SEA Admissions Officers</label>
+        <language>en_US</language>
+        <sharedTo>
+            <role>Regional_Director_SEA</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>System_Admin_Users</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>contains</operation>
+            <value>System Administrator</value>
+        </filters>
+        <label>System Admin Users</label>
+        <language>en_US</language>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>Teachers</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <columns>S_Dir_Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Teacher</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Teachers</label>
+        <language>en_US</language>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>X02D_BSKL_Users_Parents</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Kuala Lumpur</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Parent Portal User - High Volume</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>02D. BSKL Users (Parents)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSKL_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X10A_NYIS_Users_All_Active</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The New York International School</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>10A. NYIS Users (All Active)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BSF_Group_Directors_Admin</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X10B_NYIS_Users_Admin</fullName>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5</booleanFilter>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The New York International School</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Teacher,Portal Liaison (Super User)</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Parent Portal User - High Volume</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Chatter Free User</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>10B. NYIS Users (Admin)</label>
+        <sharedTo>
+            <group>BSF_Group_Directors_Admin</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X10C_NYIS_Users_Teachers</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The New York International School</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Teacher,Portal Liaison (Super User)</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>10C. NYIS Users (Teachers)</label>
+        <language>en_US</language>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>X10D_NYIS_Users_Parents</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The New York International School</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Parent Portal User - High Volume</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>10D. NYIS Users (Parents)</label>
+        <language>en_US</language>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>X10E_NYIS_Users_TAs</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <columns>School__c</columns>
+        <columns>S_Dir_Title_New__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.EMAIL</field>
+            <operation>contains</operation>
+            <value>@nyis.org</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Chatter Free User</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>10E. NYIS Users (TAs)</label>
+        <language>en_US</language>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>X10F_NYIS_Users_Inactive</fullName>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The New York International School</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.EMAIL</field>
+            <operation>contains</operation>
+            <value>@nyis.org</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>10F. NYIS Users (Inactive)</label>
+        <language>en_US</language>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>X11A_BSB_Users_All_Active</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Brasilia</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>11A. BSB Users (All Active)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BSF_Group_Directors_Admin</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X11B_BSB_Users_Admin</fullName>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5</booleanFilter>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Brasilia</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Teacher,Portal Liaison (Super User)</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Parent Portal User - High Volume</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Chatter Free User</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>11B. BSB Users (Admin)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BSF_Group_Directors_Admin</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X11C_BSB_Users_Teachers</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <columns>S_Dir_Title_New__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Brasilia</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Teacher,Portal Liaison (Super User)</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>11C. BSB Users (Teachers)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BSF_Group_Directors_Admin</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X11D_BSB_Users_Parents</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Brasilia</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Parent Portal User - High Volume</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>11D. BSB Users (Parents)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BSF_Group_Directors_Admin</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X11E_BSB_Users_TAs</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.EMAIL</field>
+            <operation>contains</operation>
+            <value>@britishschoolbrasilia.org</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Chatter Free User</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>11E. BSB Users (TAs)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BSF_Group_Directors_Admin</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X11F_BSB_Users_Inactive</fullName>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Brasilia</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.EMAIL</field>
+            <operation>contains</operation>
+            <value>@britishschoolbrasilia.org</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>11F. BSB Users (Inactive)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BSF_Group_Directors_Admin</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X1B_ISM_Users_Admin</fullName>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5</booleanFilter>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.TITLE</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <columns>S_Dir_Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The International School of Moscow</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Teacher</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Parent Portal User - High Volume</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Chatter Free User,Portal Liaison (Super User)</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>01B. ISM Users (Admin)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ISM_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X1C_ISM_Users_Teachers</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>S_Dir_Title_New__c</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <columns>S_Dir_Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The International School of Moscow</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Teacher,Portal Liaison (Super User)</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>01C. ISM Users (Teachers)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ISM_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X1D_ISM_Users_Parents</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The International School of Moscow</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Parent Portal User - High Volume</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>01D. ISM Users (Parents)</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ISM_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X1E_ISM_Users_TAs</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <columns>School__c</columns>
+        <columns>CORE.USERS.TITLE</columns>
+        <columns>S_Dir_Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.EMAIL</field>
+            <operation>contains</operation>
+            <value>@internationalschool.ru</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Chatter Free User</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>01E. ISM Users (TAs)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ISM_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X1F_ISM_Users_Inactive</fullName>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The International School of Moscow</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.EMAIL</field>
+            <operation>contains</operation>
+            <value>@internationalschool.ru</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>01F. ISM Users (Inactive)</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ISM_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X1G_ISM_Teachers_Inactive</fullName>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The International School of Moscow</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.EMAIL</field>
+            <operation>contains</operation>
+            <value>@internationalschool.ru</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>01G. ISM Teachers (Inactive)</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ISM_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X2A_BSKL_Users_All_Active</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Kuala Lumpur</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>02A. BSKL Users (All Active)</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSKL_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X2B_BSKL_Users_Admin</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.TITLE</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Kuala Lumpur</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Teacher,Portal Liaison (Super User)</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Parent Portal User - High Volume</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Chatter Free User</value>
+        </filters>
+        <label>02B. BSKL Users (Admin)</label>
+        <sharedTo>
+            <group>BSF_Group_Directors_Admin</group>
+            <roleAndSubordinatesInternal>BSKL_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X2C_BSKL_Users_Teachers</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <columns>Related_Contact_ID__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.NAME</columns>
+        <columns>CREATED_BY_NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>S_Dir_Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Kuala Lumpur</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Teacher,Portal Liaison (Super User)</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>02C. BSKL Users (Teachers)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSKL_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X2E_BSKL_Users_TAs</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <columns>School__c</columns>
+        <columns>Related_Contact_ID__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Kuala Lumpur</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Chatter Free User</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>02E. BSKL Users (TAs)</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSKL_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X2F_BSKL_Users_Inactive</fullName>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Kuala Lumpur</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.EMAIL</field>
+            <operation>contains</operation>
+            <value>@britishschool.edu.my</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>02F. BSKL Users (Inactive)</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSKL_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X3A_BSNJ_Users_All_Active</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Nanjing</value>
+        </filters>
+        <label>03A. BSNJ Users (All Active)</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSNJ_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X3B_BSNJ_Users_Admin</fullName>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6</booleanFilter>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.TITLE</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Nanjing</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Teacher,Portal Liaison (Super User)</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Parent Portal User - High Volume</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Chatter Free User</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>School Nurse</value>
+        </filters>
+        <label>03B. BSNJ Users (Admin)</label>
+        <sharedTo>
+            <group>BSF_Group_Directors_Admin</group>
+            <roleAndSubordinatesInternal>BSNJ_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X3C_BSNJ_Users_Teachers</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <columns>S_Dir_Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Nanjing</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Teacher,Portal Liaison (Super User)</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>03C. BSNJ Users (Teachers)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSNJ_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X3D_BSNJ_Users_Parents</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Nanjing</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Parent Portal User - High Volume</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>03D. BSNJ Users (Parents)</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSNJ_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X3E_BSNJ_Users_TAs</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.EMAIL</field>
+            <operation>contains</operation>
+            <value>@bsn.org.cn</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Chatter Free User</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>03E. BSNJ Users (TAs)</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSNJ_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X3F_BSNJ_Users_Inactive</fullName>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Nanjing</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.EMAIL</field>
+            <operation>contains</operation>
+            <value>@bsn.org.cn</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>03F. BSNJ Users (Inactive)</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSNJ_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X4A_BST_Users_All_Active</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Tashkent</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>04A. BST Users (All Active)</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BST_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X4B_BST_Users_Admin</fullName>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5</booleanFilter>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>S_Dir_Title_New__c</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Tashkent</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Teacher,Portal Liaison (Super User)</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Parent Portal User - High Volume</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Chatter Free User</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>04B. BST Users (Admin)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BSF_Group_Directors_Admin</group>
+            <roleAndSubordinatesInternal>BST_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X4C_BST_Users_Teachers</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>S_Dir_Title_New__c</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Tashkent</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Teacher,Portal Liaison (Super User)</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>04C. BST Users (Teachers)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BST_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X4D_BST_Users_Parents</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Tashkent</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Parent Portal User - High Volume</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>04D. BST Users (Parents)</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BST_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X4E_BST_Users_TAs</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.EMAIL</field>
+            <operation>contains</operation>
+            <value>@britishschool.uz</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Chatter Free User</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>04E. BST Users (TAs)</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BST_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X4F_BST_Users_Inactive</fullName>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Tashkent</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.EMAIL</field>
+            <operation>contains</operation>
+            <value>@britishschool.uz</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>04F. BST Users (Inactive)</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BST_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X5A_NAISM_Users_All_Active</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>Nord Anglia International School Manila</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>05A. NAISM Users (All Active)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <role>NAISM_Record_Owner_Assets_and_Asset_Custodies</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X5B_NAISM_Users_Admin</fullName>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5</booleanFilter>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>S_Dir_Title_New__c</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <columns>Can_Edit_Fees__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>Nord Anglia International School Manila</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Teacher,Portal Liaison (Super User)</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Parent Portal User - High Volume</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Chatter Free User</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>05B. NAISM Users (Admin)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BSF_Group_Directors_Admin</group>
+            <role>NAISM_Record_Owner_Assets_and_Asset_Custodies</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X5C_NAISM_Users_Teachers</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USERS.TITLE</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>Nord Anglia International School Manila</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Teacher,Portal Liaison (Super User)</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>05C. NAISM Users (Teachers)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <role>NAISM_Record_Owner_Assets_and_Asset_Custodies</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X5D_NAISM_Users_Parents</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>Nord Anglia International School Manila</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Parent Portal User - High Volume</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>05D. NAISM Users (Parents)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <role>NAISM_Record_Owner_Assets_and_Asset_Custodies</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X5E_NAISM_Users_TAs</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.EMAIL</field>
+            <operation>contains</operation>
+            <value>@kings.org.ph</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Chatter Free User</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>05E. NAISM Users (TAs)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <role>NAISM_Record_Owner_Assets_and_Asset_Custodies</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X5F_NAISM_Users_Inactive</fullName>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>Nord Anglia International School Manila</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.EMAIL</field>
+            <operation>contains</operation>
+            <value>@kings.org.ph</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>05F. NAISM Users (Inactive)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <role>NAISM_Record_Owner_Assets_and_Asset_Custodies</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X6A_BCB_Users_All_Active</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British College of Brazil</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>06A. BCB Users (All Active)</label>
+        <sharedTo>
+            <role>BCB_Record_Owner_Assets_and_Asset_Custodies</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X6B_BCB_Users_Admin</fullName>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5</booleanFilter>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.TITLE</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <columns>Email_Domain_Extension__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British College of Brazil</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Teacher,Portal Liaison (Super User)</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Parent Portal User - High Volume</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Chatter Free User</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>06B. BCB Users (Admin)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BSF_Group_Directors_Admin</group>
+            <role>BCB_Record_Owner_Assets_and_Asset_Custodies</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X6C_BCB_Users_Teachers</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British College of Brazil</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Teacher,Portal Liaison (Super User)</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>06C. BCB Users (Teachers)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <role>BCB_Record_Owner_Assets_and_Asset_Custodies</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X6D_BCB_Users_Parents</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British College of Brazil</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Parent Portal User - High Volume</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>06D. BCB Users (Parents)</label>
+        <sharedTo>
+            <role>BCB_Record_Owner_Assets_and_Asset_Custodies</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X6E_BCB_Users_TAs</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.EMAIL</field>
+            <operation>contains</operation>
+            <value>@britishcollegebrazil.org</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Chatter Free User</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>06E. BCB Users (TAs)</label>
+        <sharedTo>
+            <role>BCB_Record_Owner_Assets_and_Asset_Custodies</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X6F_BCB_Users_Inactive</fullName>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British College of Brazil</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.EMAIL</field>
+            <operation>contains</operation>
+            <value>@britishcollegebrazil.org</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>06F. BCB Users (Inactive)</label>
+        <sharedTo>
+            <role>BCB_Record_Owner_Assets_and_Asset_Custodies</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X7A_BISM_Users_All_Active</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Marbella</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>07A. BISM Users (All Active)</label>
+        <language>en_US</language>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>X7B_BISM_Users_Admin</fullName>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5</booleanFilter>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Marbella</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Teacher,Portal Liaison (Super User)</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Parent Portal User - High Volume</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Chatter Free User</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>07B. BISM Users (Admin)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BSF_Group_Directors_Admin</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X7C_BISM_Users_Teachers</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <columns>S_Dir_Title_New__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Marbella</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Teacher,Portal Liaison (Super User)</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>07C. BISM Users (Teachers)</label>
+        <language>en_US</language>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>X7D_BISM_Users_Parents</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Marbella</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Parent Portal User - High Volume</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>07D. BISM Users (Parents)</label>
+        <language>en_US</language>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>X7E_BISM_Users_TAs</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.EMAIL</field>
+            <operation>contains</operation>
+            <value>@bsm.org.es</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Chatter Free User</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>07E. BISM Users (TAs)</label>
+        <language>en_US</language>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>X7F_BISM_Users_Inactive</fullName>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Marbella</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.EMAIL</field>
+            <operation>contains</operation>
+            <value>@bsm.org.es</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>07F. BISM Users (Inactive)</label>
+        <language>en_US</language>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>X8A_BSNV_Users_All_Active</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Navarra</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>08A. BSNV Users (All Active)</label>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>X8B_BSNV_Users_Admin</fullName>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5</booleanFilter>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Navarra</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Teacher</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Parent Portal User - High Volume</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Chatter Free User,Portal Liaison (Super User)</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>08B. BSNV Users (Admin)</label>
+        <sharedTo>
+            <group>BSF_Group_Directors_Admin</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X8C_BSNV_Users_Teachers</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Navarra</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Teacher,Portal Liaison (Super User)</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>08C. BSNV Users (Teachers)</label>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>X8D_BSNV_Users_Parents</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Navarra</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Parent Portal User - High Volume</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>08D. BSNV Users (Parents)</label>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>X8E_BSNV_Users_TAs</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.EMAIL</field>
+            <operation>contains</operation>
+            <value>@bsn.org.es</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Chatter Free User</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>08E. BSNV Users (TAs)</label>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>X8F_BSNV_Users_Inactive</fullName>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School of Navarra</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.EMAIL</field>
+            <operation>contains</operation>
+            <value>@bsn.org.es</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>08F. BSNV Users (Inactive)</label>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>X9A_BSY_Users_All_Active</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School Yangon</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>09A. BSY Users (All Active)</label>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>X9B_BSY_Users_Admin</fullName>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5</booleanFilter>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.TITLE</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School Yangon</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Teacher,Portal Liaison (Super User)</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Parent Portal User - High Volume</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>notEqual</operation>
+            <value>Chatter Free User</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>09B. BSY Users (Admin)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BSF_Group_Directors_Admin</group>
+            <role>BSY_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X9D_BSY_Users_Parents</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School Yangon</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Parent Portal User - High Volume</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>09D. BSY Users (Parents)</label>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>X9E_BSY_Users_TAs</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.EMAIL</field>
+            <operation>contains</operation>
+            <value>@britishschoolyangon.org</value>
+        </filters>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>Chatter Free User</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>09E. BSY Users (TAs)</label>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>X9F_BSY_Users_Inactive</fullName>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The British School Yangon</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.EMAIL</field>
+            <operation>contains</operation>
+            <value>@britishschoolyangon.org</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>09F. BSY Users (Inactive)</label>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>XA_ISM_Users_All_Active</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>School__c</field>
+            <operation>equals</operation>
+            <value>The International School of Moscow</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>01A. ISM Users (All Active)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <role>NAE_Director</role>
+            <roleAndSubordinatesInternal>ISM_ICT_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CORE.USER_ROLE.NAME</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>FULL_NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CORE.USER_ROLE.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CORE.USERS.PHONE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CORE.USERS.EXTENSION</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CORE.USERS.CELL</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.TITLE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.PHONE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.EMAIL</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Read</sharingModel>
+    <validationRules>
+        <fullName>Disallow_Change_of_School</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+    NOT(ISNEW()),
+    ISCHANGED(School__c), 
+    NOT(ISBLANK(PRIORVALUE(School__c))),
+    $User.Id != &quot;0056F000008tfhZ&quot;
+    )</errorConditionFormula>
+        <errorMessage>You are not allowed to change the School of a user</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Disallow_Changes_via_Edit_Contact_Info</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(!Synced_Apex__c, $Profile.Name = &quot;Parent Portal User - High Volume&quot;, OR(ISCHANGED(Email), ISCHANGED(FirstName), ISCHANGED(LastName), ISCHANGED(MobilePhone), ISCHANGED(Phone), ISCHANGED(Fax), ISCHANGED(Street), ISCHANGED(City), ISCHANGED(State), ISCHANGED(Country), ISCHANGED(PostalCode)))</errorConditionFormula>
+        <errorMessage>You cannot edit your contact details on this page. Please use the &apos;My Contact Details&apos; tab or contact the school Administration Department.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Disallow_Changes_via_User_Page</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(!Synced_Apex__c, ProfileId = &quot;00e6F0000020GEY&quot;, $Profile.Name &lt;&gt; &quot;System Administrator&quot;, $Profile.Name &lt;&gt; &quot;Parent Portal User - High Volume&quot;, OR(ISCHANGED(Email), ISCHANGED(FirstName), ISCHANGED(LastName), ISCHANGED(MobilePhone), ISCHANGED(Phone), ISCHANGED(Fax), ISCHANGED(Street), ISCHANGED(City), ISCHANGED(State), ISCHANGED(Country), ISCHANGED(PostalCode)))</errorConditionFormula>
+        <errorMessage>One of the fields you have edited cannot be changed directly on this screen. Please make the relevant changes on the related contact record.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Disallow_Invalid_Staff_Dir_Positioning</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(Override_Manually__c = TRUE, OR(S_Dir_Positioning__c &lt; 1000, S_Dir_Positioning__c &gt; 9999))</errorConditionFormula>
+        <errorMessage>If you are manually overriding the &apos;Positioning&apos; of this user&apos;s staff directory record then the value in the positioning field must contain 4 digits and be greater than or equal to 1000.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Disallow_Parent_User_Deactivation</fullName>
+        <active>true</active>
+        <description>Prevents anyone except sys admin from deactivating a parent user. Necessary to ensure all collaboration group memberships are deleted before a parent is deactivated so that if they&apos;re reactivated they don&apos;t end up as members of groups they shouldn&apos;t be in</description>
+        <errorConditionFormula>AND( 
+    ISCHANGED(IsActive),
+    IsActive = FALSE,
+    Profile.Id = &quot;00e6F0000020GEY&quot;,
+    $Profile.Id != &quot;00e6F000001hU3F&quot;
+    )</errorConditionFormula>
+        <errorMessage>You do not have permission to deactivate a parent user. Please contact the system administrator for further assistance.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Dont_Allow_Academic_Department_Role</fullName>
+        <active>true</active>
+        <description>Prevents a user being created with a role of &apos;Academic Department&apos;</description>
+        <errorConditionFormula>OR(CONTAINS(UserRole.Name, &apos;Academic Department&apos;), CONTAINS(UserRole.Name, &apos;Specialist/Subject Teacher&apos;))</errorConditionFormula>
+        <errorMessage>Please select the appropriate role for the teacher. It cannot be &apos;Academic Department&apos; or contain &apos;Specialist/Subject Teacher&apos;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Ensure_Valid_Google_Drive_Photo_Link</fullName>
+        <active>true</active>
+        <errorConditionFormula>CONTAINS(Google_Drive_Photo_Link__c, &quot;britishschools.co.uk&quot;)</errorConditionFormula>
+        <errorMessage>The photo URL you have entered is invalid. Please ensure you right click on the file and use the &apos;Get Shareable Link&apos; function or open the photo and copy the URL directly.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_Title_for_Staff_Profile</fullName>
+        <active>true</active>
+        <description>Requires that a title is entered when a new staff member user is created. Title will also be used in Staff Directory.</description>
+        <errorConditionFormula>AND(Title = &quot;&quot;, Profile.Name &lt;&gt; &quot;Parent Portal User - High Volume&quot;, Profile.Name &lt;&gt; &quot;Chatter Free User&quot;, Profile.Name &lt;&gt; &quot;System Administrator&quot;)</errorConditionFormula>
+        <errorMessage>You must enter a &apos;Title&apos; when creating a new Staff Member User.</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Create_Employee_Micro_Site</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Create Employee Micro Site</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/apex/newMicrosite?id={!User.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>View_Parent_Staff_Record</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>View Parent/Staff Record</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>HYPERLINK(&quot;/&quot;&amp;Contact.AccountId)</url>
+    </webLinks>
+</CustomObject>

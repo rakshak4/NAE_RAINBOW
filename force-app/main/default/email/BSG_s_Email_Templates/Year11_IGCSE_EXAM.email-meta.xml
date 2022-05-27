@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Year11 IGCSE EXAM</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Year11 IGCSE EXAM</name>
+    <style>freeForm</style>
+    <subject>Year11 IGCSE EXAM</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I would like to wish you a very happy New Year and I hope you had relaxing Christmas break.
+
+As you are aware the Yr. 11 GCSE mock examinations commence next week and I would like to take this opportunity to clarify the final arrangements regarding study leave.
+
+If a student has no exams in the afternoon then they can choose to go home early. If this is the case then they must have written permission from a parent or guardian, and they must also sign out at the front desk with Ms Grace Kwan.
+
+If a student has no exam in the morning, then they can choose to come in later. They must be in school no later than 1pm, and they must sign in at the front desk with Ms Grace Kwan.
+
+If a student has a break in the middle of the day between exams, they must stay in school to avoid any unforeseen circumstances effecting their punctuality or performance.
+
+When students are in school but not in an examination we have allocated rooms where they can undertake private study. Students will also be required to wear full school uniform as usual throughout the exam period.
+
+Finally, a reminder that the bus service will run as normal during this time.
+
+If you have any further questions please do not hesitate to contact me at Nicholas.mckie@bsg.org.cn
+
+please click here for mock examination timetable.
+
+Kind regards,
+
+Nicholas McKie
+Assistant Head of Secondary/Head of Sixth Form
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Winter Fayre 2016</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Winter Fayre 2016</name>
+    <style>freeForm</style>
+    <subject>Winter Fayre 2016</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+
+On Friday 16th December the BST Winter Fayre will take place between 9.30 am and 11.30 am.  Winter and Christmas Fayres are an important tradition at British Schools and all proceeds from the day are donated to charity.  We have an exciting day planned and we would like to extend a welcome both to existing BST families and also to any guests whom you would like to invite.  There will be the usual range of food, games, music, a raffle with prizes, clowns, Santa’s grotto and more; all in all, it should be a wonderful day out for children and families.
+Parent meeting to discuss the Winter Fayre, Thursday 24th November 2016.
+
+There will be a parent meeting to discuss arrangements for the fayre and hopefully to recruit some key parent helpers who are willing to assist with the organisation of the event.  Please also come along if you have any fresh ideas about how we can make the fayre more interesting or special for the families who attend.  By attending you are not automatically committing yourself to a leading role!  The meeting will take place on Thursday 24th November in Upper Campus, Music room at 16:00.
+Parent contributions and support.
+
+In order to make the event a success and to raise a worthwhile sum for our chosen charities, we would be most grateful for parent support with any of the following:
+
+Donations of cakes, biscuits and other kinds of interesting international cuisine that we can sell to raise money for charity (which should be sent on the Friday, 15th  December after 15:30 and Saturday morning, 16th December).  At British fayres there is usually a cake stall but we see no reason to have a restriction on the types of food sold.
+As always there will be a Santa’s Grotto with a real live Santa for children to visit and receive a gift.  Parents and staff are required for this role!  The event lasts approximately two hours so we will likely split the job of being Santa into 30 minutes ‘shifts’.
+Children who visit Santa’s Grotto receive a small gift so donations of small wrapped presents would be most welcome. On the wrapping paper it would be helpful to indicate the appropriate age and gender of the child who receives it (e.g. For a boy 4-5 years).  If each family donates a small gift or two each, this should be more than enough. Examples: a pencil case with some nice pencils, a single toy car or a nice coloring book and pencils.
+There will be a raffle with prizes (families buy tickets and win prizes in a lucky dip if their number is the one drawn). For this we require donations of prizes from either families or any companies or organisations that would be interested in sponsoring the event. It is traditional for there to be a range of prizes, ranging from smaller items like bottles of wine and chocolates to ‘star prizes’.
+
+Please complete this link if you are able to help with any of the above.
+We hope to welcome as many parents as possible to our pre-fayre meeting and to a fun and successful event!
+Kind regards,
+
+Adrian Macaulay
+Headteacher
+
+
+
+Уважаемые родители!
+В этом году Зимняя ярмарка будет проходить в пятницу 16 декабря с 9:30 до 11:30.  Зимние рождественские ярмарки являются важной традицией английских школ и направлены на сбор денежных средств для пожертвований. Мы планируем организовать отличный праздник, на который приглашаем всех родителей школы, а также Ваших друзей и знакомых. На ярмарке будет представлена разнообразная еда, будут проводиться игры, в которых примут участие преподаватели и приглашенные артисты; музыка, клоуны, различные аттракционы, как, например, грот Деда Мороза и т.д. Надеемся, это будет незабываемый праздник  как для детей, так и для родителей.
+Четверг 24 ноября. Родительское собрание-обсуждение Зимней рождественской ярмарки.
+
+Мы планируем провести родительское собрание для обсуждения плана подготовки к ярмарке и  выбрать родителей-волонтеров, которые готовы оказать помощь в организации мероприятия. Мы также рады выслушать любые идеи по улучшению мероприятия и о том, как мы можем сделать ярмарку более интересной и занимательной. Посещение собрания не будет означать, что Вы автоматически становитесь в ряд родителей-волонтеров и будете играть ведущую роль в организации праздника! Собрание будет проходить в здании школы  в четверг 24 ноября в 16:00 в кабинете музыки.
+
+Участие и поддержка благотворительной акции со стороны родителей
+
+Будем крайне признательны родителям учащихся, которые смогут оказать такую посильную помощь в организации праздника, как:
+
+Предоставить разнообразную еду (пирожные, торты  или другие национальные блюда). Вы сможете передать еду в школу в пятницу 15 декабря после окончания занятий  или в субботу утром. Как правило, на английских ярмарках устанавливают кондитерские прилавки, но мы планируем организовать столы с самой разной едой.
+Как обычно, наши учащиеся смогут посетить грот Санта-Клауса и получить от него подарок. Нам необходимы сотрудники и родители для роли Санты! Всё мероприятие длится около двух часов, поэтому роль каждого Санты будет длиться по 30 минут.
+Дети,посещающие грот Санты, получат небольшие призы, поэтому любые упакованные подарки будут приняты с благодарностью.  Будем признательны, если Вы укажете на упаковке возраст и пол ребёнка, который может получить этот подарок (например, мальчик 4-5 лет). Будет более чем достаточно,если каждая семья принесёт по одному или по два подарка. Подарки могут быть следующими: пенал с карандашами, игрушечная машина или книжка-раскраска с карандашами.
+На ярмарке также будет устроен розыгрыш лотереи (семьи будут покупать билеты и выигрывать призы, если их номер совпадёт с лотерейным выигрышным номером). Для этой лотереи нам также будут нужны призы от родителей и от организаций или компаний, которые выразят заинтересованность в мероприятии. Традиционно, все призы можно разделить на «маленькие», как например, бутылка вина или коробка шоколада и «звёздные».
+
+
+Просим Вас заполнить данную форму, если Вы хотите оказать содействие в организации Рождественской ярмарки.
+
+Надеемся увидеть Вас на собрании, посвященном подготовке к ярмарке и устроить незабываемый праздник!
+
+С уважением,
+
+Адриан Макоулей
+Академический директор
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

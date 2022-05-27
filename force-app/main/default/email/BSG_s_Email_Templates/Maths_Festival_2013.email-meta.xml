@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Secondary Swimming Gala</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Secondary Swimming Gala</name>
+    <style>freeForm</style>
+    <subject>Secondary Swimming Gala</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Weather permitting, the annual Secondary House Swimming Gala will take place at our Nanhu site on Tuesday, 25th June for all year 7 to 10 students. The Gala will begin at 08:30 after registration and finish around noon in time for the students to eat lunch as normal. Students will attend their last lesson of the day as normal. Please ensure that if your child is participating in the Gala that they come to school with swimming kit, towel and sunscreen. School uniform is not required on the day and students may travel to school in PE kit.
+
+Parents are of course welcome to come and watch!
+
+
+Kind Regards,
+
+Alison Grice-Glover
+Head of Secondary PE
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

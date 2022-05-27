@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>03/06/2013 Ski Trip update</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>03/06/2013 Ski Trip update</name>
+    <style>freeForm</style>
+    <subject>Ski Trip update</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+Thank you very much for your response for the Ski Trip. I can confirm that 17 places from the trip have been confirmed. Please note we have changed the dates of the trip as they clashed with Chinese New Year. The new confirmed dates will now be from February 7th to 16th 2014. Over half the places for the trip have been taken Please see the answers to some of your frequently asked questions below.
+
+Can parents attend?
+
+You are welcome to follow us to our destination but you will have to arrange your travel and accommodation independently. It would be great for you to Ski with us.
+
+Safety and professional supervision?
+
+The company we are traveling with has an excellent track record and very good student to staff ratios. We will be taking 4 BSKL staff with us for the group of 30 students and the instructor student ratio will be 1:7. BSKL staff will be with the students at all times.
+
+What is the food like?
+
+The food will be very good I’m assured and cater for all dietary needs including religious based diets, we just need to be informed. Please click here to see an example of a weekly menu.
+
+
+
+Do we need to get our own ski gear?
+
+All of the clothes and equipment your child will need for skiing will be available to rent from the company for the duration of the trip. I would advise to buy a ski coat and appropriate clothes for your child though. A kit list will be coming out closer to the time.
+
+What will the course of action be if an accident happens?
+
+We will have full medical cover and the instructors are trained in mountain based rescue. Teachers and instructors will make a judgement depending on the severity of injury and contact the appropriate people immediately. The policy includes hospital and transport fees.
+
+If you wish to register your child for this trip based on the above information and change of dates then do so as soon as possible as the deadline is fast approaching. The trip is available for children in year 4 to year 9 as of 2014. Thank you very much and if you have any other questions please state it on the form.
+
+BSKL Ski Trip 2014
+
+Kind regards,
+
+Harrie Thomson
+Head of Physical Education
+Director of Middle School After School Activities
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

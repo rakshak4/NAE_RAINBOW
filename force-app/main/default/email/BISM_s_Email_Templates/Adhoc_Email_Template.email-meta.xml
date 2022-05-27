@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Adhoc email template in English and Spanish</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Adhoc Email ENG+SPA</name>
+    <style>freeForm</style>
+    <subject>Trip to Sierra Nevada/ Excursión a Sierra Nevada</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

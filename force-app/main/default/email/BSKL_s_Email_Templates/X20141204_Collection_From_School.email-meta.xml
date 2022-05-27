@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20141204 Collection From School</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20141204 Collection From School</name>
+    <style>freeForm</style>
+    <subject>Collection from school</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+4th December 2014
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}
+
+We strongly advise that for those families who collect their children from school you arrive early today in order to  avoid congestion from the returning trip from KLCC.
+
+Please can you also park in the car parks located at each campus as when the coaches arrive back from KLCC they will be parking on both sides of the road outside of the school.
+
+Thank you for your understanding and cooperation.
+
+Kind Regards,
+
+School Administration
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Parent and Child Library TIme</name>
+    <style>freeForm</style>
+    <subject>Parent and Child Library Time</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents
+
+
+As you may recall, I recently contacted you with regard to once-a-week parent / child library time. We are delighted to be able to offer this opportunity on a trial basis for four weeks. Consequently, our first parent / child library session will occur on Thursday 18th October between 15:35 and 16:15 to coincide with Book Week.
+
+
+The object of this initiative is to extend access to the library facility and develop greater parent-child interaction in the process of book-selection – perhaps encouraging children to read books they might otherwise not consider.
+
+
+On this occasion there will be no need to confirm your attendance in advance, but we would like to remind you that it will be your responsibility to provide transport for your child(ren).
+
+
+I look forward to welcoming you.
+
+
+Yours Sincerely,
+
+
+Ms E. Nikitina (LC Librarian)
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

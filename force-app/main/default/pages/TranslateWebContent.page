@@ -1,0 +1,56 @@
+<apex:page id="thepage" standardController="Web_Content__c" extensions="TranslateWebContent" showHeader="false" sidebar="false" showChat="false" standardStyleSheets="false">
+  <script>
+    function validate(){
+        var desc = document.getElementById("thepage:mainform:ainfo").value;
+        if(desc == null || desc == ""){
+            alert("You must provide additional information to be translated.");
+            return false;
+        }
+        return true;
+    }
+    
+    function closeAndRefresh(){
+        window.opener.location.href = "/{!webContentRecord.Id}"; 
+        window.close();
+    }
+    
+    function performUnLoadActions(){
+        var issuccess = "{!isSuccess}";
+        alert(issuccess);
+        if(issuccess == "true"){
+            window.opener.location.href = '/{!webContentRecord.Id}';
+        } 
+    }
+    
+  </script>
+  <body>
+  <apex:form id="mainform" style="font-family: Arial,Helvetica,sans-serif;color: #222;font-size:75%" rendered="{!!isSuccess}">
+    Please provide additional information of what has been changed and needs to be translated<br/><br/>
+    <apex:inputTextArea id="ainfo" value="{!requestDescription}" rows="8" cols="47"  label="Additional Information"/>
+    <br/><br/>
+    <apex:inputCheckBox id="notify" value="{!notify}"/>&nbsp;Notify me by email when this translation is complete. <br/>
+    <br/>
+    <center>
+        <apex:commandButton value="Continue" action="{!submitTranslationRequest}"/>
+        <input type="button" onclick="window.close();" value="Cancel" />
+    </center>
+     
+  </apex:form>
+  <apex:outputPanel layout="block" style="font-family: Arial,Helvetica,sans-serif;color: #222;font-size:75%" rendered="{!isSuccess}">
+    The Updated Translation Request was sent successfully.
+    <br/><br/>
+    <input type="button" onclick="closeAndRefresh();" value="OK" />
+  </apex:outputPanel>
+  <div style="font-family: Arial,Helvetica,sans-serif;color: #222;font-size:75%">
+    <apex:pageMessages />
+  </div>
+  <script>
+        //alert("{!isSuccess}");
+        if("{!isSuccess}" == "true"){
+             //alert("refreshing");
+             window.opener.location.href = '/{!webContentRecord.Id}';
+             //alert("done");
+        }
+  </script>      
+  </body>
+</apex:page>

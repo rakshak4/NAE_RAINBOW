@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Spring Term Invoices</name>
+    <style>freeForm</style>
+    <subject>Spring Term Invoices</subject>
+    <textOnly>Dear Parents
+Please be informed that the invoices for the Spring term were sent home with the students over the last two days. Please, check your child&apos;s blue folder to ensure that you have received the invoice and accompanying documents. If you have not received the invoice, please contact Marina Urmanova, Invoicing Manager at isminvoicing@britishschools.co.uk and she will provide you with all the necessary documents upon request. 
+If your child(ren)&apos;s school fees are paid by a company, then you will NOT receive the invoice. All company invoices have been sent directly to the payer. 
+Please, note that Spring Term fees must be paid by December 15, 2011. 
+If you have any questions or need any assistance, please contact the Accounting department directly at isminvoicing@britishschools.co.uk
+Thank you and kind regards, </textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

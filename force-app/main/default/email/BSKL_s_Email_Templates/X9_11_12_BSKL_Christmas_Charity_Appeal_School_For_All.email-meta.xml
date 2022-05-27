@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>9/11/12 BSKL Christmas Charity Appeal  &apos;School For All&apos;</name>
+    <style>freeForm</style>
+    <subject>BSKL Christmas Charity Appeal  &apos;School For All&apos;</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Christmas is just around the corner and in the spirit of giving the Events and Fundraising Committee (EFC) are asking the BSKL parents and students to take part in our annual Christmas charity appeal. Following on from the wonderful success of last years &apos;12 Items for Christmas&apos;, this year the EFC are organising &apos;School For All&apos;, which is an amazing opportunity for us to help 400 Myanmar refugee students here in Kuala Lumpur.
+
+What &apos;School For All&apos; involves is the EFC asking each student to purchase a plain paper bag, which we will be selling in the school foyer (after drop off and before pick up) from Monday 12th November - Friday 23rd November. This will be available to purchase for RM3. We then ask the BSKL students to decorate each bag to make it as special and individual as the child who will be receiving it as a Christmas gift and to fill it with the 12 items listed below. There will be examples of these items in the school foyer, along with the bags that can be purchased. Once completed please return the bag to the school and place under the school Christmas Tree.
+
+The EFC ask that the decorated bags containing the 12  items, which have been pre-selected as essential for Christmas gifts to the Myanmar children, be returned no later than Tuesday, 4th December.
+
+After this date the EFC will deliver these bags to 2 refugee schools here in Kuala Lumpur, and would like to invite any parents interested in joining us in delivering these bags to the children to please contact the EFC and we will give further details. However please note that we are unable to provide you transport to the refugee schools and would ask that you take charge of your own children should you be taking them along.
+
+The 12 pre-selected items are:
+
+1) 6 x 2B pencils
+2) 1 x piece Eraser
+3) 1 pair of kid size scissors
+4) 1 x 6 inch ruler
+5) 1 x sharpener
+6) 1x unisex pencil case
+7) 1x tumbler (water cup)
+8) 1 x snack box
+9) 1 x foldable umbrella
+10) 1 x box colour pencils
+11) 4 x single line exercise books
+12) 1 x small bottle hand sanitizer
+
+If you have any questions regarding &apos;School For All&apos;, or would like to join us in delivering the bags to the refugee schools, please do not hesitate to contact Grace Chong (graceychong@yahoo.com). We hope that this endeavor will be embraced by the BSKL parents and students as it is such an important opportunity for us to join together in the spirit of Christmas and help change the lives of these children.
+
+Help us to help these children and make &apos;School For All&apos;!
+
+Thanking you
+Kind Regards
+Ulrika Brunner
+The Events and Fundraising Committee
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

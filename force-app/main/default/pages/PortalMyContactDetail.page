@@ -1,0 +1,460 @@
+<apex:page standardStylesheets="false" controller="PortalMyContactDetail_Controller" sidebar="false" id="mainpage" action="{!createClickEvent}">
+   <head>
+      <title></title>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <apex:stylesheet value="/apex/PortalAssessmentPageCSS"/>
+      <script>
+        function validateEmailChange(){
+            var currentEmail = "{!currentEmail}";
+            //alert('currentEmail='+currentEmail);
+            var pageEmail ;
+            //check for change in email 
+            var mainEmailParent = document.getElementById('mainpage:mainform:mainEmailAccount');
+            //alert('mainEmailParent='+mainEmailParent);
+            if(mainEmailParent != null){
+                pageEmail = mainEmailParent.value;
+            }else{
+                var mainEmailContact = document.getElementById('mainpage:mainform:mainEmailContact');
+                //alert('mainEmailContact='+mainEmailContact);
+                if(mainEmailContact != null){
+                    pageEmail = mainEmailContact.value;
+                    
+                }
+            }
+            //alert('pageEmail='+pageEmail);
+            if(pageEmail == null){
+                alter("Please provide main email address !");
+                return false;
+            }else if(currentEmail != pageEmail){
+                var d = confirm("If you change this email address you will also change the username that is used when you log in to the School Hub. Do you wish to continue?");
+                if (d == true)
+                  return true;
+                else
+                {
+                  return false;
+                }
+            }
+            
+        }
+      </script>
+   </head>
+   <body>
+   <apex:form id="mainform">
+      <table border="0" class="contact-details">
+         <tr>
+            <td valign="top">
+               <aside id="sidebar">
+                  <div class="sidebar-top">
+                     <h1>Contact<br/>Update Details</h1>
+                     <!-- <h3>Edit user contact details</h3> -->
+                  </div>
+                  <div class="section first">
+                     <div class="section-heading">Save your settings changes</div>
+                     <apex:commandButton onClick="return validateEmailChange();" value="Save Changes" styleClass="button btn-section" action="{!saveDetails}"/>
+                     <!-- <input type="submit" name="submit" class="button btn-section" value="Save changes"/>  -->
+                  </div>
+               </aside>
+            </td>
+            <td valign="top">
+               <div id="main">
+                  <apex:pageMessages />
+                  <!-- for person account -->
+                  <apex:outputPanel layout="block" rendered="{!isPersonAccountContact}">
+                      <article class="term-section first">
+                         <header class="t-sec-header"><span class="season">Your details</span></header>
+                         <section class="inputs name-inputs">
+                            <div class="section name salutation">
+                               <label class="pc-label" for="salutation">Salutation</label><br/>
+                               <div class="section-select salutation">
+                                  <apex:inputField value="{!parentAccount.Salutation}"/>
+                                  <!-- <select name="salutation">
+                                     <option >-Select-</option>
+                                     <option selected="selected">Prof. </option>
+                                  </select>  -->
+                               </div>
+                            </div>
+                            <div class="inline name first-name">
+                               <label class="pc-label" for="first-name">First Name</label><br/>
+                               <apex:inputField value="{!parentAccount.FirstName}"/>
+                               <!-- <input type="text" name="first-name" value="Benny"/>  -->
+                            </div>
+                            <div class="inline name last-name">
+                               <label class="pc-label" for="last-name">Last Name</label><br/>
+                               <apex:inputField value="{!parentAccount.LastName}"/>
+                               <!-- <input type="text" name="last-name" value="McGraw-Hill"/>  -->
+                            </div>
+                         </section>
+                      </article>
+                      <article class="contact-details term-section with-border emails">
+                         <table>
+                            <tr>
+                               <td>
+                                  <label class="pc-label">Main E-mail and School Hub Username</label><br/>
+                                  <apex:inputField id="mainEmailAccount" value="{!parentAccount.PersonEmail}" styleclass="pc-input first"/>
+                                  <!-- <input type="text" value="benny@mcgraw-hill.nl" class="pc-input first" />  -->
+                               </td>
+                               <td>
+                                  <label class="pc-label">Email Preferences</label>
+                                  <div class="chk-side chk1"></div>
+                                   <!-- <input type="checkbox" name="chk1" id="chk1" class="chekbox" />  -->
+                                  <apex:inputCheckbox id="chk1" value="{!doNotReceiveEmail}" styleclass="chekbox"/>
+                                  <span class="chk-display"><span class="fill"></span></span>
+                                  <label for="mainpage:mainform:chk1" class="chk-label">I <strong>do not</strong> wish to receive Parent Portal email notifications</label>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <label class="pc-label">Alternate E-mail</label><br/>
+                                  <apex:inputField value="{!parentAccount.Contact_Alternate_Email__pc}" styleclass="pc-input first"/>
+                                  <!-- <input type="text" value="benny@gmail.com" class="pc-input first" />  -->
+                               </td>
+                               <td>
+                                  <div class="chk-side chk1"></div>
+                                  <apex:inputCheckbox id="chk2" value="{!parentAccount.PersonHasOptedOutOfEmail}" styleclass="chekbox"/>
+                                  <!-- <input type="checkbox" name="chk2" id="chk2" class="chekbox" />  -->
+                                  <span class="chk-display"><span class="fill"></span></span>
+                                  <label for="mainpage:mainform:chk2" class="chk-label">I <strong>do not</strong> wish to receive important email announcements from the school</label>
+                               </td>
+                            </tr>
+                         </table>
+                      </article>
+                      <article class="term-section with-border phones">
+                         <table class="fourth">
+                            <tbody>
+                               <tr>
+                                  <td>
+                                     <div class="inline area-code">
+                                        <label class="pc-label" for="area-main">Mobile/Main Phone Country Code</label><br/>
+                                        <div class="section-select">
+                                        <!-- <span class="plus-areacode">+ </span> -->
+                                        <apex:inputField value="{!parentAccount.Contact_Mobile_Main_Phone_Country_CodePL__pc}" styleclass="area-code"/>
+                                        <!-- <input type="text" class="area-code" name="area-main" value="+370"/>  -->
+                                         </div>
+                                     </div>
+                                     <div class="inline hyphen">
+                                        <span class="plus-areacode"> - </span>
+                                      </div>
+                                     <div class="inline area-code">
+                                        <label class="pc-label" for="area-alt">Alternate Phone Country Code</label><br/>
+                                        <!-- <span class="plus-areacode">+ </span> -->
+                                        <div class="section-select">
+                                        <apex:inputField value="{!parentAccount.Contact_Alternate_Phone_Country_CodePL__pc}" styleclass="area-code"/>
+                                        <!-- <input type="text" class="area-code" name="area-alt" value="+370"/>  -->
+                                         </div>
+                                      </div>
+                                     <div class="inline hyphen">
+                                        <span class="plus-areacode"> - </span>
+                                      </div>                                      
+                                  </td>
+                                  <td class="rightcol">
+                                     <div class="inline main-phone">
+                                        <label class="pc-label" for="main-phone">Mobile/Main Phone</label><br/>
+                                        <apex:inputField value="{!parentAccount.PersonMobilePhone}" styleclass="phone"/>
+                                        <!-- <input type="text" class="phone" name="main-phone" value="617 05770"/>  -->
+                                     </div>
+                                     <div class="inline alternate-phone">
+                                        <label class="pc-label" for="main-phone">Alternate Phone</label><br/>
+                                        <apex:inputField value="{!parentAccount.Contact_Alternate_Phone__pc}" styleclass="phone"/>
+                                        <!-- <input type="text" class="phone" name="main-phone" value="617 05770"/>  -->
+                                     </div>
+                                  </td>
+                               </tr>
+                            </tbody>
+                         </table>
+                      </article>
+                      <article class="term-section with-border fourth"> 
+                         <table class="fourth">
+                            <tbody>
+                               <tr>
+                                  <td>
+                                     <div class="section relationship">
+                                        <label class="pc-label" for="relationship">Relationship</label><br/>
+                                        <div class="section-select relationship">
+                                           <apex:inputField value="{!parentAccount.Contact_Relationship__pc}"/>
+                                           <!-- <select name="relationship">
+                                              <option >-Select-</option>
+                                              <option selected="selected">Father</option>
+                                           </select>  -->
+                                        </div>
+                                     </div>
+                                  </td>
+                                  <td>
+                                     <div class="section sector">
+                                        <label class="pc-label" for="sector">Occupation</label><br/>
+                                        <div class="sector">
+                                           <apex:inputField value="{!parentAccount.Contact_Employment_Sector__pc}"/>
+                                           <!-- <select name="sector">
+                                              <option >-Select-</option>
+                                              <option selected="selected">Finance</option>
+                                           </select>  -->
+                                        </div>
+                                     </div>
+                                  </td>
+                               </tr>
+                               <tr>
+                                  <td>
+                                     <div class="section nationality">
+                                        <label class="pc-label" for="nationality">Nationality</label><br/>
+                                        <div class="section-select nationality">
+                                           <apex:inputField value="{!parentAccount.Contact_Nationality__pc}"/>
+                                           <!-- <select name="nationality">
+                                              <option >-Select-</option>
+                                              <option selected="selected">Sudanese</option>
+                                           </select>  -->
+                                        </div>
+                                     </div>
+                                  </td>
+                                  <td>
+                                     <div class="inline employer">
+                                        <label class="pc-label" for="employer">Employer</label><br/>
+                                        <apex:inputField value="{!parentAccount.Contact_Employer__pc}"/>
+                                        <!-- <input type="text" class="employer" name="employer" value="Salomon Mines and Diamonds"/>  -->
+                                     </div>
+                                  </td>
+                               </tr>
+                            </tbody>
+                         </table>
+                         <div class="info pc-label">The contact information provided above should be specific to you i.e. do not put the email/phone number or your partner or another family member. All information is confidential and will not be shared with parents or other third parties.</div>
+                      </article>
+                  </apex:outputPanel>
+                  
+                  
+                  <!-- for person contact -->
+                  <apex:outputPanel layout="block" rendered="{!!isPersonAccountContact}">
+                      <article class="term-section first">
+                         <header class="t-sec-header"><span class="season">Your details</span></header>
+                         <section class="inputs name-inputs">
+                            <div class="section name salutation">
+                               <label class="pc-label" for="salutation">Salutation</label><br/>
+                               <div class="section-select salutation">
+                                  <apex:inputField value="{!parentContact.Salutation}"/>
+                                  <!-- <select name="salutation">
+                                     <option >-Select-</option>
+                                     <option selected="selected">Prof. </option>
+                                  </select>  -->
+                               </div>
+                            </div>
+                            <div class="inline name first-name">
+                               <label class="pc-label" for="first-name">First Name</label><br/>
+                               <apex:inputField value="{!parentContact.FirstName}"/>
+                               <!-- <input type="text" name="first-name" value="Benny"/>  -->
+                            </div>
+                            <div class="inline name last-name">
+                               <label class="pc-label" for="last-name">Last Name</label><br/>
+                               <apex:inputField value="{!parentContact.LastName}"/>
+                               <!-- <input type="text" name="last-name" value="McGraw-Hill"/>  -->
+                            </div>
+                         </section>
+                      </article>
+                      <article class="contact-details term-section with-border emails">
+                         <table>
+                            <tr>
+                               <td>
+                                  <label class="pc-label">Main E-mail and School Hub Username</label><br/>
+                                  <apex:inputField id="mainEmailContact" value="{!parentContact.Email}" styleclass="pc-input first"/>
+                                  <!-- <input type="text" value="benny@mcgraw-hill.nl" class="pc-input first" />  -->
+                               </td>
+                               <td>
+                                  <label class="pc-label">Email Preferences</label>
+                                  <div class="chk-side chk1"></div>
+                                  <!-- <input type="checkbox" name="chk1" id="chk1" class="chekbox" />  -->
+                                  <apex:inputCheckbox id="chk11" value="{!doNotReceiveEmail}" styleclass="chekbox"/>
+                                  <span class="chk-display"><span class="fill"></span></span>
+                                  <label for="mainpage:mainform:chk11" class="chk-label">I <strong>do not</strong> wish to receive Parent Portal email notifications</label>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <label class="pc-label">Alternate E-mail</label><br/>
+                                  <apex:inputField value="{!parentContact.Contact_Alternate_Email__c}" styleclass="pc-input first"/>
+                                  <!-- <input type="text" value="benny@gmail.com" class="pc-input first" />  -->
+                               </td>
+                               <td>
+                                  <div class="chk-side chk1"></div>
+                                  <apex:inputCheckbox id="chk22" value="{!parentContact.HasOptedOutOfEmail}" styleclass="chekbox"/>
+                                  <!-- <input type="checkbox" name="chk2" id="chk2" class="chekbox" />  -->
+                                  <span class="chk-display"><span class="fill"></span></span>
+                                  <label for="mainpage:mainform:chk22" class="chk-label">I <strong>do not</strong> wish to receive important email announcements from the school</label>
+                               </td>
+                            </tr>
+                         </table>
+                      </article>
+                      <!-- <article class="term-section with-border phones">
+                         <table>
+                            <tbody>
+                               <tr>
+                                  <td>
+                                     <div class="inline area-code">
+                                        <label class="pc-label hidden" for="area-main">-</label><br/>
+                                        <apex:inputField value="{!parentContact.Contact_Mobile_Main_Phone_Country_CodePL__c}" styleclass="area-code"/>
+                                        <!-- <input type="text" class="area-code" name="area-main" value="+370"/>  -->
+                                     <!-- </div>
+                                     <div class="inline main-phone">
+                                        <label class="pc-label" for="main-phone">Main Phone</label><br/>
+                                        <apex:inputField value="{!parentContact.MobilePhone}" styleclass="phone"/>
+                                        <!-- <input type="text" class="phone" name="main-phone" value="617 05770"/>  -->
+                                        
+                                    <!-- </div>
+                                  </td>
+                                  <td>
+                                     <div class="inline area-code">
+                                        <label class="pc-label hidden" for="area-alt">-</label><br/>
+                                        <apex:inputField value="{!parentContact.Contact_Alternate_Phone_Country_CodePL__c}" styleclass="area-code"/>
+                                        <!-- <input type="text" class="area-code" name="area-alt" value="+370"/>  -->
+                                     <!-- </div>
+                                     <div class="inline alternate-phone">
+                                        <label class="pc-label" for="main-phone">Alternate Phone</label><br/>
+                                        <apex:inputField value="{!parentContact.Contact_Alternate_Phone__c}" styleclass="phone"/>
+                                        <!-- <input type="text" class="phone" name="main-phone" value="617 05770"/>  -->
+                                     <!--</div>
+                                  </td>
+                               </tr>
+                            </tbody>
+                         </table>
+                      </article> -->
+                      <article class="term-section with-border phones">
+                         <table class="fourth">
+                            <tbody>
+                               <tr>
+                                  <td>
+                                     <div class="inline area-code">
+                                        <label class="pc-label" for="area-main">Mobile/Main Phone Country Code</label><br/>
+                                        <div class="section-select">
+                                        <!-- <span class="plus-areacode">+ </span> -->
+                                        <apex:inputField value="{!parentContact.Contact_Mobile_Main_Phone_Country_CodePL__c}" styleclass="area-code"/>
+                                        <!-- <input type="text" class="area-code" name="area-main" value="+370"/>  -->
+                                         </div>
+                                     </div>
+                                     <div class="inline hyphen">
+                                        <span class="plus-areacode"> - </span>
+                                      </div>
+                                     <div class="inline area-code">
+                                        <label class="pc-label" for="area-alt">Alternate Phone Country Code</label><br/>
+                                        <!-- <span class="plus-areacode">+ </span> -->
+                                        <div class="section-select">
+                                        <apex:inputField value="{!parentContact.Contact_Alternate_Phone_Country_CodePL__c}" styleclass="area-code"/>
+                                        <!-- <input type="text" class="area-code" name="area-alt" value="+370"/>  -->
+                                         </div>
+                                      </div>
+                                     <div class="inline hyphen">
+                                        <span class="plus-areacode"> - </span>
+                                      </div>                                      
+                                  </td>
+                                  <td class="rightcol">
+                                     <div class="inline main-phone">
+                                        <label class="pc-label" for="main-phone">Mobile/Main Phone</label><br/>
+                                        <apex:inputField value="{!parentContact.MobilePhone}" styleclass="phone"/>
+                                        <!-- <input type="text" class="phone" name="main-phone" value="617 05770"/>  -->
+                                     </div>
+                                     <div class="inline alternate-phone">
+                                        <label class="pc-label" for="main-phone">Alternate Phone</label><br/>
+                                        <apex:inputField value="{!parentContact.Contact_Alternate_Phone__c}" styleclass="phone"/>
+                                        <!-- <input type="text" class="phone" name="main-phone" value="617 05770"/>  -->
+                                     </div>
+                                  </td>
+                               </tr>
+                            </tbody>
+                         </table>
+                      </article>
+                      <article class="term-section with-border fourth"> 
+                         <table class="fourth">
+                            <tbody>
+                               <tr>
+                                  <td>
+                                     <div class="section relationship">
+                                        <label class="pc-label" for="relationship">Relationship</label><br/>
+                                        <div class="section-select relationship">
+                                            <apex:inputField value="{!parentContact.Contact_Relationship__c}"/>
+                                            <!-- <select name="relationship">
+                                              <option >-Select-</option>
+                                              <option selected="selected">Father</option>
+                                           </select>  -->
+                                        </div>
+                                     </div>
+                                  </td>
+                                  <td>
+                                     <div class="inline"> 
+                                        <label class="pc-label" for="">Occupation</label><br/>
+                                        <div class="inline">
+                                            <apex:inputField value="{!parentContact.Contact_Employment_Sector__c}"/>
+                                            <!-- <select name="sector">
+                                              <option >-Select-</option>
+                                              <option selected="selected">Finance</option>
+                                           </select>  -->
+                                        </div>
+                                     </div>
+                                  </td>
+                               </tr>
+                               <tr>
+                                  <td>
+                                     <div class="section nationality">
+                                        <label class="pc-label" for="nationality">Nationality</label><br/>
+                                        <div class="section-select nationality">
+                                           <apex:inputField value="{!parentContact.Contact_Nationality__c}"/>
+                                           <!-- <select name="nationality">
+                                              <option >-Select-</option>
+                                              <option selected="selected">Sudanese</option>
+                                           </select>  -->
+                                       </div>
+                                     </div>
+                                  </td>
+                                  <td>
+                                     <div class="inline employer">
+                                        <label class="pc-label" for="employer">Employer</label><br/>
+                                        <apex:inputField value="{!parentContact.Contact_Employer__c}"/>
+                                        <!-- <input type="text" class="employer" name="employer" value="Salomon Mines and Diamonds"/>  -->
+                                     </div>
+                                  </td>
+                               </tr>
+                            </tbody>
+                         </table>
+                         <div class="info pc-label">The contact information provided above should be specific to you i.e. do not put the email/phone number or your partner or another family member. All information is confidential and will not be shared with parents or other third parties.</div>
+                      </article>
+                  </apex:outputPanel>
+                  
+                  
+                  <article class="term-section first-contact">
+                     <header class="t-sec-header"><span class="season">First Point of Contact</span></header>
+                     <section class="inputs name-inputs first-contact">
+                        <div class="section name">
+                           <label class="pc-label" for="first-contact">Please select the parent that will be the school’s first point of contact</label><br/>
+                           <div class="section-select first-contact">
+                              <apex:selectList value="{!parentAccount.Primary_Contact__c}" multiselect="false" size="1">
+                                 <apex:selectOptions value="{!firstPointOfContact}"/>
+                              </apex:selectList>
+                              <!-- <select name="first-contact">
+                                 <option >-Select-</option>
+                                 <option selected="selected">Mrs. Jane McGraw-Hill</option>
+                              </select>  -->
+                           </div>
+                        </div>
+                     </section>
+                  </article>
+                  <article class="term-section first-contact">
+                     <header class="t-sec-header"><span class="season">Other Family Details</span></header>
+                     <section class="inputs name-inputs">
+                        <table class="fourth">
+                           <tbody>
+                              <tr>
+                                 <!--<td>
+                                    <label for="main-address" class="pc-label">Main Address</label><br/>
+                                    <apex:inputField value="{!parentAccount.Main_Address__c}"/>
+                                    <!-- <textarea name="main-address" class="main-address">15 Jalan Kapas, Bukit Bandaraya, Kuala Lumpur - 100th floor -Z Door 33R Sector 22 Letter U. Malaysia</textarea>  -->
+                                 <!--</td>-->
+                                 <td>
+                                    <label for="note" class="pc-label">Additional Contact Notes</label><br/>
+                                    <apex:inputField value="{!parentAccount.Contact_Note__c}"/>
+                                    <!-- <textarea name="notes">Notes</textarea>  -->
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </section>
+                  </article>
+               </div>
+            </td>
+         </tr>
+      </table>
+   </apex:form>
+   </body>
+</apex:page>

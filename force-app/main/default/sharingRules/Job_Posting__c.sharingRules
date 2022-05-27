@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>BCB_Share_Job_Posting_with_Job_Postings_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BCB Share Job Posting with Job Postings Managers</label>
+        <sharedTo>
+            <group>BCB_Job_Postings_Managers</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Headteacher_BCB</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BSKL_Share_Job_Posting_with_Job_Postings_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSKL Share Job Posting with Job Postings Managers</label>
+        <sharedTo>
+            <group>BSKL_Job_Postings_Managers</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Headteacher_BSKL</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BSNJ_Share_Job_Posting_with_Job_Postings_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSNJ Share Job Posting with Job Postings Managers</label>
+        <sharedTo>
+            <group>BSNJ_Job_Postings_Managers</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Headteacher_BSNJ</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BST_Share_Job_Posting_with_Job_Postings_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BST Share Job Posting with Job Postings Managers</label>
+        <sharedTo>
+            <group>BST_Job_Postings_Managers</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>BST_Headteacher</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BSY_Share_Job_Posting_with_Job_Postings_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSY Share Job Posting with Job Postings Managers</label>
+        <sharedTo>
+            <group>BSY_Job_Postings_Managers</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>BSY_Headteacher</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Group_Marketing_share_with_Group_Marketing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Group Marketing share with Group Marketing</label>
+        <sharedTo>
+            <group>NAE_Group_Marketing</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>NAE_Group_Marketing</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>ISM_Share_Job_Posting_with_Job_Postings_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>ISM Share Job Posting with Job Postings Managers</label>
+        <sharedTo>
+            <group>ISM_Job_Postings_Managers</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Headteacher_ISM</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>NAISM_Share_Job_Posting_with_Job_Postings_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>NAISM Share Job Posting with Job Postings Managers</label>
+        <sharedTo>
+            <group>NAISM_Job_Postings_Managers</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>NAISM_Headteacher</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

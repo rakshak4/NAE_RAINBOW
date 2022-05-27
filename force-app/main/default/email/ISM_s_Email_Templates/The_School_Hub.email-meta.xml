@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>The School Hub</name>
+    <style>freeForm</style>
+    <subject>The School Hub</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+At ISM we do everything that we can to ensure that lines of communication are open and that you, our families, are well informed about your children and school life. At times however, we have sensed that parents are becoming bombarded with emails. In order to make communications more streamlined, we are pleased to announce the launch of &quot;The School Hub&quot;, a state-of-the-art web based parent portal.
+
+The primary focus of the School Hub is to keep parents informed of every aspect of school life, in an efficient and comprehensive manner. This will enable you to follow the academic and pastoral progress of your children through feedback from teachers and tutors in one place.
+
+In addition, the portal will also act as an extension of the school community as it will provide a platform for parents to better communicate with staff and provide feedback on a range of topics.
+
+The School Hub is part of the school&apos;s commitment to develop the use of technology in all aspects of school life, in a way that improves on the quality of teaching and learning and expands ways in which members of our community interact with one another.
+
+In order for you to use the parent portal, you will receive an email in the next few days that will give you simple guidelines to enter and use this new system. It is our intention that the portal will begin to be used early next week by teachers and parents.
+
+Following on from that, the Mid Year EYFS and Primary reports will be released digitally through this system on Friday February 21st. It is our intention over the coming months to reduce Email and paper based communication, in favour of this more dynamic and rich content delivery system. This transition will be staged and further guidance will be shared with all parties through a clear communications policy in the coming weeks.
+
+
+We hope that you enjoy this new feature and find it a productive change for the better.
+
+Paul Seedhouse
+Headteacher
+The International School of Moscow
+World Class Education
+
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

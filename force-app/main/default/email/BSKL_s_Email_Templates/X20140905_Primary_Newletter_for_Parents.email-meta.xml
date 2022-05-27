@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20140905 - Primary Newletter for Parents</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20140905 - Primary Newletter for Parents</name>
+    <style>freeForm</style>
+    <subject>Newletter from the Head of Primary</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}
+
+Welcome to the new school year!
+
+I would like to take this opportunity to introduce myself and say how excited and proud I am at becoming the Head of Primary in such a popular school. I am keen to get to know everybody; if you see me on either the primary or secondary campus, please feel free to introduce yourself and have a chat. I operate an ‘open door’ policy and am happy to speak to parents at anytime, if available. If you prefer to make an appointment to see me for a specific issue, please contact the school administrators. There will also be a good opportunity to meet me in a more social setting at the new ‘Coffee and Chat’ mornings we have scheduled in for parents each term.
+As a teacher and leader I have always believed in a child-centred approach to education, wherever I have worked, both internationally and in the UK. Every child should and does matter and, as a school, we will endeavour to be pro-active in ensuring all the children understand how to stay safe, keep healthy and develop a love of learning to fulfil their potential.
+
+Primary education is an important stage in children’s development. As well as giving them the essential tools for learning, primary education is about children experiencing the joy of discovery, solving problems, being creative in all areas of the curriculum and developing their self-confidence as learners and maturing socially and emotionally. Excellence in teaching and enjoyment of learning is at the heart of what we are doing. Literacy and Numeracy remain vital, but we also wish to combine this with a rich and exciting curriculum. Our goal is a ‘creative curriculum’, which develops, stretches and excites the children’s imagination. The richness of their learning comes not just from learning different things but learning in many different ways: out-of-doors, through cross-curricular links or by seeing, by hearing and by doing.
+
+Partnership with parents is a powerful tool in supporting children and helping family learning and we are keen to promote this in the forthcoming year.
+
+I am delighted to have a dedicated and enthusiastic team of teaching and support staff. A new key role in the primary school is the Deputy Head of Primary and Alison Mackey, who many of you may know, will be working with children, teaching staff and parents on pastoral and curriculum initiatives throughout the year.
+
+The children have returned to school looking very smart and have settled quickly into their new classes and routines. At the end of next week, you will receive a letter from your child’s year group leader in which information and details of the curriculum for term one will be given.
+
+The children are enjoying the new extended range of sport and languages. A diverse range of enrichment activities are also on offer for year one to year 6, from drumming to debating and ice skating to future chef classes. Information of these enrichment activities will be sent out shortly, with enrolment early next week. Please sign up as soon as possible. Places will be confirmed and enrichment will commence the week beginning 15th September 2014.
+
+I would like to thank everyone for the warm welcome I have received and, in particular Janet Brock, our Headteacher, Derek Mackey, Head of Secondary and Alison Mackey, Deputy Head of Primary for their support.
+
+I look forward to working with everyone on the many projects and initiatives that we have planned for the year and am sure that the British International School, Kuala Lumpur will continue to provide a ‘World Class Education’ ensuring: ‘Docendo Discimus’ - ‘By Teaching we Learn’.
+
+Kind regards,
+
+
+Debra Birchall
+Head of Primary
+
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

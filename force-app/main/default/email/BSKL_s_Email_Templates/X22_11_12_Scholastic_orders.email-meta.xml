@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>22/11/12 Scholastic orders</name>
+    <style>freeForm</style>
+    <subject>Scholastic orders</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The Scholastic catalogue orders are now being taken and this is a reminder that tomorrow, Friday is the deadline for the orders.
+
+However, for parents of the younger children from Foundation and Years 1 and 2, the deadline is Monday.
+
+
+
+The reason for this is we did not receive enough catalogues, but now we have them.
+
+The books take 3-4 weeks to arrive and the Scholastic rep informed me that if books are ordered any later, the children might not get them in time before we break up for Xmas.
+
+So I am asking if you could adhere to this strict and necessary deadline.
+
+
+
+Payment:
+
+Cash is fine, but please attach to order form with a paper clip as money is easily lost.
+
+
+
+Cheques to be made out to scholastic please and if using a credit card, please do not forget to put all your details.
+
+
+
+I thank you all for your patience, the books will arrive in time as I have been told we are being given a priority order this time, given that the school breaks up sooner than we all think!
+
+
+
+Thank you and enjoy your books with your children.
+
+
+
+Alan Savage
+
+Year 8A Teacher
+
+Head of Year 8
+
+Literacy Coordinator
+
+
+
+Administration Team
+
+The British International School of Kuala Lumpur
+World Class Education
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

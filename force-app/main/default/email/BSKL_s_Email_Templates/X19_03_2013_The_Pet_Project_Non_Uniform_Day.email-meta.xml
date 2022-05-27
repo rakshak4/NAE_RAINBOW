@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>19/03/2013 - The Pet Project Non-Uniform Day</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>19/03/2013 - The Pet Project Non-Uniform Day</name>
+    <style>freeForm</style>
+    <subject>The Pet Project Non-Uniform Day</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I trust this finds you all well.
+
+As you know on Saturday 23rd March The Pet Project will be taking place in school from 9am – 6pm.  It promises to be a wonderful and worthwhile event, with something for everyone!
+
+In accordance with this event on Friday 22nd March we would like to invite students to come to school in their own clothing.  This optional Non-Uniform Day will raise funds for The Pet Project.  If your child would like to come to school in their own clothes then please make a donation of RM5 to their class teacher on the day.
+
+Thank you and warm regards
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

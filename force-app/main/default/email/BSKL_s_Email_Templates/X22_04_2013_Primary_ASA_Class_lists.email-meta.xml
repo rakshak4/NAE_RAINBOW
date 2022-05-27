@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>22/04/2013 Primary ASA Class lists</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>22/04/2013 Primary ASA Class lists</name>
+    <style>freeForm</style>
+    <subject>Primary ASA Class lists</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please follow the links below to find the most recent ASA class lists. If your child does not have an ASA please contact me as soon as possible. If a child has not been registered by tomorrow, they will need to be collected from school at 3:00pm.
+
+Reception - https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004Qay/31xCpvthuvmMe8ZURHIrHiKf9iWx8ec8CaoQgm7M__g=
+Year 1 - https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004Qb8/jTlcT1mzYzbhkIpr3OV0KVDholJ_m4.nrkQ5FkB2.zA=
+Year 2 - https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004QbD/hlrJmhBHBH4PKGpm.sUj68jqLTSYOKGHKTq.IBO2l6c=
+Year 3 - https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004QbI/K2AmAZuLIb4Siv2FqCv8aRMv5jRC0WeBo4ac2OoQRos=
+Year 4 - https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004QbN/RIOiwx0iGKvqrFkFZEy8.20snwJ7wDeT4ODuYwHIEdw=
+Year 5 - https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004QbS/_nl9YY2UZL2Z56w0nNbrIp0r5dGKXx.2ZC1ooDlSYZA=
+
+Kind Regards
+
+Sean Allday
+Year 4C Teacher
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

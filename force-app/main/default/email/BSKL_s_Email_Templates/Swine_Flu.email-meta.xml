@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Swine Flu</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Swine Flu</name>
+    <style>freeForm</style>
+    <subject>Confirmed case of H1N1</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Today I was informed that there has been a confirmed case of H1N1 in Year 3. Due to production rehearsals this child has been in both campuses and mixed closely with Y3&amp;4 children.
+Please look out for any of the following symptoms and do not send your child in if they exhibit any of these symptoms.
+
+Fever above 37.5 degrees
+Vomiting
+Sneezing, cough and runny nose
+Severe headaches and aching body
+Diarrhea or stomach upset
+
+School will continue to make sure every child uses sanitiser gel and as happens daily in primary that their temperature is taken in the morning.
+Cleaners are in Sunday disinfecting the campus. Sodexo and SHF have been informed to ensure they do the same in the kitchens.
+Both nurses are aware of the situation and on alert.
+
+Below is further information
+http://www.nhs.uk/Conditions/Pandemic-flu/Pages/Symptoms.aspx
+
+Kind regards,
+Janet Brock
+Headteacher
+
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

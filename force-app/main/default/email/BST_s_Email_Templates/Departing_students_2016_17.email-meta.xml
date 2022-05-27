@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Departing students 2016-17</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Departing students 2016-17</name>
+    <style>freeForm</style>
+    <subject>Departing students 2016-17</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+As the end of the school year quickly approaches some of you will be leaving the school for new adventures. We would like to remind you that if you plan to withdraw your child from BST at the end of this school year, you should contact Elena Savtsova at frontdesk@britishschool.uz as soon as possible to enable our administration team to prepare the necessary documents.
+
+As these documents need to be signed by BST Headteacher, Mr Adrian Macaulay, we kindly ask you to inform us by Wednesday, June 28, to ensure that Mr Macaulay is able to sign them before he leaves Tashkent for the summer vacation.
+
+Thank you for your understanding,
+Best regards,
+Administration Team
+The British School of Tashkent
+
+
+Уважаемые родители!
+
+Конец учебного года всё ближе и возможно, некоторые из Вас планируют покинуть наше учебное заведение. Любезно напоминаем Вам о том, что, если Вы планируете забирать ребёнка/детей из нашей школы в конце этого учебного года, Вам необходимо обратиться к Елене Савцовой по электронной почте frontdesk@britishschool.uz и сообщить об уходе, чтобы администрация подготовила все необходимые документы.
+
+Также любезно напоминаем Вам о том, что все необходимые документы подписываются Академическим директором школы- мистером Адрианом Маколеем. Просим Вас проинформировать администрацию школы о Вашем возможном уходе из школы до следующей среды 28-го июня, чтобы мистер Маколей подписал документы до того, как уедет из Ташкента на период летних каникул.
+
+Надеемся на Ваше понимание.
+
+Администрация Британской школы
+Города Ташкента
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

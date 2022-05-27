@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Medical approval form</name>
+    <style>freeForm</style>
+    <subject>Medicine Approval Form</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Throughout the year children naturally have a variety of illnesses that require specific medication. To uphold our Health and Safety regulations we are unable to administer any medication to students without written approval from the parents.
+
+If your child is well enough to return to school but requires medication a  &apos;medicine approval form&apos; must be completed and sent in along with the prescribed medicine. If we do not receive written approval from the parent the school nurse will not be able to administer the required medication.
+
+We are unable to place this form on the BSG website, therefore we recommend that you save the form for future use.
+
+To download the form, please click here.
+
+Please note, for hygiene and safety reasons, any medicine sent into school should be sealed in a plastic bag.
+Thank you for your support with this matter.
+Kind regards,
+
+Miss Kathy
+
+Head of Lower School
+The British School of Guangzhou
+Tel: +86 (20) 3725 9376
+www.bsg.org.cn
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

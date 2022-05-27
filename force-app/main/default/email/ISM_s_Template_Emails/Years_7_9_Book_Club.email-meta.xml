@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Years 7-9 Book Club</name>
+    <style>freeForm</style>
+    <subject>Years 7 - 9 Book Club</subject>
+    <textOnly>Dear Parents,
+You will find below a letter from Mr Daniel Frater in relation to the International Book Club. This is a great opportunity to purchase quality books for your children.
+Unfortunately, we did not receive enough catalogues for all the classes.Therefore, you will find below the link to the catalogue online.
+http://content.yudu.com/Library/A1tmz0/BookZoneAutumn/resources/index.htm?referrerUrl=http%3A%2F%2Fwww.yudu.com%2Fitem%2Fdetails%2F392085%2FBook-Zone-Autumn.pdf
+Attached you will find the letter and order form. If you would like to order some books, please complete the order form and return it to your child&apos;s class teacher with the correct money in an envelope.
+Best Regards
+Dino Vikas
+Head of Admissions 
+The International School of Moscow
+Tel:  +7 (499) 922 44 00
+Fax: +7 (499) 922 44 00 Ext.4 
+www.internationalschool.ru
+Part of The British Schools Group
+
+*Disclaimer:*
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

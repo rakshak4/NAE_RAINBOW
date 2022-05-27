@@ -1,0 +1,109 @@
+<apex:page standardStylesheets="false" controller="ParentPortalAssessment_Controller" action="{!filterAssessments}" sidebar="false" id="mainpage">
+   <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <apex:stylesheet value="/apex/PortalAssessmentPageCSS"/>
+  </head>
+  <apex:form >
+  <apex:pageMessages id="messages"/>
+  <apex:actionFunction name="handleStudentChange" action="{!handleStudentChange}" />
+  <apex:actionFunction name="handleYearChange" action="{!handleYearChange}"  />
+  <apex:actionFunction name="handleSubjectChange" action="{!handleSubjectChange}" />
+  <apex:actionFunction name="handleReportTypeChange" action="{!handleReportTypeChange}" />
+  <body><table border="0">
+        <tr>
+        <td valign="top">
+        <aside id="sidebar">
+            <div class="sidebar-top">
+                <h1>Report Card Dashboard</h1><br/>
+                <h3>Configure the<br/>Report below</h3>
+            </div>
+            
+            <div class="section first">
+                <div class="section-heading">Student</div>
+                <div class="section-select">
+                    <apex:selectList id="studentselection" value="{!selectedStudentId}" multiselect="false" size="1" onChange="handleStudentChange();">
+                        <apex:selectOptions value="{!studentList}"/>
+                    </apex:selectList>
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-heading"><apex:actionStatus startText="(updating)" stopText="Academic Year" id="yearStatus"/></div>
+                <div class="section-select">
+                    <apex:selectList id="ayear" value="{!selectedStudentYear}" multiselect="false" size="1" onChange="handleYearChange();">
+                        <apex:selectOptions value="{!studentYearOptions}"/>
+                    </apex:selectList>
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-heading"><apex:actionStatus startText="(updating)" stopText="Report Types" id="subjectStatus"/></div>
+                <div class="section-select">
+                    <apex:selectList id="subject" value="{!selectedStudentGroup}" multiselect="false" size="1" onChange="handleSubjectChange();">
+                        <apex:selectOptions value="{!studentGroupsOptions}"/>
+                    </apex:selectList>
+                </div>              
+                <table class="chk-container">
+                    <apex:repeat value="{!assessmentTypeOptions}" var="assessmentType">
+                        <tr>
+                            <td class="{!IF(assessmentType.index == 1, 'first', '')}">
+                                <div class="chk-side chk{!assessmentType.rt}"></div>
+                                <apex:inputCheckBox id="chk1" value="{!assessmentType.selected}" styleClass="chekbox" onChange="handleReportTypeChange();"/>
+                                <span class="chk-display"><span class="fill"></span></span>
+                                <apex:outputLabel for="chk1" styleClass="chk-label">{!assessmentType.reportType}</apex:outputLabel>
+                            </td>
+                        </tr>
+                    </apex:repeat>
+                </table>
+            </div>
+             <!--<div class="section">
+                <div class="section-heading">Submit to view your selected report</div>
+                <apex:commandButton value="Submit" styleClass="button btn-section" action="{!filterAssessments}"/>
+                <apex:commandButton value="Reset" styleClass="button btn-section" action="{!reset}"/>
+            </div>-->
+            <div class="section">
+                <div class="section-heading">Print this Report Card</div>
+                <apex:commandLink value="Print" action="{!printAssessments}" styleClass="button btn-section btn-print" target="_blank"/>
+            </div>
+        </aside>
+        </td><td valign="top">
+        <div id="main">
+            <article class="term-section first">
+                <apex:repeat value="{!termWrapperList}" var="tw">
+                    <header class="t-sec-header">Academic Year {!selectedStudentYear} | {!tw.term}</header>
+                    <apex:repeat value="{!tw.assessments}" var="assessment">
+                        <c:AssessmentDetail reportType="{!assessment.assessment.Assessment_Folder__r.Type__c}" 
+                            record="{!assessment.assessment}"
+                            groupName="{!assessment.groupName}" 
+                            subjectName="{!assessment.subjectName}" 
+                            effort="{!assessment.assessment.Effort__c}" 
+                            effortLabel="{!assessment.assessment.Effort_ATL_Output_Label__c}"
+                            isEffortNumeric="{!assessment.isEffortNumeric}"
+                            grade="{!assessment.assessment.Grade__c}"
+                            achievement="{!assessment.assessment.Achievement__c}"
+                            description="{!assessment.assessment.Comment__c}"
+                            pic="{!assessment.userInfo_PicURL}"
+                            tutorName="{!assessment.userInfo_Name}"
+                            tutorRole="{!assessment.userInfo_Title}"
+                            tutorEmail="{!assessment.userInfo_Email}"
+                            rt="{!assessment.rt}"                             
+                        />
+                    </apex:repeat>
+                </apex:repeat>
+            </article>
+            <apex:outputPanel layout="block" rendered="{!!hasItems}">
+                <br/><br/>
+                <div class="no-results-behavior">
+                    Sorry, there are no records to display. Please adjust filter criteria in the sidebar.
+                    <span class="user-icon"></span>
+                    <span class="down-aero"></span>
+                </div>
+            </apex:outputPanel> 
+        </div>
+        </td>
+        </tr>
+        </table>
+  </body>
+  </apex:form>
+</apex:page>

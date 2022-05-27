@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Note to parents about case of Hepatitis A 2014</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Case of Hepatitis A</name>
+    <style>freeForm</style>
+    <subject>Case of Hepatitis A in school</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I am writing to inform you that we have today received a notification of a case of Hepatitis A in one of our Year 4 classes; the child who contracted the illness was in school last week. I am aware of a number of cases in other local schools at this time.
+
+
+While this is not a cause for undue concern, I feel that it is important to share the following information in the interests of keeping parents well informed and to prevent any unnecessary infection.
+
+
+
+Measures that we are taking in school
+
+Whilst there is no evidence to say that the child was infected at school, we have been advised by international medical services that an increased emphasis on basic hygiene when preparing food, before eating and after using the toilet is the only necessary response, in addition to this we are implementing the following procedures to safeguard our pupils and to reassure parents:
+
+
+
+Starting today as of 4:30 pm, we will disinfect the school building. In addition to our own cleaning staff, we have also contracted a reputable cleaning company who we are working with to come in and provide additional support and advice.  In particular, cleaning staff will focus on sterilizing any surfaces that the children regularly touch such as table tops, door handles, bannisters and toilet seats.
+
+
+Our school nurse will conduct a health check at during registration period for the remainder of the school term.  Please support us by keeping your child at home if they exhibit symptoms of illness and ensure that you are attainable by phone throughout the school day.
+
+
+All water dispensers will be refreshed after being cleaned thoroughly.
+
+
+Our catering company have also been informed and are taking additional measures to maintain the levels of hygiene instigated this academic year.
+
+
+Additional hand sanitizers will be available and children monitored to make sure they are using them before eating and coming from the bathroom
+
+
+What is Hepatitis A?
+
+It is a generally mild illness that is caused by the hepatitis A virus. The virus infects the stomach, intestines, and liver.  The infection is spread by direct bodily contact (exchange of saliva or body fluids) or contaminated food or water.  The incubation period of the illness (time from coming in contact with the infection to developing the virus) is two to six weeks.
+
+It varies in its degree of severity and symptoms depending on the age of the infected person. It is usually a short-term infection that has unpleasant symptoms but is rarely serious. Please do not confuse this infection with Hepatitis B or C. These are much more serious.
+
+Symptoms
+
+Symptoms vary according to age:
+
+Children 6 years and younger.
+
+- 70% of the cases are silent; there are no symptoms, not even fever.
+
+The illness comes and goes harmlessly, and nobody is even aware of it.
+
+- 30% of children who catch this illness may have fever, fatigue, body aches, poor appetite, stomach pain, nausea, and perhaps vomiting and diarrhea.
+
+
+Virtually all cases in this age group pass with no long-term complications.
+
+
+Children 6 years to 12 years.
+
+- 65% of children who catch the illness will show symptoms. These symptoms include fever, fatigue, body aches, poor appetite, stomach pain, nausea, and maybe vomiting and diarrhea.
+
+- Many cases will have mild symptoms, but some will have moderate symptoms that can come and go for a few weeks. Almost half the cases with symptoms will also have jaundice. The illness basically acts like an extended stomach flu.
+
+There are virtually never any long-term complications in this age group.
+
+
+
+Teenagers and adults.
+
+This age is where the disease is more troublesome. Most cases will experience the above symptoms, and the symptoms may be more pronounced and last longer. 70% of cases will have jaundice. Rarely, the disease can come and go for six months. Severe liver damage occurs very rarely.
+
+
+If I recognise any of the symptoms what should I do?
+
+If any of the above symptoms are recognised, children should be kept away from school until completely recovered. (Normally seven days from the onset of the symptoms). In the meantime it is wise to get them screened by a doctor and inform the class teacher at school if diagnosis is confirmed.
+
+Should you recognise symptoms in teenagers and adults it is certainly worthwhile being cautious and being screened at the earliest opportunity.
+
+Should we recognise any symptoms in children at school we will contact parents to collect them as soon as possible. This will prevent the spread of infection. Obviously with this in mind we will be particularly attentive to regular washing of hands at school at the appropriate times.
+
+In Summary
+
+Allow me to reassure you that in the vast majority of cases this is a mild infection from which one will recover in a relatively short time. By being aware of the above information and responding accordingly I hope that we can ensure the safety of all pupils and minimise any disruption to the children’s school routine.
+
+Of course, prevention is the best cure. The best way to avoid infection is by ensuring regular washing of hands and good general hygiene. Teachers have been notified of the need to pay particular attention to this and the kitchen have been informed to take particular care in washing fruit and vegetables for lunches and snacks.
+
+We continue to strongly recommend that all residents of Tashkent, irrespective of age, be vaccinated against Hepatitis A, Hepatitis B and Diphtheria.  Please visit your doctor if you are unsure of your child’s vaccination status.
+
+Best regards,
+
+David Kirkham
+
+Headmaster
+
+
+Дорогие родители!
+
+
+Я пишу вам чтобы сообщить, что в четвертом классе у нас обнаружен случай заболевания гепатитом А (желтуха). Заболевший ребёнок был в школе на прошлой неделе. Как мне известно, в местных школах были также обнаружены случаи желтухи.
+
+
+Несмотря на то, что данный случай не является предметом озабоченности школы, Я всё-таки считаю своим долгом сообщить вам эту информацию, чтобы вы были хорошо информированы и могли предпринять определённые меры.
+
+
+Меры безопасности, предпринятые школой
+
+
+Несмотря на то, что нет никаких оснований считать, что ребенок заразился в школе, международная клиника, в тесном сотрудничестве с которой мы работаем, рекомендовала нам усилить контроль за гигиеническими требованиями к приготовлению еды, мытьём рук до еды и после использования туалета. В дополнение к этим рекомендациям мы ввели следующие процедуры, чтобы обезопасить наших учеников и успокоить родителей:
+
+
+- Начиная с 16.30 сегодняшнего дня мы проведем дезинфекцию всего здания. В дополнение к нашему штату уборщиц мы заключили контракт с клининговой компанией, которая поддержит нас в этот период. Наш штат уборщиц будет неукоснительно следить за тем, чтобы все поверхности, например, ручки дверей, поверхности столов, перила, стульчаки унитазов, которых касаются дети, были простерилизованы.
+
+
+- Школьная медсестра будет продолжать контролировать состояние детей до начала занятий до конца триместра. Пожалуйста, поддержите наши усилия и не приводите детей в школу, если они не здоровы, а также оставайтесь в пределах досягаемости по мобильным телефонам в школьные дни.
+
+
+- Все капсулы с питьевой водой будут обновлены
+
+
+- Компания обеспечивающая нас едой также была проинформирована о случае обнаружения Гепатита А у одного из учеников, отныне они будут еще тщательнее соблюдать меры гигиены.
+
+
+- Дополнительные санитайзеры будут рапределены по школе для обработки рук перед едой и после посещения туалета. Учителя будут обращать на это особое внимание.
+
+Что такое гепатит А?
+
+В основном эта неопасная болезнь вызвана вирусом гепатита А. Вирус инфицирует желудок, печень и внутренние органы. Инфекция распространяется контактным путём (при попадании слюны больного или других выделений) или через заражённую воду. Инкубационный период составляет обычно от 2 до 6 недель (время от момента заражения до проявления первых признаков болезни)
+
+Болезнь может иметь различные симптомы, что зависит от возраста и степени заражения больного. Обычно болезнь протекает легко и недолго, и крайне редко имеет серьёзные последствия. .Не путайте гепатит А с гепатитом В и С! Эти виды гепатита гораздо серьёзнее.
+
+Симптомы
+
+Симптомы болезни зависят от возраста ребёнка:
+
+Дети 6 лет и младше.
+
+
+В 70% случаев симптомов нет, иногда не бывает даже температуры.
+
+Болезнь протекает бессимптомно, и часто вы даже не подозреваете об этом
+
+30% заразившихся детей могут иметь жар, вялость, ломоту во всём теле, потерю аппетита, боль в желудке, тошноту и возможно, рвоту и понос.
+
+
+Обычно случаи заболевания в этой возрастной группе протекают без дальнейших осложнений
+
+Дети от 6 до 12 лет.
+
+
+65% заболевших детей имеют следующие симптомы: жар, вялость, ломоту во всём теле, потерю аппетита, боль в желудке, тошноту и возможно, рвоту и понос.
+
+Во многих случаях болезнь имеет стёртые симптомы, но те, у кого стёртые симптомы, остаются больными несколько недель. Почти в половине случаев заболевший имеет жёлтый цвет лица или белков глаз. В основном болезнь проявляется как грипп.
+
+В этой возрастной группе болезнь никогда не имеет осложнений.
+
+
+
+Подростки и взрослые.
+
+В этом возрасте болезнь более опасна. В большинстве случаев болезнь имеет вышеперечисленные симптомы. Эти симптомы ярко выражены иболее длительны. 70% заболевших имеют жёлтый цвет лица. Крайне редко болезнь может носить повторный характер в продолжение 6 месяцев. Тяжёлые случаи повреждения печени наблюдаются крайне редко.
+
+
+Если я обнаружу какой-нибудь из этих симптомов, что мне следует делать?
+
+Если вы обнаружили один из вышеперечисленных симптомов, пожалуйста, не приводите ребёнка в школу до тех пор, пока он полностью не поправится (обычно это занимает несколько дней после появления первых симптомов.) Мы рекомендуем показать ребёнка врачу и, в случае подтверждения диагноза, поставить школу в известность
+
+Если эти симптомы появились у подростка или взрослого, то  вам следует показаться доктору как можно скорее.
+
+Если мы обнаружим симптомы у ребёнка в школе, мы немедленно сообщим вам, чтобы вы забрали ребёнка. Это предотвратит распространениеболезни. Без сомнения, что в этот момент мы особенно внимательны к тому, чтобы дети тщательно мыли руки.
+
+
+В заключении
+
+Разрешите мне ещё раз заверит вас в том, что это сравнительно лёгкая инфекция, от которой оправляются в короткий срок. Эта информация позволит вам обезопасить своих детей и всех учеников школы, сведя к минимуму нарушения в обычном школьном распорядке.
+
+Болезнь легче предупредить, чем лечить, как мы все это хорошо знаем. Наилучший способ предотвратить болезнь-тщательно мыть руки и соблюдать правила гигиены. Все ученики и весь штат кухни были поставлены в известность, и мы провели беседы, ещё раз напомнив о необходимости мыть фрукты и овощи для обеда и завтраков детей.
+
+Мы также настоятельно рекомендуем всем живущим в Ташкенте, независимо от возраста, привить себя и своих детей против гепатита А, В и дифтерии. Пожалуйста, поговорите с врачом, если вы сомневаетесь в пользе прививки.
+
+C наилучшими пожеланиями,
+
+Давид Киркхам
+
+Академический директор
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

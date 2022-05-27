@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>British Football School</name>
+    <style>freeForm</style>
+    <subject>British Football School</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+British Football School provide fun and interactive training sessions,
+designed to meet with the exact needs of each school and the children
+that are taking part.
+
+Our after school Football Club has been developed from the English
+Football Association’s training guidelines and is tailored to complement
+the school’s Physical Education curriculum.
+
+A former Liverpool FC academy coach will lead the 2014 trainings. The sessions will be open for all students who are currently in years 2 – 6.
+
+Please contact info@britishfootballschool.com for further details.
+
+Sessions will run from 3.45pm - 5pm.  British Football School coaches
+will meet those children on the lower campus at the start of the
+session.  All collections must be made from the upper campus at 5pm.
+
+VENUE: Upper Campus indoor sport halls
+
+COST: 1500rb per session, discounts available;
+
+-     Returning discount - 10% off if payment is made before first session
+attended in 2014
+-    Electronic discount - 10% off if you book at any time with us via a
+bank transfer, credit or debit card via our website or at the sessions
+-    Family and friend discount - 10% off if more than one family member
+attends our sessions
+-    Monthly discount -10% off if you book a full month of sessions with
+us (4 sessions)
+-    Term discount – 10% off if you book a full term of sessions with us
+(12 sessions)
+
+EQUIPMENT: Full PE kit. Shin pads and trainers.
+
+OTHER: A water bottle and healthy snack is advised.
+
+BOOKING: Pre-booking is required. All players must register with British
+Football School before they play. Please register now online at:
+http://www.britishfootballschool.com/register-now&quot;
+
+Adam Hoult
+Head of Physical Education
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Note to parents about pick up times 2014-2015</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Note to parents about pick up times</name>
+    <style>freeForm</style>
+    <subject>Pick up times</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+For security purposes and a recent spate of damage to some of our brand new outdoor play equipment I must enforce the following:
+
+Parents or drivers who are picking up children to take them home must be off the school premises by 4:00 pm on days where your child does not have an ASA.
+
+On days where your child has after school clubs then I request that parents leave the campus by 4:45pm.
+
+If you have a booked appointment with your class teacher, myself, Admin department or tuition on any of the days beyond these times then the children are your responsibility and must be looked after by you if not in the care of a member of staff.
+
+Whilst the time after school is a great opportunity for parents to meet and chat, your children are often left unsupervised and as a school we cannot be held responsible for injury or breakages once the child has been handed over to you safely at the end of the day.
+
+Thank you for your understanding and support in this matter.
+
+David Kirkham
+Headmaster
+
+Уважаемые Родители,
+
+В целях безопасности, в связи с некоторыми повреждениями из уличного игрового инвентаря школы, я должен сообщить следующее:
+
+Все родители или водители, которые забирают детей, чтобы забрать их домой должны сделать это до 4 часов, в те дни когда у вашего ребенка нет клубов.
+
+В дни, когда у вашего ребенка клубы после школы, я прошу всех родителей забирать детей до  4:45.
+
+Если Вы назначили встречу с вашим классным руководителем, со мной, администратором отдела или репетитором в один из этих дней, тогда дети находятся под вашей ответственностью и должны за ними смотреть вы, а не кто-то из членов персонала.
+
+В то время как все занятия в школе закончились-это прекрасная возможность для родителей, чтобы встретиться и пообщаться, в это время ваши дети часто остаются без присмотра, и как школа, мы не можем нести ответственность за травмы или повреждения , после того как ребенок был передан вам лично в руки живым и невредимым в конце дня.
+
+Спасибо за Ваше понимание и поддержку в этом вопросе.
+
+Дэвид Киркхам
+Директор
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

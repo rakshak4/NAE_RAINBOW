@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>08/07/2013 Transition Morning</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>08/07/2013 Transition Morning</name>
+    <style>freeForm</style>
+    <subject>Transition Morning</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We would like to invite you all to a transition morning taking place next week.  This is essentially a ‘moving up’ session whereby your children and yourselves get to meet your new teachers. For those teachers who have not arrived in KL yet, your child will see a PowerPoint presentation on their teacher.
+
+It is on Thursday 11th July from 8 – 9.30am.  Please inform us by Tuesday if your child will be attending.
+
+Kind Regards,
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to parent informing of approval of Financial Aid</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>NAE_Branding_Letterhead_Generic</letterhead>
+    <name>Grant Email to Parent</name>
+    <style>freeForm</style>
+    <subject>Financial Aid Approval - {!Grant_Application__c.School__c}</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

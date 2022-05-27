@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <icon>Zendesk__Zendesk/Zendesk__Zendesk_Heart_Badge.png</icon>
+    <label>Zendesk Support Logs</label>
+    <motif>Custom269: TV Widescreen</motif>
+    <page>Zendesk__LogViewer</page>
+</CustomTab>

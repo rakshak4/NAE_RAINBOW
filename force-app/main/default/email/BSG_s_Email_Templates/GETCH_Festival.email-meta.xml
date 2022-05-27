@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>GETCH Festival</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>GETCH Festival</name>
+    <style>freeForm</style>
+    <subject>GETCH Festival</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+
+Dear all,
+
+
+
+The GETCH Festival will be taking place on Saturday 26th April 2014 at Golden Arch Residence, Er Sha Island, Guangzhou. The money raised from the event will be going towards their rehabilitation fund. This is a great opportunity to support one of the schools affiliated charity.
+
+
+Raffle tickets for the event are available from lower and upper school reception as well as from the Charity Committee students in Secondary. Each ticket will cost 15 RMB and  the money raised will also be going towards the rehabilitation fund.
+
+
+Thank you,
+
+
+
+Amanda Boby
+
+
+
+
+Teaching Assistant and Community Action and Fundraising Coordinator
+
+
+The British School of Guangzhou
+
+
+
+World Class Education
+
+
+
+____________________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

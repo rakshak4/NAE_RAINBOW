@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>The link of latest BSG newsletter 2014-2-12</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>The link of latest BSG newsletter 2014-2-12</name>
+    <style>freeForm</style>
+    <subject>The link of latest BSG newsletter 2014-2-12</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+Dear Parents,
+
+
+Please CLICK HERE for the latest BSG newsletter.
+
+
+Kind regards,
+
+
+Stuart Geraghty
+Publications Editor &amp; Librarian
+
+
+
+
+The British School of Guangzhou
+
+
+
+
+
+World Class Education
+
+_________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

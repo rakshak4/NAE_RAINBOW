@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>ASA&apos;s and Football Club Update</name>
+    <style>freeForm</style>
+    <subject>ASA&apos;s and Football Club Update</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+Thank you for your support and patience with the new online registering system.  Please read carefully, the updated information below.
+
+After School Activities
+
+Thank you to all those that have registered for the after school activities programme.  If any of your children are still without a club, then please contact Ekaterina Foster (ekaterina.foster@internationalschool.ru) on the UC front desk.  She will be able to identify what clubs are available and on which days.  Children will not be able to turn up to a club, unless they are registered, so please make contact in order to do this.
+
+Tottenham Football Camp
+
+There are still some spaces available for the coaching sessions.  The sessions will be within school time with years 1-3 taking part in morning sessions and years 4-9 taking part in afternoon sessions.  Further information will be provided to all those that register.  If you have any questions regarding the camp, then please contact adam.hoult@internationalschool.ru.
+
+Parents that have already registered, must hand money into the UC or LC reception in a clearly marked envelope with the correct amount.  Please make sure that this is paid before the start of the camp.  To confirm, the camp will take place from Monday 3rd June to Thursday 6th June.
+
+Please get in touch if you have any questions.
+
+Kindest regards,
+
+Adam Hoult
+Teacher of Physical Education
+The International School of Moscow
+Tel:  +7 (499) 922 44 00
+Fax: +7 (499) 922 44 00 Ext.4
+www.internationalschool.ru
+Part of The British Schools Group
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

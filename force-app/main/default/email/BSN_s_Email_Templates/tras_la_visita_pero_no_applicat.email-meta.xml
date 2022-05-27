@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>After visit no application</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>After visit no application</name>
+    <style>freeForm</style>
+    <subject>Gracias por su visita - Thank you for your visit</subject>
+    <textOnly>British School of
+Navarra
+Part of The British Schools Foundation
+
+
+
+
+
+
+
+
+
+
+
+
+Estimada familia {!Contact.LastName},
+
+
+Muchas gracias por su visita a nuestro nuevo colegio y estaríamos encantados de verles al comienzo del próximo curso en septiembre 20XX.
+
+
+Del mismo modo les pediríamos que realicen la solicitud on-line desde la página web para tener todos los datos en el sistema y poder así actualizar nuestros registros.
+
+
+Tal y como comentamos en su visita, actualmente las plazas están asignadas de forma provisional.
+
+Para poder concretar la reserva de plaza es necesario abonar la matrícula para el curso 20XX-XX.  El abono debe realizarse antes del X de XXXX.
+
+
+El importe es de 950 Euros por matrícula y se puede abonar por transferencia a la cuenta: 3008 0145 29 2150686927 a favor de The British School of Navarra S.L., o bien con tarjeta o efectivo en el colegio.
+
+Si el abono es por transferencia es necesario comunicar el nombre del hijo/s en el concepto del pago y enviarnos una copia de la confirmación a admissions@bsn.org.es.
+
+
+Es también imprescindible que entreguen en el colegio los siguientes documentos:
+
+- Pasaporte o DNI de uno de los padres.
+
+- Pasaporte o DNI del niño/s.
+
+- Historial del colegio actual si procede.
+
+- Documento de condiciones y declaraciones firmado    (vean archivo adjunto)
+
+
+
+
+Por último, pensamos que podrían estar interesados en leer nuestro último boletín de noticias en nuestra página web www.bsn.org.es , la cual les proporcionará la información actualizada de los últimos acontecimientos y actividades que tienen lugar en nuestro centro.
+
+
+Les deseamos a usted y a su familia todo lo mejor y esperamos poder saludarles de nuevo en la escuela.
+
+
+
+Si tienen cualquier duda o requieren más información por favor no duden en contactar con nosotros.
+
+
+Reciban un cordial saludo,
+
+
+Laura González
+
+
+Admissions Officer
+
+The British School of Navarra
+
+---------------------------------------------------------------------------------------------------
+
+Dear {!Contact.LastName} family,
+
+
+
+
+Thank you very much for visiting our new school. We would be very happy to see you at the beginning of the next academic year in September 20XX.
+
+
+At the same time we would ask you to do the on- line application from the website to have all data in the system so we can update our records.
+
+
+As discussed at the visit, places are currently allocated provisionally.
+
+To finalize the reservation, the enrollment fee is required for the 20XX-XX year.
+
+
+The amount is 950 Euros and this may be paid by wire transfer to the account: 3008 0145 29 2150686927 for The British School of Navarra SL or by card or cash at school.
+
+
+
+If the payment is by bank transfer is necessary to communicate the name of the child/ren in the concept of payment and send a copy of the confirmation admissions@bsn.org.es.
+
+
+It is also necessary to take to the school the following documents:
+
+- Passport or ID of a parent .
+
+- Passport or ID of the child / ren .
+
+- History of the current school if applicable .
+
+- Document conditions and signed statements (see attachment)
+
+
+
+Finally , we think you might be interested in reading our latest newsletter www.bsn.org.es on our website , which will provide the date of the latest events and activities taking place in our school.
+
+
+We wish you and your family all the best and look forward to seeing you back in school.
+
+
+
+If you have any questions or require more information please do not hesitate to contact us.
+
+
+
+Kind regards,
+
+Laura González</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

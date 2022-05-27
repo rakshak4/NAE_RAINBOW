@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>3/10/12 Middle School Choir</name>
+    <style>freeForm</style>
+    <subject>Middle School Choir</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+
+
+We have a great number of extremely enthusiastic singers in the Middle School who would very much like to join or continue on in the Middle School Choir this year. However, as always with our talented youngsters, there are too many things on during the week and ASA days in particular are crammed full with so many activities to choose from! This has meant that the number of students who signed up for Choir has been rather disappointing, and yet we know many more would like to join if it were on a different day.
+
+We would like to propose a possible change from our initial Tuesday ASA slot, to be moved to Friday 2-3pm to offer more of our students the opportunity to participate in the Choir. While a Friday afternoon may not be an ideal time, it seems to be the only day that does not interfere with so many other activities. Also to note, there would not be a later bus if your child normally goes home on the school bus, so transport arrangements would need to be made.
+
+This invitation is also open to new students who would like to attend.
+
+If your child would be able to attend Choir on a Friday from 2-3pm instead of Tuesdays 3-4pm, we would like to hear from you! Please reply directly to me at this email address charlotte.leng@britishschool.edu.my. Your feedback would be much appreciated.
+
+Many thanks
+
+
+
+
+Kind Regards,
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

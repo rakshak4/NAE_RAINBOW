@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>17/03/2014 Jungle Book</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>17/03/2014 Jungle Book</name>
+    <style>freeForm</style>
+    <subject>Year 5 &amp; 6 - The Jungle Book (4th April)</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We are delighted to announce that Year 5 &amp; 6 will be staging The Jungle Book on 4th April 2014.
+
+The performance will start at 12:30 prompt in the secondary theatre and we would be delighted if you could join us to support the children and enjoy what is sure to be an amazing show.
+
+Tickets will be on sale at RM10, with a donation from the proceeds going to a local children’s orphanage.
+
+The dates for purchasing tickets will be issued soon!
+
+
+Best regards,
+
+Alison Mackey
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Chinese Department - Talk for parents</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Chinese Department - Talk for parents</name>
+    <style>freeForm</style>
+    <subject>Chinese Department - Talk for parents</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The BSKL Chinese department is planning on taking a residential trip to Taiwan from 15th June to 14th July 2013.
+
+Students will attend daily Mandarin courses at the National Taiwan Normal University. After the course, students will have the oppurtunities to visit some wonderful places in Taiwan.
+
+The trip is open to 20 students only.
+
+If you would like to get further information regarding the trip, please attend a talk being held by the Chinese department on Friday 18th January 2013 at 2pm in the ICT.
+
+Regards,
+The Chinese Department
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Sunday 21st Opening</name>
+    <style>freeForm</style>
+    <subject>Suunday 21st August Uniform Shop Opening Hours</subject>
+    <textOnly>Dear Parents
+
+I am currently exploring the possibility of opening the uniform shop on Sunday 21st August, however, in order to confirm this, I will need to understand just how many parents will find this of use.
+
+If you could please let me know by no later than this Friday lunchtime, then I will be able to come back to you with confirmation either way. Should I not receive interest above five families, then unfortunately I shall not be able to make such an offer.
+
+I look forward to your feedback in this regard.
+
+Best
+Melissa
+
+Melissa Salter
+Head of Admissions
+The International School of Moscow
+Direct: +7 (903) 722 1491
+Tel:  +7 (499) 922 44 00
+Fax: +7 (499) 922 44 00 Ext.4
+Skype: ismadmissions
+www.internationalschool.ru
+Part of The British Schools Group
+World Class Education
+
+*Disclaimer:*
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

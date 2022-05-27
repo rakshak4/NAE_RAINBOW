@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>The Email sent in reply to the submission of an employment enquiry form via the website</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>EN Employment Enquiry Response KSM</name>
+    <style>none</style>
+    <subject>Employment Application Received - {!Account.00ND0000005GUWE}</subject>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

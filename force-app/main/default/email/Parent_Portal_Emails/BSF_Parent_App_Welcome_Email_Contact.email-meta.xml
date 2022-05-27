@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NAE_Branding_Letterhead_Parent_Portal</letterhead>
+    <name>BSF Parent App Welcome Email (Contact)</name>
+    <style>freeForm</style>
+    <subject>Your Parent App Login</subject>
+    <textOnly>{!Contact.SchoolText__c}
+{!Contact.Email_Header__c}
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Over recent months we have been working hard to create a personalised mobile app for parents. Whilst we are still working to improve the app on a daily basis, and will be adding more functionality over the course of the year, we believe that having it installed on your mobile now will offer you the most convenience when checking your personalised calendar and announcements.
+
+We are aware of several small issues with the app and are working hard to have these resolved as soon as possible. Your patience in the meantime would be greatly appreciated.
+
+For a brief introduction to the new parent app please click here.
+
+Please use the following links to download the app:
+
+App Store: https://itunes.apple.com/ph/app/bsf-parent-app/id1138916301?mt=8 
+Google Play: https://play.google.com/store/apps/details?id=com.schoolkompanion.bsf 
+
+Whilst we strongly recommend downloading the app on your mobile device to ensure the best possible experience, the web app can also be accessed by following this link.
+
+Your login information is as follows:
+
+Username: {!Contact.School_Kompanion_Username__c}
+Password: {!Contact.School_Kompanion_Password__c}
+
+Please contact our Parent Liaison with any questions that you have about the BSF Parent App. You can email them at {!Contact.Portal_Liaison_Email_Address__c}.
+
+If you require any assistance with logging in to the app then please reply directly to this email.
+
+Kind regards,
+
+Parent App Support Team
+{!Contact.SchoolText__c}
+World Class Education
+
+_________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

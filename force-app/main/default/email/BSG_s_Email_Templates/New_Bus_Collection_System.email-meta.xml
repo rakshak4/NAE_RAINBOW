@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Bus Collection System</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>New Bus Collection System</name>
+    <style>freeForm</style>
+    <subject>School Bus Information (IMPORTANT)</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+(CLICK HERE FOR CHINESE)
+
+Dear Pre-Nursery to Year 5 Parents,
+
+In response to parental suggestions, I am pleased to inform you that from January 2013 we will begin a new bus collection procedure that will only allow a child&apos;s parent or other pre-approved adult to collect children from school buses each afternoon.
+
+To ensure this system is implemented successfully, we need all parents to send us up-to-date information of adults they would like to permit to collect their children. Please click here to download a form that should be completed and returned directly to me via email before Friday, 30th November .
+
+Please note that this system will begin on the first day of term two; Monday 7th, January.
+
+
+Each Bus Supervisor will have a list of adults authorised to collect children.
+If an unfamiliar person arrives to collect a child, the Bus Supervisor will firstly check this person&apos;s name is on the approved list.
+They will then ask for a form of photographic identification from the person before allowing the child to be released into their care.
+If a person not pre-authorised arrives to collect a child, the child will not be allowed off the bus until parental permission is obtained.
+If the bus supervisor is unable to contact one of the parents the bus will continue on its journey until a time when a parent can be contacted.
+
+
+I would like to take this opportunity to also inform you that all Bus Supervisors now take a register of children on their bus each morning. This register is handed into the school upon arrival and is cross-checked with the class register to ensure all children from the bus service have arrived in class.
+
+Thank you all for the positive suggestions we have received this term on ways to improve our bus service and for your support as we continually look for ways to improve our services.
+
+I shall look forward to receiving your email with the completed form.
+
+Kind Regards,
+
+Grace. Kwan (grace.kwan@bsg,org.cn)
+Bus Co-ordinator
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

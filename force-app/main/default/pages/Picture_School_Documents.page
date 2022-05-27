@@ -1,0 +1,22 @@
+<apex:page standardController="Document__c">
+
+<apex:repeat value="{!Document__c.Attachments}" var="att">
+
+
+ 
+ <table>
+<td>
+<tr> 
+<apex:image width="20%" height="20%" rendered="{!OR(Contains(att.Name,'.pdf'),Contains(att.Name,'.jpg'),Contains(att.Name,'.gif'),Contains(att.Name,'.png'))}"  value="https://school--c.eu1.content.force.com/servlet/servlet.FileDownload?file={!att.id}" />
+</tr>
+<tr> 
+<apex:outputText rendered="{!OR(Contains(att.Name,'.pdf'),Contains(att.Name,'.jpg'),Contains(att.Name,'.gif'),Contains(att.Name,'.png'))}" >
+ <strong>  {!att.Name}</strong>
+ </apex:outputText>
+</tr>
+</td>
+</table>
+</apex:repeat>
+
+
+</apex:page>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Typhoon Appeal</name>
+    <style>freeForm</style>
+    <subject>Typhoon Appeal - The King&apos;s Kalinga Programme</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Hello everyone,
+
+My name is Peter Lindsay, the Headteacher of the King’s School, Manila in the Philippines.
+
+On Friday 10 November 2013 Super Typhoon Yolanda struck the central islands of the Philippine archipelago. It was the strongest typhoon ever recorded over land. Our weather channels described it as having catastrophic strength and velocity.
+
+Unfortunately Yolanda proved to be just that. Despite there being days of advanced warning and attempts to inform and evacuate the local residents we were all unprepared for the extent of damage suffered by the islands in the path of the storm.
+
+The King’s School family have launched “The King’s Kalinga (Community Relief) Programme.” Our focus is on the people and their immediate needs. Many families associated with our school have friends and family who came from the stricken areas and so we as a community are even more determined to provide as much support as we can.
+
+As a school community we are reaching out to the schools in the British Schools Foundation and asking for your support and help. In this way, as a global organisation, we offer the opportunity for your children to join us and further develop their awareness of international aid and empathy.
+
+We will accept your donations and the King’s School children will use the money to purchase important items like tins of fish, sachets of rice meals, bottles of water, tubes of toothpaste with toothbrushes, bars of soap and energy snacks. They’ll package them as one-person relief packs. We’ll then send the packs to Palawan Island using navy transport.
+
+The British Schools Foundation maintains strong links between its schools. All funds raised will swiftly reach the King’s School, Manila.
+
+I thank you for your support.
+
+Regards,
+
+
+
+Peter Lindsay
+
+Headteacher (The King&apos;s School Manila)
+
+World Class Education
+
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

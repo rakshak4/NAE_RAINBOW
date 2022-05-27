@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>GZUFC-Adjusting to Cultural Difference</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>GZUFC-Adjusting to Cultural Difference</name>
+    <style>freeForm</style>
+    <subject>GZUFC-Adjusting to Cultural Difference</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+Dear Parents,
+
+
+Guangzhou United Family Health Clinic will run a workshop entitled &apos;Adjusting to Cultural Difference&apos; on Saturday, 7th September from 10am to 5pm. The workshop will focus on various strategies for helping yourself, your family, your friends and colleagues to flow with cultural transitions, rather than having them as a source of difficulty and stress.
+
+
+If you are interested, please CLICK HERE for details and contact the clinic directly.
+
+
+Best wishes,
+
+
+Administration Team
+
+The British School of Guangzhou
+
+
+
+_____________________________________________________
+
+
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

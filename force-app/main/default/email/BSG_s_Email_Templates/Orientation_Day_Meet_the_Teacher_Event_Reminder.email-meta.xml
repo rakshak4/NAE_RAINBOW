@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Orientation Day - Meet the Teacher Event - Reminder</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Orientation Day - Meet the Teacher Event - Reminder</name>
+    <style>freeForm</style>
+    <subject>Orientation Day - Meet the Teacher Event - Reminder</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+Dear Parents,
+
+
+This is a gentle reminder that &apos;Orientation Day&apos; for new families &amp; &apos;Meet the Teacher Day&apos; for all families will both take place next Friday, 22nd August 2014.
+
+
+For specific information relating to your child or children, please click the appropriate links below:
+
+
+- EARLY YEARS (Pre-Nursery, Nursery &amp; Reception)
+
+
+- PRIMARY SCHOOL (Year 1 to Year 6)
+
+
+- SECONDARY SCHOOL (Year 7 to 13)
+
+
+We are very much looking forward to welcoming you all back for the beginning of the school year 2014/15.
+
+
+Best wishes,
+
+
+The British School of Guangzhou
+
+
+
+
+____________________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

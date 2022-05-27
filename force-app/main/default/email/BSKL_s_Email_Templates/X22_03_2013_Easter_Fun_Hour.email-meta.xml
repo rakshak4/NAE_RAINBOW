@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>22/03/2013 - Easter Fun Hour</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>22/03/2013 - Easter Fun Hour</name>
+    <style>freeForm</style>
+    <subject>Easter Fun Hour</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+A reminder that next Wednesday, March 27th is Easter Fun Hour.
+
+Activities will start on the rooftop at 11.30, right after school finishes so if your child is taking part, please make your way up to the roof area. We will collect the RM5 fee on that day. For those dressing up as bunnies, this can be done after school.
+
+If you would like your child to take part please ensure they are accompanied by an adult.  Please note that for students who usually take the school bus home there will be no extra transport arrangements for when the Easter Fun Hour has finished.
+
+Thank you for your participation and we look forward to a great Easter fun hour.
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

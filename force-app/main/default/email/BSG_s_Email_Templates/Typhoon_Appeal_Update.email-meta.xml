@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Typhoon Appeal Update</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Typhoon Appeal Update</name>
+    <style>freeForm</style>
+    <subject>Typhoon Appeal Update</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dear Parents,
+
+
+On behalf of BSG community I would like to say a massive thank you for supporting the Typhoon Appeal organised by Miss Dunningham and the Charity Committee at the end of November. With your support we were able to raise 22964 RMB through events within the school including auctions, music events and also a non-uniform day. The money raised has gone to Save the Children’s relief fund (www.savethechildren.org/site/c.8rKLIXMGIpI4E/b.6150549/). We were also able to send items of need such as bedding and clothing.
+
+
+A further report from the days events will be published in an upcoming Urban Family article.
+
+
+Regards,
+
+
+Amanda Boby
+
+Community Action and Fundraising Coordinator
+
+
+The British School of Guangzhou
+
+World Class Education
+
+
+
+
+_____________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

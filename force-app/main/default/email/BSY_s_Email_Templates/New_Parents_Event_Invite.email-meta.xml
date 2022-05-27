@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Parents Event - Invite</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>New Parents Event - Invite</name>
+    <style>freeForm</style>
+    <subject>New Parent Welcome - Invite from Mr. Paul Holyome</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

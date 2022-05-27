@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Weekly Update 7th November, 2013</name>
+    <style>freeForm</style>
+    <subject>Weekly Update 7th November, 2013</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+It is 30 humid degrees with continuous rain at present. It does remind me that while harsh, the extreme nature of the seasons in Moscow does provide variety. It has been lovely to see former student Storm from Upper Primary and teacher Liz Salter enjoying their new school. However, they clearly miss ISM and send their best wishes to you all.
+
+Board Meeting – The British School of Kuala Lumpur
+
+I have enjoyed visiting our sister school in KL. The opening of their new Secondary Campus is on Friday and it is certainly impressive. Our long-term aim is to achieve a site of similar quality in Moscow of course.
+
+The members of the Senior Choir that have travelled to KL have been working extremely hard in rehearsals as well as enjoying the cultural exchange opportunities this visit affords. I am sure they will perform superbly on Friday.
+
+St Andrews Day
+
+This traditional celebration is a British event celebrated all over the world as well as Scotland of course. With this in mind please see the information below.
+
+
+The St Andrew Society of Russia is pleased to invite you to this year’s
+
+St. Andrew’s Day Ball
+
+on 30th November 2013
+
+at the Marriott Grand Hotel Grand Ballroom
+
+
+The ball will include a four course meal, ceilidh dancing, a live auction and raffle and an abundance of Scottish whisky.
+
+Discounted advance tickets at 5500R are available until the 15th of November. The price thereafter will be 6500 R. All proceeds go to our chosen charity for the event, Maria’s Children.
+
+Please reserve tickets by contacting standrewsocmoscow@gmail.com
+
+I hope that it has been a productive week in Moscow and I look forward to returning to school on Monday.
+
+Have a wonderful weekend.
+
+
+Paul Seedhouse
+
+Headteacher
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,53 @@
+<apex:page standardController="Group__c" extensions="PortalStudentGroupChatter_Controller">
+  <apex:pageMessages />
+  <apex:outputPanel layout="block" rendered="{!IF(AND(!isChatterGroupExists,!isFatalError),true,false)}">
+    <apex:form >
+        <apex:pageBlock title="New Parent Blog" mode="edit">
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Create Related Parent Blog" action="{!createChatterGroup}"/>
+                
+                <apex:commandButton value="Return to Student Group" immediate="true" action="{!cancel}"/>
+            </apex:pageBlockButtons> 
+            <apex:pageBlockSection title="Blog Information" columns="1">
+                <apex:inputField required="true" value="{!chatterGroup.Name}"/>
+                <apex:inputTextArea rows="7" cols="50" value="{!chatterGroup.Description}"/>
+                <!-- <apex:pageBlockSectionItem helpText="automatically add all enrolled student's parents to new community chatter group.">
+                    <apex:outputLabel value="Automatically add all enrolled student's parents"/>
+                    <apex:inputCheckBox value="{!addRegisteredStudentsParents}"/>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem helpText="automatically add future enrolled student's parents to this community chatter group.">
+                    <apex:outputLabel value="Automatically add future enrolled student's parents"/>
+                    <apex:inputCheckBox value="{!studentGroup.Auto_Add_Parents_To_Group__c}"/>
+                </apex:pageBlockSectionItem> -->
+                <!-- <apex:inputField value="{!chatterGroup.InformationTitle}"/>
+                <apex:inputField value="{!chatterGroup.InformationBody}"/>  -->
+            </apex:pageBlockSection>    
+        </apex:pageBlock>
+    </apex:form>
+  </apex:outputPanel>
+  <apex:outputPanel layout="block" rendered="{!IF(AND(isChatterGroupExists,!isFatalError),true,false)}">
+    <apex:form >
+        <apex:pageBlock title="Community Chatter Group" mode="detail">
+            <apex:pageBlockButtons >
+                <!-- <apex:commandButton value="Add All Non-member Student's Parents" action="{!addNewParents}"/>  -->
+                <!-- <apex:outputLink value="https://schoolportal.force.com/parents/_ui/core/chatter/groups/GroupProfilePage?g={!studentGroup.Chatter_Group_Id__c}" target="_blank">Visit Community Chatter Group</apex:outputLink> -->
+                <apex:commandButton value="Return to Student Group" immediate="true" action="{!cancel}"/>
+            </apex:pageBlockButtons> 
+            <apex:pageBlockSection title="Group Information" columns="1">
+                <apex:outputField value="{!chatterGroup.Name}"/>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Member Count"/>
+                    <apex:outputText value="{!chatterGroup.MemberCount}"/>
+                </apex:pageBlockSectionItem>
+                <apex:outputField value="{!chatterGroup.Description}"/>
+                
+                <!-- <apex:pageBlockSectionItem helpText="automatically add future enrolled student's parents to this community chatter group.">
+                    <apex:outputLabel value="Automatically add future enrolled student's parents"/>
+                    <apex:outputField value="{!studentGroup.Auto_Add_Parents_To_Group__c}"/>
+                </apex:pageBlockSectionItem>  -->
+            </apex:pageBlockSection>    
+        </apex:pageBlock>
+    </apex:form>
+  </apex:outputPanel>
+  
+</apex:page>

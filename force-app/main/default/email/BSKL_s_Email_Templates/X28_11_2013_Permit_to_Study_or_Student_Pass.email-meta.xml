@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>28/11/2013 Student Pass or Permit to Study</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>28/11/2013 Student Pass or Permit to Study</name>
+    <style>freeForm</style>
+    <subject>Student Pass or Permit to Study</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We trust this finds you well.
+
+For those who have not done so already please provide the school administration with a copy of your child’s Permit to Study or Student Pass once they have been received.
+
+Any expat child who does not hold either a Permit to Study or a Student Pass and is involved in school trips outside of Malaysia may face problems at immigration when exiting and re-entering the country.
+
+Going forward a Student Pass or Permit to Study is legally required for all expat children studying in an international school. The only exceptions are the following:
+
+. Children that are permanent residents of Malaysia
+. Children of Diplomats
+. Children on the Talent Corp Programme
+
+Please note if we do not receive your child’s Permit to Study or Student Pass by the end of January 2014 this will affect your child’s participation in school trips.  Any students who do not provide the school with a copy of their Student Pass or Permit to Study will unfortunately not be able to attend this year’s Ski Trip to Geneva or the upcoming Residential Trips that are part of Activities Week.
+
+You may wish to engage an agent to help you with the process.  Please see below for the contact details of two agencies that are able to provide this service.
+
+Agency contact details (https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004SIo/t9p5jcHe1XBjFOB4xv8KoFKtDTob.RKQSSgGskuA_rY=)
+
+Please do not hesitate to contact a member of the school administration team for more information on this.
+
+
+Thank you and warm regards,
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

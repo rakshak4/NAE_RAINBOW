@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Letter about UN day celebration</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>UN Day letter</name>
+    <style>freeForm</style>
+    <subject>UN Day Meeting Letter</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please find attached letter about UN Day which will take place on Wednesday 17th October in school. Please note there will be a meeting  to discuss organisation of UN Day on Monday 8th October at 9 am.
+
+Уважаемые родители,
+
+
+Во вложенным файле отправляем Вам письмо о праздновании  Дня Организации Объединенных Наций 17 октября в школе.
+
+Родительское собрание, на котором состоится обсуждение организации  праздника пройдет в понедельник 8 октября в 9 утра.
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Share_NAE_Web_Content_with_NAE_Users</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share NAE Web Content with NAE Users</label>
+        <sharedTo>
+            <group>NAE_Group_Marketing</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 2) AND 3 AND 4 AND 5 AND 6 AND 7 AND 8 AND 9 AND 10 AND 11 AND 12 AND 13 AND 14</booleanFilter>
+        <criteriaItems>
+            <field>Schools_List_Copy_Text__c</field>
+            <operation>contains</operation>
+            <value>kualalumpur1,yangon1,saopaulo1,manila1,moscow1,tashkent1,nanjing1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Schools_List_Copy_Text__c</field>
+            <operation>contains</operation>
+            <value>NAE,The British International School of Kuala Lumpur,The British School Yangon,The British College of Brazil,The King&apos;s School Manila,The International School of Moscow,The British School of Tashkent,The British School of Nanjing</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Schools_List_Copy_Text__c</field>
+            <operation>notContain</operation>
+            <value>marbella1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Schools_List_Copy_Text__c</field>
+            <operation>notContain</operation>
+            <value>navarra1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Schools_List_Copy_Text__c</field>
+            <operation>notContain</operation>
+            <value>brasilia1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Schools_List_Copy_Text__c</field>
+            <operation>notContain</operation>
+            <value>newyork1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Schools_List_Copy_Text__c</field>
+            <operation>notContain</operation>
+            <value>sandbox1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Schools_List_Copy_Text__c</field>
+            <operation>notContain</operation>
+            <value>sandbox2</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Schools_List_Copy_Text__c</field>
+            <operation>notContain</operation>
+            <value>bsf1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Schools_List_Copy_Text__c</field>
+            <operation>notContain</operation>
+            <value>The British School of Marbella</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Schools_List_Copy_Text__c</field>
+            <operation>notContain</operation>
+            <value>The British School of Navarra</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Schools_List_Copy_Text__c</field>
+            <operation>notContain</operation>
+            <value>The British School of Brasilia</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Schools_List_Copy_Text__c</field>
+            <operation>notContain</operation>
+            <value>The New York International School</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Schools_List_Copy_Text__c</field>
+            <operation>notContain</operation>
+            <value>The British Schools Foundation</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_with_BCB_Website_Content_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share with BCB Website Content Managers</label>
+        <sharedTo>
+            <group>BCB_Website_Content_Managers</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Share_with_Admin_Dept_of__c</field>
+            <operation>equals</operation>
+            <value>The British College of Brazil</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_with_BSKL_Website_Content_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share with BSKL Website Content Managers</label>
+        <sharedTo>
+            <group>BSKL_Website_Content_Managers</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Share_with_Admin_Dept_of__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Kuala Lumpur</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_with_BSNJ_Website_Content_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share with BSNJ Website Content Managers</label>
+        <sharedTo>
+            <group>BSNJ_Website_Content_Managers</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Share_with_Admin_Dept_of__c</field>
+            <operation>equals</operation>
+            <value>The British School of Nanjing</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_with_BST_Website_Content_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share with BST Website Content Managers</label>
+        <sharedTo>
+            <group>BST_Website_Content_Managers</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Share_with_Admin_Dept_of__c</field>
+            <operation>equals</operation>
+            <value>The British School of Tashkent</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_with_BSY_Website_Content_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share with BSY Website Content Managers</label>
+        <sharedTo>
+            <group>BSY_Website_Content_Managers</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Share_with_Admin_Dept_of__c</field>
+            <operation>equals</operation>
+            <value>The British School Yangon</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_with_ISM_Website_Content_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share with ISM Website Content Managers</label>
+        <sharedTo>
+            <group>ISM_Website_Content_Managers</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Share_with_Admin_Dept_of__c</field>
+            <operation>equals</operation>
+            <value>The International School of Moscow</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_with_NAISM_Website_Content_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share with NAISM Website Content Managers</label>
+        <sharedTo>
+            <group>NAISM_Website_Content_Managers</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Share_with_Admin_Dept_of__c</field>
+            <operation>equals</operation>
+            <value>Nord Anglia International School Manila</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

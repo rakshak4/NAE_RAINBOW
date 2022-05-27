@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Year 7 and Year 8 French Cookery Class</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>25/01/2013 Year 7 and Year 8 French Cookery Class</name>
+    <style>freeForm</style>
+    <subject>Year 7 and Year 8 French Cookery Class</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The French department would like to organise a cooking class for our students from Year 7 and Year 8 in Nathalie&apos;s Gourmet Studio, in Solaris Dutamas.
+
+Nathalie Arbefeuille is a well-known chef in Kuala Lumpur. She owns a studio and gives cooking classes for small groups. In 2011, she was voted outstanding chef of the year by Time Out KL.
+
+We believe that attending a cooking class in her studio would be a great opportunity for our pupils to learn more about French cuisine and French culture.
+
+The class would involve preparing and cooking a three course meal which the students would then eat afterwards.
+
+The school will organise transportation for the pupils from BSKL to the studio and back to BSKL.
+Please, find below the details of the class:
+Date : Saturday 23rd February
+Time : 9 am to 1 pm (all pupils to be in school at 8.30)
+Location : Nathalie gourmet studio- Solaris Dutamas
+Transportation : bus from BSKL to the studio, back to BSKL.
+Number of students : 12
+Year group : 7 and 8
+Price per student : 160 RM
+
+The studio can only give classes for a maximum of 12 students.
+To ensure a place for your child, please reply to this email as soon as possible, and no later than Friday 1st February. We will accept the first 12 replies and then have a waiting list. You will be asked to make full payment to the school upon confirmation of a place for your child.
+If the course proves popular, we will run it again later on this year.
+
+Yours Faithfully
+
+Blandine Pouchard &amp; Tom HIckman
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

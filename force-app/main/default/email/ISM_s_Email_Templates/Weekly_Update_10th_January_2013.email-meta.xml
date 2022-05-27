@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Weekly Update 10th January, 2013</name>
+    <style>freeForm</style>
+    <subject>Weekly Update 10th January, 2013</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Foundation
+
+
+
+Dear Parents,
+
+
+I hope you have had a lovely Festive Season and are ready to start the term in high spirits.
+
+
+For parents of Year 4 to Year 9 students only: Swimming will start during the first week back, children must bring the consent form in order to go off site for PE lessons, so they must have it to go swimming.
+
+
+On another note, we are pleased to be able to offer a workshop for parents on bringing up a child abroad.
+
+
+This will be run by Claire Geddes who is an experienced coach in these matters - also a parent of ISM.
+
+
+
+The session will take place on Thursday 24th January from 8.30 am to 10.30 am at the Upper Campus library.
+
+
+You will be able to hear about and discuss the pros and cons of being a TCK (third culture kid) and how, as parents, we can help our children  grow up to be well balanced!
+
+
+The workshop is sponsored by US Dental Care and therefore there is no charge for parents wishing to attend.
+
+
+More information will follow but please put the date in your diary as it will be an event you won&apos;t want to miss!
+
+
+See you on Monday!
+
+
+Kind regards,
+
+
+
+
+The International School of Moscow
+
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

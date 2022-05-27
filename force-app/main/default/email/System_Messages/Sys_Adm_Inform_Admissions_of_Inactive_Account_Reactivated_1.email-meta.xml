@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Sent to admissions-notifications@{school} when an inactive account (Rejected/Terminated, Left) is reactivated (Applying, In School, Future Enrolment) and both the address and contact fields need to be updated</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Sys/Adm - Inform Admissions of Inactive Account Reactivated 1</name>
+    <style>freeForm</style>
+    <subject>Inactive Account Reactivated (Admissions Notification)</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

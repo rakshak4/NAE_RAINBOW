@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Headlice</name>
+    <style>freeForm</style>
+    <subject>HEAD LICE</subject>
+    <textOnly>Dear Parents,
+
+Head lice may be present amongst children in your child&apos;s class. These insects are a nuisance and can be controlled or eradicated by families. Head lice crawl from head to head and may be passed on through shared objects such as hairbrushes and hats.
+
+It is recommended that you check all members of your household carefully. Anyone can host head lice. Cleanliness is not a factor in whether head lice are present or not.
+
+What to look for
+
+¬ Small light or dark brown insects without wings.
+
+¬ Tiny whitish eggs (nits) like grains of salt attached to hair shafts.
+
+¬ There may be unusual itching on the head or neck.
+
+¬ Small red marks on the neck or behind the ears (head lice bites).
+
+What to do
+
+¬ Check all members of the household daily at the same time for at least three weeks.
+
+¬ Treat anyone who is hosting head lice. Effective treatment need not be chemical or expensive.
+
+¬ Please advise the school if you find head lice and confirm that treatment has begun.
+
+¬ Be prepared to continue treatment for about three weeks depending on the method chosen. Three weeks is the length of the head louse breeding cycle; you need to break the cycle or infestation will continue.
+
+¬ After each treatment, comb the hair with a fine toothed comb.
+
+¬ Extra precautions may include washing all bed linen, pillowcases and towels in hot water and tumble drying for 20 minutes on high. Other items that have come in contact with heads should also be thoroughly cleaned.
+
+¬ Soak hairbrushes and combs in hot water for at least ten minutes.
+
+¬ Vacuuming carpets and rugs may be helpful.
+
+¬ Repeat treatment 7 to 10 days after initial treatment.
+
+Treating the hair is no guarantee that the problem has been eradicated. Success is more likely if treatment is thorough, checking is daily for at least three weeks and children are reminded to avoid head to head contact with others.
+
+What not to do
+
+¬ Do not use shampoo, conditioner or a hair drier on hair within 24 hours of using a chemical treatment. Each of these can make the treatment less effective or cause it to fail.
+
+¬ Do not use ordinary insecticides, pet shampoo or flammable petroleum products.
+
+¬ Do not use chemical products if the person applying the treatment or the person being treated is pregnant.
+
+Thank you for your co-operation. Please do not hesitate to contact the school if your require further information.
+ 
+Yours sincerely,
+ISM medical team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

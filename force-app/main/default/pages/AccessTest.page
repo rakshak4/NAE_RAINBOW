@@ -1,0 +1,3 @@
+<apex:page standardController="Groupable__c" showHeader="false" sidebar="false" standardStyleSheets="false">
+  <apex:outputField value="{!Groupable__c.Main_Text__c}"/>
+</apex:page>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>weekly Bulletin 2012/12/14</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>weekly Bulletin 2012/12/14</name>
+    <style>freeForm</style>
+    <subject>weekly Bulletin 2012/12/14</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+This is the final week of a very long term. Please note that the last day of term is a half-day and that students can wear non-school on that day.
+
+Last week of term: Monday and Tuesday will be normal lessons for all key stages. On Wednesday and Thursday the Key Stage 3 students will enter a house competition that is a combination of a number of subject areas and is put in place to demonstrate cross-curricular links and to help students develop leadership and project management skills. Key stage 3 students can wear house T-shirts on these days.
+
+Key Stage 4 and 5 lessons continue as normal due to the Year 11 Mocks and The AS level module exams in Science and Maths. We wish the students the best of luck with their preparation for these.
+
+ASA Sign up: The ASA Booklet for Block 3 will be out next week. Students will be asked to choose their 4 options for this block prior to their return on Monday, 7th January 2013.
+
+The end of term is an appropriate time to reflect on the successes of the year and look at what we have in store for next year.
+
+Academic: We have had many firsts to celebrate this term. Our first set of IGCSE results were fantastic and the students should be very proud of their achievements. We have also had our inaugural Year 12 and it has been extremely gratifying to see this group bond as a group and take on extra responsibilities. The Sixth formers have been on an outward bound trip to help develop their leadership and Habitat for Humanity as a charitable project.
+
+The Arts: The secondary music programme continues to go from strength to strength under Ms. Rowan’s guidance. The choir has had a particularly busy last month as have many of our students. Over half of the secondary school have been involved in performing Music and Drama to an audience and this is a phenomenal number. We have still have two events left this year. The choir will complete their final performance on Saturday at Tai Koo Hui and on Monday evening selected students are having their Artwork displayed at United Families Clinic. I am delighted that so many of our students and actively involved in the full range of activities. This will continue next term when the focus moves onto the school production, “Wicked”.
+
+Sports: The Sports teams have also made huge progress this year and have won a number of tournaments with the football teams proving to be the most successful. The U15’s competed in the FOBISSEA games and were competitive throughout.  After the winter break the volleyball season starts in earnest and this is always popular with our student body.
+
+Best wishes for the Christmas holidays. I hope that all our families enjoy the break and that our students return fresh and ready to accept the next set of challenges ahead. For those students who are leaving us I would like to start by thanking them for the contribution that they have made to The British School during their time here. I hope that they will be able to take away happy memories of the school and that they prosper in their next school.
+
+Best Wishes,
+
+Mr. Iain Ruck
+Head of Secondary
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Automatic email sent to system admin when parent users need to be reactivated because they were previously created and deactivated, most likely because the start date of the student was pushed back</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Sys/Adm - Kompanion User Needs Reactivating</name>
+    <style>freeForm</style>
+    <subject>Parent User(s) Need Reactivating</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

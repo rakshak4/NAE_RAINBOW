@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>17/10/2013 Deepavali Ceremony</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>17/10/2013 Deepavali Ceremony</name>
+    <style>freeForm</style>
+    <subject>Deepavali Ceremony</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+This year, Deepavali Assembly will be held on Friday, 22nd November 2013 at 8.45am at the Secondary theatre. We will be putting on a colourful and vibrant show themed “Indian Fashion Extravaganza”.
+
+In line with the celebrations, we would appreciate if you could send your child/children to school by dressing them in Indian costumes. These costumes can be purchased in Little India Brickfields, Tesco and Aeon Big Hypermarkets as well as Isetan Department stores. However, kindly do so before the actual date of the Deepavali Festival, which falls on Saturday, 2nd November 2013.
+
+We hope that you find this information useful. Should you have any further questions on this, kindly email Loshini – loshinibala@yahoo.com.
+
+Look forward to seeing you all at our Assembly.
+
+Kind Regards,
+Deepavali Assembly Committee 2013
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

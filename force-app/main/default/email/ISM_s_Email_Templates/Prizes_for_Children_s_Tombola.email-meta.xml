@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Prizes for Children&apos;s Tombola</name>
+    <style>freeForm</style>
+    <subject>Prizes for Children&apos;s Tombola</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents
+
+For this year&apos;s Family Fun Day we are having a tombola as well as a raffle.
+
+We have prizes for the raffle but not enough for the tombola. The tombola is a stall just for children, they choose a ticket and then if it matches one of the prizes on the table, they get it immediately, if not they get a consolation prize e.g. lolly, pencil, rubber etc.
+
+The idea is that children get the immediate satisfaction of a prize and don&apos;t have to wait until the end like the raffle. Also all prizes in the tombola are child orientated and not too expensive!
+
+WE NEED MORE PRIZES!!!!
+
+Please send into school, any children&apos;s prizes. They can be for any age from 4 to 16! Donations should be new. This is a great opportunity to get rid of any unused gifts, toys, books, games, make up, sports equipment etc.
+
+Please send in them in ASAP to the reception desk at school so we can start putting tickets on them!
+
+Thank you in advance
+
+Best wishes
+
+The Raffle and Tombola Team
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

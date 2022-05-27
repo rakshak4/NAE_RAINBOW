@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Yoghurts for Foundation</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Yoghurts for Foundation</name>
+    <style>freeForm</style>
+    <subject>Yoghurts for Foundation</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I am pleased to inform you that from Term 2 the children in Pre-Nursery, Nursery and Reception will be provided with a yoghurt upon arrival at school. This light breakfast will be provided by the school at no extra cost to parents.
+
+Upon receiving parental feedback regarding the change to our school hours I was made aware that some families find it difficult to ensure their child eats a substantial breakfast before leaving the house in the mornings. Therefore, the provision of a yoghurt upon arrival at school will ensure our youngest students have a nutritious snack in addition to their breakfast before their school activities begin.
+
+The usual snacks for Pre-Nursery and Nursery students will continue to be served and Reception students should continue to bring in their healthy, nut free snacks for their morning and afternoon break times.
+
+Kind regards,
+
+Miss Kathy
+
+Head of Lower School
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

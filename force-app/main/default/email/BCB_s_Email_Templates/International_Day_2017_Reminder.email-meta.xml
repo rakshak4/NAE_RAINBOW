@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>International Day</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>System_Message_Header</letterhead>
+    <name>International Day 2017 Reminder</name>
+    <style>formalLetter</style>
+    <subject>International Week and International Day Reminder</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Sibling Applications for 2014-15 Academic Year</name>
+    <style>freeForm</style>
+    <subject>Sibling Applications for 2014-15 Academic Year</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear Parents,
+
+We are writing to inform you that we will be accepting sibling applications from parents wishing to apply for their children to join older brothers and sisters at ISM for the 2014-15 Academic Year.
+
+
+The purpose of this procedure is to offer the opportunity for families already attending ISM to secure a position at the school before opening places to general applications.
+
+
+Please note that the sibling application procedures is initially for Foundation Stage classes (Nursery and Reception) and Year 1 only and will be accepted up until the 21st February 2014. All applications should be completed using the online application form before this date. (www.internationalschool.ru).
+
+
+The assessments for sibling applications will then take place during the month of March 2014.
+
+
+Best Regards,
+
+
+
+Admissions Team
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPageWebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>- Assessments for Tutors</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>window.open(&apos;//www.youtube.com/embed/NvKwLxbxhNg&apos;,&apos;myWin&apos;,&apos;scrollbars=yes,width=980,height=480&apos;);</url>
+</CustomPageWebLink>

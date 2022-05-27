@@ -1,0 +1,163 @@
+<apex:page standardController="User" showHeader="false" sidebar="false" showChat="false" extensions="UserStaffDirectory_Controller">
+<style>
+a.tooltip {outline:none; }
+a.tooltip strong {line-height:30px;}
+a.tooltip:hover {text-decoration:none;} 
+a.tooltip span {
+    z-index:10;display:none; padding:5px 5px;
+    margin-top:-5px; margin-left:5px;
+    width:200px; line-height:16px;
+}
+a.tooltip:hover span{
+    display:inline; position:absolute; color:#111;text-align:left;
+    border:1px solid #DCA; background:#fffAF0;}
+.callout {z-index:20;position:absolute;top:5px;border:0;left:-5px;}
+    
+/*CSS3 extras*/
+a.tooltip span
+{
+    border-radius:4px;
+    box-shadow: 5px 5px 8px #CCC;
+}
+div.layout
+{
+  text-align: center;
+}
+div.centre
+{
+  text-align: left;
+  width: 850px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+<div class="layout">
+<div class="centre">
+  <apex:form id="mainform"> 
+      <apex:includeScript value="{!$Resource.jQuery}"/>
+	  <apex:includeScript value="{!URLFOR($Resource.jQueryBlockUI, 'jquery.blockUI.js')}"/>
+      <script>
+	         function uiActionBlock(){
+	             $.blockUI({ message: '<h1>Please wait...</h1>' });
+	             return true;
+	         }
+     </script>
+       
+      <br/>
+      <apex:outputPanel layout="block" rendered="{!IF(schoolLogoURL != null,true,false)}">
+      	<apex:image value="{!schoolLogoURL}"/>
+      </apex:outputPanel> 
+      <br/>
+      <apex:pagemessages />
+      <apex:pageBlock id="mainBlock" title="Staff Directory Info" mode="edit" rendered="{!AND(showOverriddenView,allowUpdate)}">
+          
+          <apex:pageBlockButtons id="buttons">
+               <apex:commandButton action="{!saveUser}" value="Sumbit" onclick="return uiActionBlock();" /> 
+               
+          </apex:pageBlockButtons>
+          <apex:pageBlockSection columns="1">
+              <apex:pageBlockSectionItem >
+              	<apex:outputLabel value="{!$ObjectType.User.Fields.S_Dir_Name__c.Label}"/>
+              	<apex:outputText value="{!userField.name.value}"/>
+              </apex:pageBlockSectionItem>	 
+              
+              <apex:pageBlockSectionItem >
+              	<apex:outputLabel value="{!$ObjectType.User.Fields.S_Dir_Title_New__c.Label}"/>
+              	<apex:outputPanel layout="block">
+              		<apex:outputText value="{!userField.title.value}"/>		
+              	</apex:outputPanel>
+              </apex:pageBlockSectionItem>
+              
+              <!-- <apex:pageBlockSectionItem >
+              	<apex:outputLabel value="{!$ObjectType.User.Fields.S_Dir_Origin__c.Label}"/>
+              	<apex:outputPanel layout="block">
+              		<apex:outputText value="{!userField.origin.value}"/>		
+              	</apex:outputPanel>
+              </apex:pageBlockSectionItem> -->
+              
+              
+              
+              <apex:pageBlockSectionItem >
+              	&nbsp;
+              	<apex:outputPanel layout="block">
+	              	<table>
+	              		<tr>
+	              			<td>
+	              				<p>If any of the details above are incorrect or you would prefer a different name to show on the school website then please provide details below: </p>
+	              			</td>
+	              		</tr>
+	              		<tr>
+	              			<td>
+	              				<apex:inputTextArea label="Notes" value="{!userField.notes.value}"   style="height:80px;width:200px;"/>
+	              			</td>
+	              		</tr>
+	              	</table>
+	              </apex:outputPanel>	
+              </apex:pageBlockSectionItem>
+              
+              <!-- <apex:pageBlockSectionItem >
+              	<apex:outputLabel > {!$ObjectType.User.Fields.S_Dir_Years_of_Experience__c.Label}<font color='red'>*</font></apex:outputLabel>
+              	
+              	<apex:outputPanel layout="block">
+              		<table><tr><td>
+              		<apex:inputText required="true" label="Years of Experience" value="{!userField.expirience.value}" rendered="{!userField.expirience.editAccess}" style="width:50px;"/>
+              		<apex:outputText value="{!contextUser.S_Dir_Years_of_Experience__c}" rendered="{!!userField.expirience.editAccess}"/>		
+              		</td><td>
+              			<apex:outputPanel rendered="{!userField.expirience.editAccess}" layout="block">
+              				&nbsp;&nbsp;[Please provide a numerical value with a maximum of 1 decimal place e.g. 4.5 years]
+              			</apex:outputPanel>
+              		</td></tr>
+              		</table>
+              	</apex:outputPanel>
+              </apex:pageBlockSectionItem>
+              &nbsp; -->
+          </apex:pageBlockSection>
+              
+          <apex:pageBlockSection columns="1">
+          	  
+          	  <apex:pageBlockSectionItem >
+              	<apex:outputLabel value="{!$ObjectType.User.Fields.S_Dir_Degree__c.Label}"/>
+              	<apex:outputPanel layout="block">
+              		<apex:inputTextArea label="Degree" value="{!userField.degree.value}" rendered="{!userField.degree.editAccess}" style="height:120px;width:562px;"/>
+              		<apex:outputText value="{!contextUser.S_Dir_Degree__c}" rendered="{!!userField.degree.editAccess}"/>		
+              	</apex:outputPanel>
+              </apex:pageBlockSectionItem>   
+              
+              <!-- <apex:pageBlockSectionItem >
+              	<apex:outputLabel value="{!$ObjectType.User.Fields.S_Dir_Other_Qualifications__c.Label}"/>
+              	<apex:outputPanel layout="block">
+              		<apex:inputTextArea label="Other Qualifications" value="{!userField.other_qualifications.value}" rendered="{!userField.other_qualifications.editAccess}" style="height:80px;width:200px;"/>
+              		<apex:outputText value="{!contextUser.S_Dir_Other_Qualifications__c}" rendered="{!!userField.other_qualifications.editAccess}"/>		
+              	</apex:outputPanel>
+              </apex:pageBlockSectionItem> -->
+              
+           </apex:pageBlockSection> 
+          
+         <apex:pageBlockSection columns="1">
+         	  <apex:pageBlockSectionItem >
+              	<apex:outputLabel value="{!$ObjectType.User.Fields.S_Dir_Personal_Interests__c.Label}"/>
+              	<apex:outputPanel layout="block">
+              		<apex:inputTextArea label="Personal Interests" value="{!userField.personal_Interest.value}" rendered="{!userField.personal_Interest.editAccess}" style="height:120px;width:562px;"/>
+              		<apex:outputText value="{!contextUser.S_Dir_Personal_Interests__c}" rendered="{!!userField.personal_Interest.editAccess}"/>		
+              	</apex:outputPanel>
+              </apex:pageBlockSectionItem>
+          </apex:pageBlockSection>
+          
+          
+          <apex:pageBlockSection title="Update User Photo" columns="1" rendered="{!IF(userAccount != null,true,false)}">
+      		<apex:inputFile value="{!photo.body}" filename="{!photo.name}" contentType="{!photo.ContentType}" />  
+      		<p>You can upload a JPG, GIF, or PNG file. Maximum file size is 8 MB.</p>
+      		
+      	  </apex:pageBlockSection>	
+      	  <apex:pageBlockSection title="Update User Photo" columns="1" rendered="{!IF(userAccount != null,false,true)}">
+      	  	<p>You cannot update photograph as your user record is not connected to a staff member record. Please contact Group Admin to resolve this error.</p>
+      	  </apex:pageBlockSection>
+      </apex:pageBlock>
+  </apex:form>
+  <apex:pageBlock id="mainBlock2"  mode="edit" rendered="{!AND(showOverriddenView,!allowUpdate)}">
+  	<apex:pageMessage severity="warning" detail="This form has already been submitted. Please contact the school HR department for further assistance."/>
+  </apex:pageBlock>
+ </div>
+ </div> 
+</apex:page>

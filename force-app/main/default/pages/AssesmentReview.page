@@ -1,0 +1,195 @@
+<apex:page controller="AssesmentReview_Controller" id="page" tabStyle="Assessment_Review__tab"> 
+  <apex:includeScript value="{!$Resource.jQuery}"/>
+  <apex:includeScript value="{!URLFOR($Resource.jQueryBlockUI, 'jquery.blockUI.js')}"/>
+  <script>   
+    function openAssessment(aid){
+        var url1 = '/'+aid+'?isdtp=nv';
+        window.open(url1,'_blank','toolbar=yes, scrollbars=yes, resizable=yes, width=800, height=700');
+        return false;   
+    }
+    function deleteAssessment(){
+        var confirm = window.confirm('Are you sure you would like to delete this assessment?');
+        return confirm;  
+    }
+    
+    function editAssessment(aid){
+        var selectedYear = document.getElementById('page:mainform:mainBlock:formsection:formsectionitem:year').value;
+        var selectedClass = document.getElementById('page:mainform:mainBlock:formsection:formsectionitem:class').value;
+        var selectedHouse = document.getElementById('page:mainform:mainBlock:formsection:formsectionitem:house').value;
+        var selectedSubject = document.getElementById('page:mainform:mainBlock:formsection:formsectionitem2:subject').value;
+        var selectedStudent = document.getElementById('page:mainform:mainBlock:formsection:formsectionitem3:student').value;
+        var retURL = encodeURIComponent('/apex/AssesmentReview?aid='+aid+'&year='+selectedYear+'&class='+selectedClass+'&house='+selectedHouse+'&subject='+selectedSubject+'&student='+selectedStudent+'');
+        var url1 = '/'+aid+'/e?saveURL='+retURL+'&cancelURL='+retURL+'&retURL='+retURL;
+        //alert(url1);
+        window.open(url1,'_parent','toolbar=yes, scrollbars=yes, resizable=yes, width=800, height=700');
+        return false;
+    }
+    function saveAssesmments(btn){
+       $.blockUI({ message: '<h1>Just a moment...</h1>' });
+       return true;
+   }
+  </script>     
+  <apex:form id="mainform">
+    <apex:actionFunction name="fetchSubjects" action="{!fetchSubjects}" rerender="mainBlock" status="fetchsubjectstatus"/>
+    <apex:actionFunction name="fetchStudents" action="{!fetchStudents}" rerender="mainBlock" status="fetchstudentstatus"/>
+    <apex:actionFunction name="processStudent" action="{!processStudent}"/>
+    <apex:pageBlock title="Review Assessments" mode="edit" id="mainBlock">
+        <apex:pageBlockSection columns="4" id="formsection">
+            <apex:pageBlockSectionItem helpText="select year & class to get subject list." id="formsectionitem">
+                <apex:outputLabel value="Year / Class / House"/>
+                <apex:outputPanel id="formsectionpanel">
+                    <apex:selectList id="year" value="{!selectedYear}" multiselect="false" size="1" onChange="fetchSubjects();">
+                        <apex:selectOptions value="{!yearOptions}"/>
+                    </apex:selectList>
+                    <apex:selectList id="class" value="{!selectedClass}" multiselect="false" size="1" onChange="fetchSubjects();">
+                        <apex:selectOptions value="{!classOptions}"/>
+                    </apex:selectList>
+                    <apex:selectList id="house" value="{!selectedHouse}" multiselect="false" size="1" onChange="fetchSubjects();">
+                        <apex:selectOptions value="{!houseOptions}"/>
+                    </apex:selectList>
+                </apex:outputPanel>
+            </apex:pageBlockSectionItem>
+            
+            <apex:pageBlockSectionItem helpText="depends on year and class selection." id="formsectionitem2">
+                <apex:outputLabel value="Subject"/>
+                <apex:outputPanel id="panel2">
+                    <apex:selectList id="subject" value="{!selectedSubject}" multiselect="false" size="1" onChange="fetchStudents();">
+                        <apex:selectOptions value="{!subjectOptions}"/>
+                    </apex:selectList>
+                    <apex:actionStatus id="fetchsubjectstatus">
+                        <apex:facet name="start"><apex:image value="{!$Resource.processing_gif}"/></apex:facet>
+                    </apex:actionStatus>
+                </apex:outputPanel>
+            </apex:pageBlockSectionItem>
+            
+            <apex:pageBlockSectionItem helpText="depends on year, class & subject selection." id="formsectionitem3">
+                <apex:outputLabel value="Student"/>
+                <apex:outputPanel id="panel3">
+                    <apex:selectList id="student" value="{!selectedStudent}" multiselect="false" size="1" onChange="processStudent();">
+                        <apex:selectOptions value="{!studentOptions}"/>
+                    </apex:selectList>
+                    <apex:actionStatus id="fetchstudentstatus">
+                        <apex:facet name="start"><apex:image value="{!$Resource.processing_gif}"/></apex:facet>
+                    </apex:actionStatus>
+                </apex:outputPanel>
+            </apex:pageBlockSectionItem>
+        </apex:pageBlockSection>
+        <br/>
+        <apex:pageMessages />
+        <apex:outputPanel layout="block" rendered="{!IF(record != null, true, false)}">
+            <apex:pageBlockSection columns="1">
+                <apex:outputPanel >
+                    <center>
+                    <table width="55%">
+                        <tr>
+                            <td align="left" style="vertical-align:middle">
+                                Student Name: &nbsp;&nbsp; <b>{!selectedStudentName}</b>
+                            </td>
+                            <td align="right">
+                                <table class="table_default" id="navigation" cellpadding="2px" cellspacing="10px">
+                                    <tr>
+                                        <td align="right">
+                                            <div class="paginator" style="text-align:right;">
+                                               <span class="prevNextLinks">
+                                                        <span class="prevNext">
+                                                            <apex:commandLink action="{!previousStudent}" rendered="{!isPrevious}">
+                                                                <img src="/s.gif" class="prev"/>Previous
+                                                            </apex:commandLink>
+                                                        </span>
+                                                        
+                                                        <span class="prevNext">
+                                                            <apex:commandLink action="{!nextStudent}" rendered="{!isNext}">
+                                                                Next<img src="/s.gif" class="next"/>
+                                                            </apex:commandLink>
+                                                        </span>
+                                                </span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <apex:inputTextArea rows="12" cols="120" value="{!record.Comment__c}"/>     
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <apex:commandButton value="Save" action="{!publishComment}" onclick="saveAssesmments(this);"/>       
+                            </td>
+                        </tr>
+                    </table>    
+                    </center>
+                </apex:outputPanel>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Assessments" columns="1">
+                <apex:pageBlockTable value="{!assessmentList}" var="a">
+                    <apex:column >
+                        <apex:facet name="header">Action</apex:facet>
+                        <apex:outputPanel >
+                            <apex:outputLink onclick="return editAssessment('{!a.Id}');">Edit</apex:outputLink>&nbsp;|&nbsp;<apex:commandLink onclick="return deleteAssessment();" action="{!deleteAssessment}" value="Del">
+                                <apex:param name="did" value="{!a.Id}"/>
+                            </apex:commandLink>
+                        </apex:outputPanel>
+                    </apex:column>
+                    <apex:column >
+                        <apex:facet name="header">Name</apex:facet>
+                        <apex:outputField value="{!a.Assessment_Display_Name__c}"/>
+                    </apex:column>
+                    <apex:column >
+                        <apex:facet name="header">Group Name</apex:facet>
+                        <apex:outputField value="{!a.Group_Name__c}"/>
+                    </apex:column>
+                    
+                    <apex:column >
+                        <apex:facet name="header">Achievement</apex:facet>
+                        <apex:outputField value="{!a.Achievement__c}"/>
+                    </apex:column>
+                    <apex:column >
+                        <apex:facet name="header">Effort</apex:facet>
+                        <apex:outputField value="{!a.Effort__c}"/>
+                    </apex:column>
+                    <apex:column >
+                        <apex:facet name="header">Grade</apex:facet>
+                        <apex:outputField value="{!a.Grade__c}"/>
+                    </apex:column>
+                    <apex:column >
+                        <apex:facet name="header">TG/PG</apex:facet>
+                        <apex:outputField value="{!a.Target_Predicted_Grade__c}"/>
+                    </apex:column>
+                    <apex:column >
+                        <apex:facet name="header">Comment</apex:facet>
+                        <apex:outputPanel layout="block" style="width:300px;word-wrap: break-word;">
+                            {!a.Comment__c}
+                        </apex:outputPanel>
+                        
+                    </apex:column>
+                    <apex:column >
+                        <apex:facet name="header">Assessment Date</apex:facet>
+                        <apex:outputField value="{!a.Assessment_Folder__r.Assessment_Date__c}"/>
+                    </apex:column>
+                    <apex:column >
+                        <apex:facet name="header">Logged By</apex:facet>
+                        <apex:outputField value="{!a.CreatedById}"/>
+                    </apex:column>
+                    <apex:column >
+                        <apex:facet name="header">{!$ObjectType.Assesment__c.Fields.Auto_Approve__c.Label}</apex:facet>
+                        <apex:outputField value="{!a.Auto_Approve__c}"/>
+                    </apex:column>
+                </apex:pageBlockTable>
+                <br/>
+                
+                <table>
+                    <tr>
+                        <td align="right"> 
+                            <apex:commandButton immediate="true" value="Load More Assessments" action="{!fetchMoreAssessments}" disabled="{!!showLoadMoreAssessments}"/>
+                        </td>
+                    </tr>
+                </table>
+            </apex:pageBlockSection>
+        </apex:outputPanel> 
+    </apex:pageBlock>
+  </apex:form>
+  
+</apex:page>

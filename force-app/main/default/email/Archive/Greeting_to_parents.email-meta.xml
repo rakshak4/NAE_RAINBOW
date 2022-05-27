@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Greeting letter from Sue</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Greeting to parents</name>
+    <style>none</style>
+    <subject>Joining the staff of BSN</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20140818 Letter to Parents</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20140818 Letter to Parents</name>
+    <style>freeForm</style>
+    <subject>In Preparation for the Start of School</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We trust this finds you well and that you are looking forward to the start of the new academic year on Tuesday 2nd September 2014. In preparation for the start of term please see the below.
+
+Language Options
+We are offering a choice of Spanish or Mandarin for Pre-Nursery to Year 6. As the objective is for pupils to reach a high level of competence in their chosen language, pupils will have to choose between one of the two languages and will not be able to do both. In case you have not already done so please can you complete the below link to make the language option for your child.
+
+Primary choice of Chinese or Spanish (https://docs.google.com/forms/d/1AZo-TT2MbAs8SkHG8q5o6vnovOhWYkULNiDl9_3b4TI/viewform)
+
+Secondary choice of Mandarin, Spanish or French (https://docs.google.com/forms/d/1A2KMFhp-bCFX3xWJwokOPiBAYlk3Su7OUeXL0AzKYRc/viewform)
+
+Uniform
+Both existing and new parents may come to school from now until Thursday 28th August 2014 the last day to purchase Uniform items. You will not be able to purchase Uniform on Friday 29th August 2014. Uniform is being sold from the Secondary Canteen and is available between 9:30am - 3:30pm from Monday to Thursday and 9:30am - 2:30pm on Fridays. Once the term starts, the Uniform Shop will reopen as normal. If you have previously completed a Uniform Order Form you may collect the items from Thursday 21st August onwards.
+
+ID Tags &amp; Car Stickers
+If you have not already done so, please provide the school Administration Team with a passport photo of the Parent(s) or Guardian(s) that will be collecting your child from school. Once we have received the photo(s) the ID Tag(s) can be collected one week later from the Secondary Campus Reception. The Car Stickers will be ready for collection from Monday 25th August 2014. Each family will receive two free ID Tags and 2 Car Stickers. Should you require extra they will cost RM50 per piece.
+
+Meet The Teacher Days
+Thursday 28th August will be our Meet The Teacher Day for all year groups. For Early Years and Primary students it will be from 1pm - 3pm and for Secondary students it will be from 2pm - 3pm. If you have children in both Primary and Secondary please ensure you visit the Primary Teacher first. This day will be an informal opportunity for you to meet the Teacher and if applicable the Teaching Assistant.
+
+Parking
+The Primary campus parking is on levels B1, B2 and B3.  Pre-nursery up until Year 4 are based in the Primary campus and Year 5 up until Year 10 are based on the Secondary campus.  Please also be aware that our school buses park at B1 at the Primary campus and there is designated spaces allocated for them.  If you wish to drop your children off at either school entrance that is no problem.  But we would like to politely request this is a drop off area only and not for parking as traffic can get very congested.  We thank you for your cooperation in advance.
+
+School Bus
+School bus times will be sent out to parents in the last week of August.
+
+If you require any further information regarding your child&apos;s enrolment in the school please contact our Head of Admissions and Parent Liaison Alice Gibbons on alice.gibbons@britishschool.edu.my
+
+
+Kind regards
+Admin Team
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

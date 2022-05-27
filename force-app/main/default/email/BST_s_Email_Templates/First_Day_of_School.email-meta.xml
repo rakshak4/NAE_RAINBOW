@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to parents about new academic year 2014-2015</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>First Day of School</name>
+    <style>freeForm</style>
+    <subject>First Day of School.</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I hope you have had a long and restful summer.
+
+
+I&apos;m really looking forward to welcoming the new staff and children into what will be another exciting year for BST. Staff are busy preparing for the new school year and we will be ready to welcome you back on the first day of term which is Monday 25th August. Parents with children from Year 2 should arrive between 8:20 am and  8:40 am ready for registration at 8:45 am prompt. Details of your child&apos;s class will be on display in the library area.
+
+
+Parents and children from Pre- Nursery to Year 1 on the lower campus should arrive between 8:40 am and 8:55 am ready for registration at 9:00 am prompt,  to be greeted by their class teacher and Teaching assistant. Again details of your child&apos;s class will be on display in the reception area.
+
+
+Our annual uniform sale will commence at our upper school campus from Tuesday 19th August, from 10:00 am. Uniform can be purchased or ordered during the week prior to the beginning of the new term. I will be around school please feel free to say hello, my door is always open.
+
+
+Demand for places at the school is high at the moment therefore can I request that payment of fees is made as soon as possible to guarantee your child&apos;s place for the beginning of a very exciting term.
+
+
+Parents of children who are new to our school this year will be able to visit school on Friday 22nd August between 9:00-11:00 am to visit their new classroom and meet some of the  teaching staff.
+
+
+Best regards,
+
+
+
+David Kirkham
+
+Headmaster
+
+
+
+Уважаемые родители,
+
+
+Я надеюсь, что Вы хорошо отдохнули за это долгое лето.
+
+
+Я с нетерпением жду возможности поприветствовать новый школьный состав и учеников в еще одном захватывающем году BST. Персонал занят подготовкой к новому учебному году, и мы будем готовы начать учебу в первый день триместра, в понедельник 25 августа. Родители учеников 2-го класса и старше должны прибыть в промежутке между 8:20-8:40 утра, чтобы быть готовыми к регистрации в 8:45 утра. Подробная информация о классе Вашего ребенка будет выставлена на дисплее в зоне библиотеки.
+
+
+Родители и дети групп PN и Year 1 здания детского сада должны прибыть в промежутке между 8:40-8:55 утра, чтобы быть готовыми к регистрации в 9:00 утра. Классные руководители и помощники преподавателей будут приветствовать Вас. Детали класса Вашего ребенка будут выставлены на дисплее в зоне ресепшена.
+
+
+Продажа школьной формы начнется в здании школы во вторник 19 августа, с 10:00 утра. Школьную форму можно будет приобрести или заказать в течение недели до начала нового триместра. Я буду находиться в школе, поэтому-не стесняйтесь зайти ко мне поздороваться, так как мои двери всегда открыты для Вас.
+
+
+Спрос на места в школе высок в данный момент, поэтому я убедительно прошу Вас, чтобы необходимые оплаты были произведены в кратчайшие сроки, чтобы гарантировать место Вашему ребенку к началу захватывающего нового триместра.
+
+
+
+Родители учеников, которые поступили к нам в этом году смогут посетить школу в пятницу 22 августа в период с 9: 00-11: 00 утра, чтобы осмотреть свои классы и встретиться с некоторыми сотрудниками из преподавательского состава.
+
+
+
+С уважением,
+
+
+
+Дэвид Киркхам
+
+Директор
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>important announcement from the Chairman of the British Schools Foundation</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>important announcement from the Chairman of the British Schools Foundation</name>
+    <style>freeForm</style>
+    <subject>important announcement from the Chairman of the British Schools Foundation</subject>
+    <textOnly>important announcement from the Chairman of the British Schools Foundation</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

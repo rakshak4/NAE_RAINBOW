@@ -1,0 +1,49 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div style="text-align: right;"><div style="font-family: arial; font-size: 12pt; color: rgb(0, 0, 0);"><span class="Apple-style-span" style="font-family: 'Times New Roman', Times, serif;"><font class="Apple-style-span" color="#000066" size="6">{!Contact.SchoolText__c}</font></span></div><div style="font-family: arial; font-size: 12pt; color: rgb(0, 0, 0);"><font class="Apple-style-span" face="'Times New Roman', Times, serif" color="#ff6600" size="4"><i>Charter<font size="4">ed By&nbsp;</font>The British Schools&nbsp;<font size="4">Founda<font size="4">t<font size="4">ion</font></font></font><br></i></font></div><div style="font-family: arial; font-size: 12pt; color: rgb(0, 0, 0);"><font class="Apple-style-span" face="Arial, sans-serif" color="#c0c0c0" size="6"><b><i><br></i></b></font></div><div style="font-family: arial; font-size: 12pt; color: rgb(0, 0, 0);"><font class="Apple-style-span" face="'Times New Roman', Times, serif" color="#ff6600" size="1"><i><br></i></font></div><div style="color: rgb(0, 0, 0); text-align: left;"><font class="Apple-style-span" face="Arial, sans-serif"><span class="Apple-style-span" style="border-spacing: 5px;"><br></span></font></div><div style="color: rgb(0, 0, 0); text-align: left;"><font class="Apple-style-span" face="Arial, sans-serif"><span class="Apple-style-span" style="border-spacing: 5px;">Dear&nbsp;{!Contact.Salutation} {!Contact.LastName},</span></font></div><span lang="en-GB" style="color: rgb(0, 0, 0); text-align: start;"><div style="margin: 0px;"><font face="Arial, sans-serif">
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal">I hope you all had a wonderful break and looking forward to
+the new school year ahead. <o:p></o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal">The residential trip for Y7 this year will be to <b>Borneo</b> from the 27<sup>th</sup>
+November – 2<sup>nd</sup> December 2017. The trip is organised by Camps
+International. Many of our schools within the British School Foundation have
+use Camps International, we also organised the successful Y8 residential to
+Vietnam in 2016 through this organisation. <o:p></o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal">Please see below a link to a letter &nbsp;that will provide you with a brief overview
+of the trip. <o:p></o:p></p><p class="MsoNormal"><a href="https://drive.google.com/file/d/0B_YUy6DLw6XqOE8wcVRhbHZCMkE/view?usp=sharing">Camps International Letter&nbsp;</a></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal">We would like to invite you to a presentation regarding the
+residential on <b>Friday 8<sup>th</sup>
+September at 10.00am</b> at the Secondary School (Min Dhamma). <o:p></o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal">At 9.00am there will be a presentation covering the
+Secondary Curriculum and Assessment by our Head of Secondary, Matthew
+Gilberthorpe. <o:p></o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal">Should you have any questions in the meantime, please do not
+hesitate to contact me. &nbsp;<o:p></o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal">Kind Regards, <o:p></o:p></p>
+
+<p class="MsoNormal"><br></p><p class="MsoNormal">Jodie&nbsp;Ramskill<o:p></o:p></p><p class="MsoNormal">jodie.ramskill@britishschoolyangon.org</p>
+
+<!--EndFragment--><font color="#000000">Deputy Head of Secondary&nbsp;<br><br></font></font></div></span><div style="text-align: left;"><font face="Arial, sans-serif">{!Contact.SchoolText__c}</font></div><div style="color: rgb(0, 0, 0); text-align: left;"><i><font class="Apple-style-span" color="#ff6600" face="Arial, sans-serif"><b>World Class Education</b></font></i></div><div style="font-family: arial; font-size: 12pt; color: rgb(0, 0, 0); text-align: left;"><font class="Apple-style-span" face="Arial, sans-serif"><br></font></div><div style="font-family: arial; font-size: 12pt; color: rgb(0, 0, 0); text-align: left;"><font class="Apple-style-span" face="Arial, sans-serif">__________________________________________________________</font></div><div style="font-family: arial; font-size: 12pt; color: rgb(0, 0, 0); text-align: center;"><font class="Apple-style-span" face="Arial, sans-serif" size="1">{!User.School_List_Email_Footer__c}</font></div></div>]]></td>
+</tr>
+</table>

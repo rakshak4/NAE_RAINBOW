@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Application_Fee_or_DC__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( OR(Contains(Description__c,&quot;Application&quot;), Contains(Description__c,&quot;Contribution&quot;))=TRUE,&quot;Yes&quot;,&quot;No&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Application Fee or DC?</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Associated_Discount_on_Create__c</fullName>
+        <description>Populated with the decimal equivalent of the discount percentage that&apos;s either on the corresponding opportunity product or entered manually in the single invoice generation screen depending on the method of invoice creation. Is not executed for discount line items so they are left blank. At this time only used in the BSB founding parent logic to prevent the combined discount (percentage+founding parent) being more than the value of the invoice line item to which it relates.</description>
+        <externalId>false</externalId>
+        <label>Associated Discount on Create</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Audit_Value_Terms_From_Months__c</fullName>
+        <description>Calculates the termly equivalent of a monthly fee, based on school, invoice date, starting date and today&apos;s date, for use in the automatic audit reports and dashboard</description>
+        <externalId>false</externalId>
+        <formula>IF(AND(YEAR(Invoice_Statement__r.Invoice_Date__c)=YEAR(TODAY()),  OR(AND(MONTH(Invoice_Statement__r.Invoice_Date__c)=1, MONTH(TODAY())=1), AND(MONTH(Invoice_Statement__r.Invoice_Date__c)=4, MONTH(TODAY())=4), AND(MONTH(Invoice_Statement__r.Invoice_Date__c)=8, MONTH(TODAY())=8, School__c = &quot;The British College of Brazil&quot;), AND(MONTH(Invoice_Statement__r.Invoice_Date__c)=9, OR(MONTH(TODAY())=9, MONTH(TODAY())=8), School__c &lt;&gt; &quot;The British College of Brazil&quot;))), 1,
+
+          IF(AND(YEAR(Invoice_Statement__r.Invoice_Date__c)=YEAR(TODAY()), OR(AND(MONTH(Invoice_Statement__r.Invoice_Date__c)=2, MONTH(TODAY())=2), AND(MONTH(Invoice_Statement__r.Invoice_Date__c)=5, MONTH(TODAY())=5, School__c &lt;&gt; &quot;The British College of Brazil&quot;))), 2/3,
+
+          IF(AND(YEAR(Invoice_Statement__r.Invoice_Date__c)=YEAR(TODAY()), OR(AND(MONTH(Invoice_Statement__r.Invoice_Date__c)=3, MONTH(TODAY())=3), AND(MONTH(Invoice_Statement__r.Invoice_Date__c)=6, MONTH(TODAY())=6, School__c &lt;&gt; &quot;The British College of Brazil&quot;))), 1/3,
+          
+          IF(AND(YEAR(Invoice_Statement__r.Invoice_Date__c)=YEAR(TODAY()), 
+OR(AND(MONTH(Invoice_Statement__r.Invoice_Date__c)=5, MONTH(TODAY())=5, School__c = &quot;The British College of Brazil&quot;), AND(MONTH(Invoice_Statement__r.Invoice_Date__c)=10, MONTH(TODAY())=10, School__c &lt;&gt; &quot;The British College of Brazil&quot;))), 0.75,
+
+          IF(AND(YEAR(Invoice_Statement__r.Invoice_Date__c)=YEAR(TODAY()), 
+OR(AND(MONTH(Invoice_Statement__r.Invoice_Date__c)=6, MONTH(TODAY())=6, School__c = &quot;The British College of Brazil&quot;), AND(MONTH(Invoice_Statement__r.Invoice_Date__c)=11, MONTH(TODAY())=11, School__c &lt;&gt; &quot;The British College of Brazil&quot;))), 0.5,
+
+          IF(AND(YEAR(Invoice_Statement__r.Invoice_Date__c)=YEAR(TODAY()), 
+OR(AND(MONTH(Invoice_Statement__r.Invoice_Date__c)=7, MONTH(TODAY())=7, School__c = &quot;The British College of Brazil&quot;), AND(MONTH(Invoice_Statement__r.Invoice_Date__c)=12, MONTH(TODAY())=12, School__c &lt;&gt; &quot;The British College of Brazil&quot;))), 0.25,
+
+          IF(AND(YEAR(Invoice_Statement__r.Invoice_Date__c)=YEAR(TODAY()), School__c = &quot;The British College of Brazil&quot;, MONTH(Invoice_Statement__r.Invoice_Date__c)=9, MONTH(TODAY())=9), 0.80,
+
+          IF(AND(YEAR(Invoice_Statement__r.Invoice_Date__c)=YEAR(TODAY()), School__c = &quot;The British College of Brazil&quot;, MONTH(Invoice_Statement__r.Invoice_Date__c)=10, MONTH(TODAY())=10), 0.60,
+
+          IF(AND(YEAR(Invoice_Statement__r.Invoice_Date__c)=YEAR(TODAY()), School__c = &quot;The British College of Brazil&quot;, MONTH(Invoice_Statement__r.Invoice_Date__c)=11, MONTH(TODAY())=11), 0.40,
+
+          IF(AND(YEAR(Invoice_Statement__r.Invoice_Date__c)=YEAR(TODAY()), School__c = &quot;The British College of Brazil&quot;, MONTH(Invoice_Statement__r.Invoice_Date__c)=12, MONTH(TODAY())=12), 0.20,
+          
+IF(AND(MONTH(Invoice_Statement__r.Invoice_Date__c)&gt;=8, School__c = &quot;The British College of Brazil&quot;), 0.20, 
+
+IF(OR(AND(MONTH(Invoice_Statement__r.Invoice_Date__c)&gt;=8, School__c &lt;&gt; &quot;The British College of Brazil&quot;), AND(MONTH(Invoice_Statement__r.Invoice_Date__c)&gt;=4, MONTH(Invoice_Statement__r.Invoice_Date__c)&lt;=7, School__c = &quot;The British College of Brazil&quot;)), 0.25, 
+
+1/3))))))))))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Audit Value (Terms From Months)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Audit_Value_Text_Terms__c</fullName>
+        <externalId>false</externalId>
+        <label>Audit Value Text (Terms)</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Deletion_Prevention__c</fullName>
+        <externalId>false</externalId>
+        <formula>ISBLANK(Students_Info__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Deletion Prevention</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>128</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Doesn_t_Meet_Validation__c</fullName>
+        <externalId>false</externalId>
+        <formula>AND(
+    NOT(CONTAINS(Description__c, &quot;Monthly&quot;)), 
+    NOT(CONTAINS(Description__c, &quot;Termly&quot;)),
+    NOT(CONTAINS(Description__c, &quot;Yearly&quot;)),
+    OR(
+       TEXT(Fee_Type__c) = &quot;Tuition&quot;,
+       TEXT(Fee_Type__c) = &quot;Lunch&quot;,
+       TEXT(Fee_Type__c) = &quot;Bus&quot;,
+       TEXT(Fee_Type__c) = &quot;EAL&quot;
+       )
+    )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Doesn&apos;t Meet Validation</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>External_ID_18_Char__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>The ID of the record in the alternate SFDC org, where applicable.</description>
+        <externalId>true</externalId>
+        <label>External ID (18 Char)</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Fee_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Fee Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Tuition</fullName>
+                    <default>false</default>
+                    <label>Tuition</label>
+                </value>
+                <value>
+                    <fullName>Bus</fullName>
+                    <default>false</default>
+                    <label>Bus</label>
+                </value>
+                <value>
+                    <fullName>Lunch</fullName>
+                    <default>false</default>
+                    <label>Lunch</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>EAL</fullName>
+                    <default>false</default>
+                    <label>EAL</label>
+                </value>
+                <value>
+                    <fullName>Enrolment</fullName>
+                    <default>false</default>
+                    <label>Enrolment</label>
+                </value>
+                <value>
+                    <fullName>Application</fullName>
+                    <default>false</default>
+                    <label>Application</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Invoice_Currency_From_Statement__c</fullName>
+        <description>A temporary field used to identify line items in RUB currency to be updated in Moscow</description>
+        <externalId>false</externalId>
+        <formula>Invoice_Statement__r.Currency__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Invoice Currency (From Statement)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Invoice_Date_Text_from_statement__c</fullName>
+        <externalId>false</externalId>
+        <label>Invoice Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Invoice_Date_from_statement__c</fullName>
+        <externalId>false</externalId>
+        <formula>Invoice_Statement__r.Invoice_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Invoice Date (from statement)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Invoice_Statement__c</fullName>
+        <externalId>false</externalId>
+        <label>Invoice Statement</label>
+        <referenceTo>Invoice_Statement__c</referenceTo>
+        <relationshipLabel>Line Items</relationshipLabel>
+        <relationshipName>Line_Items</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Is_Active_Enrolment_Fee_Line_Item__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+   AND(
+       TEXT(Fee_Type__c) = &quot;Enrolment&quot;, 
+       NOT(CONTAINS(Description__c, &quot;Discount&quot;)),
+       NOT(CONTAINS(Description__c, &quot;PHP - Foundation Stage Deposit&quot;)),
+       Xero_Invoice_Status_from_statement_text__c != &quot;ERROR&quot;, 
+       Xero_Invoice_Status_from_statement_text__c != &quot;Voided&quot;, 
+       Xero_Invoice_Status_from_statement_text__c != &quot;Deleted&quot;
+       ), 
+   1, 
+   0
+   )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is Active Enrolment Fee Line Item</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Campus_1_Student_Copy__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Campus 1 Student (Copy)</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Campus_1_Student__c</fullName>
+        <externalId>false</externalId>
+        <formula>Student__r.Is_Campus_1_Student__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is Campus 1 Student</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Campus_2_Student_Copy__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Campus 2 Student (Copy)</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Campus_2_Student__c</fullName>
+        <externalId>false</externalId>
+        <formula>Student__r.Is_Campus_2_Student__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is Campus 2 Student</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Line_Item_Filter__c</fullName>
+        <description>Used in connector workbooks to filter what would normally be a very long list of line items</description>
+        <externalId>false</externalId>
+        <formula>AND(
+    OR(
+       Invoice_Statement__r.School__c = &quot;Brasilia&quot;,
+       Invoice_Statement__r.Xero_Key__r.Name = &quot;Brasilia&quot;
+       ),
+    Invoice_Statement__r.Invoice_Date__c = DATE(2017,01,01),
+    Invoice_Statement__r.Currency__c = &quot;BRL&quot;,
+    TEXT(Fee_Type__c) = &quot;Tuition&quot;,
+    OR(
+       DATEVALUE(Invoice_Statement__r.CreatedDate) = DATE(2016,12,11),
+       DATEVALUE(Invoice_Statement__r.CreatedDate) = DATE(2016,12,10)
+       )
+    )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Line Item Filter</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Manually_Audited_to_Date_From_Student__c</fullName>
+        <externalId>false</externalId>
+        <formula>Student__r.Manually_Audited_To_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Manually Audited to Date (From Student)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Mass_Update__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Mass Update</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Not_Updated_this_Month__c</fullName>
+        <description>Used to check, via connector, that the batch job which updates all line item audit values each month has executed successfully</description>
+        <externalId>false</externalId>
+        <formula>MONTH(DATEVALUE(LastModifiedDate)) &lt;&gt; MONTH(TODAY())</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Not Updated this Month</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OBOldLine_Item_cId__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <description>Used for ownbackup data restoration</description>
+        <externalId>true</externalId>
+        <label>OBOldLine_Item__cId</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Rollup_as_Refundable_Deposit__c</fullName>
+        <externalId>false</externalId>
+        <formula>AND(
+    TEXT(Fee_Type__c) = &quot;Enrolment&quot;,
+    CONTAINS(Description__c, &quot;Deposit&quot;),
+    CONTAINS(Description__c, &quot;PHP&quot;),
+    Xero_Invoice_Status_from_statement_text__c != &quot;ERROR&quot;,
+    Xero_Invoice_Status_from_statement_text__c != &quot;Voided&quot;,
+    Xero_Invoice_Status_from_statement_text__c != &quot;Deleted&quot;,
+    Xero_Invoice_Status_from_statement_text__c != &quot;&quot;
+    )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Rollup as Refundable Deposit</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>School__c</fullName>
+        <externalId>false</externalId>
+        <formula>Student__r.School__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>School</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Student_Full_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Student__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Student Full Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Student_Local_Name_Sys__c</fullName>
+        <externalId>false</externalId>
+        <formula>Student__r.Name_in_Local_Language__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Student Local Name (Sys)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Student_Local_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Student Local Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Student__c</fullName>
+        <externalId>false</externalId>
+        <label>Student</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Invoice Line Items</relationshipLabel>
+        <relationshipName>Line_Items</relationshipName>
+        <relationshipOrder>1</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Students_Info__c</fullName>
+        <externalId>false</externalId>
+        <label>Students Info</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Tracking_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Tracking 1 (Company)</label>
+        <length>128</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tracking__c</fullName>
+        <externalId>false</externalId>
+        <label>Tracking 2 (Campus/Misc)</label>
+        <length>128</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Unit_Price_Number__c</fullName>
+        <externalId>false</externalId>
+        <formula>Unit_Price__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Unit Price (Number)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Unit_Price_Prefix__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Unit_Price__c &lt; 0, Invoice_Statement__r.Currency__c &amp; &quot; -&quot;, Invoice_Statement__r.Currency__c &amp; &quot; &quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Unit Price Prefix</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Unit_Price_Text__c</fullName>
+        <externalId>false</externalId>
+        <formula>Unit_Price_Prefix__c  &amp;
+IF(
+ABS(Unit_Price__c) &gt;= 1000000,
+TEXT(FLOOR(ABS(Unit_Price__c) / 1000000)) &amp; &quot;,&quot;,
+&quot;&quot;) &amp;
+IF(
+ABS(Unit_Price__c) &gt;= 1000,
+RIGHT(TEXT(FLOOR(ABS(Unit_Price__c) / 1000)), 3) &amp; &quot;,&quot;,
+&quot;&quot;) &amp;
+RIGHT(TEXT(FLOOR(ABS(Unit_Price__c))), 3) &amp; &quot;.&quot; &amp;
+IF(
+MOD(ABS(Unit_Price__c) , 1) * 100 &lt; 10,
+&quot;0&quot; &amp; TEXT(ROUND(MOD(ABS(Unit_Price__c) , 1), 2) * 100),
+TEXT(MIN(ROUND(MOD(ABS(Unit_Price__c) , 1), 2) * 100, 99))
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Unit Price</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Unit_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Unit Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Voided_Deleted__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(TEXT(Invoice_Statement__r.Voided_Deleted__c) = &quot;Voided&quot;, TEXT(Invoice_Statement__r.Voided_Deleted__c) = &quot;Deleted&quot;), TRUE, FALSE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Voided/Deleted?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Xero_Invoice_Status_from_statement__c</fullName>
+        <externalId>false</externalId>
+        <formula>Invoice_Statement__r.Xero_Invoice_Status__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Xero Invoice Status (from statement)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Xero_Invoice_Status_from_statement_text__c</fullName>
+        <externalId>false</externalId>
+        <label>Xero Invoice Status</label>
+        <length>30</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Yearly_Fee__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(CONTAINS( Description__c,&quot;Year&quot;), CONTAINS( Description__c,&quot;Yearly&quot;))=TRUE,&quot;Yes&quot;,&quot;No&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Yearly Fee?</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Line Item</label>
+    <nameField>
+        <displayFormat>{000000}</displayFormat>
+        <label>Line Item Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Line Items</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Disallow_Change_of_Fee_Type</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISCHANGED(Fee_Type__c)</errorConditionFormula>
+        <errorMessage>You are not allowed to change the &apos;Fee Type&apos;. Please revert to the original value or press cancel to continue.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Prevent_Removal_of_Fee_Freq_From_Desc</fullName>
+        <active>true</active>
+        <description>The auditing dashboard reports, in some cases, calculate values based on the invoicing frequency as described in an invoicing line item. It is therefore critical to ensure that an invoice line item contains the invoicing frequency and it is not changed.</description>
+        <errorConditionFormula>OR(
+   Description__c = &quot;&quot;,
+   AND(
+       NOT(CONTAINS(Description__c, &quot;Monthly&quot;)),
+       NOT(CONTAINS(Description__c, &quot;Termly&quot;)),
+       NOT(CONTAINS(Description__c, &quot;Yearly&quot;)),
+       OR(
+          TEXT(Fee_Type__c) = &quot;Tuition&quot;,
+          TEXT(Fee_Type__c) = &quot;Lunch&quot;,
+          TEXT(Fee_Type__c) = &quot;Bus&quot;,
+          TEXT(Fee_Type__c) = &quot;EAL&quot;
+          )
+       ),
+   AND(
+       $Profile.Name != &quot;System Administrator&quot;,
+       $UserRole.DeveloperName != &quot;Group_Head_of_Finance&quot;,
+       OR(
+          TEXT(Fee_Type__c) = &quot;Tuition&quot;,
+          TEXT(Fee_Type__c) = &quot;Lunch&quot;,
+          TEXT(Fee_Type__c) = &quot;Bus&quot;,
+          TEXT(Fee_Type__c) = &quot;EAL&quot;
+          ),
+       OR(
+          AND(
+              CONTAINS(PRIORVALUE(Description__c), &quot;Monthly&quot;), 
+              NOT(CONTAINS(Description__c, &quot;Monthly&quot;))
+              ),     
+          AND(
+              CONTAINS(PRIORVALUE(Description__c), &quot;Termly&quot;), 
+              NOT(CONTAINS(Description__c, &quot;Termly&quot;))
+              ),
+          AND(
+              CONTAINS(PRIORVALUE(Description__c), &quot;Yearly&quot;), 
+              NOT(CONTAINS(Description__c, &quot;Yearly&quot;))
+              )
+          )
+      )
+   )</errorConditionFormula>
+        <errorMessage>The description of a line item of type &apos;Tuition&apos;, &apos;Bus&apos;, &apos;Lunch&apos; or &apos;EAL&apos; must contain the invoice frequency &apos;Monthly&apos;, &apos;Termly&apos; or &apos;Yearly&apos; in the description, and you cannot change the description from one frequency to another (e.g. Monthly to Termly)</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

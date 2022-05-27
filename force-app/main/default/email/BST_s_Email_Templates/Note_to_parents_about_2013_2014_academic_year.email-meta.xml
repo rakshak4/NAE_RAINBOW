@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to parents about the start of new academic year.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Note to parents about 2013-2014 academic year</name>
+    <style>freeForm</style>
+    <subject>The First Day of School</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Dear parents,
+
+I hope you have had a long and restful summer. As the new school year approaches I  wanted to inform you of a few important notices.
+
+Firstly the new campus development is tremendous and I&apos;m really looking forward to welcoming the new staff and children into what will be one of best learning environments in the country. Everything for the building completion is on time and we will be ready for opening on the first day of term which is Monday 26th August. Parents with children from Year 2 should arrive between 8:20 am and  8:40 am ready for registration at 8:45 am prompt. Details of your child&apos;s class will be on display in the library area.
+
+There has also been some changes to the lower school campus and parents from Pre- Nursery to Year 1 should arrive between 8:40 am and 8:55 am ready for registration at 9:00 am prompt,  to be greeted by their class teacher and Teaching assistant. Again details of your child&apos;s class will be on display in the reception area.
+
+It has been brought to my attention that some parents were concerned that our Uzbek national holidays had not been included in the new website layout. I would like to confirm that all national holidays will be observed as per normal and you will be notified well in advance as to when these will occur.  For some of the holidays such as Eid , it is difficult to predict the exact date,  it was felt best not to disappoint parents if we put down the wrong date for a particular holiday.
+
+Our  annual uniform sale will commence at our lower school campus week commencing Monday 19th August, from 10:00 am. Uniform can be purchased or ordered during the week prior to the beginning of the new term. I will be around school ,please feel free to say hello, my door is always open.
+
+Demand for places at the school is high at the moment therefore can I request that payment of fees is made as soon as possible to guarantee your child&apos;s place for the beginning of a very exciting term.
+
+David Kirkham
+Headmaster
+
+Дорогие родители,
+
+
+Я надеюсь, вы хорошо провели летние каникулы. До начала нового учебного года осталось совсем немного, и я бы хотел поделиться с вами несколькими важными заметками.
+
+
+В первую очередь, хотел бы рассказать о процессе стройки нашего нового здания. Процесс идет полным ходом,  и я  с нетерпением жду встречи с детьми и новыми преподавателями в одном из лучших учебных мест в стране. Как и планировалось, здание будет готово к началу учебного года.
+
+
+Первый учебный день – понедельник,  26 августа.
+
+
+Родители учеников класса Year 2 и старше должны привезти детей в новое здание утром между 8.20 и 8.40. Присутствие детей в классе начнут отмечать в 8.45. Детали расположения класса вашего ребенка вы сможете найти на доске в библиотеке.
+
+
+Дети из классов c Pre-Nursery 1 до Year 1 Должны быть в школе в промежутке между 8.40 и 8.55. Присутствие детей в классе начнут отмечать в 9.00.Детали расположения класса вашего ребенка вы сможете найти в приемной школы.
+
+
+Мое внимание обратили на то, что в школьном календаре, вывешенном на сайте школы, не отмечены национальные праздники. Я бы хотел подтвердить, что все государственные праздники будут отмечаться, и вы будете заранее предупреждены о конкретных днях. Некоторые праздники, такие как Хайит не имеют зафиксированной даты, поэтому было решено пока, не указывать точный день.
+
+
+Продажа школьной формы начнется в нашем старом здании в понедельник, 19 августа в 10 утра Продажа школьной формы будет идти всю неделю с 19 по 23 августа. Я буду в школе и буду рад встретиться с вами, мои двери всегда открыты для вас.
+
+
+Спрос на места в школе высок и я бы хотел попросить вас произвести оплату как можно скорее , для того чтобы гарантировать место в классе для вашего ребенка в новом учебном году.
+
+
+С наилучшими пожеланиями,
+
+
+Дэвид Киркхам
+
+Академический директор
+
+Британской школы в Ташкенте
+
+
+
+
+
+Regards,
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

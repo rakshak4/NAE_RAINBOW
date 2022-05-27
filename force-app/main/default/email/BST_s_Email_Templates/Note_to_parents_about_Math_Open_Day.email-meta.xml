@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Note to  parents about Math Open Day</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Note to parents about Math Open Day</name>
+    <style>freeForm</style>
+    <subject>Math Open Morning.</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Dear parents,
+
+We would like to invite you to Maths Open Day for parents of Year 2 - Year 6 classes which is going to take place on Thursday, November 21st at 9.15.
+
+Please join us for this opportunity to see how Math is taught in your child&apos;s class.
+
+Looking forward to see you all!
+
+Дорогие родители,
+
+Мы бы хотели пригласить вас на открытый урок по математике, который пройдет в здании школы в четверг, 21 ноября в 9.15 утра. Приглашаются родители учеников Year 2- Year 6.
+
+Будем рады, если у вас получится присоединиться к нам, и увидеть своими глазами как преподается математика в Британской школе в Ташкенте.
+
+До встречи!
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Phonics 4 Parents</name>
+    <style>freeForm</style>
+    <subject>Phonics 4 Parents</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+12th September 2012
+
+
+Dear Nursery, Reception &amp; Year 1 Parents,
+
+
+We would like to invite you to a ‘Phonics 4 Parents’ evening on Monday the 24th of September at 5:30pm.
+
+
+
+Please CLICK HERE to download all the information and confirmation slip.
+
+
+
+Yours Sincerely,
+
+
+Hanadi Fawzy &amp; Clair Doubleday
+
+
+
+
+
+
+
+
+
+
+
+
+_________________________________________________________
+
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

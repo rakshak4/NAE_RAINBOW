@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Pre-start day info</name>
+    <style>freeForm</style>
+    <subject>Information re Monday 22nd and Uniforms</subject>
+    <textOnly>Dear Mr and Mrs {!Contact.LastName}
+
+Just a quick email to let you know that after having received a number of calls with enquiries around next week, I will be sending out some information from Paul tomorrow that will hopefully answer all of your these.
+
+In addition to this, please be aware that when planning your trip to the uniform shop, you will need to make sure that you arrive no later than 4pm as it works in conjunction with the accounts department and so we will not be able to process purchases after this time. Further more, I&apos;d also like to remind you that you will need to bring cash (rubles) when purchasing the uniforms.
+
+When visiting for your uniforms, please also take the opportunity to collect your security pass from the security booth on the same campus. Your photo will be taken in order for your pass to be completed.
+
+Best
+Melissa</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

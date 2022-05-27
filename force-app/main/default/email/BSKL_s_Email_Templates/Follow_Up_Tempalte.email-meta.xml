@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>To be used to reply</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Follow Up Template School Hub</name>
+    <style>freeForm</style>
+    <subject>Log in - Parent Portal</subject>
+    <textOnly>The School Hub
+Support Request
+
+
+Dear {!Contact.FirstName} {!Contact.LastName},
+
+
+We are sorry to bother you, but we wanted to follow up as our system shows you have not logged in to the school&apos;s parent portal. A login email was sent last Friday.
+
+We wanted to make sure you (a) received the email (b) had no problem login in.
+
+If you can&apos;t locate the email, please check your &quot;Spam folder&quot; or there is a chance your partner parent has received instead.
+
+Please feel free to contact us by replying to this email (support@britishschools.co.uk) and we will be happy to re-send the login email, adjust any contact details or help out with any other issues you might have.
+
+
+
+Regards
+
+School Hub Support Team
+World Class Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

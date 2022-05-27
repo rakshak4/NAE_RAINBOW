@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in August 2014</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Administration Notice for 19th September</name>
+    <style>freeForm</style>
+    <subject>Administration Notice for 19th September</subject>
+    <textOnly>The International School
+of Moscow
+Chartered By The British Schools Foundation
+
+
+
+Dear Parents,
+
+We hope you are all doing well this week.
+
+Please note that school administration will operate from 8:30am - 3:45pm on Friday, 19th September. All administrative offices including accounts and the uniform shop will close at 3:45pm.
+
+This applies to both Krylatskoe and Rosinka campuses.
+
+Thank you.
+
+Kind Regards,
+
+Administration Team
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

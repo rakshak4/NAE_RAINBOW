@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Photography Competition and Workshops</name>
+    <style>freeForm</style>
+    <subject>Photography Competition and Workshops</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+Please be reminded that the photography competition started yesterday and the final entries must be received by the 4th November. The theme for submission is &apos;Natural&apos; and photos need to be submitted as an A4 print to Mrs. Thompson (Upper Campus) and also emailed to lauren.thompson@internationalschool.ru.
+
+Entries will be judged in four categories:
+
+- Lower Primary
+- Upper Primary
+- Secondary
+- Teachers and Parents
+
+Please click here to download the poster.
+
+Workshops for Parents
+
+
+Claire Geddes, Coach and Trainer and ISM mother will be presenting a series of 4 workshops for parents. The first session, Bringing Up Children Abroad, will take place this Thursday 10th October.
+
+
+The different sessions are as follows:
+
+
+- Bringing Up Children Abroad - 10th October
+
+- Survival as a Trailing Spouse - 17th October
+
+- Life with Teenagers Abroad - 7th November
+
+- Preparing for a Move and Early Days - 14th November
+
+
+Each session will start at 14:00 until 15:30.
+
+
+For more information and to register, please contact Claire Geddes at familygeddes@hotmail.com.
+
+
+(Please click here to download the flyer).
+
+
+Best regards,
+
+Admissions Department
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

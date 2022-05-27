@@ -1,0 +1,1 @@
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName} , We are sending this SMS to  {!Contact.MobilePhone}. I hope you received it and it looks nice!

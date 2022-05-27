@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Handouts for parents about Summer Camp in UK</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Email to parents about Summer Camp in UK</name>
+    <style>freeForm</style>
+    <subject>Handouts for parents about Summer Camp in UK</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Thank you for attending the presentation regarding our proposed Summer Camp to the UK in July. If you were unable to attend please find attached details in Russian and English.
+
+Contact details for the company who did the presentation are also enclosed if you have any further enquiries. Please note that places are limited and interest is high from both parents and children
+
+Best regards
+
+David Kirkham
+Headmaster
+
+Уважаемые родители,
+
+Спасибо за  то, что посетили   презентацию, посвященную   летнему лагерю в Англии в июле. Если вы не смогли посетить презентацию, пожалуйста, найти прикрепленные детали на русском и английском языках.
+
+
+
+Если у Вас есть какие-либо вопросы ,в приложении Вы можете найти контактную  информацию о компании, которая  провела  презентацию. Обратите внимание, что количество мест ограничено и интерес со стороны родителей и детей весьма высок.
+
+
+
+С уважением,
+
+
+
+Дэвид Киркхам,
+
+Академический директор
+
+
+
+
+
+
+
+Regards,
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

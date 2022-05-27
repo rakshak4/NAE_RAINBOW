@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Uniform Update Sep9 Ros</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NAE_Branding_Letterhead_ISM</letterhead>
+    <name>Uniform Update Sep9 Ros</name>
+    <style>freeForm</style>
+    <subject>ISM - Uniform Update (Shirts)</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

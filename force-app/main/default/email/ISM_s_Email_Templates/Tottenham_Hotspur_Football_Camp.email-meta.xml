@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Weekly Update 23rd May, 2013</name>
+    <style>freeForm</style>
+    <subject>Weekly Update 23rd May, 2013</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Tottenham Hotspur Football Camp
+
+Due to the popularity of the year 1-3 coaching sessions, we have decided to add another 6 places.  If you would like your child to take part then please register them using the link below.
+
+There are also 4 places still available for the years 4-9 sessions.  If you would like your child to take part in this fabulous opportunity, then please register them using the link below.
+
+http://www.eventbrite.com/event/6208607111
+
+If you require any further information, then please get in touch with me at adam.hoult@internationalschool.ru.
+
+Kindest regards,
+
+Mr Adam Hoult
+
+Teacher of Physical Education
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

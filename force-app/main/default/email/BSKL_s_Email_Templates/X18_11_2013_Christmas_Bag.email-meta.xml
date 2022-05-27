@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>18/11/2013 Charity Christmas Bag Collection for Myanmar Refugee Children</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>18/11/2013 Charity Christmas Bag Collection for Myanmar Refugee Children</name>
+    <style>freeForm</style>
+    <subject>Charity Christmas Bag Collection for Myanmar Refugee Children</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Christmas brings to many of us a sense of joy and peace, and a spirit of hope and love.  We remember our family, friends and loved ones.  We are delighted to see how our children’s faces light up when they open up their Christmas presents but they are many who have to contend with so much less during this season.  We are happy that BSKL has made it a tradition to remember the less fortunate during Christmas, this year specifically the children of Myanmar refugees in Malaysia.
+
+We hope you can help to bless these children by sponsoring them with our very own Christmas Care Bag.  The idea behind the Care Bag is that there is a severe lack of hygiene at refugee camps and centers.  Many families live in conditions beyond what we are able to comprehend.
+
+The Christmas Care Bag will be sold at MYR3 each.  They can be purchased at the reception lobby of both the primary and secondary campus beginning 25th November until 6th December 2013 during pick up and drop off times.
+Your child may decorate the bag(s) in any way he or she likes.  The care items that we feel will be very useful for the children at the Myanmar refugees’ centers are:
+
+Bath towel
+Face towel
+Bath soap bar
+Shampoo
+Toothpaste
+Toothbrush
+Plastic mug
+
+Let your heart guide you as you decide the value of each item purchased or even the number of bags you wish to sponsor.
+
+Please return the bag(s) by 6th December 2013 and place it under the Christmas tree in the primary campus and we will help to distribute the bags to various selected Myanmar refugee camps.
+
+We will also be selling Christmas Tags at only MYR1 each and your child will be able to send a message of hope and joy to the children at the camps.  Your child can then hang the tags with the written message on the Christmas tree in the primary campus which will later be given out together with the Christmas Care Bag.
+
+Not forgetting that our own students will be happy with some Christmas cheer in school, we will also be putting up a post box in both campuses for the students to write Christmas cards to each other.  Please just remember to write the full name and class of the recipient and we will help to give out these cards to their friends.
+
+Regards
+EFC Events &amp; Fund Raising Committee
+
+Kind Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

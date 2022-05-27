@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>04/03/2013 BSKL - Book sale information</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>04/03/2013 BSKL - Book sale information</name>
+    <style>freeForm</style>
+    <subject>BSKL - Book sale information</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+To coincide with World Book Day on Thursday 7 March, there will be a book sale at BSKL on Thursday from 8.30am-4.30pm. Children will be given the opportunity to visit the sale during class and break times. There will be 2 vendors on the day. Roving Books will have books for younger readers up to primary school and books will cost between RM 5-30. Real Books will have books for upper primary to middle school and books will cost between RM 20-50.
+
+Reading has many benefits for children including:
+•    bonding time when parents and children read together
+•    it fuels imagination and creativity
+•    promotes longer attention span
+•    helps to improve vocabulary
+•    it&apos;s fun and relaxing
+Your help in promoting the love of reading to your children is much appreciated. Please buy a book or two, or three!
+
+Yvonne Bowyer
+Librarian
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

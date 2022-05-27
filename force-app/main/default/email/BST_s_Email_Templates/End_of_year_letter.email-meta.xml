@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>End of year letter 2016/17</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>End of year letter</name>
+    <style>freeForm</style>
+    <subject>End of year letter</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+I am writing to finish a really busy but thoroughly rewarding first year as Headteacher at BST and I would like to thank the parents, staff and students for all of the support this year.
+
+
+We say goodbye to a number of staff this summer and I would like to thank them for all of their hard work and efforts for the school. We wish them well in their future career.
+
+
+I would like to remind parents that the first day of term will be Friday 25th August with the Meet the Teacher Day and we will contact you with appointment details in the near future.
+
+
+We will also be sending out more information about next year&apos;s plans and developments in the upcoming weeks.
+
+
+I would like to wish you all safe travels  and a relaxing holiday. I look forward to seeing you all in August.
+
+
+Best Wishes
+
+Adrian Macaulay
+
+Headteacher
+
+
+Уважаемые родители!
+
+
+
+Первый год на должности Академического Директора Британской школы города Ташкента выдался для меня поистине насыщенным и плодотворным.Своим последним письмом в уходящем учебном году, я хотел бы поблагодарить всех родителей,сотрудников и учащихся за  их неизменную поддержку.
+
+
+
+Мы прощаемся с некоторыми из сотрудников этим летом, и я, в свою очередь, хочу поблагодарить их за приложенные усилия и ответственный подход к своей работе. Мы желаем им успехов в дальнейшей карьере.
+
+
+
+Я хотел бы напомнить родителям, что в первый учебный день предстоящего академического года -пятница 25 августа.Именно в этот день Вы сможете познакомиться с Вашими новыми преподавателями. Более детальную информацию о встрече Вы получите в ближайшее время.
+
+
+
+Мы также будем рассылать дополнительную информацию о планах по развитию школы в предстоящем учебном  году в ближайшие недели.
+
+
+
+Желаю Вам хорошо провести лето и вернуться в школу в августе отдохнувшими ,полными сил и энергии. Буду с нетерпнением ждать встречи с Вами.
+
+
+С уважением,
+
+
+
+Адриан Маколей
+
+Академический директор
+
+
+
+
+
+
+
+
+
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

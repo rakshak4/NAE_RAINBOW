@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20150506 Summer Fair 2015</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20150506 Summer Fair 2015</name>
+    <style>freeForm</style>
+    <subject>BSKL Summer Fair 2015</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+BSKL is pleased to confirm the annual Summer Fair will be held on June 13th. The event, which will take place between 10am and 1pm, will include many attractions for all the family, young and old.
+
+We will have various stalls, a raffle, a bouncy castle, a petting farm, other activities and games and of course, plenty of food and drink to be enjoyed. (Click here to view the Summer Fair poster)
+
+Vendors already confirmed to have a stall at the Summer Fair include Silver Dragonfly, Small Print, Exotic Gifts, Kinder Soaps, Craft Collection and Lifestyle Juicery. Don’t worry though - there is still time to book a stall at the Summer Fair. For vendors, there is a cost of RM220 per table. To book a place, please fill in the following form:
+
+For Vendors
+
+For parents interested in running a stall, we politely ask that you donate a prize for the raffle. To book your table, please complete this form:
+
+For Parents
+The raffle is always an exciting event at the Summer Fair. Prizes up for grabs this year include travel vouchers, an iPad, a golf bag, electrical appliances and a mobile phone. Tickets for the raffle will go on sale soon, so keep your eye out for news on where and how to get hold of them! If you are able to donate a prize for the Summer Fair we would be extremely grateful. This year the school is supporting a number of charities including the Nepal Earthquake Victims. Your generosity is very appreciated!
+
+If you have any inquiries please email to :
+service@britishschool.edu.my
+
+We look forward to seeing you, your families and friends soon.
+
+
+Kind regards,
+Admin Team
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

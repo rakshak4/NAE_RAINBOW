@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Note to  parents about new security in Lower Campus 2014</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Note to LC parents about new Security</name>
+    <style>freeForm</style>
+    <subject>New Security Guard in Lower Campus</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please be kindly informed that our new security guard started working in Lower Campus from today. His name is Rafik and you can see his photo attached to this email.
+
+
+Уважаемые родители,
+
+Данным письмом сообщаем Вам,что в здании  детского сада  с сегодняшнего дня приступил к работе  новый охранник.  Его зовут Рафик, в приложении можете увидеть его фото.
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

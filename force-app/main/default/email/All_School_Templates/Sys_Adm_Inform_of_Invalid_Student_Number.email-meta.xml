@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Sends when a student is starting within the next 30 days (or in the past) when a student number contains a &quot;-&quot; and the student &apos;Stage&apos; = &quot;Enrolled&quot;</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Sys/Adm - Inform of Invalid Student Number</name>
+    <style>freeForm</style>
+    <subject>Please update the student number of {!Opportunity.Name}</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

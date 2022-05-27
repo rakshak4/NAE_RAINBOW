@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Dance Academy Information</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Dance Academy Information</name>
+    <style>freeForm</style>
+    <subject>Dance Academy Information</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The British School of Guangzhou Dance Academy run by Miss Stephenson (current Head of Primary PE) is pleased to announce additional classes to begin in Term 2 commencing the week beginning 7th January.
+
+All classes run during school term time these include the following;
+
+Children’s Ballet and Tap Class
+
+Fridays            3:00pm-4:00pm          900RMB for 9x1 hour sessions
+
+Registration and first class Friday 11th January
+
+Sundays          1:00pm-2:00pm          900RMB for 9x1 hour sessions
+
+Registration and first class Sunday 13th January
+
+_________________________________________________________
+
+Dancercise (NEW)
+
+Children’s Dance class for Fun including Street Dance, Disco and Latin styles for all ages and abilities
+
+Sundays          2:00pm-3:00pm         100RMB per session
+
+First Class Sunday 13th January
+
+_________________________________________________________
+
+20-20-20 ADULT EXERCISE TO MUSIC CLASS (NEW)
+
+Wednesdays 4:30-5:30           40RMB per session
+
+1 Hour session
+
+10min Warm up, Pulse raiser and Stretching
+
+20-min Aerobic/Cardio Work (with a mixture of traditional Aerobics, Taebo, and Latinelements)
+
+20-min Body Conditioning (Legs/Bums and Tums toning and strength work)
+
+10-min Cool down, Stretch and Flexibility
+
+All abilities and fitness levels are welcome.
+
+_________________________________________________________
+
+Please click here view the attached Dance Academy Flyer for further information or contact Miss Stephenson directly: kate.stephenson@bsg.org.cn
+
+Regards,
+
+Kate Stephenson
+Head of Primary PE
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

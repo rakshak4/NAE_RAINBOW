@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Dance Academy information</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Dance Academy information</name>
+    <style>freeForm</style>
+    <subject>BSG&apos;s Dance Academy Begins This Weekend.</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+Dear Parents,
+
+BSG&apos;s weekend Dance Academy will commence Term 2&apos;s schedule of classes this weekend.
+
+Please click here to view details of available classes for both children and adults or contact Kate directly at kate.stephenson@bsg.org.cn for further information.
+
+
+
+If you or your child would like to enrol please turn up for registration at the school tomorrow at 3pm or Sunday at 1pm.
+
+
+
+Kind Regards,
+
+
+
+Miss Kate Stephenson
+
+Head of Primary PE
+
+The British School of Guangzhou
+
+World Class Education
+
+
+_________________________________________________________
+Member of The British Schools Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

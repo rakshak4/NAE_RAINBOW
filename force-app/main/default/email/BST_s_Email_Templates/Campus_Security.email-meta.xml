@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Campus Security</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Campus Security</name>
+    <style>freeForm</style>
+    <subject>Campus Security</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+
+Campus security is of primary concern to the British School of Tashkent and we currently reviewing our security procedures. All parents have received a recent email concerning ID badges.
+
+Could I kindly remind all BST parents and guardians that ID badges should be worn at all times to enter the Lower and Upper campuses.
+
+If you do not have a Parent ID badge can you please pass your passport copy and 2 passport size photographs to the school Reception office.
+
+Any parent who does not have an ID badge will not be allowed to enter the campus from Monday 10th October.
+
+If visitors wish to enter the campus without an ID badge must show and leave Photo ID and receive a visitor&apos;s badge. Any person on site who does not have an ID badge or visitor badge will be challenged.
+
+Thank you for your assistance in this matter.
+
+Kind regards
+BST Administration
+
+
+Уважаемые родители!
+
+Безопасность учащихся имеет первостепенное значение для Британской школы города Ташкента и в настоящее время мы пересматриваем школьные процедуры по охране и безопасности. Недавно всем родителям было отправлено электронное письмо об обязательном наличии школьных именных бейджей на территории нашего учебного заведения.
+
+Любезно напоминаем родителям и опекунам учащихся об обязательном наличии школьных именных бейджей во время нахождения как на территории школы, так и детского сада.
+
+Просим Вас предоставить Вашу копию паспорта и 2 фотографии (3х4 см) на ресепшен школы/детского сада, если у Вас до сих пор нет школьного именного бейджа.
+
+Любой родитель, не имеющий при себе школьный именной бейдж, не будет допущен на территорию школы/детского сада с понедельника 10-го октября.
+
+Любой посетитель, желающий войти на территорию нашего учебного заведения без школьного именного бейджа обязан предоставить и оставить оригинал своего удостоверения личности с фотографией и получить пропуск посетителя.
+
+Посторонние посетители школы, не имеющие при себе школьного именного бейджа или бейджа посетителя, будут идентифицированы нами.
+
+Благодарим за содействие.
+
+С уважением,
+Администрация Британской школы города Ташкента
+
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

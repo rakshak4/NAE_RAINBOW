@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Parent Survey 2018</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Parent Survey 2018</name>
+    <style>freeForm</style>
+    <subject>Parent Survey 2018</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+We are pleased to announce that the 2018 Parent Satisfaction Survey is now live and will run until 18 March.
+
+You can access the survey here.
+
+The survey is accessible through a PC, MAC, tablet, iPad, or your smart phones and should take you no longer than 15 minutes to complete. Each family should respond once on behalf of all your children. If you wish to share specific feedback, we have provided additional comment boxes for each section. We want your honest views and so your responses are anonymous and will be combined with those of other parents at our school.
+
+We are constantly looking for ways to improve our school and your feedback is vital to this process. Our annual parent satisfaction survey helps us better understand how we are performing in key areas - what we are doing well and opportunities for improvement, so that we can continue to provide the best possible educational experience for your child.
+
+We encourage you to participate in the survey – the results are used to inform our strategy for continuous improvement. Therefore, the more parents we hear from, the more confident we can be that our action plans respond to your views.
+
+We will share the results of the survey with you during the summer term.
+
+Many thanks for your participation, we look forward to hearing your views.
+
+Kind regards,
+Administration
+
+~
+Уважаемые родители!
+
+Мы рады сообщить Вам о том, что мы запустили для Вас онлайн опрос. Вы сможете найти его, пройдя по данной ссылке.
+
+Данный опрос будет проводиться до 18 марта.
+
+Опрос доступен через ПК, MAC, планшет, iPad, мобильный телефон и займёт не более 15 минут Вашего времени. Семья может пройти опрос лишь один раз (даже если в школе учатся несколько детей). А в дополнительных полях под каждым разделом Вы сможете оставить дополнительные комментарии. Мы просим Вас честно отвечать на вопросы. Все Ваши ответы останутся анонимными и будут суммироваться с ответами других наших родителей.
+
+Мы постоянно ищем способы улучшить нашу школу - именно поэтому нам так важно знать Ваше мнение. Благодаря ежегодному опросу мы понимаем каких результатов мы достигли в ключевых моментах нашей работы: с чем мы справляемся хорошо и что нам необходимо улучшить.
+
+Мы рекомендуем Вам принять участие в опросе, ведь мы будем использовать его для дальнейшего усовершенствования нашей работы. Поэтому, чем больше родителей примет участие в опросе, тем больше мы будем уверены, что наши планы соответствуют Вашим ожиданиям.
+
+Мы поделимся с Вами результатами опроса во время летнего триместра.
+
+Благодарим Вас за участие и будем с нетерпением ждать Ваших отзывов.
+
+С уважением,
+Администрация.
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Year of the Snake Chinese New Year celebrations</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Year of the Snake Chinese New Year celebrations</name>
+    <style>freeForm</style>
+    <subject>Year of the Snake Chinese New Year celebrations.</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The Chinese Department is pleased to invite you to join us for our Year of the Snake Chinese New Year celebrations. For this year’s event we have organised a LF Chinese performance (31.01.13-Thursday 9:am-LF campus), a NH primary performance (01.02.13-Friday 9am-NH campus) a Secondary mini concert and a secondary lunch buffet (01.02.13-Friday-12:40pm-NH library), and also a dragon dance show performed by teachers.. All parents are invited to join the children for our Chinese New Year celebrations.
+
+Besides the performance and the dragon dance show, we will be setting up a stall on each site to sell the CNY cards designed by students from Y1 to Y9. Please note that the profits will be donated to the Action Aid Charity which our school is supporting this year.
+
+If you are planning to come to BSG to enjoy these Chinese celebrations we would like to invite you to get into the spirit of the day by dressing up in a Chinese outfit. All of our staff and children will be likewise attired on these 2 days and it promises to be a splendid event.
+
+Please click the link for the performance list.
+
+Looking forward to seeing you all on those days!
+
+Kind regards,
+
+Alison Liu
+Head of Chinese
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Invitation to BSKL Virtual Open Day</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>! VOD Invitation</name>
+    <style>none</style>
+    <subject>Learn more about BSKL at our Virtual Open Day</subject>
+    <textOnly>*|MC:SUBJECT|*
+
+Dear {!Contact.FirstName} {!Contact.LastName},
+We are holding a Primary School Virtual Open Event on 23 July from 2-3pm so you can see our school&apos;s outstanding facilities, immerse yourself within our curriculum, meet our Head of Primary and find out what makes our students so happy - all from the comfort of your own home.
+
+Spaces are limited so register your place today to not miss out.
+
+Register today at https://www.nordangliaeducation.com/our-schools/malaysia/kuala-lumpur/british-international/virtual-open-day?utm_source=mailchimp&amp;utm_medium=email&amp;utm_campaign=virtualopenevent_local</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

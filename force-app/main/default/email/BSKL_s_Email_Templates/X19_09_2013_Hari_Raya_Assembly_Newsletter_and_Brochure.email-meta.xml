@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>19/09/2013 Hari Raya Assembly 2013</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>19/09/2013 Hari Raya Assembly 2013</name>
+    <style>freeForm</style>
+    <subject>Hari Raya Assembly 2013</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Hari Raya Aidilfitri or Eid is the most important festival celebrated by Muslims all around the world to mark the end of the fasting month.  It celebrates the conclusion of the 29 or 30 days of dawn-to-sunset fasting during the entire month of Ramadan. In Malaysia, Hari Raya is celebrated with a lot of joy and happiness. It is a time where families and friends get together to seek forgiveness from one another, other than enjoying many traditional dishes such as ketupat, lemang, dodol and rendang.
+
+In conjunction with one of Malaysia’s biggest festivals, I am pleased to inform you that the Bahasa Malaysia Department of The British International School will be hosting a “Hari Raya Assembly” on Friday 27 September 2013. The assembly will feature a musical show entitled “Magical raya” which will be performed in two sessions: 9.00 – 10.00 am for students in year three to nine (KS2 and KS3) and 10.15 – 11.00 am for foundation stage, year one and two students (Foundation and KS1). The musical show will take place at Primary School Gym and parents are also invited to the assembly.
+
+On the day of the assembly, all students and teachers are encouraged to wear Malay traditional costumes of Baju Kurung for the girls and Baju Melayu for the boys. If you wish to purchase one, Tesco Hypermarket, Giant Hypermarket and Jaya Jusco in One Utama are some of the places that you could find beautiful costumes.
+
+This year, some of the activities that we have planned include a class decoration competition. All classes need to be decorated in “Hari Raya” theme which may include ketupat, pelita (oil lamp) and crescent by Monday 23 September 2013. Four winners will be chosen: a winner each in foundation, key stage one, key stage two and key stage three. Winning classes will receive RM100 each for foundation and KS1 whereas KS2 and KS3 winners will receive RM150. Additionally, classes are encouraged to use the winning money for good causes, such as donation to a charity house.
+
+Another activity on the day of the assembly is a “Food Charity Sale” which will be held at the swimming pool area in secondary school. A selection of popular Malaysian delicacies will be on sale at RM5 and all proceeds will go to POSHE (Positive Shelter Home for HIV Children and Women).
+
+Please look at our brochure attached for more information about the Hari Raya Assembly.
+
+Hari Raya Assembly 2013
+(https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004Rr2/X4TYIi_CgZeNuJ6jpy2g09z8_o9DQvAqkzHH.NcZj4E=)
+
+Finally, we are very excited to be given another opportunity to host this Hari Raya Assembly event. Any enquiries, please email me at nurul.shakina@britishschool.edu.my. We look forward to seeing you at the assembly.
+
+Terima Kasih (Thank You)
+Nurul Shakina
+(Head of Department – Bahasa Malaysia)
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

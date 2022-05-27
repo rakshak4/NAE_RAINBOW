@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Primary book fair</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Primary book fair</name>
+    <style>freeForm</style>
+    <subject>Primary Book Fair at BSG</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+
+&lt;?xml:namespace prefix = o /&gt;
+
+Primary Book Fair at BSG
+
+
+Next Tuesday, December 10th, BSG are hosting a Primary book fair all day in the school library. Each class in Primary will be timetabled a visit to the fair so that students can browse and purchase books.
+
+
+Our book vendor, Star Kids Children&apos;s Books, have a great reputation and are coming to us from Beijing. There will be a huge selection of fiction and non-fiction books for sale catering for all ages from toddler to adult including lots of new releases for 2013. Books range in price from 40RMB to 150RMB.
+
+
+After school, parents are warmly invited to browse and purchase books between 3pm and 4pm; the perfect opportunity to do some Christmas shopping! We will be providing light, festive refreshments for parents so they can snack whilst they shop.
+
+
+On Tuesday 10th December, please remember to send your children to school with some money if you would like them to purchase books at the book sale. Their class teachers will be on hand to supervise and ensure that they choose age appropriate reading material.
+
+
+If you have any questions, please contact your child&apos;s class teacher.
+
+
+Happy book shopping!
+
+
+Jude Schroeder
+
+
+Primary English Coordinator
+
+
+
+
+
+The British School of Guangzhou
+
+
+
+
+World Class Education
+
+_____________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

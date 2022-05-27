@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>English lessons for parents</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>English for Parents</name>
+    <style>freeForm</style>
+    <subject>English for Parents</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Dear parents,
+
+
+As stated in our “Meet the teacher” evening we would like to offer parents the opportunity to improve their spoken and written English in order to further assist your children in their studies.
+
+From Tuesday 8th October we would like to offer English classes during our normal after school activities on Tuesdays and Wednesdays 3:30pm – 4:30pm. These will be led on native speakers from our academic staff, including Mr. Kirkham.
+
+If you would be interested in registering with our English classes please send return email to Arofat - admissions@britishschool.uz, or return slip below,
+
+stating you preferred day and the current level of English you have. This would allow us to place you accordingly in the correct class for your ability. Costs per term $100 payable in advance. Places are limited.
+
+We look forward to greeting you.
+
+
+
+
+
+Name
+
+
+Preferred Day
+
+Current level of English
+
+
+beginner
+
+intermediate
+
+Advanced
+
+Tuesday
+
+
+
+
+Wednesday
+
+
+
+
+
+
+
+Дорогие родители,
+
+
+
+Как и было обещано во время родительского собрания школа начинает уроки английского языка для родителей наших учеников, то есть Вас!
+
+Занятия начнутся во вторник, 8 октября и будут проводиться еженедельно по вторникам и средам, с 3.30 до 4.30 (во время клубов). Занятия будут вести преподаватели из Великобритании, включая и мистера Киркхама.
+
+Если вы заинтересованы в посещении данных занятий, сообщите об этом Арофат по электронному адресу: admissions@britishschool.uz, или заполните таблицу расположенную ниже и отдайте Арофат.
+
+Выберете день и укажите свой уровень знаний английского языка. Это поможет нам определить вас в соответствующую группу. Стоимость занятий за один триместр составляет $ 100 (в качестве предоплаты). Места ограничены.
+
+
+
+С нетерпением ждем начала занятий!
+
+
+
+
+Имя
+
+
+Выбранный вами день
+
+Текущий уровень английского языка
+
+
+начальный
+
+средний
+
+продвинутый
+
+Вторник
+
+
+
+
+Среда
+
+
+
+
+
+Regards,
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

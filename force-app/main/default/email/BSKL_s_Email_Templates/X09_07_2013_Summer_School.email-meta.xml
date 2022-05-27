@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>09/07/2013 Summer School</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>09/07/2013 Summer School</name>
+    <style>freeForm</style>
+    <subject>Summer School</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We would like to remind you of the fantastic summer school that is on offer this year!
+
+Yesterday we put the sign up form for the summer school in your children’s school bags.  If you wish for your children to take part kindly fill in the form and place it in an envelope along with the course fee.  Please seal the envelope and mark your child’s name on the front.  You may pass it to the school reception.
+
+Full details of the wonderful activities on offer are found through our website:
+
+http://www.britishschool.edu.my/en/curriculum/summer-school.aspx
+
+If you would like any further assistance regarding the Summer School please do not hesitate to get in touch with a member of our administration team.
+
+Kind Regards,
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

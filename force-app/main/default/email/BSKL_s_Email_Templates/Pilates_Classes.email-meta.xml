@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Pilates Classes</name>
+    <style>freeForm</style>
+    <subject>Pilates Classes</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+Welcome back ,I hope you had a wonderful summer.  We are very pleased to be able to offer our Pilates Masterclasses for parents that were a success last year.
+
+This years classes will be offered on Tuesdays at 12-1 pm starting on the 11th September for a four week course.  The price based on a group of ten or more is 200 rm for the four week course and 240 rm if we have between seven and nine parents.
+
+Another class will be offered on Thursdays at 2 – 3pm starting on the 13th September for a four week course.  The price based on a group of ten or more is 200 rm for the four week course and 240 rm if we have between seven and nine parents.
+
+
+On the Pilates course you will be working with Tanya a Body Control UK Pilates Back Specialist.  Focusing on posture correction ,muscular imbalances, realignment, using your core correctly, easing muscular tension, working on both strength, toning and flexibility and learning how to work your body in a truly efficient way embracing the Pilates method.
+
+If you would like to reserve you place please place put your name down at the office stating which day you would like to join along with a 50 rm non returnable deposit.  The money must be passed through the office directly and not to myself.
+
+If you do have any questions regarding the course please contact Tanya our Body Control Pilates Instructerspinepilates1000@live.co.uk
+
+
+Many thanks
+Tanya
+
+Kind Regards,
+
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

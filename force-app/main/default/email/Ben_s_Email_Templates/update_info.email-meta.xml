@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Update Contact Info (OLD LAYOUT)</name>
+    <style>freeForm</style>
+    <subject>International School - Update Contact Information</subject>
+    <textOnly>Dear {!Contact.Salutation} {!Contact.LastName}
+
+The International School of Moscow has recently installed a new Parent and Student management software. We are wanting to ensure we have the most up-to-date contact information for your family, and correct any errors that might have occurred while transplanting data from one system to another.
+
+We ask that you review the information below, and either reply confirming the information is accurate, or if there is anything you would want to update/change.
+
+Phone 1:{!Account.Phone}{!Contact.00ND0000003smeh}
+Phone 2:{!Account.00ND0000003Htz1}{!Contact.00ND0000003smem}
+
+Email 1: {!Account.PersonEmail}{!Contact.00ND0000003snHF}
+Email2: {!Account.00ND0000003HtZe}{!Contact.00ND0000003smf1}
+
+Address: {!Account.Main_Address__c}{!Contact.00ND0000003smg9}
+
+We would like to point out that:
+
+&quot;Phone 1&quot; is considered the primary phone number  the school should use to contact YOUR FAMILY (not necessarily YOUR PERSONAL PHONE NUMBER). &quot;Phone 2&quot; is the second phone number the school should use. Please let us know if you would like to point out additional phone numbers, in order of priority of use.
+
+Equally, &quot;Email 1&quot; is the primary FAMILY email address (again, not necessarily your Email address). By default, the school Emails mass communications to both Email 1 and Email 2. Please let us know if you would like to change this, or add additional Emails for mass communications.
+
+We thank you in advance for taking the time to review this information, and please do not hesitate to contact us if there is anything else you would like to clarify.
+
+Kind Regards,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

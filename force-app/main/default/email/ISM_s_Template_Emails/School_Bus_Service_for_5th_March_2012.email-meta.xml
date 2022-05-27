@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>ISM</letterhead>
+    <name>School Bus Service for 5th March, 2012</name>
+    <style>freeForm</style>
+    <subject>School Bus Service for 5th March, 2012</subject>
+    <textOnly>Dear Parents,
+
+This letter is to advise all parents whose children catch the school bus to and from school each day that there may be delays in the children arriving home from school today.
+
+This is due to demonstrations occurring in the centre of Moscow and the police are closing roads to traffic.
+
+Please keep in touch with Olga (89169955110) the bus monitors, if you have any concerns.
+
+Kind Regards
+
+Dino Vikas
+Head of Admissions
+The International School of Moscow
+Tel:  +7 (499) 922 44 00
+Fax: +7 (499) 922 44 00 Ext.4
+www.internationalschool.ru
+Part of The British Schools Group
+
+*Disclaimer:*
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

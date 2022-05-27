@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>27/11/2013 Christmas School Holiday Camps</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>27/11/2013 Christmas School Holiday Camps</name>
+    <style>freeForm</style>
+    <subject>Christmas School Holiday Camps</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We are delighted to inform you that BSKL is hosting our activities camp in the Christmas Holidays from 16th December– 20th December. There are Badminton, Football and PN-Y1 Fun Camp courses all at BSKL, exclusively for BSKL students. Please note that there are limited places for each course so to avoid disappointment please register early. Please take a look at the attached leaflet by clicking on the link below for further information on fees, eligibility and specific locations.
+
+Christmas School Holiday Camps Leaflet
+https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004SHC/006cl6Df4xyKugjlFbd1BRsVmPxwnahUSeCuUie.6GQ=
+
+If you would like to register your child then please complete the electronic form below. Payments should be made at Primary reception once you have received confirmation of your child’s place on the course via email. Please complete this form no later than Friday 6th December if you wish to register your child for one of these courses. All of the information is on the leaflet attached but please feel free to email any of the course leaders for further information.
+
+BSKL December Activity Camps Registration form
+https://docs.google.com/forms/d/1fcEfj9S0cIN1IsNoXBdpDQoNogFucdRb7dzz4lb2jeI/viewform
+
+Kind Regards,
+Janet Brock
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

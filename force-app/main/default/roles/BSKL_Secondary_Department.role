@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>BSKL Secondary Department</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>BSKL Secondary Department</name>
+    <opportunityAccessLevel>None</opportunityAccessLevel>
+    <parentRole>BSKL_Deputy_Head_of_Secondary</parentRole>
+</Role>

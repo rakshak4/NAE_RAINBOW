@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Year 9 Curriculum Letter Term 1, 2013</name>
+    <style>freeForm</style>
+    <subject>Year 9 Curriculum Letter Term 1, 2013</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+
+Please click here to download the letter with the curriculum information for all subjects for this Autumn Term 2013. In January a new curriculum letter will go home containing information for the Spring Term and a final letter will go home in April with details for the Summer Term.
+
+
+If you have any questions pertaining to the information contained in this curriculum letter, please contact the relevant teachers of each subject.
+
+
+
+Key dates for this term:
+
+
+
+Wednesday 2nd September                      6:00pm       Meet the Teacher – Upper Campus
+
+Monday 16th – Friday 20th September     Residential Trips Y7-11
+
+Tuesday 17th September                           ASAs Begin
+
+Monday 7th October                                     UC Photography Competition Begins
+
+Monday 21st October                                  Half Term
+
+Friday 25th October                                      Y7-11 Interim Reports Issued
+
+Wednesday 13th December                       ASAs End
+
+Wednesday 4th December                         UC Recitals Evening
+
+Friday 6th December                                    Y7-11 Term 1 Reports Issued
+
+Tuesday 10th December                              Y7-11 PTCs
+
+Wednesday 11th December                       Y7-11 PTCs
+
+Wednesday 18th December                       Christmas Carol Concert
+
+Friday 20th December                                  School Ends – Noon Finish
+
+
+Kind regards
+
+
+Mrs. Hamilton
+
+Deputy Head of Secondary
+
+The International School of Moscow
+
+
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

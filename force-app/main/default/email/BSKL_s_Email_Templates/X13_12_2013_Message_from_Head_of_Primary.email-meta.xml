@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>13/12/2013 Message from Head of Primary</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>13/12/2013 Message from Head of Primary</name>
+    <style>freeForm</style>
+    <subject>Message from Head of Primary</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please follow below link to a message from the Head of Primary, Mr. Johnson.
+
+Message from Head of Primary.
+(https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004SQB/NhbgjQHaec6cpaDC9G.K7r3gJjjfrUqV96A7qjLXs9A=)
+
+Wishing you all a great weekend.
+
+Kind Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

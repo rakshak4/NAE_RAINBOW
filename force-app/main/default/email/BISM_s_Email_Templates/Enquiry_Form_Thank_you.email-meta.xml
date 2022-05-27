@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Enquiry response</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Enquiry Form - Thank you</name>
+    <style>freeForm</style>
+    <subject>Enquiry Form - Thank you</subject>
+    <textOnly>The British School
+of Marbella
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Thank you for your enquiry and your interest in The British School of Marbella for your son.
+
+I am happy to inform you that we have places available in the class that you require;  Nursery (age 3) starting this September.
+
+I would like to take this opportunity to invite you to visit our school where our Headmistress, Ms. Sian Kirkham, can show you around the campus, tell you about our approach to the English National Curriculum and answer any questions that you may have. Please advise of a convenient day and time and I will organise an appointment.
+
+Thank you once again for the interest you have shown in The British School of Marbella and we look forward to hearing from you soon.
+
+Kind regards
+
+Administration Team
+The British School of Marbella
+World Class Education
+
+_________________________________________________________</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

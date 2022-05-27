@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Nursery going to reception 2013-14</name>
+    <style>freeForm</style>
+    <subject>Nursery going to Reception - 2013-14</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+
+We hope you are well and looking forward to a well deserved summer break.
+
+
+We are now busy organising our classes for the next academic year and just wanted to notify you that you may see some changes in classes when we provide you with the class lists next week. These changes will see the two current Nursery classes move into 3 Reception classes and some additional new students will be welcomed onboard. Please note that these changes will take into consideration nationality, gender, ability level, house and friendship groups.
+
+
+
+We are sure that we have managed to find the best balance in each class and look forward to a fantastic academic year 2013/14.
+
+
+
+Best regards,
+
+
+
+Admissions department
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

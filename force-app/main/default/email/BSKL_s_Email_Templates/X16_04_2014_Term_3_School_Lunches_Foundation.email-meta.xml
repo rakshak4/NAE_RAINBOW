@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>16/04/2014 Term 3 School Lunches (Foundation) Due</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>16/04/2014 Term 3 School Lunches (Foundation)</name>
+    <style>freeForm</style>
+    <subject>Term 3 School Lunches (Foundation) Due</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The lunch menu for Term 3 is now due.
+
+We would very much appreciate if you could email them to Sabrina at bskl.service@britishschool.edu.my or hand them in at either school reception by Friday 18th April 2014 so that we can make the necessary arrangements before start of Term 3.
+
+Please follow the link below for the menu:
+
+Foundation Lunch Menu (http://www.britishschool.edu.my/media/262664/bskl_term_3_-_primary.pdf)
+
+Thank you for your support and cooperation.
+
+
+Kind regards
+
+Admin Team
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

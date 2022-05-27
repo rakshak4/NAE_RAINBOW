@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>PRIMARY MEET THE TEACHER DAY2012-13</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>PRIMARY MEET THE TEACHER DAY2012-13</name>
+    <style>freeForm</style>
+    <subject>PRIMARY MEET THE TEACHER DAY</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Meet the Teacher
+
+We’re looking forward to seeing you at the ‘Primary Meet the Teacher’ event tomorrow, 4:30pm. Due to the high numbers expected, we have decided to have a finger buffet instead of a barbecue. Please note this change from the original schedule.
+
+Primary ASAs
+
+Primary ASAs are due to get underway next week. We recently held our first ever ASA Fair. Students were treated to high quality displays ranging from various games and sports to arts and craft activities.
+
+An ASA that has proved particularly popular is cooking. We need your help! If there are any cooks in the parent community, that would be willing to come into school and run a Thursday cooking club, please get in touch with us.  Your help would be very much appreciated.
+
+
+
+
+Yours sincerely
+
+David Laird
+Head of Primary
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

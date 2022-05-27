@@ -19,7 +19,6 @@ trigger LeadTrigger on Lead (after update, before insert, before update, after i
         handler.handleAfterInsert(Trigger.new);
     }
     if(Trigger.isBefore && Trigger.isUpdate) {
-        System.debug('#######');
         handler.handleBeforeUpdate(Trigger.old, Trigger.new);
     }
     if(Trigger.isAfter && Trigger.isUpdate) {

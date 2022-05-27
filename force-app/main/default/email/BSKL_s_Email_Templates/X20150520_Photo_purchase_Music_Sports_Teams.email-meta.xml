@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20150520 Photo purchase - Music &amp; Sports Teams</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20150520 Photo purchase - Music &amp; Sports Teams</name>
+    <style>freeForm</style>
+    <subject>BSKL - Musical Ensembles &amp; Sports Teams Photo Purchase</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+You can purchase Sports Teams and Musical Ensembles photos now until 29th May 2015. Simply fill in your details in the form below and make your payment at Primary or Secondary receptions.
+
+BSKL Music &amp; Sports Teams (Order Form)
+
+Photo Thumbnails (Sample)
+
+Orders will not be completed if payment is not received before 29th May. We will email you directly once the photo is ready and you can come and collect it from our Secondary reception. The school owns the copyright and therefore we do not provide any soft copies.
+
+Thank you.
+
+Kind regards,
+Admin Team
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

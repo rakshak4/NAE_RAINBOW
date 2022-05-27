@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>27/06/2013 Purchasing Tickets for upcoming Music Productions</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>27/06/2013 Purchasing Tickets for upcoming Music Productions</name>
+    <style>freeForm</style>
+    <subject>Purchasing Tickets for upcoming Music Productions</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Whilst the finishing touches are being made to all the costumes we would like to invite you to purchase your tickets for this term’s productions!
+
+The Lion King – Wednesday 3rd July
+Tickets for this production will be on sale from tomorrow, Friday 28th June.  Tickets will be in the form of a programme and each ticket will cost RM10.  Placed at the school Reception will be a seating plan for you to choose were to sit.  Please note the programme(s) you purchase will be your tickets and entry to the hall on the night of the performance will not be permitted if you do not have your programme.
+
+Moon Thieves – Thursday 4th July
+There will be no tickets sold for this performance.
+
+The Enormous Turnip – Friday 5th July
+There will be no tickets sold for this performance.
+
+Oliver with a Twist – Wednesday 10th July
+Tickets for this production will be on sale from Wednesday 3rd July and can be purchased from the school Reception.  Each ticket will cost RM10.  Please note entry to the hall on the night of the performance will not be permitted if you do not have your ticket.
+
+All tickets will be sold on a “first come first served” basis and it is not possible to reserve tickets, payment must be made at the point of ordering.  Due to the number of children performing and the limited space in the hall we have initially limited the number of tickets to two per child for both The Lion King and Oliver with a Twist performances.  We are sorry for any inconvenience this may cause and we hope you understand the reason behind this limitation. On Tuesday 2nd July we will be opening up any remaining seats for families to purchase extra tickets.
+
+We hope to see many of you there at each of the performances!
+
+Thank you and warm regards,
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

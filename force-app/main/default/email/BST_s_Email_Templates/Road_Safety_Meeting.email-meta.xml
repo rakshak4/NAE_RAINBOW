@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Reminder to Parents about Road Safety Meeting</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Road Safety Meeting</name>
+    <style>freeForm</style>
+    <subject>Road Safety Meeting</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Dear parents, drivers and carers,
+
+We would like to invite you to a meeting at BST on Friday 10th May at 3.40 pm to discuss how we can work in partnership to keep our children safe on the road.
+
+It is very important that whoever is driving your child to school attends the meeting.
+
+Дорогие родители, водители и няни,
+Мы бы хотели пригласить вас на собрание посвященное безопасности дорожного движения и тому, как совместными усилиями мы можем улучшить ситуацию на дорогах. Собрание состоится в пятницу, 10 мая в 15.40.
+
+Присутствие тех, кто привозит детей в школу крайне важно для нас.
+
+Regards,
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

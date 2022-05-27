@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>27/02/2013 Headlice</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>27/02/2013 Headlice</name>
+    <style>freeForm</style>
+    <subject>Headlice</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+There has been a case of head lice or nits in foundation school. Therefore, your child might have been exposed.  Children may also be exposed in places other than schools such as children activities centres and visiting or spending the night in other children’s homes.
+
+It is recommended that you check your child daily for signs of lice for the next week as indicated below:
+•    Using very good lighting (bright sun or lamp), search your child’s hair for live lice and/or nits (lice eggs).
+•    Part the hair many times and look behind the ears, on the crown of the head, and the back of the neck.
+•    Lice are about the size of a sesame seed and can be light tan to dark brown.  They move quickly through the hair.
+•    Nits are attached directly to the hair shaft.  They look like a grain of salt and are hard to remove.
+
+Treatment for head lice requires the use of medicated anti-lice shampoo that can be purchased at pharmacies or clinics.
+•    Keep your child away from school until he/she has been properly treated.
+•    Apply the shampoo, according to package instructions.
+•    Do not a conditioner before using lice shampoo.  Do not re-wash hair for 1-2 days.
+•    Use a fine-tooth nit comb to remove any lice or nits from hair after shampooing.
+•    After treatment, checking the hair and combing with a nit comb to remove nits every 2-3 days may decrease the chance of reinfestation.
+•    Retreatment in recommended after 1 week in order to kill any surviving hatched lice before they produce new eggs.
+•    Practice good hand washing.
+•    Bed linen, hats, cushions, comb etc will need to be thoroughly washed in hot soapy water. The use of clothes dryer on the hottest settings is also useful.
+•    Do not allow the sharing of hairbrushes, combs, hats etc between family members and friends.
+•    Students with long hair should keep it tied back.
+
+If you are unsure of what to look for or do, please don’t hesitate to contact us at the school by emailing the school nurse at azilah.chan@britishschool.edu.my. Thank you for your attention to this matter.
+
+Azilah Chan
+School Nurse
+
+Regards,
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

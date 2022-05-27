@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Reception Curriculum Letter Term 1, 2013</name>
+    <style>freeForm</style>
+    <subject>Reception Curriculum Letter Term 1,2013</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear Parents,
+
+
+
+Welcome to Reception! All of the members of the Reception Teaching Team are very excited to be working with you and your child this year. We are pleased to report that the children have settled in well to their new classroom routines and are beginning to establish new relationships with their teachers and peers.
+
+
+Building independence is one of the key skills we focus on in Reception. In order to support this we encourage the children to look after their own belongings and arrive at school positive and ready to take part. Each Reception class has agreed upon a set of rules to help create a positive and ordered learning environment. These ‘golden rules’ include being a good listener and being kind and helpful. The children have been busily earning house points for their fantastic work and positive behavior.
+
+
+Over the course of this term we will cover the following topics, My Family and I, Clothing, Food, Different Countries and cultures. Through these topics the children will develop a variety of different skills in all seven areas of learning. Please click here to download the curriculum coverage for this term.
+
+
+Our ‘Meet the Teacher’ evening will take place on 10th September. This is an opportunity for teachers to share information about the learning the children are doing in their classrooms and for you to pose any questions and suggestions you may have. We look forward to seeing you there!
+
+
+We would like to thank you in advance for your time and effort in supporting the children in all areas of their learning.
+
+
+Kind regards,
+
+
+The Reception Teaching Team
+
+
+
+Ms. Hanadi Fawzy Ms. Stacy Coombs         Ms. Ruth Greenwood
+
+Mrs.Louise Woods Mrs. Joyce Samarin       Mr. Pavel Sukonnikov
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

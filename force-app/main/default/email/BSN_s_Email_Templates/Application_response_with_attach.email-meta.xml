@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Visit to the British School of Navarra</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Application response with attach</name>
+    <style>freeForm</style>
+    <subject>Visit to the British School of Navarra</subject>
+    <textOnly>British School of
+Navarra
+Part of The British Schools Foundation
+
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+Thank you for your application and your interest in The British School of Navarra.
+
+We are happy to inform you that we have places available in the class that you require starting next September.
+
+We would like to take this opportunity to invite you to visit our school where our Headmaster, Mr James Batten will show you around.
+
+Ms Laura González, the Admissions Officer, will contact you shortly to arrange an appointment at your earliest convenience.
+
+Please find attached a copy of our admissions booklet which we hope will clarify any questions you may have.
+
+
+Thank you once again for the interest you have shown in The British School of Navarra and we look forward to meeting you.
+
+Kind regards,
+--------------------------------------------------------------------------------------------
+Estimada familia,
+
+Gracias por su solicitud y su interés en The British School of Navarra.
+
+Nos complace informarles que tenemos plazas disponibles en el aula que usted requiere a partir del próximo mes de Septiembre.
+Nos gustaría aprovechar esta oportunidad para invitarles a visitar nuestro centro donde el Director, el Sr. James Batten, les mostrará las instalaciones del mismo.
+
+Ms Laura González, La Oficial de Admisiones, les contactará en los próximos días para concertar una cita tan pronto como les sea posible.
+
+Encuentren adjunto un documento con información general sobre el proceso de admisión y otros aspectos relacionados con nuestro colegio.
+Gracias una vez más por el interés que ha demostrado en el British School of Navarra.
+
+A la espera de conocerles reciban un cordial saludo,
+
+Administration Team
+The British School of Navarra
+World Class Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Update on Middle School Plans - Second Meeting</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Middle School Forum -18th May</name>
+    <style>freeForm</style>
+    <subject>Middle School Forum -18th May</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

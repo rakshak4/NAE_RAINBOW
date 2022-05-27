@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Strep Throat</name>
+    <style>freeForm</style>
+    <subject>Strep Throat</subject>
+    <textOnly>Dear Parents,
+
+We just wanted to inform you that we have a confirmed case of streptococcal sore throat (known colloquially as strep throat) in foundation Stage of the Lower Campus.
+
+Strep throat is not dangerous and is easily treated with antibiotics. It is the cause of over a third of sore throats in children. However it is very infectious. If you suspect your child may have any symptoms, please take them to a doctor and if confirmed keep them off school until they are fully recovered.
+
+What to look for
+
+- Slightly High fever
+
+- Sore throat
+
+- Enlarged Lymph Nodes
+
+What to do
+
+- Consult your Doctor immediately
+
+- Please follow medical advice, and do not send your child back to school until completely recovered.
+
+Please do keep us informed of any further confirmed cases and we will remain vigilant at school.
+
+Yours sincerely,
+
+Admissions Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

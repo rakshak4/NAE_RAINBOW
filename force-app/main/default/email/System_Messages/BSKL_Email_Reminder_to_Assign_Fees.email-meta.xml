@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>AutomaticEmail sent to the accounting office informing them that fees need to be assigned to a student and/or the first invoice sent out</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>BSKL Email Reminder to Assign Fees</name>
+    <style>freeForm</style>
+    <subject>Admissions Reminder - Please assign the fees/send first invoice for {!Opportunity.Name} ({!Opportunity.Year_Group__c})</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

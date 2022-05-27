@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in August 2014</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Ebola Virus Update October 2014</name>
+    <style>freeForm</style>
+    <subject>Ebola Virus Update October 2014</subject>
+    <textOnly>The International School
+of Moscow
+Chartered By The British Schools Foundation
+
+
+
+Dear Parents,
+
+As you will be aware there is currently an outbreak of Ebola Virus Disease occurring in West Africa. There have also been confirmed, isolated cases in Spain and the USA.
+
+While it is extremely unlikely that any member of our community would be exposed to the virus, I did want to reassure you that we are following advice shared with us by COBIS in line with UK government guidelines given to schools and childcare centres.
+
+At this stage, if any individual has not travelled to the infected countries or had contact with someone that has done so, there seems to be no risk of contracting the virus.
+
+I would therefore like to emphasise that we should avoid transmitting any sense of worry to our children that may scare them. The chances of this rare virus occurring at ISM are absolutely tiny.
+
+However I do believe that it is sensible to be well informed and vigilant on such a serious matter.
+
+Key Information
+
+The virus is only transmitted by direct contact with the blood or bodily fluids. It is not airborne.
+
+The main symptoms are fever, diarrhoea, vomiting and general weakness.
+
+The affected countries have introduced exit screening at airports to ensure that individuals who are unwell do not board flights. This is in line with World Health Organization (WHO) guidance and is one of many measures to reduce the risk of international spread of disease.
+
+The time between contact with an infected person and symptoms first appearing can range from 2 –21 days, therefore it is possible that adults, children and students returning from affected countries could develop symptoms up to three weeks after arrival.
+
+People are not infectious until the symptoms appear.
+
+Suggested Actions at Home
+
+We would ask parents to contact the school admissions team immediately if you have recently travelled to or from or had contact with anyone who has travelled in Guinea, Sierra Leone, Nigeria, Liberia or DR of Congo.
+
+Please remain vigilant on the health of all family members and if there are any signs at all of fever, diarrhoea, vomiting and weakness consult professional medical advice immediately.
+
+Actions at School
+
+At school we will ensure that hands are washed more regularly than ever and will continue to be extremely vigilant regarding pupils feeling unwell and checking temperatures. We will ensure that all facilities are given a deep clean over the half term break.
+
+Should any individual show symptoms, we will send them to the school nurse who will contact parents immediately if the temperature is high (37.7 or higher) and advise medical consultation as a precaution.
+
+If it is an adult we will ensure they seek appropriate professional medical advice.
+
+No member of the community should return to school having those symptoms until a diagnosis is confirmed. In the extremely unlikely event of a case being confirmed, the school should be informed immediately.
+
+We will remain in contact with health organisations in UK and Russia to ensure that any new advice is considered and built into our procedures.
+
+Again, please do not panic but by being vigilant and working together we can continue to ensure the health and welfare of our community.
+
+Best regards,
+
+ISM Senior Leadership Team
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 500px; ">
+			<tbody>
+				<img border="0" id="m_3308685547825015245r1sp1" src="https://ci6.googleusercontent.com/proxy/67dXnVocysCsXlJug8sCwjBn53jHY6vok7ArlGUgs6iyEW02S5lmjGnO2wFvRa8wDolQRwuNpB8ZtRQ8DJ6xCSAcsylyglo6hKkrKdXXbJylHPQ1hCaOBcGGhBiWL5qWYSWwjpyjE4ENzbEgIN7XEqzPgw=s0-d-e1-ft#https://ap4.salesforce.com/servlet/servlet.ImageServer?id=0156F00000F05db&amp;oid=00D6F000001cXAR" class="CToWUd">
+				<tr>
+					<td>
+						<p>
+							&nbsp;</p>
+						<p style="text-align: justify; ">
+							&nbsp;</p>
+						<p style="text-align: justify; ">
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; ">Dear {!Lead.Primary_Contact_Salutation__c}{!Lead.Primary_Contact_Name_for_Auto_Response__c},</span></span></p>
+						<p style="text-align: justify; ">
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; ">We thank you for your interest in our school and we acknowledge the receipt of an application for your {!Lead.Number_of_Children_in_Enquiry__c}, {!Lead.Name_s_of_Children_in_Enquiry__c}, to join our school.</span></span></p>
+						<p style="text-align: justify; ">
+							<span style="font-family: 'Verdana'; font-size: 12px; ">A member of our admissions team will contact you within the next two working days to discuss the application process further. Please feel free to contact the school with any further questions you might have or in the unlikely event that you don't hear from us within this time frame.&nbsp;</span></p>
+						<p style="text-align: justify; ">
+							<span style="font-family: 'Verdana'; font-size: 12px; ">Please understand that by submitting this application you have agreed to the terms and conditions specified on our website. Full details of these can be found in our <a href="{!Lead.00ND000000657f9}">Declaration Form</a>.</span></p></span></p>
+						<p style="text-align: justify; ">
+							<span style="font-family: 'Verdana'; font-size: 12px; ">We would like to invite you start preparing the following documents, which need to be submitted to our admissions office.</span></p>
+						<p style="margin-left: 26pt; text-align: left; ">
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; ">1. Signed copy of the Declaration Form</span></span><br />
+							<span style="font-family: 'Verdana'; font-size: 12px; ">2. Copy/copies of the passport(s) or ID Document(s) of the parent(s)</span><br />
+							<span style="font-family: 'Verdana'; font-size: 12px; ">3. Copy of passport, ID Document or Birth Certificate of the&nbsp;{!Lead.Number_of_Children_in_Enquiry__c}</span><br />
+							<span style="font-family: 'Verdana'; font-size: 12px; ">4. Copies of academic transcripts of current school (if available)</span><br />
+							<span style="font-family: 'Verdana'; font-size: 12px; ">5. Application Fee</span></p>
+						<p style="text-align: justify; ">
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; ">If you are unable to deliver the documents in person, we would be happy to receive scanned copies via email.</span></span></p>
+						<p style="text-align: justify; ">
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; ">We would like to thank you for the trust you have deposited in us, and we look forward to greeting you and your family soon at the school.</span></span></p>
+						<p style="text-align: justify; ">
+							&nbsp;</p>
+						<div style="font-family: 'Verdana'; font-size: 12pt; ">
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; "><b>Admissions Team</b></span></span><br />
+							<b style="font-family: 'Verdana'; font-size: 12px; ">{!Lead.School__c}</b><br />
+							&nbsp;</div>
+						<p>
+							&nbsp;</p>
+						<p>
+							&nbsp;</p>
+						<p>
+							&nbsp;</p>
+					</td>
+				</tr>
+				<tr bgcolor="a0dae5">
+					<td>
+						&nbsp;</td>
+				</tr>
+				<tr bgcolor="003255">
+					<td>
+						&nbsp;</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			&nbsp;</p>
+	</body>
+</html>

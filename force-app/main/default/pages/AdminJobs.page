@@ -1,0 +1,12 @@
+<apex:page controller="AdminJobsController">
+<apex:form >
+<apex:pageBlock title="Jobs">
+<apex:pageBlockSection >
+<apex:commandButton action="{!generateInvoices}" value="Generate Invoices"/>
+</apex:pageBlockSection>
+<apex:pageBlockSection >
+<apex:commandButton action="{!sendToXero}" value="Send Invoices to Xero"/>
+</apex:pageBlockSection>
+</apex:pageBlock>
+</apex:form>
+</apex:page>

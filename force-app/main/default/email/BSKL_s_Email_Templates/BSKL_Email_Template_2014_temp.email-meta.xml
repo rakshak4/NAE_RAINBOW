@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Letter from Headteacher</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Letter from Headteacher 2/11/14</name>
+    <style>freeForm</style>
+    <subject>Letter from Headteacher</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

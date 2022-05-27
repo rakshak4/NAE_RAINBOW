@@ -1,0 +1,1423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Decline</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Decline</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Decline</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteSeries</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteSeries</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteSeries</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewEvent</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewEvent</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewEvent</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewSfdcEvent</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewSfdcEvent</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewSfdcEvent</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Today</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Today</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Today</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>ActivityDate</fullName>
+    </fields>
+    <fields>
+        <fullName>ActivityDateTime</fullName>
+    </fields>
+    <fields>
+        <fullName>Attendees</fullName>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>DurationInMinutes</fullName>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+    </fields>
+    <fields>
+        <fullName>EndDateTime</fullName>
+    </fields>
+    <fields>
+        <fullName>EventSubtype</fullName>
+    </fields>
+    <fields>
+        <fullName>IsAllDayEvent</fullName>
+    </fields>
+    <fields>
+        <fullName>IsPrivate</fullName>
+    </fields>
+    <fields>
+        <fullName>IsRecurrence2</fullName>
+    </fields>
+    <fields>
+        <fullName>IsReminderSet</fullName>
+    </fields>
+    <fields>
+        <fullName>IsVisibleInSelfService</fullName>
+    </fields>
+    <fields>
+        <fullName>Location</fullName>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+    </fields>
+    <fields>
+        <fullName>ShowAs</fullName>
+    </fields>
+    <fields>
+        <fullName>StartDateTime</fullName>
+    </fields>
+    <fields>
+        <fullName>Subject</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>WhatId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>WhoId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <listViews>
+        <fullName>MyRecentEvents</fullName>
+        <columns>START_DATE_TIME</columns>
+        <columns>END_DATE_TIME</columns>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>ALL_DAY</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>DUE_DATE</field>
+            <operation>equals</operation>
+            <value>LAST_N_DAYS:60</value>
+        </filters>
+        <label>My Recent Events</label>
+    </listViews>
+    <listViews>
+        <fullName>MyTeamsRecentEvents</fullName>
+        <columns>START_DATE_TIME</columns>
+        <columns>END_DATE_TIME</columns>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>ALL_DAY</columns>
+        <filterScope>Team</filterScope>
+        <filters>
+            <field>DUE_DATE</field>
+            <operation>equals</operation>
+            <value>LAST_N_DAYS:30</value>
+        </filters>
+        <label>My Team&apos;s Recent Events</label>
+    </listViews>
+    <listViews>
+        <fullName>MyTeamsUpcomingEvents</fullName>
+        <columns>START_DATE_TIME</columns>
+        <columns>END_DATE_TIME</columns>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>ALL_DAY</columns>
+        <filterScope>Team</filterScope>
+        <filters>
+            <field>DUE_DATE</field>
+            <operation>equals</operation>
+            <value>TODAY,NEXT_N_DAYS:30</value>
+        </filters>
+        <label>My Team&apos;s Upcoming Events</label>
+    </listViews>
+    <listViews>
+        <fullName>MyUpcomingEvents</fullName>
+        <columns>START_DATE_TIME</columns>
+        <columns>END_DATE_TIME</columns>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>ALL_DAY</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>DUE_DATE</field>
+            <operation>equals</operation>
+            <value>TODAY,NEXT_N_DAYS:60</value>
+        </filters>
+        <label>My Upcoming Events</label>
+    </listViews>
+    <listViews>
+        <fullName>TodaysAgenda</fullName>
+        <columns>START_DATE_TIME</columns>
+        <columns>END_DATE_TIME</columns>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>ALL_DAY</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>DUE_DATE</field>
+            <operation>lessOrEqual</operation>
+            <value>TODAY</value>
+        </filters>
+        <filters>
+            <field>END_DATE</field>
+            <operation>greaterOrEqual</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>Today&apos;s Agenda</label>
+    </listViews>
+    <recordTypes>
+        <fullName>Attendance</fullName>
+        <active>true</active>
+        <description>For capturing Student&apos;s attendance.</description>
+        <label>Attendance</label>
+        <picklistValues>
+            <picklist>Attendance_Category__c</picklist>
+            <values>
+                <fullName>Authorised Absence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>External Activity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Late</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Present</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unauthorised Absence</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Attendance_Type__c</picklist>
+            <values>
+                <fullName>First</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Second</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>First_Contact__c</picklist>
+            <values>
+                <fullName>Online</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Walk-In</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Rate_Satisfaction__c</picklist>
+            <values>
+                <fullName>1 Star</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 Stars</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 Stars</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 Stars</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5 Stars</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Scope_of_Job__c</picklist>
+            <values>
+                <fullName>Major or Exceptional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal or Routine</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Quick and Easy</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Authorised Absence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>External Activity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Late</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Present</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unauthorised Absence</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Absent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Late</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Present</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Work_For_Overide__c</picklist>
+            <values>
+                <fullName>King%27s College Beijing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Override</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>The British College of Brazil</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The British School of Guangzhou</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The British School of Kuala Lumpur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The British School of Marbella</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The British School of Nanjing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The British School of Navarra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The British School of Tashkent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The British Schools Group</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The International School of Moscow</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The King%27s School of Manila</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>iContact_Activity_Type__c</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Import</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Landing Page</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Social</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Website Visit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>School_Tour</fullName>
+        <active>true</active>
+        <label>School Visit (Scheduled)</label>
+        <picklistValues>
+            <picklist>Attendance_Category__c</picklist>
+            <values>
+                <fullName>Authorised Absence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Late</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Present</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Attendance_Type__c</picklist>
+            <values>
+                <fullName>First</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Second</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>First_Contact__c</picklist>
+            <values>
+                <fullName>Online</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Walk-In</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Rate_Satisfaction__c</picklist>
+            <values>
+                <fullName>1 Star</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 Stars</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 Stars</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 Stars</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5 Stars</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Scope_of_Job__c</picklist>
+            <values>
+                <fullName>Major or Exceptional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal or Routine</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Quick and Easy</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Authorised Absence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Late</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Present</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Assessment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Letter%2FQuote</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Visit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Work_For_Overide__c</picklist>
+            <values>
+                <fullName>King%27s College Beijing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Override</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>The British College of Brazil</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The British School of Guangzhou</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The British School of Kuala Lumpur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The British School of Marbella</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The British School of Nanjing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The British School of Navarra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The British School of Tashkent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The British Schools Group</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The International School of Moscow</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The King%27s School of Manila</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>iContact_Activity_Type__c</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Import</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Landing Page</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Social</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Website Visit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>School_Visit_Complete</fullName>
+        <active>true</active>
+        <label>School Visit (Complete)</label>
+        <picklistValues>
+            <picklist>Attendance_Category__c</picklist>
+            <values>
+                <fullName>Authorised Absence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Late</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Present</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Attendance_Type__c</picklist>
+            <values>
+                <fullName>First</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Second</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>First_Contact__c</picklist>
+            <values>
+                <fullName>Online</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Walk-In</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Rate_Satisfaction__c</picklist>
+            <values>
+                <fullName>1 Star</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 Stars</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 Stars</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 Stars</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5 Stars</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Scope_of_Job__c</picklist>
+            <values>
+                <fullName>Major or Exceptional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal or Routine</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Quick and Easy</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Authorised Absence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Late</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Present</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Assessment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Letter%2FQuote</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Visit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Work_For_Overide__c</picklist>
+            <values>
+                <fullName>King%27s College Beijing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Override</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>The British College of Brazil</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The British School of Guangzhou</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The British School of Kuala Lumpur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The British School of Marbella</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The British School of Nanjing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The British School of Navarra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The British School of Tashkent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The British Schools Group</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The International School of Moscow</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The King%27s School of Manila</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>iContact_Activity_Type__c</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Import</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Landing Page</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Social</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Website Visit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Standard_Event</fullName>
+        <active>true</active>
+        <description>For Meetings, Visits, Calls etc.</description>
+        <label>Standard Event</label>
+        <picklistValues>
+            <picklist>Attendance_Category__c</picklist>
+            <values>
+                <fullName>Authorised Absence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Late</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Present</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Attendance_Type__c</picklist>
+            <values>
+                <fullName>First</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Second</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>First_Contact__c</picklist>
+            <values>
+                <fullName>Online</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Walk-In</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Rate_Satisfaction__c</picklist>
+            <values>
+                <fullName>1 Star</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 Stars</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 Stars</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 Stars</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5 Stars</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Scope_of_Job__c</picklist>
+            <values>
+                <fullName>Major or Exceptional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal or Routine</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Quick and Easy</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Authorised Absence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Late</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Present</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Assessment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Letter%2FQuote</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Visit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Work_For_Overide__c</picklist>
+            <values>
+                <fullName>King%27s College Beijing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Override</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>The British College of Brazil</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The British School of Guangzhou</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The British School of Kuala Lumpur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The British School of Marbella</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The British School of Nanjing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The British School of Navarra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The British School of Tashkent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The British Schools Group</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The International School of Moscow</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The King%27s School of Manila</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>iContact_Activity_Type__c</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Import</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Landing Page</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Social</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Website Visit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Ensure_Valid_Enquiry_Status</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+    ISNEW(),
+    RecordType.DeveloperName = &quot;School_Tour&quot;,
+    OR(
+       TEXT(Related_Enquiry__r.Status) = &quot;New&quot;,
+       TEXT(Related_Enquiry__r.Status) = &quot;Unqualified&quot;
+       )
+    )</errorConditionFormula>
+        <errorMessage>You cannot log a school visit against an enquiry with an Enquiry Status of &apos;New&apos; or &apos;Unqualified&apos;. Please mark the enquiry as &apos;Qualified&apos; first.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Ensure_Valid_Related_Enquiry_Value</fullName>
+        <active>true</active>
+        <description>Required to ensure that a school visit record is connected to a</description>
+        <errorConditionFormula>OR(
+   AND(
+       ISNEW(),
+       RecordType.DeveloperName = &quot;School_Tour&quot;,
+       ISBLANK(Related_Enquiry__c)
+       ),
+   AND(
+       ISCHANGED(Related_Enquiry__c),
+       NOT(ISBLANK(PRIORVALUE(Related_Enquiry__c)))
+       )
+   )</errorConditionFormula>
+        <errorMessage>You cannot change the &apos;Related Enquiry&apos; nor can it be blank</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Mark_Visit_as_Complete</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Mark Visit as Complete</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/29.0/connection.js&quot;)}
+
+var Now = new Date(); 
+var NowDateTime = Now.toISOString();
+
+var myDate = &quot;{!Event.Event_Start_Date_Time__c}&quot;; 
+var EventStartDate = new Date(myDate); 
+var EventStartDateTime = EventStartDate.toISOString(); 
+
+if(EventStartDateTime &gt; NowDateTime){
+alert(&quot;You cannot mark a school visit as complete if it is scheduled in the future.&quot;);
+}
+
+else if({!Event.Repeat_Visit__c})
+{var confirmResult = window.confirm(&quot;This record is marked as a repeat school visit so will not be included in your KPI totals. Once it&apos;s marked as complete you will no longer be able to edit it. Do you wish to continue?&quot;);
+if(confirmResult){
+var records = [];
+var record = new sforce.SObject(&quot;event&quot;);
+record.Id = &quot;{!Event.Id}&quot;;
+record.RecordTypeId = &quot;0126F000001iC4P&quot;;
+/* testing */ record.Test_1__c = NowDateTime;
+/* testing */ record.Test_2__c = EventStartDateTime; 
+records.push(record);
+var result = sforce.connection.update(records);
+//alert(&quot;2:result=&quot;+result);
+var sb = &quot;&quot;;
+for (var i=0; i&lt;result.length; i++) {
+if (result[i].getBoolean(&quot;success&quot;)) {
+sb += &quot;\nSuccess: This School Visit has been marked as complete.&quot;;
+} else {
+sb += &quot;\n Error. &quot; + result[i];
+}
+}
+if(sb != &quot;&quot;){
+alert(sb);
+
+}
+location.reload();	
+
+}
+}
+
+
+else{
+var confirmResult = window.confirm(&quot;By clicking this button you are confirming that you will log a school visit for {!Event.Number_of_Children_in_Enquiry__c} child(ren) in the current week&apos;s KPIs. Once this is done you will no longer be able to edit it. Do you wish to continue?&quot;);
+if(confirmResult){
+var records = [];
+var record = new sforce.SObject(&quot;event&quot;);
+record.Id = &quot;{!Event.Id}&quot;;
+record.RecordTypeId = &quot;0126F000001iC4P&quot;;
+record.School_Visit_Date_for_KPIs__c = new Date().toISOString();
+records.push(record);
+var result = sforce.connection.update(records);
+//alert(&quot;2:result=&quot;+result);
+var sb = &quot;&quot;;
+for (var i=0; i&lt;result.length; i++) {
+if (result[i].getBoolean(&quot;success&quot;)) {
+sb += &quot;\nSuccess: This School Visit has been marked as complete.&quot;;
+} else {
+sb += &quot;\nError. You cannot mark this school visit as complete because another complete school visit already exists against the same enquiry. Please tick the &apos;Repeat Visit?&apos; checkbox to mark this as a repeat school visit and then try again.&quot;;
+/*sb += &quot;\n Error. &quot; + result[i];*/
+}
+}
+if(sb != &quot;&quot;){
+alert(sb);
+
+}
+location.reload();	
+
+}
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>New_School_Visit_From_Account</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New School Visit</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/00U/e?retURL=%2F{!Account.Id}&amp;RecordType=0126F000001hVzx&amp;who_id={!Account.Id}&amp;evt12=School%20Admissions%20Office&amp;evt5=School%20Visit%20{!Account.Primary_Contact_Name__c}&amp;evt6=School%20Visit%20%2D%20Name%20of%20Primary%20Parent/Guardian:%20{!Account.Primary_Contact_Name__c}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>New_School_Visit_From_Enquiry</fullName>
+        <availability>online</availability>
+        <description>Used on the open activities related list on an enquiry</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New School Visit</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/00U/e?retURL=%2F{!Lead.Id}&amp;RecordType=0126F000001hVzx&amp;who_id={!Lead.Id}&amp;CF00N6F00000M2yzL_lkid={!Lead.Id}&amp;CF00N6F00000M2yzL={!Lead.Name}&amp;evt12=School%20Admissions%20Office&amp;evt5=School%20Visit%20{!Lead.Name}&amp;evt6=School%20Visit%20%2D%20Name(s)%20of%20Parent(s)/Guardian(s)%20from%20Enquiry:%20{!Lead.Name}%20%20%20%20%20{!Lead.Parent_2_Full_Name__c}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>SDOC__S_Docs</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>S-Docs</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>/apex/SDOC__SDCreate1?id={!Event.Id}&amp;Object=Event</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Send_Email_Account</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Send Email</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/_ui/core/email/author/EmailAuthor?&amp;retURL=%2F{!Account.Id}&amp;p2_lkid={!Account.Id}&amp;p3_lkid={!Account.Id}&amp;template_id=00X6F000001H1qn</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Send_Email_Contact</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Send Email</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/_ui/core/email/author/EmailAuthor?&amp;retURL=%2F{!Contact.Id}&amp;p2_lkid={!Contact.Id}&amp;p3_lkid={!Contact.Main_Parent_FileId__c}&amp;template_id=00X6F000001H1qn</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Send_Email_Lead</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Send Email</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/_ui/core/email/author/EmailAuthor?&amp;retURL=%2F{!Lead.Id}&amp;p2_lkid={!Lead.Id}&amp;template_id=00X6F000001H1qn</url>
+    </webLinks>
+</CustomObject>

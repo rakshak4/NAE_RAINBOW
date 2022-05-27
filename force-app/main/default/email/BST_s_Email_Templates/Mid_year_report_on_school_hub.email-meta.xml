@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Spring term 2014-15 ASA&apos;s finished</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Spring term 2014-15 ASA&apos;s finished</name>
+    <style>freeForm</style>
+    <subject>Spring term 2014-15 ASA&apos;s finished</subject>
+    <textOnly>Please note that after-school clubs have now finished for this term. All children should be picked up at 3:30 pm every day. Clubs will resume on the 28th of April.
+
+Любезно напоминаем Вам о том,что все клубы в этом триместре закончились.Вы можете забирать детей в 15:30.Клубы возобновятся 28 апреля.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

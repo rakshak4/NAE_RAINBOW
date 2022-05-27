@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Tottenham Hotspur UK Camp</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Tottenham Hotspur UK Camp</name>
+    <style>none</style>
+    <subject>TOTTENHAM HOTSPUR FOOTBALL ACADEMY PRESENTED BY THE BRITISH INTERNATIONAL SCHOOL OF KUALA LUMPUR</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

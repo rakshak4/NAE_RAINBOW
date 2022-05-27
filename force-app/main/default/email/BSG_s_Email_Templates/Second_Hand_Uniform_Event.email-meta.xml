@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Second Hand Uniform Event</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Second Hand Uniform Event</name>
+    <style>freeForm</style>
+    <subject>Second Hand Uniform Event</subject>
+    <textOnly>The British School
+of Guangzhou
+&lt;?xml:namespace prefix = o /&gt;
+
+
+
+
+
+
+Dear Parents,
+
+
+Following our email to you on the 12th March 2014, this is a gentle reminder for you to inform our Admissions Department (admissions@bsg.org.cn) of your intentions to leave or stay with the school next academic year (commencing 25th August 2014).
+
+
+Please note, if you intend to leave us and notice of withdrawal is received after 28th March 2014, your family will NOT be eligible for the &apos;Early Notice Payback&apos; payment scheme and any student deposits held by the school will be forfeited.
+
+
+If you have already informed our Admissions Department of your intentions, we would like to thank you and ask that you kindly disregard this email.
+
+
+Kind regards,
+
+
+Admissions Team
+
+
+
+The British School of Guangzhou
+
+
+World Class Education
+
+
+
+
+
+——————————————————————————————————————
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

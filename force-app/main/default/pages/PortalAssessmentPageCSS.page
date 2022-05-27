@@ -1,0 +1,1787 @@
+<apex:page standardStylesheets="false" sidebar="false" showHeader="false" contentType="text/css">
+/* Report card */
+/* General styles */
+
+@font-face {
+font-family: "Sans Pro";
+src: url('{!URLFOR($Resource.ParentPortalFiles, 'source-sans-pro.regular.ttf')}');
+}
+
+@font-face {
+font-family: "Dear Joe 5";
+src: url('{!URLFOR($Resource.ParentPortalFiles, 'DJ5CAS_P.ttf')}');
+}
+
+body{
+    margin: 0 auto;
+    padding: 0px 0;
+}
+p {
+  font-family: "Sans Pro";
+  line-height: 1.3em;
+}
+
+h1, h2, h3{
+    font-family: "Sans Pro";
+    margin: 0;
+    padding: 0;
+    line-height: 1.3em;
+}
+
+.clearfix{
+    clear: both;
+}
+
+/* Sidebar */
+
+#sidebar{
+    width: 240px;
+    min-height: 300px;
+    float: left;
+    display: block;
+}
+
+#sidebar .sidebar-top{
+    color: #003255;
+    min-height: 120px;
+    border: solid 1px #CCCCCC;
+    display: block;
+    padding: 5px 20px 25px 10px;
+    position: relative;
+    display: block;
+}
+
+#sidebar .sidebar-top h1{
+    font-family: "Dear Joe 5";
+    font-size: 30px;
+    font-weight: normal;
+}
+
+#sidebar .sidebar-top h3{
+    bottom: 0;
+    position: absolute;
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#sidebar .sidebar-top:after{
+    width: 32px;
+    height: 19px;
+    content: '';
+    background-image: url("{!URLFOR($Resource.ParentPortalFiles,'sidebar-top.png')}");
+    display: block;
+    position: absolute;
+    bottom: 0;
+    margin: 0 0 -19px 5px;
+}
+
+#sidebar .section.first{
+    margin: 25px 0 0 0;
+}
+
+#sidebar .section{
+    border: solid 1px #CCCCCC;
+    padding: 9px 6px 6px 6px;
+    margin: 5px 0 0 0;
+    display: block;
+}
+
+#sidebar .section .section-heading{
+    font-family: "Sans Pro";
+    color: #666666;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+#sidebar .btn-section{
+    font-family: "Sans Pro";
+    height: 21px;
+    background-color: #003255;
+    background-image: none;
+    color: #FFFFFF;
+    padding: 13px 0 12px 0;
+    margin-top: 3px;
+    line-height: 23px;
+    font-size: 23px;
+    border: 0 none;
+    width: 100%;
+    height: 100%;
+    font-weight: normal;
+}
+
+#sidebar .btn-section.select{
+    width: auto !important;
+    padding-left: 8px;
+}
+
+#sidebar .button{
+    font-family: "Sans Pro";
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+
+#sidebar .section-select{
+    font-family: "Sans Pro";
+    background: url("{!URLFOR($Resource.ParentPortalFiles,'section-arrow.png')}") 184px no-repeat #003255;
+    overflow: hidden;
+    height: 41px;
+    margin: 3px 0 0 0;
+}
+
+/*
+#sidebar .section-select:after{
+    background-image: url("{!URLFOR($Resource.ParentPortalFiles,'section-arrow.png')}");
+    font-family: "Sans Pro";
+    content: '';
+    height: 13px;
+    width: 22px;
+    position: absolute;
+    display: block;
+    margin-left: 184px;
+    margin-top: -16px;
+}
+*/
+#sidebar .section-select select{
+    font-family: "Sans Pro";
+    background: transparent;
+    border: 0 none;
+    border-radius: 0;
+    width: 100%;
+    font-size: 23px;
+    height: 41px;
+    line-height: 27px;
+    padding: 4px 0px 7px 7px;
+    color: #FFFFFF;
+    font-size: 23px;
+    width: 243px;
+    -webkit-appearance: none;
+    /* used for too long names on the select box */
+    width: 226px !important;
+    overflow: hidden;
+    text-overflow:hidden !important;
+    padding-right: 55px;
+    /* this is to hide the select icon in FF and IE */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-indent: 1px;
+    text-overflow: ' ';
+}
+select::-ms-expand {
+    display: none;
+}
+
+#sidebar .section-select select:hover{
+    background-color: #003255;
+    background: url("{!URLFOR($Resource.ParentPortalFiles,'section-arrow.png')}") 184px no-repeat #003255;
+}
+
+#sidebar .section-select select option{
+    font-family: "Sans Pro";
+    background-color: #003255;
+}
+
+#sidebar .section .chk-container{
+    margin: 15px 0 0 0;
+}
+
+#sidebar .section .chk-container td.first{
+    padding: 0;
+}
+
+#sidebar .section .chk-container td{
+    padding: 27px 0 0 0;
+}
+
+#sidebar .section .chekbox{
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+#sidebar .section .chekbox + .chk-display{
+    content: '';
+    display: block;
+    border: solid 2px #003255;
+    width: 12px;
+    height: 12px;
+    float: left;
+    margin-top: 4px;
+    border-radius: 2px;
+}
+
+#sidebar .section .chekbox:checked + .chk-display{
+    content: '';
+    display: block;
+    border: solid 2px #003255;
+    width: 12px;
+    height: 12px;
+    float: left;
+    margin-top: 4px;
+    border-radius: 2px;
+}
+
+#sidebar .section .chekbox:checked + .chk-display .fill{
+    display: block;
+    width: 13px;
+    height: 11px;
+    background-image: url("{!URLFOR($Resource.ParentPortalFiles,'chk-tick.png')}");
+}
+
+#sidebar .section .chk-label{
+    font-family: "Sans Pro";
+    color: #003255;
+    display: block;
+    font-size: 14px;
+    height: 16px;
+    line-height: 14px;
+    margin-top: 4px;
+    padding: 0 0 0 20px;
+    position: relative;
+    width: 120%;
+    z-index: 100;
+}
+
+#sidebar .section .chk-container .chk-side{
+    border: solid 1px #CCCCCC;
+    width: 10px;
+    height: 32px;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: -4px;
+}
+
+#sidebar .section .chk-container .chk-side.chk1{
+    background-color: #FDC02D;
+}
+
+#sidebar .section .chk-container .chk-side.chk2{
+    background-color: #EA3056;
+}
+
+#sidebar .section .chk-container .chk-side.chk3{
+    background-color: #F28650;
+}
+
+#sidebar .section .chk-container .chk-side.chk4{
+    background-color: #722C8A;
+}
+
+#sidebar .btn-print{
+    background-image: url("{!URLFOR($Resource.ParentPortalFiles,'print-icon.png')}");
+    font-family: "Sans Pro";
+    background-repeat: no-repeat;
+    background-position: 60px 50%;
+    padding-left: 40px;
+    width: auto !important;
+    display: block;
+    text-decoration: none;
+}
+
+/* Main content */
+
+#main{
+    font-family: "Sans Pro";
+    padding: 0 0 0 25px;
+    margin: 0 0 0 0px;
+    width: 670px;
+}
+
+#main #header{
+    font-family: "Sans Pro";
+    margin-top: 5px;
+    min-height: 173px;
+}
+
+#main #header h1, #main #header h2{
+    color: #999999;
+    font-weight: normal;
+}
+#main #header h1{
+    font-size: 30px;
+}
+
+#main #header h2{
+    font-size: 16px;
+}
+
+#main .term-section{
+    font-family: "Sans Pro";
+    width: 100%;
+    margin: 30px 0 0 0;
+    float: right;
+}
+
+#main .term-section.first{
+    margin: 0;
+}
+
+.t-sec-header{
+    font-family: "Sans Pro";
+    color: #003255;
+    padding: 28px 0 23px 16px;
+    margin-top: -5px;
+    font-size: 22px;
+    line-height: 22px;
+    box-shadow: -2px 5px 2px #EFEFEF;
+    border-radius: 3px;
+}
+
+.t-sec-header:after{
+    font-family: "Sans Pro";
+    background-image: url("{!URLFOR($Resource.ParentPortalFiles,'arrow-inner.png')}");
+    height: 17px;
+    width: 13px;
+    display: block;
+    content: '';
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 55px;
+}
+
+.t-sec-header .year{
+    font-family: "Sans Pro";
+    font-weight: bold;
+}
+
+.t-sec-item{
+    font-family: "Sans Pro";
+    margin: 10px 0 0 0;
+    position: relative;
+}
+
+.t-sec-item .item-name{
+    font-family: "Sans Pro";
+    border-top: solid 1px #CCCCCC;
+    border-bottom: solid 1px #CCCCCC;
+    border-left: solid 1px #CCCCCC;
+    display: block;
+    width: 258px;
+    position: relative;
+    color: #FFFFFF;
+    font-size: 13px;
+    line-height: 18px;
+    height: 18px;
+    padding-left: 6px;
+}
+
+.t-sec-item .item-name.i-name-1{
+    background-color: #FDC02D;
+}
+
+.t-sec-item .item-name.i-name-1:after{
+    font-family: "Sans Pro";
+    content: '';
+    display: block;
+    width: 12px;
+    height: 20px;
+    background-image: url("{!URLFOR($Resource.ParentPortalFiles,'tsec-name-1.png')}");
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: -12px;
+    margin-top: -1px;
+}
+
+.t-sec-item .item-name.i-name-2{
+    background-color: #EA3056;
+}
+
+.t-sec-item .item-name.i-name-2:after{
+    font-family: "Sans Pro";
+    content: '';
+    display: block;
+    width: 12px;
+    height: 20px;
+    background-image: url("{!URLFOR($Resource.ParentPortalFiles,'tsec-name-2.png')}");
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: -12px;
+    margin-top: -1px;
+}
+
+.t-sec-item .item-name.i-name-3{
+    background-color: #F28650;
+}
+
+.t-sec-item .item-name.i-name-3:after{
+    font-family: "Sans Pro";
+    content: '';
+    display: block;
+    width: 12px;
+    height: 20px;
+    background-image: url("{!URLFOR($Resource.ParentPortalFiles,'tsec-name-3.png')}");
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: -12px;
+    margin-top: -1px;
+}
+
+.t-sec-item .item-name.i-name-4{
+    background-color: #722C8A;
+}
+
+.t-sec-item .item-name.i-name-4:after{
+    font-family: "Sans Pro";
+    content: '';
+    display: block;
+    width: 12px;
+    height: 20px;
+    background-image: url("{!URLFOR($Resource.ParentPortalFiles,'tsec-name-4.png')}");
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: -12px;
+    margin-top: -1px;
+}
+
+.t-sec-item .item-description, .t-sec-item .item-grades{
+    font-family: "Sans Pro";
+    border: solid 1px #CCCCCC;
+    box-shadow: 0px 4px 5px 0px #E2E2E2;
+    height: 42px;
+    position: absolute;
+    z-index: 10;
+    background-color: #FBFBFB;
+}
+
+.t-sec-item .item-description{
+    width: 275px;
+    display: table;
+}
+
+.t-sec-item .item-grades{
+    font-family: "Sans Pro";
+    width: 390px;
+    right: 0;
+    display: table;
+    border-spacing: 0;
+}
+
+.t-sec-item .item-body, .t-sec-item .item-body-empty{
+    font-family: "Sans Pro";
+    border: solid 1px #CCCCCC;
+    border-top: solid 1px #fff;
+    position: relative;
+    min-height: 92px;
+    margin-top: 30px;
+    z-index: 0;
+    padding: 25px 40px 4px 10px;
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.4em;
+}
+
+.t-sec-item .item-body-empty{
+    border: 0 none;
+    min-height: 0;
+    margin: 15px 0 0 0;
+}
+
+.t-sec-item .item-body img{
+    float: left;
+    padding: 0 15px 0 0;
+}
+
+.t-sec-item .item-description span{
+    font-size: 15px;
+    line-height: 17px;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 11px;
+    color: #666666;
+    padding-right: 10px;
+}
+
+.t-sec-item .grade{
+    margin-left: 8px;
+    background-color: #CCCCCC;
+    color: #FFFFFF;
+    min-width: 22px;
+    height: 22px;
+    display: block;
+    float: right;
+    text-align: center;
+    padding: 6px 5px 0px 5px !important;
+    margin-top: -7px;
+    font-size: 1.2em !important;
+}
+
+.t-sec-item .item-grades .grade-item{
+    /*float: left;*/
+    display: table-cell;
+    padding: 2px 4px 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 14px;
+    color: #666666;
+    box-sizing: border-box;
+}
+.t-sec-item .item-grades .grade-item .label {
+    text-align: center;
+}
+    
+/* 25th Oct 2017 Changes - Old Version */
+
+/*.t-sec-item .item-grades .grade-item.letter-cont .wrap-a-grade {
+    float: right;
+    text-align: center;
+    background-color: #C5C5C5;
+    color: #FFFFFF;
+    font-size: 11px;
+    line-height: 12px;
+    width: 54px;
+    min-height: 0px;
+    letter-spacing: -1px;
+    border: solid 1px #BEBEBE;
+    padding: 0 2px;      
+}*/
+
+/* 25th Oct 2017 Changes - New Version */
+
+   
+.t-sec-item .item-grades .grade-item.letter-cont-target {
+    float: right;
+    margin: 0 0 0 2px;
+}
+
+/* 25th Oct 2017 Changes - Old Version */
+
+/*.t-sec-item .item-grades .grade-item.letter-cont-target .wrap-a-grade {
+    float: right;
+    text-align: center;
+    background-color: #C5C5C5;
+    color: #FFFFFF;
+    font-size: 11px;
+    line-height: 12px;
+    width: 54px;
+    min-height: 0px;
+    letter-spacing: -1px;
+    border: solid 1px #BEBEBE;
+    padding: 0 2px;      
+}*/
+
+/* 25th Oct 2017 Changes - New Version */
+
+.t-sec-item .item-grades .grade-item.letter-cont-target .wrap-a-grade {
+    float: right;
+    text-align: center;
+    background-color: #FBFBFB;
+    color: #666666;
+    font-size: 12px;
+    line-height: 14px;
+    width: 54px;
+    min-height: 0px;
+    margin: 2px 14px 0 6px;
+    border: none;
+    padding: 0 2px;      
+}
+
+/* 25th Oct 2017 Changes - Old Version */
+
+/*.t-sec-item .item-grades .grade-item .eval{
+    font-size: 12px !important;
+    text-transform: none;
+    background-color: #C5C5C5;
+    color: #FFFFFF;
+    padding: 2px 3px 1px 3px;
+    margin: 2px 0 0 0;
+}*/
+
+/* 25th Oct 2017 Changes - New Version */
+
+.t-sec-item .item-grades .grade-item .eval{
+    font-size: 12px !important;
+    text-transform: none;
+    text-align: center;
+    background-color: #FBFBFB;
+    color: #666666;
+    padding: 2px 7px 1px 3px;
+    margin: 2px 0 0 0;
+}
+
+.t-sec-item .item-grades .letter-cont .eval{
+    font-size: 20px !important;
+    line-height: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.t-sec-item .item-grades .letter-cont-target .eval{
+    font-size: 20px !important;
+    line-height: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.item-body .item-contact{
+    display: block;
+    list-style: none;
+    list-style-image: none;
+    margin: 12px 0 0 0;
+    padding: 0;
+}
+
+.item-body .item-contact li{
+    color: #999999;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 0em !important;
+}
+
+.item-body .item-contact li:first-child{
+    padding: 0 35px 0 0 !important;
+    border: 0 none;
+}
+
+.item-body .item-contact li:last-child{
+/*    padding: 0 0 0 35px !important;*/
+    border: 0 none;
+}
+
+.item-body .item-contact li a, .item-body .item-contact li a:visited{
+    color: #999999;
+    text-decoration: none;
+}
+.item-body .item-contact li a:hover{
+    color: #003255;
+    text-decoration: none;
+}
+
+.t-sec-cont{
+    display: block;
+}
+
+/* Conduct card */
+
+.conduct-summary{
+    font-family: "Sans Pro";
+    list-style-type: none;
+    list-style-image: none;
+    margin: 18px 0 45px 0;
+    padding: 0; 
+    height: 51px;
+}
+
+.conduct-summary li{
+    float: left;
+    text-align: right;
+    margin-right: 8px;
+    padding: 0;
+    width: 20%;
+    line-height: 19px;
+    color: #999999;
+    position: relative;
+    right: 8px;
+}
+/* Theming the color blocks only for the attendance report */
+.conduct-summary .attendance{
+    float: left;
+    text-align: right;
+    margin-right: 8px;
+    padding: 0;
+    width: 16%;
+    line-height: 19px;
+    color: #999999;
+    position: relative;
+    right: 8px;
+}
+.conduct-summary .attendance .cs-value-title {
+  float: right;
+  width: 16%;
+  position: absolute;
+  top: 55px;
+  margin: 0 0 0 10px;
+  line-height: 1.2em;
+}
+
+.conduct-summary li.disabled{
+    color: #D5D5D5;
+}
+
+.conduct-summary li .cs-value{
+    border: solid 1px #CCCCCC;
+    font-size: 20px;
+    height: 51px;
+    width: 51px;
+    display: block;
+    float: right;
+    text-align: center;
+    margin: 0 0 0 10px;
+    line-height: 51px;
+    color: #FFFFFF;
+}
+
+.conduct-summary li.disabled .cs-value{
+    background-color: #D5D5D5 !important;
+}
+
+.conduct-summary li.cs-first .cs-value{
+    background-color: #FDC02D;
+}
+
+.conduct-summary li.cs-second .cs-value{
+    background-color: #EA3056;
+}
+
+.conduct-summary li.cs-third .cs-value{
+    background-color: #F28650;
+}
+
+.conduct-summary li.cs-fourth .cs-value{
+    background-color: #722C8A;
+}
+
+/* Forgot Password */
+.fp-container, .login-container, .logout-container{
+    width: 285px;
+    font-family: "Sans Pro";
+}
+
+.fp-container h1, .login-container h1, .logout-container h1{
+    color: #003255;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.fp-container .box, .login-container .box, .logout-container .box{
+    border: solid 1px #CCCCCC;
+    padding: 7px 9px 11px 9px;
+    margin: 0 0 20px 0;
+}
+
+.fp-container .box::after, .login-container .box::after, .logout-container .box::after{
+    content: '';
+    background-image: url("{!URLFOR($Resource.ParentPortalFiles,'fp-arrow.png')}");
+    height: 19px;
+    width: 31px;
+    display: block;
+    position: absolute;
+    margin: 11px 0 0 14px;
+}
+
+.fp-container .desc, .login-container .desc{
+    color: #999999;
+    font-size: 16px;
+    margin: 3px 0 0 0;
+    display: block;
+}
+
+.fp-container .input, .login-container .input, .login-container .input-pass{
+    margin: 5px 0 0 0;
+    padding: 10px 0 10px 9px;
+    height: 45px;
+    color: #FFE3B1;
+    background-color: #003255;
+    font-size: 20pt;
+    line-height: 28px;
+    border: 0 none;
+    width: 255px;
+}
+
+.fp-container .submit, .login-container .submit, .logout-container .submit{
+    height: 21px;
+    background-color: #003255;
+    background-image: none;
+    color: #FFFFFF;
+    padding: 13px 0 12px 0;
+    margin-top: 3px;
+    line-height: 23px;
+    font-size: 23px;
+    border: 0 none;
+    min-width: 65%;
+    height: 100%;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.fp-container .retun, .login-container .forgot-pass{
+    color: #003255;
+    margin: 5px 0 0 0;
+}
+
+/* Contact details */
+
+.pc-desc, .pc-desc span{
+    font-size: 12px;
+    font-family: "Sans Pro";
+    margin-top: 20px;
+    margin-bottom: -12px;
+    color: #666666;
+}
+
+#main .section.first{
+    font-family: "Sans Pro";
+    margin: 25px 0 0 0;
+}
+
+#main .section{
+    padding: 9px 6px 6px 0;
+    margin: 5px 0 0 0;
+    display: block;
+    width: 225px;
+    font-family: "Sans Pro";
+}
+
+#main .section .section-heading{
+    font-family: "Sans Pro";
+    color: #666666;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+#main .btn-section{
+    font-family: "Sans Pro";
+    height: 21px;
+    background-color: #003255;
+    background-image: none;
+    color: #FFFFFF;
+    padding: 13px 0 12px 0;
+    margin-top: 3px;
+    line-height: 23px;
+    font-size: 23px;
+    border: 0 none;
+    width: 100%;
+    height: 100%;
+}
+
+#main .btn-section.select{
+    width: auto !important;
+    padding-left: 8px;
+}
+
+#main .button{
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+
+#main .section-select{
+    background: url("{!URLFOR($Resource.ParentPortalFiles,'section-arrow.png')}") 90% no-repeat #003255;
+    font-family: "Sans Pro";
+    overflow: hidden;
+    height: 41px;
+    margin: 3px 0 0 0;
+}
+#main .section-select:after{
+    background-image: url("{!URLFOR($Resource.ParentPortalFiles,'section-arrow.png')}") no-repeat 183px #003255;
+    font-family: "Sans Pro";
+    content: '';
+    height: 13px;
+    width: 22px;
+    position: absolute;
+    display: block;
+    margin-left: 184px;
+    margin-top: -16px;
+}
+
+#main .section-select select{
+    font-family: "Sans Pro";
+    background: transparent;
+    border: 0 none;
+    border-radius: 0;
+    width: 100%;
+    font-size: 23px;
+    height: 41px;
+    line-height: 23px;
+    padding: 4px 0 7px 7px;
+    color: #FFFFFF;
+    font-size: 23px;
+    width: 243px;
+    -webkit-appearance: none;
+}
+
+#main .section-select select option{
+    background-color: #003255;
+}
+
+#main .section-select{
+    background: url("{!URLFOR($Resource.ParentPortalFiles,'section-arrow.png')}") 90% no-repeat #003255;
+    font-family: "Sans Pro";
+    overflow: hidden;
+    height: 41px;
+    margin: 3px 0 0 0;
+} 
+
+#main .section-select:hover:after{
+    font-family: "Sans Pro";
+    content: '';
+    height: 13px;
+    width: 22px;
+    position: absolute;
+    display: block;
+    z-index: 0;
+    margin-top: -27px;
+    margin-left: 144px;
+}
+
+
+.pc-cont{
+    font-family: "Sans Pro";
+}
+
+.pc-cont.first{
+    margin: 10px 0 0 5px;
+}
+
+.pc-cont .pc-top-h{
+    font-size: 12px;
+    line-height: 19px;
+    color: #666666;
+}
+
+.pc-cont .pc-name{
+    font-size: 23px;
+    line-height: 32px;
+    color: #999999;
+}
+
+.pc-label{
+    color: #666666;
+    font-size: 12px;
+    font-family: "Sans Pro";
+}
+
+.pc-input{
+    border: solid 1px #CCCCCC;
+    width: 244px;
+    padding: 5px 0 5px 3px;
+    color: #666666;
+    font-size: 18px;
+    margin: 0 40px 0 0;
+}
+
+.pc-input.first{
+    width: 368px;
+}
+
+/* Print CSS */
+
+#sidebar.print{
+    font-family: "Sans Pro";
+    display: none !important;
+}
+
+body.print{
+    font-family: "Sans Pro";
+    padding: 0;
+}
+
+#main.print{
+    font-family: "Sans Pro";
+    margin: 0;
+    padding: auto 0 auto 0;
+    width: 715px;
+}
+
+.print{
+    font-family: "Sans Pro";
+    display: block;
+}
+
+.print.header{
+    font-family: "Sans Pro";
+    width: 715px;
+    height: 41mm;
+/*  background-color: #003255 !important; */
+    color: #FFFFFF;
+/*  display: block; */
+    padding-bottom: 0px;
+    margin: 0 0 0px 0;
+}
+
+.print.heading{
+    font-family: "Sans Pro";
+    font-size: 45px;
+    line-height: 15mm;
+    color: #131C2F;
+}
+
+.print.h-name{
+    font-family: "Sans Pro";
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    margin: 0px 0px 0 0;
+    color: #131C2F;
+}
+
+.print.h-name:before {
+  font-family: "Sans Pro";
+  content: "Student: ";
+}
+
+.print.img-cont{
+    float: left;
+    margin-left: 0px;
+    padding: 0;
+}
+
+.print-t-sec-header{
+    font-family: "Sans Pro";
+    color: #999;
+    padding: 28px 0 23px 16px;
+    margin-top: -5px;
+    font-size: 22px;
+    line-height: 22px;
+/*  box-shadow: -2px 5px 2px #EFEFEF; */
+    border-radius: 0px;
+    border: 1px solid silver;
+}
+
+.print-t-sec-header .year{
+    font-family: "Sans Pro";
+    font-weight: bold;
+}
+
+.print .item-description {
+  font-family: "Sans Pro";
+  width: 290px;
+}
+.print .t-sec-item .item-description span {
+  font-family: "Sans Pro";
+  font-size: 1.0em;
+}
+
+/* -- NEXT, THE TABS OVER EACH REPORT ITEM -- */
+
+.t-sec-item{
+    font-family: "Sans Pro";
+    margin: 10px 0 0 0;
+    position: relative;
+    page-break-inside: avoid;
+}
+
+.t-sec-item .print-item-name{
+/* 
+    border-top: solid 1px silver;
+    border-bottom: none;
+    border-left: solid 1px silver;
+    border-right: solid 1px silver;
+ */
+    font-family: "Sans Pro";
+    display: block;
+    width: 707px;
+    position: relative;
+    color: black;
+    font-size: 16px;
+    line-height: 18px;
+    height: 18px;
+    padding-left: 2px;
+    padding-bottom: 3px;
+    padding-top: 15px;
+}
+
+.t-sec-item .print-item-name.i-name-1{
+    padding-top: 10px;
+}
+
+
+.t-sec-item .print-item-name.i-name-1:after{
+    font-family: "Sans Pro";
+    content: '';
+    display: block;
+    width: 12px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: -12px;
+    margin-top: -1px;
+}
+
+
+/* -- NEXT, THE GRADE BOXES -- */ 
+
+.t-sec-item .print-item-grades{
+    font-family: "Sans Pro";
+    border: solid 1px #CCCCCC;
+    box-shadow: 0px 4px 5px 0px #E2E2E2;
+    height: 42px;
+    position: absolute;
+    z-index: 10;
+    background-color: #fff;
+    width: 420px;
+    right: 0;
+}
+    
+.t-sec-item .grade{
+    font-family: "Sans Pro";
+    margin-left: 8px;
+    background-color: #CCCCCC;
+    color: #FFFFFF;
+    min-width: 22px;
+    height: 22px;
+    display: block;
+    float: right;
+    text-align: center;
+    font-size: 18px;
+}
+
+.t-sec-item .print-item-grades .grade-item{
+   font-family: "Sans Pro";
+   color: #666666;
+}
+
+
+
+/* General styles  for my contact detail page*/
+.contact-details {
+  /* Phones */
+  /* Sidebar */
+  /* Checkboxes */
+  /* Main content */
+}
+
+.contact-details * {
+  font-family: "Sans Pro";
+}
+
+.contact-details body {
+  width: 948px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.contact-details h1, .contact-details h2, .contact-details h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.contact-details .clearfix {
+  clear: both;
+}
+
+.contact-details input[type="text"] {
+  font-family: "Sans Pro";
+  font-size: 22px;
+  height: 33px;
+  padding: 0 0 0 5px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  color: #666666;
+}
+
+.contact-details input.area-code {
+  width: 60px;
+}
+
+.contact-details input.employer {
+  width: 280px;
+}
+
+.contact-details div.area-code,
+.contact-details div.main-phone {
+    margin: 0 5px 10px 0px;
+    width: 280px;
+}
+    
+.contact-details div.area-code #plus-areacode {
+  margin: 0 5px 0 0;
+}
+
+.hyphen span.plus-areacode {
+    font-size: 16px;
+}
+
+.inline.hyphen {
+    position: relative;
+    top: 25px;
+    left: 20px;
+}
+
+.contact-details label {
+  color: #666666;
+}
+
+.contact-details textarea {
+  width: 280px;
+  height: 150px;
+  resize: none;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  padding: 7px;
+  overflow-x: auto;
+  font-size: 22px;
+  color: #666666;
+}
+
+.contact-details article.phones input.phone {
+  width: 210px;
+  margin-top: 3px;
+}
+
+.contact-details article.phones .main-phone input {
+  margin-right: 37px;
+  margin-top: 3px;
+}
+
+.contact-details table.fourth {
+  width: 100%;
+}
+
+.contact-details table.fourth td {
+  padding: 0 42px 0 0;
+  width: 50%;
+}
+
+.contact-details table.fourth td.rightcol {
+    float: left;
+}
+
+.contact-details #sidebar .sidebar-top {
+  color: #003255;
+  min-height: 120px;
+  border: solid 1px #CCCCCC;
+  display: block;
+  padding: 5px 20px 25px 10px;
+  position: relative;
+  display: block;
+}
+
+.contact-details #sidebar .sidebar-top::after {
+  display: none;
+}
+
+.contact-details #sidebar .sidebar-top h1 {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.contact-details #sidebar .sidebar-top h3 {
+  bottom: 0;
+  position: absolute;
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.contact-details #sidebar .section.first {
+  margin: 8px 0 0 0;
+}
+
+.contact-details #sidebar .section {
+  border: solid 1px #CCCCCC;
+  padding: 9px 6px 6px 6px;
+  margin: 5px 0 0 0;
+  display: block;
+}
+
+.contact-details #sidebar .section .section-heading {
+  font-family: "Sans Pro";
+  color: #666666;
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.contact-details #sidebar .btn-section {
+  font-family: "Sans Pro";
+  height: 21px;
+  background-color: #003255;
+  background-image: none;
+  color: #FFFFFF;
+  padding: 13px 0 12px 0;
+  margin-top: 3px;
+  line-height: 23px;
+  font-size: 23px;
+  border: 0 none;
+  width: 100%;
+  height: 100%;
+}
+
+.contact-details #sidebar .btn-section.select {
+  width: auto !important;
+  padding-left: 8px;
+}
+
+.contact-details #sidebar .button {
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+}
+
+.contact-details input[type="checkbox"] {
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+.contact-details .chekbox + .chk-display {
+  content: '';
+  display: block;
+  border: solid 2px #003255;
+  width: 12px;
+  height: 12px;
+  float: left;
+  margin-top: 4px;
+  border-radius: 2px;
+}
+
+.contact-details .chekbox:checked + .chk-display {
+  content: '';
+  display: block;
+  border: solid 2px #003255;
+  width: 12px;
+  height: 12px;
+  float: left;
+  margin-top: 4px;
+  border-radius: 2px;
+}
+
+.contact-details .chekbox:checked + .chk-display .fill {
+  display: block;
+  width: 13px;
+  height: 11px;
+  background-image: url("{!URLFOR($Resource.ParentPortalFiles,'chk-tick.png')}");
+}
+
+.contact-details .chk-label {
+  font-family: "Sans Pro";
+  display: block;
+  font-size: 12px;
+  height: 16px;
+  line-height: 13px;
+  margin-top: 4px;
+  padding: 0 0 0 20px;
+  position: relative;
+  z-index: 100;
+}
+
+.contact-details .term-section.with-border {
+  padding-top: 8px;
+  margin-top: 20px;
+  border-top: 1px solid #d9d9d9;
+}
+
+.contact-details .term-section.with-border .chk-label {
+  font-family: "Sans Pro";
+  height: 31px;
+  padding: 0 0 0 40px;
+  width: 250px;
+}
+
+.contact-details .term-section.with-border .chekbox + .chk-display {
+  margin-top: 9px;
+}
+
+.contact-details .t-sec-header {
+  color: #003255;
+  padding: 19px 0 18px 16px;
+}
+
+.contact-details .t-sec-header:after {
+  margin-top: 7px;
+}
+
+.contact-details .t-sec-header .year {
+  font-weight: bold;
+}
+
+.contact-details section.name-inputs {
+  margin: 10px 0 0 0;
+}
+
+.contact-details #main {
+  padding: 0 0 0 33px;
+  margin: 0 0 0 0px;
+}
+
+.contact-details #main .section.first {
+  margin: 25px 0 0 0;
+}
+
+.contact-details #main .section {
+  margin: 0;
+  padding: 0 6px 6px 0;
+  width: 280px;
+}
+
+.contact-details #main .section.name {
+  float: left;
+}
+
+.contact-details #main .section.name.salutation {
+  width: 100px;
+}
+    
+.contact-details #main .section.name.first-contact {
+  width: 600px;
+}
+.contact-details #main div.inline {
+  float: left;
+}
+
+.contact-details #main .first-name, .contact-details #main .last-name {
+  margin: 2px 0 0 18px;
+}
+
+.contact-details #main .first-name input {
+  width: 240px;
+}
+
+.contact-details #main .last-name input {
+  width: 255px;
+}
+
+.contact-details #main .section .section-heading {
+  font-family: "Sans Pro";
+  color: #666666;
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.contact-details #main .section-select {
+  font-family: "Sans Pro";
+  background: url("{!URLFOR($Resource.ParentPortalFiles,'section-arrow-orange.png')}") 96% no-repeat transparent;
+  height: 32px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+}
+
+.contact-details #main .section-select.salutation {
+  background-position: 90% center;
+}
+
+.contact-details #main .section-select select {
+  font-family: "Sans Pro";
+  background: transparent;
+  border: 0 none;
+  border-radius: 0;
+  font-size: 22px;
+  color: #666666;
+  height: 41px;
+  line-height: 23px;
+  padding: 2px 0 7px 5px;
+  width: 120%;
+  -webkit-appearance: none;
+}
+
+.contact-details .pc-label {
+  color: #666666;
+  font-size: 11px;
+  font-family: "Sans Pro";
+}
+
+.contact-details .pc-label.hidden {
+  color: transparent;
+}
+
+.contact-details .pc-input {
+  border: solid 1px #CCCCCC;
+  width: 244px;
+  padding: 5px 0 5px 3px;
+  color: #666666;
+  font-size: 20px;
+  margin: 0 40px 0 0;
+}
+
+.contact-details .pc-input.first {
+  width: 280px;
+}
+    
+
+/*---- events page ---*/
+#events-page {
+  width: 948px;
+  font-weight: 100;
+  font-family: "Sans Pro";
+}
+#events-page input, #events-page select {
+  font-family: "Sans Pro";
+}
+#events-page #main {
+  float: right;
+  width: 670px;
+}
+#events-page #sidebar .sidebar-top{
+  padding: 10px 10px 25px 10px;
+}
+#events-page #sidebar .sidebar-top h1{
+  font-weight: 100;
+}
+#events-page #sidebar .sidebar-top h3{
+  font-weight: 100;
+}
+#events-page #sidebar .section .form-item {
+  margin-bottom: 10px;
+}
+#events-page #sidebar .section .form-item-checkbox {
+  margin-top: 30px;
+}
+#events-page #sidebar .section .section-heading {
+  font-family: "Sans Pro";
+  font-size: 11px;
+  font-weight: 100;
+}
+#events-page #sidebar .section-select select {
+  font-family: "Sans Pro";
+  font-weight: 100;
+  padding: 8px 0 7px 7px;
+  width: 243px !important;
+}
+#events-page #sidebar .section-select select option {
+  padding: 7px;
+}
+#events-page #sidebar .section .chk-container {
+  margin: 10px 0 0 0;
+}
+#events-page #sidebar .section .chk-container td {
+  padding: 20px 0 0 0;
+}
+#events-page #sidebar .section .chk-container td.first{
+    padding: 0;
+}
+#events-page #sidebar .section .chk-container .chk-side.chk4 {
+    background-color: #ff5b3f;
+}
+#events-page #sidebar .section .section-datepicker input {
+  background: #003255 url("{!URLFOR($Resource.ParentPortalFiles,'calender-icon.png')}") no-repeat 95% center;
+  color: #fff;
+  font-size: 23px;
+  font-weight: 100;
+  line-height: 1em;
+  padding: 10px 10px 8px 10px;
+  border: none;
+  margin: 4px 0;
+  width: 206px;
+}
+.ui-datepicker {
+  font-family: "Sans Pro";
+  width: 15em;
+  z-index: 100 !important;
+  font-size: 14px;
+  border-radius: 0;
+  border-color: #b5b5b5;
+  -webkit-box-shadow: 0 5px 8px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 5px 8px rgba(0,0,0,0.5);
+  box-shadow: 0 5px 8px rgba(0,0,0,0.5);
+}
+.ui-datepicker:after{
+    width: 17px;
+    height: 43px;
+    content: '';
+    background-image: url("{!URLFOR($Resource.ParentPortalFiles,'calender-left-direction.png')}");
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0 0 0 -17px;
+}
+.ui-widget-header {
+  background: none;
+  border: none;
+  color: #808080;
+  font-size: 14px;
+  margin: 5px 0;
+  font-weight: 100;
+}
+.ui-datepicker .ui-datepicker-next, .ui-datepicker .ui-datepicker-prev {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 2.4em;
+  height: 2.4em;
+  top: -5px;
+}
+.ui-datepicker .ui-datepicker-next span {
+  background-image: url("{!URLFOR($Resource.ParentPortalFiles,'next-aero.png')}");
+  background-position: left center;
+  width: 24px;
+  height: 24px;
+}
+.ui-datepicker .ui-datepicker-prev span {
+  background-image: url("{!URLFOR($Resource.ParentPortalFiles,'previous-aero.png')}");
+  background-position: right center;
+  width: 24px;
+  height: 24px;
+  margin-left: -13px;
+}
+.ui-datepicker table td span,
+.ui-datepicker table td a {
+    display: block;
+    padding: .7em .5em;
+    text-align: center;
+    text-decoration: none;
+    border: none !important;
+}
+.ui-datepicker table td span:hover,
+.ui-datepicker table td a:hover,
+.ui-datepicker table td .ui-state-active {
+  background: #003255 !important;
+}
+
+.events .pname {
+  font-weight: bold;
+}
+.event-item {
+  font-family: "Sans Pro";
+  margin: 10px 0;
+  padding: 20px 0;
+  border-bottom: 1px solid #e8e8e8;
+  overflow: hidden;
+}
+.event-item .event-date {
+  float: left;
+  width: 50px;
+  font-size: 19px;
+  text-align: center;
+  margin-right: 25px;
+}
+.double-date .event-date {
+  width: 100px;
+}
+.event-item .event-desc {
+  float: left;
+  width: 595px;
+}
+.double-date .event-desc {
+  width: 545px;
+}
+.event-item .event-date .month {
+  background-color: #FDC02D;
+  color: #fff;
+  font-size: 11px;
+  padding: 4px 2px 2px 2px;
+  margin-bottom: 5px;
+}
+.event-item .event-date .term {
+  background-color: #FDC02D;
+}
+.event-item .event-date .reminder {
+  background-color: #ff5b3f;
+}
+.event-item .event-date .event {
+  background-color: #EA3056;
+}
+.event-item .event-date .form {
+  float: left;
+  width: 60px;
+}
+.event-item .event-date .to {
+  float: left;
+  width: 40px;
+}
+.event-item .event-date .form .month{
+  background-image: url("{!URLFOR($Resource.ParentPortalFiles,'from-to-aero.png')}");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+.event-item h3.title {
+  font-weight: 100;
+  font-size: 21px;
+  color: #333;
+  font-family: "Sans Pro";
+}
+.event-item .subtitle {
+  color: #333;
+  font-size: 19px;
+  font-family: "Sans Pro";
+}
+.event-item .for-student {
+  color: #7a7a7a;   
+  margin: 5px 0 0 0;
+}
+.event-item .for-student p {
+  position: relative;
+  font-size: 16px;
+  margin: 0px;
+  font-family: "Sans Pro";
+}
+.event-item .for-student img{
+    float: left;
+    margin: 0 3px 0 0;
+    display: none;
+}
+.event-item .body {
+  color: #7a7a7a;
+  display: none;
+  font-family: "Sans Pro";
+  font-size: 16px;
+}
+.event-item .more {
+  color: #003255;
+  background-image: url("{!URLFOR($Resource.ParentPortalFiles,'plus-icon.png')}");
+  background-repeat: no-repeat;
+  background-position: left top;
+  width: 21px;
+  height: 21px;
+  padding: 2px;
+  padding: 8px 0 2px 32px;
+  cursor: pointer;
+  font-size: 0;
+  font-family: "Sans Pro";
+  margin-top: 10px;
+}
+.event-item .more:hover {
+  background-image: url("{!URLFOR($Resource.ParentPortalFiles,'plus-icon-hover.png')}");
+  font-size: 16px;
+}
+.event-item .less {
+  font-size: 16px;
+  font-family: "Sans Pro";
+  background-image: url("{!URLFOR($Resource.ParentPortalFiles,'minus-icon.png')}");
+}
+.event-item .less:hover {
+  background-image: url("{!URLFOR($Resource.ParentPortalFiles,'minus-icon-hover.png')}");
+}
+
+
+/*-- flexslider --*/
+.flexslider {
+  font-family: "Sans Pro";
+  margin: 0 0 60px;
+  background: #fff;
+  border: 4px solid #fff;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  box-shadow: 0 0 0;
+  -webkit-box-shadow: 0 0 0;
+  -moz-box-shadow: 0 0 0;
+  -o-box-shadow: 0 0 0;
+}
+.flex-direction-nav a {
+  width: 30px;
+  height: 50px;
+  background: url("{!URLFOR($Resource.ParentPortalFiles,'bg_direction_nav.png')}") no-repeat 0 0;
+}
+
+/* ---- no-results-behavior ---*/
+.no-results-behavior {
+  font-family: "Sans Pro";
+  position: relative;
+  background: #8F8B86;
+  color: #fff;
+  padding: 30px 30px 50px 30px;
+  font-size: 20px;
+  width: 300px;
+  line-height: 1.3em;
+  margin: 0 0 150px 60px;
+}
+.no-results-behavior span.user-icon {
+  background: url("{!URLFOR($Resource.ParentPortalFiles,'user-img.png')}") no-repeat left bottom;
+  width: 161px;
+  height: 170px;
+  display: block;
+  position: absolute;
+  bottom: -135px;
+  left: -60px;
+}
+.no-results-behavior span.down-aero {
+  background: url("{!URLFOR($Resource.ParentPortalFiles,'notification-down-aero.png')}") no-repeat left bottom;
+  width: 56px;
+  height: 52px;
+  display: block;
+  position: absolute;
+  bottom: -52px;
+  left: 75px;
+}
+
+
+</apex:page>

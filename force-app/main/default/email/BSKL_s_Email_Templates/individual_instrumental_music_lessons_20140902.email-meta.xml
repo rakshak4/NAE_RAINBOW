@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>individual instrumental music lessons - 20140902</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>individual instrumental music lessons - 20140902</name>
+    <style>freeForm</style>
+    <subject>Individual Instrumental Music Lessons</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Individual Instrumental Music Lessons
+
+To all parents of children in Year 2 to Year 10:
+
+If your child is interested in pursuing individual instrumental music lessons in school, there are various instruments on offer for children to learn. For full details and to make an online application, please follow the link here http://music.britishschool.edu.my/individual/ The closing date for Term 1 is Friday 5 September. Once we have received your application, the timetables will be finalised and posted on The Music Hub section of our website and also on our Parent Portal. Please note if your child wishes to continue their lessons from last year, an online application is also required.
+
+Many thanks from The Music Team.
+
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

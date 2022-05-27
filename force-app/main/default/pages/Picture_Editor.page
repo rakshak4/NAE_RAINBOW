@@ -1,0 +1,20 @@
+<apex:page showheader="false">
+ <html> 
+<head> 
+
+</head> 
+<body> 
+<table cellpadding="9" width="600"> 
+<tr><td><strong>Notice before getting started.</strong></td></tr>
+<tr><td>1. Click the "Continue" button below.</td></tr> 
+<tr><td>2. If you see a blank screen, click on a small shield that should appear in the search bar of your browser and select "Load Unsafe script" or similar option (see pictures below).</td></tr>
+<tr><td>3. You should see the photo editor programme.</td></tr>
+<tr><td>4. To stop seeing this notice, click on the "Don't Show this page again" button below.</td></tr> 
+<tr> 
+<td><img src="https://ap4.content.force.com/servlet/servlet.ImageServer?id=015D0000002Bz6o&oid=00D6F000001cXAR"></img></td>
+<td><img src="https://ap4.content.force.com/servlet/servlet.ImageServer?id=015D0000002Bz6y&oid=00D6F000001cXAR"></img></td>
+</tr> 
+</table> 
+</body> 
+</html>
+</apex:page>

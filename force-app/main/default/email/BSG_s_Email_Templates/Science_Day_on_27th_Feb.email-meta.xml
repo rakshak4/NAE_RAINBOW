@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Yr7-9 Examination letter</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Yr7-9 Examination letter</name>
+    <style>freeForm</style>
+    <subject>Yr7-9 Examination letter</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I am writing to you to provide you with details regarding the upcoming Key Stage 3 examination period that is due to occur between Monday 27th and Friday 31st May. During this time all Key Stage 3 students will sit examinations that will assess their understanding of the topics covered this academic year. The results of these examinations will help to generate their end of year attainment levels.
+
+Please click here for attached the examination timetable for all KS3 students to this email. Please note that, when students are not sitting exams, they are still expected to attend normal lessons and we therefore expect students to attend school for the whole day as normal wearing full school uniform.
+
+Kind regards,
+
+Mark Howe
+Curriculum Leader
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

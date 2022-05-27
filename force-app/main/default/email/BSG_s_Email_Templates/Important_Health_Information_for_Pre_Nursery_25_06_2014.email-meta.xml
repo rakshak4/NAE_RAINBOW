@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Important Health Information for Pre &amp; Nursery 25/06/2014</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Important Health Information for Pre &amp; Nursery 25/06/2014</name>
+    <style>freeForm</style>
+    <subject>Important Health Information for Pre &amp; Nursery 25/06/2014</subject>
+    <textOnly>The British School
+of Guangzhou
+
+Dear Parents,
+I would like to inform you that we have three confirmed cases of Hand, Foot and Mouth virus within our Nursery classes this week. Unfortunately this is a common disease within China and we therefore have a very strict procedure once we have confirmed cases within school.
+I would like to reassure you that we have already put our health and safety regime into practice to stop any further spread of the virus. However, as we are so close to the end of the school year, if you feel you would prefer to keep your child at home we will completely support this decision.
+Please monitor your child closely and if they appear to have a fever or any other symptoms related to the Hand, Foot and Mouth virus please keep them at home- do not send them to school.
+Thank you very much for your kind understanding and support with this matter.
+Kind regards,
+Miss Kathy
+Head of Lower School
+The British School of Guangzhou
+
+
+
+
+
+World Class Education
+
+
+____________________________________________________________
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Letter about FS Reports</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Email to FS Parents</name>
+    <style>freeForm</style>
+    <subject>Spring Term Reports for Foundation Stage.</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+We have dramatically altered and improved the report that Foundation Stage parents will receive this term and are very much looking forward to discussing these with you at the Spring Parent-Teacher Consultations next week.  This term, you will be emailed your child&apos;s Foundation Stage Profile and will receive in hard copy not of a report card but of a &apos;Learning Journal&apos;, the contents of which is:
+
+
+an extensive range of captioned colour photos of your child&apos;s learning experiences from all of the seven areas of learning that make up the Foundation Stage curriculum;
+your comments about your child&apos;s learning this term;
+your child&apos;s own comments about their learning and what they enjoy in school;
+pictures of work samples produced by your child.
+
+
+Dates when these documents will be issued: Friday 22nd March and Tuesday 26th March
+
+The Foundation Stage Profile (excel document showing your child&apos;s achievement of the various learning goals that comprise the FS curriculum) will be emailed to you this Friday 22nd March as originally planned.
+
+
+However, since the Learning Journals are a longer, more detailed document that must be printed in colour and bound before being sent home, it will be necessary to issue them later, on Tuesday 26th March.  If you are attending a consultation that day the Learning Journal will be given to you at the consultation appointment; for all other children, it will be sent home in an envelope with an explanatory letter on that day at the end of school on that day.
+
+
+We apologise for this delay in issuing the new Learning Journals but very much hope that parents will consider it as having been worth the additional wait. Please bring your Learning Journal to your child&apos;s appointment if you are scheduled to meet on Wednesday or at any other time and we are eager to know your opinion of the new report format – please share this with teachers and feedback your views using the Spring Term Parent Questionnaire that will be issued next week.
+
+
+Thank you for your continuing support.
+
+
+
+Kind regards,
+
+
+Sitora Khotamova
+
+Foundation Stage Leader
+
+
+
+Уважаемые родители!
+
+
+Отчёт об успехах ваших детей, который вы получите в этом триместре, был значительно изменён и улучшен, и мы надеемся обсудить его с вами на весенней консультации с учителем на следующей неделе. В этом триместре вы получите по электронной почте отчёт успеваемости вашего ребёнка, а также в бумажном варианте не просто отчёт, но «Учебный журнал», в содержание которого входит следующее:
+
+
+большое количество цветных фотографий ребёнка, с подписями, из которых вы узнаете об успехах вашего ребёнка по всем семи направлениям обучения, которые составляют учебный план младшей школы;
+ваши замечания о процессе обучения ребёнка в этом триместре;
+комментарии самого ребёнка о том, что он изучает и что ему нравится в школе больше всего;
+образцы работ ребёнка;
+
+
+Эти документы будут готовы 22 марта и 26 марта. Отчёт успеваемости вашего ребёнка, как и было запланировано, вы получите по электронной почте 22 марта. Это документ в формате excel, который показывает успехи ребёнка в различных дисциплинах в соответствии с учебной программой.
+
+
+Учебный журнал представляет собой обширный документ, подробно рассказывающий о развитие ребёнка, который должен быть отпечатан в цвете, переплетён, и затем отправлен родителям. В связи с этим он будет готов позднее, 26 марта. Если вы посетите консультации с учителем, то журнал будет вам роздан на руки, если нет- то он будет послан вам в конверте с сопроводительным письмом в конце того же дня.
+
+
+Мы приносим свои извинения за задержку в подготовке нового «Учебного журнала», но очень надеемся, что родители, ознакомившись с документом, поймут, что журнал стоил того, чтобы немного подождать. Пожалуйста, принесите журнал с собой на консультацию с учителем, если ваши консультации состоятся в среду или в любое другое время. Нам очень хотелось бы знать ваше мнение о новом журнале, поделитесь вашими соображениями с учителем и напишите ваши замечания и пожелания в анкете, которую вы получите на следующей неделе.
+
+
+
+
+С уважением,
+
+Sitora Khotamova
+
+Foundation Stage Leader
+
+
+
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

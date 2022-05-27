@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>BSG Parent Satisfaction Survey 2014.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>BSG Parent Satisfaction Survey 2014.</name>
+    <style>freeForm</style>
+    <subject>BSG Parent Satisfaction Survey 2014.</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+
+As we approach the end of another very busy and successful school year, the Nord Anglia Education family of schools, of which we are a member, would like to invite you to take part in a parent satisfaction survey.
+
+
+
+It should only take a few minutes of your time to complete and we very much value your opinion on how you feel we have served your family this academic year.
+
+
+To take part, please click the appropriate link below any time before 9th June 2014.
+
+
+English (https://www.surveymonkey.com/s/KPH7LVX)
+
+Chinese Simplified (https://www.surveymonkey.com/s/CPTTW87)
+
+Chinese Traditional (https://www.surveymonkey.com/s/CWR9XHW)
+
+Arabic (https://www.surveymonkey.com/s/LK9RKXP)
+
+Czech (https://www.surveymonkey.com/s/C6D3VW2)
+
+Dutch (https://www.surveymonkey.com/s/ZC9YR67)
+
+French (https://fr.surveymonkey.com/s/ZSCJ5PG)
+
+German (https://de.surveymonkey.com/s/LVYVYKW)
+
+Hungarian (https://www.surveymonkey.com/s/8ZTKT9T)
+
+Japanese (https://jp.surveymonkey.com/s/8P3F3YB)
+
+Korean (https://www.surveymonkey.com/s/CSKM7JB)
+
+Polish (https://www.surveymonkey.com/s/W2M7BS3)
+
+Russian (https://www.surveymonkey.com/s/LC3D56Z)
+
+Slovak (https://www.surveymonkey.com/s/CQG6XHT)
+
+Spanish (https://es.surveymonkey.com/s/CPLX7TC)
+
+Thai (https://www.surveymonkey.com/s/DLDKN56)
+
+
+Thank you for all the feedback you have provided to us this year. It has and continues to be an essential compass for us as we plan improvements to your school.
+
+
+Kind regards,
+
+
+Mr. Mark Thomas
+
+School Principal
+
+
+
+
+The British School of Guangzhou
+
+World Class Education
+
+
+
+____________________________________________________________
+
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Tuition &amp; Service Fee Adjustment - Reminder</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Tuition &amp; Service Fee Adjustment - Reminder</name>
+    <style>freeForm</style>
+    <subject>Tuition &amp; Service Fee Adjustment - Reminder</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+
+
+请点击此处阅读此邮件的中文版本
+
+
+
+Dear Parents,
+
+
+We would like to remind you of changes to our fee structure that will be applied from Term 1, 2014/15. These changes were announced to parents on 31st March, 2014. Please CLICK HERE to read the original email from Mr. Thomas. Here are the main points:
+
+
+
+Tuition fees for 2014/15 have been increased by an average of just over 4%
+
+A 5% discount is available for yearly payments
+
+Termly fee payments have been adjusted to recognise a longer term 1 so annually, fees are now split more fairly over the three school terms (Term 1=40%, Term 2=30% and Term 3 = 30%)
+
+Bus fees have been increased by 3%
+
+No increases have been applied to lunch fees
+
+Exam fees are now fully covered within standard tuition fees (this includes all IGCSE and A-Level fees applied from external examination boards)
+
+Costs of normal Residential trips and 1-1 devices will continue to be covered within standard tuition fees.
+
+
+
+
+For full details of all our school fees, please CLICK HERE.
+
+
+Kind regards,
+
+
+Admissions Office
+
+
+
+The British School of Guangzhou
+
+World Class Education
+
+
+
+
+
+____________________________________________________________
+
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

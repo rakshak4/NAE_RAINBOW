@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Relocation (out of city)</fullName>
+        <default>false</default>
+        <label>Relocation (out of city)</label>
+    </customValue>
+    <customValue>
+        <fullName>Early entry to University / higher education</fullName>
+        <default>false</default>
+        <label>Early entry to University / higher education</label>
+    </customValue>
+    <customValue>
+        <fullName>Poor Behaviour</fullName>
+        <default>false</default>
+        <label>Poor Behaviour</label>
+    </customValue>
+    <customValue>
+        <fullName>Final School Year</fullName>
+        <default>false</default>
+        <label>Final School Year</label>
+    </customValue>
+    <customValue>
+        <fullName>Switch to boarding or intra-school transfer</fullName>
+        <default>false</default>
+        <label>Switch to boarding or intra-school transfer</label>
+    </customValue>
+    <customValue>
+        <fullName>Switcher</fullName>
+        <default>false</default>
+        <label>Switcher</label>
+    </customValue>
+    <masterLabel>Switcher Category</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>13/01/2014 Message Head of Secondary</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>13/01/2014 Message Head of Secondary</name>
+    <style>freeForm</style>
+    <subject>Message from Head of Secondary</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+Message from the Head of Secondary
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+It seems such a short time since we opened and as we move into what is one of the busiest times of the school year it is difficult to comprehend how much our pupils have accomplished since September: they have worked hard in class, produced and performed in plays and assemblies, exceled musically and on the sports field or in the pool, danced, baked, raised an enormous amount of money for charity and much more. Next week promises to be equally busy, and although there will be some disruption to lessons we plan on teaching properly all the way through to the end of term.
+
+Students across KS3 have been working hard in their ASA this term to write, edit and produce ROAR, the school newspaper.  The newspaper will be sold at Reception and at the Christmas Bazaar next week and any profit will go towards the Philippines disaster fund.  Please support the pupils’ hard work by picking up a newspaper for only RM5.
+
+The English Department have been busy organising more speakers to come in and meet with our pupils: we are delighted to announce that acclaimed award-winning author, Marcus Sedgwick, will be visiting our school on 30th January 2014.  Marcus will conduct creative writing workshops with pupils in years 7, 8 and 9. Marcus has established himself as one of the leading writers of fiction for young people; his books have either been shortlisted for, or won, over thirty awards, including the Booktrust Teenage Book Award, the Carnegie Medal, the Edgar Allan Poe Award, and the Guardian Children’s Fiction Prize.
+All students in the secondary school have been asked to read a novel by Marcus Sedgwick for their reading homework. The deadline to complete the reading and write five questions on the book is 20th January 2014.  We have several copies of his novels in the library or they are available to purchase or order from leading book stores if students want their own copies. Marcus has written many titles that students can review online or they can ask their English teacher for advice on which title to choose. Thank you for your continued support as we looking forward to working with Marcus next term.
+For me it has been a pleasure (really!) to lead the school through this first term, not least because of the many talents and abilities, and the positive approach, of our pupils. I have spent the last few weeks observing them in lessons and have been immensely impressed with their attitude to learning and their enthusiasm. We will continue to refine our systems and of course will always be looking to improve our teaching, and I am convinced that these pupils, with their desire to succeed, will have many successful years to look forward to.
+If I do not see you personally before the end of term, have a very good Christmas and thank you all for your support.
+
+Notices
+
+I have had a Swiss Army watch handed to me. It looks too large to belong to a primary pupil and although I have asked, no one has claimed it. Do let me know if your son/daughter is missing a watch.
+Monday 9th December is Victorian Dress up Day for pupils followed by the EFC Bazaar in the afternoon.
+Thursday 12th December is our Swimming Gala, followed by House parties. Pupils should come to school in their own clothes and bring their swimming kit.
+
+Upcoming Dates
+
+Monday 9th December: EFC Bazaar 3.30pm.
+Wednesday 11th December: public holiday, school closed.
+Thursday 12th December: Swimming Gala (8.30am – 12.00pm) followed by House parties. School finishes at normal time.
+Friday 13th December: School finishes at 11.30am.
+Monday 6th January 2014: Start of Spring Term.
+
+And finally……
+
+Have a restful weekend and a thoroughly enjoyable holiday.
+
+Kind Regards,
+Derek Mackey
+Head of Secondary
+The British International School of Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

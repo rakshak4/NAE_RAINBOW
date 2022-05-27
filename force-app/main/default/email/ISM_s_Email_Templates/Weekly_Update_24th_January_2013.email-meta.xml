@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Weekly Update 24th January, 2013</name>
+    <style>freeForm</style>
+    <subject>Weekly Update 24th January, 2013</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear Parents,
+
+
+
+Like every Thursday, please find some interesting info below.
+
+
+
+Welcome Coffee Mornings
+
+
+
+Thanks to all parents that attended our Lower Primary Coffee Morning this week. Please be aware of the following dates that offer an opportunity to meet new parents joining our school.
+
+
+
+Upper Campus (Y4- Y10) Wednesday January 30th 8:30- 9:30 in UC Canteen
+
+
+
+Foundation Stage (Nursery and Reception) Thursday January 31st 8:30- 9:30 in LC Canteen
+
+
+
+ICT developments for 2013
+
+
+
+As I think we all appreciate, mobile technology will increasing figure prominently in our daily lives professionally and personally. At school we recognize the possibilities that technology offers but at the same time believe in striking a balance between innovative and traditional learning.
+
+
+
+As you will be aware our present Year 10 students enjoy the use of a personal notebook, provided by the school to support their studies. This initiative will be repeated for our next Year 10 group of students.
+
+
+
+In addition, we will also provide individual IPADs for all students in Key Stage Three for next year (Year 7-9).
+
+
+
+We plan to introduce this mobile technology from Term 3 this year to the appropriate year groups:
+
+
+
+Present Year 9: Notebooks
+
+Present Year 6- 8 IPADs.
+
+
+
+We will of course keep you fully informed regarding this development.
+
+In addition we will also enhance the number of IPADS available to both Primary and Foundation Stage students for next year to support learning in targeted lessons.
+
+
+
+Best regards,
+
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

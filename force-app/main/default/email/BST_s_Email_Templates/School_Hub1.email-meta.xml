@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to parents with log in details to school hub</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>School Hub</name>
+    <style>freeForm</style>
+    <subject>Log in instructions to BST hub for parents who could not sign in.</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We have heard that there are still one or two of you having difficulties logging on to the Hub. If so could you please follow the instructions below to allow you to access the site and see what is happening in your child&apos;s class.
+
+Through this portal you will be able to monitor your child(ren)&apos;s academic progress, receive pastoral feedback and participate in our online community.
+
+We have created a 2 minute video presentation of the portal, to introduce you to its basic functionalities:
+
+http://www.britishschool.uz/en/visual-tour/school-hub-video.aspx
+
+
+Below are your Login Instructions
+____________________________________________________
+
+Click on the link below:
+
+https://schoolportal.force.com/parents/login
+
+Your username is: &quot;your e-mail address&quot; click forgot your password enter user name(your e-mail address) click &apos;&apos;Continue&quot; you will receive an e-mail instruction how to reset a new password, for future problems please send e-mail to support@britishschool.uz
+
+For future logins, simply proceed to the school website www.britishschool.uz and access the &quot;Login&quot; tab located on the bottom right corner of the page and then click &quot;BST HUB&quot;
+
+
+To review your child(ren)&apos;s Academic Reports, click on the &quot;Progress&quot; tab.
+
+Please note that currently we are only able to provide ONE user name per family. (of course the login details can be shared).
+
+Should you have any problems accessing the portal, would like us to change the designated user or require further assistance, please do not hesitate to contact our support team using the following email address:support@britishschool.uz
+
+We hope you enjoy using the portal!
+
+
+Warm Regards,
+
+The School Hub Support Team
+World Class Education&quot;
+
+Уважаемые родители
+
+Кака нам известно некоторые из вас до сих пор не смогли зрегестрироваться на школьном портале. Если это так и в вашем случае, просим вас следовать инструкциям указанным ниже.
+
+Через этот портал вы сможете контролировать успеваемость вашего ребенка, получать обратную связь и участвовать в нашем интернет сообществе
+
+Мы создали 2 минутную видео-презентацию портала , чтобы познакомить вас с его основными функциями, ссылка:
+
+http://www.britishschool.uz/en/visual-tour/school-hub-video.aspx
+
+
+Ниже приведены логин инструкции
+____________________________________________________
+
+Нажмите на ссылку ниже:
+
+https://schoolportal.force.com/parents/login
+
+Вашим именем пользователя является : &quot;Ваш адрес электронной почты &quot; для получения нового пароля нажмите на &quot;forgot your password&quot; далее user name (Ваш адрес электронной почты) затем &quot;continue&quot;, после этого вы получите письмо о том как изменить  ваш пароль .
+
+В будущем для того чтобы войти на портал школы, просто переходите на сайт www.britishschool.uz и далее нажмите на вкладку &quot;LOGIN&quot;, расположенную в правом нижнем углу страницы затем нажмите кнопку &quot; BST HUB &quot;
+
+Обратите внимание, что в настоящее время мы можем зарегистрировать только одного пользователя на семью.
+
+Если у вас возникли проблемы с доступом к порталу, вы хотели бы что-то изменить или требуется дополнительная помощь, пожалуйста, не стесняйтесь связаться со службой поддержки , используя следующий электронный адрес: support@britishschool.uz
+
+Мы надеемся, Вам понравится портал !
+
+
+
+
+Regards,
+
+Administration Team
+
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>11/10/2013 Message Head of Secondary</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>11/10/2013 Message Head of Secondary</name>
+    <style>freeForm</style>
+    <subject>Message from Head of Secondary</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+Message from the Head of Secondary
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+There seems to be no such thing as a quiet week: we began with a literary flourish when Mrs Murphy and some of the English students presented an intriguing assembly broadly titled ‘why should we read?’ I learned a number of things: that Brad Pitt has a degree in journalism from the University of Missouri (so not just a pretty face) and Mr Thomson’s favourite book is ‘The Hobbit’. I’m not sure if he was joking….Thea and Camille read confidently and articulately to the School from their favourite books. Throughout the week the English department ran a number of activities in class and some students were invited to attend workshops with the poet, Iqbal Meenai, and acclaimed journalist and author of, &apos;A Malaysian Journey,&apos; Rehman Rasheed. This was a fantastic opportunity for our young writers, and parents will be able to view the work they produced during the forthcoming parents&apos; evenings. Thursday was ‘Scavenger Hunt’ day with pairs of pupils using their initiative and detective skills to solve and follow clues around the school. And the prize for the winners? Book tokens, of course! We would like to thank parents for their support in encouraging their children to read. A spark has been ignited about reading at KS3 and we will be continuing this enthusiasm with future promotions and events.
+
+At the end of last week I was approached by a group of Year 9 pupils who asked if they could organise a social event for the Secondary School: Mae Daines, Katie Townend Anastasia Kossinkaia, Natasha Orri Soh, Nada Hammad, and Eirik Lars Hovland are the lead organisers for the BSKL Halloween Ball on Friday 15th November from 6pm – 8pm. This is an excellent opportunity not only for a great evening, but for the pupils to develop vital planning and organisational skills. They will be calling on their peers for support, and, no doubt, their parents…..more details to follow.
+
+I hope that you found the recent Progress Reviews useful in giving you an indication on how your child has settled this term. I am aware that some parents have had difficulties with login details and we are working hard to resolve these issues. If you are still unable to log in to the Parent Hub please email me directly.
+
+I would like to take this opportunity to remind all parents (and pupils) of their commitments and responsibilities to their community: pupils who join any ‘team’, be it sport, or drama or music, must do their utmost to honour that commitment to their friends and the school. I know Mrs Kelly is concerned that some pupils may not be available for vital Opening Ceremony rehearsals on Monday 4th November because some families are planning an extended weekend: I have reassured her that I would be surprised if that were the case.
+
+Notices
+
+• Fees for ASAs are now due. If your child has signed up for an ASA that has a cost attached, please make payments at the finance office in the Primary Campus.
+
+• Please be informed that BSKL&apos;s Deepavali Assembly is upcoming. Do pencil in Friday, 22nd November 2013 as the date to come to watch another colourful and vibrant show. This year our theme is &quot;Indian Fashion Extravaganza&quot;. Join us at 8.45am in the Secondary School Theatre. There are still places for those who are keen on participating.
+
+For further information, please contact Loshini at loshinibala@yahoo.com. Thank you -The Deepavali Organising Committee 2013.
+
+Upcoming Dates
+
+• Wednesday 9th October: Year 7 Parent Consultation 3.30pm – 7.00pm (classrooms).
+
+• Monday 14th October: Year 9 GCSE Options 6.00pm – 8.00pm (theatre and classrooms). Pupils should attend with parents.
+
+• Tuesday 15th October: Public Holiday.
+
+And finally……
+
+Year 9 parents please check that your son/daughter is making subject appointments for Monday evening. I hope everyone has a relaxing weekend. Derek Mackey Head of Secondary
+
+
+Kind Regards,
+Derek Mackey
+Head of Secondary
+The British International School of Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

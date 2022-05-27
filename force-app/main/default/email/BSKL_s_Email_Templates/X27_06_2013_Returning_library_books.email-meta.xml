@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>27/06/2013 Returning library books</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>27/06/2013 Returning library books</name>
+    <style>freeForm</style>
+    <subject>Returning library books</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+As the end of the school year is fast approaching, could all students please return their library books to the library as soon as possible.  If your child has lost their library book could you please email yvonne.bowyer@britishschool.edu.my or abdul.halim@britishschool.edu.my and we will create an invoice for you to be paid at the front reception desk. All  lost library books must be paid before Friday July 12.
+
+For those families that are leaving, the school reserves the right to withhold the deposit if library books are not returned, or paid for if they are lost.
+
+For some holiday reading our Head Teacher, Janet Brock has recommended an amazing reading site called http://www.oxfordowl.co.uk/Reading/ It has around 250 e-books which parents and teachers can use for free. It also has audio which is fantastic for parents that are not confident with English. It has a good selection of the Biff and Chip books. There are books for up to 11 years old.
+
+For older children I can recommend Project Gutenberg http://www.gutenberg.org/ It has over 42,000 free, legal, e-books; mostly classics that can be read on Kindles or downloaded and read on-line.
+
+For younger children there are storytelling sessions on the 2nd and 4th Saturdays at the Kuala Lumpur Children’s Library at Merdeka Square at 11.30am and the 2nd and 4th Sundays at TTDI library at 11.30am.  These sessions last for approximately an hour.
+
+The library staff would like to thank all the families at BSKL for their help and support this year.   For those families that will be leaving, we wish you all the very best in your new destination.  For those families that are remaining, we hope your children have another enjoyable year at BSKL.
+
+Kind regards,
+
+Yvonne Bowyer
+Librarian
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

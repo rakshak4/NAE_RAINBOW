@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Rotavirus</name>
+    <style>freeForm</style>
+    <subject>Rotavirus</subject>
+    <textOnly>Dear Parents,
+
+I am writing to inform you that we have had a small number of cases of Rotavirus on the Upper Campus of the school. 
+
+Rotavirus is the most common cause of severe diarrhoea among infants and young children, and is one of several viruses that cause infections often called stomach flu. These infections are spread easily. Outbreaks usually occur in the winter and early spring. Rotavirus infections often spread in settings where many children are together, such as schools.
+
+The virus spreads through contact with the stools from an infected child. The virus can spread easily even when people try very hard to keep places clean. 
+
+Other children who get the rotavirus germs on their hands can get the infection when they put their hands in their mouths. They can also get infected with rotavirus by chewing on a toy that has the germs on it.
+
+What are the symptoms?
+
+It takes about 1 to 2 days for a child who is exposed to the rotavirus germs to start having symptoms. 
+
+Sometimes an early indicator is a rash on the body.
+
+Vomiting is often an early symptom. Usually, a fever and diarrhoea follow. Most children with rotavirus have very watery diarrhoea that seems like a large amount for a baby or small child. The most severe diarrhoea lasts 4 to 8 days. 
+
+Should any of the above occur, please inform the school, keep your child at home and follow the required treatment, as prescribed by a doctor. 
+
+Thank you for your understanding and support with this matter.
+ 
+Yours sincerely,
+
+Admissions Team
+
+ 
+
+ 
+
+ </textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

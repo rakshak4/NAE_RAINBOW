@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 500px; ">
+			<tbody>
+				<img border="0" id="m_3308685547825015245r1sp1" src="https://ci6.googleusercontent.com/proxy/67dXnVocysCsXlJug8sCwjBn53jHY6vok7ArlGUgs6iyEW02S5lmjGnO2wFvRa8wDolQRwuNpB8ZtRQ8DJ6xCSAcsylyglo6hKkrKdXXbJylHPQ1hCaOBcGGhBiWL5qWYSWwjpyjE4ENzbEgIN7XEqzPgw=s0-d-e1-ft#https://ap4.salesforce.com/servlet/servlet.ImageServer?id=0156F00000F05db&amp;oid=00D6F000001cXAR" class="CToWUd">
+				<tr>
+					<td>
+						<p style="text-align: left; ">
+							<b><span style="font-family:'Verdana';"><span style="font-size:12px;">Staff Member:&nbsp;</span></span></b><span style="font-family:'Verdana';"><span style="font-size:12px;">{!Account.FirstName} &nbsp;{!Account.LastName}</span></span><br />
+							<span style="font-size:12px;"><span style="font-family:'Verdana';"><strong>Position:</strong>&nbsp;{!Employment_Agreement__c.Position_in_Contract__c}</span></span><br />
+							<span style="font-size:12px;"><span style="font-family:'Verdana';"><strong>Date:&nbsp;</strong>{!Employment_Agreement__c.Contract_Text_Today__c}</span></span></p>
+						<p style="text-align: justify; ">
+							<span style="font-size:12px;"><span style="font-family:'Verdana';">Dear&nbsp;{!Account.FirstName},</span></span></p>
+						<p style="text-align: left; ">
+							<span style="font-size:12px;"><span style="font-family:'Verdana';">Find below a detail of your Salary Package starting on {!Employment_Agreement__c.Contract_Tex_Start_Date__c} and subject to your {!Employment_Agreement__c.Contract_Term__c} contract:</span></span></p>
+						<p style="text-align: left; ">
+							<strong><span style="font-family:'Verdana';"><strong><span style="font-size:12px;">{!Employment_Agreement__c.Contract_Text_Salary__c}{!Employment_Agreement__c.Contract_Text_Bonus__c}</span><span style="font-size: 12px; ">{!Employment_Agreement__c.Contract_Text_Retention_Bonus__c}</span></strong><strong><span style="font-size:12px;">{!Employment_Agreement__c.Contract_Text_Health__c}</span></strong><span style="font-size:12px;"><strong>{!Employment_Agreement__c.Contract_Text_Travel_Allowance__c}{!Employment_Agreement__c.Contract_Text_Visa_Cost__c}{!Employment_Agreement__c.Contract_Full_Text_Benefits__c}</strong></span></span></strong></p>
+						
+						<p style="text-align: justify; ">
+							&nbsp;</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<p style="text-align: center; ">
+			&nbsp;</p>
+		
+	</body>
+</html>

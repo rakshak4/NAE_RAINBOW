@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Information Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>9/11/12 BSKL Christmas Bazaar and Carol Evening</name>
+    <style>freeForm</style>
+    <subject>BSKL Christmas Bazaar and Carol Evening</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+BSKL will be holding their annual Christmas Carol Evening on Monday 10th December from 4.30pm to 8pm, during which the EFC will be holding our annual Christmas Bazaar! The Christmas Bazaar is a fabulous event - filled with activities for the whole family.
+
+
+The EFC would like to invite any BSKL parents who are interested in becoming a vendor at the Christmas Bazaar to please forward their expression of interest to Sherilyn (sherilyntiow@gmail.com ) by no later then Wednesday 14th November.  Sherilyn will be able to provide all details regarding the event and answer any questions you may have regarding becoming a vendor.
+
+
+To help put on this amazing event the EFC will be needing assistance in 3 areas:
+
+
+Bake Sale
+
+No Christmas Bazaar would be complete without the wonderful cakes &amp; sweet delights from our Bake Sale! If you can donate any cakes or homemade goodies for the event please contact Tracy Lew(tracylew@hotmail.com) to register you interest and she will help answer any questions.
+
+
+Drink Stall
+
+Another important area where the EFC are asking the BSKl parents for support is the Drink Stall. If you can donate any slabs/trays of soft drinks or beer for the event please contact Jaime Ngawaka (jaimeduyker@hotmail.com) to put your name down with the item you will be donating.
+
+
+Volunteers to help during the Bazaar
+
+If you can help out for even just an hour during the night this would help so much towards making this an event that is fun-filled for all - especially our children!
+
+
+As for any event the EFC hosts, we rely on the support of the generous parents at BSKL, and would like to take this opportunity to thank you all for making it possible for us to not only provide fun events for the BSKL children - but to help assist refugee and orphaned children here in KL who are in such desperate need.
+
+
+The EFC would like to invite all parents to come along and support our school, the EFC and our chosen charities and take part in this fun Christmas event!  Hope to see you all there!
+
+
+The school would also like to take this opportunity to remind parents of the dates of the Christmas events happening in school:
+
+
+Friday 6th December – Foundation Stage Christmas Concert
+
+Monday 10th December – Middle School Christmas Carols and Christmas Bazaar
+
+Wednesday 12th December – Primary Concert for Year 1 and Year 2 parents
+
+Thursday 13th December – Primary Concert for Year 3, Year 4 and Year 5 parents
+
+
+Kind Regards
+
+
+Events and Fundraising Committee
+
+Administration Team
+
+The British International School of Kuala Lumpur
+World Class Education
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

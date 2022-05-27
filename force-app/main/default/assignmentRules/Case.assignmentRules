@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
+        <fullName>School Hub Support</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <assignedTo>BSKL_School_Hub_Support_Team</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <criteriaItems>
+                <field>Contact.SchoolText__c</field>
+                <operation>equals</operation>
+                <value>The British International School of Kuala Lumpur</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.SchoolText__pc</field>
+                <operation>equals</operation>
+                <value>The British International School of Kuala Lumpur</value>
+            </criteriaItems>
+            <team>BSKL Hub Support</team>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>ISM_Hub_Support_Team</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <criteriaItems>
+                <field>Account.SchoolText__pc</field>
+                <operation>equals</operation>
+                <value>The International School of Moscow</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.SchoolText__c</field>
+                <operation>equals</operation>
+                <value>The International School of Moscow</value>
+            </criteriaItems>
+            <team>ISM Hub Support</team>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>elena.savtsova@britishschool.uz</assignedTo>
+            <assignedToType>User</assignedToType>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <criteriaItems>
+                <field>Contact.SchoolText__c</field>
+                <operation>equals</operation>
+                <value>The British School of Tashkent</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.SchoolText__pc</field>
+                <operation>equals</operation>
+                <value>The British School of Tashkent</value>
+            </criteriaItems>
+            <team>BST Hub Support</team>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>tj.torres@naismanila.edu.ph</assignedTo>
+            <assignedToType>User</assignedToType>
+            <booleanFilter>(1 OR 2) OR (3 OR 4)</booleanFilter>
+            <criteriaItems>
+                <field>Account.SchoolText__pc</field>
+                <operation>equals</operation>
+                <value>The King&apos;s School Manila</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.SchoolText__c</field>
+                <operation>equals</operation>
+                <value>The King&apos;s School Manila</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.SchoolText__pc</field>
+                <operation>equals</operation>
+                <value>Nord Anglia International School Manila</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.SchoolText__c</field>
+                <operation>equals</operation>
+                <value>Nord Anglia International School Manila</value>
+            </criteriaItems>
+            <team>NAISM Hub Support</team>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>nae.migration@britishschools.co.uk</assignedTo>
+            <assignedToType>User</assignedToType>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <criteriaItems>
+                <field>Contact.SchoolText__c</field>
+                <operation>equals</operation>
+                <value>The British School of Nanjing</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.SchoolText__pc</field>
+                <operation>equals</operation>
+                <value>The British School of Nanjing</value>
+            </criteriaItems>
+            <team>BSNJ Hub Support</team>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>carla.basile@britishcollegebrazil.org</assignedTo>
+            <assignedToType>User</assignedToType>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <criteriaItems>
+                <field>Contact.SchoolText__c</field>
+                <operation>equals</operation>
+                <value>The British College of Brazil</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.SchoolText__pc</field>
+                <operation>equals</operation>
+                <value>The British College of Brazil</value>
+            </criteriaItems>
+            <team>BCB Hub Support</team>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Group_School_Hub_Support_Team</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Web</value>
+            </criteriaItems>
+            <team>Group Admin Hub Support</team>
+        </ruleEntry>
+    </assignmentRule>
+</AssignmentRules>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Remembrance Day</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>07/11/2013 Remembrance Day</name>
+    <style>freeForm</style>
+    <subject>Remembrance Day</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Remembrance Day is nearly upon us and children from Years 3 to 9 will be attending the school&apos;s own service on Monday 11th November.
+
+This is a reminder to ask you to please send your child in with a 5RM (or more) donation to buy a poppy. It would be lovely to see all pupils wearing one on Monday, on their blazers.
+
+Poppies are on sale on both campuses at the reception desks.
+
+Thank you in advance for your support of The Royal British Legion. http://www.britishlegion.org.uk/
+
+Kind regards
+Tom Hickman
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>EYFS Full Report - January 2018</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>EYFS Full Report - January 2018</name>
+    <style>freeForm</style>
+    <subject>EYFS Full Report - January 2018</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+
+
+Your child’s report will be available for you to view on the Parent Portal today at 4pm. If there is anything in the report that you want to discuss, please contact your child’s class teacher who will happily arrange a meeting with you.
+
+
+
+
+
+Best wishes
+
+Matt Walker
+
+Head of Primary
+
+
+
+Уважаемые родители!
+
+
+
+Отчёт об успеваемости Вашего ребёнка будет доступен на Родительском портале (Parent Portal) сегодня в 16:00. Если в отчёте есть вопросы, которые Вы хотите обсудить, пожалуйста,обратитесь к классному руководителю Вашего ребёнка, который с радостью организует встречу с нами.
+
+
+
+
+С наилучшими пожеланиями,
+
+Завуч начальной школы
+
+Мэтт Уокер
+
+
+
+
+
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

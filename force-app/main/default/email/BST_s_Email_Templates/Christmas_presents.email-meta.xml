@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Christmas presents</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Christmas presents</name>
+    <style>freeForm</style>
+    <subject>Christmas presents</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+This year the staff of BST are organising Christmas presents for children who are patients with Leukaemia at the Scientific Research Institute of Haematology and Blood Transfusion in Tashkent. We will also be raising money for medicines also at our Winter Fayre.
+
+
+
+If any parent would like to donate a gift for a boy of girl between the ages of 1-15, please could you hand this into the Front Desk of Sayram or Kalandar campus before Monday 11th December.
+
+
+
+Please could we ask that this present is not wrapped and we will ensure that the gift is delivered.
+
+
+
+Kind regards,
+
+Adrian Macaulay
+
+
+
+Headmaster
+
+
+
+
+
+
+Уважаемые родители!
+
+
+
+В этом году сотрудники Британской школы города Ташкента организуют рождественские подарки для детей с диагнозом “лейкемия” (рак крови), которые находятся на лечении в Научно-исследовательском институте Гематологии и переливания крови в Ташкенте. Мы также будем собирать деньги на лекарства и лечение на нашей ежегодной Зимней благотворительной ярмарке.
+
+
+
+Если Вы хотите предоставить подарок мальчику или девочке в возрасте от 1 года до 15 лет, пожалуйста, передайте свой подарок на ресепшен детского сада или здания школы до понедельника, 11 декабря.
+
+
+
+Убедительно просим Вас не упаковывать подарок, а мы, в свою очередь, гарантируем, что проследим за тем, что все подарки дошли до получателей.
+
+
+
+С уважением,
+
+Адриан Маколей
+
+
+
+Академический Директор
+
+
+
+
+
+
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

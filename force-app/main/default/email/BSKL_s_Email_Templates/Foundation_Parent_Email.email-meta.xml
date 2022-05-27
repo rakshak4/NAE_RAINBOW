@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Foundation Parent Email</name>
+    <style>freeForm</style>
+    <subject>Lunch Menu - 3 Sept - 25 Oct 2012</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+I trust this email finds you well.
+
+
+Please find attached the lunch menu to select for Foundation students from the 3rd Sept – 25th Oct 2012 at The British International School.
+
+
+Please email by return all menus to me no later than Friday, 24th August 2012.
+
+
+
+Click Here to download attachment
+
+
+Have a nice day.
+
+
+
+Kind regards,
+
+
+Cecilia Venoo
+
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>ISM</letterhead>
+    <name>ISM Year Six Class Lists</name>
+    <style>freeForm</style>
+    <subject>ISM Year Six Class Lists</subject>
+    <textOnly>Dear Parents,
+
+
+Please find attached the Year Six Class Lists for the
+
+2012-13 Academic year.
+
+
+Best Regards
+
+
+Dino Vikas
+
+Head of Admissions
+
+The International School of Moscow
+
+Tel:  +7 (499) 922 44 00
+
+Mob: + 7 (916) 922 04 54
+
+Fax: +7 (499) 922 44 00 Ext.4
+
+www.internationalschool.ru
+
+Part of The British Schools Group
+
+
+*Disclaimer:*
+
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

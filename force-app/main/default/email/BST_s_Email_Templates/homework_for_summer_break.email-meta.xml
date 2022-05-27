@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>homework for summer break</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>homework for summer break</name>
+    <style>freeForm</style>
+    <subject>Homework for summer break</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+
+Dear parents,
+
+
+
+Year 2-7
+
+To help keep the children busy during those awkward times during the summer holidays and you wish them to continue their studies, please make sure that they continue to login to their MyMaths, Oxford Owl and Education City accounts to keep their minds active regarding learning and help prepare them to be in good shape for when they return on September 2nd 2015.
+
+
+Year 3 -7
+
+For our local students who attend our school on Saturday’s please follow the link to download your local studies Maths book. Saturday School subject teachers have also provided your children with work for the summer break and can be downloaded from here:
+
+
+
+​
+https://drive.google.com/folderview?id=0B1vh1ZLyEr76aGtQc3dJRXZEc2M&amp;usp=sharing
+
+
+English Curriculum Links
+
+http://www.educationcity.com
+
+http://www.mymaths.co.uk
+
+http://www.oxfordowl.co.uk​
+
+
+
+Уважаемые родители!
+
+
+Классы 2-7
+
+Если Вы хотите занять своих детей на время летних каникул и продолжить их занятия, проконтролируйте, чтобы Ваши дети по-прежнему использовали такие сайты, как MyMaths, Oxford Owl и Education City. Благодаря им дети будут продолжать заниматься и будут вполне готовы к началу учёбы 2 сентября 2015 года.
+
+
+Классы 3 -7
+
+Для наших местных учащихся, посещающих субботнюю школу, пожалуйста, проследуйте по ссылке для скачивания книги по математике. Преподаватели субботней школы также предоставили ссылки для скачивания, которые помогут Вашему ребенку заниматься во время каникул:
+
+
+
+​https://drive.google.com/folderview?id=0B1vh1ZLyEr76aGtQc3dJRXZEc2M&amp;usp=sharing​
+
+
+Ссылки Английской Программы Образования
+
+http://www.educationcity.com
+
+http://www.mymaths.co.uk
+
+http://www.oxfordowl.co.uk
+
+
+
+Administration Team
+
+The British School of Tashkent
+World Class Education
+
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

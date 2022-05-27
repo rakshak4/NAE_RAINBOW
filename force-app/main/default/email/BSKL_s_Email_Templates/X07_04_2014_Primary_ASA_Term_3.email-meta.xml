@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>07/04/2014 Primary ASA Term 3</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>07/04/2014 Primary ASA Term 3</name>
+    <style>freeForm</style>
+    <subject>Primary ASA Term 3</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please find below a link to our list of ASA choices.
+
+Primary ASA list:
+https://docs.google.com/spreadsheet/ccc?key=0Ap7vMviVDx-xdFMwRzZ4Z1V2NjhOeXFORDhUZGxLcmc&amp;usp=sharing
+
+Please use the following links to sign up for paid and non paid ASAs. These links will go live at 5pm today:
+
+Registration Online (Non paid ASA):
+http://www.eventbrite.co.uk/e/primary-non-paid-asas-term-3-registration-11082135967
+
+Registration Online (Paid ASA). Please remember this must be paid by Wed, 23rd April:
+https://docs.google.com/a/britishschool.edu.my/forms/d/1p761ZM4jq5qrorZn-fh_2xaAbT5GdqL4qxqFSeEPFp8/viewform
+
+For Non Paid ASAs you will receive an acknowledgement email. For Paid ASAs you won&apos;t, but finance will be informed and contact you.
+
+
+Kind regards
+
+Admin Team
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

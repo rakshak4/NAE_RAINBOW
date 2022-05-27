@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BSG</letterhead>
+    <name>Uniform Information</name>
+    <style>freeForm</style>
+    <subject>Uniform Information</subject>
+    <textOnly>Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We would like to inform you that the uniforms are now available to purchase,
+
+Kind regards,
+
+Administration Team
+The British School of Guangzhou
+(+8620) 8709 4788
+www.bsg.org.cn</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

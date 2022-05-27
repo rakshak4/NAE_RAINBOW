@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Tottenham Hotspur UK Camp - Presented by The British International School of Kuala Lumpur</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BSG</letterhead>
+    <name>Tottenham Hotspur UK Camp - Presented by The British International School of Kua</name>
+    <style>freeForm</style>
+    <subject>Tottenham Hotspur UK Camp - Presented by The British International School of Kuala Lumpur</subject>
+    <textOnly>Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Our sister school in Malaysia, The British School of Kuala Lumpur, has extended an invitation to students from BSG to join them in a football camp to be organised this summer in cooperation with Tottenham Hotspur Football Club.
+
+Details, including registration forms, schedules and background information of the organisers of this football camp are attached to this email. If you require further information, please contact Emma Cleary (emma.cleary@britishschool.edu.my), the coordinator from the British School of Kuala Lumpur.
+
+Kind regards,
+
+Administration Team
+The British School of Guangzhou
++8620 8709 4788
+www.bsg.org.cn</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

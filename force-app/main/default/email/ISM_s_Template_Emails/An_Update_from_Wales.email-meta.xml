@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>ISM</letterhead>
+    <name>An Update from Wales</name>
+    <style>freeForm</style>
+    <subject>An Update from Wales</subject>
+    <textOnly>Dear Year 6 Parents,
+
+The Year 6 team have arrived safely in Wales on a lovely afternoon.
+Mr Langford reports that the children have coped brilliantly with the journey and are enjoying some clean countryside air while throwing the Rugby ball around.
+The view from the site is magnificent - quite literally across the valleys.
+
+The children are just off to the swimming pool before the evening meal. Where do they get their energy???
+
+We will have more news later in the week....
+
+Best Regards
+
+Mr P Seedhouse</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

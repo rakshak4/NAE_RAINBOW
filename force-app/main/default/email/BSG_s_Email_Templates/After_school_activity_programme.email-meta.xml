@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>PE in wet weather</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>PE in wet weather</name>
+    <style>freeForm</style>
+    <subject>PE in wet weather</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+
+Please be advised that PE sessions will continue this term with ‘Invasion Games’ activities and all pupils will need to ensure that they have their full PE kit in school on their allocated PE day.
+
+It is unfortunate that the temperature is now falling and we need to be prepared for wetter weather during the next few months.
+
+Our PE policy advocates that all pupils dress appropriately for weather changes. Warm clothing is advised and all children will change into their dry and warm school uniform after each session. If the weather is a little damp, children may still take part in some sports in accordance with school policy and procedure.
+
+In extreme wet weather PE will not be cancelled, PE sessions will take place in indoor areas and activities adapted as suitable, maintaining high standards in teaching and learning. I would ask that parents support and ensure that children have suitable winter weather PE clothing prepared.
+
+
+
+
+
+Regards,
+Kate Stephenson
+Primary PE teacher
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

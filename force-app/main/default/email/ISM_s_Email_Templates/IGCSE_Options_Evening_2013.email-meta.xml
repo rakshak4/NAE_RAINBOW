@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>IGCSE Options Evening 2013</name>
+    <style>freeForm</style>
+    <subject>IGCSE Options Evening 2013</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+Thank you very much for your prompt and positive response to our invitation to our Options Evening next Tuesday (March 19th).
+
+In order to facilitate your access to the Options Evening and prevent the necessity of students having to return home only to have to return to school again for 6pm, we will be serving a meal to the Year 9 students after school in the canteen.
+
+In addition to this, we will also be demonstrating some software in the library which will be very useful for the students when they are considering their options choices.
+
+Refreshments will be available in the school canteen for parents from 5.30pm. The Year 9 students will meet and greet you at the entrance of the school from this time.
+
+I look forward to seeing you all next Tuesday.
+
+Best Wishes,
+
+Paul Keach.
+
+Head of Secondary School.
+
+
+
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

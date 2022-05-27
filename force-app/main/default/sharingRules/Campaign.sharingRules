@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Share_Campaigns_with_BSKL_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Campaigns with BSKL Admin</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSKL_Administration_Department</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>BSKL_Administration_Department</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Campaigns_with_BSNJ_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Campaigns with BSNJ Admin</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>BSNJ_Administration_Department</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>BSNJ_Administration_Department</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

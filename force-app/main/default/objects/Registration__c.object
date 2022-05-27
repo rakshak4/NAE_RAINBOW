@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fieldSets>
+        <fullName>Folder_Type</fullName>
+        <description>Subject
+Activity
+Other</description>
+        <label>Folder Type</label>
+    </fieldSets>
+    <fields>
+        <fullName>Academic_Year__c</fullName>
+        <description>For the purpose of deactivating registration records at the end of the year, identifies the academic year of the records so only the correct ones are deactivated.</description>
+        <externalId>false</externalId>
+        <formula>IF(Group__r.Is_Whole_School_Group__c = TRUE, &quot;All - Whole School Group&quot;, 
+
+IF(Group__r.Is_Secondary_School_Group__c = TRUE, &quot;All - Secondary School Group&quot;, 
+
+IF(TEXT(Group__r.Group_Type__c) = &quot;School Group&quot;, &quot;All - Other School Group&quot;,
+
+Group__r.Academic_Year__c)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Academic Year</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>whether registration is active or not</inlineHelpText>
+        <label>Active</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Admission_Stage__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( Student__r.Admissions_File__r.StageName )</formula>
+        <label>Admission Stage</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Attending_School_From_student__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( TEXT ( Student__r.Admissions_File__r.Add_to_Register__c ) = &quot;Yes&quot;, TRUE, FALSE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Attending School? (From student)</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Birth_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Student__r.Date_of_Birth__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Birth Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Bus_Service__c</fullName>
+        <externalId>false</externalId>
+        <formula>Student__r.Bus_Service__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Bus Service</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Case_Safe_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Id)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Case Safe ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Chatter_Group_Id__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( AND(!ISBLANK(Group__c), !ISBLANK(Group__r.Chatter_Group_Id__c)), (Group__r.Chatter_Group_Id__c), &quot;&quot;)</formula>
+        <label>Chatter Group Id</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Community_Chatter_Group__c</fullName>
+        <externalId>false</externalId>
+        <label>Community Chatter Group</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Current_Active_Future_Inactive__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Active__c = TRUE, &quot;Current (Active)&quot;, 
+IF(AND(Active__c = FALSE, Student__r.Starting_Date_from_parent__c &gt; TODAY()), &quot;Future (Inactive)&quot;, &quot;Inactive&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Current (Active) / Future (Inactive)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Deletion_Prevention__c</fullName>
+        <externalId>false</externalId>
+        <formula>AND(
+    Active__c = TRUE,
+    OR(
+       School__c = &quot;The British International School of Kuala Lumpur&quot;,
+       School__c = &quot;The British School of Nanjing&quot;,
+       School__c = &quot;The British College of Brazil&quot;
+       )
+    )
+
+/*AND(
+    School__c = &quot;The British International School of Kuala Lumpur&quot;,
+    Student__r.Year_Group__c = &quot;Y10&quot;,
+    Group__r.Is_This_Academic_Year_Group__c = TRUE,
+    TEXT(Group__r.Group_Type__c) = &quot;Subject&quot;
+    )*/
+
+/* Include_in_Assessment_Folder__c */</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Deletion Prevention</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>EAL_Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Student__r.EAL_Start_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>EAL Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>EAL__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Student__r.Admissions_File__r.EAL_Status__c=&quot;Current&quot; , &apos;YES&apos;, &apos;NO&apos;)</formula>
+        <label>EAL</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>External_ID_18_Char__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>The ID of the record in the alternate SFDC org, where applicable.</description>
+        <externalId>true</externalId>
+        <label>External ID (18 Char)</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Grade_1_5__c</fullName>
+        <externalId>false</externalId>
+        <label>Grade (1-5)</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Group_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Group__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Group Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Group_Owner__c</fullName>
+        <externalId>false</externalId>
+        <formula>Group__r.OwnerId</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Group Owner</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Group_Subject__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Group__r.Subject_Name__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Group Subject</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Group_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Group__r.Group_Type__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Group Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Group__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>select group against which assessment is done.</inlineHelpText>
+        <label>Group</label>
+        <referenceTo>Group__c</referenceTo>
+        <relationshipLabel>Registrations</relationshipLabel>
+        <relationshipName>Assessments_Registrations</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Has_Applicable_Chatter_Group_Members__c</fullName>
+        <description>For use as a filter in data exports</description>
+        <externalId>false</externalId>
+        <formula>AND(Chatter_Group_Id__c != &quot;&quot;, OR(Student__r.Main_Parent_File__r.Related_Contact_Record_P2__r.User__r.Id != &quot;&quot;, Student__r.Main_Parent_File__r.PersonContact.User__r.Id != &quot;&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Has Applicable Chatter Group Members</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>House__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( Student__r.Admissions_File__r.House__c )</formula>
+        <label>House</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Include_Parent_in_Chatter_Group_Until__c</fullName>
+        <description>Defines the date until which any related parent users will be included in community chatter groups related to the child&apos;s tutor group before the student starts school. After the student has started school the parent will only be included in the chatter group if Registration.Active__c = TRUE</description>
+        <externalId>false</externalId>
+        <label>Include Parent in Chatter Group Until</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Include_Parent_in_Chatter_Group__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Include Parent in Chatter Group</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Include_in_Assessment_Folder__c</fullName>
+        <externalId>false</externalId>
+        <formula>OR(
+   Active__c = TRUE,  
+   AND(
+       Active__c = FALSE, 
+       OR(
+          Registration_Deactivated_Date__c + 30 &gt;= TODAY(),
+          Student__r.Admissions_File__r.Include_in_Reports_if_Left__c = TRUE),
+       NOT(ISBLANK(Student__r.Admissions_File__r.Leaving_Date__c)), 
+       NOT(ISBLANK(Registration_Deactivated_Date__c)),
+       OR(       
+          Registration_Deactivated_Date__c = Student__r.Admissions_File__r.Leaving_Date__c,
+          Registration_Deactivated_Date__c = Student__r.Admissions_File__r.Leaving_Date__c+1
+          ) 
+       )
+   )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Include in Assessment Folder</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsOwner__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(CreatedBy.Id = $User.Id ,1,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>IsOwner</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Current_Year_Tutor_Group_Registration__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Populated by means of a workflow rule, used in a roll-up summary field to identify students that don&apos;t have a tutor group registration for the current academic year</description>
+        <externalId>false</externalId>
+        <label>Is Current Year Tutor Group Registration</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Valid_Group__c</fullName>
+        <description>if student group is valid or not</description>
+        <externalId>false</externalId>
+        <formula>Group__r.Is_Valid__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>if student group is valid or not</inlineHelpText>
+        <label>Is Valid Group</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Whole_School_Group_Registration__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Whole School Group Registration</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Whole_School_Group__c</fullName>
+        <externalId>false</externalId>
+        <formula>Group__r.Is_Whole_School_Group__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is Whole School Group</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Leaving_Date_From_Student__c</fullName>
+        <externalId>false</externalId>
+        <formula>Student__r.Admissions_File__r.Leaving_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Leaving Date From Student</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Medical_Special_Needs__c</fullName>
+        <externalId>false</externalId>
+        <formula>Student__r.Special_Considerations__c</formula>
+        <label>Special Considerations</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MonthOrder__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(MONTH( Birth_Date__c )=9,10,
+IF(MONTH( Birth_Date__c )=10,11,
+IF(MONTH( Birth_Date__c )=11,12,
+IF(MONTH( Birth_Date__c )=12,13,
+IF(MONTH( Birth_Date__c )=1,14,
+IF(MONTH( Birth_Date__c )=2,15,
+IF(MONTH( Birth_Date__c )=3,16,
+IF(MONTH( Birth_Date__c )=4,17,
+IF(MONTH( Birth_Date__c )=5,18,
+IF(MONTH( Birth_Date__c )=6,19,
+IF(MONTH( Birth_Date__c )=7,20,
+21)))))))))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>MonthOrder</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Month_DOB__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(MONTH( Birth_Date__c )=9,&quot;(T1) 09.SEP&quot;, 
+IF(MONTH( Birth_Date__c )=10,&quot;(T1) 10.OCT&quot;, 
+IF(MONTH( Birth_Date__c )=11,&quot;(T1) 11.NOV&quot;, 
+IF(MONTH( Birth_Date__c )=12,&quot;(T1) 12.DEC&quot;, 
+IF(MONTH( Birth_Date__c )=1,&quot;(T2) 01.JAN&quot;, 
+IF(MONTH( Birth_Date__c )=2,&quot;(T2) 02.FEB&quot;, 
+IF(MONTH( Birth_Date__c )=3,&quot;(T2) 03.MAR&quot;, 
+IF(MONTH( Birth_Date__c )=4,&quot;(T2) 04.APR&quot;, 
+IF(MONTH( Birth_Date__c )=5,&quot;(T3) 05.MAY&quot;, 
+IF(MONTH( Birth_Date__c )=6,&quot;(T3) 06.JUN&quot;, 
+IF(MONTH( Birth_Date__c )=7,&quot;(T3) 07.JUL&quot;, 
+&quot;(T3) 08.AUG&quot;)))))))))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Month DOB</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Months_EAL__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( EAL__c =&quot;YES&quot;, 
+
+(IF(
+
+(
+
+(Today()-EAL_Start_Date__c) /30)&lt;1,1,Today()-EAL_Start_Date__c))
+
+
+
+,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Months EAL</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Nationality__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Student__r.Admissions_File__r.Nationality__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Nationality</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Parent_1_Coll_Group_Membership_UID__c</fullName>
+        <description>A field to show the combination of Collaboration Group ID and User ID to be checked against Collaboration Group Memberships to ensure that the membership is valid/correct. Used to fix a data problem.</description>
+        <externalId>false</externalId>
+        <formula>IF(Chatter_Group_Id__c!=&quot;&quot;, CASESAFEID(Group__r.Chatter_Group_Id__c) &amp;&quot;-&quot;&amp; CASESAFEID(Student__r.Main_Parent_File__r.PersonContact.User__r.Id), &quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Parent 1 Coll. Group Membership UID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Parent_2_Coll_Group_Membership_UID__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND(Chatter_Group_Id__c!=&quot;&quot;, Student__r.Main_Parent_File__r.Related_Contact_Record_P2__r.User__r.Id != &quot;&quot;), CASESAFEID(Group__r.Chatter_Group_Id__c) &amp;&quot;-&quot;&amp;  CASESAFEID(Student__r.Main_Parent_File__r.Related_Contact_Record_P2__r.User__r.Id), &quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Parent 2 Coll. Group Membership UID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Parent_Account_ID__c</fullName>
+        <description>For the purposes of getting the account ID of the student&apos;s parent, which is also the value in the &apos;Related Account ID&apos; field of the connected user record for both parents. This can then be used to identify, based on a query of registrations and users, which parent users should belong to which community chatter groups (blogs)</description>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Student__r.Main_Parent_File__r.Id)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Parent Account ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Parent_Assessment_Folder__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Parent Assessment Folder</label>
+        <referenceTo>Registration__c</referenceTo>
+        <relationshipName>Parent_Folders</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Parent_File_Id__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Student__r.Main_Parent_File__c)</formula>
+        <label>Parent File Id</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Parent_Has_Portal_User__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND(Student__r.Main_Parent_File__r.User__pc = &quot;&quot;,  Student__r.Main_Parent_File__r.Related_Contact_Record_P2__r.User__c = &quot;&quot;), FALSE, TRUE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Parent Has Portal User</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Parents_Included_in_Community_Group__c</fullName>
+        <description>Indicates when a parent should be included in the community chatter group, included on event reminders and also if a related event should be available via their parent portal login</description>
+        <externalId>false</externalId>
+        <formula>IF(OR(AND(TEXT(Group__r.Group_Type__c) = &quot;Tutor Group&quot;, Student__r.Admissions_File__r.Starting_Date_30__c = &quot;TRUE&quot;,  Student__r.Admissions_File__r.CloseDate &gt;= TODAY(), Parent_Has_Portal_User__c = TRUE),  AND(Active__c = TRUE,  Parent_Has_Portal_User__c = TRUE)), TRUE, FALSE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Parents Included in Group Related Comms</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Primary_Parent_Email__c</fullName>
+        <externalId>false</externalId>
+        <formula>Student__r.Primary_Parent_Email__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Primary Parent Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Primary_Parent_Phone__c</fullName>
+        <externalId>false</externalId>
+        <formula>Student__r.Primary_Phone__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Primary Parent Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Primary_Parent__c</fullName>
+        <externalId>false</externalId>
+        <formula>Student__r.Primary_Parent__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Primary Parent</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Registration_Deactivated_Date__c</fullName>
+        <description>Used to ascertain whether or not a student should still be included in assessment folders even if their registration in the relevant group is inactive</description>
+        <externalId>false</externalId>
+        <label>Registration Deactivated Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Registration_School_Student_School__c</fullName>
+        <description>Identifies registrations as belonging to the same school as the student. Prevents automatic activation of old tutor group registrations from a previous school after a student moves to another school within the group.</description>
+        <externalId>false</externalId>
+        <formula>School__c = Student__r.SchoolText__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Registration School = Student School?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>School__c</fullName>
+        <externalId>false</externalId>
+        <formula>Group__r.School__c</formula>
+        <label>School</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Stage_from_contact__c</fullName>
+        <externalId>false</externalId>
+        <formula>Student__r.Stage__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Stage (from contact)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Standardised_Group_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Group__r.Group_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Standardised Group Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Starting_Date_Date_from_student__c</fullName>
+        <externalId>false</externalId>
+        <label>Starting Date (Date) (from student)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Starting_Date_from_contact__c</fullName>
+        <externalId>false</externalId>
+        <formula>Student__r.Starting_Date_from_student__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Starting Date (from student)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Student_Class_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Student__r.Class_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Student Class Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Student_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Student__r.Student_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Student Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Student_Nickname__c</fullName>
+        <externalId>false</externalId>
+        <formula>Student__r.Nickname__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Nickname</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Student__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>select student for this enrolment</inlineHelpText>
+        <label>Student</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Registrations</relationshipLabel>
+        <relationshipName>Registrations</relationshipName>
+        <relationshipOrder>1</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>true</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Tutor_Group_Highest_Position_Score__c</fullName>
+        <description>Only used in connector queries</description>
+        <externalId>false</externalId>
+        <formula>Group__r.Year_Group_Highest_Position_Score__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tutor Group Highest Position Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tutor_Group_Highest_Year_Group__c</fullName>
+        <description>Used only for checking tutor groups contain the correct students via connector</description>
+        <externalId>false</externalId>
+        <formula>Group__r.Combined_Year_Group_Full_Abb__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tutor Group Highest Year Group</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tutor_Group_Lowest_Position_Score__c</fullName>
+        <description>Only used in connector queries</description>
+        <externalId>false</externalId>
+        <formula>Group__r.Year_Group_Lowest_Position_Score__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tutor Group Lowest Position Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tutor_Group_Lowest_Year_Group__c</fullName>
+        <description>Used only for checking tutor groups contain the correct students via connector</description>
+        <externalId>false</externalId>
+        <formula>Group__r.Year_Group_Full_Abb__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tutor Group Lowest Year Group</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Year_Group__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Student__r.Admissions_File__r.Year_Group__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Year Group</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Registration</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>Student__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>R-{000000}</displayFormat>
+        <label>Registration #</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Registrations</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Prevent_Edit_or_Creation_of_Expired_Reg</fullName>
+        <active>true</active>
+        <description>Prevents a user, other than system admin, from creating or editing a registration record that relates to a group from a previous academic year</description>
+        <errorConditionFormula>OR(
+   AND(
+       OR(
+          School__c = &quot;The British International School of Kuala Lumpur&quot;,
+          School__c = &quot;The British School of Brasilia&quot;,
+          School__c = &quot;The British School of Nanjing&quot;,
+          School__c = &quot;The British College of Brazil&quot;
+          ),
+       Active__c = TRUE
+       ),
+   AND(
+       Group__r.Academic_Year__c != Group__r.Current_Academic_Year__c,
+       $Profile.Id != &quot;00e6F000001hU3F&quot;
+       )
+   )</errorConditionFormula>
+        <errorMessage>You cannot add or remove students from groups that belong to previous academic years. Please create a new group for the new academic year. Schools that are using Kompanion or iSAMS can also not activate registrations.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Validation_Registering_Enrolled_Students</fullName>
+        <active>false</active>
+        <description>This validation checks that only enrolled students can have active registrations.</description>
+        <errorConditionFormula>IF(Active__c == true , IF(Admission_Stage__c != &apos;Enrolled&apos;, true, false) , false)</errorConditionFormula>
+        <errorMessage>Only Students with Admission Stage as Enrolled can have active registrations.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Validation_Registration_Access</fullName>
+        <active>false</active>
+        <description>validate only group owner can update/create registrations.</description>
+        <errorConditionFormula>IF(OR(Group__r.Owner:User.Id ==  $User.Id,  $Profile.Name != &apos;Teacher&apos;),false,true)</errorConditionFormula>
+        <errorMessage>You dont have appropriate access to create/update registrations for this student group.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

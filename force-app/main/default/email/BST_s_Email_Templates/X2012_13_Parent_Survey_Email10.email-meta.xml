@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>2012/13 Parent Survey Email</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>2012/13 Parent Survey Email</name>
+    <style>freeForm</style>
+    <subject>Parent Survey - 2012/13 Academic Year</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear Parent,
+
+The British Schools Foundation, of which we are a member, has created a short, online survey and would very much like to hear your feedback on {!Contact.SchoolText__c}. It should only take you a few minutes to complete and we would appreciate your input.
+
+Thank you for your time in this matter.
+
+Please click here to complete the survey in English.
+
+
+Дорогие родители,
+
+Фонд Британских школ, частью которого мы являемся создал короткий электронный опрос. Мы будем очень Вам признательны, если Вы найдете время и ответите на вопросы. Ваше мнение очень важно для нас.
+
+Спасибо!
+
+Пожалуйста, пройдите по следующей ссылке: click here.
+
+
+
+Kind regards,
+
+Administration Team
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

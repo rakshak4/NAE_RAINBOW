@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Reminder to parents about Summer School 2014</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Reminder about Summer School 2014</name>
+    <style>freeForm</style>
+    <subject>Summer School</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+If you still wish to reserve a place for your child (children) at the  BST Summer School please note that the closing date for applications is Friday June 25th. Due to the high demand for places we strongly recommend that payments are made to Accounts Department as soon as possible.
+
+Many thanks
+
+Уважаемые родители,
+
+
+Если Вы все еще хотите забронировать место для Вашего ребенка (детей) в летнем лагере нашей  школы, обратите внимание на то, что срок подачи заявок заканчивается в пятницу 25 июня. В связи с высоким спросом на места, мы настоятельно рекомендуем Вам произвести оплату в бухгалтерии как можно скорее.
+
+
+Заранее благодарим!
+
+
+
+Regards,
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

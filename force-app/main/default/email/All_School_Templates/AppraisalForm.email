@@ -1,0 +1,212 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<p align="center" style=text-align: center;font-family:'Verdana';color:#A0DAE5;> <img width="120px" height="127px"  alt="Payslip" src="https://c.ap4.content.force.com/servlet/servlet.ImageServer?id=0156F00000F0E28&oid=00D6F000001cXAR" /></p>
+		<p style="text-align: center; ">
+			<span style="font-size:14px;"><span style="font-family: 'Verdana'; "><strong>Staff Appraisal - Confidential</strong></span></span></p>
+		<table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 800px; ">
+			<tbody>
+				<tr>
+					<td style="width: 300px;text-align: right;background-color: #A0DAE5; ">
+						<span style="color:#003255;"><span style="font-size:16px;"><strong><span style="font-family: 'Verdana'; ">Staff Member:</span></strong></span></span></td>
+					<td style="text-align: left;background-color:#ededed ">
+						<span style="color:#003255;"><strong><span style="font-size:16px;"><span style="font-family:'Verdana';">&nbsp;</span></span></strong></span><span style="color:#182a4c;"><strong><span style="font-size:16px;"><span style="font-family:'Verdana';">{!Appraisal_Objectives__c.Staff_Member__c}</span></span></strong></span></td>
+				</tr>
+				<tr>
+					<td style="text-align: right;background-color: #A0DAE5; ">
+						<strong><span style="color:#003255;"><span style="font-size:16px;"><span style="font-family:'Verdana';">Line Manager:</span></span></span></strong></td>
+					<td style="text-align: left;background-color:#ededed ">
+						<span style="color:#003255;"><strong><span style="font-size:16px;"><span style="font-family:'Verdana';">&nbsp;{!Appraisal_Objectives__c.Line_Manager__c}</span></span></strong></span></td>
+				</tr>
+				<tr>
+					<td style="text-align: right;background-color: #A0DAE5; ">
+						<strong><span style="color:#003255;"><span style="font-size:16px;"><span style="font-family:'Verdana';">2nd Appraiser:</span></span></span></strong></td>
+					<td style="text-align: left;background-color:#ededed ">
+						<span style="color:#003255;"><strong><span style="font-size:16px;"><span style="font-family:'Verdana';">&nbsp;{!Appraisal_Objectives__c.Person_Present__c}</span></span></strong></span></td>
+				</tr>
+				<tr>
+					<td style="text-align: right;background-color: #A0DAE5; ">
+						<strong><span style="color:#003255;"><span style="font-size:16px;"><span style="font-family:'Verdana';">Date:</span></span></span></strong></td>
+					<td style="text-align: left;background-color:#ededed ">
+						<span style="color:#003255;"><strong><span style="font-size:16px;"><span style="font-family:'Verdana';">&nbsp;{!Appraisal_Objectives__c.Copy_Appraisal_Date__c}</span></span></strong></span></td>
+				</tr>
+				<tr>
+					<td style="text-align: right;background-color: #A0DAE5; ">
+						<strong><span style="color:#003255;"><span style="font-size:16px;"><span style="font-family:'Verdana';">Academic Year:</span></span></span></strong></td>
+					<td style="text-align: left;background-color:#ededed ">
+						<span style="color:#003255;"><strong><span style="font-size:16px;"><span style="font-family:'Verdana';">&nbsp;{!Appraisal_Objectives__c.Academic_Year__c}</span></span></strong></span></td>
+				</tr>
+			</tbody>
+		</table>
+		<div style="text-align: right;">
+			<div style="text-align: center;">
+				<div style="text-align: left;">
+					&nbsp;</div>
+			</div>
+		</div>
+		<div style="text-align: right;">
+			&nbsp;</div>
+		<div style="text-align: left; ">
+			<br />
+			<table align="center" cellpadding="15" cellspacing="0" style=" width: 800px; text-align: justify; border: 1px solid #000 ">
+				<tbody>
+					<tr align:="" justify="">
+						<td align:="" justify="" style="background-color: #A0DAE5;height:10px ">
+							<span style="color:#003255;"><font class="Apple-style-span" face="'Verdana'"><strong>Achievements and Strong Points</strong></font></span></td>
+					</tr>
+					<tr>
+						<td align:="" justify="">
+							<span style="font-size:12px;"><span style="font-family:'Verdana';">{!Appraisal_Objectives__c.Achievements_Strong_Points__c}</span></span></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<p>
+			&nbsp;</p>
+		<table align="center" cellpadding="15" cellspacing="0" style=" width: 800px; text-align: justify; border: 1px solid #000 ">
+			<tbody>
+				<tr align:="" justify="">
+					<td align:="" justify="" style="background-color: #A0DAE5;height:10px ">
+						<span style="color:#003255;"><font class="Apple-style-span" face="'Verdana'"><strong>Areas for Development</strong></font></span></td>
+				</tr>
+				<tr>
+					<td align:="" justify="">
+						<span style="font-size:12px;"><span style="font-family:'Verdana';">{!Appraisal_Objectives__c.Areas_for_Development__c}</span></span></td>
+				</tr>
+			</tbody>
+		</table>
+		<div style="text-align: justify; ">
+			<div style="text-align: left; ">
+				<p>
+					&nbsp;</p>
+			</div>
+			<div style="text-align: left; ">
+				<div style="text-align: left; ">
+					<table align="center" cellpadding="15" cellspacing="0" style=" width: 800px; text-align: justify; border: 1px solid #000 ">
+						<tbody>
+							<tr>
+								<td style="background-color: #A0DAE5;width: 25%;height: 20px;border: 1px solid #000">
+									<span><span style="color:#003255;"><strong><span style="font-family:'Verdana';">Objectives for Next Year</span></strong></span></span></td>
+								<td style="background-color: #A0DAE5;width: 75%;height: 20px;border: 1px solid #000">
+									<font class="Apple-style-span" color="#003255" face="'Verdana'"><b>Suggested Actions to &nbsp;achieve Objectives</b></font></td>
+							</tr>
+							<tr>
+								<td style="height: 140px;border: 1px solid #000" valign="TOP">
+									<span style="font-size:12px;"><font class="Apple-style-span" face="'Verdana'"><strong>{!Appraisal_Objectives__c.Objective_1__c}</strong></font></span></td>
+								<td style="height: 140px;border: 1px solid #000" valign="TOP">
+									<span style="font-size:12px;"><font class="Apple-style-span" face="'Verdana'">{!Appraisal_Objectives__c.Action_1__c}</font></span></td>
+							</tr>
+							<tr>
+								<td style="height: 140px;border: 1px solid #000" valign="TOP">
+									<span style="font-size:12px;"><font class="Apple-style-span" face="'Verdana'"><strong>{!Appraisal_Objectives__c.Objective_2__c}</strong></font></span></td>
+								<td style="height: 140px;border: 1px solid #000" valign="TOP">
+									<span style="font-size:12px;"><font class="Apple-style-span" face="'Verdana'">{!Appraisal_Objectives__c.Action_2__c}</font></span></td>
+							</tr>
+							<tr>
+								<td style="height: 140px;border: 1px solid #000 " valign="TOP">
+									<span style="font-size:12px;"><font class="Apple-style-span" face="'Verdana'"><strong>{!Appraisal_Objectives__c.Objective_3__c}</strong></font></span></td>
+								<td style="height: 140px;border: 1px solid #000" valign="TOP">
+									<span style="font-size:12px;"><font class="Apple-style-span" face="'Verdana'">{!Appraisal_Objectives__c.Action_3__c}</font></span></td>
+							</tr>
+							<tr>
+								<td style="height: 140px;border: 1px solid #000" valign="TOP">
+									<span style="font-size:12px;"><font class="Apple-style-span" face="'Verdana'"><strong>{!Appraisal_Objectives__c.Objective_4__c}</strong></font></span></td>
+								<td style="height: 140px;border: 1px solid #000 " valign="TOP">
+									<span style="font-size:12px;"><font class="Apple-style-span" face="'Verdana'">{!Appraisal_Objectives__c.Action_4__c}</font></span></td>
+							</tr>
+							<tr>
+								<td style="height: 140px;border: 1px solid #000" valign="TOP">
+									<span style="font-size:12px;"><font class="Apple-style-span" face="'Verdana'"><strong>{!Appraisal_Objectives__c.Objective_5__c}</strong></font></span></td>
+								<td style="height: 140px;border: 1px solid #000" valign="TOP">
+									<span style="font-size:12px;"><font class="Apple-style-span" face="'Verdana'">{!Appraisal_Objectives__c.Action_5__c}</font></span></td>
+							</tr>
+							<tr>
+								<td style="height: 140px;border: 1px solid #000" valign="TOP">
+									<span style="font-size:12px;"><font class="Apple-style-span" face="'Verdana'"><strong>{!Appraisal_Objectives__c.Objective_6__c}</strong></font></span></td>
+								<td style="height: 140px;border: 1px solid #000" valign="TOP">
+									<span style="font-size:12px;"><font class="Apple-style-span" face="'Verdana'">{!Appraisal_Objectives__c.Action_6__c}</font></span></td>
+							</tr>
+						</tbody>
+					</table>
+					<div style="text-align: left; ">
+						<div style="text-align: left; ">
+							<br />
+							&nbsp;</div>
+						<div style="text-align: left; ">
+							<br />
+							<div>
+								<div style="text-align: left; ">
+									<table align="center" cellpadding="15" cellspacing="0" style="border-top-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-color: rgb(0, 0, 0); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; width: 800px; text-align: justify; ">
+										<tbody>
+											<tr align:="" justify="">
+												<td align:="" justify="" style="border-top-color: rgb(211, 211, 211); border-right-color: rgb(211, 211, 211); border-bottom-color: rgb(211, 211, 211); border-left-color: rgb(211, 211, 211); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: dotted; border-right-style: dotted; border-bottom-style: dotted; border-left-style: dotted; background-color: #A0DAE5; height: 10px; text-align: left; ">
+													<span style="color: #003255; "><font class="Apple-style-span" face="'Verdana'"><b><span style="font-size:16px;">Mid-Year Review </span>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</b></font></span><span style="color:#003255;"><strong><em><strong><span style="font-size: 12px; "><span style="font-family: 'Verdana'; ">Expected Review Date:&nbsp;</span></span></strong></em></strong></span><span style="color:#003255;"><strong><span style="font-size: 12px; "><span style="font-family: 'Verdana'; ">{!Appraisal_Objectives__c.Copy_Expected_Mid_Year_Review_Date__c} &nbsp; &nbsp; &nbsp;&nbsp;</span></span></strong></span><span style="color:#003255;"><font class="Apple-style-span" face="'Verdana'"><em><strong><span style="font-size: 12px; height: 100px; "><span style="font-family: 'Verdana'; ">Actual Review Date:</span></span></strong></em></font></span><span style="font-family:'Verdana';"><span style="color: #003255; "><font class="Apple-style-span"><em><strong><span style="font-size: 12px; height: 100px; ">&nbsp;</span></strong></em><strong><span style="font-size: 12px; height: 100px; ">{!Appraisal_Objectives__c.Copy_Mid_Year_Review_Date__c}</span></strong></font></span></span></td>
+											</tr>
+											<tr>
+												<td align:="" justify="" style="border-top-color: rgb(211, 211, 211); border-right-color: rgb(211, 211, 211); border-bottom-color: rgb(211, 211, 211); border-left-color: rgb(211, 211, 211); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: dotted; border-right-style: dotted; border-bottom-style: dotted; border-left-style: dotted; ">
+													<font class="Apple-style-span" face="'Verdana'"><strong><span style="font-size: 12px; "><span style="font-family:'Verdana'; ">Review Notes: &nbsp;&nbsp;</span></span></strong><strong><span style="font-size: 12px; "><span style="font-family: 'Verdana'; ">&nbsp;</span></span></strong><span style="font-size: 12px; "><span style="font-family: 'Verdana'; ">{!Appraisal_Objectives__c.Mid_Year_Review_Notes__c}</span></span></font><br />
+													&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div style="text-align: left; ">
+							&nbsp;</div>
+						<div style="text-align: left; ">
+							<br />
+							<div>
+								<div style="text-align: left; ">
+									<div>
+										<div style="text-align: left; ">
+											<table align="center" cellpadding="15" cellspacing="0" style="border-top-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-color: rgb(0, 0, 0); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; width: 800px; text-align: justify; ">
+												<tbody>
+													<tr align:="" justify="">
+														<td align:="" justify="" style="border-top-color: rgb(211, 211, 211); border-right-color: rgb(211, 211, 211); border-bottom-color: rgb(211, 211, 211); border-left-color: rgb(211, 211, 211); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: dotted; border-right-style: dotted; border-bottom-style: dotted; border-left-style: dotted; background-color: #A0DAE5; height: 10px; text-align: left; ">
+															<span style="color: #003255; "><font class="Apple-style-span" face="'Verdana'"><b><span style="font-size:16px;">End of Year Review </span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</b></font></span><span style="color:#003255;"><strong><em><strong><span style="font-size: 12px; "><span style="font-family: 'Verdana'; ">Expected Review Date:</span></span></strong></em></strong></span><span style="color: #003255; font-weight: bold; font-size: 12px; font-family: 'Verdana'; ">{!Appraisal_Objectives__c.Copy_Expected_End_of_Year_Review_Date__c}</span>&nbsp; &nbsp; &nbsp;&nbsp;<span style="color:#003255;"><font class="Apple-style-span" face="'Verdana'"><em><strong><span style="font-size: 12px; height: 100px; "><span style="font-family: 'Verdana'; ">Actual Review Date:</span></span></strong></em></font></span><strong><span style="color: #003255; "><font class="Apple-style-span" face="'Verdana'"><em><span style="font-size: 12px; height: 100px; "><span style="font-family: 'Verdana'; ">&nbsp;</span></span></em><span style="font-size: 12px; height: 100px; "><span style="font-family: 'Verdana'; ">{!Appraisal_Objectives__c.Copy_End_of_Year_Review_Date__c}</span></span></font></span></strong></td>
+													</tr>
+													<tr>
+														<td align:="" justify="" style="border-top-color: rgb(211, 211, 211); border-right-color: rgb(211, 211, 211); border-bottom-color: rgb(211, 211, 211); border-left-color: rgb(211, 211, 211); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: dotted; border-right-style: dotted; border-bottom-style: dotted; border-left-style: dotted; ">
+															<font class="Apple-style-span" face="'Verdana'"><strong><span style="font-size: 12px; "><span style="font-family: 'Verdana'; ">Review Notes: &nbsp;&nbsp;</span></span></strong><strong><span style="font-size: 12px; "><span style="font-family: 'Verdana'; ">&nbsp;</span></span></strong><span style="font-family:'Verdana';"><span style="font-size: 12px; ">{!Appraisal_Objectives__c.End_of_Year_Review__c}</span></span></font><br />
+															&nbsp;</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+								<div style="text-align: left; ">
+									&nbsp;</div>
+							</div>
+						</div>
+						<div style="text-align: left; ">
+							<div style="text-align: left; ">
+								<div>
+									<div style="text-align: left; ">
+										<table align="center" cellpadding="15" cellspacing="0" style="border-top-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-color: rgb(0, 0, 0); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; width: 800px; text-align: justify; ">
+											<tbody>
+												<tr align:="" justify="">
+													<td align:="" justify="" style="border-top-color: rgb(211, 211, 211); border-right-color: rgb(211, 211, 211); border-bottom-color: rgb(211, 211, 211); border-left-color: rgb(211, 211, 211); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: dotted; border-right-style: dotted; border-bottom-style: dotted; border-left-style: dotted; background-color: #A0DAE5; height: 10px; text-align: center; ">
+														<span style="font-family:'Verdana';"><span style="font-size:16px;"><span style="color:#003255;"><b><b><b><i>{!Appraisal_Objectives__c.Show_Objective_Achieved__c}</i></b></b></b><b>&nbsp;</b></span></span></span></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div style="text-align: left; ">
+							&nbsp;</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<p style="text-align: left; ">
+			&nbsp;</p>
+		<p>
+			&nbsp;</p>
+	</body>
+</html>

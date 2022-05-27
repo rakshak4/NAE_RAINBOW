@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>12/06/2013 Bob a job</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>12/06/2013 Bob a job</name>
+    <style>freeForm</style>
+    <subject>Bob a job</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Bob-a-Job collections - We need to raise 2000RM!
+
+This is just a reminder that this Friday 14th is the last day for the Bob-a-Job forms to be sent in to school. Please leave the forms and funds raised at the reception desk.
+
+Also, please don&apos;t forget to send your children in with some money on Friday too for the Year 6 Bake Sale in aid of Zo.
+
+And finally, there are currently some buckets labelled Zo Learning Centre in the school reception area. These need filling urgently! Please look out for toys, boardgames, cards, old rugs, teddies and posters. Anything that will brighten up the children&apos;s dormitory at Zo.
+
+The children in school next week will be visiting Zo Learning Centre on Tuesday. They will be working in the classroom with the children as well as helping paint their dormitory.
+
+Many thanks for your help and support here.
+
+With kind regards
+
+Tom Hickman
+tom.hickman@britishschool.edu.my
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

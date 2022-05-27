@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>BST cancellation of clubs on Wednesday</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Cancellation of clubs on Wednesday</name>
+    <style>freeForm</style>
+    <subject>Cancellation of clubs on Wednesday, October 30th</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Dear all,
+
+Due to celebration of UN Day on Thursday, October 31 clubs on Wednesday, October 30 are cancelled. It will give some time to parent-helpers and teachers to decorate rooms on Wednesday afternoon.
+
+Parents are welcome to come and decorate rooms at 3.40 pm on Wednesday, October 30.
+
+Looking forward to successful event full of fun and pleasure for everyone.
+
+
+Уважаемые родители,
+
+В связи с празднованием дня ООН в среду, 30 октября клубы проводится не будут! Это даст родителям и учителям дополнительное время декорировать комнаты.
+
+Будем ждать родителей, которые вызвались декорировать комнаты ко дню ООН в среду, в 3.40.
+
+С нетерпением ждем насыщенного весельем и пользой праздника!
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

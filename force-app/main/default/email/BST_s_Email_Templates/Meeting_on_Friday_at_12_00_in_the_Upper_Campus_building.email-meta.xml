@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Note to parents about meeting for newly joined parents.2014</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Meeting on Friday at 12.00 in the Upper Campus building</name>
+    <style>freeForm</style>
+    <subject>Meeting on Friday, 21st of November</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+For the attention of parents who joined our school in 2014-2015 academic year.
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+We would like to invite you to the meeting on Friday, 21st of November at 12.00 pm at the Upper Campus of the School. The aim of the meeting is to explain to all newly joined parents how core curriculum works and the difference between Year groups of the British and Uzbek curriculums.
+
+
+
+
+
+
+
+Ко вниманию родителей, присоединившимся в 2014-2015 учебном году.
+
+
+
+Уважаемые родители,
+
+Мы хотели бы пригласить Вас в пятницу 21 ноября в 12.00 на собрание , которое состоится в здании школы (Upper Campus). Целью нашей встречи является ознакомление родителей, которые присоединились к нам в текущем учебном году, с объединенной учебной программой, а также с различиями между возрастными группами учеников, согласно Британской и Узбекской системам образования.
+
+
+
+
+
+
+
+
+Regards,
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20141120 Enrichment Primary</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20141120 Enrichment Primary</name>
+    <style>freeForm</style>
+    <subject>Primary Enrichment Term 2, 2014-2015</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+20th November 2014
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}
+
+Primary Enrichment Online Registration
+
+We will be starting registration for Primary Enrichment activities in December. It is important that you read the document in the link below for detailed information about Enrichment:
+
+Important Primary Enrichment Information (http://www.britishschool.edu.my/media/689875/BSKL%20TERM%202%20ENRICHMENT%20PROGRAMME%20INFORMATION.pdf)
+
+Online registration forms for Term 2 will be open starting from Monday, 1st December 2014, 9am and closes on Friday, 5th December 2014, 2pm. The links to registrations forms according to respective Year Groups are listed below:
+
+Years 1 &amp; 2 (https://docs.google.com/forms/d/1MzZjU5U3t8qldk-YLOPwgnIwwNAMo4Fp0Rt6cvUgwB8/viewform?usp=send_form)
+
+Years 3 &amp; 4 (https://docs.google.com/forms/d/14ALM6FJ3SBefLrWvocfGsezc1xDZ89qwu4dOQR_LOfk/viewform?usp=send_form)
+
+Years 5 &amp; 6 (https://docs.google.com/forms/d/1rkmjGC2Ip4kY12_tFF27w3tKyeX5n09EDMNQiEVtaoM/viewform?usp=send_form)
+
+
+Kind regards
+
+Admin Team
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

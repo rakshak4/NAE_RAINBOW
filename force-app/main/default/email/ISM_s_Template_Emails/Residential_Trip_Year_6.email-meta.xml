@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>ISM</letterhead>
+    <name>Residential Trip Year 6</name>
+    <style>freeForm</style>
+    <subject>Residential Trip Year 6</subject>
+    <textOnly>Wednesday 7th March 2012
+
+Dear Year 6 Parents,
+
+
+We wanted to write to you regarding the Year 6 Residential trip for this year. We know there has been a fair volume of correspondence on this topic. However, we feel it is very important that you receive this message.
+
+
+First of all we want to apologise to all Year 6 parents on a couple of points:
+
+
+1) The initial cost of the residential trip to Wales. Clearly our enthusiasm to organize a full and vibrant trip got the better of us on this occasion. Hand on heart, this was done with the best of intentions but in retrospect was simply too expensive. Expeditions abroad will naturally incur higher costs but managing the cost should remain a core objective.
+
+
+2) Presentation of information for the trip. While I am absolutely sure that the trip has been superbly organized, we do feel (because it is the first time that we have planned this trip) that we should have shared our ideas with parents in advance of the meeting and before discussing it with students. This would have identified any concerns at an early stage that could have been addressed prior to presentation. (Probably also preventing point 1) Additionally, we did not clarify our plans for the students unable to go which was remiss of us.
+
+
+On these two points we have certainly reflected and have learned invaluable lessons for future years. We firmly believe that if we make mistakes we admit them and address them in a positive way. We have taken a proactive response to these issues by doing the following:
+
+
+- We have restructured the trip carefully, with minimal impact in terms of the activities offered and have been able to reduce the price to 42,000 Rubles.
+
+- We have clarified that if students do not attend the trip we will provide a full, worthwhile and enjoyable programme within school that will be topic based. This means that all students will enjoy an educational, activity-based week.
+
+
+We are pleased to report that the trip has been well supported with almost 60% of students confirmed. Flights have already been booked for these students. We did send out a hard copy letter on Friday identifying the revised costs and programmes on offer but it came to our intention that not all parents may have received this letter. We do therefore want to give families a final opportunity to join the trip. We this in mind we have extended the deadline until Monday March 12th. However, with limited flight availability, prompt action would be advised.
+
+
+Please understand that this extended deadline or letter is not intended to apply pressure or arm-twist in anyway. For this reason, we are not communicating this information through or to the students but directly to you by Email. We simply want you to have the opportunity to reflect on our apology, remedial action and make a fully informed decision based on revised costs and information.
+
+
+Should you wish to give any further feedback please contact me directly via email or give me a call.
+
+
+Best regards,
+
+Paul Seedhouse
+
+ISM Headmaster</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

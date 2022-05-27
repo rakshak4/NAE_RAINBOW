@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Secondary Meet the Teacher 2012/13</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Secondary Meet the Teacher 2012/13</name>
+    <style>freeForm</style>
+    <subject>Secondary Meet the Teacher 2012/13</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+It gives me great pleasure to invite all secondary school parents to the meet the teacher day on Saturday September 1st 2012.The event will run from 10am to 11:30am and there will be a chance for parents to meet the new staff, each student’s form tutor and all of their subject teachers.
+
+The grid below gives the overview of the plan for the secondary school event
+
+Times
+
+Programme
+
+10:00am
+
+Refreshments and an opportunity to meet the staff in the Sports Hall.
+
+10:30am
+
+An introduction to life in the secondary school. Focus will be on the changes to the school as well as the three academic stages of the Key Stage 3, 4 and 5. There will also be information on the Pastoral system
+
+11:00am
+
+Refreshments and a further chance to meet the staff in the Sports Hall
+
+11:30am
+
+End of the event
+
+Please remember that this event is not an opportunity for a formal parent consultation, we will arrange these later in the term when the children have settled. Parents are encouraged to use the Nanhu Amusement Park’s car park, as in previous years, as our own car park facilities are limited.
+
+Regards,
+
+Mr. Iain Ruck
+Head of Secondary
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

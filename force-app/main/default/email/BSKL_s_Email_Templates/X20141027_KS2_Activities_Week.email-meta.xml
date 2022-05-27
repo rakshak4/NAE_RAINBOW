@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20141027 - KS2 Activities Week</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20141027 - KS2 Activities Week</name>
+    <style>freeForm</style>
+    <subject>KS2 Activities Week</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We are happy to inform you that our Key Stage Two Activities Week this year will take place from Monday 9th February to Friday 13th February 2015.
+
+As part of the British School’s commitment to an extended and challenging curriculum, we recognise the important role that residential trips play in supporting our students’ studies.  The trips complement the experiences our students share inside the classroom making them an important and relevant part of your child’s education. We would like to encourage as many children as possible to attend and enjoy these adventures.
+We have listened to the feedback provided by staff, students and parents regarding previous trips and have produced a residential trips programme that reflects this feedback.  You will notice that this year each of our trips take place within a smaller radius of KL, therefore limiting travel time and cost.
+
+Whilst a full itinerary of each trip will be provided soon, please see below for a brief insight as to what you can expect from the trips.  Note the costs stated below are estimates and will be subject to the number of students participating.
+
+(Students that do not attend this year’s Activities Week Trips will spend the week doing project–based learning at school.)
+
+YEAR THREE
+
+After listening to feedback from previous years our youngest Key Stage Two students will enjoy a school based sleepover during activity week as well as a highly anticipated sleepover in KLCC Aquarium later in the year. This will help the younger students enjoy a night away from home in a safe and enjoyable setting.   The Trip Leader will be Ms Bottomley and the estimated price per student for this week will be around RM100.
+
+YEAR FOUR
+
+Our Year 4 students will spend three nights in the southern coastal region of Sedilli Besar, Johor. The trip will be managed by Eco Field Trips, which is a company many of you may recognise as we have enjoyed hugely successful Activities Week trips with them for the past two years. The trip leader will be Mrs Brown and the estimated price per student will be around RM1,700.
+
+YEAR FIVE
+
+Following on from the success of previous trips, our Year 5 students will be venturing to Gopeng for three nights with ‘Outdoor in Asia’; the company that has led our previous Year 5 trips to rave reviews.  Mrs Keen will be the trip leader and the estimated price per student for the visit will be around RM1900.
+
+YEAR SIX
+
+Mr Moore will lead this trip that will see our oldest Key Stage Two students travel to Ipoh to spend four nights exploring the rainforest. Eco Field Trips will also manage this trip and the estimated cost per student will be around RM2,000.
+
+Further information on each trip will be sent out shortly.
+
+
+Kind regards,
+
+Admin Team
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

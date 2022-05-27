@@ -1,0 +1,106 @@
+<apex:page standardcontroller="Event" sidebar="false" showheader="false"><apex:messages />
+    <apex:sectionheader title="{!$ObjectType.Event.label} Edit" subtitle="{!IF(ISNULL(Event.subject), 'New Event',Event.subject)}"/>
+     
+     
+
+        <script>
+        function reloadLocation(){
+            location.href = '/apex/AdmissionsActivity?id=00QD000000o098D';
+            
+            
+
+        }
+        function reloadLocation2(){
+            location.href = '/apex/AdmissionsActivity?id=00QD000000o098D';
+
+        }
+        
+        $("input[id$=startDate]").on("blur", function() {
+                var val2 = $( this ).val();
+                var val3 = $(':input:eq(' + ($(':input').index(this) + 1) + ')').val();
+                 if(val3 ==''){
+                     $(':input:eq(' + ($(':input').index(this) + 1) + ')').val(val2);
+                 }
+             });
+             $("input[id$=endDate]").on("blur", function() {
+                var val2 = $( this ).val();
+                var val3 = $(':input:eq(' + ($(':input').index(this) - 1) + ')').val();
+                 if(val3 ==''){
+                     $(':input:eq(' + ($(':input').index(this) - 1) + ')').val(val2);
+                 }
+             });
+
+        
+        
+            
+
+
+    </script> 
+    
+   
+
+        
+    <apex:form >
+    <apex:actionFunction name="saveActionFunc" action="{!quicksave}" oncomplete="reloadLocation()"/>
+        <apex:pageblock mode="edit" title="{!$ObjectType.Event.label} Edit">
+            <apex:pageblockbuttons >
+                <apex:commandbutton value="Save" onClick="saveActionFunc();"/>
+                  <apex:commandbutton value="Cancel" onClick="reloadLocation2();return false;"/>
+              
+            </apex:pageblockbuttons>
+
+            <!-- ********** Output Panel for Record Type : School Tour **********  -->
+            <apex:outputpanel rendered="{!CASESAFEID(Event.RecordTypeId)='012D0000000kdPYIAY'}">
+                <apex:pageblocksection title="Calendar Details" showheader="true" columns="2">
+                    <apex:inputfield value="{!Event.Subject}" required="true"/>
+                    <apex:inputfield value="{!Event.WhoId}" required="false"/>
+                    <apex:inputfield id="startDate" value="{!Event.StartDateTime}"  html-placeholder="(Start Date)" required="true"/>
+                    <apex:pageblocksectionitem />
+                    <apex:inputfield id="endDate" value="{!Event.EndDateTime}"  html-placeholder="(End Date)" required="true"/>
+                    <apex:pageblocksectionitem />
+                </apex:pageblocksection>
+                <apex:pageblocksection title="Other Information" showheader="true" columns="2">
+                    <apex:inputfield value="{!Event.Location}" required="false"/>
+                    <apex:inputfield value="{!Event.OwnerId}" required="true"/>
+                    <apex:inputfield value="{!Event.Description}" required="false"/>
+                    <apex:inputfield value="{!Event.WhatId}" required="false"/>
+                </apex:pageblocksection>
+            </apex:outputpanel>
+            
+                   
+
+
+
+            
+            
+
+            <!-- ********** Output Panel for Record Type : Standard Event **********  -->
+            <apex:outputpanel rendered="{!OR(ISNULL(Event.RecordTypeId),CASESAFEID(Event.RecordTypeId)='012D0000000kTG7IAM')}">
+                <apex:pageblocksection title="Calendar Details" showheader="true" columns="2">
+                    <apex:inputfield value="{!Event.Subject}" required="true"/>
+                    <apex:inputfield value="{!Event.WhatId}" required="false"/>
+                    <apex:inputfield value="{!Event.IsAllDayEvent}" required="false"/>
+                    <apex:inputfield value="{!Event.WhoId}" required="false"/>
+                    <apex:inputfield value="{!Event.StartDateTime}" required="true"/>
+                    <apex:pageblocksectionitem />
+                    <apex:inputfield value="{!Event.EndDateTime}" required="true"/>
+                    <apex:pageblocksectionitem />
+                </apex:pageblocksection>
+                <apex:pageblocksection title="Other Information" showheader="true" columns="2">
+                    <apex:inputfield value="{!Event.Location}" required="false"/>
+                    <apex:pageblocksectionitem />
+                    
+                  
+                    <apex:pageblocksectionitem />
+                </apex:pageblocksection>
+                <apex:pageblocksection title="Description Information" showheader="true" columns="1">
+                    <apex:inputfield value="{!Event.Description}" required="false"/>
+                </apex:pageblocksection>
+                <apex:pageblocksection title="System Information" showheader="true" columns="2">
+                    <apex:pageblocksectionitem />
+                    <apex:inputfield value="{!Event.OwnerId}" required="true"/>
+                </apex:pageblocksection>
+            </apex:outputpanel>
+        </apex:pageblock>
+    </apex:form>
+   </apex:page>

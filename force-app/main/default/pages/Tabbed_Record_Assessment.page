@@ -1,0 +1,132 @@
+<apex:page standardController="Assesment__c" showheader="true" standardStylesheets="true">
+<title>Folder: {!Assesment__c.Name}</title>
+
+
+
+<style>
+   .activeTab {
+   
+  
+        
+   font-size:1.25em;font-style:normal;font-family: 'Calibri';font-weight:bold;background-color: #005225; color:white;width:150px;height:20px;background-image:none;border: 0px solid #747e96;border-bottom: 0px solid #fff;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0 px;
+    border-bottom-right-radius: 0 px;
+}
+.inactiveTab {
+        background-color: #111a48;
+        color: ff9300;
+        background-image: none;
+        }
+</style>
+
+
+
+
+<apex:sectionHeader rendered="{!Assesment__c.RecordType.Name='Assessment Folder'}" title="Assessment Folder" subtitle="{!Assesment__c.Name}"/>
+<apex:sectionHeader rendered="{!Assesment__c.RecordType.Name='Assessment Record'}" title="Assessment Record" subtitle="{!Assesment__c.Name}"/>
+<br></br>
+<apex:outputPanel rendered="{!Assesment__c.RecordType.Name='Assessment Folder'}">
+<a href="apex/Tabbed_Record_Student_Group?id={!Assesment__c.Group__c}&sfdc.override=1"><img src="https://ap4.salesforce.com/servlet/servlet.FileDownload?file=0156F00000EyYrX"/></a>
+
+</apex:outputPanel>
+
+<apex:outputPanel rendered="{!Assesment__c.RecordType.Name='Assessment Record' && ISNULL(Assesment__c.Student__c)}">
+</apex:outputPanel>
+<apex:outputPanel rendered="{!Assesment__c.RecordType.Name='Assessment Record' && NOT(ISNULL(Assesment__c.Student__c))}">
+<a href="apex/Tabbed_Record_Contact?id={!Assesment__c.Student__c}&sfdc.override=1"><img src="https://ap4.salesforce.com/servlet/servlet.FileDownload?file=0156F00000EyWuh"/></a>
+</apex:outputPanel>
+
+
+
+
+
+
+
+
+
+ 
+   <apex:tabPanel rendered="{!Assesment__c.RecordType.Name='Assessment Folder'}" switchType="client" selectedTab="tabdetails"
+               id="AccountTabPanel" tabClass="activeTab"
+               inactiveTabClass="inactiveTab" style="background-color: white;margin-top: 10px;padding: 10px 0px 0px 0px;">  
+               
+             
+             <apex:tab label="Folder Details" name="AccDetails" id="tabdetails" style="background-color:white;font-size:12px;">
+         <apex:detail relatedList="Fakse" title="False" inlineEdit="True" showChatter="True"/> 
+      </apex:tab>
+             
+           <apex:tab label="Assessment Records" name="Assessment Records" id="tabAssRecords">
+         <apex:relatedList subject="{!Assesment__c}" list="Assessments__r" />
+      </apex:tab>
+               
+                 
+               
+              
+              
+     
+      
+      
+      
+      
+      
+      
+      
+      
+      <apex:tab label="Notes & Attachments" name="Attachments" id="tabAtt">
+         <apex:relatedList subject="{!Assesment__c}" list="NotesAndAttachments" />
+      </apex:tab>
+       
+      
+         
+               
+      
+
+      
+      
+   </apex:tabPanel>
+   
+   <apex:tabPanel rendered="{!Assesment__c.RecordType.Name='Assessment Record'}" switchType="client" selectedTab="tabdetails"
+               id="AccountTabPanel2" tabClass="activeTab"
+               inactiveTabClass="inactiveTab" style="background-color: white;margin-top: 10px;padding: 10px 0px 0px 0px;">  
+               
+             
+               
+              
+               
+              <apex:tab label="Record Details" name="AccDetails" id="tabdetails2" style="background-color:white;font-size:12px;">
+         <apex:detail relatedList="True" title="False" inlineEdit="True" showChatter="False"/> 
+      </apex:tab>
+              
+     
+      
+      
+      
+      
+      
+      
+      
+      
+      <apex:tab label="Notes & Attachments" name="Attachments" id="tabAtt2">
+         <apex:relatedList subject="{!Assesment__c}" list="NotesAndAttachments" />
+      </apex:tab>
+       
+      
+         
+               
+      
+
+      
+      
+   </apex:tabPanel>
+  
+   
+   
+
+     
+ 
+</apex:page>

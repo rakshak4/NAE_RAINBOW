@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Bus Schedule</name>
+    <style>freeForm</style>
+    <subject>School Bus Schedule</subject>
+    <textOnly>Dear Parents,
+
+I hope you are well. 
+
+Please find attached the Bus Schedule for the new academic year . I am sending the schedule to all families, including those that are not on the bus. Please, ignore this email if you are not planning on using the school bus. 
+
+I apologise for the delay in sending this to you but with so many new students and many new families being unable to confirm their address in Moscow sooner I was trying to do my best to ensure that every student, existing or new, is able to join the bus from the first day of school. 
+
+You will find the bus policy on the first page of the schedule. Please make sure that you read it carefully. On the page with your pick up and drop off time you will find the information about the type of bus, license plate number, bus monitor&apos;s name and her contact phone number. Please keep in mind that the bus monitors speak very limited English and might not understand complex sentences. Check your contact information to ensure it is up to date. If your contact information is missing or has changed, please email it to me at your earliest convenience. 
+
+Let me remind you that on Club Days the drop off time will be 1 hour later than stated on the schedule. 
+
+Please try to be on time on the first day of school to avoid unnecessary  delays. I am also asking you to be patient as it will take a couple of days for the buses to start running smoothly. 
+
+I am wishing all of you a safe trip back to Moscow and am looking forward to seeing you on Monday!
+
+Kind regards,
+
+Olga Tenisheva
+School Bus Coordinator
+The International School of Moscow
+Tel: +7 (499) 922 44 00
+Mob: +7 (916) 995 5110
+Fax: +7 (499) 922 44 00 Ext.4
+www.internationalschool.ru
+The British Schools Group – World Class Education
+
+
+*Disclaimer:*
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure,  copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited.  </textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

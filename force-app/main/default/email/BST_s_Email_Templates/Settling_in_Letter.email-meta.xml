@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Letter to PN1-2 and Nursery parents about settling in school.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Settling in Letter</name>
+    <style>freeForm</style>
+    <subject>Settling in policy</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Attached we are sending you a letter about settling in period for children of Pre-Nursery 1, Pre-Nursery 2 &amp; Nursery class.
+
+Looking forward to see you all on Monday, September, 3rd 
+
+Regards,
+
+Уважаемые родители,
+
+В приложении, пожалуйста, найдите письмо об адаптационном периоде для учеников классов Pre-Nursery 1, Pre-Nursery 2 и Nursery.
+
+C нетерпением ждем встречи с Вами в понедельник, 3 сентября.
+
+С наилучшими пожеланиями,  
+
+
+
+Regards,
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

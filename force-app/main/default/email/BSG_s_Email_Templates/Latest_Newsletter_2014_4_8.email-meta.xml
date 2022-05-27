@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Latest Newsletter 2014.4.8</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Latest Newsletter 2014.4.8</name>
+    <style>freeForm</style>
+    <subject>Latest Newsletter 2014.4.8</subject>
+    <textOnly>The British School
+of Guangzhou
+
+
+
+
+
+
+Dear Parents,
+
+
+
+Welcome to the latest edition of the BSG newsletter.
+
+
+
+On Lower School, children went animal mad with Old McDonald&apos;s Farm and a visit from Doctor Dogs. Reception have been donning fancy frocks and snazzy suits for their clothing topic, while Year 1 got a taste for chocolate! We also have an update on House activities and the Ladybirds take us for a Chinese lesson.
+
+
+
+In Primary, students looked at everything from volcanoes and Viking warriors to play scripts and tennis! Plus, there&apos;s some exceptional Chinese work and a Victorian Tale by Isabelle Ng, Year 4.
+
+
+
+In Secondary, we announce exciting news about a top scholarship for a UK Summer Programme. We also have coastal cake competitions and Year 10 teach plate tectonics to Year 2! As we celebrated World Book Week, students participated in reading and poetry competitions and a colourful dress-up day.
+
+
+
+Please click here for the latest newsletter.
+
+
+
+The next issue will feature coverage of Primary&apos;s Magical Book Week and the successful Secondary performance of Bugsy Malone.
+
+
+
+Enjoy!
+
+
+
+
+
+Stuart Geraghty
+Publications Editor &amp; Librarian
+
+The British School of Guangzhou
+
+World Class Education
+
+
+
+
+
+——————————————————————————————————————
+
+
+A Nord Anglia Education School - University of Cambridge Examination Centre - Member of The Federation of British International Schools In Asia (FOBISIA)- Member of the Council of British International Schools (COBIS) - Member of the Council of International Schools (CIS) - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Weekly Update, 20th February 2014 - with correction</name>
+    <style>freeForm</style>
+    <subject>Weekly Update, 20th February 2014 - updated</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+
+
+
+
+Dear Parents,
+
+
+
+Please remember that the reports (Nursery - Year 6) will be posted on the parent portal. You will have the facility to print them off if you wish to also have a hard copy.
+
+
+
+We have noticed that not all parents have logged in Parent Portal yet. If you have any difficulties logging in or have not received any login details please contact our School Hub Support Team at support@britishschools.co.uk.
+
+After School Activities for children in Nursery to Year 11
+
+Please note that there will be NO After School Activities in the week after half term for children in Nursery to Year 11. Our Parent and Teacher Consultations for EYFS and Primary children will take place on Tuesday 4th and Wednesday 5th March.  Please ensure that your child takes their usual mode of transport home, at the usual time (3.20pm).  ASAs will commence the week after (Tuesday 11th March).
+
+
+
+Admissions Department
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

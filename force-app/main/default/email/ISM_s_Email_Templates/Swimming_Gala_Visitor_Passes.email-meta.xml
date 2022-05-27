@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Swimming Gala Y1 - Y3</name>
+    <style>freeForm</style>
+    <subject>Swimming Gala for Years 1 - 3</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear Parents,
+
+Thank you for your support with the swimming programme this year. The lessons have been beneficial for the non-swimmer, confident swimmer and club swimmer. The children have been split into two groups, the Dolphins and the Sharks, allowing them to work on their skills at an appropriate level.
+
+
+As a celebration of this, all children in years 1-3 will take part in the ISM swimming gala event on Thursday 6th of December. This will give the children a chance to take part in some Inter House competition and put their skills to the test.
+
+
+You are very welcome to come and support your child and cheer on your house. The event will take place at an off site facility at 2 Ostrovnaya street. The swimming gala will start around 9.30am and aim to finish around 12.45pm. Please be sure to have the correct equipment. This includes a swim cap, bathing suit/trunks, towel and a substantial snack.
+
+
+The children must arrive at school during the normal time and will be transported to the facility by school bus. Children must also return to school via the school bus after the gala has finished. Please note that the pool is heated and the facility will be warm for the children. As staff, we will make sure that the children’s hair will be dried before they leave the facility. If you would also like to support with this, then your help will be greatly appreciated.
+
+
+If you have any problems, please contact the PE department directly.
+
+
+On another note, the management of the swimming pool have asked us to please give them a list of visitors (parents/nannies/drivers) that will be present at the swimming pool on the day of the gala as well as the car number plates.
+
+This will also affect the parents/nannies/drivers that accompany the children to the pool on regular swimming days.
+
+Please provide this information to Ekaterina Foster at ekaterina.foster@internationalschool.ru in advance.
+
+Thank you for your assistance.
+
+Kind regards,
+
+
+
+PE Department and Administration Team
+
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

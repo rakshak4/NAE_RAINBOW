@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Photography Competition 2013</name>
+    <style>freeForm</style>
+    <subject>Photography Competition 2013</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+We invite you and your child(ren) to take part in our Photography Competition. This begins on the 7th October and the final entries must be received by the 4th November. The theme for submission is &apos;Natural&apos; and photos need to be submitted as an A4 print to Mrs. Thompson (Upper Campus) and also emailed to lauren.thompson@internationalschool.ru.
+
+Entries will be judged in four categories:
+
+- Lower Primary
+- Upper Primary
+- Secondary
+- Teachers and Parents
+
+Please click here to download the poster.
+
+Have a nice weekend.
+
+Best regards,
+
+Admissions Department
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

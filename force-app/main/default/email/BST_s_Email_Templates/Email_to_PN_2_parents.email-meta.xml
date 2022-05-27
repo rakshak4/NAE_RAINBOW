@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Note to PN2 parents about unexpected visits 2014</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Email to PN 2 parents</name>
+    <style>freeForm</style>
+    <subject>Unexpected visits</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+I am writing to you to raise a matter about the parents or carers unexpected visits and presence in and around the school during the day.
+
+All children in the class have been successful in adapting to their time in school and are happy and safe, learning about themselves and their friends. However for our teachers to do their job properly and for your child to get the most from their learning in school I must stress that the following:
+
+Parents and carers are not allowed to:
+
+Come into school for unexpected visits. For your own child&apos;s safety we ask for you to book an appointment with the class teacher at a mutually convenient time to discuss any matters you wish.
+
+Parents picking children up at 12pm are not allowed into the building any earlier to pick their children up without permission from the school.
+
+You are not allowed to take videos and photographs of children at play or in classroom. Again security for others is paramount. Would you want strangers videoing and taking photos of your children?
+
+During break times and lunchtimes you are not allowed on site to take your child to the toilet.
+
+Staff will not bring school bags out earlier to waiting parents and carers before home time.
+
+Parents and carers are NOT allowed in the security hut to watch playtimes, PE lessons and breaks
+
+Our staff do NOT accept any cash payment from parents to give their children &quot;special treatment&quot;. All children in school are treated the same. Any parent found offering cash payments to staff will be asked to leave the school and your child will lose their place in class.
+
+
+You must remember that your children have successfully made the adjustments to being in school and that it can be very distressing for them if their carers/parents are turning up at school throughout the day to check up on them. They have no concept of time at this stage of development and if they see the person who normally takes them home the assume it is home time and then get further upset when they do not go home.
+
+If any parent/carer is on site without a valid appointment, you will be asked to leave.If you are interfering with the class and the children on site then we will ask the parent and carer to take the child home immediately. Continued abuse of the above will result in us asking you to find another school for your child.
+
+Regards,
+
+
+David Kirkham
+Headmaster
+
+
+Уважаемые родители,
+
+Я пишу Вам, чтобы поднять вопрос, касающийся несогласованных визитов в школу, присутствий в здании и на территории школы в течении дня родителей или попечителей.
+
+
+Все дети всех классов удачно прошли адаптационный период и находятся в школе с большим удовольствием, они счастливы и невредимы, познают себя и заводят новых друзей. Однако для наших учителей, выполняющих свою работу должным образом, а так же для Вашего ребенка, пытающегося получить максимум от обучения в школе, я должен подчеркнуть следующее:
+
+
+Родителям и попечителям не разрешается:
+
+
+Наносить в школу несогласованные визиты. Для спокойствия Вашего ребенка мы просим Вас заблаговременно записаться на прием к классному руководителю в удобное время, чтобы обсудить любые вопросы, касающиеся ваших детей.
+
+
+Родителям (попечителям), которые забирают детей в 12 часов дня, не разрешается заходить в здание и забирать детей раньше без предварительного уведомления об этом администрации школы. Вам не разрешается снимать детей на камеру или фотографировать их во время занятий или игр в классе по причине первостепенного значения безопасности других детей. Не думаю, что Вам доставит удовольствие, если люди, не имеющие отношения к Вашему ребенку, будут приходить и снимать его на камеру или фотографировать.
+
+
+Во время перемен или перерывов на обед Вам не разрешается находиться на территории школы с целью сводить ребенка в туалет.
+
+
+Персонал школы не принесет школьные рюкзаки родителям или попечителям, ожидающим своих детей, раньше того времени когда ребенок может идти домой. Родителям и учителям не разрешается заходить в помещение охраны с целью изучения расписания игрового времени детей, уроков физкультуры или перемен.
+
+
+Наши сотрудники не имеют права принимать какие-либо денежные средства от родителей, для стимуляции «особого отношения» к их детям. Знания детей в школе оценивается всеми учителями одинаково. Любой родитель, который будет замечен при предложении взять денежные средства любому из членов нашего коллектива, будет вынужден покинуть школу и потеряет для своего ребенка место в классе.
+
+
+Вы должны помнить, что Ваши дети уже успешно адаптировались в школе, и моменты, когда попечители/родители посещают в школу в течении дня с целью проверить своего ребенка, могут стать очень мучительными для самого ребенка. Дети на данном этапе развития не имеют должного понятия о времени, и если ребенок видит человека, который обычно забирает его домой, то у ребенка зачастую появляется ощущение пришедшего времени идти домой. Но ребенок расстраивается после того, как он все-таки остается в школе до конца учебного дня.
+
+
+Любому родителю/попечителю, находящемуся в школе без уважительной причины, будет предложено покинуть территорию школы. Но, если Вы все таки пришли и столкнулись с классом, в котором учится ваш ребенок, то мы будем вынуждены просить Вас забрать ребенка домой незамедлительно. Дальнейшее пренебрежение указанными Выше правилами, приведет к поднятию с нашей стороны вопроса о смене школы для Вашего ребенка.
+
+
+С наилучшими пожеланиями,
+
+
+
+Дэвид Киркхам
+
+Директор
+
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

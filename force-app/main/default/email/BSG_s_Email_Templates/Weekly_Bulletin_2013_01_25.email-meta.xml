@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Weekly Bulletin 2013-01-25</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Weekly Bulletin 2013-01-25</name>
+    <style>freeForm</style>
+    <subject>Weekly Bulletin 2013-01-25</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Next week sees a number of different activities occurring in the secondary school and these are outlined below.&lt;?xml:namespace prefix = o /&gt;
+
+School Photographs: The School photographer is in school next week. It is therefore very important that all students bring their blazers and full winter uniform for the week. The whole school photograph will be on Monday, nd the and sibling photographs will be on Monday, Tuesday and Wednesday depending on which phase the siblings are. On Thursday students will photographed together with their form groups.
+
+Chinese New Year: On Friday 1st February the secondary school will be celebrating the Chinese New Year festival. There will be a dragon dance at 10:40am, a musical performance at 12:05 in the theatre and a Chinese lunch buffet. Eurest will be catering for the event, as normal, but students have been asked to bring in a dish to add to the buffet that will be being served on this day. The more dishes that we have the better the buffet will be! Students are also asked to dress in Chinese traditional dress.
+
+Charity Head Shave: Ms. Rowan will be embarking on a sponsored head shave for Cancer Research UK. If you would like to contribute to this cause then I have included the link. www.justgiving.com/Naomi-Rowan In addition, she will be donating her hair to the little princess charity. This charity makes wigs for child cancer victims from donated hair. (http://www.littleprincesses.org.uk)
+
+Volleyball update: U14 boys volleyball team travelled to QSID, Dongguan to participate in the PRC friendly exchange. The team managed to win all four of their games. We will now build on their success as we practise for the tournament on March 2nd. The following students were in the team were Sueda Zanlier, Izabella , Mahmoud Diallo, Jan Janeczek, Max Siegal, Eddie Yu, Jason Li, William Vaughn and Bhagyaraj Bhojwani.
+
+House ASA results
+
+KS3                                                    KS4
+
+Romans 2 Normans 6                    Vikings 7 Saxons 3
+
+Vikings 2 Saxons 6                         Romans 4 Normans 5
+
+On Friday, the school breaks up for two weeks to celebrate the Chinese New Year holiday. We wish all our families a relaxing break and hope to see our students returning on Monday, February 18th, refreshed and ready for another busy term. Happy Chinese New Year – Xīnniánkuàilè
+
+Day
+
+Activity
+
+When
+
+Staff
+
+Monday 28th January
+
+Whole School Photo
+
+Secondary School Photos (Siblings)
+
+Monday ASAs (week 3)
+
+11.00am
+
+12.00-3.00pm
+
+3:00–3:55pm
+
+All
+
+All
+
+Tuesday 29th January
+
+Wicked Rehearsal
+
+Tuesday ASAs
+
+1.10-1.40pm
+
+3:00–3:55pm
+
+RM
+
+All
+
+Wednesday 30th January
+
+Wicked Rehearsal
+
+Wednesday ASAs
+
+1.10-1.40pm
+
+3.00-3.55pm
+
+RM
+
+All
+
+Thursday 31st January
+
+Secondary School Photos
+
+House ASAs
+
+3.00-3.55pm
+
+All
+
+Friday 1st February
+
+CNY Themed dress
+
+CNY Music Performance
+
+Charity Head Shave
+
+All day
+
+12.05-12:40am
+
+12:20 – 12:40
+
+All
+
+NR/PS
+
+NR
+
+Kind regards,
+
+Mr. Iain Ruck
+Head of Secondary
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Leavers Letter Term 1 20/21</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NAE_Branding_Letterhead_BSKL</letterhead>
+    <name>! Leavers Letter</name>
+    <style>freeForm</style>
+    <subject>BSKL Leaving Preparations</subject>
+    <textOnly>Dear Parents,
+
+
+Thank you for being a part of the BSKL community. We sincerely appreciate the contributions from you and your family in making BSKL a special place for students, parents, teachers, and staff.
+
+
+As your time at BSKL draws to a close we’re writing to provide additional instructions to complete the leaving process.
+
+
+Please make arrangements to return all school materials, including laptops, tablets, library books, text books, and resource packs to the Upper Hill Campus during the week of 14-18 December between 9am and 4pm. You can book an appointment to return materials using this online form. We will use the appointment list to issue a travel letter, if necessary, for you to come to school. Please be aware you will need to scan the MySejahtera QR code and have your temperature taken at the guard booth when you arrive.
+
+
+Please review the following notes to make your leaving process smoother.
+
+
+Library Books and Textbooks
+
+Bins will be set up in the reception area to collect books.
+
+Library books should be placed in the bin for the library the book was checked out from: Secondary, Lower Hill - Primary, or Upper Hill - Primary.
+
+Secondary Textbooks should be placed in the Textbook bin
+
+Please label textbooks with your child’s name and year group.
+
+We recommend bundling textbooks for your child in a bag and labeling the outside of the bag to keep all their textbooks together
+
+
+
+
+
+IT Equipment
+
+Please return your laptop or tablet with the original box and all accessories by appointment to the IT Department. Additional instructions will be provided by the IT department directly.
+
+
+Primary School Resource Packs
+
+Primary School students should also return items from the VSE resource packs that were sent home in October. This includes any maths equipment, white boards, rulers, and any classroom reading books. There will be bins for these items marked Upper Hill Campus Resources  and Lower Hill Campus Resources.
+
+Please return items in the pouch they were provided in and be sure to label the pouch with your child’s name and year group.
+
+
+
+2019/20 Yearbook Distribution
+
+The 2019/20 Yearbooks have arrived and leavers can pick up their copy with the IT Office when they return their laptop/tablet. If your child was not issued an IT device you can still pick up your yearbook at the IT Office. Please note, continuing students will receive their 2019-20 yearbook when classes resume on-campus.
+
+
+We understand that some of you may have travel plans to leave before 14 December. If that’s the case please contact the Admissions Team directly at admissions@britishschool.edu.my and we will make arrangements to accommodate your travel.
+
+
+Please note that any unreturned items will result in additional charges to your finance account.
+
+
+We wish you and your family all the best, wherever life takes you next. Stay safe, healthy, and happy.
+
+
+Best regards,
+
+Admissions Team
+
+The British International School of Kuala Lumpur
+
+Tel: +6 (03) 7727 7775
+
+Fax: +6 (03) 7722 1296
+
+www.britishschool.edu.my
+
+
+
+
+
+Follow us on
+
+*Disclaimer:*
+
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Letter to parents about swimming lessons 2013-2014</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Letter to parents about swimming lessons</name>
+    <style>freeForm</style>
+    <subject>Swimming Lessons</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Dear parents,
+
+I just wanted to clear up a couple of points that have been raised by a small group of parents regarding swimming lessons here at the school.
+
+As part of the British curriculum, swimming is a compulsory subject with children having specific learning objectives to achieve. From the date the school opened its gates in 2010 this has always been the case and will remain so.
+
+Swimming at this school has always been timetabled for autumn term 1 up to half term, when the weather was at its hottest in Tashkent and again planned in summer term 2. Swimming classes during the other terms have been offered as an option, allowing parents the choice of their child swimming or having a PE lesson.
+
+This year we have had poor attendance again for compulsory swimming in the autumn term 1. This has resulted in children not swimming, but also not coming in PE kit. This has led to a large group of children missing out on the important physical development they need. Importantly for me as a headmaster, this also raises a supervision and safety concerns. Swimming classes, even in Mr. Finch’s time were poorly attended due to illness, cold weather or parents not wishing their children to swim for medical reasons.
+
+The decision was taken to stop swimming classes a couple of weeks earlier in the term to ensure that the children participated in some form of sport. Whilst I have been in touch by email with several of the parents who have produced this letter, over the past month, and indeed met with some of them personally yesterday when I first learned of the letter, I expressed my disappointment of having to stop swimming earlier than planned this term.
+
+To make sure that swimming was still an option for those parents who wished their children to swim we opened an additional swim club after school and opened the school pool on a Saturday morning for three hours for parents to bring their children along to receive swimming lessons. Again this has been poorly attended.
+
+Children on the upper campus are too big to use the pool in the lower campus and we have arranged for our school to use the &quot;Fitness complex of the State Tax Committee of Uzbekistan&quot;.
+
+http://yp.uz/?companyId=17868
+
+
+We have gone to great lengths to obtain all copies of health and safety documents and hygiene documents from them and we are keen to start this in January as part of the curriculum, but we need your support to allow the children to swim. This was offered to parents at the beginning of the academic year during ‘Meet the Teacher’ morning when I addressed the issue of swimming for older children to all parents who attended at the new campus. I received no requests from parents wishing their children to swim.
+
+
+
+
+
+ASAs next term : Primary Sports Program
+
+To increase sport at the school and the option of children having access to fitness and physical development we will run our Primary Sports Program from January to replace the existing style ASA’s
+
+Lower Campus
+
+Children on this campus will still receive the two days a week of after school clubs which you will be able to sign up for. In addition next term ASA’s include the lower school children having access to the school pool five days per week. We have organized for different days for different classes to ensure safety and consistency. This will happen whether we have swimming in the timetable or not.
+
+
+Upper Campus
+
+Children on the upper campus are too big to use the pool in the lower campus and we have arranged for our school to use the &quot;Fitness complex of the State Tax Committee of Uzbekistan&quot;.
+
+http://yp.uz/?companyId=17868
+
+
+We have gone to great lengths to obtain all copies of health and safety documents and hygiene documents from them and we are keen to start this also in January, but we need your support to allow the children to swim. This was offered to parents at the beginning of the academic year during ‘Meet the Teacher’ morning when I addressed the issue of swimming for older children. I received no requests from parents wishing their children to swim.
+
+
+Also they will have the option of choosing clubs each day to attend ranging from, football, basketball, taekwondo, martial arts and dance, as well as the traditional range of clubs.
+
+
+
+In conclusion if the majority of parents wish swimming to be reinstated within the curriculum I am more than happy but it will be compulsory at all times during the year for all students, including the swimming at the sports complex for the older children. If anyone has any concerns I am more than happy to speak to with you.
+
+
+
+Best regards
+
+
+David Kirkham
+
+
+
+
+
+Дорогие родители,
+
+Я бы хотел прояснить некоторые вопросы, поднятые небольшой группой родителей касательно уроков по плаванию.
+
+Уроки по плаванию являются обязательной частью учебной программы Великобритании. С момента открытия и по сей день уроки по плаванию проводились и в Британской школе в Ташкенте так будет и впредь.
+
+Уроки по плаванию всегда были заложены в расписание в первой половине осеннего триместра, когда в Ташкенте еще стоит теплая погода и во второй половине летнего триместра. В течении остального времени выбор был предоставлен родителям, ребенок мог посещать либо уроки по плаванию, либо по физкультуре.
+
+В этом году мы снова столкнулись с плохой посещаемостью уроков по плаванию в первой половине осеннего триместра. В результате дети и не плавали, и не приносили физкультурную форму. Передо мной как перед академическим директором в первую очередь стоят вопросы безопасности и присмотра за детьми. Даже при мистере Финче уроки по плаванию плохо посещались по причине болезни, плохой погоды или нежелания родителей отправлять детей в бассейн по медицинским показаниям.
+
+Было принято решение в этот раз приостановить уроки по плаванию на несколько недель раньше, для того чтобы дети занимались каким либо другим видом спорта. На протяжении прошлого месяца я переписывался с родителями, которые написали данное письмо, а также встретился с несколькими из них на днях, тогда я впервые и узнал об этом письме. Во время встречи я выразил сожаление о том, что уроки по плаванию пришлось приостановить раньше, чем планировалось.
+
+Для того чтобы гарантировать, что те родители которые хотят чтобы их дети продолжали плавать, был открыт дополнительный клуб после занятий, а также школьный бассейн начал функционировать по субботам. Но и в этом случае посещаемость оставалась низкой.
+
+Бассейн, который находится на территории здания детского сада недостаточно большой для учеников классов Year 2 - Year 6. Мы договорились с представителями спортивного комплекса Государственного Налогового Комитета Республики Узбекистан о проведении уроков по плаванию для старших учеников на территории комплекса.
+
+
+http://yp.uz/?companyId=17868
+
+
+Мы прошли через долгую процедуру сбора документов о соответствии бассейна нормам гигиены и безопасности и планируем начало занятий в январе 2014 года, но нам нужна ваша поддержка в посещении бассейна детьми. Данная тема поднималась в начале учебного года, когда я обсуждал с родителями отсутствие бассейна на территории нового кампуса. С тех пор ни один из родителей не обратился ко мне с вопросом о возобновлении уроков по плаванию.
+
+
+Внешкольные занятия (клубы) в следующем триместре: Спортивная программа
+
+Для того, чтобы увеличить возможности для занятий спортом с января месяца запускается спортивная программа, которая заменит существующий список внешкольных занятий (клубов)
+
+Здание детского сада
+
+У детей в старом здании клубы по-прежнему будут проходить по вторникам и средам, бассейн будет открыт 5 дней в неделю. В целях безопасности ученики разных классов будут плавать в разные дни. Данная опция будет доступна независимо от того есть ли уроки по плаванию в расписании.
+
+Здание школы
+
+
+Бассейн, который находится на территории здания детского сада недостаточно большой для учеников классов Year 2 - Year 6. Мы договорились с представителями спортивного комплекса Государственного Налогового Комитета Республики Узбекистан о проведении уроков по плаванию для старших учеников на территории комплекса.
+
+
+http://yp.uz/?companyId=17868
+
+
+Мы прошли через долгую процедуру сбора документов о соответствии бассейна нормам гигиены и безопасности и планируем начало занятий в январе 2014 года, но нам нужна ваша поддержка в посещении бассейна детьми. Данная тема поднималась в начале учебного года, когда я обсуждал с родителями отсутствие бассейна на территории нового кампуса. С тех пор ни один из родителей не обратился ко мне с вопросом о возобновлении уроков по плаванию.
+
+
+Также у учеников классов Year 2 – Year 6 будет возможность посещать клубы каждый день после занятий (включая футбол, баскетбол, таеквондо, боевые искусства и танцы, в дополнение к обычному набору клубов.
+
+
+В заключение хотел бы сказать, что если большинство родителей захочет, чтобы уроки по плаванию были заново введены в расписание, я буду рад это сделать, но посещение данных уроков будет обязательным в течении всего года для всех учеников, включая уроки по плаванию в спорткомплексе. Буду рад ответить на ваши вопросы если таковые возникнут.
+
+
+С наилучшими пожеланиями,
+
+
+Дэвид Киркхам
+
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>For system admin use only. Do not attempt to use the links in this email without support.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>BSKL Clubs Signup - Term Three 17/18</name>
+    <style>freeForm</style>
+    <subject>BSKL Sports Clubs Signup - Term Three</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

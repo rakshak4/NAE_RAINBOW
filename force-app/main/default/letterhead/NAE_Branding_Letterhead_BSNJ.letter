@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Letterhead xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <backgroundColor>#E3E1DC</backgroundColor>
+    <bodyColor>#FFFFFF</bodyColor>
+    <bottomLine>
+        <color>#E3E1DC</color>
+        <height>10</height>
+    </bottomLine>
+    <description>Created on 21st September 2018 to apply NAE branding. To be used in Mass Emails</description>
+    <footer>
+        <backgroundColor>#E3E1DC</backgroundColor>
+        <height>5</height>
+        <horizontalAlignment>Center</horizontalAlignment>
+        <verticalAlignment>Top</verticalAlignment>
+    </footer>
+    <header>
+        <backgroundColor>#FFFFFF</backgroundColor>
+        <height>100</height>
+        <horizontalAlignment>Left</horizontalAlignment>
+        <logo>Headers_and_Footers/NAE_Email_Header_BSNJ.png</logo>
+        <verticalAlignment>Top</verticalAlignment>
+    </header>
+    <middleLine>
+        <color>#E3E1DC</color>
+        <height>0</height>
+    </middleLine>
+    <name>NAE Branding Letterhead - BSNJ</name>
+    <topLine>
+        <color>#E3E1DC</color>
+        <height>0</height>
+    </topLine>
+</Letterhead>

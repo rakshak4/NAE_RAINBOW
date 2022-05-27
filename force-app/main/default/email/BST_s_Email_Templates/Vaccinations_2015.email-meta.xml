@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>vaccinations 2015</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Vaccinations 2015</name>
+    <style>freeForm</style>
+    <subject>Vaccinations 2015</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+Доводим до Вашего сведения, что нам поступило письмо от Мирзо-Улугбекского Районного Объединения Центральной Многопрофильной Поликлиники о “Плановой ревакцинации” (корь, свинка, краснуха), согласно которой дети должны получить вышеуказанные прививки (см. Письмо в Приложении).
+
+Данные прививки дети смогут получить в поликлинике по месту Вашего жительства или в Центре Вакцинаций.
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Sad News</name>
+    <style>freeForm</style>
+    <subject>Sad News</subject>
+    <textOnly>Dear All,
+I just wanted to inform you that Sian Andrews, previous head of ISM contacted me with some sad news.
+Louise Faragher, the former deputy head of ISM died last week. She has been battling cancer since she left ISM two years ago but tragically was unable to overcome it.
+I have not had the pleasure of meeting Louise though I know she was part of our community and made a significant contribution to it. 
+I am sure that she will be sadly missed.
+Paul SeedhouseHeadteacher
+The International School of Moscow
+Tel:  +7 (499) 922 44 00
+Fax: +7 (499) 922 44 00 Ext.4
+www.internationalschool.ru
+Part of The British Schools Group
+
+*Disclaimer:*
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

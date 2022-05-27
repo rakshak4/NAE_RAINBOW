@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in August 2014</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Trousers for Girls Krylatskaya</name>
+    <style>freeForm</style>
+    <subject>Trousers for Girls Y4 - Y11 Krylatskoe</subject>
+    <textOnly>The International School
+of Moscow
+Chartered By The British Schools Foundation
+
+
+Dear Parents,
+
+We are planning on placing the order for winter trousers for girls (Year 4-11) shortly but please note that their readiness will depend on the number of trousers ordered and most likely such order will be ready during the first 2 weeks of November. These clothing items are produced locally and therefore ordered individually. The design is similar to the existing boys&apos; trousers but adjusted to fit girls, you can see an example in the Uniform shop. The cost of one pair of trousers will be around 2000 rubles (TBC). If you are interested in purchasing them for your child please email Magomet Gamurziev at magomet.gamurziev@internationalschool.ru by Friday, September 12th, and indicate the student name, class, campus and number of pairs you would like to order (limited to 2 pairs per student). Thank you.
+
+
+
+Kind regards,
+
+
+
+Magomet Gamurziev
+Services / Resources Manager
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Parent Survey Reminder 2018</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Parent Survey Reminder 2018</name>
+    <style>freeForm</style>
+    <subject>Parent Survey Reminder 2018</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+There are 6 days before we close the annual Parent Satisfaction Survey. Your feedback is essential in creating the best learning environment for your child. We encourage you take the time to fill out the 15-minute survey. Your responses will inform us on how we can improve your child’s overall learning experience.
+
+Now accessible through a PC, MAC, tablet, iPad, or your smart phones, taking the survey should be easier than ever. All responses will be anonymous. The more parents we hear from, the more confident we can be that our action plans respond to your views.
+
+You can access the survey here.
+
+The last day to respond will be 18 March.
+
+Thank you again for your continued support and feedback. We look forward to hearing your responses.
+
+Kind regards,
+Administration.
+
+~
+Уважаемые родители!
+
+Всего 6 дней осталось до закрытия нашего ежегодного опроса среди родителей учащихся. Ваши отзывы очень важны для создания наилучших условий обучения ваших детей. Опрос займет не более 15 минут вашего времени. Ваши ответы подскажут нам, как мы можем улучшить качество обучения ваших детей.
+
+Вы сможете легко получить доступ к опросу через ПК, MAC, планшет, iPad или мобильный телефон. Все ответы будут анонимными. Чем больше родителей примут участие в опросе, тем более уверенными мы будем в том, что наши планы отвечают вашим ожиданиям.
+
+Вы можете получить доступ к опросу, пройдя по ссылке.
+
+Последний день участия в опросе - 18 марта.
+
+Благодарим Вас за постоянную поддержку и отзывы. Мы с нетерпением ждем ваших отзывов.
+
+С уважением,
+Администрация.
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

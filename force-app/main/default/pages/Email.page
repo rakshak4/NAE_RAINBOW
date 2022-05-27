@@ -1,0 +1,8 @@
+<apex:page >
+
+<script type="text/javascript">
+
+window.open('http://login.britishschools.co.uk','myWin','scrollbars=yes,width=980,height=480');
+</script>
+
+</apex:page>

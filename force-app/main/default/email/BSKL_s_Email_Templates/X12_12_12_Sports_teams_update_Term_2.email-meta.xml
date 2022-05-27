@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>12/12/12 Sports teams update - Term 2</name>
+    <style>freeForm</style>
+    <subject>Sports teams update - Term 2</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Group
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+We decided and displayed the students who made it into the school sports for next term today. It was a very long and difficult process to select students for 7 different teams next term. Class teachers have been informed of the information too. If your child has made one or both of the sports teams they must sign up for the ASA (please see below for days of clubs) on Friday when the registration form is sent out. The more the group of students play together the more of a team they will become, if you have conflicting commitments then please let me know asap. If your child is a reserve do not need to sign up for that ASA until informed by BSKL, if one of the team drops out then they may be invited to join a particular team at that time. Unfortunately process’s like this will lead to disappointment for some students but we have discussed with the students at the trials that not all  of them will be selected and it is important that they respond to disappointment in the correct way. We have encouraged students to use it as motivation to try even harder in the future. Please feel free to email myself for further feedback or have any problems.
+
+If your child has been selected for the football teams then I would strongly encourage them to enrol for the BSKL Saturday Football programme to hone their skills and receive further coaching.
+
+The registration link and list of students selected is below.
+
+BSKL Saturday Football Development Programme
+
+Registration Form
+
+BSKL Penang 2013 squad
+BSKL U13 Basketball
+U9 BSKL Football Teams
+U11 BSKL Football Teams
+
+Please feel free to email myself to give feedback or have any problems. Harrie.thomson@britishschool.edu.my
+
+Tuesday:
+Penang preparation ASA
+
+Thursday:
+U11 &amp; U9 Football boys and girls
+U13 Basketball boys and girls
+
+Kind regards,
+Harrie Thomson
+Head of Physical Education
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

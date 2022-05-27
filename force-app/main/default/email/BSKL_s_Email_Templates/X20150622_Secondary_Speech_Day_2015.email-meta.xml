@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20150622 Secondary Speech Day 2015</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20150622 Secondary Speech Day 2015</name>
+    <style>freeForm</style>
+    <subject>Invitation to Secondary Speech Day 2015</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please find attached your invitation for Secondary Speech Day. I am pleased to announce that this year&apos;s guest speaker is Mr Sam Yang. Sam is CEO of Kingdom Education and has already made quite an impression on a number of our Year 9 and 10 pupils - I am looking forward to welcoming him back to BSKL. He is heavily involved in the promotion and development of education, sport, and international exchange throughout Asia, the USA and the UK.
+
+Speech Day is the most important date in our calendar for celebrating the success of all of our pupils; I look forward to seeing you there. Please RSVP using the following link: RSVP form
+
+Invitation to Secondary Speech Day 2015
+
+
+Kind regards,
+Derek Mackey
+Head of Secondary
+
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+Kuala Lumpur - Sao Paulo - Manila - Moscow  - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

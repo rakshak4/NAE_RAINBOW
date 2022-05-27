@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Year 1 Sibling Applications for 2013-14 Academic Year</name>
+    <style>freeForm</style>
+    <subject>Year One Sibling Applications for 2013-14 Academic Year</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+
+
+As you know, we recently started accepting Foundation Stage (Nursery and Reception) sibling applications  from parents wishing to apply for their children to join older brothers and sisters at ISM for the 2013-14 Academic Year.
+
+
+
+We would like to inform you that, from this moment, we will also be accepting Year 1 sibling applications.
+
+
+
+All sibling applications from Nursery to Year 1 will be accepted up until the 11th March 2013. Applications should be completed using the online application form before this date. (www.internationalschool.ru).
+
+
+We can confirm that the assessments will take place on Saturday 23rd March 2013 between 9am and 12am, times to be confirmed.
+
+
+
+If you have any questions regarding this please feel free to contact the Admissions team.
+
+
+Best Regards,
+
+
+
+Admissions Team
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

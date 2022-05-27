@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Generic E-mail</name>
+    <style>freeForm</style>
+    <subject>King&apos;s Communication</subject>
+    <textOnly>The King&apos;s School
+of  Manila
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Wednesday 26th September 2012
+
+
+Dear Parents,
+
+
+For all of you that made it to the Family Fun Event on Saturday I am sure you will all agree a great time was had by all. A letter about our Fish &amp; Chips event on October 11th will be coming home shortly.
+
+
+Next week parents of Ducklings and Kingfishers will receive a ‘settling in’ report and the week after parents of Scarlet Macaws and Eagles will receive their ‘settling in’ report. This will inform you how your child has settled in socially and academically into their new class. Near the end of this term there will be a formal Parent Consultation meeting where your child&apos;s teacher will discuss with you how your child has moved on since this report and their achievements at the end of their first term.
+
+
+By having a &apos;settling in&apos; report after 6 weeks and then a 1-1 meeting with the class teacher and specialist teachers at the end of the first term, we feel you receive a thorough picture of how your child is doing and how we as a school in partnership with you as a parent can support your child&apos; progression.
+
+
+Mr Cove will be sending a letter home next week explaining that swimming will begin for Y1-6 children after half-term and will ask you for some written information on what previous swimming experience your child has had.
+
+
+Mrs Halliday has been amazed at how well her children are coping with full days and feels some of her children are ready to stay for ASAs after half term. A letter will come out explaining what is on offer and if you are interested please see Mrs Halliday to discuss if your child is ready.
+
+
+I am in the process of recruiting a suitable Chinese teacher to start our Mandarin programme after the Christmas holidays and I will be asking for feedback on what previous experience your child has had in speaking mandarin.
+
+
+As always if you have a question or concern please don’t wait for the Parent Consultations, we have an open door policy and you can make an appointment anytime with your child’s teacher.
+
+
+Regards,
+
+
+
+
+
+
+Janet Brock
+The King&apos;s School Manila
+World Class Education
+
+__________________________________________________________
+Member of The British School Group - Licensed by the  Ministry of Education of The Philippines</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

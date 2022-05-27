@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>IWC call for donations</name>
+    <style>freeForm</style>
+    <subject>IWC Call For Donations</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear Parents,
+
+The International Women&apos;s Club of Moscow is a not-for-profit organisation which exists to promote friendship and co-operation between women and men of all nationalities. The International Women’s Club Charities Group is the community service arm of the IWC and an integral part of it. Drawing on our diverse resources, broad reach and experience, they endeavor to provide both emergency care and long-term support for children in need and people under the poverty level. Their activities cover:
+
+
+Children in Care (supporting orphanages)
+Children in Families (supporting day care centers)
+Children in Medical Need (funding specialized medical supplies, equipment and therapies)
+Elderly and Destitute (nourishing the homeless, pensioners, needy families and the unemployed)
+
+The IWC will be collecting donations from ISM parents and staff this upcoming Friday (November 23). The IWC Donations Office collects any unwanted items (clothes, household items, cleaning materials, toys and games) and passes them on to the charity projects that we support. They can use anything and everything as long as it’s clean, in good condition and in full working order (except video tapes). They even take dried and canned food with shelf life and hotel toiletry kits! If you would like to donate anything you will be able to do so this Friday, November 23rd, between 3 and 4 pm in the canteen of the upper school campus. In case your children take the school bus you can pass a donation with the bus monitor. We are kindly asking you to ensure that it is of reasonable size (the bus capacity is limited) and is clearly labeled &quot;Donation for IWC&quot;.
+
+
+
+Whatever can not be allocated to the projects directly will be sold at our annual Winter Bazaar which is one of the biggest fund raising events in Moscow. The IWC Winter Bazaar 2012 will be held on Saturday 1 December 2012, from 10am to 4pm at the Radisson Slavyanskaya Hotel, Europa Square 2. All proceeds of the Winter Bazaar go to benefit our charity projects in Russia. All ISM families and staff are welcome to attend.
+
+
+For further information, please go to the website of the International Women`s Club of Moscow at: www.iwcmoscow.ru
+
+
+
+Kind regards,
+
+
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

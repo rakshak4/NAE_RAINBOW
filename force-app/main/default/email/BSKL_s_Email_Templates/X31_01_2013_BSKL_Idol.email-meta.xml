@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>31/01/2013 BSKL Idol</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>31/01/2013 BSKL Idol</name>
+    <style>freeForm</style>
+    <subject>BSKL Idol</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The count down for this years BSKL Idol is ticking fast. For your attention, here&apos;s a detailed list of information relevant to the unfolding of this event.
+
+•    The entry list for auditions will close Wednesday 6th February at midday.
+
+•    All backing tracks for auditions need to be received by the music department no later than Friday 8th February midday. The format should be mp3 only, and may be attached as an email or passed on a thumb drive. No CD&apos;s, Ipods, MP3 players or other audio formats should be sent or passed to the music department.
+
+•    If your childs audition has any specific requirements, please notify the music department no later than Friday 8th February midday
+
+•    Auditions for BSKL Idol will commence Friday 15th February in the music room. Children do not need to dress up these auditions.
+
+•    BSKL Idol Final is Friday 22nd February @ 9am in the school gym.  10 x finalists will be selected for this event. Parents of finalists will be invited to attend this competition.
+
+Regards,
+Alex Douglas
+Head of Instrumental Music
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

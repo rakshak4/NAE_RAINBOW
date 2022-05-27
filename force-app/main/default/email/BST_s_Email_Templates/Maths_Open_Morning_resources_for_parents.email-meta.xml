@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Math resources for parents.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Maths Open Morning - resources for parents</name>
+    <style>freeForm</style>
+    <subject>Math Open Morning - resources for parents.</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Thank you for attending our Maths Open Morning; we trust that it was enjoyable and that you learned a great deal about how to support your child.
+
+The materials that you can use to support your child can be found by clicking here.
+
+These are organised into folders for Foundation Stage (Pre-Nursery-Reception, ages 2-5) and a folder for Primary (Year 1-5, ages 5-10) there is also a document explaining what all of the materials are.
+
+Thank you for your interest in supporting your child&apos;s learning in Mathematics!
+
+Kind regards,
+
+The BST Teaching Team
+
+
+Уважаемые родители,
+
+Благодарим вас за то, что вы нашли время и посетили открытый урок по математике. Надеемся, что вы узнали много нового о том, как именно вы можете помогать ребенку с выполнением домашних заданий.
+
+Материалы, которые могут быть использованы для работы с детьми дома, могут быть найдены здесь .
+
+Материалы разделены на две папки Foundation Stage (для дошкольного отделения: классы Pre-Nursery - Reception) и Primary (школьное отделение Year 1- Year 5). Также имеется документ объясняющий, что содержится в папках.
+
+Спасибо за интерес проявленный к обучению ваших детей!
+
+С уважением,
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

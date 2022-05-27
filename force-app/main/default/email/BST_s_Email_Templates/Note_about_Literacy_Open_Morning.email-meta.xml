@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Note about Literacy Open Morning</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Note about Literacy Open Morning</name>
+    <style>freeForm</style>
+    <subject>Literacy Open Morning in BST</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+An ‘Open Morning’ with a focus on Literacy will take place at the British School of Tashkent on Thursday, April 11th . Foundation Stage parents can visit a lesson from 8.40 am to 9.50am, Primary Stage parents may visit between 8.40am and 10.20am.
+
+We will open the event with a presentation that will cover subjects such as how you can support your child&apos;s Literacy at home. It will be a wonderful opportunity for BST parents to visit classes and be involved in lessons. Join us and learn how Literacy is taught in British schools. We look forward to seeing you there!
+
+Following the event there will be materials available on our website for parents to download and use to support their child&apos;s learning at home.
+
+11 апреля в Британской школе Ташкента  состоится открытый урок по английскому языку. Родители учеников дошкольной  ступени приглашаются с 8.40 до 9.50, родители учеников начальной школы  с 8.40 до 10.20.
+
+
+Мероприятие будет открыто презентацией, на которой мы вам раскажем, как помогать детям выполнять домашнюю работу. Для Вас это будет прекрасная возможность своими глазами увидеть, как обучаются дети, а также поучаствовать в уроке.  Приходите пожалуйста и вы увидите, как обучают английскому языку в британских школах.  С нетерпением ждем встречи с Вами!
+
+
+
+
+
+
+Regards,
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

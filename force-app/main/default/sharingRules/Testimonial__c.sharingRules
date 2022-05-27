@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>BCB_Share_Staff_Testimonials_with_Head_Head_of_Admin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BCB Share Staff Testimonials with Head &amp; Head of Admin</label>
+        <sharedTo>
+            <role>BCB_Head_of_Administration</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The British College of Brazil</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Staff Testimonial,Staff Testimonial Translation</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BCB_Share_Testimonials_with_Admissions_Head_of_School_Head_of_Admin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BCB Share Testimonials with Admissions, Head of School &amp; Head of Admin</label>
+        <sharedTo>
+            <role>BCB_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The British College of Brazil</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Parent Testimonial,Parent Testimonial Translation</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSKL_Share_Staff_Testimonials_with_Head_Head_of_Admin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSKL Share Staff Testimonials with Head &amp; Head of Admin</label>
+        <sharedTo>
+            <role>BSKL_Head_of_Administration</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Kuala Lumpur</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Staff Testimonial,Staff Testimonial Translation</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSKL_Share_Testimonials_with_Admissions_Head_of_School_Head_of_Admin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSKL Share Testimonials with Admissions, Head of School &amp; Head of Admin</label>
+        <sharedTo>
+            <role>BSKL_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The British International School of Kuala Lumpur</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Parent Testimonial,Parent Testimonial Translation</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSNJ_Share_Staff_Testimonials_with_Head_Head_of_Admin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSNJ Share Staff Testimonials with Head &amp; Head of Admin</label>
+        <sharedTo>
+            <role>BSNJ_Head_of_Administration</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The British School of Nanjing</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Staff Testimonial,Staff Testimonial Translation</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSNJ_Share_Testimonials_with_Admissions_Head_of_School_Head_of_Admin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSNJ Share Testimonials with Admissions, Head of School &amp; Head of Admin</label>
+        <sharedTo>
+            <role>BSNJ_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The British School of Nanjing</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Parent Testimonial,Parent Testimonial Translation</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BST_Share_Staff_Testimonials_with_Head_Head_of_Admin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BST Share Staff Testimonials with Head &amp; Head of Admin</label>
+        <sharedTo>
+            <role>BST_Head_of_Administration</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The British School of Tashkent</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Staff Testimonial,Staff Testimonial Translation</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BST_Share_Testimonials_with_Admissions_Head_of_School_Head_of_Admin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BST Share Testimonials with Admissions, Head of School &amp; Head of Admin</label>
+        <sharedTo>
+            <role>BST_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The British School of Tashkent</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Parent Testimonial,Parent Testimonial Translation</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSY_Share_Staff_Testimonials_with_Head_Head_of_Admin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSY Share Staff Testimonials with Head &amp; Head of Admin</label>
+        <sharedTo>
+            <role>BSY_Head_of_Administration</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The British School Yangon</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Staff Testimonial,Staff Testimonial Translation</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSY_Share_Testimonials_with_Admissions_Head_of_School_Head_of_Admin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSY Share Testimonials with Admissions, Head of School &amp; Head of Admin</label>
+        <sharedTo>
+            <role>BSY_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The British School Yangon</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Parent Testimonial,Parent Testimonial Translation</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>ISM_Share_Staff_Testimonials_with_Head_Head_of_Admin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>ISM Share Staff Testimonials with Head &amp; Head of Admin</label>
+        <sharedTo>
+            <role>ISM_Head_of_Administration</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The International School of Moscow</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Staff Testimonial,Staff Testimonial Translation</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>ISM_Share_Testimonials_with_Admissions_Head_of_School_Head_of_Admin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>ISM Share Testimonials with Admissions, Head of School &amp; Head of Admin</label>
+        <sharedTo>
+            <role>ISM_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>The International School of Moscow</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Parent Testimonial,Parent Testimonial Translation</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>NAISM_Share_Staff_Testimonials_with_Head_Head_of_Admin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>NAISM Share Staff Testimonials with Head &amp; Head of Admin</label>
+        <sharedTo>
+            <role>NAISM_Head_of_Administration</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>Nord Anglia International School Manila</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Staff Testimonial,Staff Testimonial Translation</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>NAISM_Share_Testimonials_with_Admissions_Head_of_School_Head_of_Admin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>NAISM Share Testimonials with Admissions, Head of School &amp; Head of Admin</label>
+        <sharedTo>
+            <role>NAISM_Record_Owner_Students_Parents_Contacts_Enquiries</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>Nord Anglia International School Manila</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Parent Testimonial,Parent Testimonial Translation</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_NAE_Testimonials_with_NAE_Users</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share NAE Testimonials with NAE Users</label>
+        <sharedTo>
+            <group>NAE_Group_Marketing</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>School_Text__c</field>
+            <operation>equals</operation>
+            <value>Nord Anglia International School Manila,The British College of Brazil,The British International School of Kuala Lumpur,The British School Yangon,The British School of Nanjing,The British School of Tashkent,The International School of Moscow</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>08/01/2013 Year 9 Activities Week Letter</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>08/01/2013 Year 9 Activities Week Letter</name>
+    <style>freeForm</style>
+    <subject>Year 9 Activities Week Letter</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+A very happy new year to you all and I hope your son/daughter had a wonderful break.
+
+I am writing to you about our Year 9 activities week that will take place this year in Chiang Mai, Northern Thailand, from Monday 26 May to Friday 30 May 2014 inclusive. We are working with the same company as we did for our fantastic and very successful trip to Tioman last year, and together we have chosen an itinerary that we feel is both exciting, rewarding and adventurous, including offering new activities from last year. I will be visiting Chiang Mai to do a full risk assessment prior to the trip, just as I did last year for Tioman.
+
+Activities week is an excellent opportunity for students to work together, learn new things, see new cultures, and embark on adventures they wouldn&apos;t necessarily have the opportunity to do so. They work on their team building skills, take part in lots of activities, and most importantly, they have a huge amount of fun! It was so successful last year, that most students wanted to stay even longer - I have every faith that this year&apos;s trip will be equally as successful.
+
+The deadline for signing up for the trip is Friday 24th January and requires a RM700 deposit. This is to allow us to get the flights booked as soon as possible, otherwise the price may be affected.
+
+Please see attached the letter I sent to every student, in case of misplacement.
+
+Year 9 Activities Week Letter
+https://school.my.salesforce.com/sfc/p/D0000000DDpn/a/D00000004SWx/crEOciU6jEtRVwHalXSvoCxOWRzU7DMmXNHhoYWSS2s=
+
+If you have any queries about the trip, please do not hesitate to contact me, or your son/daughter&apos;s tutor.
+
+Kind regards
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

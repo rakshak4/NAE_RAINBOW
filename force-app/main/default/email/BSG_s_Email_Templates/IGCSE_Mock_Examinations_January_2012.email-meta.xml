@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>IGCSE Mock Examinations January 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>IGCSE Mock Examinations January 2012</name>
+    <style>none</style>
+    <subject>IGCSE Mock Examinations January 2012</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

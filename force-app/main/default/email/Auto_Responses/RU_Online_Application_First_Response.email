@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 500px; ">
+			<tbody>
+				<img border="0" id="m_3308685547825015245r1sp1" src="https://ci6.googleusercontent.com/proxy/67dXnVocysCsXlJug8sCwjBn53jHY6vok7ArlGUgs6iyEW02S5lmjGnO2wFvRa8wDolQRwuNpB8ZtRQ8DJ6xCSAcsylyglo6hKkrKdXXbJylHPQ1hCaOBcGGhBiWL5qWYSWwjpyjE4ENzbEgIN7XEqzPgw=s0-d-e1-ft#https://ap4.salesforce.com/servlet/servlet.ImageServer?id=0156F00000F05db&amp;oid=00D6F000001cXAR" class="CToWUd">
+				<tr>
+					<td>
+						<p>
+							&nbsp;</p>
+						<p style="text-align: justify; ">
+							&nbsp;</p>
+						<p style="text-align: justify; ">
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; ">Уважаемый {!Lead.Salutation_for_Auto_Response_RU__c}{!Lead.Primary_Contact_Name_for_Auto_Response__c},</span></span></p>
+						<p style="text-align: justify; ">
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; ">Благодарим  Вас за интерес к нашей школе и подтверждаем получение  Вашего заявления о поступлении в школу.</span></span></p>
+						<p style="text-align: justify; ">
+							<span style="font-family: 'Verdana'; font-size: 12px; ">Один из членов нашей приёмной комиссии свяжется с Вами через два рабочих дня, чтобы обсудить дальнейший процесс поступления.  Если у вас есть какие-либо вопросы или вы не получили от нас никаких сообщений, пожалуйста, без колебаний свяжитесь с нами.&nbsp;</span></p>
+						<p style="text-align: justify; ">
+							<span style="font-family: 'Verdana'; font-size: 12px; ">Подавая своё заявление, Вы тем самым соглашаетесь с условиями, указанными на нашем вебсайте. Подробную информацию об этом вы найдёте в прилагаемой к этому письму Декларации.</span></p></span></p>
+						<p style="text-align: justify; ">
+							<span style="font-family: 'Verdana'; font-size: 12px; ">Мы предлагаем вам начать собирать документы, которые должны быть предоставлены при приёме в школу.</span></p>
+						<p style="margin-left: 26pt; text-align: left; ">
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; ">1.Копия подписанной Декларации. (<a href="{!Lead.00ND000000657f9}"><strong>Кликните сюда для загрузки</strong></a>)</span></span><br />
+							<span style="font-family: 'Verdana'; font-size: 12px; ">2. Копия паспорта или другого удостверяющего личность родителя документа</span><br />
+							<span style="font-family: 'Verdana'; font-size: 12px; ">3. Копия паспорта или свидетельство о рождении ребенка дети</span><br />
+							<span style="font-family: 'Verdana'; font-size: 12px; ">4.Копии учебных табелей из посещаемой в данный момент школы (если имеются)</span><br />
+							<span style="font-family: 'Verdana'; font-size: 12px; ">5. Оплата за собеседование</span></p>
+						<p style="text-align: justify; ">
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; ">Если вы не можете лично принести документы, перешлите отсканированные копии  нам по интернету.</span></span></p>
+						<p style="text-align: justify; ">
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; ">Благодприм вас за доверие, которое вы нам оказали и надеемся скоро увидеть вас в нашей школе.</span></span></p>
+						<p style="text-align: justify; ">
+							&nbsp;</p>
+						<div style="font-family: 'Verdana'; font-size: 12pt; ">
+							<span style="font-size:12px;"><span style="font-family: 'Verdana'; "><b>Приёмная комиссия</b></span></span><br />
+							<b style="font-family: 'Verdana'; font-size: 12px; ">{!Lead.School__c}</b><br />
+							&nbsp;</div>
+						<p>
+							&nbsp;</p>
+						<p>
+							&nbsp;</p>
+						<p>
+							&nbsp;</p>
+					</td>
+				</tr>
+				<tr bgcolor="a0dae5">
+					<td>
+						&nbsp;</td>
+				</tr>
+				<tr bgcolor="003255">
+					<td>
+						&nbsp;</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			&nbsp;</p>
+	</body>
+</html>

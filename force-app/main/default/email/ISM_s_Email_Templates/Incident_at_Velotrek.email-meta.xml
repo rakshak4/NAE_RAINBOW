@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Incident at Velotrek</name>
+    <style>freeForm</style>
+    <subject>Incident at Velotrek - No Water</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+Dear Parents,
+
+There has been a situation at Velotrek which will cause the water supply in the surrounding area to be cut off during the weekend. We are not sure if it will be back on by Monday. We will send out an email on Sunday evening by 6pm (earlier if possible) to confirm if Upper Campus will be open or not on Monday, 9th June.
+
+Lower Campus will operate as usual.
+
+Regards,
+
+
+Admissions Team
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Weekly Update 3rd July, 2013</name>
+    <style>freeForm</style>
+    <subject>Weekly Update 3rd July, 2013</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+
+A very short final update of the year!
+
+
+Confirmation of address for Speech Day
+
+
+
+As there are three Marriot hotels in town, I thought it might be worth clarifying the correct address of our venue for Speech Day:
+
+
+Moscow Marriott Grand Hotel
+
+
+
+26/1 Tverskaya Street · Moscow, 125009 Russian Federation
+
+
+I look forward to seeing you at 6pm on Thursday (Upper Campus Students) and 10am on Friday (Lower Campus Students)
+
+
+
+Office hours
+
+
+Please note that the administration offices will be closed on Thursday after 2 pm and on Friday after 12. If you require any last-minute assistance please contact the Front desk in advance. From Monday, July 8th the office will be open from 9 am till 5 pm, Monday – Friday.
+
+
+
+ISI Inspection announcement
+
+
+
+Next year we reach another important stage in our school development. In October we will be hosting an Independent School Inspection (ISI) team who will be evaluating and reporting upon our performance.
+
+
+
+We have chosen to go through the inspection process with ISI due to their superb reputation and experience in evaluating the performance of top independent schools in the UK.
+
+
+
+I look forward to sharing more information about this challenge in September after we have returned to school.
+
+
+
+Class Lists for 2013-14
+
+
+
+Class lists have now been confirmed and will be released on Thursday via email. Information on new teachers will be collated and added to our website over the summer under the staffing section. This will enable students to know a little about their teachers before the start of the new academic year.
+
+
+
+Publications on the way
+
+
+
+Please note that new editions of our Parent Student Handbooks and 2013-14 Yearbook will be available in the first week of school.
+
+The final Newsletter of the year will be online from the end of this week.
+
+
+
+Thank You
+
+
+
+I wanted to take this opportunity to say thank you for all of your support this year. I sincerely hope that you have a wonderful holiday and enjoy some much deserved time with the family.
+
+
+
+For those of you leaving Moscow- safe travels and we wish you every success in the future. Please do let us know how you fare. To those returning in August, I look forward to seeing you again very soon.
+
+
+Paul Seedhouse
+
+Headmaster
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

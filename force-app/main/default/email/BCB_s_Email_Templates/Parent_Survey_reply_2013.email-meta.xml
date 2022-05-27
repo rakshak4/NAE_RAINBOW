@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Parent survey reply 2013</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Parent Survey reply 2013</name>
+    <style>freeForm</style>
+    <subject>BCB Announcement</subject>
+    <textOnly>Dear Parents,
+ 
+Further to the survey we conducted at the end of the last academic year I’m happy to attach a presentation of the results and a letter from the Foundation Chairman.
+ 
+Kind regards,
+ 
+Stuart Young
+Headmaster
+The British College of Brazil</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

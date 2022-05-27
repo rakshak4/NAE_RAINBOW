@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Secondary Residential Trip in June</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Secondary Residential Trip in June</name>
+    <style>freeForm</style>
+    <subject>Secondary Residential Trip in June</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+
+Today a very important letter containing vital residential information has gone out via pupils.  Please check the passport information used for your son/daughter is correct and that their visa is within date to avoid any complications at the airport.  I also encourage you to use the 2013 Residential VLE page to check all the itineraries, kit lists and flight details for each trip.  To log In to the VLE go to the following WEB page https://www.itslearning.com/?CustomerId=1896&amp;Username=&amp;RedirectLogin=bsgvle.itslearning.com, and input the user as parent.residential and password as Bsgresidential. Once you are logged in click on the blue courses tab on the left hand side.  You will now be able to pick Residentials 2013 and view the dashboard and access each year groups folder.
+
+There is also a waiver form that needs to be completed and signed by you
+
+and then returned to me by 31/05/13.
+
+If you believe their are any mistakes with the passport information or
+
+you have any other questions then please contact me asap by email
+
+nicola.welch@bsg.org.cn.
+
+
+Kind Regards,
+
+Ms.Nicola Welch
+
+Residential coordinator
+
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

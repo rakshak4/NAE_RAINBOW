@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>ISM</letterhead>
+    <name>School Bus Service 2012-13</name>
+    <style>freeForm</style>
+    <subject>School Bus Service 2012-13</subject>
+    <textOnly>Dear Parents,
+
+Please be informed that the office will be closed on Friday, June 29, as administration team will be attending the Speech day. In case you have any inquiries or need any assistance you will be able to contact the office on Monday, July 2, during the usual working hours.
+
+School Bus Service
+
+We will start to design the bus schedule for the next academic year over the summer and would like to ask you to confirm your intention to use the School bus from August 27.
+
+If you would like to join or continue with our bus service, please email the following information to bus@internationalschool.ru:
+
+- the names of your children and their year groups
+- your current address
+- contact phone number for the bus monitor
+- when are you planning to start using the school bus (August 27 or later)
+
+In case you were using the School bus this year but are not planning to continue with the service, please send us an email to confirm your intention to discontinue the use of bus service.
+
+If you have never used the School bus and are not planning on doing so, please ignore this email.
+
+I would appreciate if you could send all the information required for adding you to the bus list to bus@internationalschool.ru by no later than August 10. If we receive your request after August 10 there might be a delay in adding you to the bus schedule and you would not be able to start using the bus service until September 3.
+
+Please do not hesitate to contact me if you have any questions.
+
+Thank you in advance and I wish you all a wonderful summer!
+
+Kind regards,
+
+Olga Tenisheva
+
+Bus Coordinator
+
+The International School of Moscow
+
+
+Tel: +7 (499) 922 44 00
+
+Tel: +7 (916) 995 51 10</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

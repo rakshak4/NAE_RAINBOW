@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Summer Bulletin</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Summer Bulletin</name>
+    <style>freeForm</style>
+    <subject>Summer Bulletin</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Group
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+This will be the final weekly bulletin and I would like to take the opportunity to say farewell to those students and staff that are leaving us. It is always sad to have to say goodbye to friends and the whole community will feel this. I would like to thank all those students and staff and to recognise their contribution towards making BSG the school that it is.
+
+The longest serving leaver in secondary is Dr. Moore. When he joined the school 4 years ago the “secondary” school consisted of year 7+8 students alone. I know that he has gained great personal and professional satisfaction from seeing the school grow as it has and I would like to take this opportunity to thank him for overseeing this development.
+
+I have thoroughly enjoyed the year that has packed in so many highlights. We have seen our first cohort of Year 11 IGCSE students through and are looking forward to seeing many of them again as they start their A levels. I have been fortunate enough to see our school production and hear a number of superb choir and musical performances. We have enjoyed much sporting success in the inaugural Pearl River Delta Conference and the Houses have battled it out in sports competitions (if not the ill-fated swimming gala). Students have visited Cambodia and various Chinese venues for their residentials. We have had Latin Fest, Photographic shows, raised money for Action Aid, the Thai Floods and other charitable concerns.
+
+I would like to end by wishing all our families a happy and restful holiday. School starts back on Monday, August 20th 2012 when we will welcome back new and old students in our upgraded facilities. It will be a pleasure to teach in our brand new secondary wing, see the Football and Touch Rugby teams play on the new, large Astroturf pitch and our swimmers in the new pool. In addition, we have been lucky enough to recruit some excellent staff, many of whom have A level experience and will I look particularly look forward to entering this phase of secondary development.
+
+Again, Happy holidays!
+
+Mr Iain Ruck
+
+The British School of Guangzhou
+World Class Education
+_________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

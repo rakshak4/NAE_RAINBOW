@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Oman Update 14th June</name>
+    <style>freeForm</style>
+    <subject>Oman Update 14th June with correction</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+We have just received news from Mrs. Hamilton and the Oman residential group.
+
+&quot;The children did great on the mountain challenge and are just about to head to the pool for some very well deserved relaxation. We are heading into Muscat in a couple of hours for some sight seeing and a visit to a typical souk&quot;.
+
+The children will arrive in Moscow tomorrow at 11pm.
+
+Best regards,
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

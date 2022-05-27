@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Automatic Email sent to the relevant people to notify them that a student is starting school imminently, or has already started school, so that they can ensure they have a complete timetable, are added to the relevant external databases (GL, Target Tracker etc)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Grp/Adm Email for Academic Preparation</name>
+    <style>freeForm</style>
+    <subject>{!Opportunity.School_Acronym__c} New Starter Notification {!Opportunity.Campus_Text__c} - {!Opportunity.Kompanion_Full_Name__c}</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

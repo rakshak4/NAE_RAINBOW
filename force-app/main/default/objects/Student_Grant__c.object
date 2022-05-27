@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Annual_Grant_Amount_del__c</fullName>
+        <externalId>false</externalId>
+        <label>Annual Grant Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Bus_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Approx. Bus Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Bus_Granted__c</fullName>
+        <externalId>false</externalId>
+        <label>% Bus Granted</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Child_Order__c</fullName>
+        <externalId>false</externalId>
+        <label>Child Order</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Decision__c</fullName>
+        <externalId>false</externalId>
+        <formula>Grant_Application__r.Decision_Formula__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Decision</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Deletion_Prevention__c</fullName>
+        <externalId>false</externalId>
+        <formula>Student_Stage__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Deletion Prevention</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>End_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Grant_Application__r.End_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Enrolment_Fee_Amounts__c</fullName>
+        <externalId>false</externalId>
+        <label>Approx. Enrolment Fee Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Enrolment_Fees__c</fullName>
+        <externalId>false</externalId>
+        <label>% Enrolment Fees</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>External_ID_18_Char__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>The ID of the record in the alternate SFDC org, where applicable.</description>
+        <externalId>true</externalId>
+        <label>External ID (18 Char)</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>FTE_Value__c</fullName>
+        <externalId>false</externalId>
+        <formula>Student__r.FTE_Value_Last_Week__c * Tuition_Reduction__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>FTE Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Grant_Application__c</fullName>
+        <externalId>false</externalId>
+        <label>Grant Application</label>
+        <referenceTo>Grant_Application__c</referenceTo>
+        <relationshipLabel>Student Financial Aid Details</relationshipLabel>
+        <relationshipName>Grant_Approvals</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Grant_Start_Date_for_KPIs__c</fullName>
+        <description>This will return the 01/08 of the academic year in which the financial aid started/starts if the start year of the financial aid is before or after the current one. Otherwise, if the start year is this academic year, it will calculate the grant start date according to the start term provided.</description>
+        <externalId>false</externalId>
+        <formula>IF(
+   OR(
+      VALUE(LEFT(Grant_Application__r.Start_Year__c, 4)) &lt; YEAR(Student__r.Related_School__r.First_Day_of_This_Fiscal_Year__c),
+      VALUE(LEFT(Grant_Application__r.Start_Year__c, 4)) &gt; YEAR(Student__r.Related_School__r.First_Day_of_This_Fiscal_Year__c)
+      ),
+   DATE(VALUE(LEFT(Grant_Application__r.Start_Year__c, 4)),08,01),
+   CASE(
+        Grant_Application__r.Start_Term__c,
+        &quot;January&quot;, DATE(VALUE(LEFT(Grant_Application__r.Start_Year__c, 4))+1, 01,01),
+        &quot;February&quot;, DATE(VALUE(LEFT(Grant_Application__r.Start_Year__c, 4))+1, 02,01),
+        &quot;March&quot;, DATE(VALUE(LEFT(Grant_Application__r.Start_Year__c, 4))+1, 03,01),
+        &quot;April&quot;, DATE(VALUE(LEFT(Grant_Application__r.Start_Year__c, 4))+1, 04,01),
+        &quot;May&quot;, DATE(VALUE(LEFT(Grant_Application__r.Start_Year__c, 4))+1, 05,01),
+        &quot;June&quot;, DATE(VALUE(LEFT(Grant_Application__r.Start_Year__c, 4))+1, 06,01),
+        &quot;July&quot;, DATE(VALUE(LEFT(Grant_Application__r.Start_Year__c, 4))+1, 07,01),
+        &quot;August&quot;, DATE(VALUE(LEFT(Grant_Application__r.Start_Year__c, 4)), 08,01),
+        &quot;September&quot;, DATE(VALUE(LEFT(Grant_Application__r.Start_Year__c, 4)), 09,01),
+        &quot;October&quot;, DATE(VALUE(LEFT(Grant_Application__r.Start_Year__c, 4)), 10,01),
+        &quot;November&quot;, DATE(VALUE(LEFT(Grant_Application__r.Start_Year__c, 4)), 11,01),
+        &quot;December&quot;, DATE(VALUE(LEFT(Grant_Application__r.Start_Year__c, 4)), 12,01),
+        &quot;Term 1&quot;, Student__r.Related_School__r.Start_Date_T1_TY__c,
+        &quot;Term 2&quot;, Student__r.Related_School__r.Start_Date_T2_TY__c,
+        &quot;Term 3&quot;, Student__r.Related_School__r.Start_Date_T3_TY__c,
+        null
+        )
+   )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Grant Start Date (for KPIs)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Invoicing_Notifications_Email__c</fullName>
+        <defaultValue>&quot;invoicing-notifications&quot;&amp;$User.Email_Domain_Extension__c</defaultValue>
+        <externalId>false</externalId>
+        <label>Invoicing Notifications Email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lunch_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Approx. Lunch Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Lunch_Granted__c</fullName>
+        <externalId>false</externalId>
+        <label>% Lunch Granted</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Nationality__c</fullName>
+        <externalId>false</externalId>
+        <formula>Text( Student__r.Nationality__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Nationality</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Other_Benefits__c</fullName>
+        <externalId>false</externalId>
+        <label>Other Benefits</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>School__c</fullName>
+        <externalId>false</externalId>
+        <formula>Grant_Application__r.School__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>School</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Student_Attending_School__c</fullName>
+        <description>Used as a filter in reports</description>
+        <externalId>false</externalId>
+        <formula>TEXT(Student__r.Add_to_Register__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Student Attending School?</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Student_Full_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Student__r.Student_Surname__c &amp;&quot;, &quot;&amp; Student__r.Student_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Student Full Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Student_Stage__c</fullName>
+        <description>Used as a filter in reports</description>
+        <externalId>false</externalId>
+        <formula>TEXT(Student__r.StageName)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Student Stage</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Student__c</fullName>
+        <externalId>false</externalId>
+        <label>Student</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipName>Grant_Approvals</relationshipName>
+        <relationshipOrder>1</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Total_Annual_Grant_Amount__c</fullName>
+        <externalId>false</externalId>
+        <formula>Tuition_Amount__c + Bus_Amount__c + Lunch_Amount__c+ Enrolment_Fee_Amounts__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Annual Grant Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Tuition_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Approx. Tuition Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Tuition_Reduction__c</fullName>
+        <externalId>false</externalId>
+        <label>% Tuition Granted</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Tuition_Student_Equivalent__c</fullName>
+        <externalId>false</externalId>
+        <formula>Tuition_Reduction__c * 1000000</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tuition Student Equivalent</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Student Financial Aid Detail</label>
+    <nameField>
+        <displayFormat>A-{0000}</displayFormat>
+        <label>Financial Aid Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Student Financial Aid Details</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Ensure_Accounts_Match</fullName>
+        <active>true</active>
+        <errorConditionFormula>Grant_Application__r.Parent_Record__r.Id != Student__r.AccountId</errorConditionFormula>
+        <errorMessage>A student financial aid application record can only link to a master financial aid application record for the same family. Please suggest an alternate financial aid application or student.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Prevent_Changes_After_Approved</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+    School__c != &quot;The New York International School&quot;,
+    $Profile.Name != &quot;System Administrator&quot;,
+    Grant_Application__r.Record_is_Locked__c = TRUE,
+    OR(
+       ISNEW(),
+       ISCHANGED(Tuition_Reduction__c),
+       ISCHANGED(Lunch_Granted__c),
+       ISCHANGED(Bus_Granted__c),
+       ISCHANGED(Enrolment_Fees__c),
+       ISCHANGED(CurrencyIsoCode),
+       ISCHANGED(Other_Benefits__c)
+       )
+       /*
+       ,
+    OR(
+       PRIORVALUE(Tuition_Reduction__c) != &quot;&quot;,
+       PRIORVALUE(Lunch_Granted__c) != &quot;&quot;,
+       PRIORVALUE(Bus_Granted__c) != &quot;&quot;,
+       PRIORVALUE(Enrolment_Fees__c) != &quot;&quot;,
+       PRIORVALUE(Other_Benefits__c) != &quot;&quot;
+       )*/
+    )</errorConditionFormula>
+        <errorMessage>You cannot change the percentages granted, currency, or other benefits when the financial aid is already approved, nor can you add a new student financial aid application to an approved financial aid record.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Prevent_Changes_After_Approved_NY</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+    School__c = &quot;The New York International School&quot;,
+    $Profile.Name != &quot;System Administrator&quot;,
+    Grant_Application__r.Record_is_Locked__c = TRUE,
+    OR(
+       ISNEW(),
+       ISCHANGED(Tuition_Amount__c),
+       ISCHANGED(Lunch_Amount__c),
+       ISCHANGED(Bus_Amount__c),
+       ISCHANGED(Enrolment_Fee_Amounts__c),
+       ISCHANGED(CurrencyIsoCode),
+       ISCHANGED(Tuition_Reduction__c),
+       ISCHANGED(Lunch_Granted__c),
+       ISCHANGED(Bus_Granted__c),
+       ISCHANGED(Enrolment_Fees__c),
+       ISCHANGED(Other_Benefits__c)
+       )
+    )</errorConditionFormula>
+        <errorMessage>You cannot change the amount granted, currency, or other benefits when the financial aid is already approved, nor can you add a new student financial aid application to an approved financial aid record.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

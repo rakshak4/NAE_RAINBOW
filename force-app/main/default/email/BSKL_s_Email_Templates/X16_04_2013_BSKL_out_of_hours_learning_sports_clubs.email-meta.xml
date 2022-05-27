@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>16/04/2013 BSKL out of hours learning sports clubs</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>16/04/2013 BSKL out of hours learning sports clubs</name>
+    <style>freeForm</style>
+    <subject>BSKL out of hours learning sports clubs</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Part of The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Thank you for your support last term with regards to our out of school hours sports clubs. Please take note the following sports clubs will be running again this term: Football, Rugby, Basketball and Gymnastics. The clubs are open to BSKL students and run for 8 weeks. Please click on the link below for further information on how to register, times &amp; dates, contact information and cost. The clubs will all begin next week on the stated dates and times.
+
+Football (there are very limited places and all of last terms students are automatically enrolled unless they have informed Mr Thomson)
+( https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004QTT/j7h.hm79fMDyG3uOV1auVQqaOLq18UL8z7RLehDJApc= )
+
+Rugby (again, limited places available)
+( https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004QTJ/mIEpgcIiDlBQlPYxRsz0N0K9HKl2eWSyEK.c0Vd3zW4= )
+
+Basketball
+( https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004QTO/3hdBdNT7CGyyFJ8j7HTYvmcv.Xr5L6qoRSX6CbjJBEQ= )
+
+Gymnastics
+( https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004QTY/KDAZWyOzeeJ6qZ9t81bO12jrehxBNMZ5svqH7DjWS.I= )
+
+Kind regards,
+
+Harrie Thomson
+Head of Physical Education
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

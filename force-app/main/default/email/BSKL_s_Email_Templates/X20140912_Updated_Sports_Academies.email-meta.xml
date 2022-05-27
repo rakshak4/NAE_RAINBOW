@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20140912 - Updated Sports Academies</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>20140912 - Updated Sports Academies</name>
+    <style>freeForm</style>
+    <subject>Updated Sports Academies</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}
+
+We would like to inform you that we now offer a Gymnastics Academy for Primary students while Basketball and Netball Academies are now also offered to Secondary students. Please click on the below links for further information regarding dates, times, costs and registration links.
+
+Gymnastics (https://drive.google.com/file/d/0B57vMviVDx-xQ3ZseVVQTGdwcmRNeDZkdjR0ampSeFQ1c2pF/edit?usp=sharing)
+
+Basketball (https://drive.google.com/file/d/0B57vMviVDx-xQlBlcjZyTFdSYUU/edit?usp=sharing)
+
+Netball (https://drive.google.com/file/d/0B57vMviVDx-xdFpwT0J5UzlNZXM/edit?usp=sharing)
+
+
+Kind regards,
+
+Harrie Thomson
+Director of Physical Education and Sport
+British International School Kuala Lumpur
+World Class Education
+
+_________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

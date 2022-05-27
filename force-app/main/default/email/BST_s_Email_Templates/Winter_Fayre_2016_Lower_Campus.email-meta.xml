@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Winter Fayre 2016 - Lower Campus</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Winter Fayre 2016 - Lower Campus</name>
+    <style>freeForm</style>
+    <subject>Winter Fayre 2016 - Lower Campus</subject>
+    <textOnly>{!Contact.SchoolText__c}
+Chartered By The British Schools Foundation
+
+
+
+Dear {!Contact.Salutation} {!Contact.LastName},
+
+The Winter Fayre takes place on Upper Campus from 9.30am – 11.30am on Friday 16th December. You are welcome to attend the Winter Fayre with your child and it is going to be a fantastic event. Children should arrive with their parents at 9.30am and children are not expected in school before this time.
+
+If you are unable to attend, a member of staff will be on the front gate to show unsupervised children to the classroom where they will be based. They can be collected from the same class at 11.30am. (Throughout the morning, children will visit the Fayre and will have the chance to visit all the stalls.) If you are sending money in with your child, please can it be clearly labeled in an envelope and given to the class teacher.
+
+Thank you to all the parents who have contributed to the Winter Fayre. We hope you all have a safe and relaxing holiday.
+
+Kind regards,
+
+Matt Walker
+Head of Primary
+
+~
+
+Уважаемые родители!
+
+Напоминаем Вам о том, что Зимняя ярмарка будет проходить в здании школы (Upper Campus) в пятницу 16 декабря с 9:30 до 11:30 утра. Сердечно приглашаем Вас и Ваших детей принять участие в этом захватывающем мероприятии. Обещаем, что будет очень интересно и весело! Просим Вас приезжать в школу не ранее 9.30 утра.
+
+Если Вы не сможете принять участие в празднике, при входе в школу Вашего ребёнка встретит сотрудник и проводит его/её в класс, где будут собраны дети, пришедшие без сопровождения взрослого. По окончании праздника в 11:30 Вы сможете забрать своего ребёнка с этого же класса. (В течение первой половины дня, дети посетят Зимнюю ярмарку и примут участие в различных конкурсах и мероприятиях.) Если Вы планируете дать деньги на карманные расходы Вашему ребёнку, пожалуйста, положите их в подписанный конверт и передайте классному руководителю учащегося.
+
+Хотим сердечно поблагодарить всех родителей, принимающих участие в организации ярмарки! Желаем Вам отличных предновогодних праздников!
+
+
+С уважением,
+
+Мэтт Волкер
+Завуч начальной школы.
+
+{!Contact.SchoolText__c}
+World Class Education
+
+__________________________________________________________
+{!User.School_List_Email_Footer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

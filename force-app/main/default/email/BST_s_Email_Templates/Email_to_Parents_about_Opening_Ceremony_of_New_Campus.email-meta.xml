@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Invitation to parents to opening ceremony of upper campus</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Email to Parents about Opening Ceremony of New Campus</name>
+    <style>freeForm</style>
+    <subject>Opening Ceremony of the New Building on Thursday 14th November</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+The British School of Tashkent cordially invites you to the Opening ceremony of the new building.
+
+The Opening ceremony will take place on Thursday 14th November at 11 am at the Primary campus.
+
+Looking forward to see you all!
+
+
+
+
+Уважаемые родители,
+
+Британская школа в Ташкенте приглашает вас на официальную церемонию открытия нового здания.
+
+Церемония открытия пройдет в четверг, 14 ноября в 11 часов утра на территории нового кампуса школы.
+
+С нетерпением ждем встречи с вами!
+
+
+
+
+Regards,
+
+Administration Team
+
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

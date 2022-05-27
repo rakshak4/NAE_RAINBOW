@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Year 8 &amp; 9 Residential email</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Year 8 &amp; 9 Residential email</name>
+    <style>freeForm</style>
+    <subject>Year 8 and 9 Residential</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>License Plate Numbers</name>
+    <style>freeForm</style>
+    <subject>License Plate Numbers</subject>
+    <textOnly>Dear Parents,
+Following suggestions and recommendations from our parents we are working on improving the security system at ISM. As a part of this process we are creating a database of the license plate numbers of the vehicles that visit the school regularly. 
+Could you please be kind enough to email us the license plate number of the car(s) that normally bring(s) your children to the school or any other vehicles that visit the school regularly. This measure will help us to monitor and enhance the security at ISM. 
+This information needs to be emailed to Ekaterina Foster atekaterina.foster@internationalschool.ru
+Thank you in advance for your cooperation. 
+Best Regards
+Dino Vikas
+Head of Admissions 
+The International School of Moscow
+Tel:  +7 (499) 922 44 00
+Fax: +7 (499) 922 44 00 Ext.4 
+www.internationalschool.ru
+Part of The British Schools Group
+
+*Disclaimer:*
+This message (including any attachments) contains confidential information intended for a specific individual and purpose, and is protected by law. If you are not the intended recipient, you should delete this message and are hereby notified that any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

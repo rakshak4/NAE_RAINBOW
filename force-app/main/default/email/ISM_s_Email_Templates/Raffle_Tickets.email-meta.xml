@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Email Template setup in June 2012</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Unclaimed Raffle Prizes</name>
+    <style>freeForm</style>
+    <subject>Unclaimed Raffle Prizes</subject>
+    <textOnly>The International School
+of Moscow
+Part of The British Schools Group
+
+
+
+Dear Parents,
+
+It seems like a few of you were not able to open the link. Please try this link (click here) to find the list of the unclaimed prizes and their winning ticket numbers. If you are the lucky owner of a winning ticket please go to the Lower Campus front desk. Please do not forget to take the actual ticket to claim the prize!
+
+If you have any questions please do not hesitate to contact the admissions office or Ekaterina Rudkovskaya at info@internationalschool.ru.
+
+Regards,
+
+The International School of Moscow
+World Class Education
+
+__________________________________________________________
+Member of The British School Group- University of Cambridge Examination Centre  - Affiliate Member of the Conference of British International Schools - Licensed by the Russian Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

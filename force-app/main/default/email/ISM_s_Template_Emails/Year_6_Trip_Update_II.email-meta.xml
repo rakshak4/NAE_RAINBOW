@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>Year 6 Trip Update II</name>
+    <style>freeForm</style>
+    <subject>Year 6 Trip Update II</subject>
+    <textOnly>Dear Parents,
+
+Incredibly, if you have ever visited Wales, the sun has continued to shine
+
+on our Year 6 students.
+
+
+Having spent the day in Cardiff yesterday enjoying a boat trip and
+
+visiting the open air history museum, they have today been to the ground
+
+of premiership football team Swansea City. See attached photograph!
+
+
+The Staff and students send their love!</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

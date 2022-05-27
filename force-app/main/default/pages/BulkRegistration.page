@@ -1,0 +1,236 @@
+<!--
+    Author: Kunal Sharma
+    Created Date: 06 Feb 2013
+    Description: VF page for bulk student registration process. 
+    Audit Date:
+    Audited By: 
+    
+    COMMENTS:
+    
+
+--> 
+<apex:page id="bulkregistration" standardController="Group__c" extensions="BulkRegistration_Controller" showHeader="false" sidebar="false">
+
+<script>
+    function openAddStudents(){
+        window.open('{!$Page.AddRegistrations}?id={!grp.Id}','','width=1000,height=800,scrollbars=yes');
+        return false;
+    }
+    
+</script>  
+<apex:form id="mainformRegistration">
+    
+    <apex:pageMessages id="message" escape="false"/>
+    
+    
+    <apex:pageBlock mode="detail" id="mainblock">
+        <apex:pageBlockButtons id="buttons">   
+            <apex:actionStatus startText=" (updating registrations ...)" stopText="" id="saveStatus">
+                <apex:facet name="stop">
+                    <apex:commandButton id="save" value="Save" action="{!saveRegistrations}" reRender="mainformRegistration" status="saveStatus"/>        
+                </apex:facet>
+                <apex:facet name="start">
+                    <apex:commandButton value="Updating Registrations..." disabled="true"/>     
+                </apex:facet>
+            </apex:actionStatus>
+            
+            
+            <apex:commandButton value="Add Students" onClick="openAddStudents();return false;"/>
+            <apex:actionStatus startText=" (filtering registrations ...)" stopText="" id="filterStatus"/>
+            <apex:actionStatus startText=" (sorting registrations ...)" stopText="" id="sortingStatus"/>
+        </apex:pageBlockButtons>
+          
+        <!--   
+        <table class="table_default" id="navigation" cellpadding="2px" cellspacing="10px">
+            <tr>
+                <td align="left">
+                    <div class="paginator" style="text-align:left;">
+                       <span class="prevNextLinks">
+                                <span class="prevNext">
+                                    <apex:commandLink immediate="true" action="{!showActive}" reRender="mainformRegistration" status="sortingStatus"> 
+                                        <span style="{!IF(showActive,'font-weight: bold;text-decoration : underline;','')}">Active</span> 
+                                    </apex:commandLink>
+                                </span>
+                                
+                                <span class="prevNext">
+                                    <apex:commandLink immediate="true" action="{!showInActive}" reRender="mainformRegistration" status="sortingStatus">
+                                        <span style="{!IF(!showActive,'font-weight: bold;text-decoration : underline;','')}">In-Active</span>
+                                    </apex:commandLink>
+                                </span>
+                        </span>
+                    </div>
+                </td>
+                
+            </tr>
+        </table>
+         -->    
+         <apex:outputPanel layout="block" >
+            <apex:commandLink id="activelink" immediate="true" action="{!showActive}" reRender="mainformRegistration" status="sortingStatus"> 
+                                        <span style="{!IF(showActive,'font-weight: bold;text-decoration : underline;','')}">Active</span> 
+                                    </apex:commandLink>
+            &nbsp;&nbsp;
+             <apex:commandLink immediate="true" action="{!showInActive}" reRender="mainformRegistration" status="sortingStatus">
+                                        <span style="{!IF(!showActive,'font-weight: bold;text-decoration : underline;','')}">Not-Active</span>
+                                    </apex:commandLink>
+                                    
+         </apex:outputPanel>
+          <BR/>
+        
+        
+          <apex:pageBlockTable value="{!existingRegistrations}" var="registration" id="theTable" >
+        
+                <apex:column >
+                    <apex:facet name="header">
+                        <apex:commandLink action="{!sortByField}" immediate="true" reRender="mainformRegistration" status="sortingStatus" value="{!$ObjectType.Registration__c.Fields.Active__c.Label}">
+                            <apex:param name="field" value="Active__c"/>
+                        </apex:commandLink>
+                    </apex:facet>           
+                    <apex:inputField value="{!registration.Active__c}"/>
+                </apex:column>
+                
+                <apex:column >     
+                    <apex:facet name="header">
+                        <apex:commandLink action="{!sortByField}" immediate="true" reRender="mainformRegistration" status="sortingStatus" value="{!$ObjectType.Registration__c.Fields.Student__c.Label}">
+                                <apex:param name="field" value="Student__r.Student_Name__c"/>
+                        </apex:commandLink>
+                    </apex:facet>           
+                    <apex:outputLink target="_blank" value="/{!registration.Student__c}">{!registration.Student__r.Student_Name__c}</apex:outputLink>
+                </apex:column>
+                
+                <apex:column >     
+                    <apex:facet name="header">
+                        <apex:commandLink action="{!sortByField}" immediate="true" reRender="mainformRegistration" status="sortingStatus" value="Student#">
+                                <apex:param name="field" value="Student__r.Student_Number__c"/>
+                        </apex:commandLink>
+                    </apex:facet>           
+                    <apex:outputField value="{!registration.Student__r.Student_Number__c}"/>
+                </apex:column>
+                
+                <apex:column >     
+                    <apex:facet name="header">
+                        <apex:commandLink action="{!sortByField}" immediate="true" reRender="mainformRegistration" status="sortingStatus" value="DOB">
+                                <apex:param name="field" value="Student__r.Date_of_Birth__c"/>
+                        </apex:commandLink>
+                    </apex:facet>           
+                    <apex:outputField value="{!registration.Student__r.Date_of_Birth__c}"/>
+                </apex:column>
+                
+                <apex:column >     
+                    <apex:facet name="header">
+                        <apex:commandLink action="{!sortByField}" immediate="true" reRender="mainformRegistration" status="sortingStatus" value="Gender">
+                                <apex:param name="field" value="Student__r.Gender_Student__c"/>
+                        </apex:commandLink>
+                    </apex:facet>           
+                    <apex:outputField value="{!registration.Student__r.Gender_Student__c}"/>
+                </apex:column>
+                
+                <apex:column >
+                     <apex:facet name="header">
+                        <apex:commandLink action="{!sortByField}" immediate="true" reRender="mainformRegistration" status="sortingStatus" value="{!$ObjectType.Contact.Fields.Nationality__c.Label}">
+                            <apex:param name="field" value="Student__r.Nationality__c"/>
+                        </apex:commandLink>
+                     </apex:facet>                  
+                    <apex:outputField value="{!registration.Student__r.Nationality__c}"/>
+                </apex:column>
+                
+                <apex:column >
+                     <apex:facet name="header">
+                        <apex:commandLink action="{!sortByField}" immediate="true" reRender="mainformRegistration" status="sortingStatus" value="Admin Class">
+                            <apex:param name="field" value="Student__r.Class_Name__c"/>
+                        </apex:commandLink>
+                     </apex:facet>                  
+                    <apex:outputField value="{!registration.Student__r.Class_Name__c}"/>
+                </apex:column>
+                
+                <apex:column >     
+                    <apex:facet name="header">
+                        <apex:commandLink action="{!sortByField}" immediate="true" reRender="mainformRegistration" status="sortingStatus" value="Half Day?">
+                                <apex:param name="field" value="Student__r.Half_Day__c"/>
+                        </apex:commandLink>
+                    </apex:facet>           
+                    <apex:outputField value="{!registration.Student__r.Half_Day__c}"/>
+                </apex:column>
+                
+                <apex:column >
+                    <apex:facet name="header">
+                        <apex:commandLink action="{!sortByField}" immediate="true" reRender="mainformRegistration" status="sortingStatus" value="{!$ObjectType.Registration__c.Fields.House__c.Label}">
+                            <apex:param name="field" value="House__c"/>
+                        </apex:commandLink>
+                     </apex:facet>              
+                    <apex:outputField value="{!registration.House__c}"/>
+                </apex:column>
+                
+                <apex:column >
+                     <apex:facet name="header">
+                        <apex:commandLink action="{!sortByField}" immediate="true" reRender="mainformRegistration" status="sortingStatus" value="Starting Date">
+                            <apex:param name="field" value="Student__r.Starting_Date_from_student__c"/>
+                        </apex:commandLink>
+                     </apex:facet>                  
+                    <apex:outputField value="{!registration.Student__r.Starting_Date_from_student__c}"/>
+                </apex:column>
+                
+                
+                <apex:column >
+                    <apex:facet name="header">
+                        <apex:commandLink action="{!sortByField}" immediate="true" reRender="mainformRegistration" status="sortingStatus" value="{!$ObjectType.Registration__c.Fields.EAL__c.Label}">
+                            <apex:param name="field" value="EAL__c"/>
+                        </apex:commandLink>
+                     </apex:facet>          
+                    <apex:outputField value="{!registration.EAL__c}"/>
+                </apex:column>
+                
+                                <apex:column >
+                    <apex:facet name="header">
+                        <apex:commandLink action="{!sortByField}" immediate="true" reRender="mainformRegistration" status="sortingStatus" value="Bus">
+                            <apex:param name="field" value="Bus_Service__c"/>
+                        </apex:commandLink>
+                     </apex:facet>          
+                    <apex:inputField value="{!registration.Bus_Service__c}"/>
+                </apex:column>
+
+                
+                <apex:column >
+                    <apex:facet name="header">
+                        <apex:commandLink action="{!sortByField}" immediate="true" reRender="mainformRegistration" status="sortingStatus" value="{!$ObjectType.Registration__c.Fields.Medical_Special_Needs__c.Label}">
+                            <apex:param name="field" value="Medical_Special_Needs__c"/>
+                        </apex:commandLink>
+                     </apex:facet>              
+                    <apex:inputField value="{!registration.Medical_Special_Needs__c}"/>
+                </apex:column>
+                
+            </apex:pageBlockTable> 
+            <apex:outputPanel layout="block">
+                <br/>
+                <div class="paginator">
+                    <span class="prevNextLinks">  
+                        
+                        <span class="prevNext">
+                            <apex:commandLink action="{!first}">
+                            <img src="/s.gif" class="firstoff" alt="First Page"/>
+                            </apex:commandLink>
+                        </span>
+                        
+                        <span class="prevNext"><apex:commandLink action="{!previous}" rendered="{!hasPrevious}"><img src="/s.gif" class="prevoff" alt="Previous"/>Previous</apex:commandLink></span>
+                        
+                        <span class="prevNext"><apex:commandLink action="{!next}" rendered="{!hasNext}">Next<img src="/s.gif" class="nextoff" alt="Next"/></apex:commandLink></span>
+                        
+                        <span class="prevNext"><apex:commandLink action="{!last}"><img src="/s.gif" class="lastoff" alt="Last Page"/></apex:commandLink></span>
+                        
+                        
+                    </span>
+                    
+                    <span class="right">
+                    Page
+                    <apex:selectList id="yearselection" value="{!pageNum}" multiselect="false" size="1">
+                         <apex:selectOptions value="{!pageOptions}"/>
+                    </apex:selectList>
+                    <!-- <apex:inputText value="{!pageNum}" styleclass="pageInput" maxlength="4"/>  -->
+                    of {!totalPages}<apex:commandButton value="Go" action="{!setPageNumber}"/>
+                    </span>
+                </div>
+            </apex:outputPanel>
+    </apex:pageBlock> 
+    
+</apex:form>
+
+</apex:page>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>6/12/2013 Auditions for Primary Chinese New Year Assembly</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>6/12/2013 Auditions for Primary Chinese New Year Assembly</name>
+    <style>freeForm</style>
+    <subject>Auditions for Primary Chinese New Year Assembly</subject>
+    <textOnly>British International School
+Kuala Lumpur
+Chartered By The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Please click on the link below to read a message from the Head of Primary Chinese:
+
+Auditions for Primary Chinese New Year Assembly (https://eu1.salesforce.com/sfc/p/D0000000DDpn/a/D00000004SLp/6lPraZydU4GOSlg8lbcqMt9zBCByUIiC_fGB8UFy0Wo=)
+
+
+Kind regards
+
+Administration Team
+The British International School of Kuala Lumpur
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona - Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Aladdin production</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Aladdin Production</name>
+    <style>freeForm</style>
+    <subject>Aladdin Production</subject>
+    <textOnly>The British School
+of Guangzhou
+Part of The British Schools Foundation
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Tonight is our Y2-3 production of Aladdin, please remember the following:
+
+*All Y2-3 students will remain in school at the end of the day today, eat dinner here and perform in the show at 6.30pm.
+
+*All Y2-3 students must be collected by a known adult, from their classrooms, at 7.45pm tonight.
+
+Tomorrow night is our Y4-6 production of Aladdin, please remember the following:
+
+*All Y4-6 students will remain in school at the end of the day on Thursday, eat dinner here and perform in the show at 6.30pm.
+
+*All Y4-6 students must be collected by a known adult, from their classrooms, at 7.45pm tomorrow night.
+
+We look forward to performing for you in our 2013 Primary production of Aladdin!
+
+Kind regards,
+
+Jude Schroeder
+Production Director
+The British School of Guangzhou
+World Class Education
+
+_________________________________________________________
+Member of The British Schools Foundation- University of Cambridge Examination Centre - Member of The Federation of British International School of South East Asia - Member of the Conference of British International Schools - Licensed by the Chinese Ministry of Education</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email sent to contact of a Design Job asking them to review record</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Design Job Nudge Contact</name>
+    <style>freeForm</style>
+    <subject>Design Job - {!Design_Job__c.Name}</subject>
+    <textOnly>The British School
+Group
+System Message
+
+
+Dear {!Design_Job__c.Contact_Person__c}
+
+Ashley has requested you review the link below, for an update on the Design Job: {!Design_Job__c.Name}
+
+{!Design_Job__c.Link}
+
+
+
+__________________________________________________________
+Beijing - Moscow- Kuala Lumpur -Sao Paulo - Manila - Guangzhou - Nanjing - Tashkent - Marbella - Pamplona</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

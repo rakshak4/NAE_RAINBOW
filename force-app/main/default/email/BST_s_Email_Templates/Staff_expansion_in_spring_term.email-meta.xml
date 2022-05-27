@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Letter to parents about staff expansion in spring term</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Staff expansion in spring term</name>
+    <style>freeForm</style>
+    <subject>Staff expansion in spring term</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+As the end of the year approaches we would like to wish Year 2 Comet Teacher, Miss Hilola Davlyatova all of our best wishes as she leaves to prepare for the birth of her new baby. her final day will be the last day of the term (December 20th) but she will be back in August ready for the start of the academic term 2014-15. Miss Mahksuda Raimjanova will take over the role of class teacher, working with Miss Abigail from the beginning of January. We are really excited at the prospect of Miss Mahksuda continuing the high standards of teaching and learning for the children already established. Parents of Year 2 Comet will be able to meet Miss Mahksuda at the upcoming parent consultations.
+
+Due to the continuing success and growing reputation for academic excellence the British School of Tashkent has brought forward its planned recruitment and expansion plans. I am delighted to announce our new expat academic staff who will begin working with us at the beginning of January.
+
+Naomi Aves (Teacher of Music)
+BA (Hons) Music, PGCE Music specialism
+Joins us after successfully establishing a successful Music Department in her last international school. Her interests are music, theology, art and dance. She enjoys researching areas of interest, and likes to travel, explore and participate in art and culture. She joined the Durham Gamelan Orchestra whilst studying in the UK. She enjoys taking the initiative to set things up an, taking a leading role. She is passionate about teaching and helping other, in particular using creativity to stimulate and encourage children. She is excited about coming to Uzbekistan and working with us.
+Ameila (Amy) Godden (Year 5 Teacher) Upper Campus
+Post Graduate Diploma in Education, Primary Specialism
+Amy joins us from an international school in Oman. With over 9 years of teaching children in an international context. Originally from Canada, Amy completed her teaching qualifications in Glasgow, UK. Amy has a broad range of international experience from working in Turkey, Russia, Japan and South Korea and is looking forward to establishing herself into the role of Year 5 teacher here at the school. She is very passionate about her work and enjoys teaching and helping children understand new concepts and ideas. She will be working closely with Mr. Palcic as we split his combined class into two pure stream classes, taking us up to the full primary range of year groups.
+Adil Khan (UK Teaching Assistant/ ESL teacher) Upper Campus
+Adil joins us from Equador, where he is currently working as a teacher of English language to children. Originally from Lancashire, in the UK, Adil spent time working as an ESL/ Teaching Assistant at The British School of Beijing. There he supported all aspects of the classroom and the class teacher in delivering the English National Curriculum. He had additional responsibilities for aiding the learning of non-English speaking students. He has also led a range of exciting After School Activities.
+We have also been able to welcome the following local staff to help further enhance the children’s learning, Miss Marina who is currently working in Year 2 and will replace Miss Yana when she leaves to have her baby in March. Miss Dilnosa has come in to work as a floating TA on the lower campus to support when needed and Miss Galya is currently supporting Pre Nursery classes.
+In addition to the new staff we will also introduce this coming January, our new Primary Sports Program replacing our existing ASA’s, A new Online Mathematics support website for parents to access with their children at home for Reception – Year 6 aged children,  our iPad program for Years 5 and 6 will start as we start to integrate ICT into the children’s everyday learning and finally but not least, Uzbek language and History classes for the children on the Upper Campus. More details to follow.
+
+We feel that the new year will be an exciting one.
+
+David Kirkham,
+Headmaster
+
+Уважаемые родители,
+Так как конец года все ближе и ближе, мы хотели бы выразить преподавателю класса Year 2Comet, мисс Хилоле Давлятовой, все наши наилучшие пожелания, в связи с тем, что она уходит в декретный отпуск.  20 декабря 2013 года - будет ее последним рабочим днём в этом году, но она вернется в августе к началу нового учебного года. Мисс Максуда Раимжанова возьмет на себя роль классного руководителя и начнет работать с мисс Абигейл с начала января. Мы очень рады кандидатуре Мисс Максуды, и надеемся, что она и впредь будет поддерживать высокие стандарты преподавания. Родители учеников класса Year 2 Comet смогут встретиться с мисс Максудой на предстоящих родительских консультациях.
+В связи с продолжающимся успехом и растущей репутацией академических стандартов, Британская школа в Ташкенте продолжает кадровое расширение. Я рад объявить о наших новых академических сотрудниках, которые начнут работать с нами в начале января.
+Наоми Эйвс (Преподаватель музыки)
+Бакалавр по музыке (с отличием), Магистр по преподаванию музыки
+Присоединяется к нам после успешного создания музыкального отдела в другой международной школе. Ее круг интересов составляют: музыка, теология, искусство и танцы. Она любит познавать все новое, а так же любит путешествовать, исследовать и принимать участие в мероприятиях по искусству и культуре. Наоми присоединилась к оркестру Durham Gamelan во время учебы в Великобритании. Она любит брать на себя инициативу и ведущую роль. Наоми полностью погружается в процесс преподавания и помощи окружающим, а так же   использует свой   творческий потенциал для стимулирования и поощрения детей. Она с нетерпением ожидает приезда в Узбекистан и начала работы с нами.
+Эмейла (Эми) Годден (Преподаватель Year 5) Верхний Кампус
+Диплом магистра в области образования, Специализация по начальной школе
+Эми присоединяется к нам после международной школе в Омане. Она имеет более чем 9 –летний опыт обучения детей в международном контексте. Будучи родом из Канады, Эми получила квалификацию учителя в Глазго, Великобритании. Эми имеет богатый международный опыт работы в Турции, России, Японии, Южной Кореи и с нетерпением ждет момента, когда сможет выступить в роли преподавателя Year 5. Она очень предана своей работе и наслаждается процессом обучения и помощи детям в процессе познания новых концепций и идей. Она будет работать в тесном сотрудничестве с господином Пальзиком, так как мы делим комбинированный класс на две отдельные группы. Благодаря этому в школе будет полный набор возрастных групп начальной школы.
+Адиль Хан (Ассистент Преподавателя / Преподаватель английского как иностранного) Верхний Кампус
+Адиль присоединяется к нам из Эквадора, где в настоящее время он работает в качестве преподавателя английского языка для детей. Родом из Ланкашира, Великобритания, Адиль провел время, работая в качестве английского как иностранного языка / Ассистента Преподавателя в Британской школе, в Пекине. Там он поддерживает все аспекты класса и классного руководителя по английской Национальной Программе. Так же в его дополнительные обязанности входила помощь в обучении неанглоязычным студентам. Также Адиль провел ряд успешных внешкольных мероприятий.
+Мы также приветствуем нижеперечисленный местный персонал, который присоединился к школе. Мисс Марина, которая в настоящее время работает в Year 2 и заменит мисс Яну, которая уйдет в марте в декрет. Мисс Дильноза принята на работу в качестве “переходящего” ассистента преподавателя в старом кампусе, а мисс Галя в настоящее время помогает учителям классов Pre Nursery.
+В дополнение к информации о новых  сотрудниках, мы также представим в январе следующего года  нашу новую  Программу Спорта вместо существующих клубов, новый веб-сайт по математике будет доступен родителям. Его можно будет использовать со своими детьми дома для учеников классов Reception – Year 6, а так же  программу  Ipad для учениковYear 5-6 которая начнется, как только мы начнем интегрировать информатику в повседневное обучение и, наконец, что не менее важно , узбекский язык и историю - для учеников  Нового кампуса. Детали последуют вскоре.
+Надеемся, что Новый год будет перспективным!
+
+Дэвид Киркхам
+Академический директор.
+
+
+
+Regards,
+
+
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Letter to parents about quiz night</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>Quiz Night</name>
+    <style>freeForm</style>
+    <subject>Quiz Night</subject>
+    <textOnly>The British School
+of Tashkent
+Part of The British Schools Group
+
+
+
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Dear parents and friends of the school, On Friday, May 17 at 19:00 the British School of Tashkent invites you to Quiz night. The starting time is 7 p.m. We would like to open the evening with a dinner and drinks, tables will be located at the &quot;12 chairs&quot; yard. Around 8 p.m. we will start the quiz. We are planning to group everybody in teams with around 10 team players in each. To give you the opportunity to get to know each other better and to run all rounds of the quiz smoothly we will ensure that every team will have a member of school staff, an English and Russian speaking player. All questions will be asked in English and Russian languages and answers can be provided in both languages as well. This is the reason why we are asking you to buy tickets before May, 14th, as it will give us enough time to arrange a proper mixture of players for each team.
+
+The quiz will consist of several rounds. It will include:
+- General knowledge round
+- Sports round
+- Food and drinks round
+
+The quiz will finish around 10 p.m. After this, everybody is invited to spend some time on the dance floor! The winning team will get small prizes from school. Hope to see you all at our Quiz night!
+
+Дорогие родители и друзья школы, В пятницу, 17 мая 2013 в 19:00 года Британская школа в Ташкенте приглашает Вас на викторину. Начало мероприятия в 7 часов вечера. Мы бы хотели начать вечер с ужина и напитков, которые будут сервированы во дворике ресторана &quot;12 стульев&quot;. Викторина начнется около 8 часов вечера. Мы планируем разбить гостей на команды, в каждой команде будет около 10 человек. Для того, чтобы дать вам возможность пообщаться поближе, а также ответить на максимально большее количество вопросов состав каждой команды будет включать в себя как англоговорящих, так и русскоговорящих игроков. Все вопросы будут задаваться на двух языках и ответы могут быть предоставлены также на любом из двух языков. Мы просим вас приобрести билеты до 14 мая, так как нам будет необходимо время для того, чтобы составить список команд.
+
+Викторина будет включать в себя несколько туров, таких как:
+· Вопросы общего характера
+· Спорт
+· Еда и напитки
+
+Викторина закончится около 22.00 после чего все гости приглашаются потанцевать. Игроки победившей команды получат небольшие призы. Будем рады увидеть вас на нашей викторине!
+
+
+
+
+
+
+
+
+
+
+
+
+Regards,
+
+
+
+
+Administration Team
+The British School of Tashkent
+World Class Education
+
+__________________________________________________________
+Beijing - Kuala Lumpur - Sao Paulo - Manila - Moscow - Guangzhou - Nanjing - Tashkent - Pamplona -Marbella</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

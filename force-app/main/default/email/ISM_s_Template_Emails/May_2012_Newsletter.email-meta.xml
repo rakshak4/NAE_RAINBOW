@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Empty</letterhead>
+    <name>May, 2012 Newsletter</name>
+    <style>freeForm</style>
+    <subject>May, 2012 Newsletter</subject>
+    <textOnly>Dear Parents,
+
+Please find below the link to the Summer Newsletter, full of educational, fun and exciting news!
+
+http://www.internationalschool.ru/info/Quicklinks/Newsletters/en/
+
+Enjoy the sunshine!
+
+Admissions Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

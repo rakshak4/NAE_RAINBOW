@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Andy - Secondary Sport - 17th August</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NAE_Branding_Letterhead_BSY</letterhead>
+    <name>Andy - Secondary Sport 17th August</name>
+    <style>freeForm</style>
+    <subject>Secondary Sport 2019 - 2020</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

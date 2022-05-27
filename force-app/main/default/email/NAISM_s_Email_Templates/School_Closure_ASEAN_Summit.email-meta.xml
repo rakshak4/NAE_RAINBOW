@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>School Closure - ASEAN Summit</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Master</letterhead>
+    <name>School Closure - ASEAN Summit</name>
+    <style>freeForm</style>
+    <subject>Eid al-Fitr School Closure Wednesday 6th July</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
